@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "blockchain",
+    "name": "Blockchain",
+    "summary": "Mitandao inayorekodi na kulinda miamala",
+    "blurb": "Daftari zilizoshirikiwa kwa makubaliano-safu ya makazi kila kitu kingine kinakaa. Kila makala inajumuisha maelezo kamili, mambo muhimu na vidokezo.",
+    "items": [
+      {
+        "id": "bitcoin",
+        "title": "Bitcoin",
+        "summary": "Mtandao wa kwanza wa pesa za kielektroniki kutoka kwa wenzao na sheria zisizobadilika za utoaji",
+        "intro": "Bitcoin inaonyesha jinsi thamani inaweza kuhamia kwenye mtandao bila benki kama mwamuzi. Seti ya kimataifa ya nodi hushiriki leja moja inayolindwa na kriptografia na motisha. Kwa wanaoanza, funguo, UTXO, na sheria za utoaji ni muhimu zaidi kuliko chati za bei za muda mfupi.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Wapatanishi wanaoaminika wanaweza kufungia akaunti, kuzuia malipo au kushindwa katika matatizo. Bitcoin inachukua nafasi ya ruhusa ya kitaasisi na uthibitishaji wa umma: mtu yeyote anaweza kuangalia historia, wakati kuiandika upya imeundwa kuwa ghali sana. \nKitabu cha mwanzo kilipachika hata kichwa cha habari cha gazeti kuhusu uokoaji wa benki—ishara ya kimakusudi kuhusu sheria za fedha katika kanuni."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Unasaini muamala unaotumia bidhaa ambazo hazijatumika (UTXOs) kwa anwani mpya. Wachimbaji madini hushindana kupitia uthibitisho wa kazi ili kuambatanisha vizuizi na kupata zawadi. \nNusu hupunguza usambazaji mpya kwa wakati; ugumu hurekebisha ili vizuizi zisalie kuwa sawa. Uthibitisho zaidi unamaanisha hatari ya chini ya reorg."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "funguo za kibinafsi udhibiti sawa; anwani zinaweza kuwa za umma. Ada ni soko la nafasi ya kuzuia. Maandishi ya Bitcoin yana mipaka kimakusudi, kwa hivyo inafanya kazi zaidi kama malipo na uhaba wa dijiti kuliko jukwaa la jumla la programu."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Tete si hitilafu ya itifaki. Sarafu kwenye ubadilishaji ni IOUs hadi itakapotolewa. Hadaa, usaidizi bandia na uhamishaji wa mtandao usio sahihi husababisha hasara ya kudumu—fanya mazoezi na kiasi kidogo kwanza."
+          }
+        ],
+        "keyPoints": [
+          "Bitcoin ni mtandao wa malipo unaoweza kuthibitishwa na umma, si tokeni ya kampuni.",
+          "Sheria za utoaji ikijumuisha upunguzaji wa nusu zinatekelezwa na itifaki na motisha.",
+          "UTXO + saini hufafanua uhamisho; funguo zilizopotea inamaanisha pesa zilizopotea.",
+          "Usalama ndio hasa tabia kuu za usafi na uthibitisho."
+        ],
+        "tips": [
+          "Jizoeze kupokea/kutuma na pochi inayotambulika au ya maunzi.",
+          "Sogeza saizi katika vikundi na usubiri uthibitisho wa kutosha.",
+          "Hifadhi nakala ya mbegu nje ya mtandao—usiwahi kupiga picha wala kutuma ujumbe."
+        ],
+        "body": "Bitcoin inaonyesha jinsi thamani inaweza kuhamia kwenye mtandao bila benki kama mwamuzi. Seti ya kimataifa ya nodi hushiriki leja moja inayolindwa na kriptografia na motisha. Kwa wanaoanza, funguo, UTXO, na sheria za utoaji ni muhimu zaidi kuliko chati za bei za muda mfupi."
+      },
+      {
+        "id": "ethereum",
+        "title": "Ethereum",
+        "summary": "Kizuizi cha madhumuni ya jumla kwa kandarasi mahiri—mara nyingi huitwa kompyuta ya ulimwengu",
+        "intro": "Ambapo Bitcoin inazingatia kuhamisha pesa, Ethereum inazingatia kutekeleza sheria zinazoweza kupangwa. Mali ya ulezi huweka mikataba, husimba masharti na kutunga katika programu. Baada ya Kuunganisha, makubaliano ni uthibitisho wa dau huku utekelezaji ukibaki kuwa EVM.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Malipo pekee hayawezi kueleza mikopo, kubadilishana, au utawala bora kwa njia safi. Mashine pepe inayoshirikiwa hubadilisha msimbo kuwa miundombinu ya umma. \nFungua violesura acha tokeni na itifaki ziunganishwe zenyewe—msingi wa DeFi legos."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "EOAs ni muhimu-kudhibitiwa; akaunti za mkataba zinadhibitiwa na kanuni. Unalipa gesi kwa mabadiliko ya serikali. Wahalalishaji wanashiriki ETH kupendekeza na kuthibitisha; makosa makubwa yanaweza kupunguzwa. \nWatumiaji bado wanaingiliana kupitia saini za pochi, lakini nafasi ya muundo ni pana zaidi kuliko uhamishaji rahisi."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Uhesabuji wa mita za gesi. Viwango vya tokeni (ERC-20/721) huwezesha upatanifu wa pochi na soko. Safu ya 2 inahamisha utekelezaji kutoka kwa mainnet huku ikirejea kwenye usalama wa Ethereum."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "“Kwenye Ethereum” ≠ imekaguliwa au salama. Uidhinishaji usio na kikomo na ishara bandia huondoa pochi. Ada za kilele zinaweza kuzidi ukubwa wa biashara—angalia mtandao, mkataba na upeo wa posho."
+          }
+        ],
+        "keyPoints": [
+          "Ethereum ni mashine ya serikali inayoshirikiwa pamoja na wakati wa utekelezaji wa mkataba mahiri.",
+          "PoS inalinda makubaliano; EVM hutekeleza maombi.",
+          "Viwango hufanya rasilimali zishirikiane katika mfumo ikolojia.",
+          "Usalama hutegemea ubora wa mkataba, vibali na madaraja."
+        ],
+        "tips": [
+          "Thibitisha anwani za mkataba katika kichunguzi cha block, si kwa tiki pekee.",
+          "Tumia L2 rasmi au subiri wakati mainnet imesongamana.",
+          "Jaribu itifaki mpya kwa pesa unazoweza kumudu kupoteza."
+        ],
+        "body": "Ambapo Bitcoin inazingatia kuhamisha pesa, Ethereum inazingatia kutekeleza sheria zinazoweza kupangwa. Mali ya ulezi huweka mikataba, husimba masharti na kutunga katika programu. Baada ya Kuunganisha, makubaliano ni uthibitisho wa dau huku utekelezaji ukibaki kuwa EVM."
+      },
+      {
+        "id": "consensus",
+        "title": "Makubaliano",
+        "summary": "Jinsi mtandao unavyokubaliana juu ya historia moja ya kanuni",
+        "intro": "Bila mwamuzi wa kati, nodi bado zinahitaji leja moja. Makubaliano hufafanua ni nani anayependekeza vizuizi, jinsi wadanganyifu wanavyoadhibiwa, na wakati uhamishaji umekamilika vya kutosha. Uthibitisho wa kazi na uthibitisho wa hisa ni njia tofauti za kufanya kuandika upya kuwa na gharama kubwa.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Washiriki waliosambazwa wanaweza kuchelewesha, kukata muunganisho au kusema uwongo. Makubaliano huzuia matumizi maradufu kwa kufanya historia ya mtu kutawala kiuchumi. \nKwa watumiaji, huamua nyakati za kusubiri, hatari ya kupanga upya, na gharama ya mashambulizi."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Bei za PoW hushambulia kwa nishati/hashrate. Bei za PoS hushambulia kwa mtaji uliounganishwa na kufyeka. Baadhi ya itifaki hutoa ukamilifu zaidi baada ya vituo vya ukaguzi; wengine ni uwezekano. \nUuzaji huweka uthibitishaji wa amana kutoka kwa mali hizi."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Uhai dhidi ya mabadilishano ya usalama ni muhimu. Msururu wa \"haraka\" wenye seti ndogo za vithibitishaji unaweza kudhoofisha upinzani wa udhibiti. Uliza ni nani anayetengeneza vitalu kabla ya kusherehekea TPS."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Kauli mbiu sio nadharia za uwekezaji. Mawazo ya daraja na mteja mwepesi mara nyingi huwa hafifu kuliko makubaliano ya msingi-na hapo ndipo wadukuzi wengi hutua."
+          }
+        ],
+        "keyPoints": [
+          "Makubaliano huchagua historia moja ya kisheria kati ya nodi zisizoaminika.",
+          "Mashambulizi ya bei ya PoW na PoS tofauti.",
+          "Uthibitisho/mwisho huamua wakati pesa \"zinapokewa.\"",
+          "Vipengele vya msururu vinaweza kuwa dhaifu kuliko hadithi ya L1."
+        ],
+        "tips": [
+          "Heshimu hesabu zilizopendekezwa za uthibitisho kwa amana kubwa.",
+          "Soma sheria za usambazaji wa vithibitishaji na kufyeka kwenye minyororo mipya.",
+          "Punguza shughuli za daraja/kuinua wakati wa masasisho yenye utata."
+        ],
+        "body": "Bila mwamuzi wa kati, nodi bado zinahitaji leja moja. Makubaliano hufafanua ni nani anayependekeza vizuizi, jinsi wadanganyifu wanavyoadhibiwa, na wakati uhamishaji umekamilika vya kutosha. Uthibitisho wa kazi na uthibitisho wa hisa ni njia tofauti za kufanya kuandika upya kuwa na gharama kubwa."
+      },
+      {
+        "id": "accounts",
+        "title": "Hesabu na Funguo",
+        "summary": "Utambulisho wa mnyororo ni ufunguo, sio jina la mtumiaji lililowekwa upya kwa msaada",
+        "intro": "Akaunti yako kwa kawaida ni anwani inayotokana na ufunguo wa faragha. Hakuna mtu anayeweza kukuwekea ufunguo huo upya; saini ni idhini. Kuelewa EOAs, akaunti za mikataba, na misemo ya mbegu ndio msingi wa matumizi salama.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Akaunti za Web2 zinaishi kwenye seva za kampuni zilizo na kuweka upya nenosiri. Blockchains husukuma udhibiti kwa wamiliki muhimu kwa kujilinda-na kusukuma uwajibikaji wa uendeshaji nayo."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Vifunguo vya faragha hupata funguo na anwani za umma. Mbegu (BIP-39) inaweza kuzalisha akaunti nyingi kwenye misururu. Akaunti za mikataba huhamisha fedha kwa njia za kificho; akaunti mahiri husimba sera kama vile vikomo na walezi."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Pochi za moto zinafaa; pochi za vifaa huweka funguo katika kipengele salama. Udhibiti wa uenezi wa Multisig. Mbegu moja iliyovuja inaweza kuathiri mti mzima wa asili."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Picha za skrini za wingu, programu hasidi na maombi ya mbegu ya \"msaada\" ni njia za kawaida za upotezaji. Kutia sahihi bila ufahamu kunaweza kuidhinisha mifereji ya maji—kukataa vidokezo visivyo wazi."
+          }
+        ],
+        "keyPoints": [
+          "Vifunguo vya umiliki sawa.",
+          "Anwani zinaweza kushirikiwa; mbegu sio.",
+          "EOAs zimesainiwa na binadamu; mikataba inadhibitiwa na kanuni.",
+          "Soma upeo wa ruhusa kabla ya kusaini."
+        ],
+        "tips": [
+          "Tenganisha pesa za majaribio kutoka kwa pochi za akiba.",
+          "Andika mbegu kwenye karatasi/chuma na uhifadhi nje ya mtandao.",
+          "Washa uigaji wa muamala kwenye dApps mpya."
+        ],
+        "body": "Akaunti yako kwa kawaida ni anwani inayotokana na ufunguo wa faragha. Hakuna mtu anayeweza kukuwekea ufunguo huo upya; saini ni idhini. Kuelewa EOAs, akaunti za mikataba, na misemo ya mbegu ndio msingi wa matumizi salama."
+      },
+      {
+        "id": "gas",
+        "title": "Gesi na Ada",
+        "summary": "Kila mabadiliko ya hali yamepimwa kwa hivyo kompyuta ya umma haiwezi kutumwa kwa barua taka bila malipo",
+        "intro": "Gesi si kodi ya kiholela—inaweka bei ya kukokotoa na kuhifadhi. Ada yako ni matumizi × bei ya kitengo. Msongamano huongeza bei ya bidhaa, ndiyo maana hatua kama hiyo inaweza kugharimu senti au makumi ya dola.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Blockchains za umma lazima zifunge rasilimali. Gesi hutengeneza soko la ada: zabuni za juu huwekwa wazi kwanza; watengenezaji lazima waandike mikataba yenye ufanisi."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Uhamisho rahisi hugharimu gesi kidogo; njia tata za DeFi zinagharimu zaidi. Baada ya EIP-1559, ada za msingi huchomwa na vidokezo hulipa wapendekezaji. L2s hulipa gharama ya data ya L1 kwa watumiaji wengi, kwa hivyo ada ya kitengo hupungua."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Kikomo cha gesi hufunika kiasi unachoruhusu. Shughuli za malipo ambazo hazijafaulu bado zinaweza kutoza gesi kwa sababu utekelezaji ulifanyika. Kuongeza kasi/ghairi kunachukua nafasi ya nonce inayosubiri na tx ya ada ya juu."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Tovuti ghushi zinaweza kuibua simu za kipuuzi za gesi au za kipuuzi. Kampeni za \"sifuri gesi\" mara nyingi hupanua ruhusa-uliza ni nani wafadhili na unachoidhinisha."
+          }
+        ],
+        "keyPoints": [
+          "Utekelezaji wa mita za gesi; bei inaendeshwa na soko.",
+          "Kushindwa bado kunaweza kugharimu gesi.",
+          "L2s na batching ndio viokoa ada kuu.",
+          "Kataa ada isiyo ya kawaida au maombi ya idhini."
+        ],
+        "tips": [
+          "Fanya vitendo visivyo vya dharura nje ya kilele au kwenye L2.",
+          "Tumia makadirio ya ada ya pochi na uigaji.",
+          "Bei jumla ya gesi kabla ya kampeni za hatua nyingi."
+        ],
+        "body": "Gesi si kodi ya kiholela—inaweka bei ya kukokotoa na kuhifadhi. Ada yako ni matumizi × bei ya kitengo. Msongamano huongeza bei ya bidhaa, ndiyo maana hatua kama hiyo inaweza kugharimu senti au makumi ya dola."
+      },
+      {
+        "id": "bridges",
+        "title": "Madaraja",
+        "summary": "Vituo vinavyohamisha thamani au ujumbe kwenye misururu—na walengwa wa mara kwa mara wa udukuzi",
+        "intro": "Mali hazionekani kichawi kwenye leja nyingine. Kufunga madaraja, mint, kuchoma, au kubadilishana kupitia ukwasi—kupanua ufikiaji huku ukizingatia hatari. Baadhi ya matukio makubwa zaidi ya historia yaligonga ulinzi na uthibitishaji darajani.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Bila madaraja, mifumo ikolojia hukaa visiwa. Kwa madaraja, watumiaji hurithi uaminifu wa ziada na hatari ya mkataba badala ya uhamaji."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Miundo ni pamoja na lock-and-mint, burn-and-redeem, mitandao ya ukwasi, na relay za mteja-nyepesi. Madaraja ya ujumuishaji ya kisheria yanarithi usalama wa utayarishaji lakini yanaweza kuwa na ucheleweshaji wa kuondoka; madaraja ya haraka huongeza mawazo ya watu wengine kwa kasi."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Je, unaweza kukomboa 1:1? Je, wathibitishaji wamegawanywa kwa kiasi gani? TVL ya juu inaweza kumaanisha lengo mnene zaidi, sio usalama wa moja kwa moja."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Vikoa vya hadaa hustawi karibu na madaraja. Mtandao mbaya au mikataba ya ishara hutuma pesa kwenye utupu. Jaribu kila mara kwa uhamishaji mdogo kwanza."
+          }
+        ],
+        "keyPoints": [
+          "Daraja ni itifaki ya leja, si teleportation.",
+          "Madaraja ya Canonical dhidi ya haraka yana miundo tofauti ya uaminifu.",
+          "Madaraja hutawala upotezaji wa kihistoria.",
+          "Thibitisha kikoa, mkataba na mtandao pamoja."
+        ],
+        "tips": [
+          "Ingiza madaraja kutoka kwa hati rasmi zilizoalamishwa pekee.",
+          "Jaribu saizi ndogo kabla ya kusonga saizi.",
+          "Chunguza njia za kutoka zinazosubiri kuwa bado hazitumiki bila malipo."
+        ],
+        "body": "Mali hazionekani kichawi kwenye leja nyingine. Kufunga madaraja, mint, kuchoma, au kubadilishana kupitia ukwasi—kupanua ufikiaji huku ukizingatia hatari. Baadhi ya matukio makubwa zaidi ya historia yaligonga ulinzi na uthibitishaji darajani."
+      }
+    ]
+  },
+  {
+    "id": "defi",
+    "name": "DeFi",
+    "summary": "Kukopesha, kubadilishana na kuweka hisa kupitia mikataba mahiri",
+    "blurb": "Jinsi primitives za kifedha zinavyoundwa-na hatari karibu na viwango, ufilisi na stables.",
+    "items": [
+      {
+        "id": "amm",
+        "title": "Watengenezaji wa Soko otomatiki",
+        "summary": "Viwango vya malipo na viwango vya bei vinachukua nafasi ya vitabu vya kawaida vya kuagiza",
+        "intro": "AMM huruhusu mtu yeyote kuweka tokeni kwenye bwawa ili wafanyabiashara wabadilishane kulingana na fomula. Unapata ukwasi unaoendelea na ada za LP—pamoja na hasara ya kudumu na hatari ya mkataba mahiri.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Vitabu vya kuagiza kwenye mnyororo ni ghali. Makundi huweka ukwasi ukaaji katika kandarasi ili kubadilishana kufanyike wakati wowote, kutengeneza soko la kidemokrasia."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Daima-bidhaa ni curve classic; kubadilisha fedha na ukwasi uliokolea huboresha ufanisi wa mtaji. Vipanga njia viligawanya biashara kwenye mabwawa. Vikomo vya kuteleza hukulinda wakati hali inasonga."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Upotevu wa kudumu unaweza kufanya LPs zifanye kazi vizuri. Tokeni bandia na vyungu vya asali vinaweza kuonekana vinaweza kununuliwa lakini visivyoweza kuuzwa. Utoaji wa APRs huenda usidumu."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Uidhinishaji usio na kikomo kwa ruta zisizojulikana ni hatari. Depegs stress \"imara\" mabwawa ngumu."
+          }
+        ],
+        "keyPoints": [
+          "Bei ya AMM kupitia hesabu ya bwawa kwa kubadilishana papo hapo.",
+          "LPs hupata ada na kuchukua hatari ya IL + ya mkataba.",
+          "Kuteleza na kuelekeza matokeo ya ubora wa uendeshaji.",
+          "Thibitisha mabwawa/tokeni kabla ya kutafuta mavuno."
+        ],
+        "tips": [
+          "Weka utelezi mkali na kiwango cha chini cha nje.",
+          "Pendelea mabwawa ya kina kwenye itifaki za watu wazima.",
+          "Batilisha posho za tokeni ambazo hazijatumika mara kwa mara."
+        ],
+        "body": "AMM huruhusu mtu yeyote kuweka tokeni kwenye bwawa ili wafanyabiashara wabadilishane kulingana na fomula. Unapata ukwasi unaoendelea na ada za LP—pamoja na hasara ya kudumu na hatari ya mkataba mahiri."
+      },
+      {
+        "id": "lending",
+        "title": "Itifaki za Mikopo",
+        "summary": "Kukopa kwa dhamana kupita kiasi na viwango vya algorithmic na ufilisi",
+        "intro": "Weka mali ili kupata mavuno au kukopa dhidi ya dhamana bila dawati la mikopo. Mambo ya kiafya, maneno, na roboti za kufilisi—sio wasimamizi wa uhusiano—huweka kiyeyusho cha mfumo.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Utekelezaji wa mnyororo wa mkopo usiolindwa ni mgumu, kwa hivyo uwekaji dhamana kupita kiasi hutawala. Mtu yeyote anaweza kushiriki; ufanisi wa mtaji ni biashara."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Utumiaji huendesha mikondo ya riba. Oracles kulisha bei. Afya inapodhoofika, wafilisi hulipa deni na kuchukua dhamana ili kupata bonasi."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Njia za kutengwa, LTV, na ujumuishaji wa madeni mabaya hutofautiana kulingana na itifaki. Uboreshaji uliopunguzwa huongeza hatari. APR halisi lazima ipunguze adhabu za gesi na kufilisi."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Ucheleweshaji wa oracle au udanganyifu unaweza kusababisha ufilisi usio sahihi. Kuchukulia mikopo kama \"akiba salama\" ni mtego wa mawazo."
+          }
+        ],
+        "keyPoints": [
+          "Overcollateralization + kufilisi ni msingi.",
+          "Sababu ya afya inashinda viwango vya kichwa.",
+          "Oracle na ubora wa ukwasi huamua usalama.",
+          "Kuongeza loops kukuza drawdowns."
+        ],
+        "tips": [
+          "Acha bafa kubwa juu ya kufilisi.",
+          "Epuka dhamana yenye uhusiano mkubwa katika dhoruba.",
+          "Kadiria bei ya kufilisi kabla ya kukopa."
+        ],
+        "body": "Weka mali ili kupata mavuno au kukopa dhidi ya dhamana bila dawati la mikopo. Mambo ya kiafya, maneno, na roboti za kufilisi—sio wasimamizi wa uhusiano—huweka kiyeyusho cha mfumo."
+      },
+      {
+        "id": "stablecoins",
+        "title": "Stablecoins",
+        "summary": "Vipimo vya mtandaoni vilivyoundwa ili kufuatilia marejeleo thabiti kama USD",
+        "intro": "Vipengee vya msingi vilivyo tete si rahisi kwa bei na uhasibu. Stablecoins hutoa reli inayofanana na dola kwa biashara na utumaji pesa-lakini mifumo na njia za kushindwa hutofautiana sana.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Wanatoa sehemu inayojulikana ya shughuli za mtandaoni na kimbilio la muda katika nyakati za hatari—kimbilio ≠ isiyo na hatari."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Sarafu za Fiat zinategemea hifadhi na ukombozi; zile zinazoungwa mkono na crypto kwenye overcollateralization; miundo ya algorithmic hurekebisha usambazaji na imethibitishwa kuwa ni tete. Masharti ya uwazi na ukombozi ni muhimu katika mkazo."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Kugandisha, kupunguza, matoleo bandia ya mnyororo mtambuka, na vifungashio vya mavuno huongeza tabaka za hatari. Ticker sawa kwenye msururu mwingine inaweza kuwa si rasmi."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "USD kwa jina ni uuzaji, sio bima. Kuzingatia kwa mtoaji mmoja ni hatari ya mshirika."
+          }
+        ],
+        "keyPoints": [
+          "Stablecoins ni zana zilizo na hatari ya mtoaji/utaratibu.",
+          "Akiba, dhamana, au algoriti hushindwa kwa njia tofauti.",
+          "Sera za ukombozi na kufungia huathiri utumiaji.",
+          "Thibitisha mikataba rasmi kila wakati kwa kila mlolongo."
+        ],
+        "tips": [
+          "Pendelea miundo yenye uwazi inayoweza kukombolewa kwa ukubwa.",
+          "Mseto watoa na kumbi.",
+          "Chunguza \"mavuno thabiti\" kama onyo."
+        ],
+        "body": "Vipengee vya msingi vilivyo tete si rahisi kwa bei na uhasibu. Stablecoins hutoa reli inayofanana na dola kwa biashara na utumaji pesa-lakini mifumo na njia za kushindwa hutofautiana sana."
+      },
+      {
+        "id": "staking",
+        "title": "Staking & Restaking",
+        "summary": "Mtaji wa dhamana ili kupata mtandao-na wakati mwingine kutumia tena usalama huo",
+        "intro": "Uthibitisho wa dau hulinganisha viidhinishi na usalama wa mnyororo kupitia hisa iliyounganishwa. Ishara za uwekaji wa kioevu huboresha ufanisi wa mtaji; kuweka tena dau la kutumia tena kwa huduma za ziada na hatari ya kukatwa kwa rafu inayohusiana.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "PoS inahitaji seti ya kihalalishi iliyogatuliwa vya kutosha. Zawadi hufidia shughuli na gharama ya fursa; uwekaji hisa wa kioevu huongeza ushiriki na hatari mpya za mkataba."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Uanzishaji na foleni za kutoka, majukumu, na upunguzaji hufafanua kazi. Kuweka upya usalama wa wajumbe kwa itifaki za ziada kwa mavuno ya ziada-na masharti ya ziada ya kufyeka."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Utendaji wa opereta, utofauti wa mteja, na masuala ya hatari ya LST. Mavuno ya juu kawaida humaanisha njia zaidi za kuadhibiwa."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Maeneo ya kughushi huvuna vibali au mbegu. Kurejesha nyuma sio uboreshaji usio na hatari kwenye ETH."
+          }
+        ],
+        "keyPoints": [
+          "Staking hulipa kazi ya usalama.",
+          "Uwekaji wa kiowevu huongeza tabaka za mkataba/waendeshaji.",
+          "Kuweka tena rafu hali za kufyeka.",
+          "Ucheleweshaji usio na dhamana unamaanisha ukwasi sio papo hapo."
+        ],
+        "tips": [
+          "Chagua waendeshaji walio na rekodi za wimbo na umakini wa chini.",
+          "Kuweka upya ukubwa ili kustahimili kufyeka.",
+          "Ingiza tu kupitia viungo rasmi vya hati."
+        ],
+        "body": "Uthibitisho wa dau hulinganisha viidhinishi na usalama wa mnyororo kupitia hisa iliyounganishwa. Ishara za uwekaji wa kioevu huboresha ufanisi wa mtaji; kuweka tena dau la kutumia tena kwa huduma za ziada na hatari ya kukatwa kwa rafu inayohusiana."
+      },
+      {
+        "id": "perps",
+        "title": "Mustakabali wa Kudumu",
+        "summary": "Masoko ambayo hayajaisha muda wake yameidhinishwa na viwango vya ufadhili",
+        "intro": "Perps huwaacha wafanyabiashara warefu/wafupi wakiwa na kiasi na hakuna mwisho wa matumizi. Maeneo ya mtandaoni yanajumuisha ukingo na ufilisi katika mifumo ya msimbo au mseto. Upande wa juu umekuzwa—vivyo hivyo kasi ya njia hadi sifuri.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Spot pekee haiwezi kuelezea ua kwa ufanisi. Perps ikawa derivative kuu ya crypto kwa kuondoa msuguano wa roll."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Uhamisho wa fedha kati ya long na kaptula ili kuunganisha bei kwa faharasa. Upeo wa matengenezo husababisha kufilisi; fedha za bima zinaweza kuchukua mapungufu. Maneno na kukatika ni muhimu katika machafuko."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Kujiinua, uwasilishaji kiotomatiki, na ongezeko la ufadhili huamua maisha. Aina za CEX dhidi ya DEX za ulinzi zinatofautiana."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "\"Usaidizi mdogo ni salama\" hushindwa katika utambi. Kutoweza kuongeza ukingo kwa sababu ya masuala ya gesi/mtandao kunaweza kukufuta."
+          }
+        ],
+        "keyPoints": [
+          "Ufadhili unachukua nafasi ya kumalizika kwa muda wa kutia nanga.",
+          "Mitambo ya kukomesha ni ya kuwepo.",
+          "Leverage inabadilisha tete kuwa tabia mbaya za kufuta.",
+          "Msururu wa hatari za eneo na eneo kwenye hatari ya soko."
+        ],
+        "tips": [
+          "Chaguomsingi hadi kiwango cha chini na ukingo wa ziada.",
+          "Kupunguza ukubwa kabla ya matukio; usilipize kisasi-ongeza.",
+          "Tumia maeneo ambayo sheria zake unaweza kuthibitisha."
+        ],
+        "body": "Perps huwaacha wafanyabiashara warefu/wafupi wakiwa na kiasi na hakuna mwisho wa matumizi. Maeneo ya mtandaoni yanajumuisha ukingo na ufilisi katika mifumo ya msimbo au mseto. Upande wa juu umekuzwa—vivyo hivyo kasi ya njia hadi sifuri."
+      },
+      {
+        "id": "rwa",
+        "title": "Uwekaji alama wa RWA",
+        "summary": "Kuleta madai ya mtiririko wa pesa wa ulimwengu halisi kwenye reli za crypto",
+        "intro": "RWAs huunganisha mazao yanayojulikana (kama vile T-bili) na malipo ya mtandaoni. Tokeni ni nzuri tu kama karatasi, ulinzi na ukombozi wa kisheria—sio tu UI ya mkataba mahiri.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Mavuno ya asili ya crypto ni tete; vyombo vya pesa taslimu vinaweza kuendana vyema na mahitaji ya hazina wakati miundo ni thabiti."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Huluki iliyoidhinishwa inamiliki mali; tokeni kufuatilia madai; mavuno yanasambazwa kwa mnyororo. Orodha za ruhusa za KYC ni za kawaida. Bei za upili zinaweza kutofautiana na NAV."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Umbali wa kufilisika, uthibitisho, ukombozi wa T+N, na mamlaka huamua matokeo ya mafadhaiko. \"Inayoonekana kwenye mnyororo\" ≠ inaweza kutekelezeka kiotomatiki nje ya mnyororo."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Hatari ya mabadiliko ya vyama na udhibiti hukaa kando ya hatari ya mkataba. Kurasa za usajili bandia zimejaa."
+          }
+        ],
+        "keyPoints": [
+          "RWA = kisheria + chini ya ulinzi + mabomba ya ishara.",
+          "Mavuno yanatokana na mali zisizo na mnyororo.",
+          "Sheria za uhamisho/ukombozi zinaweza kuwekwa lango.",
+          "Fanya bidii muundo wa mtoaji, sio Aprili tu."
+        ],
+        "tips": [
+          "Soma hati zinazotolewa na uthibitisho wa hifadhi.",
+          "Thibitisha mamlaka yako hukuruhusu kuishikilia.",
+          "Tazama madirisha ya ukombozi na kina cha pili."
+        ],
+        "body": "RWAs huunganisha mazao yanayojulikana (kama vile T-bili) na malipo ya mtandaoni. Tokeni ni nzuri tu kama karatasi, ulinzi na ukombozi wa kisheria—sio tu UI ya mkataba mahiri."
+      }
+    ]
+  },
+  {
+    "id": "nfts",
+    "name": "NFTs",
+    "summary": "Ishara za kipekee na soko lao",
+    "blurb": "Kuanzia viwango na masoko hadi tamaduni, michezo, na rasilimali zinazobadilika.",
+    "items": [
+      {
+        "id": "erc721",
+        "title": "ERC-721 & ERC-1155",
+        "summary": "Violeo vya kawaida vya ishara za kipekee na nusu-fungi",
+        "intro": "Viwango huruhusu pochi na soko kuzungumza lugha moja. 721 ramani kitambulisho kimoja kwa mmiliki mmoja; 1155 hudhibiti vitambulisho vingi na uhamishaji wa bechi—hufaa kwa michezo.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Bila viwango, kila mradi huvumbua API zilizopendekezwa na huvunja ushirikiano. Watayarishi pia hupata usambazaji wa soko nyingi."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Umiliki na uhamisho ni sanifu; metadata mara nyingi huishi kwenye tokenURI (kawaida IPFS). Uidhinishaji unaweza kuwa kwa tokeni au opereta kote."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Metadata inayoweza kubadilishwa, kubandikwa, na sera ya mrabaha huchagiza uimara na uchumi. Mikusanyiko ghushi inakili sanaa yenye mikataba tofauti—anwani za amana."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Kuweka kipofuApprovalForAll kwa soko zisizojulikana ni bomba la kawaida. Masimulizi ya nadra ≠ ukwasi."
+          }
+        ],
+        "keyPoints": [
+          "Viwango huwezesha interop, si thamani halisi.",
+          "Chaguo za kuhifadhi huathiri kudumu.",
+          "Punguza vibali.",
+          "Anwani ya mkataba ni ukaguzi wa uhalisi."
+        ],
+        "tips": [
+          "Thibitisha mikataba rasmi kabla ya kununua.",
+          "Batilisha waendeshaji tuli wa soko.",
+          "Gawanya vipande vya thamani ya juu kwenye pochi za vault."
+        ],
+        "body": "Viwango huruhusu pochi na soko kuzungumza lugha moja. 721 ramani kitambulisho kimoja kwa mmiliki mmoja; 1155 hudhibiti vitambulisho vingi na uhamishaji wa bechi—hufaa kwa michezo."
+      },
+      {
+        "id": "markets",
+        "title": "Masoko ya NFT",
+        "summary": "Tabaka za sera za kuorodhesha, zabuni, malipo na mrabaha",
+        "intro": "Masoko yanalingana na wanunuzi na wauzaji na mtiririko wa mpangilio wa mtandaoni au mseto. Wajumlishi hupitia kumbi. Utekelezaji wa mrahaba unazidi kuwa sera ya soko, si uchawi halisi wa itifaki.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Waumbaji wanahitaji usambazaji; watoza wanahitaji uvumbuzi na uundaji wa bei. Ushindani unabana ada na huongeza matarajio ya usalama."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Wauzaji wanaidhinisha uhamisho; wanunuzi kukaa. Tazama matangazo yaliyoibiwa kwa punguzo lisilowezekana. Wajumlishi husaidia bei lakini sio bidii inayostahili."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Ada, uokoaji wa zabuni, biashara ya kuosha nguo, na mambo mtambuka ya kuorodhesha ni muhimu. Chati za sakafu zinaweza kubadilishwa."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "UI za kuhadaa huiga masoko ya juu. Sahihi za Airdrop ni chambo cha kawaida."
+          }
+        ],
+        "keyPoints": [
+          "Masoko ni reli, sio dhamana ya thamani.",
+          "Zabuni na idhini hubeba hatari.",
+          "Sheria za mrahaba hutofautiana kulingana na eneo.",
+          "Maswali ya chini sana yanaweza kuwa mali ya wizi."
+        ],
+        "tips": [
+          "Alamisha vikoa rasmi; ruka matangazo ya utafutaji.",
+          "Weka ukubwa wa zabuni na kuisha kwake kuwa kihafidhina.",
+          "Kusanya kwa uangalifu wakati wote."
+        ],
+        "body": "Masoko yanalingana na wanunuzi na wauzaji na mtiririko wa mpangilio wa mtandaoni au mseto. Wajumlishi hupitia kumbi. Utekelezaji wa mrahaba unazidi kuwa sera ya soko, si uchawi halisi wa itifaki."
+      },
+      {
+        "id": "pfp",
+        "title": "PFP & NFTs za Utamaduni",
+        "summary": "Utambulisho na uanachama wa jumuiya uliofungwa kama vyombo vya habari vinavyoweza kuuzwa",
+        "intro": "NFTs za picha za wasifu hugeuza umiliki kuwa ishara ya kijamii. Bei inaendeshwa na masimulizi- na ukwasi zaidi kuliko mtiririko wa pesa. Wachukulie kama utamaduni kwanza, uvumi wa pili.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Majina ya watumiaji ya jukwaa yamekodishwa; PFPs hujaribu utambulisho unaobebeka wa kuona na ufikiaji wa jamii-makini inaweza kuchuma mapato, na umakini unaweza kuondoka."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Minti, zana adimu, Discord/Telegram, na biashara ya upili huunda kitanzi. Baadhi huongeza matumizi; wengi hawana."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Usambazaji wa vishikiliaji, kufungua na vitabu vyembamba husababisha hatari ya kuacha kufanya kazi. Ulaghai wa uigaji haudumu."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Kufuatilia masimulizi ya \"blue chip\" kwenye kilele cha euphoria kunaumiza. Usiwaamini kamwe wasimamizi wa DM wenye mbegu."
+          }
+        ],
+        "keyPoints": [
+          "Thamani mara nyingi ni ya kijamii na masimulizi.",
+          "Thibitisha mikataba/vituo rasmi.",
+          "Liquidity inaweza kutoweka haraka.",
+          "Kusanya/kujumuika; usichukue kama mavuno yaliyohakikishwa."
+        ],
+        "tips": [
+          "Jamii za Lurk kabla ya kununua.",
+          "Puuza DM za hewa.",
+          "Bainisha bajeti yenye hasara ya juu zaidi."
+        ],
+        "body": "NFTs za picha za wasifu hugeuza umiliki kuwa ishara ya kijamii. Bei inaendeshwa na masimulizi- na ukwasi zaidi kuliko mtiririko wa pesa. Wachukulie kama utamaduni kwanza, uvumi wa pili."
+      },
+      {
+        "id": "gaming-assets",
+        "title": "Mali ya mchezo",
+        "summary": "Bidhaa zinazoweza kuuzwa, wahusika na ardhi yenye umiliki unaoweza kuthibitishwa",
+        "intro": "Michezo ya Crypto inaahidi kuwa vitu adimu vinabaki kuwa vyako. Mizunguko ya kufurahisha, uchumi uliosawazishwa, na umiliki halisi lazima viwe pamoja—au umesalia na ganda la kubahatisha.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Kuzima kwa kawaida hufuta orodha. Masoko ya wazi na umiliki unaoweza kuthibitishwa hubadilisha matarajio ya wachezaji na kuwezesha uchumi wa UGC."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Mseto huweka mapigano ya wakati halisi bila msururu na kutatua uhaba kwenye mnyororo. Minti, sinki, na kutengeneza bei za umbo; uzalishaji ambao haujadhibitiwa huwapandisha mbali."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Uwiano wa uzalishaji/sinki na watumiaji ni muhimu zaidi kuliko sanaa pekee. Inamilikiwa ≠ inahitajika."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Kutibu zawadi za mapema kama mshahara haufaulu katika soko la dubu. Tenganisha funguo za mchezo kutoka kwa pochi za kuba."
+          }
+        ],
+        "keyPoints": [
+          "Umiliki unahitaji kitanzi endelevu cha mchezo.",
+          "Ubunifu wa uchumi huendesha bei za muda mrefu.",
+          "Mseto biashara usafi kwa ajili ya utendaji.",
+          "Uhifadhi wa sauti ≠ uhifadhi wa wachezaji."
+        ],
+        "tips": [
+          "Cheza kabla ya kununua mali ghali.",
+          "Kufuatilia sinki dhidi ya utoaji wa hewa chafu.",
+          "Tenga akaunti za mchezo kutoka kwa pesa kuu."
+        ],
+        "body": "Michezo ya Crypto inaahidi kuwa vitu adimu vinabaki kuwa vyako. Mizunguko ya kufurahisha, uchumi uliosawazishwa, na umiliki halisi lazima viwe pamoja—au umesalia na ganda la kubahatisha."
+      },
+      {
+        "id": "tickets",
+        "title": "Tikiti na Vitambulisho",
+        "summary": "Haki za ufikiaji zinazoweza kuthibitishwa na sheria za hiari za uhamishaji",
+        "intro": "Tikiti na uanachama ni kuhusu kuthibitisha haki. Kitambulisho cha mtandaoni kinaweza kupunguza bandia na kuwezesha uuzaji tena unaodhibitiwa—ikiwa kuingia kwa UX hufanya kazi kwa watu wa kawaida.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Bandia za karatasi na matukio ya kuumiza ngozi ya kichwani. Tikiti za kidijitali zinazoweza kuthibitishwa zinaweza kuunganisha utambulisho au kuweka vikwazo vya uhamishaji na kuacha njia zinazoweza kukaguliwa."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Mint/dai juu ya ununuzi; changanua ili kukomboa alama zilizotumika. Chaguzi za moyo hupunguza utangazaji. Faragha/KYC mara nyingi hukaa nje ya mnyororo."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Uhamisho, mashambulizi ya picha za skrini, na urejeshaji ikiwa mbegu zitapotea zote zinahitaji muundo. Msuguano wa Wallet unaweza kuwatenga watazamaji."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Tikiti bandia za tikiti na hafla zilizoachwa huacha ishara zisizo na maana. Usishiriki data ya kibinafsi kwa mikataba isiyojulikana."
+          }
+        ],
+        "keyPoints": [
+          "Thamani ni haki, si flip.",
+          "Utumiaji wa UX huamua ukubwa.",
+          "Soma sheria za uhamisho kabla ya kununua.",
+          "Njia za uokoaji bado ni muhimu."
+        ],
+        "tips": [
+          "Nunua tu kupitia chaneli za wapangaji.",
+          "Jaribu onyesho la pochi kabla ya tukio.",
+          "Weka barua pepe za uthibitishaji nje ya mnyororo pia."
+        ],
+        "body": "Tikiti na uanachama ni kuhusu kuthibitisha haki. Kitambulisho cha mtandaoni kinaweza kupunguza bandia na kuwezesha uuzaji tena unaodhibitiwa—ikiwa kuingia kwa UX hufanya kazi kwa watu wa kawaida."
+      },
+      {
+        "id": "dynamic",
+        "title": "NFTs za Nguvu",
+        "summary": "Vipengee ambavyo hulka zake zinaweza kubadilika kwa hali ya on-chain au oracle",
+        "intro": "NFTs Inayobadilika husasisha mwonekano au sifa kutoka kwa maendeleo ya mchezo, wakati au data ya nje. Wanahisi kuwa hai-lakini mabadiliko lazima yawe wazi kwa wanunuzi.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Viwango vya uanachama na vipengee vya mchezo vinavyoendelea vinahitaji hali. Mienendo hufanya NFTs kuwa zaidi ya picha tuli."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Mikataba au huduma za metadata husasisha URI kutoka kwa vichochezi. Ikiwa metadata imewekwa kati, mienendo inaweza kuwa mabadiliko ya kimya."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Nani anaweza kusasisha? Je, historia inaweza kukaguliwa? Masoko lazima yaonyeshe hali ya hivi punde. Wanunuzi wanapaswa kujua nini kinaweza kubadilisha."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Waendeshaji wanaweza kupata nadra. Hitilafu za oracle zinaweza kuweka fomu zisizo sahihi. \"Nadra isiyoweza kubadilika\" pamoja na masasisho ya kimya ya msimamizi ni alama nyekundu."
+          }
+        ],
+        "keyPoints": [
+          "Mienendo ni kipengele na hatari.",
+          "Chapisha ruhusa za sasisho kwa uwazi.",
+          "Muundo wa upangishaji huleta uaminifu.",
+          "Thibitisha sifa za hivi punde kabla ya kufanya biashara."
+        ],
+        "tips": [
+          "Soma sheria na historia ya sasisho.",
+          "Pendelea mashine za hali ya juu zinazoweza kuthibitishwa.",
+          "Hifadhi vipande vya thamani ya juu katika pochi baridi."
+        ],
+        "body": "NFTs Inayobadilika husasisha mwonekano au sifa kutoka kwa maendeleo ya mchezo, wakati au data ya nje. Wanahisi kuwa hai-lakini mabadiliko lazima yawe wazi kwa wanunuzi."
+      }
+    ]
+  },
+  {
+    "id": "layer2",
+    "name": "Tabaka la 2",
+    "summary": "Mitandao ya kuongeza kasi iliyojengwa juu ya Ethereum",
+    "blurb": "Uboreshaji wa matumaini/ZK, upatikanaji wa data, madaraja, na kwa nini ada zinaweza kushuka hadi senti.",
+    "items": [
+      {
+        "id": "optimistic",
+        "title": "Mipangilio yenye Matumaini",
+        "summary": "Chukulia makundi ni halali; zihifadhi kwa dirisha la uthibitisho wa ulaghai",
+        "intro": "Mipangilio yenye matumaini hutekelezwa kwenye L2, kuchapisha data kwa Ethereum, na kudhani kuwa ni usahihi isipokuwa kutatizwa. Watumiaji kupata UX nafuu; kutoka kwa kanuni zinaweza kusubiri kipindi cha changamoto.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Nafasi ya block L1 ni ghali. Kuhamisha utekelezaji nje ya mnyororo huku ukiweka nanga kwenye L1 hupunguza gharama. Miundo yenye matumaini husafirishwa mapema ikiwa na uoanifu thabiti wa EVM."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Sequencer inaagiza shughuli na kuchapisha batches; hali mizizi nanga kwenye L1. Wakati wa dirisha, waangalizi wanaweza kubishana. Njia za kutoka haraka hutumia ukwasi wa mtu wa tatu na mawazo ya ziada."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Ugatuaji wa mpangilio, upatikanaji wa data, na funguo za kuboresha hufafanua usalama halisi. Kasi ya UX ≠ kukamilika kwa ugatuaji."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Kupuuza kuondoka kunachelewesha ukwasi wa bei mbaya. Tovuti ghushi za madaraja huongezeka kila mtindo wa L2s."
+          }
+        ],
+        "keyPoints": [
+          "Changamoto ya kusubiri kwa biashara ya windows kwa uthibitisho rahisi wa ulaghai.",
+          "Usalama hutegemea data ya L1 + michezo ya mizozo.",
+          "Madaraja ya kanuni ni polepole lakini wazi zaidi.",
+          "Muda wa nyongeza wa mpangilio ni hatari ya uzoefu."
+        ],
+        "tips": [
+          "Panga L1 kutoka kwa kuchelewa akilini.",
+          "Pendelea maeneo rasmi ya kuingia kwenye daraja.",
+          "Soma hati za kuepuka-hatch kwa hitilafu za mpangilio."
+        ],
+        "body": "Mipangilio yenye matumaini hutekelezwa kwenye L2, kuchapisha data kwa Ethereum, na kudhani kuwa ni usahihi isipokuwa kutatizwa. Watumiaji kupata UX nafuu; kutoka kwa kanuni zinaweza kusubiri kipindi cha changamoto."
+      },
+      {
+        "id": "zk",
+        "title": "Matangazo ya ZK",
+        "summary": "Uthibitisho wa uhalali hushawishi L1 kuwa bechi za L2 ni sahihi",
+        "intro": "Uthibitisho wa uhalali huruhusu L1 kukubali matokeo bila madirisha marefu ya ulaghai. Uthibitishaji ni mzito kwa kukokotoa, lakini umalizio unaweza kuhisi haraka zaidi mara uthibitisho unapotua.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Kupima bila kutegemea \"dhani kuwa mwaminifu isipokuwa kama changamoto.\" Usuluhishi wa haraka husaidia kubadilishana na madaraja."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "L2 inatekeleza; methali hujenga uthibitisho; Vithibitishaji vya L1 vikague. Usawa wa juu wa EVM hurahisisha uhamishaji wa programu."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Mifumo ya uthibitisho, DA, na funguo za kuboresha bado ni muhimu. Uwekaji chapa ya \"ZK\" ≠ masoko ya prover yaliyogatuliwa bado."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Methali/vifuatavyo vya kati vinaweza kubaki. Madaraja na hadaa bado hutawala hasara za watumiaji."
+          }
+        ],
+        "keyPoints": [
+          "Uthibitisho wa uhalali huimarisha dhamana za usahihi.",
+          "Gharama za maunzi/uhandisi hurekebisha ada na ugatuaji.",
+          "Watumiaji bado wanahitaji usafi wa daraja na pochi.",
+          "Upatanifu wa EVM huendesha uhamishaji wa mfumo ikolojia."
+        ],
+        "tips": [
+          "Angalia ramani za barabara za ugatuaji wa mamlaka.",
+          "Jaribu madaraja kwa kiasi kidogo.",
+          "Soma muundo wa DA kwa makini."
+        ],
+        "body": "Uthibitisho wa uhalali huruhusu L1 kukubali matokeo bila madirisha marefu ya ulaghai. Uthibitishaji ni mzito kwa kukokotoa, lakini umalizio unaweza kuhisi haraka zaidi mara uthibitisho unapotua."
+      },
+      {
+        "id": "data",
+        "title": "Upatikanaji wa Data",
+        "summary": "Kuhakikisha mtu yeyote anaweza kupata data inayohitajika ili kuunda upya jimbo",
+        "intro": "Mipangilio lazima ifanye data ya muamala ipatikane. Data ikitoweka, watumiaji wanaweza wasiweze kuondoka kwa usalama. Blobs ilipunguza gharama za Ethereum DA na kusaidia kubana ada za L2.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Uthibitisho bila data bado unaweza kuwanasa watumiaji. Mahali ambapo data huishi—na jinsi inavyogharimu—hukaa katikati ya mijadala ya kuongeza kiwango."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Data inaweza kukaa katika calldata/blobs za Ethereum au safu za DA za nje, mara nyingi kwa sampuli / usimbaji wa kufuta. Urithi wa usalama hutofautiana na muundo."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "\"Kulipwa kwa Ethereum\" si sawa na \"DA ni dhamana kamili ya Ethereum.\" Mapunguzo ya ada mara nyingi hufuata DA ya bei nafuu."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Kudharau njia za kutofaulu kwa DA ni hatari. Uuzaji unaweza kutia ukungu utatuzi dhidi ya upatikanaji."
+          }
+        ],
+        "keyPoints": [
+          "Bila DA, kujiokoa kunadhoofika.",
+          "Maboresho ya enzi ya Blob yalibadilisha viwango vya ada vya L2.",
+          "Chaguzi za DA hubeba mawazo tofauti.",
+          "Jaji ada, usalama, na ugatuaji pamoja."
+        ],
+        "tips": [
+          "Soma kila sehemu ya DA ya L2.",
+          "Weka vidokezo rasmi vya kutoroka.",
+          "Usipange minyororo kwa TPS pekee."
+        ],
+        "body": "Mipangilio lazima ifanye data ya muamala ipatikane. Data ikitoweka, watumiaji wanaweza wasiweze kuondoka kwa usalama. Blobs ilipunguza gharama za Ethereum DA na kusaidia kubana ada za L2."
+      },
+      {
+        "id": "bridges-l2",
+        "title": "Madaraja ya L2",
+        "summary": "Njia za kisheria dhidi ya mtu wa tatu kati ya L1 na L2",
+        "intro": "Madaraja ya kanuni hurithi sheria za utayarishaji na inaweza kuwa polepole; madaraja ya wahusika wengine huuza kasi kwa uaminifu wa ziada. Kuchagua UI isiyo sahihi ni muundo wa juu wa upotezaji.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Unahitaji pesa kwa L2 kwa UX ya bei nafuu, au urejeshe kwa L1 kwa malipo. Watumiaji tofauti huchagua pointi tofauti za uaminifu/muda wa kusubiri."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Huweka madaraja rasmi ya salio la L2 baada ya kuweka na kuondoka kwa kila sheria za ukusanyaji. Haraka hupunguza ukwasi mbele na kusawazisha baadaye—ada za saa na vikomo."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Uhalisi wa kikoa, uboreshaji, upeo na njia za kurejesha pesa ni muhimu. Haraka kawaida inamaanisha wenzao zaidi."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Tafuta-tangazo bandia. Kuziba toleo lisilo sahihi la tokeni kunapunguza ukwasi. Matumizi ya fedha bado katika changamoto madirisha yanasababisha hatari."
+          }
+        ],
+        "keyPoints": [
+          "Madaraja ya kanuni yanalingana vyema na dhana za ujumuishaji.",
+          "Madaraja ya haraka ya uaminifu wa biashara kwa wakati.",
+          "Uthibitishaji wa kikoa ni wa lazima.",
+          "Vipimo vidogo kabla ya ukubwa."
+        ],
+        "tips": [
+          "Bofya madaraja kutoka kwa tovuti ya L2 mwenyewe.",
+          "Hifadhi heshi za tx kwa usaidizi/utatuzi.",
+          "Epuka madaraja mapya kabisa ambayo hayajakaguliwa kwa ukubwa."
+        ],
+        "body": "Madaraja ya kanuni hurithi sheria za utayarishaji na inaweza kuwa polepole; madaraja ya wahusika wengine huuza kasi kwa uaminifu wa ziada. Kuchagua UI isiyo sahihi ni muundo wa juu wa upotezaji."
+      },
+      {
+        "id": "accounts-aa",
+        "title": "Muhtasari wa Akaunti",
+        "summary": "Pochi za mikataba mahiri zenye urejeshaji, vikomo, na gesi inayofadhiliwa",
+        "intro": "EOA za kawaida humaanisha misemo ya mbegu na gesi ya kujilipia. AA huruhusu pochi kufafanua mantiki ya uthibitishaji—wasimamizi, funguo za kipindi, kupanga makundi, walipaji—ili uingiaji wa ndani uhisi kuwa karibu na Web2 bila kuacha kabisa kujidhibiti.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Mbegu hutisha wageni; ishara za gesi zinawachanganya. AA hupunguza msuguano huku ikiweka udhibiti unaoweza kuthibitishwa. dApps hupata madirisha ibukizi machache kupitia vipindi na makundi."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Uendeshaji wa Mtumiaji huunganishwa kwenye mnyororo; walipaji wanaweza kufadhili ada. Mikataba ya Wallet inatekeleza sera. Viwango kama vile ERC-4337 hutofautiana kulingana na ukomavu wa mnyororo."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Walinzi ni akina nani? Je, urejeshaji umewekwa kati? Je, ruhusa za kipindi ni pana sana? Misconfig bado inapoteza pesa."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "“Hakuna mbegu” ≠ hakuna hatari—njia za uokoaji zinaweza kushambuliwa. Viwango hasidi vya bundle/mlipaji vipo. Vipindi kwa dApps zisizojulikana ni hatari."
+          }
+        ],
+        "keyPoints": [
+          "AA husimba sera katika pochi za mkataba.",
+          "Gesi iliyofadhiliwa na uokoaji wa kijamii ni mafanikio ya UX ya kichwa.",
+          "Usanidi huchagua usalama halisi.",
+          "Hadaa bado inafanya kazi ikiwa unaidhinisha bila upofu."
+        ],
+        "tips": [
+          "Chagua walezi na vifaa mbalimbali.",
+          "Vifunguo vya muda mfupi, vya muda pekee.",
+          "Weka maunzi/multisig kwa vaults."
+        ],
+        "body": "EOA za kawaida humaanisha misemo ya mbegu na gesi ya kujilipia. AA huruhusu pochi kufafanua mantiki ya uthibitishaji—wasimamizi, funguo za kipindi, kupanga makundi, walipaji—ili uingiaji wa ndani uhisi kuwa karibu na Web2 bila kuacha kabisa kujidhibiti."
+      },
+      {
+        "id": "multi-chain",
+        "title": "Ukweli wa minyororo mingi",
+        "summary": "Ukwasi na watumiaji hugawanyika katika vikoa vingi vya makazi",
+        "intro": "Watu wachache wanaishi kwenye mnyororo mmoja sasa. Tokeni za gesi, madaraja na uwekaji programu hutofautiana. Watatuzi wa nia huficha njia, lakini bado lazima ujue pesa zinakaa wapi.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Mlolongo mmoja hauwezi kuongeza kila niche ya ada/utendaji. Chaguo zaidi pia inamaanisha njia zaidi za kuchagua mtandao usio sahihi."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Pochi kubadili RPC/kitambulisho cha mnyororo; anwani sawa inaweza kushikilia mali tofauti kwa kila mlolongo wa EVM. Madaraja na ujumbe huunganisha majimbo; solvers kushindana kujaza nia."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Uhalisi wa kitambulisho cha mnyororo, RPC bandia, na mikataba ya tokeni kwa kila msururu ni bunduki za kila siku. Salio la sifuri mara nyingi humaanisha mtandao usio sahihi uliochaguliwa."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Saini za hila za RPC maalum. Kufunga madirisha huongeza hatari. Kueneza fedha zisizoweza kurejeshwa kwenye L2 kumi mpya ni deni la uendeshaji."
+          }
+        ],
+        "keyPoints": [
+          "Multi-chain ni kawaida-thibitisha mitandao kila wakati.",
+          "Anwani sawa ≠ salio sawa kila mahali.",
+          "Nia huficha utata; hawafuti hatari ya daraja.",
+          "Minyororo michache inayofanya kazi hupunguza makosa."
+        ],
+        "tips": [
+          "Weka mitandao lebo waziwazi kwenye pochi yako.",
+          "Picha ya skrini/angalia majina ya mtandao kabla ya kutuma.",
+          "Jifunze kuondoka kabla ya kuweka kwenye msururu mpya."
+        ],
+        "body": "Watu wachache wanaishi kwenye mnyororo mmoja sasa. Tokeni za gesi, madaraja na uwekaji programu hutofautiana. Watatuzi wa nia huficha njia, lakini bado lazima ujue pesa zinakaa wapi."
+      },
+      {
+        "id": "costs",
+        "title": "Kwa nini Ada za L2 Inaweza Kuwa Senti",
+        "summary": "Kukusanya na data ya bei nafuu hupunguza gharama za L1 kwa watumiaji wengi",
+        "intro": "Kwenye L1 iliyosongamana unaomba nafasi adimu ya kuzuia. L2s hupakia tx nyingi pamoja ili kila mtumiaji alipe kipande cha data iliyoshirikiwa/gharama ya uthibitisho—mara nyingi hadi senti.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Ada kubwa huzuia malipo madogo na vitanzi vya mchezo. Ada za chini huwaruhusu watu wa kawaida kutumia programu, sio tu kutazama chati."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Utekelezaji hutokea L2; muhtasari uligonga L1. DA ya zama za Blob inapunguza gharama za kitengo. L2 bado zinaweza msongamano, kwa kawaida chini ya vilele vya L1. Ada za daraja na kuteleza ni vitu tofauti vya mstari."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Nafuu ≠ kugawanywa kwa usawa. Sera ya ada ya mpangilio wa mpangilio inaunda UX. Uidhinishaji wa hatua nyingi bado unaongezwa."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Kuhatarisha kashfa ya daraja ili kuokoa dola mbili ni jambo lisilo na maana. Matukio ya mfadhaiko huzidisha ada na nyakati za kuondoka."
+          }
+        ],
+        "keyPoints": [
+          "Ulipaji wa madeni + mfinyazo wa ada ya gari la DA wa bei nafuu.",
+          "Msongamano wa L2 upo kwa kiwango tofauti.",
+          "Gharama ya jumla inajumuisha daraja, kuteleza na wakati.",
+          "Mipigo ya usalama kuokoa senti."
+        ],
+        "tips": [
+          "Jumuisha ada za daraja wakati wa kulinganisha njia.",
+          "Subiri miiba kwa vitendo visivyo vya haraka.",
+          "Weka L1 ETH kidogo kama mafuta ya kutoroka."
+        ],
+        "body": "Kwenye L1 iliyosongamana unaomba nafasi adimu ya kuzuia. L2s hupakia tx nyingi pamoja ili kila mtumiaji alipe kipande cha data iliyoshirikiwa/gharama ya uthibitisho—mara nyingi hadi senti."
+      }
+    ]
+  },
+  {
+    "id": "infra",
+    "name": "Miundombinu",
+    "summary": "Maneno, uhifadhi, faharasa na zana za msanidi",
+    "blurb": "Mabomba yasiyoonekana ambayo huwasha pochi, DeFi, na UX salama zaidi.",
+    "items": [
+      {
+        "id": "oracles",
+        "title": "Maneno",
+        "summary": "Madaraja ambayo huleta ukweli usio na mnyororo katika mikataba mahiri",
+        "intro": "Mikataba haiwezi kuona bei za ubadilishaji au alama za ulimwengu halisi pekee. Oracles hujumlisha data ya nje kwa ajili ya kufilisi, perps na bima. Wanaposhindwa, misururu hufuata.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Blockchains hujitenga kwa uamuzi, lakini fedha zinahitaji pembejeo. Maneno yanasawazisha upya na uadilifu-bila yao DeFi nyingi husimama."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Vyanzo kwa jumla, wauzaji wa nje hupungua, masasisho yanasukuma mapigo ya moyo au mahitaji. Miundo mingine huchangia na kufyeka wanahabari wabaya. Wavunjaji wa mzunguko ni muhimu katika machafuko."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Masoko nyembamba ni rahisi kuendesha kwa mikopo mbaya. Ujumbe wa mnyororo ni shida za uaminifu kama oracle pia."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Kuwa na \"eneo la ndani\" ≠ kutoweza kuathirika. Bei za zamani, desimali zisizo sahihi, na milisho iliyositishwa huuma."
+          }
+        ],
+        "keyPoints": [
+          "Oracles ndio njia kuu ya DeFi.",
+          "Jaji vyanzo, ujumlishaji na sheria za sasisho.",
+          "Raslimali zisizo halali ni rahisi kuharibu.",
+          "Vivunja mzunguko wa itifaki hupunguza radius ya mlipuko."
+        ],
+        "tips": [
+          "Jua ni mipasho na mapigo ya moyo ambayo itifaki hutumia.",
+          "Punguza vitendo nyeti kwa usahihi katika tete kupindukia.",
+          "Epuka miundo ya chanzo kimoja kwa ukubwa."
+        ],
+        "body": "Mikataba haiwezi kuona bei za ubadilishaji au alama za ulimwengu halisi pekee. Oracles hujumlisha data ya nje kwa ajili ya kufilisi, perps na bima. Wanaposhindwa, misururu hufuata."
+      },
+      {
+        "id": "rpc",
+        "title": "RPC & Nodi",
+        "summary": "Jinsi pochi inavyosoma hali ya msururu na shughuli za utangazaji",
+        "intro": "Wallet huzungumza na blockchains kupitia sehemu za mwisho za RPC. RPC za Umma ni rahisi lakini zinaweza kuweka kikomo, kuweka kumbukumbu, au kubadilishwa kwa hadaa. Kuelewa RPC husaidia kutatua \"usawa usio sahihi\" na txs kukwama.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Sio kila mtu anaendesha nodi kamili. RPC hufichua uwezo wa nodi kama API huku zikihifadhi chaguo la kujipanga."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Programu hutuma simu za JSON-RPC kwa hali ya kuuliza au kutuma txs ghafi. Watoa huduma hutofautiana kuhusu kina cha kumbukumbu, faragha na kutegemewa."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "RPC hasidi zinaweza kuonyesha salio bandia au kuhakiki txs. Kuambatisha kusalia karibu, lakini data mbaya bado inaweza kukuhadaa. Thibitisha vitambulisho vya mnyororo unapoongeza mitandao."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Bofya mara moja \"ongeza mtandao\" kutoka kwa tovuti zenye kivuli ni hatari. Kukatika kwa umma sio hitilafu za pochi kila wakati. Kamwe usitoe siri za RPC kwenye nyanja za umma."
+          }
+        ],
+        "keyPoints": [
+          "RPC ndio mlango wa kusoma/kuandika.",
+          "Uwekaji sahihi wa ndani ≠ hali iliyoonyeshwa ya kuaminika.",
+          "Kagua vitendo muhimu kwa wagunduzi.",
+          "Nodi za kibinafsi/ zinazojimilikisha binafsi huboresha faragha/kutegemewa."
+        ],
+        "tips": [
+          "Weka nakala mbili za kuaminika za RPC.",
+          "Kwenye mizani isiyo ya kawaida, badilisha nodi au utumie kichunguzi.",
+          "Andika vigezo rasmi vya mtandao wewe mwenyewe."
+        ],
+        "body": "Wallet huzungumza na blockchains kupitia sehemu za mwisho za RPC. RPC za Umma ni rahisi lakini zinaweza kuweka kikomo, kuweka kumbukumbu, au kubadilishwa kwa hadaa. Kuelewa RPC husaidia kutatua \"usawa usio sahihi\" na txs kukwama."
+      },
+      {
+        "id": "indexers",
+        "title": "Viashiria",
+        "summary": "Kugeuza kumbukumbu ghafi kuwa API za bidhaa zinazoweza kuulizwa",
+        "intro": "Kuchanganua mlolongo mzima kwa kila kiolesura ni polepole. Vielelezo huingiza matukio katika hifadhidata ili portfolios na bao za wanaoongoza zihisi papo hapo—mionekano mingi ya \"historia\" hutoka kwa faharasa, si uchanganuzi kamili wa moja kwa moja.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Bidhaa zinahitaji maswali yaliyochujwa kwa kasi ya mtandao. Wachambuzi na roboti hutegemea safu sawa."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Bainisha schema, tengeneza kumbukumbu, hifadhi, hudumia GraphQL/REST. Kukatika huonyesha UI ya zamani. Mitandao ya faharasa iliyogatuliwa huwapa motisha waendeshaji wengi."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "UI inaweza kulemaza hali halisi ya mnyororo. Uboreshaji unahitaji masasisho ya indexer. Usifilisi kwa kutumia dashibodi pekee—thibitisha kwenye mnyororo."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Viashiria vya rushwa vinapotosha wafanyabiashara. Tovuti za \"kwingineko\" za hadaa zinaiga dashibodi halisi."
+          }
+        ],
+        "keyPoints": [
+          "Maswali ya kasi ya vielelezo; sio makubaliano.",
+          "Data ya UI inaweza kuwa ya zamani.",
+          "Wachunguzi/mkataba ni chanzo cha ukweli kwa hatua muhimu.",
+          "Hitilafu za kielezo zinaonekana kama hitilafu za itifaki."
+        ],
+        "tips": [
+          "Angalia tena hitilafu kwa mgunduzi.",
+          "Tarajia kuchelewa baada ya uboreshaji mkubwa.",
+          "Ufuatiliaji mkubwa unaweza kusoma nodi moja kwa moja."
+        ],
+        "body": "Kuchanganua mlolongo mzima kwa kila kiolesura ni polepole. Vielelezo huingiza matukio katika hifadhidata ili portfolios na bao za wanaoongoza zihisi papo hapo—mionekano mingi ya \"historia\" hutoka kwa faharasa, si uchanganuzi kamili wa moja kwa moja."
+      },
+      {
+        "id": "storage",
+        "title": "Hifadhi Iliyogatuliwa",
+        "summary": "Mitandao yenye anwani ya maudhui ya faili na metadata ya NFT",
+        "intro": "Kuhifadhi faili kubwa kwenye L1 ni ghali, kwa hivyo media mara nyingi hukaa kwenye mifumo kama IPFS/Arweave. Heshi huhakikisha uadilifu, lakini upatikanaji wa mtandaoni bado unahitaji kubandikwa au kudumu kulipwa.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Seva za kati zinaweza kufuta midia ya NFT. Hifadhi iliyogawanywa huboresha uimara na upinzani wa udhibiti kwa programu na seti za data."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Faili hupata vitambulisho vya maudhui; nodi hupata kwa heshi. IPFS inahitaji kubana; baadhi ya mitandao inasisitiza kudumu kwa malipo ya mara moja. Lango la HTTP husaidia vivinjari lakini ongeza uaminifu wa lango."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Ishara kuu za URI zinazoweza kubadilishwa zinadhoofisha hadithi. Hifadhi nakala rudufu muhimu za metadata."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "\"Kwenye IPFS\" ≠ isiyoweza kufa ikiwa hakuna kitu kinachoibandika. Lango hasidi linaweza kuingiza hati. Thibitisha heshi kabla ya kuendesha jozi."
+          }
+        ],
+        "keyPoints": [
+          "Ushughulikiaji wa yaliyomo huzuia uhariri wa kimya, sio kupuuza.",
+          "Uimara wa NFT unategemea kubana/malipo.",
+          "URI za msimamizi zinazoweza kubadilishwa ni alama nyekundu.",
+          "Lango ni uaminifu wa ziada unaofaa."
+        ],
+        "tips": [
+          "Bandika metadata ya NFT za thamani ya juu wewe mwenyewe.",
+          "Thibitisha CID rasmi.",
+          "Wasanidi wanapaswa kupendelea metadata isiyobadilika."
+        ],
+        "body": "Kuhifadhi faili kubwa kwenye L1 ni ghali, kwa hivyo media mara nyingi hukaa kwenye mifumo kama IPFS/Arweave. Heshi huhakikisha uadilifu, lakini upatikanaji wa mtandaoni bado unahitaji kubandikwa au kudumu kulipwa."
+      },
+      {
+        "id": "mev",
+        "title": "MEV",
+        "summary": "Thamani inayoweza kutolewa kutokana na kuagiza na kujumuishwa kwa miamala",
+        "intro": "Wajenzi na watafutaji wanaweza kupanga upya au kuingiza txs—sandwiches, mbio za kufilisi, na zaidi. Watumiaji wanahisi kama kuteleza kwa sumu; itifaki hujibu kwa minada na mtiririko wa kibinafsi.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Mempools za umma hufichua ubadilishaji mkubwa kwa wanyama wanaokula wenzao. Kuelewa MEV inaelezea mipangilio ya kuteleza na chaguzi za uwasilishaji za kibinafsi."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Watafutaji hupata fursa; wajenzi hupakia vitalu; wapendekeza kuchapisha. Baadhi ya minyororo inasambaza tena MEV kwa wadau. Sandwichi hufunga biashara yako kwa bei mbaya zaidi."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Vifuniko vya utelezi, relay za kibinafsi, minada ya kundi, na dhamira hupunguza madhara. Mfuatano wa L2 unaweza kutoa MEV pia."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Sio kila ujazo mbaya ni MEV - kuteleza kwa upana ni kujiletea mwenyewe. Epuka viendelezi vya michoro vya \"anti-MEV\"."
+          }
+        ],
+        "keyPoints": [
+          "MEV inatokana na mtiririko wa umma unaoweza kupangwa.",
+          "Watumiaji hupunguza kupitia utelezi na njia za kibinafsi.",
+          "Ubunifu wa itifaki hutenga tena MEV.",
+          "Ichukulie kama ukweli wa uhandisi."
+        ],
+        "tips": [
+          "Gawanya swaps kubwa na kaza utelezi.",
+          "Tumia pochi/ruta zilizo na chaguzi za kibinafsi.",
+          "Epuka maagizo makubwa ya soko katika machafuko ya kilele."
+        ],
+        "body": "Wajenzi na watafutaji wanaweza kupanga upya au kuingiza txs—sandwiches, mbio za kufilisi, na zaidi. Watumiaji wanahisi kama kuteleza kwa sumu; itifaki hujibu kwa minada na mtiririko wa kibinafsi."
+      },
+      {
+        "id": "sdks",
+        "title": "Zana ya Wasanidi Programu",
+        "summary": "Mifumo ya majaribio, maktaba, na vifaa vya akaunti vinavyoinua sakafu ya usalama",
+        "intro": "Usalama wa mfumo ikolojia unategemea majaribio ya mtindo wa Foundry/Hardhat, maktaba zilizochapwa, uigaji na vifaa vya akaunti—sio wakaguzi pekee. Zana bora kunasa hitilafu mapema na kusaidia pochi kuelezea saini.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Usambazaji wa mikono haukufaulu. Mikataba isiyojaribiwa ni mabomu ya wakati. SDK za mbele huunganisha muunganisho wa minyororo mingi na kushughulikia makosa."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Majaribio yaliyogawanyika, kuchanganya, kutumia hati, ufuatiliaji, na SDK za AA huunda kitanzi. Uigaji wa ishara mapema huonyesha tofauti za vipengee."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Utegemezi wa kudumu hubeba CVE zinazojulikana. Mashambulizi ya mnyororo wa usambazaji hugonga vifurushi \"salama\". Watumiaji wanapaswa kupendelea pochi zilizotiwa saini wazi."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Kunakili-kubandika sampuli ambazo hazijakaguliwa kwa mainnet ni kutojali. Viendelezi bandia vya \"zana za usanidi\" huiba funguo."
+          }
+        ],
+        "keyPoints": [
+          "Vifaa ni miundombinu ya usalama isiyoonekana.",
+          "Iga kabla ya pesa za mainnet.",
+          "Usafi wa utegemezi ni kazi ya usalama.",
+          "Uwekaji sahihi wa cheti hupunguza mafanikio ya kuhadaa ya mtumiaji."
+        ],
+        "tips": [
+          "Wasanidi: njia muhimu za mtihani wa uma.",
+          "Watumiaji: washa uigaji.",
+          "Sakinisha viendelezi kutoka kwa vyanzo rasmi pekee."
+        ],
+        "body": "Usalama wa mfumo ikolojia unategemea majaribio ya mtindo wa Foundry/Hardhat, maktaba zilizochapwa, uigaji na vifaa vya akaunti—sio wakaguzi pekee. Zana bora kunasa hitilafu mapema na kusaidia pochi kuelezea saini."
+      },
+      {
+        "id": "identity",
+        "title": "Utambulisho wa mnyororo",
+        "summary": "Majina yanayosomeka, uthibitisho, na sifa ya uratibu wa binadamu",
+        "intro": "Anwani ndefu ni rahisi kuandika vibaya. Taja mifumo ya ramani ya lebo za binadamu kwa rekodi; itifaki za uthibitisho hutoa madai kama vile uanachama. Utumiaji huongezeka—na pia masuala ya faragha na uigaji huongezeka.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Malipo na kijamii yanahitaji vipini vya kukumbukwa. Majina hupunguza makosa ya uhamishaji na hufanya kama kadi za biashara za Web3. Sifa husaidia kupambana na Sybil na biashara ya faragha."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Sajili jina, weka rekodi, kwa hiari kukusanya uthibitisho uliotiwa saini. Baadhi ya vitambulisho vimefungwa moyoni."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Majina yanaisha; rekodi kubadilika. Mfuatano huo unaweza kusuluhisha tofauti katika minyororo. Tenganisha anwani za utambulisho kutoka kwa vali."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Vikoa vya uigaji huiba pesa. Kufunga kila kitambulisho kwa anwani moja inayoweza kubadilika kutakuweka wazi kupita kiasi."
+          }
+        ],
+        "keyPoints": [
+          "Majina ni safu ya azimio, sio dhamana ya benki.",
+          "Angalia anwani zilizotatuliwa kila wakati kabla ya kutuma.",
+          "Uthibitishaji husaidia kuratibu na gharama za faragha.",
+          "Gawanya utambulisho wa umma kutoka kwa anwani za vault."
+        ],
+        "tips": [
+          "Thibitisha azimio wakati wa kutuma.",
+          "Weka vikumbusho vya kuisha muda wake.",
+          "Tumia anwani ya thamani ya chini kwa mitandao ya kijamii."
+        ],
+        "body": "Anwani ndefu ni rahisi kuandika vibaya. Taja mifumo ya ramani ya lebo za binadamu kwa rekodi; itifaki za uthibitisho hutoa madai kama vile uanachama. Utumiaji huongezeka—na pia masuala ya faragha na uigaji huongezeka."
+      },
+      {
+        "id": "aa-infra",
+        "title": "Bundlers & Paymasters",
+        "summary": "Reli za nyuma ambazo hufunga Uendeshaji wa Mtumiaji na gesi inayofadhiliwa",
+        "intro": "Bila vifurushi, Uendeshaji wa Watumiaji hujitahidi kutua; bila walipaji, ufadhili wa gesi na \"kulipa kwa ishara yoyote\" ni ngumu. Infra ya AA ambayo haijasanidiwa vibaya inazimika au matumizi mabaya.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Watumiaji hawapendi kushikilia tokeni ya gesi ya kila msururu. Programu zinataka kufadhili vitendo vya kwanza. Miundombinu huwezesha sera hizo za bidhaa kwa bajeti na orodha za vibali."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Pochi hujenga Uendeshaji wa Mtumiaji; bundlers kuiga na kuwasilisha; EntryPoint inatekeleza; mfuko wa walipaji kwa kila sera yenye viwango vya viwango."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Je, udhamini unafungamana na mikataba fulani? Je, inaweza kulimwa? Je, wasafirishaji watajidhibiti? Ugatuaji huathiri ustahimilivu."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Miisho hasidi na vipindi virefu vilivyosalia baada ya kampeni ni hatari. Bila gesi ≠ idhini-chini."
+          }
+        ],
+        "keyPoints": [
+          "AA UX inategemea vifurushi/walipaji wanaotegemewa.",
+          "Ufadhili unahitaji sheria za kupinga matumizi mabaya.",
+          "Chaguo la mwisho huathiri faragha na udhibiti.",
+          "Watumiaji lazima bado wasome sahihi."
+        ],
+        "tips": [
+          "Fuata vidokezo chaguomsingi vya pochi vinavyoaminika.",
+          "Batilisha vikao baada ya kampeni.",
+          "Chukulia kutokuwa na gesi kwa mshangao kama jambo la kutiliwa shaka."
+        ],
+        "body": "Bila vifurushi, Uendeshaji wa Watumiaji hujitahidi kutua; bila walipaji, ufadhili wa gesi na \"kulipa kwa ishara yoyote\" ni ngumu. Infra ya AA ambayo haijasanidiwa vibaya inazimika au matumizi mabaya."
+      }
+    ]
+  },
+  {
+    "id": "wallets",
+    "name": "Pochi",
+    "summary": "Programu na vifaa vinavyoshikilia funguo zako",
+    "blurb": "Pochi moto/baridi, mbegu, aina nyingi, na mifano ya ulinzi imeelezwa.",
+    "items": [
+      {
+        "id": "hot",
+        "title": "Pochi Moto",
+        "summary": "Mikoba ya programu iliyounganishwa kwa mizani ndogo ya kila siku",
+        "intro": "Vivinjari na pochi za rununu hufanya dApps papo hapo. Urahisi huongeza eneo la mashambulizi: tovuti hasidi, viendelezi bandia, programu hasidi ya ubao wa kunakili, simu zilizopotea. Zichukulie kama akaunti za kuangalia, sio kuokoa maisha.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Pochi baridi ni ngumu kwa DeFi ya masafa ya juu. Pochi moto hufundisha kutia sahihi na kubadili mtandao haraka."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Vifunguo vimewekwa kwa njia fiche kwenye kifaa; fungua ndani ya nchi; tangaza kupitia RPC. Kuunganisha dApp hushiriki anwani, wala si ufunguo—bado sahihi saini hatari bado hazipo."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Gawanya matumizi dhidi ya akaunti za akiba. Kagua posho. Biometriska hulinda ufunguaji wa programu, si urejeshaji wa msururu."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "APK zilizopakiwa kando, kurasa za \"kusawazisha\" mbegu, na kompyuta za umma ni zisizo za kawaida."
+          }
+        ],
+        "keyPoints": [
+          "Pochi moto huongeza urahisi.",
+          "Hifadhi tu pesa zinazostahimili hasara huko.",
+          "Saini/viidhinisho ndio hatari kuu.",
+          "Safu na uhifadhi wa baridi."
+        ],
+        "tips": [
+          "Pakua kutoka kwa vituo rasmi pekee.",
+          "Tumia wasifu maalum wa kivinjari kwa crypto.",
+          "Idhini za tokeni za ukaguzi kila wiki."
+        ],
+        "body": "Vivinjari na pochi za rununu hufanya dApps papo hapo. Urahisi huongeza eneo la mashambulizi: tovuti hasidi, viendelezi bandia, programu hasidi ya ubao wa kunakili, simu zilizopotea. Zichukulie kama akaunti za kuangalia, sio kuokoa maisha."
+      },
+      {
+        "id": "hardware",
+        "title": "Pochi za Vifaa",
+        "summary": "Vifunguo kwenye chipu salama yenye uthibitishaji wa kifaa",
+        "intro": "Pochi za vifaa huweka funguo za kibinafsi mbali na Kompyuta iliyoambukizwa. Bado ni lazima usome skrini ya kifaa—kuambatisha cheti bila upofu au programu dhibiti yenye kivuli kunaweza kushinda chipu bora zaidi.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Umiliki wa muda mrefu na mkubwa unahitaji kutengwa zaidi. Uthibitisho wa kimwili huongeza kizuizi kwa wizi wa mbali. Timu huzitumia kama vidhibiti vya msingi vya kuba."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Mwenyeji hujenga tx; kifaa kinaonyesha muhtasari; unaidhinisha; saini inarudi kwa matangazo. Mbegu zinazozalishwa kwenye init ni chelezo. Masasisho ya programu dhibiti lazima yawe rasmi."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Nunua vifaa vya kweli; kujua sera za kusaini kwa upofu kwa kila mlolongo. Kupoteza kifaa ni sawa ikiwa mbegu ni salama; kupoteza mbegu sio."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Vifaa vya mitumba vilivyoharibiwa, tovuti za \"kikagua\" zinazouliza mbegu, na SAWA-bila-kusoma ni njia za kushindwa."
+          }
+        ],
+        "keyPoints": [
+          "Kutengwa kwa vifaa huzuia wizi mwingi wa vitufe vya mbali.",
+          "Uthibitishaji wa skrini bado upo kwako.",
+          "Hifadhi nakala ya mbegu ni sawa na kifaa katika umuhimu.",
+          "Mnyororo wa usambazaji na suala la usafi wa firmware."
+        ],
+        "tips": [
+          "Nunua kutoka kwa rejareja rasmi/maarufu.",
+          "Jaribu kwa uhamishaji mdogo baada ya kusanidi.",
+          "Linganisha anwani kamili kwenye kifaa kwa ukubwa."
+        ],
+        "body": "Pochi za vifaa huweka funguo za kibinafsi mbali na Kompyuta iliyoambukizwa. Bado ni lazima usome skrini ya kifaa—kuambatisha cheti bila upofu au programu dhibiti yenye kivuli kunaweza kushinda chipu bora zaidi."
+      },
+      {
+        "id": "seed",
+        "title": "Maneno ya mbegu",
+        "summary": "Hifadhi rudufu zinazoweza kusomeka na binadamu zinazozalisha upya funguo za pochi",
+        "intro": "Maneno 12/24 si nenosiri la kuingia—ni siri kuu inayounda upya funguo. Mtu yeyote aliye na maneno hayo anaweza kumwaga pochi mahali pengine. Hakuna wakala halisi wa usaidizi anayehitaji mbegu yako \"kukuthibitisha\".",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Vifaa vinakufa. Mbegu hukuruhusu kurejesha akaunti sawa mahali pengine katika fomu inayoweza kuandikwa nje ya mtandao."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "BIP-39 hubadilisha entropy kuwa maneno yaliyopangwa ambayo hupata akaunti. Agizo lisilo sahihi limeshindwa kurejesha. Kaulisiri za hiari huongeza hatari ya usalama na usahaulifu."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Picha, usawazishaji wa wingu na gumzo si salama. Hifadhi za chuma hupiga karatasi dhidi ya moto / maji. Hifadhi rudufu za maeneo mengi lazima zisawazishe wizi dhidi ya hasara ya jumla."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Kurasa za \"usawazishaji wa pochi\" ya hadaa na usaidizi bandia ni wauaji wakuu. Kuandika mbegu kwenye tovuti yoyote ni dharura."
+          }
+        ],
+        "keyPoints": [
+          "Mbegu ni mali.",
+          "Iweke nje ya mtandao milele.",
+          "Mtiririko halali haudai kamwe.",
+          "Ubunifu wa kupunguza kazi dhidi ya moto na wizi."
+        ],
+        "tips": [
+          "Andika kwa mkono na uangalie upya mpangilio wa maneno.",
+          "Usihifadhi kamwe katika picha au barua pepe.",
+          "Panga urithi kwa makusudi."
+        ],
+        "body": "Maneno 12/24 si nenosiri la kuingia—ni siri kuu inayounda upya funguo. Mtu yeyote aliye na maneno hayo anaweza kumwaga pochi mahali pengine. Hakuna wakala halisi wa usaidizi anayehitaji mbegu yako \"kukuthibitisha\"."
+      },
+      {
+        "id": "multisig",
+        "title": "Multisig",
+        "summary": "Akaunti zinazoshirikiwa zinazohitaji uidhinishaji wa M-of-N",
+        "intro": "Multisig hubadilisha \"hadaa moja hupoteza yote\" kuwa \"lazima watu kadhaa wakubali.\" Inafaa kwa hazina na familia. Inapunguza pointi moja ya kushindwa na inaongeza uratibu wa juu.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Vaults za ufunguo mmoja hufa kwa kosa moja. Multisig huwalazimisha washambuliaji kuhatarisha watia saini wengi na kusimba mgawanyo wa mamlaka."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Mkataba au mpango asili huweka kizingiti na wamiliki. Pendekeza → kukusanya sahihi → tekeleza. Mzunguko wa saini na moduli zinahitaji uangalifu sawa."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Vifaa mbalimbali hushinda programu hasidi zinazohusiana. Fedha za matofali ya vizingiti vya juu sana; vizingiti vya chini sana hudhoofisha usalama. Moduli za dharura zinaweza kuwa nyuma."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Watia saini wote kwenye kivinjari kimoja motomoto, hawafanyi mazoezi ya kurejesha uwezo wa kufikia data binafsi, na kuhadaa Kiolesura Salama ni makosa ya kawaida."
+          }
+        ],
+        "keyPoints": [
+          "Multisig hueneza ufunguo na hatari ya uamuzi.",
+          "Muundo wa kizingiti huweka upatikanaji dhidi ya usalama.",
+          "Fanya mazoezi ya kusaini na kubadilisha.",
+          "Alamisha violesura rasmi."
+        ],
+        "tips": [
+          "Tumia vifaa/OS mbalimbali za kutia sahihi.",
+          "Fanya mazoezi madogo ya robo mwaka.",
+          "Hati hatua za kubadilisha saini iliyopotea."
+        ],
+        "body": "Multisig hubadilisha \"hadaa moja hupoteza yote\" kuwa \"lazima watu kadhaa wakubali.\" Inafaa kwa hazina na familia. Inapunguza pointi moja ya kushindwa na inaongeza uratibu wa juu."
+      },
+      {
+        "id": "smart-accounts",
+        "title": "Akaunti za Smart",
+        "summary": "Pochi zinazoweza kupangwa zilizo na vikomo, walezi, batching, na vipindi",
+        "intro": "Akaunti mahiri husimba sera: vikomo vya kila siku, orodha za ruhusa, urejeshaji na simu za kundi. Unyumbulifu zaidi kuliko EOAs—na njia zaidi za kusanidi moduli.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "EOAs ni yote-au-hakuna chochote. Akaunti mahiri huwezesha upendeleo wa chini wa kila siku kwa uchunguzi wa ziada wa thamani ya juu, ukiunganisha kwenye UX isiyo na mbegu."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Mantiki huishi katika mkataba na vithibitishaji vinavyoweza kuchomekwa, mara nyingi huoanishwa na vifurushi/walipaji wa AA. Uboreshaji wa moduli lazima ulindwe."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Upendeleo mdogo, ukaguzi, na njia za urejeshaji zilizojaribiwa ni muhimu. Jua ni nani anayeweza kupata toleo jipya kabla ya kuiita ghala."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Programu-jalizi ambazo hazijakaguliwa, walezi wasiojua kitu, na akaunti mahiri zinazoamini hukomesha wizi wote wa data binafsi ni makosa."
+          }
+        ],
+        "keyPoints": [
+          "Akaunti mahiri ni ulinzi wa kibinafsi unaotegemea sera.",
+          "Kubadilika huongeza uso wa mashambulizi.",
+          "Haki za moduli/kuboresha ni usalama wa msingi.",
+          "Mazoea bado ni muhimu."
+        ],
+        "tips": [
+          "Zima programu-jalizi ambazo hazijatumika.",
+          "Mabadiliko makubwa ya sera ya kuzuia wakati.",
+          "Andika na ufanyie mazoezi vitabu vya urejeshaji."
+        ],
+        "body": "Akaunti mahiri husimba sera: vikomo vya kila siku, orodha za ruhusa, urejeshaji na simu za kundi. Unyumbulifu zaidi kuliko EOAs—na njia zaidi za kusanidi moduli."
+      },
+      {
+        "id": "custody",
+        "title": "Miundo ya Uhifadhi",
+        "summary": "Yeyote anayeshikilia funguo hudhibiti mali",
+        "intro": "Walinzi hufanya biashara ya kuweka upya nenosiri na usaidizi kwa hatari ya wenzao. Kujitunza kunauza uhuru kwa hatari ya kibinafsi. Watu wengi huchanganya zote mbili: biashara kwenye majukwaa, ila kwenye pochi.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Malengo tofauti yanahitaji mifano tofauti ya hatari. Kujitunza safi kunatisha wanaoanza; ulinzi safi huumiza katika kushindwa kwa jukwaa."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Mizani ya uhifadhi mara nyingi ni leja za ndani hadi uondoaji. Kujitunza hutangaza kila hatua. Walinzi wanaodhibitiwa wanaweza kuthibitisha akiba-bado si hatari sifuri."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Husimamisha, foleni, mamlaka, na uthibitisho wa kuhifadhi vitu vya ubora. Kushindwa kujilinda kunaonekana kama mbegu zilizopotea na sahihi mbaya."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "\"Kubwa sana kushindwa\" imeshindwa mara kwa mara. Kuhifadhi mbegu katika daftari la kubadilishana sio kujitunza."
+          }
+        ],
+        "keyPoints": [
+          "Mahali muhimu hufafanua udhibiti.",
+          "Urahisi dhidi ya uhuru ni biashara.",
+          "Ugawaji wa mseto ni wa kisayansi.",
+          "Kila mfano unashindwa tofauti."
+        ],
+        "tips": [
+          "Ondoa mifuko ya muda mrefu ili kujilinda.",
+          "Pendelea kumbi zenye uwazi.",
+          "Jizoeze kujitunza na saizi ndogo kwanza."
+        ],
+        "body": "Walinzi hufanya biashara ya kuweka upya nenosiri na usaidizi kwa hatari ya wenzao. Kujitunza kunauza uhuru kwa hatari ya kibinafsi. Watu wengi huchanganya zote mbili: biashara kwenye majukwaa, ila kwenye pochi."
+      }
+    ]
+  },
+  {
+    "id": "gaming",
+    "name": "Michezo ya kubahatisha",
+    "summary": "Michezo na ulimwengu pepe wenye mali inayomilikiwa",
+    "blurb": "Uchezaji wa michezo, uchumi, miundombinu na hali za kubahatisha za kushindwa.",
+    "items": [
+      {
+        "id": "play",
+        "title": "Cheza na Umiliki",
+        "summary": "Furahia kwanza, umiliki unaoweza kuthibitishwa kama bonasi—sio udanganyifu wa mshahara",
+        "intro": "Michezo ya afya ya crypto inatanguliza burudani; umiliki unakuza, haubadilishi muundo. Masoko ya upili yanapaswa kuwa matokeo, sio yaliyomo pekee.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Uvumi safi huanguka kwa dubu. Kupachika umiliki katika vitanzi vya kufurahisha kweli huboresha uhifadhi na kuwezesha uchumi wa watayarishi."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Mchezo wa kimsingi huendesha haraka nje ya mnyororo au kwenye reli maalum; makazi adimu yaligonga mlolongo. Studio hupata mapato kupitia UX, ada na huduma wakati wa kurekebisha uchumi."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Vipimo vya kuhifadhi na kutumia vinazidi chati za tokeni kama ishara za afya. Udhibiti bado unaweza kulazimisha tokeni za bidhaa."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Kuchukulia grind kama kazi na kupuuza usalama wa akaunti ni mitego ya kawaida."
+          }
+        ],
+        "keyPoints": [
+          "Furahia kwanza, fedha pili.",
+          "Umiliki hauwezi kuokoa uchovu.",
+          "Uchumi wenye afya usawa mizani na vyanzo.",
+          "Tenga funguo za mchezo kutoka kwa vaults."
+        ],
+        "tips": [
+          "Cheza kabla ya kununua vitu vya gharama kubwa.",
+          "Soma madokezo ya uchumi na historia ya viraka.",
+          "Weka \"mapato\" yoyote kama uvumi wa hatari kubwa."
+        ],
+        "body": "Michezo ya afya ya crypto inatanguliza burudani; umiliki unakuza, haubadilishi muundo. Masoko ya upili yanapaswa kuwa matokeo, sio yaliyomo pekee."
+      },
+      {
+        "id": "economies",
+        "title": "Uchumi wa ndani ya mchezo",
+        "summary": "Utoaji na sinki huamua kama bei za bidhaa zinaweza kusimama",
+        "intro": "Uchumi huria hutenda kama mifumo midogo ya fedha: uzalishaji usioisha bila sinki huporomoka bei. Kusoma uzalishaji dhidi ya uharibifu kunashinda kusikiliza kauli mbiu za GameFi.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Biashara huria huondoa udhibiti fulani wa studio, na kulazimisha muundo mbaya zaidi ili wachezaji wa muda mrefu na wafanyabiashara waweze kuishi pamoja."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Jumuia hutoa; kutengeneza/kukarabati/kuzama kwa misimu; dashibodi zinaonyesha mfumuko wa bei. Bei za tokeni za nje hushtua vitanzi vya ndani."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Tokeni mbili, nishati na kodi ya ardhi inaweza kusaidia au kuchanganya. Tazama timu ikifungua na pochi za kutengeneza soko."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Mavuno ya mapema huvutia mamluki, sio wachezaji. Kuiga uchumi bila hadhira kunashindikana."
+          }
+        ],
+        "keyPoints": [
+          "Fanya mfumuko wa bei/mfuko wa bei uonekane.",
+          "Hisa kubwa ya mamluki ni dhaifu.",
+          "Bafa ishara za mishtuko za nje.",
+          "Urekebishaji wa uwazi hujenga uaminifu."
+        ],
+        "tips": [
+          "Fuata ripoti rasmi za uchumi.",
+          "Kupunguza ukubwa wakati wa awamu za hyper-APY.",
+          "Pendelea mali iliyo na sinki halisi."
+        ],
+        "body": "Uchumi huria hutenda kama mifumo midogo ya fedha: uzalishaji usioisha bila sinki huporomoka bei. Kusoma uzalishaji dhidi ya uharibifu kunashinda kusikiliza kauli mbiu za GameFi."
+      },
+      {
+        "id": "worlds",
+        "title": "Ulimwengu wa kweli",
+        "summary": "Masimulizi ya ardhi inayomilikiwa na nafasi ya kijamii",
+        "intro": "Ardhi pepe huuza eneo, trafiki na uwepo. Baadhi ya walimwengu huandaa shughuli inayoendelea; wengine hukwama baada ya mauzo. Jaji kwa wajenzi na DAU, sio trela za sinema.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Watu wanataka matumizi ya kawaida ya dijiti na mbele za duka zinazodumu. Umiliki wa mtandaoni huwezesha masoko ya pili na majaribio ya chapa."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Ardhi NFTs pamoja na wateja pamoja na ukodishaji wa hiari. Maudhui hutoka kwa watumiaji au maafisa; utendaji mara nyingi hutegemea seva za jadi."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Trafiki ya miguu huweka thamani ya ardhi. Ulimwengu tupu ni sanaa ya kubahatisha. Haki za kujenga na mirabaha huchangia utayari wa waundaji."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "FOMO ya mauzo ya msingi na kutibu slaidi za metaverse kama mazao ya muda mfupi ni mitego."
+          }
+        ],
+        "keyPoints": [
+          "Bei za trafiki zinatua.",
+          "Uzoefu wa mteja unazidi kauli mbiu.",
+          "Interop kawaida huchelewesha mauzo.",
+          "Tathmini mifumo ikolojia ya wajenzi."
+        ],
+        "tips": [
+          "Tembelea kama mtalii kwanza.",
+          "Angalia data ya ukodishaji/tukio kabla ya kununua.",
+          "Epuka timu za kuuza tu, zisizojenga kamwe."
+        ],
+        "body": "Ardhi pepe huuza eneo, trafiki na uwepo. Baadhi ya walimwengu huandaa shughuli inayoendelea; wengine hukwama baada ya mauzo. Jaji kwa wajenzi na DAU, sio trela za sinema."
+      },
+      {
+        "id": "infra-game",
+        "title": "Mchezo Miundombinu",
+        "summary": "Ubadilishanaji wa uhandisi kati ya utulivu wa chini na utatuzi wa mnyororo",
+        "intro": "Michezo ya vitendo inahitaji maoni ya milisekunde. Studio hutumia seva zinazoidhinishwa pamoja na mali adimu zinazopatikana kwenye mnyororo, au minyororo maalum ya matokeo ya juu. Kujua mipaka ya uaminifu huzuia mkanganyiko wa uuzaji \"uliogatuliwa kikamilifu\".",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Vitanzi safi vya L1 ni polepole/ghali sana kwa aina nyingi. Uwekaji tabaka huweka UX inayoweza kucheza na uhaba unaoweza kuthibitishwa."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Kufanya mechi/kupambana na mnyororo; mints/trades/jackpots on-chain. Kuzuia kudanganya hukaa kwa kiasi kikubwa nje ya mnyororo. Appchains huongeza matokeo lakini ongeza gharama za daraja/uwezo."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Ni sehemu gani zinazoamini seva? Je, mali zitasalia baada ya kuzimwa kwa studio? Hiyo inafafanua jinsi \"umiliki\" halisi ulivyo."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Madai ya \"kamili kwenye mnyororo\" yenye ukweli unaoweza kubadilika wa seva. Kuunganisha mali za mchezo kupitia tovuti bandia."
+          }
+        ],
+        "keyPoints": [
+          "Mseto ni kawaida ya uhandisi.",
+          "Kuchelewa na ugatuaji huvuta njia tofauti.",
+          "Sera ya kuzima huathiri maana ya kipengee.",
+          "Appchains huongeza ugumu wa daraja."
+        ],
+        "tips": [
+          "Soma hati za mipaka ya uaminifu.",
+          "Hamisha mali muhimu kwenye pochi za kujilinda.",
+          "Jaribu testnets kabla ya amana za mainnet."
+        ],
+        "body": "Michezo ya vitendo inahitaji maoni ya milisekunde. Studio hutumia seva zinazoidhinishwa pamoja na mali adimu zinazopatikana kwenye mnyororo, au minyororo maalum ya matokeo ya juu. Kujua mipaka ya uaminifu huzuia mkanganyiko wa uuzaji \"uliogatuliwa kikamilifu\"."
+      },
+      {
+        "id": "modding",
+        "title": "Modding & UGC",
+        "summary": "Watayarishi hupata mapato wakati ramani, ngozi na mods zinaweza kutulia kwa uwazi",
+        "intro": "UGC huongeza maisha ya mchezo. Ikiwa mods zinaweza kuuzwa na kugawanyika wazi, watayarishi hujitokeza. On-mnyororo splits misaada ukaguzi; Utoaji leseni wa IP bado huamua ikiwa itaongezeka.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "UGC ya kawaida inakabiliwa na mabadiliko ya ghafla ya sera ya jukwaa. Masoko ya wazi na mirahaba inayoweza kupangwa hutoa njia nyingine ya motisha na maudhui bora ya wachezaji."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Watayarishi huchapisha mali → biashara ya masoko → mikataba hugawanya mapato. Ukadiriaji na ugunduzi huamua ikiwa ubora utazingatia."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Upeo wa leseni, sera ya maudhui, na urejeshaji malipo unasalia. Hisabati ya mtandaoni haisuluhishi kesi kiotomatiki."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Kununua mods za chapa zisizoidhinishwa na ishara tete za waundaji ni hatari."
+          }
+        ],
+        "keyPoints": [
+          "UGC inahitaji IP wazi na sheria za mapato.",
+          "Ugunduzi/udhibiti wa kuweka ubora.",
+          "Migawanyiko inayoweza kupangwa huongeza uwazi.",
+          "Tabaka za kisheria bado zinatumika."
+        ],
+        "tips": [
+          "Watayarishi: soma leseni za mifumo.",
+          "Wachezaji: angalia alama za idhini.",
+          "Pesa na mipaka ya hatari ya kibinafsi."
+        ],
+        "body": "UGC huongeza maisha ya mchezo. Ikiwa mods zinaweza kuuzwa na kugawanyika wazi, watayarishi hujitokeza. On-mnyororo splits misaada ukaguzi; Utoaji leseni wa IP bado huamua ikiwa itaongezeka."
+      },
+      {
+        "id": "risks",
+        "title": "Hatari ya Mchezo ya kubahatisha",
+        "summary": "Wakati furaha inategemea kupanda kwa bei, masoko ya dubu huvunja kitanzi",
+        "intro": "Miradi iliyoshindwa huchukulia pampu za tokeni kama maudhui. Wachezaji wanakuwa mamluki, uchumi hubadilika upya, na matengenezo hukoma bei inaposhuka. Kugundua muundo huokoa masomo.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Elimu ya hatari ni sehemu ya bidhaa yenye afya: jumuiya zinazojadili mfumuko wa bei kwa uaminifu hushinda mifarakano ya hali ya juu."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Uzalishaji wa juu huvutia kuingia → kuuza kupanda kwa shinikizo → bei hupungua → wachezaji huondoka. Mapumziko mara nyingi huonekana wakati motisha hukatwa. Majina machache yamefanikiwa kugeukia michezo halisi."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Je, mapato ni waingiaji wapya? Je, timu inasafirisha masasisho yanayoweza kuchezwa? Bei ya pili si kipimo cha kufurahisha."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Misemo ya FOMO ya utekaji na usagaji unaosababishwa ni ishara za hatari."
+          }
+        ],
+        "keyPoints": [
+          "Bei haiwezi kuchukua nafasi ya uchezaji.",
+          "Kupunguzwa kwa motisha ni vipimo vya mkazo.",
+          "Hisa ya mamluki inatabiri udhaifu.",
+          "Hatari tu fedha za hiari."
+        ],
+        "tips": [
+          "Uliza: ningecheza kwa bei ya sifuri ya ishara?",
+          "Tazama sasisho za maudhui halisi.",
+          "Kataa kusaga kwa kiwango kikubwa."
+        ],
+        "body": "Miradi iliyoshindwa huchukulia pampu za tokeni kama maudhui. Wachezaji wanakuwa mamluki, uchumi hubadilika upya, na matengenezo hukoma bei inaposhuka. Kugundua muundo huokoa masomo."
+      }
+    ]
+  },
+  {
+    "id": "daos",
+    "name": "DAOs",
+    "summary": "Jumuiya zinazotawala kwa kura za msururu",
+    "blurb": "Utawala, hazina, mapendekezo, nyaraka za kisheria na maeneo ya mashambulizi.",
+    "items": [
+      {
+        "id": "governance",
+        "title": "Utawala wa Ishara",
+        "summary": "Kura zinazoweka vigezo, masasisho na matumizi",
+        "intro": "DAO husukuma uboreshaji na maamuzi ya hazina kwa wamiliki wa tokeni au mifumo ya sifa. Kura moja ya ishara-moja ni rahisi na inakabiliwa na nyangumi; ujumbe na miundo mingine hujaribu kuboresha uwakilishi. Nguvu ya kupiga kura ni ushawishi-na uso wa mashambulizi.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Itifaki lazima zibadilike bila kuwa udikteta wa kampuni moja. Kura za msururu huacha njia zinazoweza kukaguliwa na zinaweza kuwabana timu."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Pendekezo → majadiliano → piga kura → mpangilio wa saa → utekelezaji. Uteuzi huwaruhusu wamiliki wadogo kukabidhi wataalam. Akidi na kura za turufu hufichua upigaji kura wa chini."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Usambazaji, saizi ya hazina, na urefu wa saa ni muhimu. Wapiga kura waliopunguzwa hewani wanaweza kuwa wasiojali. Hali ya jukwaa inaweza kutofautiana na matokeo ya mtandaoni."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Kura za mkopo wa haraka (ikiwa zinaruhusiwa), hongo, na upigaji kura ambao haujasomwa ni hatari."
+          }
+        ],
+        "keyPoints": [
+          "Utawala hutenga madaraka.",
+          "Ubunifu wa utaratibu hupigana na nyangumi na kutojali.",
+          "Kufunga saa ni breki muhimu.",
+          "Soma athari na migogoro kabla ya kupiga kura."
+        ],
+        "tips": [
+          "Kasimu kwa wawakilishi wanaowajibika.",
+          "Tazama vituo vya maandamano wakati wa kufunga saa.",
+          "Chunguza mapendekezo makubwa ya hazina."
+        ],
+        "body": "DAO husukuma uboreshaji na maamuzi ya hazina kwa wamiliki wa tokeni au mifumo ya sifa. Kura moja ya ishara-moja ni rahisi na inakabiliwa na nyangumi; ujumbe na miundo mingine hujaribu kuboresha uwakilishi. Nguvu ya kupiga kura ni ushawishi-na uso wa mashambulizi."
+      },
+      {
+        "id": "treasury",
+        "title": "DAO Hazina",
+        "summary": "Mtaji ulioshirikiwa kwenye mnyororo wa ujenzi, ukwasi na vihifadhi",
+        "intro": "Hazina ni risasi za DAO. Mseto, uwazi, na mchakato wa matumizi huamua kama ni njia ya kurukia ndege au vyungu vya asali. Multisigs au magavana hudhibiti malipo ambayo jumuiya inapaswa kukagua.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Bidhaa za umma zinahitaji ufadhili kwa ukaguzi, wajenzi na motisha. Hazina huweka thamani chini ya udhibiti unaoonekana na jamii na zinaweza kuleta utulivu."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Mapato kutoka kwa ada / utoaji / ufadhili; hutoka kupitia mapendekezo. Huenda hisa zikachanganya stables, majors, na tokeni asili - mkusanyiko asilia ni hatari rejea."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Miezi ya kukimbia, hatari ya FX, na orodha za anwani ni muhimu. Ahadi laini zinahesabiwa pia."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Hazina zenye tete na matumizi ya vyama visivyoeleweka ni alama nyekundu."
+          }
+        ],
+        "keyPoints": [
+          "Afya = uwazi + mseto + mchakato.",
+          "Mifuko ya reflexive huongeza migogoro.",
+          "Matumizi lazima yawajibike.",
+          "Usafi muhimu wa Multisig ni msingi."
+        ],
+        "tips": [
+          "Soma ripoti za fedha za mara kwa mara.",
+          "Tazama hisa ya hifadhi ya stablecoin.",
+          "Pendelea malipo makubwa yaliyotiririshwa."
+        ],
+        "body": "Hazina ni risasi za DAO. Mseto, uwazi, na mchakato wa matumizi huamua kama ni njia ya kurukia ndege au vyungu vya asali. Multisigs au magavana hudhibiti malipo ambayo jumuiya inapaswa kukagua."
+      },
+      {
+        "id": "proposals",
+        "title": "Pendekezo Lifecycle",
+        "summary": "Kutoka kwa rasimu ya jukwaa hadi utekelezaji wa mnyororo",
+        "intro": "Mapendekezo mazuri yanajadiliana nje ya msururu, angalia halijoto, piga kura kwenye msururu, kisha utekeleze baada ya kufunga muda. Mshangao \"mapendekezo ya umeme\" ni harufu. Jua uko katika hatua gani.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Mchakato huchukua nafasi ya udikteta au machafuko, na kuwapa wapinzani muda wa kuandaa na kuingiza ukaguzi/uhakiki wa kisheria inapohitajika."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Rasimu → maoni → maandishi ya mwisho → piga kura → foleni. Mawazo yaliyoshindwa yanaweza kusasishwa. Mifumo mingine hutumia sahihi za nje ya mnyororo zisizo na gesi kupiga kura."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Akidi, vizingiti, na njia za dharura ni muhimu—dharura za nje ya nchi ziko nyuma. Calldata inayoweza kutekelezwa lazima ilingane na maandishi."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Upigaji kura wa kichwa pekee na kupuuza arifa za kufunga saa ni kushindwa."
+          }
+        ],
+        "keyPoints": [
+          "Ubora wa majadiliano husukuma ubora wa utawala.",
+          "Kufunga saa hulinda walio wachache na kutoka.",
+          "Nguvu za dharura zinahitaji mipaka mikali.",
+          "Vigezo vinapiga itikadi."
+        ],
+        "tips": [
+          "Jiandikishe kwa arifa za jukwaa/kura.",
+          "Rejesha hatari kwa maneno yako mwenyewe kabla ya kupiga kura.",
+          "Thibitisha utekelezaji unalingana na maandishi ya pendekezo."
+        ],
+        "body": "Mapendekezo mazuri yanajadiliana nje ya msururu, angalia halijoto, piga kura kwenye msururu, kisha utekeleze baada ya kufunga muda. Mshangao \"mapendekezo ya umeme\" ni harufu. Jua uko katika hatua gani."
+      },
+      {
+        "id": "legal",
+        "title": "Wafungaji wa Kisheria",
+        "summary": "Wakfu na makampuni ambayo yanaunganisha DAO na ulimwengu wa nje ya mnyororo",
+        "intro": "Msimbo hautoi dhima ndogo kiotomatiki. Foundations/LLCs hutia saini mikataba, benki na kodi. Wachangiaji wanapaswa kujua ni nani anayeweza kuwajibika ikiwa mambo yataharibika.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Kuajiri, IP, na vidhibiti vinahitaji wenzao wa kisheria. Vifuniko vyema hupunguza mfiduo wa kibinafsi-sio vifaa vya kufunika."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Mamlaka → katiba → ubao/multisig → vifungu vinavyounganisha na kura za DAO. Sheria hutofautiana sana kwa nchi."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Dhamana, vikwazo, na kodi (ikiwa ni pamoja na matone ya ndege) ni muhimu. Kutokujulikana ≠ hatari sifuri ya kisheria."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Kuchukulia \"ugatuzi\" hupuuza sheria za mitaa, au kutia saini mikataba isiyojulikana, ni uzembe."
+          }
+        ],
+        "keyPoints": [
+          "Mashirika hutoa uwezo wa nje ya mnyororo.",
+          "Miundo ni mamlaka mahususi.",
+          "Jua mpaka wako wa dhima.",
+          "Kuzingatia ni sehemu ya hatari ya bidhaa."
+        ],
+        "tips": [
+          "Tafuta ushauri wa kitaalamu kwa michango ya nyenzo.",
+          "Soma hati za uhusiano za foundation↔DAO.",
+          "Weka kumbukumbu za matone ya hewa/mapato."
+        ],
+        "body": "Msimbo hautoi dhima ndogo kiotomatiki. Foundations/LLCs hutia saini mikataba, benki na kodi. Wachangiaji wanapaswa kujua ni nani anayeweza kuwajibika ikiwa mambo yataharibika."
+      },
+      {
+        "id": "ops",
+        "title": "Operesheni za DAO",
+        "summary": "Kugeuza kura kuwa usafirishaji kupitia vikundi vya kazi na malipo",
+        "intro": "Bila waendeshaji, utawala ni ukumbi wa michezo. Vikundi vya kazi, fadhila, bajeti na hakiki hubadilisha nishati kuwa bidhaa. Uchovu, umiliki usio wazi, na malipo ya marehemu yanaua DAO kimya kimya.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Bidhaa za umma hazijatolewa. Matengenezo ya mfuko wa mifumo ya Ops; malipo ya uwazi hupunguza mikataba ya kivuli."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Dhamira → vipimo → bajeti → kukodisha/fadhila → retro. Ulipaji wa malipo kwenye mnyororo husaidia. Ufikiaji wa upendeleo mdogo wa msimamizi huepuka alama moja za kutofaulu."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Je, KPI zinaweza kuthibitishwa? Je, kuzamisha mara mbili kunadhibitiwa? Nyaraka hupigana na sababu ya basi."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Kulipa bila uwajibikaji na kupakia kupita kiasi wachangiaji wasioweza kubadilishwa ni njia za kushindwa."
+          }
+        ],
+        "keyPoints": [
+          "Mifumo ya uwasilishaji hufanya DAO kuwa halisi.",
+          "Bajeti na utendaji lazima ziwe za umma.",
+          "Punguza utegemezi wa mtu mmoja.",
+          "Uwazi wa malipo hupunguza mafuta ya njama."
+        ],
+        "tips": [
+          "Anza na fadhila ndogo ili kujifunza mchakato.",
+          "Hifadhi majukumu muhimu.",
+          "Chapisha ripoti za kikundi cha kazi."
+        ],
+        "body": "Bila waendeshaji, utawala ni ukumbi wa michezo. Vikundi vya kazi, fadhila, bajeti na hakiki hubadilisha nishati kuwa bidhaa. Uchovu, umiliki usio wazi, na malipo ya marehemu yanaua DAO kimya kimya."
+      },
+      {
+        "id": "attacks",
+        "title": "Mashambulizi ya Utawala",
+        "summary": "Kurekodi itifaki kupitia kura, hongo, au idadi ndogo ya waliojitokeza",
+        "intro": "Wavamizi hufukuza hazina, vigezo, au funguo za kuboresha kwa kutumia kura zilizolimbikizwa, mikopo ya ghafla, hongo, au akidi za usingizi. Ulinzi ni pamoja na kufunga saa, walezi wa kura ya turufu, na miundo bora ya upigaji kura.",
+        "sections": [
+          {
+            "heading": "Inasuluhisha shida gani",
+            "body": "Kujadili maeneo ya mashambulizi huruhusu jumuiya kujilinda mapema. \"Hakuna mtu angefanya hivyo\" sio udhibiti. Wapinzani wa usalama wa utawala wa kandarasi ya usalama."
+          },
+          {
+            "heading": "Jinsi inavyofanya kazi",
+            "body": "Pata kura → pitisha uovu → tekeleza baada ya kufunga saa ikiwa haijasimamishwa. Vigezo tata vinaweza kuficha dhamira. Walinzi wanaweza kuchelewesha au kufuta mashambulizi ya wazi."
+          },
+          {
+            "heading": "Dhana muhimu",
+            "body": "Muda wa kupiga picha, sheria za upigaji kura wa mkopo wa haraka, na umakini wa ugawaji ni muhimu. Fuatilia mienendo ya ishara kubwa."
+          },
+          {
+            "heading": "Hatari na dhana potofu",
+            "body": "Kupuuza arifa za muda na kudhani ukaguzi wa kukomesha wizi wa utawala ni makosa."
+          }
+        ],
+        "keyPoints": [
+          "Nguvu ya utawala inaweza kuwa wizi wa moja kwa moja.",
+          "Muda na walezi ni breki.",
+          "Ushiriki mdogo ni hatari.",
+          "Fuatilia na ujizoeze njia za kura ya turufu."
+        ],
+        "tips": [
+          "Washa roboti za arifa za utawala.",
+          "Wamiliki wakubwa wanapaswa kupiga kura.",
+          "Usaidizi wa miundo inayozuia upigaji kura wa mkopo."
+        ],
+        "body": "Wavamizi hufukuza hazina, vigezo, au funguo za kuboresha kwa kutumia kura zilizolimbikizwa, mikopo ya ghafla, hongo, au akidi za usingizi. Ulinzi ni pamoja na kufunga saa, walezi wa kura ya turufu, na miundo bora ya upigaji kura."
+      }
+    ]
+  }
+]

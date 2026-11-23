@@ -1,0 +1,362 @@
+[
+  {
+    "id": "gas",
+    "term": "Gaz",
+    "definition": "Calcularea și stocarea unităților de măsurare pe care le consumă o tranzacție.",
+    "explain": "Gazul măsoară cât de mult calcul și stocare solicită rețelei să efectueze o tranzacție. Fără contorizare, un lanț public ar putea fi blocat de bucle infinite sau spam. Taxa dvs. este aproximativ utilizare × preț unitar; aglomerația crește prețul unitar pe măsură ce cererea de blocuri crește. \n\nTranzacțiile eșuate pot costa în continuare gaz, deoarece validatorii au executat deja lucrarea. Obiceiul practic: estimați taxele, preferați în afara orelor de vârf atunci când învățați și nu confundați niciodată un mesaj UX eșuat cu o reîncercare gratuită."
+  },
+  {
+    "id": "gwei",
+    "term": "Gwei",
+    "definition": "O denumire comună ETH pentru cotarea prețurilor la gaz.",
+    "explain": "Gwei este o denumire de eter folosită pentru a cita prețurile gazelor în cifre la scară umană. Un ETH este egal cu 1e9 Gwei. Portofelele arată adesea taxa maximă și taxa prioritară în Gwei, astfel încât să puteți compara urgența fără a număra optsprezece zecimale. \n\nCând citiți tutoriale sau capturi de ecran mempool, verificați cu atenție unitățile. Amestecarea cotațiilor Gwei cu sumele de transfer ETH este o greșeală clasică pentru începători, care duce la o plată excesivă sau insuficientă."
+  },
+  {
+    "id": "evm",
+    "term": "EVM",
+    "definition": "Mașină virtuală Ethereum — timpul de execuție a contractului inteligent.",
+    "explain": "Mașina virtuală Ethereum este timpul de execuție partajat care execută bytecode cu contract inteligent. Majoritatea lanțurilor „compatibile cu EVM” reutiliza codurile operaționale și instrumentele, astfel încât dezvoltatorii să poată implementa contracte similare în altă parte. \n\nCompatibilitatea se referă la experiența dezvoltatorului, nu la securitate sau economie identică. Verificați întotdeauna în ce lanț vă aflați, în ce explorator aveți încredere și dacă sunt implicate modele de actualizare proxy înainte de a presupune că codul se comportă pentru totdeauna."
+  },
+  {
+    "id": "amm",
+    "term": "AMM",
+    "definition": "Crearea pieței prin bazine și formule în loc de cărți.",
+    "explain": "Un creator de piață automatizat prețurile tranzacționează cu formule de grup în loc de un registru de comenzi clasic. Furnizorii de lichiditate depun active și câștigă comisioane în timp ce își asumă riscul de inventar cunoscut sub numele de pierdere temporară. \n\nBazinele false și jetoanele asemănătoare sunt capcane comune. Verificați adresele contractelor, adâncimea piscinei și nivelurile de taxe. AMM-urile sunt primitive puternice - tratați-le ca piețe cu matematică transparentă și flux adversar."
+  },
+  {
+    "id": "tvl",
+    "term": "TVL",
+    "definition": "Valoarea totală blocată în contractele unui protocol.",
+    "explain": "Valoarea totală blocată reprezintă activele depuse în contractele unui protocol. TVL ridicat poate semnala utilizarea și încrederea - sau pur și simplu umfla depozitele numărate recursiv și o țintă de hack mai groasă. \n\nCitiți TVL pe lângă calitatea auditului, cheile de administrare, designul Oracle și veniturile reale din comisioane. Un număr de titlu fără aceste contexte este o măsură de marketing, nu o evaluare de siguranță."
+  },
+  {
+    "id": "apy",
+    "term": "APY",
+    "definition": "Randament anualizat, inclusiv combinare.",
+    "explain": "APY anualizează randamentul, inclusiv ipotezele compuse. Campaniile scurte de stimulare anualizate în APY-uri cu trei cifre induc adesea în eroare, deoarece emisiile, prețul simbolului și sustenabilitatea sunt instabile. \n\nComparați similar cu like: taxă de durată APY versus recompensă temporară APY. Întrebați ce se întâmplă când stimulentele se termină și dacă puteți părăsi fără a distruge poziția."
+  },
+  {
+    "id": "apr",
+    "term": "APRILIE",
+    "definition": "Rată anualizată fără capitalizare.",
+    "explain": "APR cotează o rată anualizată fără capitalizare. Interfețele de creditare arată adesea DAA de aprovizionare și DAE de împrumut una lângă alta; definițiile diferă în funcție de produs. \n\nCând comparați APR și APY, confirmați frecvența de compus și dacă sunt incluse jetoanele de recompensă. Precizia în definiții previne concluziile false de „rată mai bună”."
+  },
+  {
+    "id": "slippage",
+    "term": "Alunecare",
+    "definition": "Diferența dintre prețul așteptat și cel executat.",
+    "explain": "Slippage-ul este decalajul dintre prețul pe care îl așteptați și prețul pe care îl primiți. Bazinele subțiri, dimensiunile mari și momentele volatile măresc acest decalaj. \n\nSetările de alunecare prea largi invită la sandwiching; setările prea strânse eșuează și pot cheltui totuși benzină. Setați în mod conștient pe dimensiunea tranzacției și adâncimea pool-ului și preferați trimiterea privată atunci când este disponibilă pentru schimburi mari."
+  },
+  {
+    "id": "mev",
+    "term": "MEV",
+    "definition": "Valoare extrasă din comanda/includerea tranzacțiilor.",
+    "explain": "Valoarea maximă care poate fi extrasă este profitul din controlul comenzii, includerii sau cenzurii tranzacțiilor. Mempool-urile publice permit utilizatorilor să detecteze schimburi mari și să concureze pentru a captura avantajul. \n\nAtenuările includ derapaje mai stricte, fluxul de comenzi private, licitații pe lot și pur și simplu împărțirea dimensiunii. Înțelegerea MEV explică de ce „aceeași tranzacție, umplere mai proastă” se întâmplă chiar și fără o eroare a UI."
+  },
+  {
+    "id": "oracle",
+    "term": "Oracol",
+    "definition": "Serviciu care aduce date în afara lanțului în lanț.",
+    "explain": "Oracolele aduc fapte în afara lanțului, în special prețuri, în lanț, astfel încât contractele să poată reacționa. Lichidările de împrumut și prețurile de marcă perpetuă depind de integritatea hranei. \n\nPiețele subțiri sunt mai ușor de manipulat în amprente proaste de oracle. Preferați protocoale cu agregare robustă, întreruptoare și comportament clar de defecțiune atunci când alimentarea se blochează."
+  },
+  {
+    "id": "rollup",
+    "term": "Rollup",
+    "definition": "Execuție L2 care postează date/dovezi la L1.",
+    "explain": "Un pachet se execută în afara lanțului de bază și postează date sau dovezi înapoi, astfel încât L1 să poată asigura rezultatele. Design-urile optimiste se bazează pe ferestre de provocare; pachetele de valabilitate se bazează pe dovezi. \n\nTaxele utilizatorilor scad deoarece multe tranzacții împart costurile L1. Lista dvs. de verificare a riscurilor include în continuare poduri, secvențiere, chei de upgrade și modul în care funcționează ieșirile forțate."
+  },
+  {
+    "id": "sequencer",
+    "term": "Sequencer",
+    "definition": "Componentă care comandă tranzacții L2.",
+    "explain": "Sequencerul comandă tranzacțiile L2 și oferă adesea confirmări rapide. Multe secvențiere rămân centralizate astăzi, ceea ce afectează timpul de nefuncționare și rezistența la cenzură. \n\nDescentralizarea secvențierilor este o temă majoră a foii de parcurs. Până atunci, tratați confirmarea soft ca fiind o comoditate și înțelegeți calea către includerea impusă de L1 atunci când operatorii se comportă greșit."
+  },
+  {
+    "id": "finality",
+    "term": "Finalitate",
+    "definition": "Când un tx/bloc este practic ireversibil.",
+    "explain": "Finalitatea descrie momentul în care o tranzacție este practic ireversibilă. Unele protocoale au gadgeturi cu finalitate explicită; altele sunt probabiliste și se întăresc cu profunzime. \n\nBursele aleg numărul de confirmări din aceste ipoteze. Pentru transferuri mari, așteptați finalitatea pe care o cere de fapt contrapartea dvs. - nu primul toast cu „succes”."
+  },
+  {
+    "id": "utxo",
+    "term": "UTXO",
+    "definition": "Modelul contabil de ieșire a tranzacțiilor necheltuite.",
+    "explain": "Ieșirile tranzacțiilor necheltuite sunt modul în care sistemele asemănătoare Bitcoin urmăresc monedele cheltuibile. Soldul tău este suma UTXO-urilor pentru care poți semna; cheltuielile consumă ieșiri și pot crea schimbări. \n\nContabilitatea UTXO diferă de soldurile contului și afectează taxele, confidențialitatea și selecția monedelor. Portofelele ușoare ascund detaliile — nodurile complete dezvăluie de ce contează consolidarea."
+  },
+  {
+    "id": "eoa",
+    "term": "EOA",
+    "definition": "Cont deținut extern controlat de o cheie.",
+    "explain": "Un cont deținut extern este controlat direct de o cheie privată fără cod de contract. Majoritatea portofelelor clasice sunt EOA: semnătura echivalează cu autorizare. \n\nNu există resetare a parolei. Pierderea semințelor este pierderea activelor. Conturile inteligente schimbă acest model; dacă rămâneți pe EOA, backup-urile offline și rezistența la phishing sunt totul."
+  },
+  {
+    "id": "multisig",
+    "term": "Multisig",
+    "definition": "Cont care necesită mai multe aprobări.",
+    "explain": "Conturile cu semnături multiple necesită aprobări M-of-N înainte ca fondurile să fie mutate. Trezoreriile și echipele le folosesc pentru a elimina eșecul cu o singură cheie. \n\nCompensațiile de proiectare includ alegerea pragului, diversitatea geografică a semnatarului și exercițiile de recuperare. O semnătură multiplă pe care nu o repeți niciodată poate eșua în cel mai rău moment."
+  },
+  {
+    "id": "seed-phrase",
+    "term": "Expresie semințe",
+    "definition": "Lista de cuvinte care regenerează cheile portofelului.",
+    "explain": "O frază de bază regenerează cheile portofelului. Oricine vede cuvintele poate recrea portofelul în altă parte – agenții de asistență nu au nevoie niciodată de el pentru a vă „verifica”. \n\nPăstrați semințele offline, nu le introduceți niciodată pe site-uri web și presupuneți că o sămânță fotografiată este compromisă. Dacă există scurgeri, migrați imediat la o sămânță proaspătă pe un dispozitiv curat."
+  },
+  {
+    "id": "allowance",
+    "term": "Alocație",
+    "definition": "Suma maximă pe care o poate cheltui un contract din simbolul dvs.",
+    "explain": "O indemnizație limitează cât de mult dintr-un simbol poate transfera un contract care cheltuiește Din soldul dvs. Cotele nelimitate sunt convenabile pentru comercianții frecventi și periculoase pentru toți ceilalți. \n\nRevizuiți și revocați în mod regulat cotele neutilizate. Preferați alocațiile exacte sau modeste atunci când învățați o nouă aplicație."
+  },
+  {
+    "id": "approve",
+    "term": "Aproba",
+    "definition": "Tranzacție care stabilește o alocație.",
+    "explain": "Aprobați tranzacțiile stabilite sau modificați cotele. Ei nu mută jetoanele singuri, dar deblochează cheltuielile ulterioare după adresa cheltuitorului. \n\nCitiți cu atenție cel care cheltuiește, simulați efectul și aveți grijă de phishing care cere aprobări pentru contracte necunoscute. Aprobarile sunt un vector de scurgere superior."
+  },
+  {
+    "id": "rug",
+    "term": "Tragerea covorului",
+    "definition": "Insiderii epuizează lichiditatea sau abandonează un proiect.",
+    "explain": "O tragere de covor este atunci când persoanele din interior epuizează lichiditățile sau abandonează un proiect după strângerea de fonduri. Semnele de avertizare includ lichiditate de neatins, administratori opaci și marketing numai cu randament. \n\nDue diligence este socială și tehnică: responsabilitatea echipei, permisiunile contractuale și dacă lichiditatea este blocată. Dacă nu puteți explica ieșirea, nu măriți mari."
+  },
+  {
+    "id": "phishing",
+    "term": "phishing",
+    "definition": "Site-uri/identități false care înșeală chei sau semnături.",
+    "explain": "Phishingul folosește site-uri, anunțuri și identități false pentru a colecta chei sau semnături. Domeniile omografice și DM-urile de asistență false sunt succese perene. \n\nFolosiți marcaje, ignorați anunțurile de căutare pentru mărcile de portofel și nu distribuiți niciodată semințele. Când nu sunteți sigur, verificați pe un al doilea canal înainte de a semna ceva."
+  },
+  {
+    "id": "bridge",
+    "term": "Pod",
+    "definition": "Protocol de mutare a activelor/mesajelor în lanțuri.",
+    "explain": "Podurile mută activele sau mesajele prin lanțuri. Punțile canonice moștenesc mai mult din modelul de securitate al pachetului de acasă; podurile rapide adaugă adesea ipoteze suplimentare de încredere pentru viteză. \n\nTestați întotdeauna cu sume mici, verificați adresele URL oficiale și înțelegeți comportamentul rambursărilor. Riscul de punte este istoric concentrat și neiertător."
+  },
+  {
+    "id": "stablecoin",
+    "term": "Stablecoin",
+    "definition": "Token conceput pentru a urmări o referință stabilă.",
+    "explain": "Stablecoins-ul urmărește să urmărească o referință stabilă, cum ar fi USD. Proiectele includ rezerve fiat, cripto garanții și mecanisme algoritmice - fiecare eșuează diferit. \n\nAflați calitatea atestării emitentului, politica de înghețare și căile de răscumpărare. Diversificați atunci când grajdurile sunt esențiale pentru fluxul dvs. de lucru."
+  },
+  {
+    "id": "liquidity",
+    "term": "Lichiditate",
+    "definition": "Abilitatea de a tranzacționa dimensiunea fără a muta prea mult prețul.",
+    "explain": "Lichiditatea este capacitatea de a tranzacționa dimensiunea fără a muta prea mult prețul. Bazinele adânci reduc alunecarea; lichiditatea amovibilă sau iluzorie poate falsifica siguranța. \n\nVerificați cine poate retrage jetoanele LP și cât de repede. Lichiditatea care dispare în stres nu este lichiditate atunci când ai nevoie de ea."
+  },
+  {
+    "id": "impermanent-loss",
+    "term": "Pierdere permanentă",
+    "definition": "Subperformanță LP vs deținere atunci când prețurile diferă.",
+    "explain": "Pierderea permanentă este performanța insuficientă a LP față de simpla deținere a activelor atunci când prețurile diverg. Taxele pot compensa sau nu. \n\nIeșirea cristalizează golul. Modelați scenarii înainte de a oferi lichiditate, în special în perechile volatile cu venituri subțiri din comisioane."
+  },
+  {
+    "id": "liquidation",
+    "term": "Lichidare",
+    "definition": "Vânzarea forțată a garanțiilor atunci când un împrumut este nesănătos.",
+    "explain": "Lichidarea vinde forțat garanția atunci când factorul de sănătate al unui împrumut eșuează. Oracolele stabilesc prețul de declanșare; cascadele amplifică accidentele. \n\nPăstrați tampon, evitați efectul maxim de levier în timp ce învățați și înțelegeți dacă lichidările sunt bazate pe licitații sau pe baza de robot de păstrare."
+  },
+  {
+    "id": "staking",
+    "term": "Miza",
+    "definition": "Blocarea activelor pentru a securiza o rețea sau pentru a câștiga recompense.",
+    "explain": "Staking blochează active pentru a securiza o rețea sau pentru a câștiga recompense de protocol. Designurile diferă în ceea ce privește blocările, tăierea și dacă executați un validator sau un delegat. \n\nDelegarea adaugă riscul operatorului. Citiți timpii de dezlegare înainte de a trata activele mizate ca fonduri lichide pentru zilele ploioase."
+  },
+  {
+    "id": "validator",
+    "term": "Validator",
+    "definition": "Nod PoS care propune/atestă blocuri.",
+    "explain": "Validatorii propun și atestă blocuri în sistemele proof-of-stake. Performanța slabă sau răutatea pot fi reduse. \n\nValidarea individuală a nevoilor operațiunilor disciplina; staking-ul lichid și repetarea adaugă straturi de contract inteligent și de risc operator pe lângă sarcinile de consens."
+  },
+  {
+    "id": "dao",
+    "term": "DAO",
+    "definition": "Coordonarea organizației prin reguli/voturi în lanț.",
+    "explain": "O DAO coordonează prin reguli în lanț și votează asupra trezoreriei și parametrilor. Prezența la vot, concentrarea balenelor și calitatea propunerii modelează rezultatele. \n\nGuvernarea este o suprafață de securitate: upgrade-urile rău intenționate pot scurge fonduri cu un vot „de succes”. Citiți încărcături utile, nu numai titluri."
+  },
+  {
+    "id": "nft",
+    "term": "NFT",
+    "definition": "Jeton nefungibil pentru obiecte unice.",
+    "explain": "Jetoanele nefungibile reprezintă obiecte unice. Proprietatea jetonului este în lanț; media și trăsăturile trăiesc adesea în afara lanțului și depind de fixare sau servere. \n\nVerificați adresele contractelor, politicile de redevențe și mutabilitatea metadatelor. Aceeași opera de artă, contract diferit, este o capcană clasică."
+  },
+  {
+    "id": "ipfs",
+    "term": "IPFS",
+    "definition": "Rețea de fișiere distribuite adresate conținutului.",
+    "explain": "IPFS abordează conținutul prin hash, astfel încât integritatea să poată fi verificată. Permanența depinde în continuare de faptul că cineva a fixat datele. \n\nCând NFT-urile sau documentele citează IPFS, întrebați cine fixează și ce se întâmplă dacă gateway-urile dispar. Adresarea conținutului ≠ găzduire automată pentru totdeauna."
+  },
+  {
+    "id": "ens",
+    "term": "ENS",
+    "definition": "Ethereum Name Service maparea numelor la înregistrări.",
+    "explain": "ENS mapează nume care pot fi citite de oameni la adrese și înregistrări. Reduce greșelile de scriere, dar numele expiră și rezoluția poate fi deturnată dacă omiteți verificările. \n\nReverificați întotdeauna adresa rezolvată pe o cale de încredere înainte de a trimite dimensiunea."
+  },
+  {
+    "id": "layer1",
+    "term": "Stratul 1",
+    "definition": "Lanț de bază cu propriul consens/rezolvare.",
+    "explain": "Un lanț de nivel 1 oferă propriul consens și securitatea decontării. Taxele și debitul reflectă această lipsă de nivel de bază. \n\nL1-urile sunt locul în care soluționarea finală a disputelor trăiește adesea pentru pachete. Înțelegerea taxelor și a finalității L1 vă ajută să interpretați promisiunile L2."
+  },
+  {
+    "id": "layer2",
+    "term": "Stratul 2",
+    "definition": "Stratul de scalare care moștenește securitatea de la un L1.",
+    "explain": "Sistemele de nivel 2 scalează execuția în timp ce urmăresc să moștenească securitatea de la un L1. Rollup-urile domină spațiul actual de design. \n\nUtilizatorii ar trebui să învețe încrederea în bridge, ipotezele secvenței și ferestrele de ieșire. „Ethereum mai ieftin” are încă propria sa hartă operațională."
+  },
+  {
+    "id": "zk-proof",
+    "term": "ZK / Dovada de valabilitate",
+    "definition": "Dovada corectitudinii fara a reexecuta totul.",
+    "explain": "Dovezile de valabilitate convinge un verificator că un lot este corect fără a reexecuta totul. Rollup-urile ZK le folosesc pentru a stabili succint pe L1. \n\nBrandingul „ZK” nu răspunde cine face secvențe, cine face upgrade sau cum funcționează punțile. Întrebați ce este dovedit și ce rămâne de încredere."
+  },
+  {
+    "id": "fraud-proof",
+    "term": "Dovada fraudei",
+    "definition": "Dovada că un lot optimist este invalid.",
+    "explain": "Dovezile de fraudă provoacă loturi optimiste nevalide în timpul unei ferestre. Observatorii trebuie să poată accesa date și să trimită dovezi. \n\nDacă datele lipsesc sau observatorii eșuează, ipotezele de securitate slăbesc. Sistemele optimiste schimbă latența la final pentru o demonstrare mai simplă."
+  },
+  {
+    "id": "blob",
+    "term": "Blob",
+    "definition": "Spațiu de date ieftin introdus pentru scalare.",
+    "explain": "Blob-urile oferă spațiu de date temporare mai ieftin pentru pachetele de date pentru a posta datele despre tranzacții. Costul DA mai scăzut este un motiv major pentru care taxele L2 au scăzut. \n\nBloburile sunt infrastructură, nu un produs de utilizator în sine. Acestea permit aplicații; nu înlătură riscul de pod sau de semnare."
+  },
+  {
+    "id": "wallet",
+    "term": "Portofel",
+    "definition": "Software/hardware care gestionează cheile și semnăturile.",
+    "explain": "Un portofel gestionează cheile și construiește semnături. Monede vii în lanț; portofelul deține controlul, nu un sold conservator decât dacă este un cont de schimb. \n\nAlegeți cald versus rece în funcție de dimensiune și frecvență. Disciplina de backup contează mai mult decât estetica mărcii."
+  },
+  {
+    "id": "cold-storage",
+    "term": "Depozitare la rece",
+    "definition": "Păstrarea tastelor offline pentru a micșora suprafața de atac.",
+    "explain": "Depozitarea la rece menține cheile offline pentru a micșora suprafața de atac de la distanță. Se potrivește mai bine cu deținerile pe termen lung decât tranzacțiile de înaltă frecvență. \n\nTestați fluxuri de primire și trimitere mici înainte de dimensiunea parcării. Greșelile operaționale (lanț greșit, adresă greșită) se aplică în continuare offline."
+  },
+  {
+    "id": "kyc",
+    "term": "KYC",
+    "definition": "Verificări de identitate pe platforme.",
+    "explain": "KYC este verificarea identității pe platforme pentru conformitate. Este diferit de adresele blockchain și creează compromisuri privind confidențialitatea și încălcarea datelor. \n\nÎnțelegeți la ce renunțați pentru rampele fiat. Auto-custodia nu șterge istoricul KYC la rampele pe care le-ați folosit deja."
+  },
+  {
+    "id": "dex",
+    "term": "DEX",
+    "definition": "Decontarea schimburilor prin contracte inteligente.",
+    "explain": "Bursele descentralizate decontează tranzacțiile prin contracte inteligente, de obicei fără custodie. Utilizatorii păstrează cheile și poartă semnătura și riscul MEV. \n\nVerificați contractele routerului și adresele token-ului. O interfață de utilizare DEX poate fi în continuare phishing chiar și atunci când protocolul de bază este de încredere."
+  },
+  {
+    "id": "cex",
+    "term": "CEX",
+    "definition": "Schimb centralizat.",
+    "explain": "Bursele centralizate oferă potrivire rapidă și rampe fiat cu risc de custodie. Dețineți un IOU până când vă retrageți. \n\nFolosiți-le ca unelte, nu ca seifuri. Retrageți dimensiunea care vă interesează, activați securitatea puternică a contului și urmăriți aplicațiile asemănătoare."
+  },
+  {
+    "id": "dapp",
+    "term": "DApp",
+    "definition": "Aplicație cu o logică critică în lanț.",
+    "explain": "Un dapp plasează logica critică în lanț, în timp ce interfața poate fi încă centralizată. Preluarea domeniului poate îndruma utilizatorii către apeluri contractuale rău intenționate. \n\nMarcați adresele URL oficiale, preferați interacțiunile contractuale verificate și tratați încrederea în front-end ca parte a modelului de amenințare."
+  },
+  {
+    "id": "hash",
+    "term": "Hash",
+    "definition": "Rezumat unidirecțional de date.",
+    "explain": "Un hash criptografic mapează datele la un rezumat fix. Modificări mici de intrare inversează ieșirea; găsirea coliziunilor este concepută pentru a fi dificilă. \n\nHashurile leagă blocuri, adresează conținut și se angajează la mesaje. Ele sunt lipiciul verificărilor de integritate în sistemele cripto."
+  },
+  {
+    "id": "block",
+    "term": "Bloc",
+    "definition": "Lot de tx-uri conectate la istorie.",
+    "explain": "Un bloc reunește tranzacțiile într-un istoric legat. Țintele de dimensiune și timp modelează piețele de producție și taxe. \n\nExploratorii arată înălțimea, propunetorul și tx-urile incluse. Înțelegerea blocurilor vă ajută să interpretați confirmările și riscul de reorganizare."
+  },
+  {
+    "id": "private-key",
+    "term": "Cheie privată",
+    "definition": "Secret care autorizează cheltuieli.",
+    "explain": "O cheie privată autorizează cheltuieli. Împărtășirea acestuia – sau a unei sămânțe care o derivă – este echivalent cu împărțirea fondurilor. \n\nNu introduceți niciodată chei în site-uri web, aplicații de chat sau formulare de „asistență”. Izolarea hardware-ului ajută; precauția operațională decide în continuare rezultatele."
+  },
+  {
+    "id": "public-key",
+    "term": "Cheie publică",
+    "definition": "Valoare derivată utilizată pentru verificarea semnăturilor.",
+    "explain": "O cheie publică verifică semnăturile corespunzătoare unei chei private. Adresele sunt de obicei derivate din hashing cheia publică. \n\nCheile și adresele publice pot fi partajate pentru primire. Practicile de confidențialitate contează în continuare dacă le reutilizați pe scară largă."
+  },
+  {
+    "id": "address",
+    "term": "Adresa",
+    "definition": "Identificatorul folosit pentru a primi fonduri.",
+    "explain": "O adresă este identificatorul folosit pentru a primi fonduri într-o rețea. Trimiterea către un lanț greșit sau o adresă greșită este adesea ireversibilă. \n\nCopiați cu atenție, verificați câteva caractere la început și la sfârșit și trimiteți un test când mutați dimensiunea către o nouă destinație."
+  },
+  {
+    "id": "confirmation",
+    "term": "Confirmare",
+    "definition": "Câte blocuri au fost construite pe un tx.",
+    "explain": "Confirmările numără câte blocuri au fost construite peste tranzacția dvs. Mai multă profunzime face reorg-urile mai dificile. \n\nServiciile aleg diferite praguri pentru diferite dimensiuni. Răbdarea este un control de securitate pentru așezările mari."
+  },
+  {
+    "id": "smart-contract",
+    "term": "Contract inteligent",
+    "definition": "Program implementat într-un lanț.",
+    "explain": "Un contract inteligent este un program implementat la o adresă în lanț. Poate păstra activele și poate aplica regulile fără un intermediar tradițional. \n\nBug-urile, cheile de administrare și integrările neașteptate creează riscuri. Preferați căile de cod auditate și testate în timp atunci când învățați cu fonduri reale."
+  },
+  {
+    "id": "token",
+    "term": "Jeton",
+    "definition": "Unitatea de activ contabilizată într-un contract.",
+    "explain": "Tokenurile sunt unități de active contabilizate prin contracte. Numele și tickerele pot fi clonate; adresele contractului identifică bunul real. \n\nVerificați întotdeauna adresa de la o sursă de încredere înainte de a schimba sau de a adăuga lichiditate."
+  },
+  {
+    "id": "erc-20",
+    "term": "ERC-20",
+    "definition": "Interfață token fungibilă dominantă.",
+    "explain": "ERC-20 este interfața dominantă de token fungibil pe lanțurile asemănătoare Ethereum. Standardizează comportamentele de transfer și aprobare pentru portofele și DEX-uri. \n\nAprobarile fac parte din standard și o parte din risc. Înțelegeți mecanica alocației înainte de a cultiva noi jetoane."
+  },
+  {
+    "id": "permissionless",
+    "term": "Fără permis",
+    "definition": "Oricine poate folosi sau implementa fără liste de permisiuni.",
+    "explain": "Sistemele fără permisiune permit oricui să utilizeze sau să implementeze fără liste de permisiuni. Accesul deschis alimentează inovația și escrocherii împreună. \n\nFiltrul dvs. devine personal: verificați contractele, preferați reputația cu dovezi și dimensiunile experimentelor mici."
+  },
+  {
+    "id": "custody",
+    "term": "Custodie",
+    "definition": "O terță parte care deține chei/active.",
+    "explain": "Custodia înseamnă că o terță parte deține chei sau bunuri pentru tine. Tranzacții convenabile împotriva riscului de contraparte și operațional. \n\nAuto-custodia vă transferă operațiunile. Abordările hibride - schimbul pentru tranzacționare, depozitarea frigorifică pentru economii - sunt modele comune alfabetizate."
+  },
+  {
+    "id": "yield-farming",
+    "term": "Agricultura de randament",
+    "definition": "Alocarea de lichidități pentru a câștiga recompense în toate protocoalele.",
+    "explain": "Agricultura de randament alocă lichiditatea între protocoale pentru a câștiga recompense. APR ridicate sunt adesea temporare și plătite în jetoane de recompensă volatile. \n\nModel de lichiditate de ieșire și risc de contract inteligent. Agricultura este o strategie, nu un cont de economii."
+  },
+  {
+    "id": "airdrop",
+    "term": "Airdrop",
+    "definition": "Distribuție de jetoane pentru creștere/comunitate.",
+    "explain": "Airdrops distribuie jetoane pentru creștere sau recompense ale comunității. Revendicarea poate implica semnături care sunt mai sigure – sau mult mai puțin sigure – decât par. \n\nUrmăriți site-urile de reclamații de phishing și surprize fiscale. Dacă o revendicare îți cere sămânța, nu este un airdrop."
+  },
+  {
+    "id": "whitepaper",
+    "term": "Carte albă",
+    "definition": "Document care descrie designul și obiectivele.",
+    "explain": "O carte albă explică obiectivele și mecanismele de proiectare. Preferați reguli concrete, modele de amenințare și parametri în detrimentul pachetelor de vibrații. \n\nTratați documentele ca pretenții inițiale de verificare în cod și comportament de producție, nu ca garanții."
+  },
+  {
+    "id": "halving",
+    "term": "Înjumătățire",
+    "definition": "Reducerea periodică a subvenției de bloc a Bitcoin.",
+    "explain": "Reducerea la jumătate a Bitcoin reduce periodic subvenția blocului. Emiterea de noi provizii încetinește la un program cunoscut. \n\nNu garantează creșterea prețurilor. Ea ilustrează modul în care bugetele de securitate și piețele de taxe evoluează pe măsură ce subvențiile scad."
+  },
+  {
+    "id": "merkle-tree",
+    "term": "Arborele Merkle",
+    "definition": "Arborele de hash dovedește includerea în mod eficient.",
+    "explain": "Arborele Merkle hash datele într-o rădăcină, astfel încât includerea să poată fi dovedită eficient. Clienții ușoare și multe sisteme de probă se bazează pe ei. \n\nVă permit să verificați că o piesă aparține unui set angajat fără a descărca totul, de la bază la verificarea scalabilă."
+  },
+  {
+    "id": "nonce",
+    "term": "Nonce",
+    "definition": "Numărul de ordine al contului tx.",
+    "explain": "Un cont nonce secvențiază tranzacțiile, astfel încât fiecare este procesată o dată în ordine. Tranzacțiile blocate sunt adesea înlocuite cu retrimiterea aceluiași nonce cu o taxă mai mare. \n\nÎnțelegerea noncesului demitizează portofelele „în așteptare pentru totdeauna” și fluxurile de înlocuire."
+  }
+]

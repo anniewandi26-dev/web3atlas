@@ -1,0 +1,362 @@
+[
+  {
+    "id": "gas",
+    "term": "Gas",
+    "definition": "Pengiraan pemeteran unit dan storan yang digunakan oleh transaksi.",
+    "explain": "Gas mengukur berapa banyak pengiraan dan penyimpanan yang diminta oleh rangkaian untuk dilakukan oleh transaksi. Tanpa pemeteran, rantaian awam boleh terhenti oleh gelung atau spam yang tidak terhingga. Yuran anda adalah kira-kira penggunaan × harga unit; kesesakan menaikkan harga seunit apabila permintaan ruang sekatan meningkat. \n\nUrus niaga yang gagal masih boleh menyebabkan kos gas kerana pengesah telah melaksanakan kerja tersebut. Tabiat praktikal: anggaran yuran, lebih suka di luar puncak semasa belajar dan jangan sekali-kali mengelirukan mesej UX yang gagal dengan percubaan semula percuma."
+  },
+  {
+    "id": "gwei",
+    "term": "Gwei",
+    "definition": "Denominasi ETH biasa untuk memetik harga gas.",
+    "explain": "Gwei ialah denominasi eter yang digunakan untuk memetik harga gas dalam nombor skala manusia. Satu ETH bersamaan dengan 1e9 Gwei. Dompet selalunya menunjukkan yuran maksimum dan yuran keutamaan dalam Gwei supaya anda boleh membandingkan keperluan mendesak tanpa mengira lapan belas perpuluhan. \n\nApabila membaca tutorial atau tangkapan skrin mempool, semak unit dengan teliti. Mencampurkan sebut harga Gwei dengan amaun pindahan ETH ialah kesilapan pemula klasik yang membawa kepada lebihan atau kurang bayar."
+  },
+  {
+    "id": "evm",
+    "term": "EVM",
+    "definition": "Mesin Maya Ethereum—masa jalan kontrak pintar.",
+    "explain": "Mesin Maya Ethereum ialah masa jalan bersama yang melaksanakan kod bait kontrak pintar. Kebanyakan rantaian \"serasi EVM\" menggunakan semula opcode dan alatan supaya pembangun boleh menggunakan kontrak serupa di tempat lain. \n\nKeserasian adalah mengenai pengalaman pembangun, bukan keselamatan atau ekonomi yang sama. Sentiasa sahkan rangkaian yang anda gunakan, peneroka yang anda percayai dan sama ada corak peningkatan proksi terlibat sebelum menganggap kod berfungsi selama-lamanya."
+  },
+  {
+    "id": "amm",
+    "term": "AMM",
+    "definition": "Pembuatan pasaran melalui kumpulan dan formula dan bukannya buku.",
+    "explain": "Harga pembuat pasaran automatik berdagang dengan formula kumpulan dan bukannya buku pesanan klasik. Penyedia kecairan mendepositkan aset dan memperoleh yuran sambil mengambil risiko inventori yang dikenali sebagai kerugian tidak kekal. \n\nKolam palsu dan token yang kelihatan adalah perangkap biasa. Semak alamat kontrak, kedalaman kolam dan peringkat yuran. AMM ialah primitif yang berkuasa—anggap mereka sebagai pasaran dengan aliran matematik dan permusuhan yang telus."
+  },
+  {
+    "id": "tvl",
+    "term": "TVL",
+    "definition": "Jumlah nilai yang dikunci dalam kontrak protokol.",
+    "explain": "Jumlah nilai terkunci menjumlahkan aset yang disimpan dalam kontrak protokol. TVL yang tinggi boleh memberi isyarat kepada penggunaan dan kepercayaan—atau hanya menaikkan deposit yang dikira secara rekursif dan sasaran penggodaman yang lebih gemuk. \n\nBaca TVL di sebelah kualiti audit, kunci pentadbir, reka bentuk oracle dan hasil yuran sebenar. Nombor tajuk tanpa konteks tersebut ialah metrik pemasaran, bukan penilaian keselamatan."
+  },
+  {
+    "id": "apy",
+    "term": "APY",
+    "definition": "Hasil tahunan termasuk pengkompaunan.",
+    "explain": "APY membuat tahunan hasil termasuk andaian pengkompaunan. Kempen insentif pendek yang disetahunkan kepada APY tiga digit selalunya mengelirukan kerana pelepasan, harga token dan kemampanan adalah tidak stabil. \n\nBandingkan seperti dengan seperti: yuran kekal APY berbanding ganjaran sementara APY. Tanya apa yang berlaku apabila insentif tamat, dan sama ada anda boleh keluar tanpa merosakkan kedudukan."
+  },
+  {
+    "id": "apr",
+    "term": "APR",
+    "definition": "Kadar tahunan tanpa kompaun.",
+    "explain": "APR memetik kadar tahunan tanpa kompaun. Antara muka pinjaman sering menunjukkan APR bekalan dan meminjam APR sebelah menyebelah; definisi berbeza merentas produk. \n\nApabila membandingkan APR dan APY, sahkan kekerapan pengkompaunan dan sama ada token ganjaran disertakan. Ketepatan dalam definisi menghalang kesimpulan \"kadar lebih baik\" palsu."
+  },
+  {
+    "id": "slippage",
+    "term": "Tergelincir",
+    "definition": "Jurang antara harga dijangka dan dilaksanakan.",
+    "explain": "Slippage ialah jurang antara harga yang anda jangkakan dan harga yang anda terima. Kolam nipis, saiz besar dan momen yang tidak menentu meluaskan jurang itu. \n\nTetapan gelinciran terlalu lebar menjemput pengapit; tetapan terlalu ketat gagal dan mungkin masih menghabiskan gas. Tetapkan secara sedar mengikut saiz dagangan dan kedalaman kumpulan, dan lebih suka penyerahan peribadi apabila tersedia untuk pertukaran besar."
+  },
+  {
+    "id": "mev",
+    "term": "MEV",
+    "definition": "Nilai boleh diekstrak daripada pesanan/pemasukan transaksi.",
+    "explain": "Nilai maksimum yang boleh diekstrak ialah keuntungan daripada mengawal pesanan transaksi, kemasukan atau penapisan. Mempool awam membolehkan pencari mengesan pertukaran besar dan bersaing untuk menangkap kelebihan. \n\nPengurangan termasuk gelinciran yang lebih ketat, aliran pesanan persendirian, lelongan kelompok, dan hanya membelah saiz. Memahami MEV menerangkan sebab \"perdagangan yang sama, isi yang lebih teruk\" berlaku walaupun tanpa pepijat UI."
+  },
+  {
+    "id": "oracle",
+    "term": "Oracle",
+    "definition": "Perkhidmatan membawa data luar rantaian dalam rantaian.",
+    "explain": "Oracles membawa fakta luar rantaian—terutamanya harga—dalam rantaian supaya kontrak boleh bertindak balas. Pembubaran pinjaman dan harga tanda kekal bergantung pada integriti suapan. \n\nPasaran nipis lebih mudah untuk dimanipulasi menjadi cetakan oracle yang buruk. Lebih suka protokol dengan pengagregatan yang mantap, pemutus litar dan tingkah laku kegagalan yang jelas apabila suapan terhenti."
+  },
+  {
+    "id": "rollup",
+    "term": "Gulung",
+    "definition": "L2 pelaksanaan yang menghantar data/bukti ke L1.",
+    "explain": "Penggulungan melaksanakan rantaian asas dan menyiarkan data atau bukti kembali supaya L1 boleh mendapatkan keputusan. Reka bentuk optimis bergantung pada tingkap cabaran; rollup kesahihan bergantung pada bukti. \n\nYuran pengguna jatuh kerana banyak transaksi berkongsi kos L1. Senarai semak risiko anda masih termasuk jambatan, penjujukan, kunci naik taraf dan cara keluar paksa berfungsi."
+  },
+  {
+    "id": "sequencer",
+    "term": "Sequencer",
+    "definition": "Komponen yang memesan transaksi L2.",
+    "explain": "Penurut memesan transaksi L2 dan sering memberikan pengesahan lembut yang cepat. Banyak penjujukan kekal berpusat hari ini, yang menjejaskan masa henti dan rintangan penapisan. \n\nPenyahpusatan penjujukan ialah tema peta jalan utama. Sehingga itu, anggap pengesahan lembut sebagai kemudahan, dan fahami laluan ke kemasukan yang dikuatkuasakan L1 apabila pengendali melakukan salah laku."
+  },
+  {
+    "id": "finality",
+    "term": "kesudahan",
+    "definition": "Apabila tx/blok boleh dikatakan tidak boleh diterbalikkan.",
+    "explain": "Muktamad menerangkan apabila urus niaga hampir tidak boleh diterbalikkan. Sesetengah protokol mempunyai alat muktamad yang jelas; yang lain adalah probabilistik dan mengukuhkan dengan mendalam. \n\nBursa memilih kiraan pengesahan daripada andaian ini. Untuk pemindahan yang besar, tunggu kesudahan yang sebenarnya diperlukan oleh rakan niaga anda—bukan roti bakar \"kejayaan\" pertama."
+  },
+  {
+    "id": "utxo",
+    "term": "UTXO",
+    "definition": "Model perakaunan output transaksi yang tidak dibelanjakan.",
+    "explain": "Output transaksi yang tidak dibelanjakan ialah cara sistem seperti Bitcoin menjejaki syiling yang boleh dibelanjakan. Baki anda ialah jumlah UTXO yang anda boleh tandatangani; perbelanjaan menggunakan output dan boleh mewujudkan perubahan. \n\nPerakaunan UTXO berbeza daripada baki akaun dan mempengaruhi yuran, privasi dan pemilihan syiling. Dompet ringan menyembunyikan butiran—nod penuh mendedahkan sebab penyatuan penting."
+  },
+  {
+    "id": "eoa",
+    "term": "EOA",
+    "definition": "Akaun milik luaran dikawal oleh kunci.",
+    "explain": "Akaun milik luaran dikawal secara langsung oleh kunci peribadi tanpa kod kontrak. Kebanyakan dompet klasik ialah EOA: tandatangan sama dengan kebenaran. \n\nTiada tetapan semula kata laluan. Kehilangan benih adalah kehilangan aset. Akaun pintar menukar model ini; jika anda kekal menggunakan EOA, sandaran luar talian dan rintangan pancingan data adalah segala-galanya."
+  },
+  {
+    "id": "multisig",
+    "term": "Multisig",
+    "definition": "Akaun yang memerlukan berbilang kelulusan.",
+    "explain": "Akaun berbilang tandatangan memerlukan kelulusan M-of-N sebelum dana bergerak. Perbendaharaan dan pasukan menggunakannya untuk menghapuskan kegagalan kunci tunggal. \n\nTukar ganti reka bentuk termasuk pilihan ambang, kepelbagaian geografi penandatangan dan latihan pemulihan. Multisig yang anda tidak pernah berlatih boleh gagal pada saat yang paling teruk."
+  },
+  {
+    "id": "seed-phrase",
+    "term": "Frasa Benih",
+    "definition": "Senarai perkataan yang menjana semula kunci dompet.",
+    "explain": "Frasa benih menjana semula kunci dompet. Sesiapa sahaja yang melihat perkataan itu boleh mencipta semula dompet di tempat lain—ejen sokongan tidak memerlukannya untuk \"mengesahkan\" anda. \n\nSimpan benih di luar talian, jangan sekali-kali menaipnya ke dalam tapak web, dan anggap benih yang diambil gambar telah terjejas. Jika bocor, pindahkan segera ke benih segar pada peranti yang bersih."
+  },
+  {
+    "id": "allowance",
+    "term": "Elaun",
+    "definition": "Jumlah maksimum yang boleh dibelanjakan oleh kontrak untuk token anda.",
+    "explain": "Elaun menghadkan jumlah token yang boleh dipindahkan oleh kontrak pembelanja Daripada baki anda. Elaun tanpa had adalah mudah untuk peniaga yang kerap dan berbahaya untuk orang lain. \n\nSemak dan batalkan elaun yang tidak digunakan secara berkala. Lebih suka elaun yang tepat atau sederhana apabila mempelajari apl baharu."
+  },
+  {
+    "id": "approve",
+    "term": "Luluskan",
+    "definition": "Transaksi yang menetapkan elaun.",
+    "explain": "Luluskan urus niaga yang ditetapkan atau tukar elaun. Mereka tidak memindahkan token dengan sendirinya, tetapi mereka membuka kunci perbelanjaan kemudian mengikut alamat pembelanja. \n\nBaca pembelanja dengan teliti, simulasi kesannya dan berhati-hati dengan pancingan data yang meminta kelulusan kepada kontrak yang tidak diketahui. Kelulusan ialah vektor longkang atas."
+  },
+  {
+    "id": "rug",
+    "term": "Tarik Permaidani",
+    "definition": "Orang dalam mengalirkan kecairan atau meninggalkan projek.",
+    "explain": "Tarikan permaidani ialah apabila orang dalam mengalirkan kecairan atau meninggalkan projek selepas mengumpul dana. Tanda amaran termasuk kecairan tidak dapat dicapai, pentadbir legap dan pemasaran hasil sahaja. \n\nUsaha wajar adalah sosial dan teknikal: akauntabiliti pasukan, kebenaran kontrak dan sama ada kecairan dikunci. Jika anda tidak dapat menjelaskan jalan keluar, jangan bersaiz besar."
+  },
+  {
+    "id": "phishing",
+    "term": "Pancingan data",
+    "definition": "Tapak/identiti palsu menipu kunci atau tandatangan.",
+    "explain": "Pancingan data menggunakan tapak, iklan dan identiti palsu untuk mendapatkan kunci atau tandatangan. Domain homograf dan DM sokongan palsu ialah hits abadi. \n\nGunakan penanda halaman, abaikan iklan carian untuk jenama dompet dan jangan sekali-kali berkongsi benih. Apabila tidak pasti, sahkan pada saluran kedua sebelum menandatangani apa-apa."
+  },
+  {
+    "id": "bridge",
+    "term": "Jambatan",
+    "definition": "Aset/mesej pemindahan protokol merentas rantaian.",
+    "explain": "Jambatan memindahkan aset atau mesej merentasi rantai. Jambatan kanonik mewarisi lebih banyak model keselamatan rollup rumah; jambatan pantas sering menambah andaian kepercayaan tambahan untuk kelajuan. \n\nSentiasa menguji dengan jumlah yang kecil, sahkan URL rasmi dan fahami tingkah laku bayaran balik. Risiko jambatan dari segi sejarah tertumpu dan tidak memaafkan."
+  },
+  {
+    "id": "stablecoin",
+    "term": "Stablecoin",
+    "definition": "Token direka untuk menjejaki rujukan yang stabil.",
+    "explain": "Stablecoins bertujuan untuk menjejaki rujukan yang stabil seperti USD. Reka bentuk termasuk rizab fiat, cagaran kripto dan mekanisme algoritma—masing-masing gagal secara berbeza. \n\nKetahui kualiti pengesahan pengeluar, dasar pembekuan dan laluan penebusan. Pelbagaikan apabila kandang menjadi teras kepada aliran kerja anda."
+  },
+  {
+    "id": "liquidity",
+    "term": "Kecairan",
+    "definition": "Keupayaan untuk berdagang saiz tanpa banyak bergerak harga.",
+    "explain": "Kecairan ialah keupayaan untuk berdagang saiz tanpa terlalu banyak menggerakkan harga. Kolam dalam mengurangkan gelinciran; kecairan boleh tanggal atau ilusi boleh memalsukan keselamatan. \n\nSemak siapa yang boleh mengeluarkan token LP dan seberapa cepat. Kecairan yang hilang dalam tekanan bukanlah kecairan apabila anda memerlukannya."
+  },
+  {
+    "id": "impermanent-loss",
+    "term": "Kehilangan Tidak Kekal",
+    "definition": "Prestasi rendah LP berbanding pegangan apabila harga berbeza.",
+    "explain": "Kerugian tidak kekal ialah prestasi rendah LP berbanding hanya memegang aset apabila harga berbeza. Yuran mungkin atau mungkin tidak memberi pampasan. \n\nKeluar mengkristal jurang. Model senario sebelum menyediakan kecairan, terutamanya dalam pasangan yang tidak menentu dengan pendapatan yuran yang tipis."
+  },
+  {
+    "id": "liquidation",
+    "term": "Pembubaran",
+    "definition": "Penjualan cagaran secara paksa apabila pinjaman tidak sihat.",
+    "explain": "Pembubaran secara paksa menjual cagaran apabila faktor kesihatan pinjaman gagal. Oracles menetapkan harga pencetus; lata menguatkan ranap. \n\nSimpan penimbal, elakkan leverage maksimum semasa belajar dan fahami sama ada pembubaran adalah berasaskan lelongan atau berasaskan bot keeper."
+  },
+  {
+    "id": "staking",
+    "term": "mempertaruhkan",
+    "definition": "Mengunci aset untuk menjamin rangkaian atau memperoleh ganjaran.",
+    "explain": "Staking mengunci aset untuk menjamin rangkaian atau memperoleh ganjaran protokol. Reka bentuk berbeza pada lokap, pemotongan dan sama ada anda menjalankan pengesah atau perwakilan. \n\nDelegasi menambah risiko pengendali. Baca masa penyatuan sebelum menganggap aset dipertaruhkan sebagai dana cair hari hujan."
+  },
+  {
+    "id": "validator",
+    "term": "Pengesah",
+    "definition": "Nod PoS yang mencadangkan/menguji sekatan.",
+    "explain": "Pengesah mencadangkan dan mengesahkan blok dalam sistem bukti pegangan. Prestasi buruk atau niat jahat boleh dikurangkan. \n\nPengesahan solo memerlukan disiplin ops; staking cair dan staking semula menambah lapisan kontrak pintar dan risiko pengendali di samping tugas konsensus."
+  },
+  {
+    "id": "dao",
+    "term": "DAO",
+    "definition": "Organisasi menyelaras melalui peraturan/undi dalam rangkaian.",
+    "explain": "DAO menyelaras melalui peraturan dalam rantaian dan undian ke atas perbendaharaan dan parameter. Jumlah keluar mengundi, kepekatan ikan paus dan kualiti cadangan membentuk hasil. \n\nTadbir urus ialah permukaan keselamatan: peningkatan berniat jahat boleh menguras dana dengan undian yang \"berjaya\". Baca muatan, bukan sahaja tajuk."
+  },
+  {
+    "id": "nft",
+    "term": "NFT",
+    "definition": "Token tidak boleh digunakan untuk item unik.",
+    "explain": "Token tidak boleh digunakan mewakili item unik. Pemilikan token adalah dalam rantaian; media dan sifat selalunya hidup di luar rantaian dan bergantung pada penyematan atau pelayan. \n\nSahkan alamat kontrak, dasar royalti dan kebolehubah metadata. Karya seni yang sama, kontrak yang berbeza, adalah perangkap klasik."
+  },
+  {
+    "id": "ipfs",
+    "term": "IPFS",
+    "definition": "Rangkaian fail teragih beralamat kandungan.",
+    "explain": "IPFS menangani kandungan dengan cincang supaya integriti boleh disemak. Kekal masih bergantung pada seseorang yang menyematkan data. \n\nApabila NFT atau dokumen memetik IPFS, tanya siapa yang menyematkan dan apa yang berlaku jika get laluan hilang. Pengalamatan kandungan ≠ pengehosan selama-lamanya automatik."
+  },
+  {
+    "id": "ens",
+    "term": "ENS",
+    "definition": "Nama pemetaan Perkhidmatan Nama Ethereum kepada rekod.",
+    "explain": "ENS memetakan nama yang boleh dibaca manusia kepada alamat dan rekod. Ia mengurangkan kesilapan menaip tetapi nama tamat tempoh dan resolusi boleh dirampas jika anda melangkau semak. \n\nSentiasa semak semula alamat yang diselesaikan pada laluan yang dipercayai sebelum menghantar saiz."
+  },
+  {
+    "id": "layer1",
+    "term": "Lapisan 1",
+    "definition": "Rantaian asas dengan konsensus/penyelesaian sendiri.",
+    "explain": "Rantaian lapisan-1 menyediakan konsensus dan keselamatan penyelesaiannya sendiri. Yuran dan daya pengeluaran mencerminkan kekurangan lapisan asas itu. \n\nL1 ialah tempat penyelesaian pertikaian akhir sering berlaku untuk penggulingan. Memahami yuran dan muktamad L1 membantu anda mentafsir janji L2."
+  },
+  {
+    "id": "layer2",
+    "term": "Lapisan 2",
+    "definition": "Menskalakan lapisan yang mewarisi keselamatan daripada L1.",
+    "explain": "Pelaksanaan skala sistem Layer-2 sambil bertujuan untuk mewarisi keselamatan daripada L1. Rollups menguasai ruang reka bentuk semasa. \n\nPengguna harus mempelajari kepercayaan jambatan, andaian penjujukan dan tingkap keluar. \"Ethereum yang lebih murah\" masih mempunyai peta operasinya sendiri."
+  },
+  {
+    "id": "zk-proof",
+    "term": "ZK / Bukti Kesahan",
+    "definition": "Bukti ketepatan tanpa melaksanakan semula segala-galanya.",
+    "explain": "Bukti kesahihan meyakinkan pengesah bahawa kumpulan adalah betul tanpa melaksanakan semula segala-galanya. Rollup ZK menggunakannya untuk menyelesaikan secara ringkas pada L1. \n\nPenjenamaan \"ZK\" tidak menjawab siapa yang turutan, siapa yang meningkatkan atau cara jambatan berfungsi. Tanya apa yang terbukti dan apa yang masih dipercayai."
+  },
+  {
+    "id": "fraud-proof",
+    "term": "Bukti Penipuan",
+    "definition": "Bukti bahawa kumpulan optimis adalah tidak sah.",
+    "explain": "Bukti penipuan mencabar kelompok optimis yang tidak sah semasa tetingkap. Pemerhati mesti boleh mengakses data dan menyerahkan bukti. \n\nJika data tiada atau pemerhati gagal, andaian keselamatan menjadi lemah. Sistem optimis memperdagangkan kependaman kepada muktamad untuk pembuktian yang lebih mudah."
+  },
+  {
+    "id": "blob",
+    "term": "Gumpalan",
+    "definition": "Ruang data murah diperkenalkan untuk penskalaan.",
+    "explain": "Blob menyediakan ruang data sementara yang lebih murah untuk rollup untuk menyiarkan data transaksi. Kos DA yang lebih rendah ialah sebab utama yuran L2 jatuh. \n\nGumpalan adalah infrastruktur, bukan produk pengguna sendiri. Mereka membolehkan aplikasi; mereka tidak membuang risiko jambatan atau menandatangani."
+  },
+  {
+    "id": "wallet",
+    "term": "Dompet",
+    "definition": "Perisian/perkakasan yang menguruskan kunci dan tandatangan.",
+    "explain": "Dompet menguruskan kunci dan membina tandatangan. Syiling hidup di rantai; dompet memegang kawalan, bukan baki jagaan melainkan ia adalah akaun pertukaran. \n\nPilih panas berbanding sejuk berdasarkan saiz dan kekerapan. Disiplin sandaran lebih penting daripada estetika jenama."
+  },
+  {
+    "id": "cold-storage",
+    "term": "Penyimpanan Sejuk",
+    "definition": "Menyimpan kunci di luar talian untuk mengecilkan permukaan serangan.",
+    "explain": "Storan sejuk menyimpan kunci di luar talian untuk mengecilkan permukaan serangan jauh. Ia sesuai dengan pegangan jangka panjang lebih baik daripada perdagangan frekuensi tinggi. \n\nUji terima dan hantaran kecil mengalir sebelum saiz tempat letak kereta. Kesilapan operasi (rantaian salah, alamat salah) masih berlaku di luar talian."
+  },
+  {
+    "id": "kyc",
+    "term": "KYC",
+    "definition": "Pemeriksaan identiti pada platform.",
+    "explain": "KYC ialah pengesahan identiti pada platform untuk pematuhan. Ia berbeza daripada alamat blockchain dan mewujudkan pertukaran privasi dan pelanggaran data. \n\nFahami perkara yang anda tinggalkan untuk fiat ramp. Penjagaan diri tidak memadamkan sejarah KYC di atas tanjakan yang telah anda gunakan."
+  },
+  {
+    "id": "dex",
+    "term": "DEX",
+    "definition": "Penyelesaian pertukaran melalui kontrak pintar.",
+    "explain": "Pertukaran terdesentralisasi menyelesaikan perdagangan melalui kontrak pintar, biasanya secara bukan penjagaan. Pengguna menyimpan kunci dan menanggung tandatangan dan risiko MEV. \n\nSahkan kontrak penghala dan alamat token. UI DEX masih boleh pancingan data walaupun protokol asas mempunyai reputasi yang baik."
+  },
+  {
+    "id": "cex",
+    "term": "CEX",
+    "definition": "Pertukaran berpusat.",
+    "explain": "Pertukaran berpusat menawarkan padanan pantas dan tanjakan fiat dengan risiko jagaan. Anda memegang IOU sehingga anda menarik diri. \n\nGunakannya sebagai alat, bukan peti besi. Tarik balik saiz yang anda minati, dayakan keselamatan akaun yang kukuh dan tonton apl yang serupa."
+  },
+  {
+    "id": "dapp",
+    "term": "DApp",
+    "definition": "Apl dengan logik kritikal pada rantaian.",
+    "explain": "Dapp meletakkan logik kritikal pada rantaian manakala bahagian hadapan mungkin masih terpusat. Pengambilalihan domain boleh mengarahkan pengguna kepada panggilan kontrak yang berniat jahat. \n\nTandai halaman URL rasmi, pilih interaksi kontrak yang disahkan dan layan kepercayaan bahagian hadapan sebagai sebahagian daripada model ancaman."
+  },
+  {
+    "id": "hash",
+    "term": "Hash",
+    "definition": "Ringkasan data sehala.",
+    "explain": "Cincang kriptografi memetakan data kepada ringkasan tetap. Perubahan input kecil flip output; mencari perlanggaran direka untuk menjadi sukar. \n\nHashes menyekat pautan, alamat kandungan dan komited pada mesej. Mereka adalah perekat pemeriksaan integriti merentasi sistem crypto."
+  },
+  {
+    "id": "block",
+    "term": "Sekat",
+    "definition": "Kumpulan tx dikaitkan dengan sejarah.",
+    "explain": "Satu blok menggabungkan transaksi ke dalam sejarah yang dipautkan. Sasaran saiz dan masa membentuk pasaran daya dan yuran. \n\nPenjelajah menunjukkan ketinggian, pencadang dan tx yang disertakan. Memahami blok membantu anda mentafsir pengesahan dan menyusun semula risiko."
+  },
+  {
+    "id": "private-key",
+    "term": "Kunci Peribadi",
+    "definition": "Rahsia yang membenarkan perbelanjaan.",
+    "explain": "Kunci peribadi membenarkan perbelanjaan. Berkongsi-atau benih yang memperolehnya-sama dengan berkongsi dana. \n\nJangan sekali-kali menaip kunci ke dalam tapak web, apl sembang atau borang \"sokongan\". Pengasingan perkakasan membantu; berhati-hati operasi masih menentukan hasil."
+  },
+  {
+    "id": "public-key",
+    "term": "Kunci Awam",
+    "definition": "Nilai terbitan yang digunakan untuk mengesahkan tandatangan.",
+    "explain": "Kunci awam mengesahkan tandatangan yang sepadan dengan kunci persendirian. Alamat biasanya diperoleh daripada pencincangan kunci awam. \n\nKunci dan alamat awam boleh dikongsi untuk diterima. Amalan privasi masih penting jika anda menggunakannya semula secara meluas."
+  },
+  {
+    "id": "address",
+    "term": "Alamat",
+    "definition": "Pengecam yang digunakan untuk menerima dana.",
+    "explain": "Alamat ialah pengecam yang digunakan untuk menerima dana pada rangkaian. Menghantar ke rangkaian yang salah atau alamat salah taip selalunya tidak dapat dipulihkan. \n\nSalin dengan teliti, sahkan beberapa aksara pada permulaan dan akhir, dan hantar ujian apabila mengalihkan saiz ke destinasi baharu."
+  },
+  {
+    "id": "confirmation",
+    "term": "Pengesahan",
+    "definition": "Berapa banyak blok telah dibina pada tx.",
+    "explain": "Pengesahan mengira bilangan blok yang telah dibina di atas transaksi anda. Lebih mendalam menjadikan reorg lebih sukar. \n\nPerkhidmatan memilih ambang yang berbeza untuk saiz yang berbeza. Kesabaran adalah kawalan keselamatan untuk penempatan besar."
+  },
+  {
+    "id": "smart-contract",
+    "term": "Kontrak Pintar",
+    "definition": "Program dikerahkan ke rantaian.",
+    "explain": "Kontrak pintar ialah program yang digunakan ke alamat rantaian. Ia boleh menjaga aset dan menguatkuasakan peraturan tanpa perantara tradisional. \n\nPepijat, kunci pentadbir dan penyepaduan yang tidak dijangka menimbulkan risiko. Lebih suka laluan kod yang telah diaudit dan diuji masa apabila belajar dengan dana sebenar."
+  },
+  {
+    "id": "token",
+    "term": "Token",
+    "definition": "Unit aset diakaunkan dalam kontrak.",
+    "explain": "Token ialah unit aset yang diakaunkan oleh kontrak. Nama dan ticker boleh diklon; alamat kontrak mengenal pasti aset sebenar. \n\nSentiasa sahkan alamat daripada sumber yang dipercayai sebelum menukar atau menambah kecairan."
+  },
+  {
+    "id": "erc-20",
+    "term": "ERC-20",
+    "definition": "Antara muka token boleh fungible dominan.",
+    "explain": "ERC-20 ialah antara muka token boleh fungible yang dominan pada rantaian seperti Ethereum. Ia menyeragamkan gelagat pemindahan dan kelulusan untuk dompet dan DEX. \n\nKelulusan adalah sebahagian daripada standard—dan sebahagian daripada risiko. Fahami mekanik elaun sebelum menanam token baharu."
+  },
+  {
+    "id": "permissionless",
+    "term": "Tanpa kebenaran",
+    "definition": "Sesiapa sahaja boleh menggunakan atau menggunakan tanpa senarai yang dibenarkan.",
+    "explain": "Sistem tanpa kebenaran membenarkan sesiapa sahaja untuk menggunakan atau menggunakan tanpa senarai yang dibenarkan. Akses terbuka menyemarakkan inovasi dan penipuan bersama. \n\nPenapis anda menjadi peribadi: sahkan kontrak, lebih suka reputasi dengan bukti dan eksperimen bersaiz kecil."
+  },
+  {
+    "id": "custody",
+    "term": "jagaan",
+    "definition": "Pihak ketiga yang memegang kunci/aset.",
+    "explain": "Penjagaan bermaksud pihak ketiga memegang kunci atau aset untuk anda. Dagangan kemudahan terhadap rakan niaga dan risiko operasi. \n\nPenjagaan diri beralih kepada anda. Pendekatan hibrid—pertukaran untuk perdagangan, simpanan sejuk untuk simpanan—adalah corak celik biasa."
+  },
+  {
+    "id": "yield-farming",
+    "term": "Hasil Pertanian",
+    "definition": "Memperuntukkan kecairan untuk memperoleh ganjaran merentas protokol.",
+    "explain": "Ladang hasil memperuntukkan kecairan merentas protokol untuk memperoleh ganjaran. APR yang tinggi selalunya bersifat sementara dan dibayar dalam token ganjaran yang tidak menentu. \n\nKecairan keluar model dan risiko kontrak pintar. Bertani adalah strategi, bukan akaun simpanan."
+  },
+  {
+    "id": "airdrop",
+    "term": "Airdrop",
+    "definition": "Pengedaran token untuk pertumbuhan/komuniti.",
+    "explain": "Airdrops mengedarkan token untuk pertumbuhan atau ganjaran komuniti. Tuntutan boleh melibatkan tandatangan yang lebih selamat—atau lebih selamat—daripada yang kelihatan. \n\nPerhatikan tapak tuntutan pancingan data dan kejutan cukai. Jika tuntutan meminta benih anda, ia bukan airdrop."
+  },
+  {
+    "id": "whitepaper",
+    "term": "Kertas putih",
+    "definition": "Dokumen yang menerangkan reka bentuk dan matlamat.",
+    "explain": "Kertas putih menerangkan matlamat dan mekanisme reka bentuk. Lebih suka peraturan konkrit, model ancaman dan parameter berbanding dek getaran. \n\nAnggap kertas sebagai tuntutan permulaan untuk mengesahkan dalam kod dan tingkah laku pengeluaran, bukan sebagai jaminan."
+  },
+  {
+    "id": "halving",
+    "term": "Membelah dua",
+    "definition": "Pemotongan berkala bagi subsidi blok Bitcoin.",
+    "explain": "Pengurangan separuh Bitcoin secara berkala mengurangkan subsidi blok. Pengeluaran bekalan baharu perlahan mengikut jadual yang diketahui. \n\nIa tidak menjamin kenaikan harga. Ia menggambarkan bagaimana belanjawan keselamatan dan pasaran yuran berkembang apabila subsidi menurun."
+  },
+  {
+    "id": "merkle-tree",
+    "term": "Pokok Merkle",
+    "definition": "Pokok hash membuktikan kemasukan dengan cekap.",
+    "explain": "Pepohon Merkle mencincang data ke dalam akar supaya kemasukan boleh dibuktikan dengan cekap. Pelanggan ringan dan banyak sistem bukti bergantung pada mereka. \n\nMereka membenarkan anda mengesahkan sekeping kepunyaan set komited tanpa memuat turun semuanya—teras kepada pengesahan boleh skala."
+  },
+  {
+    "id": "nonce",
+    "term": "Tidak pernah",
+    "definition": "Nombor urutan tx akaun.",
+    "explain": "Akaun nonce menyusun urus niaga supaya setiap satu diproses sekali mengikut tertib. Urus niaga yang tersekat sering digantikan dengan menghantar semula nonce yang sama dengan bayaran yang lebih tinggi. \n\nMemahami nonces menyahmiskinkan dompet dan aliran penggantian yang \"tertunda selamanya\"."
+  }
+]

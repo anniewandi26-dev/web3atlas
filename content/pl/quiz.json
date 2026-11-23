@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q1",
+    "question": "Dlaczego BTC stał się głównym odniesieniem do kryptowalut?",
+    "choices": [
+      "Tylko aprobaty gwiazd",
+      "Pierwsza wiarygodna narracja o rzadkich cyfrowych pieniądzach + efekty sieciowe",
+      "Gwarantowane wsparcie rządu",
+      "Nieograniczona podaż"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q2",
+    "question": "Dlaczego Ethereum nazywane jest „komputerem świata”?",
+    "choices": [
+      "Przechowuje tylko pliki",
+      "Obsługuje inteligentne kontrakty ogólnego przeznaczenia",
+      "Szybciej wydobywa Bitcoin",
+      "Zastępuje globalnie DNS"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q3",
+    "question": "Bitcoin zmniejsza się o połowę mniej więcej co 4 lata – co jest cięte?",
+    "choices": [
+      "Całkowita podaż natychmiast",
+      "Nagroda za blok górniczy",
+      "Opłaty za portfel na zawsze",
+      "Liczba walidatorów"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q4",
+    "question": "Co przede wszystkim zmieniły amerykańskie fundusze ETF Bitcoin?",
+    "choices": [
+      "Kod BTC",
+      "Ścieżka dostępu do usług maklerskich dla inwestorów tradycyjnych",
+      "Algorytm wydobywania",
+      "Długość frazy początkowej"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q5",
+    "question": "Po połączeniu energia Ethereum będzie zużywana…",
+    "choices": [
+      "Zwiększono 10x",
+      "Spadek drastycznie w przypadku dowodu stawki",
+      "Zostałem wyłącznie węglowy",
+      "Niezmienione"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q6",
+    "question": "Dlaczego transfery w warstwie 2 mogą kosztować centy?",
+    "choices": [
+      "Ignorują bezpieczeństwo",
+      "Grupują wiele przesyłek i amortyzują koszt danych L1",
+      "Banki je dofinansowują",
+      "Gaz jest zgodnie z prawem bezpłatny"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q7",
+    "question": "Dlaczego główne monety typu stablecoin nazywane są „dolarami on-chain”?",
+    "choices": [
+      "Są to portfele ubezpieczone FDIC",
+      "Ich celem jest śledzenie USD na potrzeby rozliczeń i handlu",
+      "Są to złote monety",
+      "Nie mogą przenieść"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q8",
+    "question": "Pożyczaj i zarabiaj bez banku – w jakiej kategorii?",
+    "choices": [
+      "Tylko NFT",
+      "Pożyczki DeFi i AMM",
+      "Produkcja sprzętu",
+      "Internet satelitarny"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q9",
+    "question": "2010: Za 10 000 BTC kupiono dwie pizze – lekcja?",
+    "choices": [
+      "BTC zawsze było drogie",
+      "Wczesne odkrycie cen miało charakter eksperymentalny i społeczny",
+      "Pizza to protokół",
+      "Wydobycie było nielegalne"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q10",
+    "question": "Jedno nieostrożne zatwierdzenie może…",
+    "choices": [
+      "Popraw APY automatycznie",
+      "Pozwól, aby kontrakt wyczerpał żetony później",
+      "Usuń łańcuch bloków",
+      "Uaktualnij swój sprzęt"
+    ],
+    "answer": 1
+  }
+]

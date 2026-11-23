@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "blockchain",
+    "name": "Blockchain",
+    "summary": "Networks that record and secure transactions",
+    "blurb": "Shared ledgers with consensus—the settlement layer everything else sits on. Each article includes full explainers, key points, and tips.",
+    "items": [
+      {
+        "id": "bitcoin",
+        "title": "Bitcoin",
+        "summary": "The first peer-to-peer electronic cash network with fixed issuance rules",
+        "intro": "Bitcoin shows how value can move on the internet without a bank as referee. A global set of nodes shares one ledger secured by cryptography and incentives. For beginners, keys, UTXOs, and issuance rules matter more than short-term price charts.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Trusted intermediaries can freeze accounts, block payments, or fail in crises. Bitcoin replaces institutional permission with public verification: anyone can check the history, while rewriting it is designed to be extremely expensive.\nThe genesis block even embedded a newspaper headline about bank bailouts—an intentional signal about monetary rules in code."
+          },
+          {
+            "heading": "How it works",
+            "body": "You sign a transaction that spends unspent outputs (UTXOs) to new addresses. Miners compete via proof-of-work to append blocks and earn rewards.\nHalvings reduce new supply over time; difficulty adjusts so blocks remain roughly steady. More confirmations means lower reorg risk."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Private keys equal control; addresses can be public. Fees are a market for block space. Bitcoin’s scripting is intentionally limited, so it behaves more like settlement and digital scarcity than a general app platform."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Volatility is not a protocol bug. Coins on an exchange are IOUs until withdrawn. Phishing, fake support, and wrong-network transfers cause permanent losses—practice with tiny amounts first."
+          }
+        ],
+        "keyPoints": [
+          "Bitcoin is a publicly verifiable settlement network, not a company token.",
+          "Issuance rules including halvings are enforced by the protocol and incentives.",
+          "UTXO + signatures define transfers; lost keys mean lost funds.",
+          "Security is mostly key hygiene and confirmation habits."
+        ],
+        "tips": [
+          "Practice receive/send with a reputable or hardware wallet.",
+          "Move size in batches and wait for enough confirmations.",
+          "Back up the seed offline—never photograph or message it."
+        ],
+        "body": "Bitcoin shows how value can move on the internet without a bank as referee. A global set of nodes shares one ledger secured by cryptography and incentives. For beginners, keys, UTXOs, and issuance rules matter more than short-term price charts."
+      },
+      {
+        "id": "ethereum",
+        "title": "Ethereum",
+        "summary": "A general-purpose blockchain for smart contracts—often called a world computer",
+        "intro": "Where Bitcoin focuses on transferring money, Ethereum focuses on enforcing programmable rules. Contracts custody assets, encode conditions, and compose into apps. After the Merge, consensus is proof-of-stake while execution remains the EVM.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Payments alone cannot express loans, exchanges, or on-chain governance cleanly. A shared virtual machine turns code into public infrastructure.\nOpen interfaces let tokens and protocols plug into each other—the foundation of DeFi legos."
+          },
+          {
+            "heading": "How it works",
+            "body": "EOAs are key-controlled; contract accounts are code-controlled. You pay gas for state changes. Validators stake ETH to propose and attest; severe faults can be slashed.\nUsers still interact via wallet signatures, but the design space is far wider than simple transfers."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Gas meters computation. Token standards (ERC-20/721) enable wallet and market compatibility. Layer 2 moves execution off mainnet while settling back to Ethereum’s security."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "“On Ethereum” ≠ audited or safe. Unlimited approvals and fake tokens drain wallets. Peak fees can exceed trade size—check network, contract, and allowance scope."
+          }
+        ],
+        "keyPoints": [
+          "Ethereum is a shared state machine plus smart-contract runtime.",
+          "PoS secures consensus; the EVM executes applications.",
+          "Standards make assets interoperable across the ecosystem.",
+          "Safety depends on contract quality, approvals, and bridges."
+        ],
+        "tips": [
+          "Verify contract addresses in a block explorer, not by ticker alone.",
+          "Use official L2s or wait when mainnet is congested.",
+          "Test new protocols with money you can afford to lose."
+        ],
+        "body": "Where Bitcoin focuses on transferring money, Ethereum focuses on enforcing programmable rules. Contracts custody assets, encode conditions, and compose into apps. After the Merge, consensus is proof-of-stake while execution remains the EVM."
+      },
+      {
+        "id": "consensus",
+        "title": "Consensus",
+        "summary": "How a network agrees on one canonical history",
+        "intro": "Without a central referee, nodes still need one ledger. Consensus defines who proposes blocks, how cheaters are punished, and when a transfer is final enough. Proof-of-work and proof-of-stake are different ways to make rewriting history costly.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Distributed participants can delay, disconnect, or lie. Consensus prevents double-spends by making one history economically dominant.\nFor users, it determines wait times, reorg risk, and attack cost."
+          },
+          {
+            "heading": "How it works",
+            "body": "PoW prices attacks with energy/hashrate. PoS prices attacks with bonded capital and slashing. Some protocols offer stronger finality after checkpoints; others are probabilistic.\nExchanges set deposit confirmations from these properties."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Liveness vs safety trade-offs matter. A “faster” chain with tiny validator sets may weaken censorship resistance. Ask who produces blocks before celebrating TPS."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Slogans are not investment theses. Bridge and light-client assumptions are often weaker than base consensus—and that is where many hacks land."
+          }
+        ],
+        "keyPoints": [
+          "Consensus elects a single canonical history among untrusted nodes.",
+          "PoW and PoS price attacks differently.",
+          "Confirmations/finality decide when funds are “received.”",
+          "Cross-chain components can be weaker than the L1 story."
+        ],
+        "tips": [
+          "Respect suggested confirmation counts for large deposits.",
+          "Study validator distribution and slashing rules on new chains.",
+          "Reduce bridge/leverage activity during contentious upgrades."
+        ],
+        "body": "Without a central referee, nodes still need one ledger. Consensus defines who proposes blocks, how cheaters are punished, and when a transfer is final enough. Proof-of-work and proof-of-stake are different ways to make rewriting history costly."
+      },
+      {
+        "id": "accounts",
+        "title": "Accounts & Keys",
+        "summary": "On-chain identity is a keypair, not a username reset by support",
+        "intro": "Your account is usually an address derived from a private key. Nobody can reset that key for you; a signature is authorization. Understanding EOAs, contract accounts, and seed phrases is the foundation of safe use.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Web2 accounts live on company servers with password reset. Blockchains push control to key holders for self-custody—and push operational responsibility with it."
+          },
+          {
+            "heading": "How it works",
+            "body": "Private keys derive public keys and addresses. Seeds (BIP-39) can regenerate many accounts across chains. Contract accounts move funds by code paths; smart accounts encode policies like limits and guardians."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Hot wallets are convenient; hardware wallets keep keys in a secure element. Multisig spreads control. One leaked seed can compromise an entire derivation tree."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Cloud screenshots, malware, and “support” seed requests are classic loss paths. Blind signing can approve drains—reject unclear prompts."
+          }
+        ],
+        "keyPoints": [
+          "Keys equal ownership.",
+          "Addresses are shareable; seeds are not.",
+          "EOAs are human-signed; contracts are code-controlled.",
+          "Read the permission scope before signing."
+        ],
+        "tips": [
+          "Separate experiment funds from savings wallets.",
+          "Write seeds on paper/metal and store offline.",
+          "Enable transaction simulation on new dApps."
+        ],
+        "body": "Your account is usually an address derived from a private key. Nobody can reset that key for you; a signature is authorization. Understanding EOAs, contract accounts, and seed phrases is the foundation of safe use."
+      },
+      {
+        "id": "gas",
+        "title": "Gas & Fees",
+        "summary": "Every state change is metered so the public computer cannot be spammed for free",
+        "intro": "Gas is not an arbitrary tax—it prices computation and storage. Your fee is usage × unit price. Congestion spikes the unit price, which is why the same action can cost cents or tens of dollars.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Public blockchains must bound resources. Gas creates a fee market: higher bids clear first; developers must write efficient contracts."
+          },
+          {
+            "heading": "How it works",
+            "body": "Simple transfers cost little gas; complex DeFi routes cost more. After EIP-1559, base fees burn and tips pay proposers. L2s amortize L1 data cost across many users, so unit fees drop."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Gas limit caps how much you allow. Failed transactions can still charge gas because execution happened. Speed-up/cancel replaces a pending nonce with a higher fee tx."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Fake sites may prompt absurd gas or nonsense calls. “Zero gas” campaigns often expand permissions—ask who sponsors and what you authorize."
+          }
+        ],
+        "keyPoints": [
+          "Gas meters execution; price is market-driven.",
+          "Failures can still cost gas.",
+          "L2s and batching are the main fee savers.",
+          "Reject abnormal fee or approval requests."
+        ],
+        "tips": [
+          "Do non-urgent actions off-peak or on L2.",
+          "Use wallet fee estimates and simulation.",
+          "Price total gas before multi-step campaigns."
+        ],
+        "body": "Gas is not an arbitrary tax—it prices computation and storage. Your fee is usage × unit price. Congestion spikes the unit price, which is why the same action can cost cents or tens of dollars."
+      },
+      {
+        "id": "bridges",
+        "title": "Bridges",
+        "summary": "Channels that move value or messages across chains—and a frequent hack target",
+        "intro": "Assets do not magically appear on another ledger. Bridges lock, mint, burn, or swap via liquidity—expanding access while concentrating risk. Several of history’s largest exploits hit bridge custody and verification.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Without bridges, ecosystems stay islands. With bridges, users inherit extra trust and contract risk in exchange for mobility."
+          },
+          {
+            "heading": "How it works",
+            "body": "Models include lock-and-mint, burn-and-redeem, liquidity networks, and light-client relays. Canonical rollup bridges inherit rollup security but may have exit delays; fast bridges add third-party assumptions for speed."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Can you redeem 1:1? How decentralized are validators? High TVL can mean a fatter target, not automatic safety."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Phishing domains thrive around bridges. Wrong network or token contracts send funds into voids. Always test with a tiny transfer first."
+          }
+        ],
+        "keyPoints": [
+          "A bridge is a cross-ledger protocol, not teleportation.",
+          "Canonical vs fast bridges have different trust models.",
+          "Bridges dominate historical hack losses.",
+          "Verify domain, contract, and network together."
+        ],
+        "tips": [
+          "Enter bridges from bookmarked official docs only.",
+          "Test minimal size before moving size.",
+          "Treat pending exits as not freely spendable yet."
+        ],
+        "body": "Assets do not magically appear on another ledger. Bridges lock, mint, burn, or swap via liquidity—expanding access while concentrating risk. Several of history’s largest exploits hit bridge custody and verification."
+      }
+    ]
+  },
+  {
+    "id": "defi",
+    "name": "DeFi",
+    "summary": "Lending, swapping and staking via smart contracts",
+    "blurb": "How open financial primitives compose—and the risks around rates, liquidations, and stables.",
+    "items": [
+      {
+        "id": "amm",
+        "title": "Automated Market Makers",
+        "summary": "Liquidity pools and pricing curves replace classic order books",
+        "intro": "AMMs let anyone deposit tokens into a pool so traders can swap against a formula. You get continuous liquidity and LP fees—plus impermanent loss and smart-contract risk.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "On-chain order books are costly. Pools keep liquidity resident in contracts so swaps can happen anytime, democratizing market making."
+          },
+          {
+            "heading": "How it works",
+            "body": "Constant-product is the classic curve; stableswaps and concentrated liquidity improve capital efficiency. Routers split trades across pools. Slippage limits protect you when state moves."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Impermanent loss can make LPs underperform holding. Fake tokens and honeypots can look buyable but unsellable. Emissions APRs may not last."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Unlimited approvals to unknown routers are dangerous. Depegs stress “stable” pools hard."
+          }
+        ],
+        "keyPoints": [
+          "AMMs price via pool math for instant swaps.",
+          "LPs earn fees and take IL + contract risk.",
+          "Slippage and routing quality drive outcomes.",
+          "Verify pools/tokens before chasing yield."
+        ],
+        "tips": [
+          "Set tight slippage and minimum-out amounts.",
+          "Prefer deep pools on mature protocols.",
+          "Revoke unused token allowances regularly."
+        ],
+        "body": "AMMs let anyone deposit tokens into a pool so traders can swap against a formula. You get continuous liquidity and LP fees—plus impermanent loss and smart-contract risk."
+      },
+      {
+        "id": "lending",
+        "title": "Lending Protocols",
+        "summary": "Overcollateralized borrowing with algorithmic rates and liquidations",
+        "intro": "Deposit assets to earn yield or borrow against collateral without a credit desk. Health factors, oracles, and liquidation bots—not relationship managers—keep the system solvent.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "On-chain enforcement of unsecured credit is hard, so overcollateralization dominates. Anyone can participate; capital efficiency is the trade-off."
+          },
+          {
+            "heading": "How it works",
+            "body": "Utilization drives interest curves. Oracles feed prices. When health falls, liquidators repay debt and seize collateral for a bonus."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Isolation modes, LTV, and bad-debt socializations differ by protocol. Looped leverage multiplies risk. Net APR must subtract gas and liquidation penalties."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Oracle lag or manipulation can cause wrongful liquidations. Treating lending as “safe savings” is a mindset trap."
+          }
+        ],
+        "keyPoints": [
+          "Overcollateralization + liquidations are the core.",
+          "Health factor beats headline rates.",
+          "Oracle and liquidity quality decide safety.",
+          "Leverage loops amplify drawdowns."
+        ],
+        "tips": [
+          "Leave a large buffer above liquidation.",
+          "Avoid highly correlated collateral in storms.",
+          "Estimate liquidation price before borrowing."
+        ],
+        "body": "Deposit assets to earn yield or borrow against collateral without a credit desk. Health factors, oracles, and liquidation bots—not relationship managers—keep the system solvent."
+      },
+      {
+        "id": "stablecoins",
+        "title": "Stablecoins",
+        "summary": "On-chain units designed to track a stable reference like USD",
+        "intro": "Volatile base assets are awkward for pricing and accounting. Stablecoins provide a dollar-like rail for trading and remittances—but mechanisms and failure modes differ sharply.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "They supply a familiar unit of account for on-chain activity and a temporary refuge in risk-off moments—refuge ≠ risk-free."
+          },
+          {
+            "heading": "How it works",
+            "body": "Fiat-backed coins rely on reserves and redemption; crypto-backed ones on overcollateralization; algorithmic designs adjust supply and have proven fragile. Transparency and redemption terms matter in stress."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Freezes, depegs, fake cross-chain versions, and yield wrappers add layers of risk. Same ticker on another chain may be unofficial."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "USD in the name is marketing, not insurance. Concentration in one issuer is counterparty risk."
+          }
+        ],
+        "keyPoints": [
+          "Stablecoins are tools with issuer/mechanism risk.",
+          "Reserves, collateral, or algorithms fail differently.",
+          "Redemption and freeze policies affect usability.",
+          "Always verify official contracts per chain."
+        ],
+        "tips": [
+          "Prefer transparent redeemable designs for size.",
+          "Diversify issuers and venues.",
+          "Treat outsized “stable yield” as a warning."
+        ],
+        "body": "Volatile base assets are awkward for pricing and accounting. Stablecoins provide a dollar-like rail for trading and remittances—but mechanisms and failure modes differ sharply."
+      },
+      {
+        "id": "staking",
+        "title": "Staking & Restaking",
+        "summary": "Bond capital to secure a network—and sometimes reuse that security",
+        "intro": "Proof-of-stake aligns validators with chain security via bonded stake. Liquid staking tokens improve capital efficiency; restaking reuses stake for extra services and stacks correlated slashing risk.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "PoS needs a sufficiently decentralized validator set. Rewards compensate operations and opportunity cost; liquid staking raises participation with new contract risks."
+          },
+          {
+            "heading": "How it works",
+            "body": "Activation and exit queues, duties, and slashing define the job. Restaking delegates security to additional protocols for extra yield—and extra slash conditions."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Operator performance, client diversity, and LST depeg risk matter. Higher yield usually means more ways to be punished."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Fake staking sites harvest approvals or seeds. Restaking is not risk-free leverage on ETH."
+          }
+        ],
+        "keyPoints": [
+          "Staking pays for security work.",
+          "Liquid staking adds contract/operator layers.",
+          "Restaking stacks slash conditions.",
+          "Unstaking delays mean liquidity is not instant."
+        ],
+        "tips": [
+          "Choose operators with track records and low concentration.",
+          "Size restaking to slash tolerance.",
+          "Enter only via official documentation links."
+        ],
+        "body": "Proof-of-stake aligns validators with chain security via bonded stake. Liquid staking tokens improve capital efficiency; restaking reuses stake for extra services and stacks correlated slashing risk."
+      },
+      {
+        "id": "perps",
+        "title": "Perpetual Futures",
+        "summary": "Non-expiring leveraged markets anchored by funding rates",
+        "intro": "Perps let traders long/short with margin and no expiry. On-chain venues encode margin and liquidations in code or hybrid systems. Upside is amplified—so is path-to-zero speed.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Spot alone cannot express hedges efficiently. Perps became crypto’s dominant derivative by removing roll friction."
+          },
+          {
+            "heading": "How it works",
+            "body": "Funding transfers between longs and shorts to tether price to an index. Maintenance margin triggers liquidations; insurance funds may absorb shortfalls. Oracles and outages matter in chaos."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Leverage, auto-deleveraging, and funding accrual determine survival. CEX vs DEX custody models differ."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "“Small leverage is safe” fails in wicks. Inability to add margin because of gas/network issues can liquidate you."
+          }
+        ],
+        "keyPoints": [
+          "Funding replaces expiry for anchoring.",
+          "Liquidation mechanics are existential.",
+          "Leverage converts volatility into wipeout odds.",
+          "Venue and oracle risk stack on market risk."
+        ],
+        "tips": [
+          "Default to low leverage with spare margin.",
+          "Reduce size before events; don’t revenge-add.",
+          "Use venues whose rules you can verify."
+        ],
+        "body": "Perps let traders long/short with margin and no expiry. On-chain venues encode margin and liquidations in code or hybrid systems. Upside is amplified—so is path-to-zero speed."
+      },
+      {
+        "id": "rwa",
+        "title": "RWA Tokenization",
+        "summary": "Bringing claims on real-world cashflows onto crypto rails",
+        "intro": "RWAs connect familiar yields (like T-bills) to on-chain settlement. The token is only as good as legal wrappers, custody, and redemption—not just the smart contract UI.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Native crypto yield is volatile; tokenized cash instruments can better match treasury needs when structures are sound."
+          },
+          {
+            "heading": "How it works",
+            "body": "A licensed entity holds assets; tokens track claims; yield is distributed on-chain. KYC allowlists are common. Secondary prices can diverge from NAV."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Bankruptcy remoteness, attestations, T+N redemption, and jurisdiction decide stress outcomes. “Visible on-chain” ≠ automatically enforceable off-chain."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Counterparty and regulatory change risk sit beside contract risk. Fake subscription pages abound."
+          }
+        ],
+        "keyPoints": [
+          "RWA = legal + custody + token plumbing.",
+          "Yield comes from off-chain assets.",
+          "Transfer/redemption rules may be gated.",
+          "Diligence the issuer structure, not just APR."
+        ],
+        "tips": [
+          "Read offering docs and reserve attestations.",
+          "Confirm your jurisdiction allows holding it.",
+          "Watch redemption windows and secondary depth."
+        ],
+        "body": "RWAs connect familiar yields (like T-bills) to on-chain settlement. The token is only as good as legal wrappers, custody, and redemption—not just the smart contract UI."
+      }
+    ]
+  },
+  {
+    "id": "nfts",
+    "name": "NFTs",
+    "summary": "Unique tokens and the marketplaces for them",
+    "blurb": "From standards and markets to culture, games, and dynamic assets.",
+    "items": [
+      {
+        "id": "erc721",
+        "title": "ERC-721 & ERC-1155",
+        "summary": "Standard interfaces for unique and semi-fungible tokens",
+        "intro": "Standards let wallets and markets speak one language. 721 maps one id to one owner; 1155 manages many ids and batch transfers—handy for games.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Without standards, every project invents bespoke APIs and breaks interoperability. Creators also gain multi-market distribution."
+          },
+          {
+            "heading": "How it works",
+            "body": "Ownership and transfers are standardized; metadata often lives at a tokenURI (commonly IPFS). Approvals can be per-token or operator-wide."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Mutable metadata, pinning, and royalty policy shape durability and economics. Fake collections copy art with different contracts—trust addresses."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Blind setApprovalForAll to unknown markets is a classic drain. Rarity narratives ≠ liquidity."
+          }
+        ],
+        "keyPoints": [
+          "Standards enable interop, not intrinsic value.",
+          "Storage choices affect permanence.",
+          "Minimize approvals.",
+          "Contract address is the authenticity check."
+        ],
+        "tips": [
+          "Verify official contracts before buying.",
+          "Revoke stale marketplace operators.",
+          "Split high-value pieces across vault wallets."
+        ],
+        "body": "Standards let wallets and markets speak one language. 721 maps one id to one owner; 1155 manages many ids and batch transfers—handy for games."
+      },
+      {
+        "id": "markets",
+        "title": "NFT Marketplaces",
+        "summary": "Listing, bidding, settlement, and royalty policy layers",
+        "intro": "Markets match buyers and sellers with on-chain or hybrid order flow. Aggregators route across venues. Royalty enforcement is increasingly marketplace policy, not pure protocol magic.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Creators need distribution; collectors need discovery and price formation. Competition compresses fees and raises security expectations."
+          },
+          {
+            "heading": "How it works",
+            "body": "Sellers approve transfers; buyers settle. Watch stolen listings at impossible discounts. Aggregators help price but not due diligence."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Fees, bid escrows, wash trading, and cross-listing quirks matter. Floor charts can be manipulated."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Phishing UIs mimic top markets. Airdrop signatures are a common lure."
+          }
+        ],
+        "keyPoints": [
+          "Markets are rails, not value guarantees.",
+          "Bids and approvals carry risk.",
+          "Royalty rules vary by venue.",
+          "Ultra-low asks may be stolen assets."
+        ],
+        "tips": [
+          "Bookmark official domains; skip search ads.",
+          "Keep bid size and expiry conservative.",
+          "Accumulate carefully across time."
+        ],
+        "body": "Markets match buyers and sellers with on-chain or hybrid order flow. Aggregators route across venues. Royalty enforcement is increasingly marketplace policy, not pure protocol magic."
+      },
+      {
+        "id": "pfp",
+        "title": "PFP & Culture NFTs",
+        "summary": "Identity and community membership wrapped as tradable media",
+        "intro": "Profile-picture NFTs turn ownership into a social signal. Pricing is narrative- and liquidity-driven more than cashflow-driven. Treat them as culture first, speculation second.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Platform usernames are rented; PFPs attempt portable visual identity and community access—attention can monetize, and attention can leave."
+          },
+          {
+            "heading": "How it works",
+            "body": "Mints, rarity tools, Discord/Telegram, and secondary trading form the loop. Some add utility; many do not."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Holder distribution, unlocks, and thin books drive crash risk. Impersonation scams are constant."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Chasing “blue chip” narratives at euphoria peaks hurts. Never trust DM admins with seeds."
+          }
+        ],
+        "keyPoints": [
+          "Value is mostly social and narrative.",
+          "Verify official contracts/channels.",
+          "Liquidity can vanish quickly.",
+          "Collect/socialize; don’t treat as guaranteed yield."
+        ],
+        "tips": [
+          "Lurk communities before buying.",
+          "Ignore airdrop DMs.",
+          "Predefine a max-loss budget."
+        ],
+        "body": "Profile-picture NFTs turn ownership into a social signal. Pricing is narrative- and liquidity-driven more than cashflow-driven. Treat them as culture first, speculation second."
+      },
+      {
+        "id": "gaming-assets",
+        "title": "Game Assets",
+        "summary": "Tradable items, characters, and land with verifiable ownership",
+        "intro": "Crypto games promise that scarce items remain yours. Fun loops, balanced economies, and real ownership must coexist—or you are left with a speculative shell.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Traditional shutdowns wipe inventories. Open markets and verifiable ownership change player expectations and enable UGC economies."
+          },
+          {
+            "heading": "How it works",
+            "body": "Hybrids keep realtime combat off-chain and settle scarcity on-chain. Mints, sinks, and crafting shape prices; unchecked emissions inflate them away."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Production/sink ratios and spenders matter more than art alone. Ownable ≠ demanded."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Treating early token rewards as a salary fails in bear markets. Separate game keys from vault wallets."
+          }
+        ],
+        "keyPoints": [
+          "Ownership needs a sustainable game loop.",
+          "Economy design drives long-run prices.",
+          "Hybrids trade purity for performance.",
+          "Hype retention ≠ player retention."
+        ],
+        "tips": [
+          "Play before buying expensive assets.",
+          "Track sinks vs emissions.",
+          "Isolate game accounts from main funds."
+        ],
+        "body": "Crypto games promise that scarce items remain yours. Fun loops, balanced economies, and real ownership must coexist—or you are left with a speculative shell."
+      },
+      {
+        "id": "tickets",
+        "title": "Tickets & Credentials",
+        "summary": "Verifiable access rights with optional transfer rules",
+        "intro": "Tickets and memberships are about proving entitlement. On-chain credentials can reduce fakes and enable controlled resale—if check-in UX actually works for normal people.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Paper fakes and opaque scalping hurt events. Verifiable digital tickets can bind identity or set transfer constraints and leave auditable trails."
+          },
+          {
+            "heading": "How it works",
+            "body": "Mint/claim on purchase; scan-to-redeem marks used. Soulbound options reduce touting. Privacy/KYC often sits off-chain."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Transferability, screenshot attacks, and recovery if seeds are lost all need design. Wallet friction can exclude audiences."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Fake ticket mints and abandoned events leave worthless tokens. Don’t overshare personal data to unknown contracts."
+          }
+        ],
+        "keyPoints": [
+          "Value is the right, not the flip.",
+          "Redemption UX decides scale.",
+          "Read transfer rules before buying.",
+          "Recovery paths still matter."
+        ],
+        "tips": [
+          "Buy only via organizer channels.",
+          "Test wallet display before the event.",
+          "Keep off-chain confirmation emails too."
+        ],
+        "body": "Tickets and memberships are about proving entitlement. On-chain credentials can reduce fakes and enable controlled resale—if check-in UX actually works for normal people."
+      },
+      {
+        "id": "dynamic",
+        "title": "Dynamic NFTs",
+        "summary": "Assets whose traits can change with on-chain or oracle state",
+        "intro": "Dynamic NFTs update appearance or attributes from game progress, time, or external data. They feel alive—but mutability must be transparent to buyers.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Membership tiers and evolving game items need state. Dynamics make NFTs more than static images."
+          },
+          {
+            "heading": "How it works",
+            "body": "Contracts or metadata services update URIs from triggers. If metadata is centralized, dynamics can become silent edits."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Who may update? Is history auditable? Marketplaces must show the latest state. Buyers should know what can change."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Operators could nerf rarity. Oracle faults can set wrong forms. “Immutable rarity” plus silent admin updates is a red flag."
+          }
+        ],
+        "keyPoints": [
+          "Dynamics are a feature and a risk.",
+          "Publish update permissions clearly.",
+          "Hosting model drives trust.",
+          "Confirm latest traits before trading."
+        ],
+        "tips": [
+          "Read update rules and history.",
+          "Prefer verifiable on-chain state machines.",
+          "Store high-value pieces in cold wallets."
+        ],
+        "body": "Dynamic NFTs update appearance or attributes from game progress, time, or external data. They feel alive—but mutability must be transparent to buyers."
+      }
+    ]
+  },
+  {
+    "id": "layer2",
+    "name": "Layer 2",
+    "summary": "Scaling networks built on top of Ethereum",
+    "blurb": "Optimistic/ZK rollups, data availability, bridges, and why fees can fall to cents.",
+    "items": [
+      {
+        "id": "optimistic",
+        "title": "Optimistic Rollups",
+        "summary": "Assume batches are valid; secure them with a fraud-proof window",
+        "intro": "Optimistic rollups execute on L2, post data to Ethereum, and assume correctness unless challenged. Users get cheaper UX; canonical exits may wait out a challenge period.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "L1 block space is expensive. Moving execution off-chain while anchoring to L1 cuts costs. Optimistic designs shipped early with strong EVM compatibility."
+          },
+          {
+            "heading": "How it works",
+            "body": "A sequencer orders transactions and publishes batches; state roots anchor on L1. During the window, watchers can dispute. Fast exits use third-party liquidity with extra assumptions."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Sequencer decentralization, data availability, and upgrade keys define real security. UX speed ≠ finished decentralization."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Ignoring exit delays mis-prices liquidity. Fake bridge sites spike whenever L2s trend."
+          }
+        ],
+        "keyPoints": [
+          "Challenge windows trade latency for simpler fraud proofs.",
+          "Security leans on L1 data + dispute games.",
+          "Canonical bridges are slower but clearer.",
+          "Sequencer uptime is an experience risk."
+        ],
+        "tips": [
+          "Plan L1 exits with the delay in mind.",
+          "Prefer official bridge entry points.",
+          "Read escape-hatch docs for sequencer outages."
+        ],
+        "body": "Optimistic rollups execute on L2, post data to Ethereum, and assume correctness unless challenged. Users get cheaper UX; canonical exits may wait out a challenge period."
+      },
+      {
+        "id": "zk",
+        "title": "ZK Rollups",
+        "summary": "Validity proofs convince L1 that L2 batches are correct",
+        "intro": "Validity proofs let L1 accept results without long fraud windows. Proving is computationally heavy, but finality can feel snappier once proofs land.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Scale without relying on “assume honest unless challenged.” Faster settlement helps exchanges and bridges."
+          },
+          {
+            "heading": "How it works",
+            "body": "L2 executes; provers build proofs; L1 verifiers check them. Higher EVM equivalence eases app migration."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Proof systems, DA, and upgrade keys still matter. “ZK” branding ≠ decentralized prover markets yet."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Centralized provers/sequencers can remain. Bridges and phishing still dominate user losses."
+          }
+        ],
+        "keyPoints": [
+          "Validity proofs strengthen correctness guarantees.",
+          "Hardware/engineering costs shape fees and decentralization.",
+          "Users still need bridge and wallet hygiene.",
+          "EVM compatibility drives ecosystem porting."
+        ],
+        "tips": [
+          "Check prover decentralization roadmaps.",
+          "Test bridges with tiny amounts.",
+          "Read the DA design carefully."
+        ],
+        "body": "Validity proofs let L1 accept results without long fraud windows. Proving is computationally heavy, but finality can feel snappier once proofs land."
+      },
+      {
+        "id": "data",
+        "title": "Data Availability",
+        "summary": "Ensuring anyone can obtain the data needed to reconstruct state",
+        "intro": "Rollups must make transaction data obtainable. If data vanishes, users may be unable to exit safely. Blobs lowered Ethereum DA costs and helped compress L2 fees.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Proofs without data can still trap users. Where data lives—and how costly it is—sits at the center of scaling debates."
+          },
+          {
+            "heading": "How it works",
+            "body": "Data can sit in Ethereum calldata/blobs or external DA layers, often with sampling/erasure coding. Security inheritance differs by design."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "“Settled to Ethereum” is not identical to “DA equals full Ethereum guarantees.” Fee drops often track cheaper DA."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Underestimating DA failure modes is dangerous. Marketing may blur settlement vs availability."
+          }
+        ],
+        "keyPoints": [
+          "Without DA, self-rescue weakens.",
+          "Blob-era upgrades changed L2 fee curves.",
+          "DA choices carry distinct assumptions.",
+          "Judge fees, safety, and decentralization together."
+        ],
+        "tips": [
+          "Read each L2’s DA section.",
+          "Keep official escape-hatch notes handy.",
+          "Don’t rank chains by TPS alone."
+        ],
+        "body": "Rollups must make transaction data obtainable. If data vanishes, users may be unable to exit safely. Blobs lowered Ethereum DA costs and helped compress L2 fees."
+      },
+      {
+        "id": "bridges-l2",
+        "title": "L2 Bridges",
+        "summary": "Canonical versus third-party paths between L1 and L2",
+        "intro": "Canonical bridges inherit rollup rules and may be slow; third-party bridges sell speed with extra trust. Choosing the wrong UI is a top loss pattern.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "You need funds on L2 for cheap UX, or back on L1 for settlement. Different users pick different trust/latency points."
+          },
+          {
+            "heading": "How it works",
+            "body": "Official bridges credit L2 balances after deposit and exit per rollup rules. Fast bridges front liquidity and rebalance later—watch fees and limits."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Domain authenticity, upgradeability, caps, and refund paths matter. Faster usually means more counterparties."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Search-ad fake domains. Bridging the wrong token version strands liquidity. Spending funds still in challenge windows mis-marks risk."
+          }
+        ],
+        "keyPoints": [
+          "Canonical bridges match rollup assumptions best.",
+          "Fast bridges trade trust for time.",
+          "Domain verification is mandatory.",
+          "Tiny tests before size."
+        ],
+        "tips": [
+          "Click bridges from the L2’s own site.",
+          "Save tx hashes for support/debugging.",
+          "Avoid unaudited brand-new bridges for size."
+        ],
+        "body": "Canonical bridges inherit rollup rules and may be slow; third-party bridges sell speed with extra trust. Choosing the wrong UI is a top loss pattern."
+      },
+      {
+        "id": "accounts-aa",
+        "title": "Account Abstraction",
+        "summary": "Smart contract wallets with recovery, limits, and sponsored gas",
+        "intro": "Classic EOAs mean seed phrases and self-paid gas. AA lets wallets define verification logic—guardians, session keys, batching, paymasters—so onboarding feels closer to Web2 without fully giving up self-custody.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Seeds scare newcomers; gas tokens confuse them. AA reduces friction while keeping verifiable control. dApps gain fewer popups via sessions and batches."
+          },
+          {
+            "heading": "How it works",
+            "body": "UserOperations are bundled on-chain; paymasters may sponsor fees. Wallet contracts enforce policies. Standards like ERC-4337 vary by chain maturity."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Who are guardians? Is recovery centralized? Are session permissions too wide? Misconfig still loses funds."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "“No seed” ≠ no risk—recovery channels can be attacked. Malicious bundler/paymaster endpoints exist. Sessions to unknown dApps are dangerous."
+          }
+        ],
+        "keyPoints": [
+          "AA encodes policy in contract wallets.",
+          "Sponsored gas and social recovery are headline UX wins.",
+          "Configuration chooses real security.",
+          "Phishing still works if you approve blindly."
+        ],
+        "tips": [
+          "Pick diverse guardians and devices.",
+          "Short-lived, limited session keys only.",
+          "Keep hardware/multisig for vaults."
+        ],
+        "body": "Classic EOAs mean seed phrases and self-paid gas. AA lets wallets define verification logic—guardians, session keys, batching, paymasters—so onboarding feels closer to Web2 without fully giving up self-custody."
+      },
+      {
+        "id": "multi-chain",
+        "title": "Multi-chain Reality",
+        "summary": "Liquidity and users fragment across many settlement domains",
+        "intro": "Few people live on one chain now. Gas tokens, bridges, and app deployments differ. Intent solvers hide paths, but you still must know where funds sit.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "One chain cannot optimize every fee/performance niche. More choice also means more ways to pick the wrong network."
+          },
+          {
+            "heading": "How it works",
+            "body": "Wallets switch RPC/chain ID; the same address can hold different assets per EVM chain. Bridges and messaging connect states; solvers compete to fill intents."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Chain ID authenticity, fake RPCs, and per-chain token contracts are daily footguns. Zero balance often means wrong network selected."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Malicious custom RPCs trick signatures. Bridging windows add risk. Spreading irreplaceable funds across ten new L2s is operational debt."
+          }
+        ],
+        "keyPoints": [
+          "Multi-chain is normal—verify networks always.",
+          "Same address ≠ same balances everywhere.",
+          "Intents hide complexity; they don’t erase bridge risk.",
+          "Fewer active chains reduce mistakes."
+        ],
+        "tips": [
+          "Label networks clearly in your wallet.",
+          "Screenshot/check network names before sending.",
+          "Learn exits before depositing into a new chain."
+        ],
+        "body": "Few people live on one chain now. Gas tokens, bridges, and app deployments differ. Intent solvers hide paths, but you still must know where funds sit."
+      },
+      {
+        "id": "costs",
+        "title": "Why L2 Fees Can Be Cents",
+        "summary": "Batching and cheaper data amortize L1 costs across many users",
+        "intro": "On congested L1 you bid for scarce block space. L2s pack many txs together so each user pays a slice of shared data/proof cost—often down to cents.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "High fees block micropayments and game loops. Lower fees let normal people use apps, not just watch charts."
+          },
+          {
+            "heading": "How it works",
+            "body": "Execution happens on L2; summaries hit L1. Blob-era DA cuts unit costs. L2s can still congest, usually far below L1 peaks. Bridge fees and slippage are separate line items."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Cheap ≠ equally decentralized. Sequencer fee policy shapes UX. Multi-step approvals still add up."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Risking a bridge scam to save two dollars is irrational. Stress events worsen both fees and exit times."
+          }
+        ],
+        "keyPoints": [
+          "Amortization + cheaper DA drive fee compression.",
+          "L2 congestion exists at a different scale.",
+          "Total cost includes bridge, slippage, and time.",
+          "Safety beats saving pennies."
+        ],
+        "tips": [
+          "Include bridge fees when comparing routes.",
+          "Wait out spikes for non-urgent actions.",
+          "Keep a little L1 ETH as escape fuel."
+        ],
+        "body": "On congested L1 you bid for scarce block space. L2s pack many txs together so each user pays a slice of shared data/proof cost—often down to cents."
+      }
+    ]
+  },
+  {
+    "id": "infra",
+    "name": "Infrastructure",
+    "summary": "Oracles, storage, indexing and developer tools",
+    "blurb": "The invisible pipes that power wallets, DeFi, and safer UX.",
+    "items": [
+      {
+        "id": "oracles",
+        "title": "Oracles",
+        "summary": "Bridges that bring off-chain facts into smart contracts",
+        "intro": "Contracts cannot see exchange prices or real-world scores alone. Oracles aggregate external data for liquidations, perps, and insurance. When they fail, cascades follow.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Blockchains isolate for determinism, yet finance needs inputs. Oracles balance freshness with integrity—without them most DeFi stops."
+          },
+          {
+            "heading": "How it works",
+            "body": "Sources aggregate, outliers drop, updates push on a heartbeat or demand. Some designs stake and slash bad reporters. Circuit breakers matter in chaos."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Thin markets are easier to manipulate for bad loans. Cross-chain messages are oracle-like trust problems too."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Having “an oracle” ≠ invulnerability. Stale prices, wrong decimals, and paused feeds all bite."
+          }
+        ],
+        "keyPoints": [
+          "Oracles are DeFi’s lifeline.",
+          "Judge sources, aggregation, and update rules.",
+          "Illiquid assets are easier to spoof.",
+          "Protocol circuit breakers reduce blast radius."
+        ],
+        "tips": [
+          "Know which feed and heartbeat a protocol uses.",
+          "Reduce precision-sensitive actions in extreme volatility.",
+          "Avoid single-source designs for size."
+        ],
+        "body": "Contracts cannot see exchange prices or real-world scores alone. Oracles aggregate external data for liquidations, perps, and insurance. When they fail, cascades follow."
+      },
+      {
+        "id": "rpc",
+        "title": "RPC & Nodes",
+        "summary": "How wallets read chain state and broadcast transactions",
+        "intro": "Wallets talk to blockchains through RPC endpoints. Public RPCs are easy but may rate-limit, log, or be swapped for phishing. Understanding RPC helps debug “wrong balance” and stuck txs.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Not everyone runs a full node. RPCs expose node capabilities as APIs while preserving the option to self-host."
+          },
+          {
+            "heading": "How it works",
+            "body": "Apps send JSON-RPC calls to query state or send raw txs. Providers differ on archive depth, privacy, and reliability."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Malicious RPCs can show fake balances or censor txs. Signing stays local, but bad data can still trick you. Verify chain IDs when adding networks."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "One-click “add network” from shady sites is risky. Public outages are not always wallet bugs. Never commit RPC secrets into public frontends."
+          }
+        ],
+        "keyPoints": [
+          "RPC is the read/write doorway.",
+          "Local signing ≠ trustworthy displayed state.",
+          "Cross-check critical actions on explorers.",
+          "Private/self-hosted nodes improve privacy/reliability."
+        ],
+        "tips": [
+          "Keep two trusted RPC backups.",
+          "On weird balances, switch nodes or use an explorer.",
+          "Type official network params manually."
+        ],
+        "body": "Wallets talk to blockchains through RPC endpoints. Public RPCs are easy but may rate-limit, log, or be swapped for phishing. Understanding RPC helps debug “wrong balance” and stuck txs."
+      },
+      {
+        "id": "indexers",
+        "title": "Indexers",
+        "summary": "Turning raw logs into queryable product APIs",
+        "intro": "Scanning the whole chain for every UI is slow. Indexers ingest events into databases so portfolios and leaderboards feel instant—most “history” views come from indexes, not live full scans.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Products need filtered queries at internet speed. Analysts and bots rely on the same layer."
+          },
+          {
+            "heading": "How it works",
+            "body": "Define a schema, process logs, store, serve GraphQL/REST. Outages show stale UI. Decentralized indexer networks incentivize multiple operators."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "UI can lag true chain state. Upgrades require indexer updates. Don’t liquidate based on a dashboard alone—verify on-chain."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Corrupt indexes mislead traders. Phishing “portfolio” sites mimic real dashboards."
+          }
+        ],
+        "keyPoints": [
+          "Indexes speed queries; they are not consensus.",
+          "UI data can be stale.",
+          "Explorers/contracts are source of truth for critical moves.",
+          "Indexer faults look like protocol bugs."
+        ],
+        "tips": [
+          "Recheck anomalies on an explorer.",
+          "Expect lag after major upgrades.",
+          "Serious monitoring can read nodes directly."
+        ],
+        "body": "Scanning the whole chain for every UI is slow. Indexers ingest events into databases so portfolios and leaderboards feel instant—most “history” views come from indexes, not live full scans."
+      },
+      {
+        "id": "storage",
+        "title": "Decentralized Storage",
+        "summary": "Content-addressed networks for files and NFT metadata",
+        "intro": "Storing large files on L1 is pricey, so media often sits on IPFS/Arweave-like systems. Hashes ensure integrity, but online availability still needs pinning or paid permanence.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Central servers can delete NFT media. Decentralized storage improves durability and censorship resistance for apps and datasets."
+          },
+          {
+            "heading": "How it works",
+            "body": "Files get content IDs; nodes retrieve by hash. IPFS needs pinning; some networks emphasize pay-once permanence. HTTP gateways help browsers but add gateway trust."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Mutable centralized tokenURIs undermine the story. Back up important metadata hashes."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "“On IPFS” ≠ immortal if nothing pins it. Malicious gateways can inject scripts. Verify hashes before running binaries."
+          }
+        ],
+        "keyPoints": [
+          "Content addressing prevents silent edits, not neglect.",
+          "NFT durability depends on pinning/payment.",
+          "Mutable admin URIs are a red flag.",
+          "Gateways are convenient extra trust."
+        ],
+        "tips": [
+          "Pin metadata for high-value NFTs yourself.",
+          "Verify official CIDs.",
+          "Developers should prefer immutable metadata."
+        ],
+        "body": "Storing large files on L1 is pricey, so media often sits on IPFS/Arweave-like systems. Hashes ensure integrity, but online availability still needs pinning or paid permanence."
+      },
+      {
+        "id": "mev",
+        "title": "MEV",
+        "summary": "Value extractable from transaction ordering and inclusion",
+        "intro": "Builders and searchers can reorder or insert txs—sandwiches, liquidation races, and more. Users feel it as toxic slippage; protocols respond with auctions and private flow.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Public mempools expose large swaps to predators. Understanding MEV explains slippage settings and private submission options."
+          },
+          {
+            "heading": "How it works",
+            "body": "Searchers find opportunities; builders pack blocks; proposers publish. Some chains redistribute MEV to stakers. Sandwiches wrap your trade to worsen price."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Slippage caps, private relays, batch auctions, and intents mitigate harm. L2 sequencers can extract MEV too."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Not every bad fill is MEV—wide slippage is self-inflicted. Avoid sketchy “anti-MEV” extensions."
+          }
+        ],
+        "keyPoints": [
+          "MEV comes from orderable public flow.",
+          "Users mitigate via slippage and private paths.",
+          "Protocol design reallocates MEV.",
+          "Treat it as an engineering reality."
+        ],
+        "tips": [
+          "Split large swaps and tighten slippage.",
+          "Use wallets/routers with private options.",
+          "Avoid huge market orders in peak chaos."
+        ],
+        "body": "Builders and searchers can reorder or insert txs—sandwiches, liquidation races, and more. Users feel it as toxic slippage; protocols respond with auctions and private flow."
+      },
+      {
+        "id": "sdks",
+        "title": "Developer Tooling",
+        "summary": "Testing frameworks, libraries, and account kits that raise the safety floor",
+        "intro": "Ecosystem safety depends on Foundry/Hardhat-style tests, typed libraries, simulation, and account kits—not auditors alone. Better tools catch bugs earlier and help wallets explain signatures.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Manual deploys fail. Untested contracts are time bombs. Front-end SDKs unify multi-chain connection and error handling."
+          },
+          {
+            "heading": "How it works",
+            "body": "Forked tests, fuzzing, deploy scripts, monitoring, and AA SDKs form the loop. Pre-sign simulation shows asset diffs."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Stale dependencies carry known CVEs. Supply-chain attacks hit “safe” packages. Users should prefer clear-signing wallets."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Copy-pasting unaudited samples to mainnet is reckless. Fake “dev tools” extensions steal keys."
+          }
+        ],
+        "keyPoints": [
+          "Tooling is invisible security infrastructure.",
+          "Simulate before mainnet money.",
+          "Dependency hygiene is security work.",
+          "Clear signing reduces user phishing success."
+        ],
+        "tips": [
+          "Developers: fork-test critical paths.",
+          "Users: turn on simulation.",
+          "Install extensions only from official sources."
+        ],
+        "body": "Ecosystem safety depends on Foundry/Hardhat-style tests, typed libraries, simulation, and account kits—not auditors alone. Better tools catch bugs earlier and help wallets explain signatures."
+      },
+      {
+        "id": "identity",
+        "title": "On-chain Identity",
+        "summary": "Readable names, attestations, and reputation for human coordination",
+        "intro": "Long addresses are easy to mistype. Name systems map human labels to records; attestation protocols issue claims like membership. Usability rises—and so do privacy and impersonation issues.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Payments and social need memorable handles. Names reduce transfer mistakes and act as Web3 business cards. Reputation helps anti-Sybil with privacy trade-offs."
+          },
+          {
+            "heading": "How it works",
+            "body": "Register a name, set records, optionally gather signed attestations. Some credentials are soulbound."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Names expire; records change. The same string may resolve differently across chains. Separate identity addresses from vaults."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Impersonation domains steal funds. Binding every credential to one doxxable address overexposes you."
+          }
+        ],
+        "keyPoints": [
+          "Names are a resolution layer, not a bank guarantee.",
+          "Always check resolved addresses before sending.",
+          "Attestations help coordination with privacy costs.",
+          "Split public identity from vault addresses."
+        ],
+        "tips": [
+          "Confirm resolution on send.",
+          "Set expiry reminders.",
+          "Use a low-value address for public socials."
+        ],
+        "body": "Long addresses are easy to mistype. Name systems map human labels to records; attestation protocols issue claims like membership. Usability rises—and so do privacy and impersonation issues."
+      },
+      {
+        "id": "aa-infra",
+        "title": "Bundlers & Paymasters",
+        "summary": "Backend rails that package UserOperations and sponsor gas",
+        "intro": "Without bundlers, UserOperations struggle to land; without paymasters, gas sponsorship and “pay with any token” are hard. Misconfigured AA infra becomes outage or abuse surface.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Users dislike holding every chain’s gas token. Apps want to sponsor first actions. Infrastructure enables those product policies with budgets and allowlists."
+          },
+          {
+            "heading": "How it works",
+            "body": "Wallets build UserOperations; bundlers simulate and submit; EntryPoint executes; paymasters fund per policy with rate limits."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Is sponsorship bound to certain contracts? Can it be farmed? Will bundlers censor? Decentralization affects resilience."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Malicious endpoints and leftover wide sessions after campaigns are risks. Gasless ≠ approval-less."
+          }
+        ],
+        "keyPoints": [
+          "AA UX depends on reliable bundlers/paymasters.",
+          "Sponsorship needs anti-abuse rules.",
+          "Endpoint choice affects privacy and censorship.",
+          "Users must still read signatures."
+        ],
+        "tips": [
+          "Stick to wallet-default trusted endpoints.",
+          "Revoke sessions after campaigns.",
+          "Treat surprise gaslessness as suspicious."
+        ],
+        "body": "Without bundlers, UserOperations struggle to land; without paymasters, gas sponsorship and “pay with any token” are hard. Misconfigured AA infra becomes outage or abuse surface."
+      }
+    ]
+  },
+  {
+    "id": "wallets",
+    "name": "Wallets",
+    "summary": "Apps and devices that hold your keys",
+    "blurb": "Hot/cold wallets, seeds, multisig, and custody models explained.",
+    "items": [
+      {
+        "id": "hot",
+        "title": "Hot Wallets",
+        "summary": "Connected software wallets for everyday small balances",
+        "intro": "Browser and mobile wallets make dApps instant. Convenience expands attack surface: malicious sites, fake extensions, clipboard malware, lost phones. Treat them as checking accounts, not life savings.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Cold wallets are clumsy for high-frequency DeFi. Hot wallets teach signing and network switching quickly."
+          },
+          {
+            "heading": "How it works",
+            "body": "Keys sit encrypted on device; unlock locally; broadcast via RPC. Connecting a dApp shares an address, not the key—yet dangerous signatures still drain."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Split spend vs savings accounts. Review allowances. Biometrics protect the app unlock, not chain recovery."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Sideloaded APKs, seed “sync” pages, and public computers are classic fails."
+          }
+        ],
+        "keyPoints": [
+          "Hot wallets optimize convenience.",
+          "Only store loss-tolerant funds there.",
+          "Signatures/approvals are the main hazard.",
+          "Layer with cold storage."
+        ],
+        "tips": [
+          "Download from official channels only.",
+          "Use a dedicated browser profile for crypto.",
+          "Audit token approvals weekly."
+        ],
+        "body": "Browser and mobile wallets make dApps instant. Convenience expands attack surface: malicious sites, fake extensions, clipboard malware, lost phones. Treat them as checking accounts, not life savings."
+      },
+      {
+        "id": "hardware",
+        "title": "Hardware Wallets",
+        "summary": "Keys in a secure chip with on-device confirmation",
+        "intro": "Hardware wallets keep private keys off the infected PC. You still must read the device screen—blind signing or shady firmware can beat the best chip.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Long-term and large holdings need stronger isolation. Physical confirmation raises the bar for remote theft. Teams use them as baseline vault controls."
+          },
+          {
+            "heading": "How it works",
+            "body": "The host builds a tx; the device shows a summary; you approve; the signature returns for broadcast. Seeds generated at init are the backup. Firmware updates must be official."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Buy authentic devices; know blind-signing policies per chain. Losing the device is fine if the seed is safe; losing the seed is not."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Tampered second-hand devices, “checker” websites asking for seeds, and OK-without-reading are failure modes."
+          }
+        ],
+        "keyPoints": [
+          "Hardware isolation blocks many remote key thefts.",
+          "Screen verification is still on you.",
+          "Seed backup equals the device in importance.",
+          "Supply chain and firmware hygiene matter."
+        ],
+        "tips": [
+          "Buy from official/reputable retail.",
+          "Test with tiny transfers after setup.",
+          "Match full addresses on-device for size."
+        ],
+        "body": "Hardware wallets keep private keys off the infected PC. You still must read the device screen—blind signing or shady firmware can beat the best chip."
+      },
+      {
+        "id": "seed",
+        "title": "Seed Phrases",
+        "summary": "Human-readable backups that regenerate wallet keys",
+        "intro": "12/24 words are not a login password—they are the master secret that recreates keys. Anyone with the words can empty wallets elsewhere. No real support agent needs your seed to “verify” you.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Devices die. Seeds let you restore the same accounts elsewhere in an offline-writable form."
+          },
+          {
+            "heading": "How it works",
+            "body": "BIP-39 turns entropy into ordered words that derive accounts. Wrong order fails restore. Optional passphrases add security and forgetfulness risk."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Photos, cloud sync, and chat are unsafe. Metal backups beat paper against fire/water. Multi-location backups must balance theft vs total loss."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Phishing “wallet sync” pages and fake support are top killers. Typing a seed into any website is an emergency."
+          }
+        ],
+        "keyPoints": [
+          "The seed is the asset.",
+          "Keep it offline forever.",
+          "Legitimate flows never demand it.",
+          "Design redundancy against both fire and theft."
+        ],
+        "tips": [
+          "Hand-write and re-check word order.",
+          "Never store in photos or email.",
+          "Plan inheritance deliberately."
+        ],
+        "body": "12/24 words are not a login password—they are the master secret that recreates keys. Anyone with the words can empty wallets elsewhere. No real support agent needs your seed to “verify” you."
+      },
+      {
+        "id": "multisig",
+        "title": "Multisig",
+        "summary": "Shared accounts that require M-of-N approvals",
+        "intro": "Multisig turns “one phish loses all” into “several people must agree.” Ideal for treasuries and families. It cuts single points of failure and adds coordination overhead.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Single-key vaults die in one mistake. Multisig forces attackers to compromise multiple signers and encodes separation of powers."
+          },
+          {
+            "heading": "How it works",
+            "body": "A contract or native scheme sets threshold and owners. Propose → collect signatures → execute. Signer rotation and modules need equal care."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Diverse devices beat correlated malware. Too-high thresholds brick funds; too-low thresholds weaken security. Emergency modules can be backdoors."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "All signers on one hot browser, never rehearsing recovery, and phishing the Safe UI are common fails."
+          }
+        ],
+        "keyPoints": [
+          "Multisig spreads key and decision risk.",
+          "Threshold design sets availability vs safety.",
+          "Rehearse signing and replacement.",
+          "Bookmark official interfaces."
+        ],
+        "tips": [
+          "Use diverse signer devices/OS.",
+          "Run a tiny quarterly drill.",
+          "Document lost-signer replacement steps."
+        ],
+        "body": "Multisig turns “one phish loses all” into “several people must agree.” Ideal for treasuries and families. It cuts single points of failure and adds coordination overhead."
+      },
+      {
+        "id": "smart-accounts",
+        "title": "Smart Accounts",
+        "summary": "Programmable wallets with limits, guardians, batching, and sessions",
+        "intro": "Smart accounts encode policy: daily limits, allowlists, recovery, and batch calls. More flexibility than EOAs—and more ways to misconfigure modules.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "EOAs are all-or-nothing. Smart accounts enable everyday low privilege with high-value extra scrutiny, bridging toward seedless UX."
+          },
+          {
+            "heading": "How it works",
+            "body": "Logic lives in a contract with pluggable validators, often paired with AA bundlers/paymasters. Module upgrades must be guarded."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Least privilege, audits, and tested recovery paths matter. Know who can upgrade before calling it a vault."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Random unaudited plugins, naive guardians, and believing smart accounts stop all phishing are mistakes."
+          }
+        ],
+        "keyPoints": [
+          "Smart accounts are policy-based self-custody.",
+          "Flexibility expands attack surface.",
+          "Module/upgrade rights are core security.",
+          "Habits still matter."
+        ],
+        "tips": [
+          "Disable unused plugins.",
+          "Time-lock large policy changes.",
+          "Write and rehearse recovery runbooks."
+        ],
+        "body": "Smart accounts encode policy: daily limits, allowlists, recovery, and batch calls. More flexibility than EOAs—and more ways to misconfigure modules."
+      },
+      {
+        "id": "custody",
+        "title": "Custody Models",
+        "summary": "Whoever holds the keys effectively controls the assets",
+        "intro": "Custodians trade password reset and support for counterparty risk. Self-custody trades sovereignty for personal ops risk. Most people mix both: trade on platforms, save in wallets.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Different goals need different risk models. Pure self-custody scares beginners; pure custody hurts in platform failures."
+          },
+          {
+            "heading": "How it works",
+            "body": "Custodial balances are often internal ledgers until withdrawal. Self-custody broadcasts every move. Regulated custodians may attest reserves—still not zero risk."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Freezes, queues, jurisdiction, and proof-of-reserves quality matter. Self-custody failures look like lost seeds and bad signatures."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "“Too big to fail” has failed repeatedly. Storing a seed in an exchange notebook is not self-custody."
+          }
+        ],
+        "keyPoints": [
+          "Key location defines control.",
+          "Convenience vs sovereignty is the trade.",
+          "Hybrid allocations are pragmatic.",
+          "Each model fails differently."
+        ],
+        "tips": [
+          "Withdraw long-term bags to self-custody.",
+          "Prefer transparent venues.",
+          "Practice self-custody with small size first."
+        ],
+        "body": "Custodians trade password reset and support for counterparty risk. Self-custody trades sovereignty for personal ops risk. Most people mix both: trade on platforms, save in wallets."
+      }
+    ]
+  },
+  {
+    "id": "gaming",
+    "name": "Gaming",
+    "summary": "Games and virtual worlds with owned assets",
+    "blurb": "Gameplay, economies, infrastructure, and speculative failure modes.",
+    "items": [
+      {
+        "id": "play",
+        "title": "Play & Own",
+        "summary": "Fun first, verifiable ownership as a bonus—not a wage illusion",
+        "intro": "Healthy crypto games prioritize entertainment; ownership amplifies, it does not replace design. Secondary markets should be outcomes, not the only content.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Pure speculation collapses in bears. Embedding ownership in genuinely fun loops improves retention and enables creator economies."
+          },
+          {
+            "heading": "How it works",
+            "body": "Core gameplay runs fast off-chain or on specialized rails; scarce settlements hit a chain. Studios earn via UX, fees, and services while tuning economies."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Retention and spend metrics beat token charts as health signals. Regulation can still constrain item tokens."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Treating grind as a job and ignoring account security are classic traps."
+          }
+        ],
+        "keyPoints": [
+          "Fun first, finance second.",
+          "Ownership cannot rescue boredom.",
+          "Healthy economies balance sinks and sources.",
+          "Isolate game keys from vaults."
+        ],
+        "tips": [
+          "Play before buying expensive items.",
+          "Read economy notes and patch history.",
+          "Book any “earnings” as high-risk speculation."
+        ],
+        "body": "Healthy crypto games prioritize entertainment; ownership amplifies, it does not replace design. Secondary markets should be outcomes, not the only content."
+      },
+      {
+        "id": "economies",
+        "title": "In-game Economies",
+        "summary": "Issuance and sinks decide whether item prices can stand",
+        "intro": "Open economies behave like tiny fiscal systems: endless emissions without sinks collapse prices. Reading production vs destruction beats listening to GameFi slogans.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Open trading removes some studio control, forcing more serious design so long-term players and traders can coexist."
+          },
+          {
+            "heading": "How it works",
+            "body": "Quests emit; crafting/repairs/seasons sink; dashboards reveal inflation. External token prices shock internal loops."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Dual tokens, energy, and land rents can help or confuse. Watch team unlocks and market-maker wallets."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Early high yields attract mercenaries, not players. Copying economics without an audience fails."
+          }
+        ],
+        "keyPoints": [
+          "Make inflation/deflation observable.",
+          "High mercenary share is fragile.",
+          "Buffer external token shocks.",
+          "Transparent tuning builds trust."
+        ],
+        "tips": [
+          "Follow official economy reports.",
+          "Size down during hyper-APY phases.",
+          "Prefer assets with real sinks."
+        ],
+        "body": "Open economies behave like tiny fiscal systems: endless emissions without sinks collapse prices. Reading production vs destruction beats listening to GameFi slogans."
+      },
+      {
+        "id": "worlds",
+        "title": "Virtual Worlds",
+        "summary": "Ownable land and social space narratives",
+        "intro": "Virtual land sells location, traffic, and presence. Some worlds host ongoing activity; others stall after sales. Judge by builders and DAUs, not cinematic trailers.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "People want durable digital commons and storefronts. On-chain ownership enables secondary markets and experiments by brands."
+          },
+          {
+            "heading": "How it works",
+            "body": "Land NFTs plus clients plus optional rentals. Content comes from users or officials; performance often relies on traditional servers."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Foot traffic sets land value. Empty worlds are speculative art. Building rights and royalties shape creator willingness."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Primary-sale FOMO and treating metaverse slides as short-term yield are traps."
+          }
+        ],
+        "keyPoints": [
+          "Traffic prices land.",
+          "Client experience outweighs slogans.",
+          "Interop usually lags sales.",
+          "Evaluate builder ecosystems."
+        ],
+        "tips": [
+          "Visit as a tourist first.",
+          "Check rental/event data before buying.",
+          "Avoid sell-only, build-never teams."
+        ],
+        "body": "Virtual land sells location, traffic, and presence. Some worlds host ongoing activity; others stall after sales. Judge by builders and DAUs, not cinematic trailers."
+      },
+      {
+        "id": "infra-game",
+        "title": "Game Infrastructure",
+        "summary": "Engineering trade-offs between low latency and on-chain settlement",
+        "intro": "Action games need millisecond feedback. Studios use authoritative servers plus on-chain scarce assets, or specialized high-throughput chains. Knowing the trust boundary prevents “fully decentralized” marketing confusion.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Pure L1 loops are too slow/expensive for many genres. Layering keeps playable UX with verifiable scarcity."
+          },
+          {
+            "heading": "How it works",
+            "body": "Matchmaking/combat off-chain; mints/trades/jackpots on-chain. Anti-cheat stays largely off-chain. Appchains raise throughput but add bridge/liquidity costs."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Which parts trust a server? Do assets survive a studio shutdown? That defines how real “ownership” is."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "“Fully on-chain” claims with mutable server truth. Bridging game assets via fake sites."
+          }
+        ],
+        "keyPoints": [
+          "Hybrids are the engineering norm.",
+          "Latency and decentralization pull opposite ways.",
+          "Shutdown policy affects asset meaning.",
+          "Appchains add bridge complexity."
+        ],
+        "tips": [
+          "Read trust-boundary docs.",
+          "Move meaningful assets to self-custody wallets.",
+          "Try testnets before mainnet deposits."
+        ],
+        "body": "Action games need millisecond feedback. Studios use authoritative servers plus on-chain scarce assets, or specialized high-throughput chains. Knowing the trust boundary prevents “fully decentralized” marketing confusion."
+      },
+      {
+        "id": "modding",
+        "title": "Modding & UGC",
+        "summary": "Creators earn when maps, skins, and mods can settle transparently",
+        "intro": "UGC extends game life. If mods are tradable with clear splits, creators show up. On-chain splits aid auditability; IP licensing still decides whether it scales.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Traditional UGC faces sudden platform policy shifts. Open markets and programmable royalties offer another incentive path and richer player content."
+          },
+          {
+            "heading": "How it works",
+            "body": "Creators publish assets → markets trade → contracts split revenue. Moderation and discovery decide whether quality concentrates."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "License scope, content policy, and chargebacks remain. On-chain math does not auto-settle lawsuits."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Buying unauthorized brand mods and volatile creator tokens are risks."
+          }
+        ],
+        "keyPoints": [
+          "UGC needs clear IP and revenue rules.",
+          "Discovery/moderation set quality.",
+          "Programmable splits raise transparency.",
+          "Legal layers still apply."
+        ],
+        "tips": [
+          "Creators: read platform licenses.",
+          "Players: check authorization marks.",
+          "Cash out with personal risk limits."
+        ],
+        "body": "UGC extends game life. If mods are tradable with clear splits, creators show up. On-chain splits aid auditability; IP licensing still decides whether it scales."
+      },
+      {
+        "id": "risks",
+        "title": "Speculative Game Risk",
+        "summary": "When fun depends on rising prices, bear markets break the loop",
+        "intro": "Failed projects treat token pumps as content. Players become mercenaries, economies turn reflexive, and maintenance stops when price falls. Spotting the pattern saves tuition.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Risk education is part of a healthy product: communities that discuss inflation honestly outlast hype discords."
+          },
+          {
+            "heading": "How it works",
+            "body": "High emissions attract entry → sell pressure rises → price falls → players leave. The break often appears when incentives cut. Few titles successfully pivot to real games."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Is revenue mostly new entrants? Is the team shipping playable updates? Secondary price is not a fun metric."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "FOMO hostage phrases and leveraged grinding are danger signs."
+          }
+        ],
+        "keyPoints": [
+          "Price cannot replace gameplay.",
+          "Incentive cuts are stress tests.",
+          "Mercenary share predicts fragility.",
+          "Only risk discretionary funds."
+        ],
+        "tips": [
+          "Ask: would I play at zero token price?",
+          "Watch real content updates.",
+          "Refuse leveraged grinding."
+        ],
+        "body": "Failed projects treat token pumps as content. Players become mercenaries, economies turn reflexive, and maintenance stops when price falls. Spotting the pattern saves tuition."
+      }
+    ]
+  },
+  {
+    "id": "daos",
+    "name": "DAOs",
+    "summary": "Communities that govern with on-chain votes",
+    "blurb": "Governance, treasuries, proposals, legal wrappers, and attack surfaces.",
+    "items": [
+      {
+        "id": "governance",
+        "title": "Token Governance",
+        "summary": "Votes that set parameters, upgrades, and spending",
+        "intro": "DAOs push upgrades and treasury decisions to token holders or reputation systems. One-token-one-vote is simple and whale-prone; delegation and other designs try to improve representation. Voting power is influence—and an attack surface.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Protocols must change without becoming a single-company dictatorship. On-chain votes leave auditable trails and can constrain teams."
+          },
+          {
+            "heading": "How it works",
+            "body": "Proposal → discussion → vote → timelock → execution. Delegation lets small holders entrust experts. Quorums and vetoes blunt low-turnout captures."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Distribution, treasury size, and timelock length matter. Airdropped voters may be apathetic. Forum mood can diverge from on-chain results."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Flash-loan votes (if allowed), bribes, and voting unread are risks."
+          }
+        ],
+        "keyPoints": [
+          "Governance allocates power.",
+          "Mechanism design fights whales and apathy.",
+          "Timelocks are critical brakes.",
+          "Read impacts and conflicts before voting."
+        ],
+        "tips": [
+          "Delegate to accountable representatives.",
+          "Watch protest channels during timelocks.",
+          "Scrutinize large treasury proposals."
+        ],
+        "body": "DAOs push upgrades and treasury decisions to token holders or reputation systems. One-token-one-vote is simple and whale-prone; delegation and other designs try to improve representation. Voting power is influence—and an attack surface."
+      },
+      {
+        "id": "treasury",
+        "title": "DAO Treasuries",
+        "summary": "Shared on-chain capital for building, liquidity, and buffers",
+        "intro": "Treasuries are DAO ammunition. Diversification, transparency, and spending process decide whether they are runway or honeypots. Multisigs or governors control payouts the community should audit.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Public goods need funding for audits, builders, and incentives. Treasuries keep value under community-visible control and can stabilize crises."
+          },
+          {
+            "heading": "How it works",
+            "body": "Inflows from fees/issuance/financing; outflows via proposals. Holdings may mix stables, majors, and native tokens—native concentration is reflexive risk."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Runway months, FX risk, and address inventories matter. Soft commitments count too."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "All-volatile treasuries and opaque related-party spending are red flags."
+          }
+        ],
+        "keyPoints": [
+          "Health = transparency + diversification + process.",
+          "Reflexive bags amplify crises.",
+          "Spending must be accountable.",
+          "Multisig key hygiene is baseline."
+        ],
+        "tips": [
+          "Read periodic financial reports.",
+          "Watch stablecoin reserve share.",
+          "Prefer streamed large payouts."
+        ],
+        "body": "Treasuries are DAO ammunition. Diversification, transparency, and spending process decide whether they are runway or honeypots. Multisigs or governors control payouts the community should audit."
+      },
+      {
+        "id": "proposals",
+        "title": "Proposal Lifecycle",
+        "summary": "From forum draft to on-chain execution",
+        "intro": "Good proposals debate off-chain, temperature-check, vote on-chain, then execute after a timelock. Surprise “lightning proposals” are a smell. Know which stage you are in.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Process replaces either dictatorship or chaos, giving opponents time to organize and inserting audit/legal review where needed."
+          },
+          {
+            "heading": "How it works",
+            "body": "Draft → feedback → final text → vote → queue. Failed ideas can revise. Some systems use gasless off-chain signatures for voting."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Quorum, thresholds, and emergency paths matter—overbroad emergencies are backdoors. Executable calldata must match the text."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Title-only voting and ignoring timelock alerts are failures."
+          }
+        ],
+        "keyPoints": [
+          "Discussion quality drives governance quality.",
+          "Timelocks protect minorities and exits.",
+          "Emergency powers need tight bounds.",
+          "Parameters beat slogans."
+        ],
+        "tips": [
+          "Subscribe to forum/vote alerts.",
+          "Restate risks in your own words before voting.",
+          "Verify execution matches the proposal text."
+        ],
+        "body": "Good proposals debate off-chain, temperature-check, vote on-chain, then execute after a timelock. Surprise “lightning proposals” are a smell. Know which stage you are in."
+      },
+      {
+        "id": "legal",
+        "title": "Legal Wrappers",
+        "summary": "Foundations and companies that interface DAOs with the off-chain world",
+        "intro": "Code does not automatically grant limited liability. Foundations/LLCs sign contracts, bank, and tax. Contributors should know who may be treated as responsible if things break.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Hiring, IP, and regulators need legal counterparts. Good wrappers reduce personal exposure—they are not cloaking devices."
+          },
+          {
+            "heading": "How it works",
+            "body": "Jurisdiction → charter → board/multisig → clauses linking to DAO votes. Rules vary wildly by country."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Securities, sanctions, and taxes (including airdrops) matter. Anonymity ≠ zero legal risk."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Assuming “decentralized” ignores local law, or signing unknown agreements, is reckless."
+          }
+        ],
+        "keyPoints": [
+          "Entities supply off-chain capabilities.",
+          "Structures are jurisdiction-specific.",
+          "Know your liability boundary.",
+          "Compliance is part of product risk."
+        ],
+        "tips": [
+          "Seek professional advice for material contributions.",
+          "Read foundation↔DAO relationship docs.",
+          "Keep airdrop/income records."
+        ],
+        "body": "Code does not automatically grant limited liability. Foundations/LLCs sign contracts, bank, and tax. Contributors should know who may be treated as responsible if things break."
+      },
+      {
+        "id": "ops",
+        "title": "DAO Operations",
+        "summary": "Turning votes into shipping via working groups and payouts",
+        "intro": "Without operators, governance is theater. Working groups, bounties, budgets, and reviews convert energy into product. Burnout, unclear ownership, and late payrolls kill DAOs quietly.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Public goods are under-supplied. Ops systems fund maintenance; transparent pay reduces shadow deals."
+          },
+          {
+            "heading": "How it works",
+            "body": "Mission → metrics → budget → hiring/bounties → retros. On-chain payroll helps. Least-privilege admin access avoids single points of failure."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Are KPIs verifiable? Is double-dipping controlled? Documentation fights bus factor."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Paying without accountability and overloading irreplaceable contributors are failure modes."
+          }
+        ],
+        "keyPoints": [
+          "Delivery systems make DAOs real.",
+          "Budgets and performance should be public.",
+          "Reduce single-human dependency.",
+          "Pay transparency lowers conspiracy fuel."
+        ],
+        "tips": [
+          "Start with small bounties to learn process.",
+          "Backup critical roles.",
+          "Publish working-group reports."
+        ],
+        "body": "Without operators, governance is theater. Working groups, bounties, budgets, and reviews convert energy into product. Burnout, unclear ownership, and late payrolls kill DAOs quietly."
+      },
+      {
+        "id": "attacks",
+        "title": "Governance Attacks",
+        "summary": "Capturing protocols via votes, bribes, or low turnout",
+        "intro": "Attackers chase treasuries, parameters, or upgrade keys using accumulated votes, flash loans, bribes, or sleepy quorums. Defenses include timelocks, veto guardians, and better voting designs.",
+        "sections": [
+          {
+            "heading": "What problem it solves",
+            "body": "Discussing attack surfaces lets communities defend early. “Nobody would do that” is not a control. Governance security rivals contract security."
+          },
+          {
+            "heading": "How it works",
+            "body": "Acquire votes → pass malice → execute after timelock if unstopped. Complex parameters can camouflage intent. Guardians may delay or cancel clear attacks."
+          },
+          {
+            "heading": "Key concepts",
+            "body": "Snapshot timing, flash-loan voting rules, and delegation concentration are key. Monitor large token movements."
+          },
+          {
+            "heading": "Risks & misconceptions",
+            "body": "Ignoring timelock alerts and assuming audits stop governance theft are mistakes."
+          }
+        ],
+        "keyPoints": [
+          "Governance power can become direct theft.",
+          "Timelocks and guardians are brakes.",
+          "Low turnout is a vulnerability.",
+          "Monitor and rehearse veto paths."
+        ],
+        "tips": [
+          "Enable governance alert bots.",
+          "Large holders should actually vote.",
+          "Support designs that block flash-loan voting."
+        ],
+        "body": "Attackers chase treasuries, parameters, or upgrade keys using accumulated votes, flash loans, bribes, or sleepy quorums. Defenses include timelocks, veto guardians, and better voting designs."
+      }
+    ]
+  }
+]

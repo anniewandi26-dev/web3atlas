@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# ガス料金"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# シードフレーズ詐欺"
+  },
+  {
+    "id": "layer2",
+    "label": "# レイヤー2"
+  },
+  {
+    "id": "approve",
+    "label": "# 承認・許可"
+  }
+]

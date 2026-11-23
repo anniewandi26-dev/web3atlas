@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "blockchain",
+    "name": "Blockchain",
+    "summary": "Redes que registram e protegem transações",
+    "blurb": "Livros contábeis compartilhados com consenso – a camada de liquidação onde todo o resto fica. Cada artigo inclui explicadores completos, pontos-chave e dicas.",
+    "items": [
+      {
+        "id": "bitcoin",
+        "title": "Bitcoin",
+        "summary": "A primeira rede de dinheiro eletrônico peer-to-peer com regras de emissão fixas",
+        "intro": "O Bitcoin mostra como o valor pode se movimentar na internet sem um banco como árbitro. Um conjunto global de nós compartilha um livro-razão protegido por criptografia e incentivos. Para iniciantes, chaves, UTXOs e regras de emissão são mais importantes do que gráficos de preços de curto prazo.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Intermediários confiáveis ​​podem congelar contas, bloquear pagamentos ou falhar em crises. O Bitcoin substitui a permissão institucional pela verificação pública: qualquer pessoa pode verificar o histórico, enquanto reescrevê-lo foi projetado para ser extremamente caro. \nO bloco de génese incorporou até uma manchete de jornal sobre resgates bancários – um sinal intencional sobre regras monetárias em código."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Você assina uma transação que gasta saídas não gastas (UTXOs) em novos endereços. Os mineradores competem por meio de prova de trabalho para anexar blocos e ganhar recompensas. \nAs reduções pela metade reduzem a nova oferta ao longo do tempo; a dificuldade se ajusta para que os blocos permaneçam praticamente estáveis. Mais confirmações significam menor risco de reorganização."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Chaves privadas igual controle; os endereços podem ser públicos. As taxas são um mercado para espaço de bloco. O script do Bitcoin é intencionalmente limitado, por isso se comporta mais como liquidação e escassez digital do que como uma plataforma de aplicativo geral."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "A volatilidade não é um bug de protocolo. As moedas em uma bolsa são IOUs até serem retiradas. Phishing, suporte falso e transferências de redes erradas causam perdas permanentes – pratique primeiro com pequenas quantias."
+          }
+        ],
+        "keyPoints": [
+          "Bitcoin é uma rede de liquidação publicamente verificável, não um token de empresa.",
+          "As regras de emissão, incluindo reduções pela metade, são aplicadas pelo protocolo e pelos incentivos.",
+          "Assinaturas UTXO + definem transferências; chaves perdidas significam fundos perdidos.",
+          "A segurança consiste principalmente em hábitos essenciais de higiene e confirmação."
+        ],
+        "tips": [
+          "Pratique receber/enviar com uma carteira confiável ou de hardware.",
+          "Mova o tamanho em lotes e aguarde confirmações suficientes.",
+          "Faça backup da semente off-line – nunca fotografe ou envie mensagens."
+        ],
+        "body": "O Bitcoin mostra como o valor pode se movimentar na internet sem um banco como árbitro. Um conjunto global de nós compartilha um livro-razão protegido por criptografia e incentivos. Para iniciantes, chaves, UTXOs e regras de emissão são mais importantes do que gráficos de preços de curto prazo."
+      },
+      {
+        "id": "ethereum",
+        "title": "Ethereum",
+        "summary": "Um blockchain de uso geral para contratos inteligentes – geralmente chamado de computador mundial",
+        "intro": "Enquanto o Bitcoin se concentra na transferência de dinheiro, o Ethereum se concentra na aplicação de regras programáveis. Contrata ativos de custódia, codifica condições e compõe em aplicativos. Após a fusão, o consenso é uma prova de aposta, enquanto a execução permanece no EVM.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Os pagamentos por si só não podem expressar empréstimos, trocas ou governação em cadeia de forma clara. Uma máquina virtual compartilhada transforma código em infraestrutura pública. \nAs interfaces abertas permitem que tokens e protocolos se conectem – a base dos legos DeFi."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Os EOAs são controlados por chave; contas de contrato são controladas por código. Você paga gasolina pelas mudanças de estado. Validadores apostam ETH para propor e atestar; falhas graves podem ser eliminadas. \nOs usuários ainda interagem por meio de assinaturas de carteira, mas o espaço de design é muito mais amplo do que simples transferências."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Cálculo de medidores de gás. Os padrões de token (ERC-20/721) permitem compatibilidade de carteira e mercado. A camada 2 transfere a execução para fora da rede principal enquanto volta para a segurança do Ethereum."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "“On Ethereum” ≠ auditado ou seguro. Aprovações ilimitadas e tokens falsos esgotam as carteiras. As taxas de pico podem exceder o tamanho da negociação – verifique a rede, o contrato e o escopo da concessão."
+          }
+        ],
+        "keyPoints": [
+          "Ethereum é uma máquina de estado compartilhada com tempo de execução de contrato inteligente.",
+          "PoS garante consenso; o EVM executa aplicativos.",
+          "Os padrões tornam os ativos interoperáveis ​​em todo o ecossistema.",
+          "A segurança depende da qualidade do contrato, das aprovações e das pontes."
+        ],
+        "tips": [
+          "Verifique os endereços dos contratos em um explorador de blocos, não apenas pelo ticker.",
+          "Use L2s oficiais ou espere quando a rede principal estiver congestionada.",
+          "Teste novos protocolos com dinheiro que você pode perder."
+        ],
+        "body": "Enquanto o Bitcoin se concentra na transferência de dinheiro, o Ethereum se concentra na aplicação de regras programáveis. Contrata ativos de custódia, codifica condições e compõe em aplicativos. Após a fusão, o consenso é uma prova de aposta, enquanto a execução permanece no EVM."
+      },
+      {
+        "id": "consensus",
+        "title": "Consenso",
+        "summary": "Como uma rede concorda com uma história canônica",
+        "intro": "Sem um árbitro central, os nós ainda precisam de um livro-razão. O consenso define quem propõe os bloqueios, como os trapaceiros são punidos e quando uma transferência é definitiva o suficiente. Prova de trabalho e prova de aposta são maneiras diferentes de tornar cara a reescrita do histórico.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Os participantes distribuídos podem atrasar, desconectar ou mentir. O consenso evita gastos duplos, tornando uma história economicamente dominante. \nPara os usuários, ele determina os tempos de espera, o risco de reorganização e o custo do ataque."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "PoW avalia ataques com energia/hashrate. Ataques de preços de PoS com capital vinculado e cortes. Alguns protocolos oferecem uma finalidade mais forte após os pontos de verificação; outros são probabilísticos. \nAs exchanges definem confirmações de depósito dessas propriedades."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "As compensações entre vivacidade e segurança são importantes. Uma cadeia “mais rápida” com pequenos conjuntos de validadores pode enfraquecer a resistência à censura. Pergunte quem produz os blocos antes de comemorar o TPS."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Slogans não são teses de investimento. As suposições de ponte e de cliente leve são muitas vezes mais fracas do que o consenso básico – e é aí que muitos hacks chegam."
+          }
+        ],
+        "keyPoints": [
+          "O consenso elege um único histórico canônico entre os nós não confiáveis.",
+          "Os preços de PoW e PoS atacam de maneira diferente.",
+          "As confirmações/finalidade decidem quando os fundos são “recebidos”.",
+          "Os componentes da cadeia cruzada podem ser mais fracos do que a história L1."
+        ],
+        "tips": [
+          "Respeite as contagens de confirmação sugeridas para grandes depósitos.",
+          "Estude a distribuição do validador e as regras de redução em novas cadeias.",
+          "Reduza a atividade de ponte/alavancagem durante atualizações controversas."
+        ],
+        "body": "Sem um árbitro central, os nós ainda precisam de um livro-razão. O consenso define quem propõe os bloqueios, como os trapaceiros são punidos e quando uma transferência é definitiva o suficiente. Prova de trabalho e prova de aposta são maneiras diferentes de tornar cara a reescrita do histórico."
+      },
+      {
+        "id": "accounts",
+        "title": "Contas e chaves",
+        "summary": "A identidade na rede é um par de chaves, não um nome de usuário redefinido pelo suporte",
+        "intro": "Sua conta geralmente é um endereço derivado de uma chave privada. Ninguém pode redefinir essa chave para você; uma assinatura é autorização. Compreender EOAs, contas de contrato e frases-semente é a base do uso seguro.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "As contas Web2 residem nos servidores da empresa com redefinição de senha. As blockchains transferem o controle para os detentores de chaves para autocustódia – e com isso empurram a responsabilidade operacional."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "As chaves privadas derivam chaves e endereços públicos. As sementes (BIP-39) podem regenerar muitas contas em cadeias. As contas contratuais movimentam fundos por caminhos de código; contas inteligentes codificam políticas como limites e guardiões."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Carteiras quentes são convenientes; carteiras de hardware mantêm as chaves em um elemento seguro. Controle de spreads multisig. Uma semente vazada pode comprometer toda uma árvore de derivação."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Capturas de tela na nuvem, malware e solicitações iniciais de “suporte” são caminhos clássicos de perda. A assinatura cega pode aprovar drenos – rejeitar instruções pouco claras."
+          }
+        ],
+        "keyPoints": [
+          "Chaves equivalem a propriedade.",
+          "Os endereços são compartilháveis; sementes não são.",
+          "Os EOAs são assinados por humanos; os contratos são controlados por código.",
+          "Leia o escopo da permissão antes de assinar."
+        ],
+        "tips": [
+          "Separe os fundos experimentais das carteiras de poupança.",
+          "Escreva sementes em papel/metal e armazene offline.",
+          "Habilite a simulação de transações em novos dApps."
+        ],
+        "body": "Sua conta geralmente é um endereço derivado de uma chave privada. Ninguém pode redefinir essa chave para você; uma assinatura é autorização. Compreender EOAs, contas de contrato e frases-semente é a base do uso seguro."
+      },
+      {
+        "id": "gas",
+        "title": "Gás e taxas",
+        "summary": "Cada mudança de estado é medida para que o computador público não possa receber spam gratuitamente",
+        "intro": "O gás não é um imposto arbitrário – ele fixa o preço da computação e do armazenamento. Sua taxa é de uso × preço unitário. O congestionamento aumenta o preço unitário, e é por isso que a mesma ação pode custar centavos ou dezenas de dólares.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Blockchains públicos devem vincular recursos. O gás cria um mercado de taxas: lances mais altos são resolvidos primeiro; os desenvolvedores devem redigir contratos eficientes."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Transferências simples custam pouco gás; rotas DeFi complexas custam mais. Após o EIP-1559, as taxas básicas são queimadas e as gorjetas são pagas aos proponentes. Os L2s amortizam o custo dos dados L1 entre muitos usuários, portanto, as taxas unitárias caem."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "O limite de gás limita o quanto você permite. As transações com falha ainda podem cobrar gás porque a execução ocorreu. A aceleração/cancelamento substitui um nonce pendente por uma taxa de transferência mais alta."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Sites falsos podem gerar ligações absurdas ou sem sentido. As campanhas de “gás zero” muitas vezes expandem as permissões – pergunte quem patrocina e o que você autoriza."
+          }
+        ],
+        "keyPoints": [
+          "Execução de medidores de gás; o preço é orientado pelo mercado.",
+          "As falhas ainda podem custar gás.",
+          "L2s e lotes são os principais poupadores de taxas.",
+          "Rejeite taxas anormais ou solicitações de aprovação."
+        ],
+        "tips": [
+          "Faça ações não urgentes fora do horário de pico ou em L2.",
+          "Use estimativas e simulação de taxas de carteira.",
+          "Preço do gás total antes de campanhas em várias etapas."
+        ],
+        "body": "O gás não é um imposto arbitrário – ele fixa o preço da computação e do armazenamento. Sua taxa é de uso × preço unitário. O congestionamento aumenta o preço unitário, e é por isso que a mesma ação pode custar centavos ou dezenas de dólares."
+      },
+      {
+        "id": "bridges",
+        "title": "Pontes",
+        "summary": "Canais que movimentam valor ou mensagens entre cadeias – e são alvos frequentes de hackers",
+        "intro": "Os ativos não aparecem magicamente em outro livro-razão. As pontes bloqueiam, cunham, queimam ou trocam por meio de liquidez – expandindo o acesso e concentrando o risco. Várias das maiores explorações da história atingiram a custódia e verificação da ponte.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Sem pontes, os ecossistemas permanecem ilhas. Com as pontes, os usuários herdam confiança extra e riscos de contrato em troca de mobilidade."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Os modelos incluem lock-and-mint, burn-and-resgatar, redes de liquidez e relés de clientes leves. As pontes canônicas de rollup herdam a segurança de rollup, mas podem ter atrasos de saída; pontes rápidas adicionam suposições de terceiros para velocidade."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Você pode resgatar 1:1? Quão descentralizados são os validadores? TVL alto pode significar um alvo mais gordo, não segurança automática."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Os domínios de phishing prosperam em torno de pontes. Contratos de rede ou token errados enviam fundos para o vazio. Sempre teste primeiro com uma pequena transferência."
+          }
+        ],
+        "keyPoints": [
+          "Uma ponte é um protocolo de contabilidade cruzada, não de teletransporte.",
+          "Pontes canônicas versus pontes rápidas têm modelos de confiança diferentes.",
+          "As pontes dominam as perdas históricas de hackers.",
+          "Verifique domínio, contrato e rede juntos."
+        ],
+        "tips": [
+          "Insira pontes apenas de documentos oficiais marcados.",
+          "Teste o tamanho mínimo antes de mover o tamanho.",
+          "Trate as saídas pendentes como ainda não gastáveis ​​livremente."
+        ],
+        "body": "Os ativos não aparecem magicamente em outro livro-razão. As pontes bloqueiam, cunham, queimam ou trocam por meio de liquidez – expandindo o acesso e concentrando o risco. Várias das maiores explorações da história atingiram a custódia e verificação da ponte."
+      }
+    ]
+  },
+  {
+    "id": "defi",
+    "name": "DeFi",
+    "summary": "Empréstimos, swaps e staking através de contratos inteligentes",
+    "blurb": "Como se compõem os primitivos financeiros abertos – e os riscos em torno de taxas, liquidações e estabilidades.",
+    "items": [
+      {
+        "id": "amm",
+        "title": "Formadores de mercado automatizados",
+        "summary": "Pools de liquidez e curvas de preços substituem as carteiras de pedidos clássicas",
+        "intro": "Os AMMs permitem que qualquer pessoa deposite tokens em um pool para que os traders possam trocar por uma fórmula. Você obtém liquidez contínua e taxas de LP, além de perda impermanente e risco de contrato inteligente.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Os livros de pedidos na rede são caros. Os pools mantêm a liquidez residente nos contratos para que os swaps possam acontecer a qualquer momento, democratizando a criação de mercado."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "O produto constante é a curva clássica; stableswaps e liquidez concentrada melhoram a eficiência do capital. Os roteadores dividem as negociações entre pools. Os limites de derrapagem protegem você quando o estado muda."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "A perda impermanente pode fazer com que os LPs tenham um desempenho inferior ao mantido. Tokens falsos e honeypots podem parecer compráveis, mas invendáveis. As TAEG de emissões podem não durar."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Aprovações ilimitadas para roteadores desconhecidos são perigosas. Depegs enfatiza fortemente as piscinas “estáveis”."
+          }
+        ],
+        "keyPoints": [
+          "Preço de AMMs por meio de matemática de pool para swaps instantâneos.",
+          "Os LPs ganham taxas e assumem risco de contrato IL +.",
+          "Deslizamento e qualidade de roteamento geram resultados.",
+          "Verifique pools/tokens antes de buscar o rendimento."
+        ],
+        "tips": [
+          "Defina deslizamentos reduzidos e valores mínimos de saída.",
+          "Prefira pools profundos em protocolos maduros.",
+          "Revogue regularmente permissões de tokens não utilizados."
+        ],
+        "body": "Os AMMs permitem que qualquer pessoa deposite tokens em um pool para que os traders possam trocar por uma fórmula. Você obtém liquidez contínua e taxas de LP, além de perda impermanente e risco de contrato inteligente."
+      },
+      {
+        "id": "lending",
+        "title": "Protocolos de empréstimo",
+        "summary": "Empréstimos sobrecolateralizados com taxas algorítmicas e liquidações",
+        "intro": "Deposite ativos para obter rendimento ou peça empréstimos contra garantias sem uma mesa de crédito. Fatores de saúde, oráculos e robôs de liquidação – e não gerentes de relacionamento – mantêm o sistema solvente.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "A aplicação em cadeia de crédito não garantido é difícil, por isso a sobrecolateralização domina. Qualquer pessoa pode participar; a eficiência do capital é o trade-off."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "A utilização impulsiona as curvas de juros. Preços de alimentação dos oráculos. Quando a saúde piora, os liquidatários pagam a dívida e confiscam as garantias em troca de um bônus."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Os modos de isolamento, LTV e socializações de inadimplência diferem de acordo com o protocolo. A alavancagem em loop multiplica o risco. A APR líquida deve subtrair penalidades de gás e liquidação."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "O atraso ou a manipulação do Oracle podem causar liquidações injustas. Tratar os empréstimos como “poupanças seguras” é uma armadilha mental."
+          }
+        ],
+        "keyPoints": [
+          "A sobrecolateralização + liquidações são o núcleo.",
+          "O fator saúde supera as taxas principais.",
+          "A Oracle e a qualidade da liquidez decidem a segurança.",
+          "Os loops de alavancagem amplificam os rebaixamentos."
+        ],
+        "tips": [
+          "Deixe um buffer grande acima da liquidação.",
+          "Evite garantias altamente correlacionadas em tempestades.",
+          "Estime o preço de liquidação antes de tomar um empréstimo."
+        ],
+        "body": "Deposite ativos para obter rendimento ou peça empréstimos contra garantias sem uma mesa de crédito. Fatores de saúde, oráculos e robôs de liquidação – e não gerentes de relacionamento – mantêm o sistema solvente."
+      },
+      {
+        "id": "stablecoins",
+        "title": "Moedas estáveis",
+        "summary": "Unidades on-chain projetadas para rastrear uma referência estável como o USD",
+        "intro": "Ativos básicos voláteis são inadequados para precificação e contabilidade. As stablecoins fornecem um trilho semelhante ao do dólar para negociações e remessas – mas os mecanismos e modos de falha diferem drasticamente.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Eles fornecem uma unidade de conta familiar para atividades em cadeia e um refúgio temporário em momentos de risco – refúgio ≠ livre de risco."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "As moedas apoiadas pela Fiat dependem de reservas e resgates; aqueles apoiados por criptografia em sobrecolateralização; os designs algorítmicos ajustam a oferta e revelaram-se frágeis. A transparência e os termos de resgate são importantes em situações de estresse."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Congelamentos, depegs, versões falsas de cadeia cruzada e wrappers de rendimento adicionam camadas de risco. O mesmo ticker em outra rede pode não ser oficial."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "USD no nome é marketing, não seguro. A concentração num único emitente é risco de contraparte."
+          }
+        ],
+        "keyPoints": [
+          "Stablecoins são ferramentas com risco de emissor/mecanismo.",
+          "Reservas, garantias ou algoritmos falham de maneira diferente.",
+          "As políticas de resgate e congelamento afetam a usabilidade.",
+          "Sempre verifique os contratos oficiais por rede."
+        ],
+        "tips": [
+          "Prefira designs resgatáveis ​​transparentes devido ao tamanho.",
+          "Diversifique emissores e locais.",
+          "Trate o “rendimento estável” descomunal como um aviso."
+        ],
+        "body": "Ativos básicos voláteis são inadequados para precificação e contabilidade. As stablecoins fornecem um trilho semelhante ao do dólar para negociações e remessas – mas os mecanismos e modos de falha diferem drasticamente."
+      },
+      {
+        "id": "staking",
+        "title": "Estaqueamento e Reestaqueamento",
+        "summary": "Obrigar capital para proteger uma rede – e às vezes reutilizar essa segurança",
+        "intro": "A prova de aposta alinha os validadores com a segurança da cadeia por meio de participação vinculada. Os tokens de staking líquidos melhoram a eficiência do capital; o reestabelecimento reutiliza a aposta para serviços extras e acumula riscos de redução correlacionados.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "O PoS precisa de um conjunto de validadores suficientemente descentralizado. As recompensas compensam as operações e os custos de oportunidade; a estaca líquida aumenta a participação com novos riscos contratuais."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Filas de ativação e saída, tarefas e cortes definem o trabalho. O reajuste delega segurança a protocolos adicionais para rendimento extra – e condições de redução extras."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "O desempenho do operador, a diversidade de clientes e o risco de dependência de LST são importantes. Maior rendimento geralmente significa mais maneiras de ser punido."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Sites de estaqueamento falsos colhem aprovações ou sementes. O restabelecimento não é uma alavancagem isenta de risco na ETH."
+          }
+        ],
+        "keyPoints": [
+          "O staking paga pelo trabalho de segurança.",
+          "O staking líquido adiciona camadas de contrato/operador.",
+          "O reaquecimento das pilhas reduz as condições.",
+          "Atrasos no saque significam que a liquidez não é instantânea."
+        ],
+        "tips": [
+          "Escolha operadores com histórico e baixa concentração.",
+          "Tamanho reestabelecido para reduzir a tolerância.",
+          "Entre apenas através de links de documentação oficial."
+        ],
+        "body": "A prova de aposta alinha os validadores com a segurança da cadeia por meio de participação vinculada. Os tokens de staking líquidos melhoram a eficiência do capital; o reestabelecimento reutiliza a aposta para serviços extras e acumula riscos de redução correlacionados."
+      },
+      {
+        "id": "perps",
+        "title": "Futuros Perpétuos",
+        "summary": "Mercados alavancados sem vencimento, ancorados por taxas de financiamento",
+        "intro": "Os criminosos permitem que os traders comprem / vendam com margem e sem vencimento. Os locais da rede codificam margens e liquidações em código ou sistemas híbridos. A vantagem é amplificada – assim como a velocidade do caminho para zero.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "O Spot por si só não consegue expressar hedges de forma eficiente. Perps tornou-se o derivado dominante da criptografia ao remover o atrito do rolo."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Transferências de financiamento entre posições compradas e vendidas para vincular o preço a um índice. A margem de manutenção desencadeia liquidações; os fundos de seguros podem absorver deficiências. Oráculos e interrupções são importantes no caos."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "A alavancagem, a desalavancagem automática e o acúmulo de financiamento determinam a sobrevivência. Os modelos de custódia CEX vs DEX são diferentes."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "“Pequena alavancagem é segura” falha em alguns momentos. A incapacidade de adicionar margem devido a problemas de gás/rede pode liquidá-lo."
+          }
+        ],
+        "keyPoints": [
+          "O financiamento substitui o vencimento da ancoragem.",
+          "A mecânica de liquidação é existencial.",
+          "A alavancagem converte a volatilidade em probabilidades de eliminação.",
+          "O risco do local e do oráculo se acumula no risco de mercado."
+        ],
+        "tips": [
+          "Padrão para baixa alavancagem com margem livre.",
+          "Reduza o tamanho antes dos eventos; não adicione vingança.",
+          "Use locais cujas regras você possa verificar."
+        ],
+        "body": "Os criminosos permitem que os traders comprem / vendam com margem e sem vencimento. Os locais da rede codificam margens e liquidações em código ou sistemas híbridos. A vantagem é amplificada – assim como a velocidade do caminho para zero."
+      },
+      {
+        "id": "rwa",
+        "title": "Tokenização RWA",
+        "summary": "Trazendo reivindicações sobre fluxos de caixa do mundo real para trilhos criptográficos",
+        "intro": "Os RWAs conectam rendimentos familiares (como letras do Tesouro) à liquidação em cadeia. O token é tão bom quanto os invólucros legais, custódia e resgate – não apenas a interface do contrato inteligente.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "O rendimento da criptografia nativa é volátil; instrumentos monetários tokenizados podem atender melhor às necessidades de tesouraria quando as estruturas são sólidas."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Uma entidade licenciada detém ativos; tokens rastreiam reivindicações; o rendimento é distribuído na cadeia. As listas de permissões KYC são comuns. Os preços secundários podem divergir do NAV."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "A distância da falência, os atestados, o resgate T+N e a jurisdição decidem os resultados do estresse. “Visível na cadeia” ≠ automaticamente executável fora da cadeia."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "O risco de contraparte e de mudança regulatória está ao lado do risco contratual. Abundam páginas de assinaturas falsas."
+          }
+        ],
+        "keyPoints": [
+          "RWA = legal + custódia + encanamento de token.",
+          "O rendimento vem de ativos fora da rede.",
+          "As regras de transferência/resgate podem ser bloqueadas.",
+          "Cuide da estrutura do emissor, não apenas da APR."
+        ],
+        "tips": [
+          "Leia documentos de oferta e atestados de reserva.",
+          "Confirme se sua jurisdição permite mantê-lo.",
+          "Observe as janelas de resgate e a profundidade secundária."
+        ],
+        "body": "Os RWAs conectam rendimentos familiares (como letras do Tesouro) à liquidação em cadeia. O token é tão bom quanto os invólucros legais, custódia e resgate – não apenas a interface do contrato inteligente."
+      }
+    ]
+  },
+  {
+    "id": "nfts",
+    "name": "NFTs",
+    "summary": "Tokens exclusivos e os mercados para eles",
+    "blurb": "Desde padrões e mercados até cultura, jogos e ativos dinâmicos.",
+    "items": [
+      {
+        "id": "erc721",
+        "title": "ERC-721 e ERC-1155",
+        "summary": "Interfaces padrão para tokens únicos e semifungíveis",
+        "intro": "Os padrões permitem que as carteiras e os mercados falem uma língua. 721 mapeia um ID para um proprietário; 1155 gerencia muitos IDs e transferências em lote – útil para jogos.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Sem padrões, cada projeto inventa APIs personalizadas e quebra a interoperabilidade. Os criadores também ganham distribuição em vários mercados."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "A propriedade e as transferências são padronizadas; os metadados geralmente residem em um tokenURI (geralmente IPFS). As aprovações podem ser por token ou para toda a operadora."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Metadados mutáveis, fixação e política de royalties moldam a durabilidade e a economia. Coleções falsas copiam arte com contratos diferentes – endereços confiáveis."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "O setApprovalForAll cego para mercados desconhecidos é um dreno clássico. Narrativas de raridade ≠ liquidez."
+          }
+        ],
+        "keyPoints": [
+          "Os padrões permitem a interoperabilidade, não o valor intrínseco.",
+          "As escolhas de armazenamento afetam a permanência.",
+          "Minimize as aprovações.",
+          "O endereço do contrato é a verificação de autenticidade."
+        ],
+        "tips": [
+          "Verifique os contratos oficiais antes de comprar.",
+          "Revogar operadores de mercado obsoletos.",
+          "Divida peças de alto valor em carteiras de cofre."
+        ],
+        "body": "Os padrões permitem que as carteiras e os mercados falem uma língua. 721 mapeia um ID para um proprietário; 1155 gerencia muitos IDs e transferências em lote – útil para jogos."
+      },
+      {
+        "id": "markets",
+        "title": "Mercados NFT",
+        "summary": "Camadas de política de listagem, licitação, liquidação e royalties",
+        "intro": "Os mercados combinam compradores e vendedores com fluxo de pedidos on-chain ou híbrido. Os agregadores roteiam pelos locais. A aplicação de royalties é cada vez mais uma política de mercado, e não pura magia de protocolo.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Os criadores precisam de distribuição; colecionadores precisam de descoberta e formação de preços. A concorrência comprime as taxas e aumenta as expectativas de segurança."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Os vendedores aprovam as transferências; os compradores se acomodam. Assista a listagens roubadas com descontos impossíveis. Os agregadores ajudam no preço, mas não na devida diligência."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Taxas, garantias de lances, negociações de lavagem e peculiaridades de listagem cruzada são importantes. Os gráficos de piso podem ser manipulados."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "UIs de phishing imitam os principais mercados. Assinaturas de lançamento aéreo são uma isca comum."
+          }
+        ],
+        "keyPoints": [
+          "Os mercados são trilhos e não garantias de valor.",
+          "Licitações e aprovações trazem riscos.",
+          "As regras de royalties variam de acordo com o local.",
+          "Solicitações ultrabaixas podem ser ativos roubados."
+        ],
+        "tips": [
+          "Marque domínios oficiais; pule os anúncios da rede de pesquisa.",
+          "Mantenha o tamanho do lance e o vencimento conservadores.",
+          "Acumule cuidadosamente ao longo do tempo."
+        ],
+        "body": "Os mercados combinam compradores e vendedores com fluxo de pedidos on-chain ou híbrido. Os agregadores roteiam pelos locais. A aplicação de royalties é cada vez mais uma política de mercado, e não pura magia de protocolo."
+      },
+      {
+        "id": "pfp",
+        "title": "PFP e cultura NFTs",
+        "summary": "Identidade e participação na comunidade embrulhadas em meios de comunicação negociáveis",
+        "intro": "Os NFTs com foto de perfil transformam a propriedade em um sinal social. O preço é mais orientado pela narrativa e pela liquidez do que pelo fluxo de caixa. Trate-os primeiro como cultura e depois como especulação.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Os nomes de usuário da plataforma são alugados; Os PFPs tentam identidade visual portátil e acesso à comunidade – a atenção pode monetizar e a atenção pode ir embora."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Mints, ferramentas de raridade, Discord/Telegram e negociação secundária formam o ciclo. Alguns acrescentam utilidade; muitos não."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Distribuição de suportes, desbloqueios e livros finos geram risco de colisão. Golpes de falsificação de identidade são constantes."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Perseguir narrativas “blue chip” em picos de euforia dói. Nunca confie sementes aos administradores de DM."
+          }
+        ],
+        "keyPoints": [
+          "O valor é principalmente social e narrativo.",
+          "Verifique contratos/canais oficiais.",
+          "A liquidez pode desaparecer rapidamente.",
+          "Coletar/socializar; não trate como rendimento garantido."
+        ],
+        "tips": [
+          "Espreite as comunidades antes de comprar.",
+          "Ignore DMs de lançamento aéreo.",
+          "Predefina um orçamento de perda máxima."
+        ],
+        "body": "Os NFTs com foto de perfil transformam a propriedade em um sinal social. O preço é mais orientado pela narrativa e pela liquidez do que pelo fluxo de caixa. Trate-os primeiro como cultura e depois como especulação."
+      },
+      {
+        "id": "gaming-assets",
+        "title": "Recursos do jogo",
+        "summary": "Itens negociáveis, personagens e terrenos com propriedade verificável",
+        "intro": "Os jogos criptográficos prometem que itens escassos permanecerão seus. Ciclos divertidos, economias equilibradas e propriedade real devem coexistir – ou ficaremos com uma concha especulativa.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "As paralisações tradicionais eliminam os estoques. Mercados abertos e propriedade verificável mudam as expectativas dos jogadores e permitem economias de UGC."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Os híbridos mantêm o combate em tempo real fora da cadeia e resolvem a escassez na cadeia. Preços de balas, pias e formas de artesanato; emissões não controladas os inflacionam."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Os rácios de produção/despesas e os gastos são mais importantes do que apenas a arte. Possível ≠ exigido."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Tratar as primeiras recompensas simbólicas como um salário falha nos mercados em baixa. Separe as chaves do jogo das carteiras do cofre."
+          }
+        ],
+        "keyPoints": [
+          "A propriedade precisa de um ciclo de jogo sustentável.",
+          "O design da economia impulsiona os preços a longo prazo.",
+          "Os híbridos trocam pureza por desempenho.",
+          "Retenção de hype ≠ retenção de jogadores."
+        ],
+        "tips": [
+          "Jogue antes de comprar ativos caros.",
+          "Rastreie sumidouros versus emissões.",
+          "Isole as contas do jogo dos fundos principais."
+        ],
+        "body": "Os jogos criptográficos prometem que itens escassos permanecerão seus. Ciclos divertidos, economias equilibradas e propriedade real devem coexistir – ou ficaremos com uma concha especulativa."
+      },
+      {
+        "id": "tickets",
+        "title": "Ingressos e credenciais",
+        "summary": "Direitos de acesso verificáveis ​​com regras de transferência opcionais",
+        "intro": "Ingressos e assinaturas servem para comprovar o direito. As credenciais na rede podem reduzir falsificações e permitir a revenda controlada – se o check-in UX realmente funcionar para pessoas normais.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Falsificações de papel e escalpelamento opaco prejudicam eventos. Bilhetes digitais verificáveis ​​podem vincular a identidade ou definir restrições de transferência e deixar rastros auditáveis."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Cunha/reivindicação na compra; marcas de digitalização para resgatar usadas. As opções vinculadas à alma reduzem a promoção. A privacidade/KYC geralmente fica fora da rede."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Transferibilidade, ataques de captura de tela e recuperação em caso de perda de sementes precisam de design. O atrito da carteira pode excluir públicos."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Bilhetes falsos e eventos abandonados deixam fichas sem valor. Não compartilhe dados pessoais em excesso com contratos desconhecidos."
+          }
+        ],
+        "keyPoints": [
+          "O valor é o certo, não o inverso.",
+          "A UX de resgate decide a escala.",
+          "Leia as regras de transferência antes de comprar.",
+          "Os caminhos de recuperação ainda são importantes."
+        ],
+        "tips": [
+          "Compre apenas através dos canais do organizador.",
+          "Teste a exibição da carteira antes do evento.",
+          "Mantenha também e-mails de confirmação fora da rede."
+        ],
+        "body": "Ingressos e assinaturas servem para comprovar o direito. As credenciais na rede podem reduzir falsificações e permitir a revenda controlada – se o check-in UX realmente funcionar para pessoas normais."
+      },
+      {
+        "id": "dynamic",
+        "title": "NFTs dinâmicos",
+        "summary": "Ativos cujas características podem mudar com o estado on-chain ou oracle",
+        "intro": "Os NFTs dinâmicos atualizam a aparência ou atributos do progresso do jogo, tempo ou dados externos. Eles parecem vivos – mas a mutabilidade deve ser transparente para os compradores.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Os níveis de associação e os itens de jogo em evolução precisam de estado. A dinâmica torna os NFTs mais do que imagens estáticas."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Contratos ou serviços de metadados atualizam URIs de gatilhos. Se os metadados forem centralizados, as dinâmicas podem se tornar edições silenciosas."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Quem pode atualizar? A história é auditável? Os mercados devem mostrar o estado mais recente. Os compradores devem saber o que pode mudar."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Os operadores poderiam diminuir a raridade. Falhas do Oracle podem definir formulários errados. “Raridade imutável” mais atualizações administrativas silenciosas são um sinal de alerta."
+          }
+        ],
+        "keyPoints": [
+          "A dinâmica é uma característica e um risco.",
+          "Publique as permissões de atualização de forma clara.",
+          "O modelo de hospedagem gera confiança.",
+          "Confirme as últimas características antes de negociar."
+        ],
+        "tips": [
+          "Leia as regras e o histórico de atualização.",
+          "Prefira máquinas de estado verificáveis ​​na cadeia.",
+          "Armazene peças de alto valor em carteiras frias."
+        ],
+        "body": "Os NFTs dinâmicos atualizam a aparência ou atributos do progresso do jogo, tempo ou dados externos. Eles parecem vivos – mas a mutabilidade deve ser transparente para os compradores."
+      }
+    ]
+  },
+  {
+    "id": "layer2",
+    "name": "Camada 2",
+    "summary": "Dimensionando redes construídas sobre Ethereum",
+    "blurb": "Rollups otimistas/ZK, disponibilidade de dados, pontes e por que as taxas podem cair para centavos.",
+    "items": [
+      {
+        "id": "optimistic",
+        "title": "Rollups otimistas",
+        "summary": "Suponha que os lotes sejam válidos; proteja-os com uma janela à prova de fraude",
+        "intro": "Rollups otimistas são executados em L2, postam dados no Ethereum e assumem correção, a menos que sejam desafiados. Os usuários obtêm uma experiência do usuário mais barata; saídas canônicas podem aguardar um período de desafio.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "O espaço do bloco L1 é caro. Mover a execução para fora da cadeia enquanto se ancora em L1 reduz custos. Projetos otimistas enviados antecipadamente com forte compatibilidade com EVM."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Um sequenciador ordena transações e publica lotes; raízes de estado ancoram em L1. Durante a janela, os observadores podem disputar. As saídas rápidas utilizam liquidez de terceiros com premissas extras."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "A descentralização do sequenciador, a disponibilidade de dados e as chaves de atualização definem a segurança real. Velocidade UX ≠ descentralização concluída."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Ignorar os atrasos na saída precifica mal a liquidez. Sites de ponte falsos aumentam sempre que há tendência de L2."
+          }
+        ],
+        "keyPoints": [
+          "Desafie a latência comercial do Windows para obter provas de fraude mais simples.",
+          "A segurança depende de dados L1 + jogos de disputa.",
+          "As pontes canônicas são mais lentas, mas mais claras.",
+          "O tempo de atividade do sequenciador é um risco de experiência."
+        ],
+        "tips": [
+          "Planeje as saídas L1 com o atraso em mente.",
+          "Prefira pontos de entrada oficiais da ponte.",
+          "Leia a documentação da escotilha de fuga para interrupções do sequenciador."
+        ],
+        "body": "Rollups otimistas são executados em L2, postam dados no Ethereum e assumem correção, a menos que sejam desafiados. Os usuários obtêm uma experiência do usuário mais barata; saídas canônicas podem aguardar um período de desafio."
+      },
+      {
+        "id": "zk",
+        "title": "Acumulações ZK",
+        "summary": "As provas de validade convencem L1 de que os lotes L2 estão corretos",
+        "intro": "As provas de validade permitem que L1 aceite resultados sem longas janelas de fraude. A prova é computacionalmente pesada, mas a finalidade pode parecer mais rápida quando as provas chegam.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Escale sem depender de “assumir que é honesto, a menos que seja desafiado”. Liquidação mais rápida ajuda trocas e pontes."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "L2 executa; os provadores constroem provas; Os verificadores L1 os verificam. Maior equivalência de EVM facilita a migração de aplicativos."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Sistemas de prova, DA e chaves de atualização ainda são importantes. Marca “ZK” ≠ mercados de provadores descentralizados ainda."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Os provadores/sequenciadores centralizados podem permanecer. Bridges e phishing ainda dominam as perdas de usuários."
+          }
+        ],
+        "keyPoints": [
+          "As provas de validade fortalecem as garantias de correção.",
+          "Os custos de hardware/engenharia determinam as taxas e a descentralização.",
+          "Os usuários ainda precisam de higiene da ponte e da carteira.",
+          "A compatibilidade EVM impulsiona a portabilidade do ecossistema."
+        ],
+        "tips": [
+          "Verifique os roteiros de descentralização dos provadores.",
+          "Teste pontes com pequenas quantidades.",
+          "Leia o design do DA com atenção."
+        ],
+        "body": "As provas de validade permitem que L1 aceite resultados sem longas janelas de fraude. A prova é computacionalmente pesada, mas a finalidade pode parecer mais rápida quando as provas chegam."
+      },
+      {
+        "id": "data",
+        "title": "Disponibilidade de dados",
+        "summary": "Garantir que qualquer pessoa possa obter os dados necessários para reconstruir o estado",
+        "intro": "Os rollups devem disponibilizar os dados da transação. Se os dados desaparecerem, os usuários poderão não conseguir sair com segurança. Blobs reduziram os custos do Ethereum DA e ajudaram a comprimir as taxas L2.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Provas sem dados ainda podem prender os usuários. Onde os dados residem – e qual o seu custo – está no centro dos debates sobre expansão."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Os dados podem ficar em calldata/blobs Ethereum ou em camadas DA externas, geralmente com codificação de amostragem/eliminação. A herança de segurança difere por design."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "“Settled to Ethereum” não é idêntico a “DA é igual a garantias completas do Ethereum”. As quedas de taxas geralmente acompanham DA mais barato."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Subestimar os modos de falha do DA é perigoso. O marketing pode confundir liquidação versus disponibilidade."
+          }
+        ],
+        "keyPoints": [
+          "Sem DA, o auto-resgate enfraquece.",
+          "As atualizações da era Blob mudaram as curvas de taxas L2.",
+          "As escolhas de DA carregam suposições distintas.",
+          "Taxas de juiz, segurança e descentralização juntas."
+        ],
+        "tips": [
+          "Leia a seção DA de cada L2.",
+          "Mantenha as notas oficiais de saída de fuga à mão.",
+          "Não classifique as cadeias apenas pelo TPS."
+        ],
+        "body": "Os rollups devem disponibilizar os dados da transação. Se os dados desaparecerem, os usuários poderão não conseguir sair com segurança. Blobs reduziram os custos do Ethereum DA e ajudaram a comprimir as taxas L2."
+      },
+      {
+        "id": "bridges-l2",
+        "title": "Pontes L2",
+        "summary": "Caminhos canônicos versus caminhos de terceiros entre L1 e L2",
+        "intro": "As pontes canônicas herdam regras de rollup e podem ser lentas; pontes de terceiros vendem velocidade com confiança extra. Escolher a UI errada é um padrão de grande perda.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Você precisa de fundos em L2 para UX barato ou de volta em L1 para liquidação. Diferentes usuários escolhem diferentes pontos de confiança/latência."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "As pontes oficiais creditam os saldos L2 após o depósito e saída de acordo com as regras de rollup. Pontes rápidas frente à liquidez e reequilíbrio posterior – observe taxas e limites."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Autenticidade do domínio, capacidade de atualização, limites e caminhos de reembolso são importantes. Mais rápido geralmente significa mais contrapartes."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Domínios falsos de anúncios de pesquisa. Fazer a ponte entre a versão errada do token prejudica a liquidez. Gastar fundos ainda em janelas de desafio desvaloriza o risco."
+          }
+        ],
+        "keyPoints": [
+          "As pontes canônicas correspondem melhor às suposições de rollup.",
+          "Pontes rápidas trocam confiança por tempo.",
+          "A verificação do domínio é obrigatória.",
+          "Pequenos testes antes do tamanho."
+        ],
+        "tips": [
+          "Clique nas pontes do próprio site do L2.",
+          "Salve hashes tx para suporte/depuração.",
+          "Evite pontes novas não auditadas quanto ao tamanho."
+        ],
+        "body": "As pontes canônicas herdam regras de rollup e podem ser lentas; pontes de terceiros vendem velocidade com confiança extra. Escolher a UI errada é um padrão de grande perda."
+      },
+      {
+        "id": "accounts-aa",
+        "title": "Abstração de conta",
+        "summary": "Carteiras de contratos inteligentes com recuperação, limites e gás patrocinado",
+        "intro": "EOAs clássicos significam frases iniciais e gás autopago. AA permite que as carteiras definam a lógica de verificação – guardiões, chaves de sessão, lotes, pagadores – para que a integração pareça mais próxima da Web2 sem abrir mão totalmente da autocustódia.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "As sementes assustam os recém-chegados; fichas de gás os confundem. AA reduz o atrito enquanto mantém o controle verificável. Os dApps ganham menos pop-ups por meio de sessões e lotes."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "UserOperations são agrupados na cadeia; os pagadores podem patrocinar taxas. Os contratos de carteira impõem políticas. Padrões como ERC-4337 variam de acordo com a maturidade da cadeia."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Quem são os guardiões? A recuperação é centralizada? As permissões de sessão são muito amplas? Misconfig ainda perde fundos."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "“Sem sementes” ≠ sem risco – os canais de recuperação podem ser atacados. Existem endpoints de bundler/paymaster maliciosos. Sessões para dApps desconhecidos são perigosas."
+          }
+        ],
+        "keyPoints": [
+          "AA codifica políticas em carteiras de contratos.",
+          "O gás patrocinado e a recuperação social são as principais vitórias de UX.",
+          "A configuração escolhe segurança real.",
+          "O phishing ainda funciona se você aprovar cegamente."
+        ],
+        "tips": [
+          "Escolha diversos guardiões e dispositivos.",
+          "Somente chaves de sessão limitada e de curta duração.",
+          "Mantenha hardware/multisig para cofres."
+        ],
+        "body": "EOAs clássicos significam frases iniciais e gás autopago. AA permite que as carteiras definam a lógica de verificação – guardiões, chaves de sessão, lotes, pagadores – para que a integração pareça mais próxima da Web2 sem abrir mão totalmente da autocustódia."
+      },
+      {
+        "id": "multi-chain",
+        "title": "Realidade multicadeia",
+        "summary": "A liquidez e os usuários se fragmentam em muitos domínios de liquidação",
+        "intro": "Poucas pessoas vivem na mesma cadeia agora. Tokens de gás, pontes e implantações de aplicativos são diferentes. Os solucionadores de intenção escondem caminhos, mas você ainda precisa saber onde estão os fundos.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Uma rede não pode otimizar todos os nichos de taxas/desempenho. Mais opções também significam mais maneiras de escolher a rede errada."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Carteiras trocam RPC/ID de cadeia; o mesmo endereço pode conter ativos diferentes por cadeia EVM. Bridges e mensagens conectam estados; os solucionadores competem para preencher as intenções."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Autenticidade de ID de cadeia, RPCs falsos e contratos de token por cadeia são armas de fogo diárias. O saldo zero geralmente significa uma rede errada selecionada."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "RPCs personalizados maliciosos enganam assinaturas. As janelas de ponte aumentam o risco. Distribuir fundos insubstituíveis por dez novos L2s é dívida operacional."
+          }
+        ],
+        "keyPoints": [
+          "Multi-chain é normal – verifique sempre as redes.",
+          "Mesmo endereço ≠ mesmos saldos em todos os lugares.",
+          "As intenções escondem a complexidade; eles não eliminam o risco da ponte.",
+          "Menos cadeias ativas reduzem erros."
+        ],
+        "tips": [
+          "Identifique as redes claramente em sua carteira.",
+          "Captura de tela/verifique os nomes das redes antes de enviar.",
+          "Aprenda as saídas antes de depositar em uma nova rede."
+        ],
+        "body": "Poucas pessoas vivem na mesma cadeia agora. Tokens de gás, pontes e implantações de aplicativos são diferentes. Os solucionadores de intenção escondem caminhos, mas você ainda precisa saber onde estão os fundos."
+      },
+      {
+        "id": "costs",
+        "title": "Por que as taxas L2 podem custar centavos",
+        "summary": "Dados em lote e mais baratos amortizam os custos L1 para muitos usuários",
+        "intro": "Em L1 congestionado você faz lances por espaço de bloco escasso. Os L2s reúnem muitos txs para que cada usuário pague uma fatia do custo compartilhado de dados/provas – geralmente até centavos.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Taxas altas bloqueiam micropagamentos e loops de jogos. Taxas mais baixas permitem que pessoas normais usem aplicativos, não apenas observem gráficos."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "A execução acontece em L2; resumos atingiram L1. DA da era Blob reduz custos unitários. L2s ainda podem congestionar, geralmente muito abaixo dos picos L1. Taxas de ponte e slippage são itens de linha separados."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Barato ≠ igualmente descentralizado. A política de taxas do sequenciador molda a UX. Aprovações em várias etapas ainda somam."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Arriscar um golpe de ponte para economizar dois dólares é irracional. Eventos de estresse pioram as taxas e os prazos de saída."
+          }
+        ],
+        "keyPoints": [
+          "Amortização + compressão de taxa de unidade DA mais barata.",
+          "O congestionamento L2 existe em uma escala diferente.",
+          "O custo total inclui ponte, deslizamento e tempo.",
+          "A segurança supera a economia de centavos."
+        ],
+        "tips": [
+          "Inclua taxas de ponte ao comparar rotas.",
+          "Aguarde picos para ações não urgentes.",
+          "Mantenha um pouco de L1 ETH como combustível de fuga."
+        ],
+        "body": "Em L1 congestionado você faz lances por espaço de bloco escasso. Os L2s reúnem muitos txs para que cada usuário pague uma fatia do custo compartilhado de dados/provas – geralmente até centavos."
+      }
+    ]
+  },
+  {
+    "id": "infra",
+    "name": "Infraestrutura",
+    "summary": "Oráculos, armazenamento, indexação e ferramentas de desenvolvedor",
+    "blurb": "Os tubos invisíveis que alimentam carteiras, DeFi e UX mais segura.",
+    "items": [
+      {
+        "id": "oracles",
+        "title": "Oráculos",
+        "summary": "Pontes que trazem fatos fora da cadeia para contratos inteligentes",
+        "intro": "Os contratos não podem ver apenas os preços de câmbio ou as pontuações do mundo real. Os oráculos agregam dados externos para liquidações, crimes e seguros. Quando eles falham, surgem cascatas.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "As blockchains isolam o determinismo, mas as finanças precisam de insumos. Os oráculos equilibram o frescor com a integridade – sem eles, a maioria das DeFi para."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "As fontes são agregadas, os valores discrepantes diminuem, as atualizações são impulsionadas por um batimento cardíaco ou por demanda. Alguns projetos apostam e cortam maus repórteres. Os disjuntores são importantes no caos."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Os mercados limitados são mais fáceis de manipular para empréstimos inadimplentes. Mensagens entre cadeias também são problemas de confiança semelhantes aos de um oráculo."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Ter “um oráculo” ≠ invulnerabilidade. Preços obsoletos, decimais errados e feeds pausados, tudo isso afeta."
+          }
+        ],
+        "keyPoints": [
+          "Oráculos são a tábua de salvação do DeFi.",
+          "Julgue fontes, agregação e regras de atualização.",
+          "Ativos ilíquidos são mais fáceis de falsificar.",
+          "Os disjuntores de protocolo reduzem o raio de explosão."
+        ],
+        "tips": [
+          "Saiba qual feed e pulsação um protocolo usa.",
+          "Reduza ações sensíveis à precisão em situações de extrema volatilidade.",
+          "Evite designs de fonte única para tamanho."
+        ],
+        "body": "Os contratos não podem ver apenas os preços de câmbio ou as pontuações do mundo real. Os oráculos agregam dados externos para liquidações, crimes e seguros. Quando eles falham, surgem cascatas."
+      },
+      {
+        "id": "rpc",
+        "title": "RPC e nós",
+        "summary": "Como as carteiras leem o estado da cadeia e transmitem transações",
+        "intro": "As carteiras se comunicam com blockchains por meio de endpoints RPC. RPCs públicos são fáceis, mas podem limitar a taxa, registrar ou ser trocados por phishing. Compreender o RPC ajuda a depurar “equilíbrio errado” e transações travadas.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Nem todo mundo executa um nó completo. Os RPCs expõem os recursos do nó como APIs, preservando a opção de auto-hospedagem."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Os aplicativos enviam chamadas JSON-RPC para consultar o estado ou enviar txs brutos. Os provedores diferem quanto à profundidade, privacidade e confiabilidade dos arquivos."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "RPCs maliciosos podem mostrar saldos falsos ou censurar transferências. A assinatura permanece local, mas dados incorretos ainda podem enganar você. Verifique os IDs da cadeia ao adicionar redes."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "“Adicionar rede” com um clique em sites obscuros é arriscado. As interrupções públicas nem sempre são bugs de carteira. Nunca comprometa segredos RPC em interfaces públicas."
+          }
+        ],
+        "keyPoints": [
+          "RPC é a porta de leitura/gravação.",
+          "Assinatura local ≠ estado exibido confiável.",
+          "Verifique ações críticas em exploradores.",
+          "Nós privados/auto-hospedados melhoram a privacidade/confiabilidade."
+        ],
+        "tips": [
+          "Mantenha dois backups RPC confiáveis.",
+          "Em saldos estranhos, troque de nó ou use um explorador.",
+          "Digite os parâmetros de rede oficiais manualmente."
+        ],
+        "body": "As carteiras se comunicam com blockchains por meio de endpoints RPC. RPCs públicos são fáceis, mas podem limitar a taxa, registrar ou ser trocados por phishing. Compreender o RPC ajuda a depurar “equilíbrio errado” e transações travadas."
+      },
+      {
+        "id": "indexers",
+        "title": "Indexadores",
+        "summary": "Transformando logs brutos em APIs de produtos consultáveis",
+        "intro": "A varredura de toda a cadeia em busca de cada IU é lenta. Os indexadores ingerem eventos em bancos de dados para que os portfólios e as tabelas de classificação pareçam instantâneos – a maioria das visualizações do “histórico” vem de índices, e não de varreduras completas ao vivo.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Os produtos precisam de consultas filtradas na velocidade da Internet. Analistas e bots contam com a mesma camada."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Defina um esquema, processe logs, armazene e sirva GraphQL/REST. As interrupções mostram uma interface de usuário obsoleta. Redes indexadoras descentralizadas incentivam múltiplas operadoras."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "A UI pode atrasar o verdadeiro estado da cadeia. As atualizações exigem atualizações do indexador. Não liquide com base apenas em um painel – verifique na cadeia."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Índices corrompidos enganam os comerciantes. Sites de “portfólio” de phishing imitam painéis reais."
+          }
+        ],
+        "keyPoints": [
+          "Os índices aceleram as consultas; eles não são consenso.",
+          "Os dados da IU podem estar desatualizados.",
+          "Exploradores/contratos são fontes de verdade para movimentos críticos.",
+          "As falhas do indexador parecem bugs de protocolo."
+        ],
+        "tips": [
+          "Verifique novamente as anomalias em um explorador.",
+          "Espere um atraso após grandes atualizações.",
+          "O monitoramento sério pode ler os nós diretamente."
+        ],
+        "body": "A varredura de toda a cadeia em busca de cada IU é lenta. Os indexadores ingerem eventos em bancos de dados para que os portfólios e as tabelas de classificação pareçam instantâneos – a maioria das visualizações do “histórico” vem de índices, e não de varreduras completas ao vivo."
+      },
+      {
+        "id": "storage",
+        "title": "Armazenamento Descentralizado",
+        "summary": "Redes endereçadas a conteúdo para arquivos e metadados NFT",
+        "intro": "Armazenar arquivos grandes em L1 é caro, então a mídia geralmente fica em sistemas do tipo IPFS/Arweave. Hashes garantem integridade, mas a disponibilidade online ainda precisa de fixação ou permanência paga.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Os servidores centrais podem excluir mídia NFT. O armazenamento descentralizado melhora a durabilidade e a resistência à censura para aplicativos e conjuntos de dados."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Os arquivos obtêm IDs de conteúdo; nós recuperados por hash. O IPFS precisa de fixação; algumas redes enfatizam a permanência do pagamento único. Os gateways HTTP ajudam os navegadores, mas adicionam confiança ao gateway."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "TokenURIs centralizados mutáveis ​​prejudicam a história. Faça backup de hashes de metadados importantes."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "“On IPFS” ≠ imortal se nada o fixar. Gateways maliciosos podem injetar scripts. Verifique os hashes antes de executar os binários."
+          }
+        ],
+        "keyPoints": [
+          "O endereçamento de conteúdo evita edições silenciosas e não negligências.",
+          "A durabilidade do NFT depende da fixação/pagamento.",
+          "URIs de administração mutáveis ​​são um sinal de alerta.",
+          "Os gateways são uma confiança extra conveniente."
+        ],
+        "tips": [
+          "Fixe você mesmo metadados para NFTs de alto valor.",
+          "Verifique os CIDs oficiais.",
+          "Os desenvolvedores devem preferir metadados imutáveis."
+        ],
+        "body": "Armazenar arquivos grandes em L1 é caro, então a mídia geralmente fica em sistemas do tipo IPFS/Arweave. Hashes garantem integridade, mas a disponibilidade online ainda precisa de fixação ou permanência paga."
+      },
+      {
+        "id": "mev",
+        "title": "MEV",
+        "summary": "Valor extraível da ordem e inclusão da transação",
+        "intro": "Construtores e pesquisadores podem reordenar ou inserir txs – sanduíches, corridas de liquidação e muito mais. Os usuários sentem isso como um deslize tóxico; protocolos respondem com leilões e fluxo privado.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Os mempools públicos expõem grandes trocas aos predadores. Noções básicas sobre MEV explica as configurações de deslizamento e opções de envio privado."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Os pesquisadores encontram oportunidades; construtores embalam blocos; os proponentes publicam. Algumas redes redistribuem MEV aos stakers. Sanduíches embrulham seu comércio para piorar o preço."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Limites de derrapagem, retransmissões privadas, leilões em lote e intenções atenuam os danos. Os sequenciadores L2 também podem extrair MEV."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Nem todo preenchimento incorreto é MEV – o deslizamento amplo é autoinfligido. Evite extensões “anti-MEV” incompletas."
+          }
+        ],
+        "keyPoints": [
+          "MEV vem de fluxo público ordenável.",
+          "Os usuários mitigam por meio de derrapagens e caminhos privados.",
+          "O design do protocolo realoca o MEV.",
+          "Trate isso como uma realidade da engenharia."
+        ],
+        "tips": [
+          "Divida grandes swaps e reduza a derrapagem.",
+          "Use carteiras/roteadores com opções privadas.",
+          "Evite enormes ordens de mercado no pico do caos."
+        ],
+        "body": "Construtores e pesquisadores podem reordenar ou inserir txs – sanduíches, corridas de liquidação e muito mais. Os usuários sentem isso como um deslize tóxico; protocolos respondem com leilões e fluxo privado."
+      },
+      {
+        "id": "sdks",
+        "title": "Ferramentas para desenvolvedores",
+        "summary": "Estruturas de teste, bibliotecas e kits de contas que aumentam o nível de segurança",
+        "intro": "A segurança do ecossistema depende de testes do tipo Foundry/Hardhat, bibliotecas digitadas, simulação e kits de contas – e não apenas de auditores. Ferramentas melhores detectam bugs mais cedo e ajudam as carteiras a explicar as assinaturas.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "As implantações manuais falham. Contratos não testados são bombas-relógio. Os SDKs front-end unificam a conexão multicadeia e o tratamento de erros."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Testes bifurcados, difusão, scripts de implantação, monitoramento e SDKs AA formam o loop. A simulação pré-sinal mostra diferenças de ativos."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Dependências obsoletas carregam CVEs conhecidos. Os ataques à cadeia de abastecimento atingiram pacotes “seguros”. Os usuários devem preferir carteiras com assinatura clara."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Copiar e colar amostras não auditadas na rede principal é imprudente. Extensões falsas de “ferramentas de desenvolvimento” roubam chaves."
+          }
+        ],
+        "keyPoints": [
+          "As ferramentas são uma infraestrutura de segurança invisível.",
+          "Simule antes do dinheiro da mainnet.",
+          "A higiene da dependência é um trabalho de segurança.",
+          "A assinatura clara reduz o sucesso do phishing do usuário."
+        ],
+        "tips": [
+          "Desenvolvedores: caminhos críticos de teste bifurcado.",
+          "Usuários: ative a simulação.",
+          "Instale extensões apenas de fontes oficiais."
+        ],
+        "body": "A segurança do ecossistema depende de testes do tipo Foundry/Hardhat, bibliotecas digitadas, simulação e kits de contas – e não apenas de auditores. Ferramentas melhores detectam bugs mais cedo e ajudam as carteiras a explicar as assinaturas."
+      },
+      {
+        "id": "identity",
+        "title": "Identidade na rede",
+        "summary": "Nomes legíveis, atestados e reputação para coordenação humana",
+        "intro": "Endereços longos são fáceis de digitar incorretamente. Os sistemas de nomes mapeiam rótulos humanos para registros; protocolos de atestado emitem declarações como associação. A usabilidade aumenta – e também os problemas de privacidade e representação.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Pagamentos e redes sociais precisam de identificadores memoráveis. Os nomes reduzem erros de transferência e funcionam como cartões de visita Web3. A reputação ajuda os anti-Sybil nas compensações de privacidade."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Registre um nome, estabeleça registros e, opcionalmente, reúna atestados assinados. Algumas credenciais são vinculadas à alma."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Os nomes expiram; os registros mudam. A mesma string pode ser resolvida de maneira diferente entre cadeias. Endereços de identidade separados dos cofres."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Domínios de representação roubam fundos. Vincular todas as credenciais a um endereço doxxável expõe você demais."
+          }
+        ],
+        "keyPoints": [
+          "Os nomes são uma camada de resolução, não uma garantia bancária.",
+          "Verifique sempre os endereços resolvidos antes de enviar.",
+          "Os atestados ajudam na coordenação com os custos de privacidade.",
+          "Divida a identidade pública dos endereços do cofre."
+        ],
+        "tips": [
+          "Confirme a resolução no envio.",
+          "Defina lembretes de expiração.",
+          "Use um endereço de baixo valor para redes sociais públicas."
+        ],
+        "body": "Endereços longos são fáceis de digitar incorretamente. Os sistemas de nomes mapeiam rótulos humanos para registros; protocolos de atestado emitem declarações como associação. A usabilidade aumenta – e também os problemas de privacidade e representação."
+      },
+      {
+        "id": "aa-infra",
+        "title": "Empacotadores e tesoureiros",
+        "summary": "Trilhos de back-end que empacotam UserOperations e patrocinam gás",
+        "intro": "Sem bundlers, UserOperations luta para pousar; sem pagadores, o patrocínio do gás e o “pagamento com qualquer token” são difíceis. A infra AA mal configurada torna-se uma interrupção ou uma superfície de abuso.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Os usuários não gostam de manter os tokens de gás de todas as redes. Os aplicativos querem patrocinar as primeiras ações. A infraestrutura permite essas políticas de produtos com orçamentos e listas de permissões."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Carteiras constroem UserOperations; bundlers simulam e enviam; EntryPoint é executado; fundo de pagadores por apólice com limites de taxa."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "O patrocínio está vinculado a determinados contratos? Pode ser cultivado? Os empacotadores irão censurar? A descentralização afeta a resiliência."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Endpoints maliciosos e sessões amplas restantes após as campanhas são riscos. Sem gás ≠ sem aprovação."
+          }
+        ],
+        "keyPoints": [
+          "AA UX depende de empacotadores/pagadores confiáveis.",
+          "O patrocínio precisa de regras antiabuso.",
+          "A escolha do endpoint afeta a privacidade e a censura.",
+          "Os usuários ainda devem ler as assinaturas."
+        ],
+        "tips": [
+          "Atenha-se aos endpoints confiáveis ​​padrão da carteira.",
+          "Revogar sessões após campanhas.",
+          "Trate a falta de gás surpresa como algo suspeito."
+        ],
+        "body": "Sem bundlers, UserOperations luta para pousar; sem pagadores, o patrocínio do gás e o “pagamento com qualquer token” são difíceis. A infra AA mal configurada torna-se uma interrupção ou uma superfície de abuso."
+      }
+    ]
+  },
+  {
+    "id": "wallets",
+    "name": "Carteiras",
+    "summary": "Aplicativos e dispositivos que guardam suas chaves",
+    "blurb": "Carteiras quentes/frias, sementes, multisig e modelos de custódia explicados.",
+    "items": [
+      {
+        "id": "hot",
+        "title": "Carteiras quentes",
+        "summary": "Carteiras de software conectadas para pequenos saldos diários",
+        "intro": "As carteiras móveis e de navegador tornam os dApps instantâneos. A conveniência expande a superfície de ataque: sites maliciosos, extensões falsas, malware de área de transferência, telefones perdidos. Trate-os como contas correntes, não como poupanças de uma vida.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Carteiras frias são desajeitadas para DeFi de alta frequência. As carteiras quentes ensinam assinatura e troca de rede rapidamente."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "As chaves ficam criptografadas no dispositivo; desbloquear localmente; transmitido via RPC. Conectar um dApp compartilha um endereço, não a chave – mas assinaturas perigosas ainda são drenadas."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Divida gastos versus contas poupança. Revise os subsídios. A biometria protege o desbloqueio do aplicativo, não a recuperação em cadeia."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "APKs carregados lateralmente, páginas de “sincronização” de sementes e computadores públicos são falhas clássicas."
+          }
+        ],
+        "keyPoints": [
+          "As carteiras quentes otimizam a conveniência.",
+          "Armazene lá apenas fundos tolerantes a perdas.",
+          "Assinaturas/aprovações são o principal perigo.",
+          "Camada com armazenamento refrigerado."
+        ],
+        "tips": [
+          "Baixe apenas de canais oficiais.",
+          "Use um perfil de navegador dedicado para criptografia.",
+          "Audite as aprovações de tokens semanalmente."
+        ],
+        "body": "As carteiras móveis e de navegador tornam os dApps instantâneos. A conveniência expande a superfície de ataque: sites maliciosos, extensões falsas, malware de área de transferência, telefones perdidos. Trate-os como contas correntes, não como poupanças de uma vida."
+      },
+      {
+        "id": "hardware",
+        "title": "Carteiras de hardware",
+        "summary": "Chaves em um chip seguro com confirmação no dispositivo",
+        "intro": "As carteiras de hardware mantêm as chaves privadas fora do PC infectado. Você ainda deve ler a tela do dispositivo – assinatura cega ou firmware obscuro podem superar o melhor chip.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "As grandes explorações e de longo prazo necessitam de um isolamento mais forte. A confirmação física eleva o padrão para roubo remoto. As equipes os usam como controles básicos do vault."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "O host cria um tx; o dispositivo mostra um resumo; você aprova; a assinatura retorna para transmissão. As sementes geradas no init são o backup. As atualizações de firmware devem ser oficiais."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Compre dispositivos autênticos; conheça políticas de assinatura cega por cadeia. Não há problema em perder o dispositivo se a semente estiver segura; perder a semente não é."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Dispositivos de segunda mão adulterados, sites “verificadores” que pedem sementes e OK sem leitura são modos de falha."
+          }
+        ],
+        "keyPoints": [
+          "O isolamento de hardware bloqueia muitos roubos remotos de chaves.",
+          "A verificação da tela ainda depende de você.",
+          "O backup inicial é igual ao dispositivo em importância.",
+          "A higiene da cadeia de suprimentos e do firmware é importante."
+        ],
+        "tips": [
+          "Compre em varejo oficial/respeitável.",
+          "Teste com pequenas transferências após a configuração.",
+          "Combine os endereços completos no dispositivo por tamanho."
+        ],
+        "body": "As carteiras de hardware mantêm as chaves privadas fora do PC infectado. Você ainda deve ler a tela do dispositivo – assinatura cega ou firmware obscuro podem superar o melhor chip."
+      },
+      {
+        "id": "seed",
+        "title": "Frases-semente",
+        "summary": "Backups legíveis por humanos que regeneram chaves de carteira",
+        "intro": "12/24 palavras não são uma senha de login – elas são o segredo mestre que recria as chaves. Qualquer pessoa com palavras pode esvaziar carteiras em outro lugar. Nenhum agente de suporte real precisa da sua semente para “verificar” você.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Dispositivos morrem. As sementes permitem restaurar as mesmas contas em outro lugar em um formato gravável offline."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "O BIP-39 transforma a entropia em palavras ordenadas que derivam contas. A ordem errada falha na restauração. As senhas opcionais aumentam o risco de segurança e esquecimento."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Fotos, sincronização na nuvem e bate-papo não são seguros. Os backups de metal vencem o papel contra o fogo/água. Os backups em vários locais devem equilibrar roubo e perda total."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Páginas de “sincronização de carteira” de phishing e suporte falso são os principais assassinos. Digitar uma semente em qualquer site é uma emergência."
+          }
+        ],
+        "keyPoints": [
+          "A semente é o ativo.",
+          "Mantenha-o offline para sempre.",
+          "Os fluxos legítimos nunca exigem isso.",
+          "Redundância de projeto contra incêndio e roubo."
+        ],
+        "tips": [
+          "Escreva à mão e verifique novamente a ordem das palavras.",
+          "Nunca armazene em fotos ou e-mail.",
+          "Planeje a herança deliberadamente."
+        ],
+        "body": "12/24 palavras não são uma senha de login – elas são o segredo mestre que recria as chaves. Qualquer pessoa com palavras pode esvaziar carteiras em outro lugar. Nenhum agente de suporte real precisa da sua semente para “verificar” você."
+      },
+      {
+        "id": "multisig",
+        "title": "Multisig",
+        "summary": "Contas compartilhadas que exigem aprovações M-de-N",
+        "intro": "A Multisig transforma “um phishing perde tudo” em “várias pessoas devem concordar”. Ideal para tesouros e famílias. Ele elimina pontos únicos de falha e adiciona sobrecarga de coordenação.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Os cofres de chave única morrem com um erro. O Multisig força os invasores a comprometer vários signatários e codifica a separação de poderes."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Um contrato ou esquema nativo define limites e proprietários. Propor → coletar assinaturas → executar. A rotação e os módulos do signatário precisam de cuidados iguais."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Diversos dispositivos venceram malwares correlacionados. Limites demasiado elevados para fundos de investimento; limiares demasiado baixos enfraquecem a segurança. Módulos de emergência podem ser backdoors."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Todos os assinantes em um navegador ativo, nunca ensaiando a recuperação e phishing na UI segura são falhas comuns."
+          }
+        ],
+        "keyPoints": [
+          "Multisig distribui riscos de chave e de decisão.",
+          "O design de limite define disponibilidade versus segurança.",
+          "Ensaie a assinatura e a substituição.",
+          "Marque interfaces oficiais."
+        ],
+        "tips": [
+          "Use diversos dispositivos/SO de signatário.",
+          "Faça um pequeno exercício trimestral.",
+          "Documente as etapas de substituição do assinante perdido."
+        ],
+        "body": "A Multisig transforma “um phishing perde tudo” em “várias pessoas devem concordar”. Ideal para tesouros e famílias. Ele elimina pontos únicos de falha e adiciona sobrecarga de coordenação."
+      },
+      {
+        "id": "smart-accounts",
+        "title": "Contas inteligentes",
+        "summary": "Carteiras programáveis ​​com limites, guardiões, lotes e sessões",
+        "intro": "Política de codificação de contas inteligentes: limites diários, listas de permissões, recuperação e chamadas em lote. Mais flexibilidade do que EOAs — e mais maneiras de configurar módulos incorretamente.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "As EOAs são tudo ou nada. Contas inteligentes permitem baixos privilégios diários com escrutínio extra de alto valor, conectando-se a uma experiência de usuário sem sementes."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "A lógica vive em um contrato com validadores conectáveis, muitas vezes emparelhados com empacotadores/pagadores AA. As atualizações de módulo devem ser protegidas."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Privilégios mínimos, auditorias e caminhos de recuperação testados são importantes. Saiba quem pode atualizar antes de chamá-lo de cofre."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Plug-ins aleatórios não auditados, guardiões ingênuos e acreditar que contas inteligentes impedem todo o phishing são erros."
+          }
+        ],
+        "keyPoints": [
+          "As contas inteligentes são autocustódia baseada em políticas.",
+          "A flexibilidade expande a superfície de ataque.",
+          "Os direitos de módulo/atualização são segurança essencial.",
+          "Os hábitos ainda importam."
+        ],
+        "tips": [
+          "Desative plug-ins não utilizados.",
+          "Bloqueie grandes mudanças de política no tempo.",
+          "Escreva e ensaie runbooks de recuperação."
+        ],
+        "body": "Política de codificação de contas inteligentes: limites diários, listas de permissões, recuperação e chamadas em lote. Mais flexibilidade do que EOAs — e mais maneiras de configurar módulos incorretamente."
+      },
+      {
+        "id": "custody",
+        "title": "Modelos de Custódia",
+        "summary": "Quem detém as chaves controla efetivamente os ativos",
+        "intro": "Os custodiantes negociam redefinição de senha e suporte para risco de contraparte. A autocustódia troca soberania por risco operacional pessoal. A maioria das pessoas mistura as duas coisas: negociar em plataformas e economizar em carteiras.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Objetivos diferentes necessitam de modelos de risco diferentes. A autocustódia pura assusta os iniciantes; a custódia pura prejudica em falhas de plataforma."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Os saldos de custódia são frequentemente livros-razão internos até a retirada. A autocustódia transmite cada movimento. Os custodiantes regulamentados podem atestar reservas – ainda que não seja risco zero."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Congelamentos, filas, jurisdição e qualidade da prova de reservas são importantes. As falhas de autocustódia parecem sementes perdidas e assinaturas ruins."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "“Grande demais para falir” falhou repetidamente. Armazenar uma semente em um caderno de troca não é autocustódia."
+          }
+        ],
+        "keyPoints": [
+          "A localização da chave define o controle.",
+          "Conveniência versus soberania é o comércio.",
+          "As alocações híbridas são pragmáticas.",
+          "Cada modelo falha de maneira diferente."
+        ],
+        "tips": [
+          "Retirar as malas de longo prazo para autocustódia.",
+          "Prefira locais transparentes.",
+          "Pratique primeiro a autocustódia com tamanho pequeno."
+        ],
+        "body": "Os custodiantes negociam redefinição de senha e suporte para risco de contraparte. A autocustódia troca soberania por risco operacional pessoal. A maioria das pessoas mistura as duas coisas: negociar em plataformas e economizar em carteiras."
+      }
+    ]
+  },
+  {
+    "id": "gaming",
+    "name": "Jogos",
+    "summary": "Jogos e mundos virtuais com ativos próprios",
+    "blurb": "Jogabilidade, economias, infraestrutura e modos de falha especulativos.",
+    "items": [
+      {
+        "id": "play",
+        "title": "Jogue e possua",
+        "summary": "Diversão em primeiro lugar, propriedade verificável como um bônus – não uma ilusão salarial",
+        "intro": "Jogos criptográficos saudáveis ​​priorizam o entretenimento; a propriedade amplifica, não substitui o design. Os mercados secundários devem ser resultados e não o único conteúdo.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "A pura especulação entra em colapso nos ursos. Incorporar a propriedade em ciclos genuinamente divertidos melhora a retenção e permite economias para criadores."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "A jogabilidade principal é executada rapidamente fora da cadeia ou em trilhos especializados; assentamentos escassos atingiram uma cadeia. Os estúdios ganham com UX, taxas e serviços enquanto ajustam as economias."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "As métricas de retenção e gastos superam os gráficos de tokens como sinais de saúde. A regulamentação ainda pode restringir os tokens de itens."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Tratar a rotina como um trabalho e ignorar a segurança da conta são armadilhas clássicas."
+          }
+        ],
+        "keyPoints": [
+          "Diversão primeiro, finanças depois.",
+          "A propriedade não pode resgatar o tédio.",
+          "Economias saudáveis ​​equilibram sumidouros e fontes.",
+          "Isole as chaves do jogo dos cofres."
+        ],
+        "tips": [
+          "Jogue antes de comprar itens caros.",
+          "Leia notas econômicas e histórico de patches.",
+          "Considere quaisquer “ganhos” como especulação de alto risco."
+        ],
+        "body": "Jogos criptográficos saudáveis ​​priorizam o entretenimento; a propriedade amplifica, não substitui o design. Os mercados secundários devem ser resultados e não o único conteúdo."
+      },
+      {
+        "id": "economies",
+        "title": "Economias no jogo",
+        "summary": "A emissão e os sumidouros decidem se os preços dos itens podem permanecer",
+        "intro": "As economias abertas comportam-se como pequenos sistemas fiscais: emissões intermináveis ​​sem sumidouros fazem cair os preços. Ler produção versus destruição é melhor do que ouvir slogans da GameFi.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "A negociação aberta remove parte do controle do estúdio, forçando um design mais sério para que jogadores e traders de longo prazo possam coexistir."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "As missões são emitidas; pia de artesanato/reparos/estações; painéis revelam inflação. Os preços dos tokens externos chocam os circuitos internos."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Tokens duplos, energia e aluguéis de terrenos podem ajudar ou confundir. Observe os desbloqueios da equipe e as carteiras dos formadores de mercado."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Os primeiros rendimentos elevados atraem mercenários, não jogadores. Copiar a economia sem público falha."
+          }
+        ],
+        "keyPoints": [
+          "Torne a inflação/deflação observável.",
+          "A alta participação mercenária é frágil.",
+          "Amortece choques de tokens externos.",
+          "O ajuste transparente gera confiança."
+        ],
+        "tips": [
+          "Acompanhe os relatórios oficiais da economia.",
+          "Diminua o tamanho durante as fases de hiper-APY.",
+          "Prefira ativos com sumidouros reais."
+        ],
+        "body": "As economias abertas comportam-se como pequenos sistemas fiscais: emissões intermináveis ​​sem sumidouros fazem cair os preços. Ler produção versus destruição é melhor do que ouvir slogans da GameFi."
+      },
+      {
+        "id": "worlds",
+        "title": "Mundos Virtuais",
+        "summary": "Narrativas de terras possuídas e espaço social",
+        "intro": "Terrenos virtuais vendem localização, tráfego e presença. Alguns mundos hospedam atividades contínuas; outros param após as vendas. Julgue pelos construtores e DAUs, não pelos trailers cinematográficos.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "As pessoas querem bens comuns e vitrines digitais duráveis. A propriedade na rede permite mercados secundários e experiências por marcas."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Land NFTs mais clientes mais aluguéis opcionais. O conteúdo vem de usuários ou funcionários; o desempenho geralmente depende de servidores tradicionais."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "O tráfego de pedestres define o valor da terra. Mundos vazios são arte especulativa. Os direitos de construção e os royalties moldam a disposição do criador."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "O FOMO de venda primária e o tratamento dos slides do metaverso como rendimento de curto prazo são armadilhas."
+          }
+        ],
+        "keyPoints": [
+          "Os preços do tráfego caem.",
+          "A experiência do cliente supera os slogans.",
+          "A Interop geralmente fica atrás das vendas.",
+          "Avalie ecossistemas construtores."
+        ],
+        "tips": [
+          "Visite primeiro como turista.",
+          "Verifique os dados do aluguel/evento antes de comprar.",
+          "Evite equipes que só vendem e nunca criam."
+        ],
+        "body": "Terrenos virtuais vendem localização, tráfego e presença. Alguns mundos hospedam atividades contínuas; outros param após as vendas. Julgue pelos construtores e DAUs, não pelos trailers cinematográficos."
+      },
+      {
+        "id": "infra-game",
+        "title": "Infraestrutura de jogos",
+        "summary": "Compensações de engenharia entre baixa latência e liquidação na cadeia",
+        "intro": "Jogos de ação precisam de feedback em milissegundos. Os estúdios usam servidores autorizados, além de ativos escassos na cadeia ou cadeias especializadas de alto rendimento. Conhecer o limite de confiança evita confusão de marketing “totalmente descentralizada”.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Loops L1 puros são muito lentos/caros para muitos gêneros. A estratificação mantém a experiência do usuário jogável com escassez verificável."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Matchmaking/combate fora da cadeia; balas/negociações/jackpots na rede. O anti-cheat permanece em grande parte fora da cadeia. Appchains aumentam o rendimento, mas adicionam custos de ponte/liquidez."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Quais partes confiam em um servidor? Os ativos sobrevivem ao desligamento do estúdio? Isso define o quão real é a “propriedade”."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Afirmações “totalmente on-chain” com verdade mutável do servidor. Conectando ativos de jogos por meio de sites falsos."
+          }
+        ],
+        "keyPoints": [
+          "Os híbridos são a norma da engenharia.",
+          "A latência e a descentralização seguem caminhos opostos.",
+          "A política de desligamento afeta o significado dos ativos.",
+          "Appchains adicionam complexidade à ponte."
+        ],
+        "tips": [
+          "Leia documentos sobre limites de confiança.",
+          "Mova ativos significativos para carteiras de autocustódia.",
+          "Experimente testnets antes dos depósitos na mainnet."
+        ],
+        "body": "Jogos de ação precisam de feedback em milissegundos. Os estúdios usam servidores autorizados, além de ativos escassos na cadeia ou cadeias especializadas de alto rendimento. Conhecer o limite de confiança evita confusão de marketing “totalmente descentralizada”."
+      },
+      {
+        "id": "modding",
+        "title": "Modificação e UGC",
+        "summary": "Os criadores ganham quando mapas, skins e mods podem ser resolvidos de forma transparente",
+        "intro": "UGC prolonga a vida do jogo. Se os mods puderem ser negociados com divisões claras, os criadores aparecerão. As divisões na cadeia ajudam na auditabilidade; O licenciamento IP ainda decide se será escalonável.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "O UGC tradicional enfrenta mudanças repentinas nas políticas de plataforma. Mercados abertos e royalties programáveis ​​oferecem outro caminho de incentivo e conteúdo mais rico para os jogadores."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Os criadores publicam ativos → mercados comerciais → contratos dividem receitas. Moderação e descoberta decidem se a qualidade se concentra."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "O escopo da licença, a política de conteúdo e os estornos permanecem. A matemática on-chain não resolve automaticamente os processos judiciais."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Comprar mods de marca não autorizados e tokens de criadores voláteis é um risco."
+          }
+        ],
+        "keyPoints": [
+          "UGC precisa de regras claras de IP e receita.",
+          "Qualidade do conjunto de descoberta/moderação.",
+          "As divisões programáveis ​​aumentam a transparência.",
+          "As camadas legais ainda se aplicam."
+        ],
+        "tips": [
+          "Criadores: leia as licenças da plataforma.",
+          "Jogadores: verifiquem as marcas de autorização.",
+          "Sacar com limites de risco pessoal."
+        ],
+        "body": "UGC prolonga a vida do jogo. Se os mods puderem ser negociados com divisões claras, os criadores aparecerão. As divisões na cadeia ajudam na auditabilidade; O licenciamento IP ainda decide se será escalonável."
+      },
+      {
+        "id": "risks",
+        "title": "Risco de jogo especulativo",
+        "summary": "Quando a diversão depende do aumento dos preços, os mercados em baixa quebram o ciclo",
+        "intro": "Projetos fracassados ​​tratam as bombas de tokens como conteúdo. Os jogadores tornam-se mercenários, as economias tornam-se reflexivas e a manutenção é interrompida quando os preços caem. Identificar o padrão economiza mensalidades.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "A educação sobre riscos faz parte de um produto saudável: comunidades que discutem honestamente a inflação sobrevivem às discórdias exageradas."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "As altas emissões atraem a entrada → a pressão de venda aumenta → os preços caem → os jogadores saem. A ruptura aparece frequentemente quando os incentivos são cortados. Poucos títulos se transformam com sucesso em jogos reais."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "A receita é composta principalmente por novos participantes? A equipe está enviando atualizações jogáveis? O preço secundário não é uma métrica divertida."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Frases de reféns FOMO e moagem alavancada são sinais de perigo."
+          }
+        ],
+        "keyPoints": [
+          "O preço não pode substituir a jogabilidade.",
+          "Os cortes de incentivos são testes de estresse.",
+          "A participação mercenária prevê fragilidade.",
+          "Arrisque apenas fundos discricionários."
+        ],
+        "tips": [
+          "Pergunte: eu jogaria com preço zero de token?",
+          "Assista a atualizações de conteúdo reais.",
+          "Recuse a moagem alavancada."
+        ],
+        "body": "Projetos fracassados ​​tratam as bombas de tokens como conteúdo. Os jogadores tornam-se mercenários, as economias tornam-se reflexivas e a manutenção é interrompida quando os preços caem. Identificar o padrão economiza mensalidades."
+      }
+    ]
+  },
+  {
+    "id": "daos",
+    "name": "DAOs",
+    "summary": "Comunidades que governam com votos em cadeia",
+    "blurb": "Governança, tesouraria, propostas, invólucros legais e superfícies de ataque.",
+    "items": [
+      {
+        "id": "governance",
+        "title": "Governança de tokens",
+        "summary": "Votos que definem parâmetros, atualizações e gastos",
+        "intro": "Os DAOs enviam atualizações e decisões de tesouraria para detentores de tokens ou sistemas de reputação. One-token-one-vote é simples e propenso a baleias; delegação e outros projetos tentam melhorar a representação. O poder de voto é influência – e uma superfície de ataque.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Os protocolos devem mudar sem se tornarem uma ditadura de empresa única. Os votos na cadeia deixam rastros auditáveis ​​e podem restringir as equipes."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Proposta → discussão → votação → timelock → execução. A delegação permite que pequenos proprietários confiem em especialistas. Quóruns e vetos enfraquecem as capturas de baixa participação."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Distribuição, tamanho da tesouraria e duração do timelock são importantes. Eleitores aéreos podem ficar apáticos. O clima do fórum pode divergir dos resultados da rede."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Votos de empréstimos instantâneos (se permitidos), subornos e votos não lidos são riscos."
+          }
+        ],
+        "keyPoints": [
+          "A governança aloca poder.",
+          "O design do mecanismo combate as baleias e a apatia.",
+          "Timelocks são freios críticos.",
+          "Leia os impactos e conflitos antes de votar."
+        ],
+        "tips": [
+          "Delegar a representantes responsáveis.",
+          "Assista aos canais de protesto durante os timelocks.",
+          "Examinar grandes propostas de tesouraria."
+        ],
+        "body": "Os DAOs enviam atualizações e decisões de tesouraria para detentores de tokens ou sistemas de reputação. One-token-one-vote é simples e propenso a baleias; delegação e outros projetos tentam melhorar a representação. O poder de voto é influência – e uma superfície de ataque."
+      },
+      {
+        "id": "treasury",
+        "title": "Tesouros DAO",
+        "summary": "Capital compartilhado na rede para construção, liquidez e buffers",
+        "intro": "Os títulos do Tesouro são munições DAO. A diversificação, a transparência e o processo de gastos decidem se são de pista ou de honeypots. Multisigs ou governadores controlam os pagamentos que a comunidade deve auditar.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Os bens públicos precisam de financiamento para auditorias, construtores e incentivos. Os títulos do Tesouro mantêm o valor sob controlo visível para a comunidade e podem estabilizar crises."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Entradas provenientes de taxas/emissão/financiamento; saídas através de propostas. As participações podem combinar stables, majors e tokens nativos – a concentração nativa é um risco reflexivo."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Os meses de pista, o risco cambial e os inventários de endereços são importantes. Compromissos leves também contam."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Tesouros totalmente voláteis e gastos opacos com partes relacionadas são sinais de alerta."
+          }
+        ],
+        "keyPoints": [
+          "Saúde = transparência + diversificação + processo.",
+          "Bolsas reflexivas amplificam as crises.",
+          "Os gastos devem ser responsáveis.",
+          "A higiene da chave Multisig é a linha de base."
+        ],
+        "tips": [
+          "Leia relatórios financeiros periódicos.",
+          "Assista à participação de reserva da stablecoin.",
+          "Prefira grandes pagamentos transmitidos."
+        ],
+        "body": "Os títulos do Tesouro são munições DAO. A diversificação, a transparência e o processo de gastos decidem se são de pista ou de honeypots. Multisigs ou governadores controlam os pagamentos que a comunidade deve auditar."
+      },
+      {
+        "id": "proposals",
+        "title": "Ciclo de vida da proposta",
+        "summary": "Do rascunho do fórum à execução na rede",
+        "intro": "Boas propostas debatem fora da cadeia, verificam a temperatura, votam na cadeia e depois executam após um bloqueio de tempo. As “propostas relâmpago” surpresa são um cheiro. Saiba em qual estágio você está.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "O processo substitui a ditadura ou o caos, dando aos adversários tempo para se organizarem e inserirem auditoria/revisão jurídica quando necessário."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Rascunho → feedback → texto final → votação → fila. Idéias fracassadas podem ser revisadas. Alguns sistemas usam assinaturas fora da cadeia sem gás para votação."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Quorum, limites e caminhos de emergência são importantes – emergências muito amplas são backdoors. Calldata executável deve corresponder ao texto."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Votar apenas pelo título e ignorar alertas de timelock são falhas."
+          }
+        ],
+        "keyPoints": [
+          "A qualidade da discussão impulsiona a qualidade da governação.",
+          "Os timelocks protegem as minorias e as saídas.",
+          "Os poderes de emergência precisam de limites rígidos.",
+          "Os parâmetros superam os slogans."
+        ],
+        "tips": [
+          "Inscreva-se nos alertas do fórum/votação.",
+          "Reafirme os riscos com suas próprias palavras antes de votar.",
+          "Verifique se a execução corresponde ao texto da proposta."
+        ],
+        "body": "Boas propostas debatem fora da cadeia, verificam a temperatura, votam na cadeia e depois executam após um bloqueio de tempo. As “propostas relâmpago” surpresa são um cheiro. Saiba em qual estágio você está."
+      },
+      {
+        "id": "legal",
+        "title": "Invólucros legais",
+        "summary": "Fundações e empresas que fazem interface entre DAOs e o mundo off-chain",
+        "intro": "O Código não concede automaticamente responsabilidade limitada. Fundações/LLCs assinam contratos, bancos e impostos. Os colaboradores devem saber quem pode ser tratado como responsável se algo quebrar.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Contratação, propriedade intelectual e reguladores precisam de contrapartidas legais. Bons invólucros reduzem a exposição pessoal – eles não são dispositivos de camuflagem."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Jurisdição → estatuto → conselho/multisig → cláusulas vinculadas aos votos do DAO. As regras variam muito de acordo com o país."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Valores mobiliários, sanções e impostos (incluindo lançamentos aéreos) são importantes. Anonimato ≠ risco legal zero."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Presumir que “descentralizado” ignora a lei local, ou assinar acordos desconhecidos, é imprudente."
+          }
+        ],
+        "keyPoints": [
+          "As entidades fornecem recursos fora da cadeia.",
+          "As estruturas são específicas da jurisdição.",
+          "Conheça o seu limite de responsabilidade.",
+          "A conformidade faz parte do risco do produto."
+        ],
+        "tips": [
+          "Procure aconselhamento profissional para contribuições materiais.",
+          "Leia os documentos de relacionamento fundação↔DAO.",
+          "Mantenha registros de lançamento aéreo/receita."
+        ],
+        "body": "O Código não concede automaticamente responsabilidade limitada. Fundações/LLCs assinam contratos, bancos e impostos. Os colaboradores devem saber quem pode ser tratado como responsável se algo quebrar."
+      },
+      {
+        "id": "ops",
+        "title": "Operações DAO",
+        "summary": "Transformando votos em envio por meio de grupos de trabalho e pagamentos",
+        "intro": "Sem operadores, a governação é um teatro. Grupos de trabalho, recompensas, orçamentos e avaliações convertem energia em produto. O esgotamento, a propriedade pouco clara e as folhas de pagamento atrasadas matam os DAOs silenciosamente.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Os bens públicos são subfornecidos. Manutenção de fundos de sistemas operacionais; pagamentos transparentes reduzem acordos paralelos."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Missão → métricas → orçamento → contratações/recompensas → retros. A folha de pagamento na rede ajuda. O acesso de administrador com privilégios mínimos evita pontos únicos de falha."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "Os KPIs são verificáveis? A imersão dupla é controlada? A documentação combate o fator ônibus."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Pagar sem responsabilidade e sobrecarregar colaboradores insubstituíveis são modos de falha."
+          }
+        ],
+        "keyPoints": [
+          "Os sistemas de entrega tornam os DAOs reais.",
+          "Os orçamentos e o desempenho devem ser públicos.",
+          "Reduzir a dependência de um único ser humano.",
+          "A transparência salarial reduz o combustível da conspiração."
+        ],
+        "tips": [
+          "Comece com pequenas recompensas para aprender o processo.",
+          "Faça backup de funções críticas.",
+          "Publique relatórios de grupos de trabalho."
+        ],
+        "body": "Sem operadores, a governação é um teatro. Grupos de trabalho, recompensas, orçamentos e avaliações convertem energia em produto. O esgotamento, a propriedade pouco clara e as folhas de pagamento atrasadas matam os DAOs silenciosamente."
+      },
+      {
+        "id": "attacks",
+        "title": "Ataques de governança",
+        "summary": "Captura de protocolos por meio de votos, subornos ou baixa participação",
+        "intro": "Os invasores perseguem tesouros, parâmetros ou chaves de atualização usando votos acumulados, empréstimos instantâneos, subornos ou quóruns sonolentos. As defesas incluem timelocks, guardiões de veto e melhores designs de votação.",
+        "sections": [
+          {
+            "heading": "Que problema isso resolve",
+            "body": "Discutir as superfícies de ataque permite que as comunidades se defendam antecipadamente. “Ninguém faria isso” não é um controle. A segurança da governança rivaliza com a segurança contratual."
+          },
+          {
+            "heading": "Como funciona",
+            "body": "Adquira votos → passe malícia → execute após o timelock se não for interrompido. Parâmetros complexos podem camuflar a intenção. Os guardiões podem atrasar ou cancelar ataques claros."
+          },
+          {
+            "heading": "Conceitos-chave",
+            "body": "O momento do instantâneo, as regras de votação para empréstimos rápidos e a concentração de delegações são fundamentais. Monitore grandes movimentos de tokens."
+          },
+          {
+            "heading": "Riscos e equívocos",
+            "body": "Ignorar alertas de timelock e presumir que as auditorias impedem o roubo de governança são erros."
+          }
+        ],
+        "keyPoints": [
+          "O poder de governação pode tornar-se roubo direto.",
+          "Timelocks e guardiões são freios.",
+          "A baixa participação é uma vulnerabilidade.",
+          "Monitore e ensaie caminhos de veto."
+        ],
+        "tips": [
+          "Habilite bots de alerta de governança.",
+          "Os grandes detentores deveriam realmente votar.",
+          "Apoie projetos que bloqueiem a votação de empréstimos instantâneos."
+        ],
+        "body": "Os invasores perseguem tesouros, parâmetros ou chaves de atualização usando votos acumulados, empréstimos instantâneos, subornos ou quóruns sonolentos. As defesas incluem timelocks, guardiões de veto e melhores designs de votação."
+      }
+    ]
+  }
+]

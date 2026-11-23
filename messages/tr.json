@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Web3 bilgi altyapısı",
+    "badge": "Önce güvenlik"
+  },
+  "nav": {
+    "explore": "Keşfet",
+    "ecosystem": "Ekosistem",
+    "news": "Haberler",
+    "chronicle": "Kronik",
+    "security": "Güvenlik",
+    "glossary": "Sözlük"
+  },
+  "hero": {
+    "kicker": "8 KATMAN · ÖĞRENMEK İÇİN DOKUN",
+    "titleLine1": "İnternet değişiyor.",
+    "titleLine2": "Sonrakini haritala.",
+    "subtitle": "Web3 ağları ve fikirler — abartısız netlik.",
+    "ctaPrimary": "Ekosistemi keşfet",
+    "ctaSecondary": "Güvenlik merkezi",
+    "pause": "Duraklat",
+    "play": "Oynat"
+  },
+  "sections": {
+    "ecosystem": "01 · EKOSİSTEM",
+    "ecosystemTitle": "Kategoriye göre keşfet",
+    "ecosystemDesc": "Web3'ün sekiz katmanı.",
+    "openExplorer": "Gezgini aç",
+    "news": "02 · SİNYAL",
+    "newsTitle": "Neler hareket ediyor",
+    "newsDesc": "Seçilmiş başlıklar.",
+    "allHeadlines": "Tüm başlıklar",
+    "glossary": "03 · SÖZLÜK",
+    "glossaryTitle": "Aynı dili konuş",
+    "glossaryDesc": "Hızlı tanımlar.",
+    "openGlossary": "Sözlüğü aç",
+    "security": "04 · SAVUNMA",
+    "securityTitle": "Hacklenmesi zor ol",
+    "securityDesc": "Oltalama, onay, tohum.",
+    "securityCenter": "Güvenlik merkezi",
+    "chronicle": "05 · ZAMAN ÇİZELGESİ",
+    "chronicleTitle": "Buraya nasıl geldik",
+    "chronicleDesc": "Whitepaper'dan ETF'ye.",
+    "fullChronicle": "Tam kronik",
+    "quiz": "06 · MEYDAN OKUMA",
+    "quizTitle": "Bilgini test et",
+    "quizDesc": "On soru.",
+    "startQuiz": "Başla",
+    "shuffle": "Karıştır"
+  },
+  "common": {
+    "readMore": "Devamını oku",
+    "back": "Geri",
+    "search": "Ara",
+    "items": "öğe",
+    "minRead": "{m} dk",
+    "language": "Dil",
+    "followIp": "Dil bölgenizi (IP) takip eder.",
+    "fallbackNote": "Yerelleştirilmiş içerik.",
+    "noResults": "Sonuç yok.",
+    "useful": "Yararlı",
+    "useIpLanguage": "IP dilini kullan",
+    "ipActive": "aktif",
+    "manualOverride": "Manuel"
+  },
+  "ecosystemPage": {
+    "title": "Ekosistem gezgini",
+    "subtitle": "Sekiz katman."
+  },
+  "newsPage": {
+    "title": "Sinyal masası",
+    "subtitle": "Web3 başlıkları."
+  },
+  "chroniclePage": {
+    "title": "Kronik",
+    "subtitle": "Dijital parayı değiştiren anlar."
+  },
+  "securityPage": {
+    "title": "Güvenlik merkezi",
+    "subtitle": "Pratik savunmalar."
+  },
+  "glossaryPage": {
+    "title": "Sözlük",
+    "subtitle": "Net tanımlar.",
+    "placeholder": "Filtrele…"
+  },
+  "quiz": {
+    "correct": "Doğru",
+    "wrong": "Pek değil",
+    "next": "İleri",
+    "restart": "Yeniden",
+    "score": "Skor: {score}/{total}",
+    "done": "Bitti"
+  },
+  "article": {
+    "keyPoints": "Ana noktalar",
+    "tips": "Pratik ipuçları",
+    "checklist": "Kontrol listesi",
+    "expand": "Genişlet",
+    "collapse": "Daralt"
+  },
+  "intro": {
+    "headline": "Web3 ve kripto bilgisi — abartılı değil net bir şekilde öğrenin",
+    "body": "Web3Atlas bir ticaret uygulaması değil, bir eğitim merkezidir. Ekosistem haritasını keşfedin, seçilmiş sinyalleri takip edin, kroniği inceleyin, cüzdan güvenliği alıştırmaları yapın, sözlüğü açın ve sınavlarla kendinizi test edin; spekülasyon yerine netlik.",
+    "point1": "Ekosistem haritası: blockchain, DeFi, NFT, L2, cüzdanlar, DAO",
+    "point2": "Sinyaller ve tarih: başlıklar ve önemli geçmiş",
+    "point3": "Güvenlik merkezi: kimlik avı, tohumlar, onaylar",
+    "point4": "Sözlük ve test: açıp pratik yapabileceğiniz basit terimler",
+    "hint": "Devam etmek için aşağıya dokunun",
+    "enter": "Keşfetmeye başlayın",
+    "loading": "Yükleniyor"
+  },
+  "safariGate": {
+    "note": "Bu sayfayı Safari'de açtıktan sonra site normal şekilde çalışır ve bu bildirim gizli kalır. Safari daha akıcı etkileşim ve daha zengin renkler sunar.",
+    "openSafari": "Safari ile aç",
+    "copied": "Bağlantı kopyalandı. Devam etmek için bunu Safari'ye yapıştırın."
+  }
+}

@@ -1,0 +1,234 @@
+[
+  {
+    "id": "homograph",
+    "tag": "Alarm",
+    "title": "Homograficzna obrona przed phishingiem",
+    "minutes": 5,
+    "summary": "Podobnie wyglądające postacie tworzą oficjalne domeny w celu zbierania podpisów lub nasion.",
+    "sections": [
+      {
+        "heading": "Jak to wygląda",
+        "body": "Atakujący zamieniają wizualnie podobne znaki na domeny i łączą je z reklamami lub DM. Interfejs użytkownika może być perfekcyjny w pikselach, a nawet pokazywać fałszywe salda."
+      },
+      {
+        "heading": "Jak to zauważyć",
+        "body": "Wpisz adresy URL lub użyj zakładek. Sprawdź właścicieli certyfikatów. Nigdy nie klikaj najwyższej reklamy w wyszukiwarce portfeli/mostków. Najedź kursorem na linki i sprawdź dziwne subdomeny."
+      },
+      {
+        "heading": "Jeśli kliknąłeś",
+        "body": "Cofnij zatwierdzenia i przenieś pozostałe środki. Jeśli wpiszesz ziarno, portfel zostanie spalony — ratunek będzie tylko dla zupełnie nowego nasionka. Zachowaj dowody do raportów."
+      }
+    ],
+    "checklist": [
+      "Dodaj do zakładek oficjalne strony",
+      "Pomiń reklamy w wyszukiwarce",
+      "Sprawdź każdy znak adresu URL",
+      "Sprawdź rozmiar na drugim urządzeniu",
+      "Nigdy nie wpisuj nasion na stronach internetowych"
+    ],
+    "body": "Podobnie wyglądające postacie tworzą oficjalne domeny w celu zbierania podpisów lub nasion."
+  },
+  {
+    "id": "seed",
+    "tag": "Klawiatura",
+    "title": "Kompletny przewodnik po frazach początkowych",
+    "minutes": 6,
+    "summary": "Twoje ziarno to kontrola nad aktywami. Każdy, kto o to prosi, jest wrogi.",
+    "sections": [
+      {
+        "heading": "Kopie zapasowe",
+        "body": "Napisz ręcznie i ponownie sprawdź zamówienie; rozważ metalowe płyty; ostrożnie podziel lokalizacje. Żadnych zdjęć, chmur i aplikacji do czatowania."
+      },
+      {
+        "heading": "Oszustwa",
+        "body": "Strony „Synchronizuj/weryfikuj/uaktualnij/odblokuj/zrzut” żądające 12/24 słów. Fałszywi administratorzy Discorda używają tego samego skryptu. Sprzętowe „weryfikatory autentyczności” proszące o nasiona są fałszywe."
+      },
+      {
+        "heading": "Dziedzictwo",
+        "body": "Jeśli nikt nie zna planu, fundusze umierają wraz z tobą. Skorzystaj z zapieczętowanych instrukcji, prawników lub multisig. W przypadku podejrzenia wycieku natychmiast migruj."
+      }
+    ],
+    "checklist": [
+      "Nasiona tylko w mediach offline",
+      "Nie mów tych słów nikomu",
+      "Nigdy nie wpisuj ich na urządzeniu podłączonym do sieci",
+      "Sprzęt + zimna kopia zapasowa rozmiaru",
+      "Migracja po każdym sygnale wycieku"
+    ],
+    "body": "Twoje ziarno to kontrola nad aktywami. Każdy, kto o to prosi, jest wrogi."
+  },
+  {
+    "id": "approve",
+    "tag": "DeFi",
+    "title": "Zatwierdzanie / pułapki przydziału",
+    "minutes": 6,
+    "summary": "Zatwierdzenia nie przenoszą tokenów natychmiast – pozwalają na późniejsze drenaże, zwłaszcza nieograniczone.",
+    "sections": [
+      {
+        "heading": "Mechanika",
+        "body": "Przelew ERC-20Z zasiłku na potrzeby. Nieskończone zatwierdzenia są wygodne; skompromitowani wydawcy mogą cię później opróżnić. setApprovalForAll jest odpowiednikiem NFT."
+      },
+      {
+        "heading": "Bezpieczna praktyka",
+        "body": "Dokładne dodatki, jeśli to możliwe; odwoływać rutynowo; przetestuj nowe protokoły w małych rozmiarach. Oglądaj witryny zrzutów, które wymagają najpierw zatwierdzenia."
+      },
+      {
+        "heading": "Reakcja na incydent",
+        "body": "Unieważnij i przenieś środki. Nadaj priorytet osobom wydającym pieniądze wymienionym w ujawnieniach hackerskich."
+      }
+    ],
+    "checklist": [
+      "Odmawiaj niepotrzebnych, nieograniczonych zezwoleń",
+      "Przeglądaj uprawnienia co miesiąc",
+      "Unieważnij nieużywane operatory NFT",
+      "Przeczytaj adresy wydawców",
+      "Priorytetowo traktuj osoby korzystające z zhakowanych protokołów"
+    ],
+    "body": "Zatwierdzenia nie przenoszą tokenów natychmiast – pozwalają na późniejsze drenaże, zwłaszcza nieograniczone."
+  },
+  {
+    "id": "fake-apps",
+    "tag": "Przenośny",
+    "title": "Fałszywe aplikacje portfelowe",
+    "minutes": 5,
+    "summary": "Klony pojawiają się w sklepach i kanałach sideload w celu kradzieży nasion lub urządzeń do zdalnego sterowania.",
+    "sections": [
+      {
+        "heading": "Wykrywanie podróbek",
+        "body": "Dopasuj nazwy wydawców do oficjalnych postów; uważaj, nowe aplikacje zajmują pierwsze miejsce. Preferuj linki z prawdziwej witryny. Pliki APK ładowane z boku są bardziej ryzykowne."
+      },
+      {
+        "heading": "Hartowanie",
+        "body": "Aktualizuj system operacyjny; minimalizować wtyczki; rozważ dedykowany telefon. Użyj sprzętu do rozmiaru. Zaplanuj zdalną blokadę w przypadku zgubienia telefonu."
+      },
+      {
+        "heading": "Po instalacji",
+        "body": "Jeśli ziarno zostało wprowadzone do fałszywej aplikacji, załóż kompromis i przeprowadź migrację na czystym urządzeniu."
+      }
+    ],
+    "checklist": [
+      "Zainstaluj z oficjalnych kanałów",
+      "Sprawdź nazwy programistów",
+      "Unikaj losowych plików APK",
+      "Rozmiar pary ze sprzętem potwierdza",
+      "W przypadku sfałszowania należy natychmiast przeprowadzić migrację"
+    ],
+    "body": "Klony pojawiają się w sklepach i kanałach sideload w celu kradzieży nasion lub urządzeń do zdalnego sterowania."
+  },
+  {
+    "id": "drainer",
+    "tag": "Podpisywanie",
+    "title": "Ociekacze podpisów i złośliwe pozwolenia",
+    "minutes": 7,
+    "summary": "Nie jest wymagane żadne ziarno — złośliwe podpisy strukturalne mogą autoryzować dreny.",
+    "sections": [
+      {
+        "heading": "Taktyka",
+        "body": "Fałszywe żądania mennic/oświadczeń setApprovalForAll, pozwolenia lub „loginy”. Niektóre ładunki wyglądają na puste. Boty sprzątają później."
+      },
+      {
+        "heading": "Obrona",
+        "body": "Portfele z wyraźnym podpisem, symulacja, odrzucanie niewiadomych. Najpierw połącz nowe witryny z palnikiem. Sprawdź domeny."
+      },
+      {
+        "heading": "Potem",
+        "body": "Unieważnij, ratuj fundusze, ostrzegaj społeczności, sprawdzaj inne sieci pod kątem tych samych zatwierdzeń."
+      }
+    ],
+    "checklist": [
+      "Odrzuć nieprzezroczyste podpisy",
+      "Włącz symulację",
+      "Użyj palnika na nowych stronach",
+      "Odwołuj się regularnie",
+      "Dodaj do zakładek prawdziwe dApps"
+    ],
+    "body": "Nie jest wymagane żadne ziarno — złośliwe podpisy strukturalne mogą autoryzować dreny."
+  },
+  {
+    "id": "support",
+    "tag": "Społeczny",
+    "title": "Fałszywe wsparcie i inżynieria społeczna",
+    "minutes": 5,
+    "summary": "Po opublikowaniu błędu podszywający się pod DM „pomagają” prosząc o zdalny dostęp lub nasiona.",
+    "sections": [
+      {
+        "heading": "Podręcznik zabaw",
+        "body": "Sklonowane awatary, pilność, aplikacje do zdalnego sterowania lub instrukcje dotyczące depozytu w ramach „bezpiecznej umowy”. Zaatakowane konta znajomych również rozpowszechniają linki."
+      },
+      {
+        "heading": "Zasady",
+        "body": "Prawdziwe zespoły rzadko najpierw zgłaszają się na DM, aby poznać sekrety. Skorzystaj z oficjalnych biletów/kanałów publicznych. Zweryfikuj znajomych poza pasmem."
+      },
+      {
+        "heading": "Higiena",
+        "body": "Nigdy nie wklejaj nasion w kanałach publicznych – nawet „częściowo zamaskowanych”."
+      }
+    ],
+    "checklist": [
+      "Ignoruj ​​zimne wiadomości na DM",
+      "Nie instaluj przypadkowych narzędzi zdalnych",
+      "Nigdy nie dawaj nasion na wsparcie",
+      "Zweryfikuj dziwne linki do znajomych w trybie offline",
+      "Skorzystaj z publicznych oficjalnych kanałów pomocy"
+    ],
+    "body": "Po opublikowaniu błędu podszywający się pod DM „pomagają” prosząc o zdalny dostęp lub nasiona."
+  },
+  {
+    "id": "bridges",
+    "tag": "Łańcuch krzyżowy",
+    "title": "Bezpieczeństwo mostu",
+    "minutes": 6,
+    "summary": "Mosty są głównymi celami hakerów i ulubionymi celami phishingu. Domyślnie szybciej nie znaczy bezpieczniej.",
+    "sections": [
+      {
+        "heading": "Wybieranie",
+        "body": "Preferuj mosty kanoniczne z oficjalnych dokumentów. Weryfikuj szybkie mosty pod kątem audytów i limitów. Poznaj opóźnienia przy wyjściu."
+      },
+      {
+        "heading": "Operacyjny",
+        "body": "Małe kompleksowe testy; zweryfikuj umowy dotyczące tokenów docelowych; zapisz skróty. Nie traktuj wyjść w trakcie lotu jako wolnego marginesu."
+      },
+      {
+        "heading": "Incydenty",
+        "body": "W przypadku hackowania mostów postępuj zgodnie z oficjalnymi powiadomieniami o pauzie, a nie „skryptami migracyjnymi” DM."
+      }
+    ],
+    "checklist": [
+      "Dodaj do zakładek oficjalne mosty",
+      "Najpierw przetestuj malutkie",
+      "Sprawdź umowy docelowe",
+      "Zapisz skróty TX",
+      "Ignoruj ​​skrypty migracji DM"
+    ],
+    "body": "Mosty są głównymi celami hakerów i ulubionymi celami phishingu. Domyślnie szybciej nie znaczy bezpieczniej."
+  },
+  {
+    "id": "devices",
+    "tag": "Operacje",
+    "title": "Higiena urządzenia i przeglądarki",
+    "minutes": 5,
+    "summary": "Złośliwe oprogramowanie schowka, fałszywe rozszerzenia i współdzielone komputery to codzienne ścieżki kradzieży.",
+    "sections": [
+      {
+        "heading": "Przeglądarka",
+        "body": "Dedykowany profil kryptograficzny; minimalne oficjalne rozszerzenia; strony z zakładkami. Do pomiaru rozmiaru użyj czystej maszyny."
+      },
+      {
+        "heading": "System",
+        "body": "Łata system operacyjny; uważaj na „narzędzia zrzutowe”; unikaj podejrzanych publicznych ładowarek. Zawsze ponownie sprawdź wklejone adresy."
+      },
+      {
+        "heading": "Nakładanie warstw",
+        "body": "Gorący na co dzień, zimny na oszczędności, multisig na skarby bije jeden superportfel."
+      }
+    ],
+    "checklist": [
+      "Oddzielny profil przeglądarki",
+      "Rozszerzenia białej listy",
+      "Sprawdź ponownie wklejone adresy",
+      "Aktualizuj system operacyjny",
+      "Podziel fundusze według roli"
+    ],
+    "body": "Złośliwe oprogramowanie schowka, fałszywe rozszerzenia i współdzielone komputery to codzienne ścieżki kradzieży."
+  }
+]

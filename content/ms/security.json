@@ -1,0 +1,234 @@
+[
+  {
+    "id": "homograph",
+    "tag": "Makluman",
+    "title": "Pertahanan pancingan data homograf",
+    "minutes": 5,
+    "summary": "Watak serupa memalsukan domain rasmi untuk menuai tandatangan atau benih.",
+    "sections": [
+      {
+        "heading": "Macam mana rupanya",
+        "body": "Penyerang menukar aksara yang serupa secara visual ke dalam domain dan memasangkannya dengan iklan atau DM. UI boleh menjadi piksel sempurna dan juga menunjukkan baki palsu."
+      },
+      {
+        "heading": "Bagaimana untuk mengesannya",
+        "body": "Taip URL atau gunakan penanda halaman. Semak pemilik sijil. Jangan sekali-kali mengklik iklan carian teratas untuk dompet/jambatan. Tuding pautan dan periksa subdomain ganjil."
+      },
+      {
+        "heading": "Jika anda klik",
+        "body": "Batalkan kelulusan dan pindahkan baki dana. Jika anda menaip benih, dompet itu hangus—menyelamatkan kepada benih baharu sahaja. Simpan bukti untuk laporan."
+      }
+    ],
+    "checklist": [
+      "Penanda halaman laman rasmi",
+      "Langkau iklan carian",
+      "Periksa setiap aksara URL",
+      "Semak silang pada peranti kedua untuk saiz",
+      "Jangan sekali-kali menaip benih ke dalam halaman web"
+    ],
+    "body": "Watak serupa memalsukan domain rasmi untuk menuai tandatangan atau benih."
+  },
+  {
+    "id": "seed",
+    "tag": "kunci",
+    "title": "Panduan lengkap frasa benih",
+    "minutes": 6,
+    "summary": "Benih anda adalah kawalan ke atas aset. Sesiapa yang memintanya bermusuhan.",
+    "sections": [
+      {
+        "heading": "Sandaran",
+        "body": "Tulis tangan dan semak semula pesanan; pertimbangkan plat logam; belah lokasi dengan berhati-hati. Tiada foto, awan atau apl sembang."
+      },
+      {
+        "heading": "Penipuan",
+        "body": "Halaman \"Segerakkan/sahkan/tingkatkan/nyahbeku/airdrop\" meminta 12/24 perkataan. Pentadbir Discord palsu menggunakan skrip yang sama. \"Pemeriksa keaslian\" perkakasan yang meminta benih adalah palsu."
+      },
+      {
+        "heading": "Warisan",
+        "body": "Jika tiada siapa yang tahu rancangan itu, dana mati bersama anda. Gunakan arahan yang dimeterai, peguam, atau multisig. Apabila disyaki kebocoran, berhijrah segera."
+      }
+    ],
+    "checklist": [
+      "Benih hanya pada media luar talian",
+      "Jangan beritahu kata-kata itu kepada sesiapa pun",
+      "Jangan sekali-kali memasukkannya pada peranti rangkaian",
+      "Perkakasan + sandaran sejuk untuk saiz",
+      "Berhijrah pada sebarang isyarat bocor"
+    ],
+    "body": "Benih anda adalah kawalan ke atas aset. Sesiapa yang memintanya bermusuhan."
+  },
+  {
+    "id": "approve",
+    "tag": "DeFi",
+    "title": "Meluluskan / perangkap elaun",
+    "minutes": 6,
+    "summary": "Kelulusan tidak memindahkan token dengan serta-merta—ia membenarkan longkang kemudian, terutamanya yang tidak terhad.",
+    "sections": [
+      {
+        "heading": "Mekanik",
+        "body": "ERC-20 pemindahanDari elaun keperluan. Kelulusan tidak terhingga adalah mudah; pembelanja yang terjejas boleh mengosongkan anda kemudian. setApprovalForAll ialah NFT yang setara."
+      },
+      {
+        "heading": "Amalan selamat",
+        "body": "Elaun tepat apabila boleh; membatalkan secara rutin; menguji protokol baru kecil. Tonton tapak airdrop yang memerlukan Approve terlebih dahulu."
+      },
+      {
+        "heading": "Sambutan kejadian",
+        "body": "Batalkan dan pindahkan dana. Utamakan pembelanja yang dinamakan dalam pendedahan penggodaman."
+      }
+    ],
+    "checklist": [
+      "Tolak kelulusan tanpa had yang tidak perlu",
+      "Semak elaun bulanan",
+      "Batalkan operator NFT yang tidak digunakan",
+      "Baca alamat pembelanja",
+      "Utamakan pembelanja protokol yang digodam"
+    ],
+    "body": "Kelulusan tidak memindahkan token dengan serta-merta—ia membenarkan longkang kemudian, terutamanya yang tidak terhad."
+  },
+  {
+    "id": "fake-apps",
+    "tag": "Mudah alih",
+    "title": "Aplikasi dompet palsu",
+    "minutes": 5,
+    "summary": "Klon muncul di kedai dan saluran sideload untuk mencuri benih atau peranti kawalan jauh.",
+    "sections": [
+      {
+        "heading": "Mengesan palsu",
+        "body": "Padankan nama penerbit dengan siaran rasmi; berhati-hati kedudukan apl baharu #1. Lebih suka pautan dari tapak sebenar. APK yang dimuat sisi adalah lebih berisiko."
+      },
+      {
+        "heading": "Pengerasan",
+        "body": "Pastikan OS dikemas kini; meminimumkan pemalam; pertimbangkan telefon khusus. Gunakan perkakasan untuk saiz. Rancang kunci jauh jika telefon hilang."
+      },
+      {
+        "heading": "Selepas dipasang",
+        "body": "Jika benih dimasukkan ke dalam apl palsu, anggap berkompromi dan berhijrah pada peranti yang bersih."
+      }
+    ],
+    "checklist": [
+      "Pasang daripada saluran rasmi",
+      "Sahkan nama pembangun",
+      "Elakkan APK rawak",
+      "Saiz pasangan dengan perkakasan mengesahkan",
+      "Berhijrah segera jika dipalsukan"
+    ],
+    "body": "Klon muncul di kedai dan saluran sideload untuk mencuri benih atau peranti kawalan jauh."
+  },
+  {
+    "id": "drainer",
+    "tag": "Menandatangani",
+    "title": "Pengering tandatangan & permit berniat jahat",
+    "minutes": 7,
+    "summary": "Tiada benih diperlukan—tandatangan berstruktur hasad boleh membenarkan longkang.",
+    "sections": [
+      {
+        "heading": "Taktik",
+        "body": "Permintaan mint/tuntutan palsu setApprovalForAll, permit atau \"log masuk.\" Beberapa muatan kelihatan kosong. Bot menyapu selepas itu."
+      },
+      {
+        "heading": "Pertahanan",
+        "body": "Dompet tandatangan kosong, simulasi, tolak yang tidak diketahui. Sambungkan tapak baharu dengan penunu terlebih dahulu. Semak domain."
+      },
+      {
+        "heading": "Selepas itu",
+        "body": "Membatalkan, menyelamat dana, memberi amaran kepada komuniti, semak rantaian lain untuk mendapatkan kelulusan yang sama."
+      }
+    ],
+    "checklist": [
+      "Tolak tandatangan legap",
+      "Dayakan simulasi",
+      "Gunakan penunu di tapak baharu",
+      "Batalkan secara berkala",
+      "Tandai dApps sebenar"
+    ],
+    "body": "Tiada benih diperlukan—tandatangan berstruktur hasad boleh membenarkan longkang."
+  },
+  {
+    "id": "support",
+    "tag": "sosial",
+    "title": "Sokongan palsu & kejuruteraan sosial",
+    "minutes": 5,
+    "summary": "Selepas anda menyiarkan ralat, penyamar DM \"bantuan\" meminta akses jauh atau benih.",
+    "sections": [
+      {
+        "heading": "Buku permainan",
+        "body": "Avatar yang diklon, segera, apl kawalan jauh atau arahan deposit \"kontrak selamat\". Akaun rakan yang terjejas juga menyebarkan pautan."
+      },
+      {
+        "heading": "Peraturan",
+        "body": "Real team jarang DM dulu untuk rahsia. Gunakan tiket rasmi/saluran awam. Sahkan rakan di luar kumpulan."
+      },
+      {
+        "heading": "Kebersihan",
+        "body": "Jangan sekali-kali menampal benih dalam saluran awam—walaupun \"separa bertopeng\"."
+      }
+    ],
+    "checklist": [
+      "Abaikan DM sokongan sejuk",
+      "Jangan pasang alat jauh rawak",
+      "Jangan sekali-kali memberi benih untuk menyokong",
+      "Sahkan pautan rakan pelik di luar talian",
+      "Gunakan saluran bantuan rasmi awam"
+    ],
+    "body": "Selepas anda menyiarkan ralat, penyamar DM \"bantuan\" meminta akses jauh atau benih."
+  },
+  {
+    "id": "bridges",
+    "tag": "Rantaian silang",
+    "title": "Keselamatan jambatan",
+    "minutes": 6,
+    "summary": "Jambatan ialah sasaran penggodaman teratas dan kegemaran pancingan data. Lebih cepat bukan lebih selamat secara lalai.",
+    "sections": [
+      {
+        "heading": "Memilih",
+        "body": "Lebih suka jambatan kanonik daripada dokumen rasmi. Doktor haiwan jambatan pantas untuk audit dan had. Fahami kelewatan keluar."
+      },
+      {
+        "heading": "Beroperasi",
+        "body": "Ujian kecil hujung ke hujung; mengesahkan kontrak token destinasi; simpan cincang. Jangan anggap pintu keluar dalam penerbangan sebagai margin percuma."
+      },
+      {
+        "heading": "Kejadian",
+        "body": "Mengenai penggodaman jambatan, ikuti notis jeda rasmi—bukan \"skrip migrasi\" DM."
+      }
+    ],
+    "checklist": [
+      "Penanda buku jambatan rasmi",
+      "Uji kecil dahulu",
+      "Sahkan kontrak destinasi",
+      "Simpan cincang tx",
+      "Abaikan skrip pemindahan DM"
+    ],
+    "body": "Jambatan ialah sasaran penggodaman teratas dan kegemaran pancingan data. Lebih cepat bukan lebih selamat secara lalai."
+  },
+  {
+    "id": "devices",
+    "tag": "Ops",
+    "title": "Kebersihan peranti & penyemak imbas",
+    "minutes": 5,
+    "summary": "Perisian hasad papan klip, sambungan palsu dan PC kongsi ialah laluan kecurian setiap hari.",
+    "sections": [
+      {
+        "heading": "pelayar",
+        "body": "Profil kripto khusus; sambungan rasmi minimum; tapak penanda buku. Gunakan mesin yang bersih untuk saiz."
+      },
+      {
+        "heading": "Sistem",
+        "body": "Patch OS; berhati-hati \"alat airdrop\"; elakkan pengecas awam yang tidak jelas. Sentiasa semak semula alamat yang ditampal."
+      },
+      {
+        "heading": "Lapisan",
+        "body": "Panas untuk harian, sejuk untuk penjimatan, multisig untuk perbendaharaan mengalahkan satu dompet super."
+      }
+    ],
+    "checklist": [
+      "Profil penyemak imbas yang berasingan",
+      "Sambungan senarai putih",
+      "Semak semula alamat yang ditampal",
+      "Pastikan OS dikemas kini",
+      "Bahagikan dana mengikut peranan"
+    ],
+    "body": "Perisian hasad papan klip, sambungan palsu dan PC kongsi ialah laluan kecurian setiap hari."
+  }
+]

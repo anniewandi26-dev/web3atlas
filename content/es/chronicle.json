@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2008-wp",
+    "date": "2008-10",
+    "title": "Libro blanco de Bitcoin",
+    "body": "Satoshi publica un diseño de efectivo electrónico peer-to-peer en una lista de criptografía. Historial de enlaces de prueba de trabajo sin intermediarios confiables. El artículo breve se convierte en la semilla intelectual de la industria y de la narrativa de las “reglas en código”. \n\nEl documento replantea el dinero como un libro de contabilidad con incentivos económicos. Los nodos validan reglas localmente; los mineros gastan trabajo para hacer que la historia sea costosa de reescribir. Esa combinación (verificación abierta más redacción costosa) todavía sustenta la mayoría de las explicaciones de “por qué blockchain”. \n\nPara los estudiantes, la conclusión es arquitectónica: reducir los terceros de confianza para la emisión y liquidación, aceptar la confirmación probabilística y codificar la escasez en reglas de protocolo. Los sistemas posteriores toman prestada la narrativa incluso cuando cambian el motor."
+  },
+  {
+    "id": "2009-genesis",
+    "date": "2009-01",
+    "title": "bloque de génesis",
+    "body": "Bitcoin arranca con un titular sobre rescates bancarios incrustado en el bloque génesis. El uso inicial es la minería por aficionados y las transferencias prácticamente sin precio. La idea se convierte en una red viva. \n\nIncluir un titular de periódico era a la vez una marca de tiempo y una señal política. Los primeros participantes ejecutaron nodos completos de forma predeterminada porque había poco más que hacer; la cultura valoraba la verificación por encima de la conveniencia. \n\nLa era de la génesis recuerda a los recién llegados que las redes comienzan siendo sociales y escasas. La liquidez, los intercambios y las billeteras pulidas llegaron más tarde. La comprensión de Bitcoin aún comienza con la lectura de lo que el primer bloque decidió decir sobre el sistema financiero del que buscaba salir."
+  },
+  {
+    "id": "2010-pizza",
+    "date": "2010-05",
+    "title": "Día de la pizza bitcoin",
+    "body": "Con 10.000 BTC se compran dos pizzas. Hoy parece absurdo, pero fue un momento temprano en el que el efectivo electrónico compraba bienes. El descubrimiento de precios es social, y la liquidez inicial fue mínima. \n\nEl comercio de pizza se recuerda como un remate, pero fue un experimento de liquidez y UX: ¿puede el efectivo electrónico liquidar una compra en el mundo real sin una red de tarjetas? El descubrimiento de precios fue informal; la custodia era experimental; el meme sobrevivió al recibo. \n\nHoy la historia enseña dos lecciones. En primer lugar, los primeros mercados son escasos y dominan las anécdotas. En segundo lugar, gastar versus mantener es una elección de política personal: las reglas de protocolo no dictan el costo de oportunidad."
+  },
+  {
+    "id": "2013-eth",
+    "date": "2013-11",
+    "title": "idea de etéreo",
+    "body": "Vitalik describe una plataforma de contratos inteligentes de uso general más allá del efectivo digital. Los desarrolladores implementarían una lógica arbitraria. La idea genera ICO, DeFi y NFT más adelante. \n\nLa visión de Ethereum cambió la cuestión del \"efectivo digital\" a la \"liquidación programable\". Si los scripts pueden custodiar activos y componerlos, las finanzas y los juegos se convierten en software en una máquina compartida. \n\nEsa ambición creó nuevos modos de falla (reentrada, dependencia de Oracle, captura de gobernanza), pero también la superficie de aplicación que la mayoría de los recién llegados encuentran primero. Leer este momento aclara por qué el gas, las ABI y el riesgo contractual entraron en el vocabulario."
+  },
+  {
+    "id": "2015-eth-launch",
+    "date": "2015-07",
+    "title": "lanzamiento de etéreum",
+    "body": "Frontier ofrece capacidad de blockchain programable. Las herramientas son difíciles y los incidentes frecuentes, pero las finanzas y los juegos comienzan a moverse en la cadena. El EVM se convierte de facto en un estándar multicadena. \n\nFrontier fue intencionalmente duro: probar la máquina virtual en la naturaleza, aceptar incidentes, iterar las herramientas. Los desarrolladores aprendieron que implementar código es fácil; razonar sobre las personas que llaman adversarias es difícil. \n\nEl lanzamiento fijó el EVM como un imán para herramientas y más tarde para cadenas \"compatibles con EVM\". La compatibilidad no es una seguridad idéntica, pero los modelos mentales compartidos redujeron el costo de la experimentación en todo el mundo."
+  },
+  {
+    "id": "2016-dao",
+    "date": "2016-06",
+    "title": "El incidente DAO",
+    "body": "Se explota un contrato masivo de financiación colectiva anticipada. El debate sobre el hard-fork divide a ETH/ETC y enseña que \"el código es ley\" no significa \"el código está libre de errores\". El consenso social también importa. \n\nEl hackeo de DAO obligó a una comunidad a elegir entre el teatro de inmutabilidad y la recuperación social de fondos. La división resultante entre ETH y ETC es un estudio de caso permanente sobre cómo el “código es ley” choca con un consenso aproximado. \n\nLos estudiantes deben estudiar tanto el patrón de explotación técnica como el proceso de gobernanza que siguió. Los contratos inteligentes necesitan auditorías y pausar diseños; Las comunidades necesitan normas bifurcaciones explícitas antes de las crisis."
+  },
+  {
+    "id": "2017-ico",
+    "date": "2017",
+    "title": "Ola ICO",
+    "body": "Las ventas de tokens permiten la recaudación de fondos global y estafas a escala industrial. Los reguladores responden; el comercio minorista paga la matrícula. La divulgación y el cumplimiento entran en una conversación seria. \n\nLas ventas de tokens comprimieron la recaudación de fondos global en una billetera de navegador. La formación de capital se aceleró; la divulgación a menudo no lo hizo. El comercio minorista aprendió que un documento técnico en PDF no es diligencia, y los reguladores aprendieron la misma lección desde el otro lado. \n\nLa ola dejó debates sobre estándares, políticas de cotización en bolsa y una alergia duradera a las promesas ilimitadas. El escepticismo saludable sobre el lanzamiento de tokens es parte de la alfabetización, no de la antiinnovación."
+  },
+  {
+    "id": "2018-bear",
+    "date": "2018",
+    "title": "invierno criptográfico",
+    "body": "Los precios caen desde los máximos del ciclo; Los proyectos exclusivamente narrativos desaparecen. La infraestructura y la investigación continúan tranquilamente. Los inviernos son tanto filtros como tragedias. \n\nEl invierno seleccionó tokens solo narrativos mientras financiaba silenciosamente la diversidad de clientes, la experiencia de usuario de la billetera y la investigación que se reutilizaban en ciclos posteriores. Los constructores que se quedaron trataron el precio como el tiempo, no como el clima. \n\nPara estudiantes: en los mercados bajistas se puede estudiar mecánica sin ruido FOMO. Los gráficos se quedan en silencio; La documentación y los repositorios de fuentes reciben una atención más honesta."
+  },
+  {
+    "id": "2020-defi",
+    "date": "2020",
+    "title": "Verano deFi",
+    "body": "La minería de liquidez hace explotar los préstamos y las AMM. La componibilidad brilla; Surgen problemas de oráculo/liquidación/incentivos. Los usuarios acceden a la financiación de billetera como cuenta a escala. \n\nLa minería de liquidez convirtió a las AMM y a los mercados monetarios en bucles de crecimiento. La componibilidad significaba que una posición crediticia podía convertirse en garantía en otro lugar en cuestión de minutos, al igual que las liquidaciones en cascada. \n\nEl verano de DeFi enseñó diseño de Oracle, sostenibilidad de incentivos y la diferencia entre capturas de pantalla de APY y tarifas extraíbles. La seguridad de la billetera se volvió común porque la cuenta ahora era una correduría."
+  },
+  {
+    "id": "2021-nft",
+    "date": "2021-03",
+    "title": "Momento principal de NFT",
+    "body": "El arte digital y las PFP llegan a los principales medios de comunicación. Los creadores encuentran nuevos rieles; sigue la especulación. Después de la espuma, quedan estándares, debates sobre regalías y comunidades reales. \n\nLas NFT pusieron a creadores, marcas y multitudes especulativas en el mismo camino. Los debates sobre la permanencia de los metadatos, la aplicación de regalías y el comercio de lavado siguieron a los titulares. \n\nDespués del auge, quedan preguntas duraderas: ¿qué es exactamente lo que se posee, dónde viven los medios y qué comunidades sobreviven sin una apreciación constante de los precios? Cultura y contratos entrelazados permanentemente."
+  },
+  {
+    "id": "2021-l2",
+    "date": "2021",
+    "title": "Aceleración acumulada",
+    "body": "Los diseños optimistas y ZK generan tráfico real a medida que los usuarios huyen de las tarifas. Los puentes y secuenciadores se convierten en nuevos centros de riesgo y UX. Escalar se convierte en un camino diario, no en un deslizamiento. \n\nLos usuarios que huyen de las tarifas de la red principal hicieron que las acumulaciones sean una ruta diaria. Los puentes y secuenciadores se convirtieron en los nuevos tickets de soporte: fondos atascados a mitad del salto, tiempo de inactividad y relojes de finalidad confusos. \n\nEl éxito de la ampliación se mide en salidas seguras y suposiciones de confianza comprensibles, no sólo en deslizamientos de TPS. La alfabetización L2 es ahora la alfabetización básica Web3."
+  },
+  {
+    "id": "2022-merge",
+    "date": "2022-09",
+    "title": "La fusión",
+    "body": "El consenso de Ethereum cambia a prueba de participación mientras continúa la ejecución. El uso de energía disminuye; El stake, el MEV y la diversidad de clientes se convierten en temas centrales. Una transición de ingeniería histórica. \n\nCambiar el consenso sin interrumpir la ejecución fue una rara transición en un sistema grande. Las narrativas energéticas cambiaron de la noche a la mañana; La economía de apuestas y la investigación de MEV pasaron al centro del escenario. \n\nThe Merge muestra que las cadenas de bloques pueden desarrollar subsistemas importantes con coordinación. También muestra que lo “hecho” nunca está terminado: la diversidad de clientes y la resistencia a la censura siguen siendo un trabajo continuo."
+  },
+  {
+    "id": "2022-contagion",
+    "date": "2022",
+    "title": "Contagio CeFi",
+    "body": "Las cadenas de préstamos y fondos se rompen, exponiendo desfases en custodia y vencimientos. Aumentan las narrativas de autocustodia y PoR. Los saldos de plataforma no son activos de cadena. \n\nCuando los prestamistas y fondos de CeFi fracasaron, los usuarios redescubrieron que los pagarés no son UTXO. El marketing de prueba de reservas aumentó junto con las colas de retiro. \n\nEl plan de estudios práctico: saber dónde se encuentran las claves, dimensionar deliberadamente los saldos de intercambio y tratar el rendimiento que requiere bloquear activos en una plataforma como riesgo crediticio."
+  },
+  {
+    "id": "2023-blobs",
+    "date": "2024-03",
+    "title": "Costos de DA de la era Blob",
+    "body": "El espacio de datos blob abarata las tarifas de publicación y de usuario de L2. El debate gira hacia la descentralización del secuenciador y la interoperabilidad UX. Las tarifas se acercan a la usabilidad diaria. \n\nEl espacio blob reformuló los costos de L2 e hizo que las transacciones cotidianas volvieran a parecer plausibles. La atención se centró en la descentralización del secuenciador, los puentes compartidos y la UX basada en intenciones. \n\nLa disponibilidad de datos baratos es necesaria, pero no suficiente, para un mundo multicadena seguro. Los usuarios todavía necesitan rutas de salida claras y etiquetas de riesgo honestas."
+  },
+  {
+    "id": "2024-etf",
+    "date": "2024-01",
+    "title": "Spot ETF de Bitcoin",
+    "body": "Los ETF de Bitcoin al contado de EE. UU. abren el acceso a corretaje. El descubrimiento de precios se amplía con los flujos macro. Las criptomonedas entran más profundamente en las conversaciones de asignación tradicionales. \n\nEl Bitcoin envuelto en corretaje cambió quién puede realizar asignaciones y cómo los flujos afectan el descubrimiento de precios. Los escritorios macro entraron en conversaciones que alguna vez vivieron solo en el cripto Twitter. \n\nLos ETF no reemplazan la educación de autocustodia; añaden una vía de acceso paralela con intermediarios tradicionales. Ambos rieles dan forma ahora al mercado."
+  },
+  {
+    "id": "2024-halving",
+    "date": "2024-04",
+    "title": "Cuarta reducción a la mitad de Bitcoin",
+    "body": "Subsidio cae a 3.125 BTC. Los mineros se inclinan más por las tarifas y los precios a largo plazo. El cronograma nuevamente muestra que la emisión está definida por el protocolo. \n\nEl cronograma de subsidios demostró nuevamente que la emisión es política solo dentro de las reglas del protocolo: los mineros y los mercados se adaptan según un calendario conocido. \n\nLas reducciones a la mitad son herramientas de enseñanza útiles para las narrativas de escasez, los mercados de tarifas y por qué los presupuestos de seguridad eventualmente dependen más de la demanda de transacciones."
+  },
+  {
+    "id": "2024-restake",
+    "date": "2024",
+    "title": "Era de recuperación",
+    "body": "Los experimentos de seguridad compartida se expanden con rendimientos y riesgos acumulados. Las matrices de corte y los fallos correlacionados entran en el debate general. \n\nLa reanudación supuso más trabajo para el mismo vínculo económico. La seguridad compartida puede ser eficiente; El corte correlacionado puede ser brutal. \n\nTrate la reanudación como una exposición de infraestructura apalancada: lea el conjunto del operador, reduzca las condiciones y los supuestos de oráculo/certificación antes de perseguir puntos."
+  },
+  {
+    "id": "2025-aa",
+    "date": "2025",
+    "title": "Empuje UX de cuenta inteligente",
+    "body": "Las herramientas de abstracción de cuentas llegan a las billeteras de los consumidores con sesiones y gas patrocinado. Parte de la responsabilidad pasa a los tutores y módulos. Seedless UX busca el equilibrio con la autocustodia. \n\nLa abstracción de cuentas llevó el gas patrocinado y la recuperación social a los bolsillos de los consumidores. Los recién llegados se enfrentan a menos acantilados de frases iniciales y a más pantallas de permisos de módulos. \n\nLa próxima ola de alfabetización son los simulacros de recuperación, los alcances de las claves de sesión y el reconocimiento de que las funciones de conveniencia siguen siendo superficies de autorización."
+  },
+  {
+    "id": "2025-rwa",
+    "date": "2025",
+    "title": "Ampliación de RWA",
+    "body": "Las letras del Tesoro tokenizadas y el crédito aportan rendimiento fuera de la cadena a la liquidación dentro de la cadena. La estructura jurídica y el rescate dominan la diligencia. Los bonos del Tesoro de DeFi obtienen fundas “tradicionales”. \n\nLos bonos del Tesoro tokenizados hicieron que el rendimiento en cadena pareciera familiar para los asignadores tradicionales. Los envoltorios legales y las mesas de canje se volvieron tan importantes como Solidity. \n\nLos RWA enseñan que \"en cadena\" puede significar una forma de liquidación, no una desintermediación total. Lea las políticas de custodia y congelación con el mismo cuidado que el código de contrato."
+  },
+  {
+    "id": "2026-intent",
+    "date": "2026",
+    "title": "Flujos centrados en la intención",
+    "body": "Los usuarios expresan resultados; Los solucionadores compiten en rutas y cotizaciones. La experiencia de usuario se simplifica mientras los riesgos del puente permanecen ocultos. Las carteras y los enrutadores entran en una carrera de nuevos productos."
+  }
+]

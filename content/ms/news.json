@@ -1,0 +1,86 @@
+[
+  {
+    "id": "n1",
+    "date": "2026-03-12",
+    "title": "Pemampatan bayaran L2 diteruskan",
+    "summary": "Pasaran gumpalan dan kumpulan yang lebih baik mengekalkan pemindahan besar-besaran hampir sen. Pembayaran mikro menjadi lebih mudah—pendidikan keselamatan mesti mengikutinya.",
+    "body": "Sepanjang tahun lalu, peningkatan ketersediaan data dan kumpulan yang lebih ketat telah mendorong pemindahan biasa pada rollup utama ke arah yuran peringkat sen. Perkara yang dahulunya dirasakan sebagai rangkaian mewah untuk perdagangan besar menjadi boleh digunakan untuk tindakan permainan, petua dan pelarasan DeFi kecil. \n\nRuang sekatan yang lebih murah mengubah tingkah laku pengguna. Orang ramai lebih kerap, mencuba lebih banyak kontrak dan klik melalui gesaan dompet dengan lebih pantas. Kemudahan itu adalah kemajuan sebenar—dan ia juga meluaskan radius letupan tapak pancingan data, kelulusan tanpa had dan token yang serupa. \n\nBagi pembina, mampatan yuran ialah buka kunci produk: aliran onboarding tidak lagi mati akibat kejutan pelekat gas. Bagi pelajar, senarai semak kekal lama: sahkan domain, simulasi transaksi, pilih elaun terhad dan layan jambatan sebagai kelas risiko yang berasingan walaupun L2 itu sendiri murah. \n\nBawa pulang praktikal: raikan yuran yang lebih rendah, tetapi gandingkan setiap tabiat baharu dengan tabiat keselamatan. Pemindahan termurah masih mahal jika ia menghantar dana ke alamat yang salah atau berbelanja tanpa had."
+  },
+  {
+    "id": "n2",
+    "date": "2026-02-28",
+    "title": "Akaun pintar mencapai dompet pengguna",
+    "summary": "Kunci sesi dan gas yang ditaja memukul UX mudah alih arus perdana. Penjaga dan modul menjadi permukaan keselamatan baharu.",
+    "body": "Abstraksi akaun bukan lagi topik penyelidikan sahaja. Dompet pengguna semakin menghantar akaun pintar dengan kunci sesi, pemulihan sosial dan penajaan gas supaya pendatang baharu boleh bertindak tanpa terlebih dahulu memburu token gas. \n\nLonjakan UX itu mencipta model mental baharu. Daripada satu benih mengawal satu EOA selama-lamanya, pengguna mungkin bergantung pada penjaga, modul, jurubayar dan kebenaran sementara. Pemulihan yang salah konfigurasi atau modul berniat jahat boleh mengunci atau mengalirkan akaun tanpa kebocoran benih klasik. \n\nPasukan harus mendokumenkan latihan pemulihan seperti cara bank mendokumentasikan aliran kad yang hilang. Pengguna harus tahu siapa penjaga, jumlah yang boleh dibelanjakan oleh kunci sesi dan cara membatalkan modul. \"Tanpa biji\" tidak bermaksud \"tanpa risiko.\" \n\nJika anda menggunakan akaun pintar: mulakan dengan baki kecil, uji pemulihan pada dompet ganti dan baca kebenaran modul sebelum mendayakan ciri kemudahan."
+  },
+  {
+    "id": "n3",
+    "date": "2026-02-10",
+    "title": "Rekod laporan dana RWA AUM dalam rantaian",
+    "summary": "Bil-T bertoken membawa keluk hasil biasa pada rantaian. Penebusan dan penjagaan undang-undang kekal sebagai ujian tekanan sebenar.",
+    "body": "Perbendaharaan bertoken dan produk setara tunai terus menarik AUM dalam rantaian kerana ia memetakan aliran tunai yang sudah difahami oleh orang ramai. Penyelesaian boleh berlaku pada rel crypto manakala cerita ekonomi kelihatan lebih dekat dengan pendedahan pasaran wang tradisional. \n\nBahagian keras adalah di luar rantai. Siapa yang memegang asas? Berapa pantas anda boleh menebus dalam keadaan panik? Apakah yang berlaku jika rakan kongsi perbankan gagal, atau jika sekatan pemindahan membekukan dompet anda? Baki dalam rantaian ≠ wang tunai segera di tangan. \n\nPembaca harus memisahkan risiko protokol daripada risiko penerbit dan jagaan. Kontrak pintar yang bersih tidak membaiki pembungkus undang-undang yang lemah. Tangkapan skrin APR tanpa peraturan penebusan adalah pemasaran, bukan ketekunan. \n\nGunakan RWA sebagai permukaan pembelajaran untuk rizab, pengesahan dan bidang kuasa—bukan sahaja sebagai garis hasil dalam apl portfolio."
+  },
+  {
+    "id": "n4",
+    "date": "2026-01-22",
+    "title": "Penyelesai niat meluaskan liputan",
+    "summary": "Swap rantaian silang menyembunyikan laluan di belakang satu tandatangan sementara penyelesai bersaing. Ketahui bayaran balik dan peraturan kegelinciran terburuk.",
+    "body": "Perdagangan berasaskan niat membolehkan pengguna menandatangani perkara yang mereka mahu—“tukar A untuk sekurang-kurangnya B dengan masa T”—sementara penyelesai bersaing untuk mengisi laluan. Antara muka terasa lebih dekat dengan pembayaran daripada melompat jambatan manual. \n\nDi bawah tudung, jambatan berbilang lompatan, kumpulan DEX dan inventori penyelesai masih boleh melaksanakan laluan. Kegagalan, pengisian separa dan syarat bayaran balik adalah penting sama seperti laluan gembira. Sebut harga yang cantik boleh menyembunyikan kecairan nipis atau lompat perantaraan yang agresif. \n\nSebelum menandatangani, semak tarikh akhir, output minimum, rantaian yang disentuh, dan apa yang berlaku jika penyelesai tidak dapat menyelesaikan. Lebih suka tempat yang mensimulasikan dan menerangkan laluan dalam bahasa biasa. \n\nNiat mengurangkan klik; mereka tidak menghapuskan struktur pasaran. Anggap mereka sebagai automasi berkuasa dengan tetapan kes terburuk yang jelas."
+  },
+  {
+    "id": "n5",
+    "date": "2026-01-05",
+    "title": "Mengambil semula rangka kerja risiko matang",
+    "summary": "Operator menerbitkan matriks pemotongan yang lebih jelas apabila keselamatan dikongsi berkembang. Bandingkan hasil hanya dengan senario slash disertakan.",
+    "body": "Memulakan semula menggunakan semula modal yang dipertaruhkan untuk mendapatkan perkhidmatan tambahan. Kecekapan adalah menarik: bon yang sama menaja jamin lebih banyak kerja. Korelasi ialah kos—kegagalan satu operator atau keadaan slash yang tidak jelas boleh mencecah banyak hasil berlapis sekali gus. \n\nPendedahan operator yang lebih jelas dan matriks slash membantu, tetapi pembaca masih perlu memetakan siapa yang boleh memotong siapa, di bawah bukti apa dan dengan proses sosial yang menimpa. \"Hasil tambahan\" tanpa cerita kegagalan adalah tidak lengkap. \n\nJika anda mengambil semula, saiz kedudukan untuk pengeluaran berkorelasi, pelbagaikan pengendali apabila boleh dan lebih suka perkhidmatan dengan pemantauan yang telus. Leverage pada keselamatan konsensus masih leverage. \n\nKematangan rangka kerja adalah kemajuan; had risiko peribadi kekal sebagai tugas anda."
+  },
+  {
+    "id": "n6",
+    "date": "2025-12-18",
+    "title": "Papan pemuka Exchange PoR melebar",
+    "summary": "Lebih banyak tempat menghantar pengesahan berterusan selepas kegagalan CeFi. Ketelusan membantu; penjagaan diri masih penting untuk saiz.",
+    "body": "Papan pemuka bukti rizab menjadi produk amanah selepas beberapa CeFi runtuh. Pengesahan berterusan dan halaman dompet awam menjadikannya lebih sukar untuk menyembunyikan skim pecahan mentah—sekurang-kurangnya untuk aset yang mereka pilih untuk ditunjukkan. \n\nPoR bukanlah audit penuh liabiliti, entiti undang-undang atau kawalan operasi. Papan pemuka hijau boleh wujud bersama dengan pengeluaran beku, hutang tersembunyi atau dompet panas yang terjejas. Anggap ia sebagai satu isyarat di antara banyak. \n\nUntuk baki yang anda tidak mampu untuk terkandas, jadualkan pengeluaran berkala untuk penjagaan diri. Simpan akaun pertukaran untuk kecairan dan tanjakan fiat, bukan sebagai peti besi kekal. \n\nAlat ketelusan meningkatkan pasaran; mereka tidak menggantikan kebersihan jagaan peribadi."
+  },
+  {
+    "id": "n7",
+    "date": "2025-11-30",
+    "title": "Kos prover ZK turun lagi",
+    "summary": "Perkakasan dan algoritma mengurangkan bukti kesahihan. Penjenamaan \"ZK\" masih memerlukan penjujukan dan penelitian jambatan.",
+    "body": "Penambahbaikan perkakasan dan algoritma Prover terus mengurangkan kos bukti kesahihan, menjadikan rollup gaya ZK lebih praktikal untuk pengiraan umum. Kos pembuktian yang lebih rendah menyokong reka bentuk L2 yang lebih luas dan naratif muktamad yang lebih pantas. \n\nPemasaran sering meruntuhkan banyak soalan amanah ke dalam perkataan \"ZK.\" Pengguna masih bergantung pada penjujukan, jambatan, kekunci naik taraf dan ketersediaan data. Bukti murah bagi dasar kumpulan berniat jahat tidak membantu anda. \n\nApabila menilai produk ZK, tanya apa yang terbukti, siapa yang boleh menaik taraf, cara kemasukan paksa berfungsi dan cara keluar bertindak di bawah tekanan. Sistem bukti adalah satu lapisan dalam timbunan. \n\nBukti yang lebih murah ialah berita infrastruktur yang sangat baik—pasangkannya dengan keraguan operasi yang sama yang anda gunakan di tempat lain."
+  },
+  {
+    "id": "n8",
+    "date": "2025-11-08",
+    "title": "Simulasi dompet menjadi lalai",
+    "summary": "Simulasi pra-penerbangan memotong longkang kelulusan buta. Laluan yang kompleks masih boleh kurang diterangkan—tolak perkara yang anda tidak faham.",
+    "body": "Simulasi urus niaga dan UI tandatangan yang lebih jelas menjadi kepentingan jadual. Menunjukkan perbezaan aset sebelum pengesahan menghalang banyak longkang kelulusan buta klasik yang pernah kelihatan seperti klik \"sahkan\" rutin. \n\nSimulasi hanya sebaik penyahkodan dan keadaan rantai yang diandaikan. Kontrak luar biasa, modul tersuai atau niat berbilang langkah mungkin masih menjadi buruk. Jika pratonton kosong atau bercanggah, itu adalah tanda berhenti—bukan gangguan kecil. \n\nGabungkan simulasi dengan tabiat senarai dibenarkan: apl penanda halaman, sahkan alamat kontrak dan batalkan elaun lapuk. Alat mengurangkan kadar ralat; mereka tidak mengada-adakan niat untuk anda. \n\nPeraturan lalai: jika anda tidak dapat menerangkan perubahan keadaan dalam satu ayat, jangan tandatangani."
+  },
+  {
+    "id": "n9",
+    "date": "2025-10-21",
+    "title": "Jumlah penyelesaian Stablecoin meningkat",
+    "summary": "Dolar dalam rantaian kekal sebagai kuda kerja untuk pasangan dan kiriman wang. Pelbagaikan penerbit dan pelajari risiko rizab.",
+    "body": "Stablecoin terus mendominasi volum penyelesaian kerana mereka menawarkan unit seperti dolar dengan rel crypto. Pasangan dagangan, koridor kiriman wang dan eksperimen gaji semuanya bergantung pada mereka sebagai unit akaun praktikal. \n\nKesesuaian pasaran produk menumpukan risiko kepada penerbit, bank dan polisi pembekuan. Tindakan depeg atau pematuhan boleh menghentikan strategi yang dianggap sempurna 1:1 selama-lamanya. Mempelbagaikan penerbit dan memahami kualiti pengesahan adalah sebahagian daripada celik huruf, bukan paranoia. \n\nUntuk kegunaan harian, pilih rizab yang didokumentasikan dengan baik dan laluan penebusan yang jelas. Untuk pembelajaran, bandingkan reka bentuk yang disokong fiat, disokong kripto dan algoritma mengikut mod kegagalan mereka—bukan logo mereka. \n\nPertumbuhan volum bermakna kandang adalah infrastruktur. Infrastruktur patut membosankan, semakan risiko berulang."
+  },
+  {
+    "id": "n10",
+    "date": "2025-10-02",
+    "title": "Alat DAO menambah baik veto UX",
+    "summary": "Papan pemuka kunci masa dan peranan penjaga membantu menangkap cadangan berniat jahat. Tadbir urus adalah sebahagian daripada model keselamatan.",
+    "body": "Antara muka DAO semakin memunculkan kunci masa, veto penjaga dan perbezaan cadangan yang boleh dibaca. Itu penting kerana serangan tadbir urus boleh mengosongkan perbendaharaan dengan berkesan seperti pepijat kontrak—hanya dengan UI pengundian dan bukannya skrip eksploitasi. \n\nAlatan yang lebih baik membantu mewakilkan perubahan parameter, pemberian token dan peningkatan panggilan sebelum pelaksanaan. Ia tidak menetapkan peratusan keluar mengundi yang rendah, pembelian undi tersembunyi atau proses kecemasan yang tergesa-gesa. \n\nJika anda memegang kuasa tadbir urus, anggap pengundian seperti akses pengeluaran: sahkan muatan, tunggu melalui kunci masa dan pilih kebenaran sempit. Penonton harus menjejaki sama ada penjaga adalah awam dan bertanggungjawab. \n\nKeselamatan untuk DAO termasuk proses sosial. Papan pemuka adalah perlu; keraguan tetap diperlukan."
+  },
+  {
+    "id": "n11",
+    "date": "2025-09-14",
+    "title": "Studio menghantar inventori hibrid",
+    "summary": "Item yang terhad diselesaikan dalam rantaian manakala pertempuran masa nyata kekal di luar rantaian. Dasar penutupan mentakrifkan sejauh mana \"milik\" pergi.",
+    "body": "Studio permainan terus memisahkan sistem: pertempuran berwibawa dan mencari jodoh pada pelayan kependaman rendah, kosmetik atau mata wang yang terhad sebagai inventori dalam rantaian. Pemain mendapat kebolehdagangan tanpa memaksa setiap tindakan melalui mempool. \n\nReka bentuk hibrid bermaksud kepercayaan hibrid. Anda mungkin memiliki pedang token sementara masih bergantung pada pelayan untuk menjadikannya berguna. Jika studio ditutup, bidaan pasaran tidak boleh memulihkan logik permainan dengan sendirinya. \n\nBaca dasar item: Bolehkah aset berhijrah? Adakah metadata boleh berubah? Siapa yang boleh membekukan inventori? \"Dalam rantaian\" bukanlah jaminan penuh utiliti. \n\nPermainan hibrid ialah laluan yang realistik—hanya ukur tuntutan pemilikan terhadap pergantungan pelayan secara jujur."
+  },
+  {
+    "id": "n12",
+    "date": "2025-08-29",
+    "title": "Hab pendidikan memimpin dengan keselamatan",
+    "summary": "Produk pembelajaran mengajar pancingan data dan kelulusan sebelum menghasilkan pelancongan. Bertahan dahulu adalah isyarat kematangan sebenar.",
+    "body": "Lebih banyak platform pendidikan kini dibuka dengan pancingan data, kelulusan dan kebersihan benih sebelum tutorial pertanian. Pemesanan itu mencerminkan pengalaman industri yang dimenangi susah payah: pengetahuan yang tidak menjadikan anda pelarut adalah tidak lengkap. \n\nKurikulum mengutamakan keselamatan masih memerlukan kedalaman tentang pasaran, protokol dan sejarah—tetapi urutannya penting. Pengguna yang belajar untuk menolak DM sokongan palsu akan tetap ada untuk mempelajari AMM kemudian. \n\nWeb3Atlas mengikuti kecenderungan yang sama: peta dan glosari dipasangkan dengan tabiat pertahanan. Anggap latihan keselamatan sebagai kandungan teras, bukan lampiran. \n\nKematangan adalah menggabungkan kelangsungan hidup. Tangkapan skrin hasil adalah pilihan; disiplin jagaan tidak."
+  }
+]

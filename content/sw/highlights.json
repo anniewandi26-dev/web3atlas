@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# Ada za gesi"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# Ulaghai wa maneno ya mbegu"
+  },
+  {
+    "id": "layer2",
+    "label": "# Tabaka 2"
+  },
+  {
+    "id": "approve",
+    "label": "# Idhinisha / posho"
+  }
+]

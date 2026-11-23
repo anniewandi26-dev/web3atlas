@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Web3 Knowledge Infrastructure",
+    "badge": "Security First"
+  },
+  "nav": {
+    "explore": "ଅନୁସନ୍ଧାନ",
+    "ecosystem": "ଇକୋସିଷ୍ଟମ୍",
+    "news": "ଖବର",
+    "chronicle": "ଇତିହାସ",
+    "security": "ସୁରକ୍ଷା",
+    "glossary": "ଶବ୍ଦକୋଷ"
+  },
+  "hero": {
+    "kicker": "8 ECOSYSTEM LAYERS · TAP TO LEARN",
+    "titleLine1": "The Internet Is Changing.",
+    "titleLine2": "Map What Comes Next.",
+    "subtitle": "Discover networks, protocols and ideas shaping Web3 — built for clarity, not hype.",
+    "ctaPrimary": "Explore the Ecosystem",
+    "ctaSecondary": "Open Security Center",
+    "pause": "Pause animation",
+    "play": "Play animation"
+  },
+  "sections": {
+    "ecosystem": "01 · ECOSYSTEM",
+    "ecosystemTitle": "Explore by category",
+    "ecosystemDesc": "Eight layers of Web3. Open one to see concepts and real-world patterns.",
+    "openExplorer": "Open explorer",
+    "news": "02 · SIGNAL",
+    "newsTitle": "What's moving",
+    "newsDesc": "Curated headlines that help you follow infrastructure, markets and regulation.",
+    "allHeadlines": "All headlines",
+    "glossary": "03 · LEXICON",
+    "glossaryTitle": "Speak the language",
+    "glossaryDesc": "Fast definitions for terms you will see every day on-chain.",
+    "openGlossary": "Open glossary",
+    "security": "04 · DEFENSE",
+    "securityTitle": "Stay hard to hack",
+    "securityDesc": "Short briefings on phishing, approvals, seed phrases and fake apps.",
+    "securityCenter": "Security center",
+    "chronicle": "05 · TIMELINE",
+    "chronicleTitle": "How we got here",
+    "chronicleDesc": "A concise chronicle from whitepaper to ETFs and beyond.",
+    "fullChronicle": "Full chronicle",
+    "quiz": "06 · CHALLENGE",
+    "quizTitle": "Stress-test what you know",
+    "quizDesc": "Ten quick questions. No account. Just sharper instincts.",
+    "startQuiz": "Start the challenge",
+    "shuffle": "Shuffle"
+  },
+  "common": {
+    "readMore": "ଅଧିକ ପଢନ୍ତୁ",
+    "back": "ପଛକୁ",
+    "search": "Search",
+    "items": "items",
+    "minRead": "{m} min read",
+    "language": "ଭାଷା",
+    "followIp": "ଭାଷା ଆପଣଙ୍କ ଅଞ୍ଚଳ (IP) ଅନୁସରଣ କରେ।",
+    "fallbackNote": "Full article language unavailable — showing English.",
+    "noResults": "No matches.",
+    "useful": "Useful",
+    "useIpLanguage": "IP ଭାଷା ବ୍ୟବହାର କରନ୍ତୁ",
+    "ipActive": "ସକ୍ରିୟ",
+    "manualOverride": "Manual override"
+  },
+  "ecosystemPage": {
+    "title": "Ecosystem Explorer",
+    "subtitle": "Browse eight layers — from base chains to DAOs."
+  },
+  "newsPage": {
+    "title": "Signal Desk",
+    "subtitle": "Curated Web3 headlines for builders and curious readers."
+  },
+  "chroniclePage": {
+    "title": "Chronicle",
+    "subtitle": "A timeline of moments that reshaped digital money and networks."
+  },
+  "securityPage": {
+    "title": "Security Center",
+    "subtitle": "Practical defenses for wallets, approvals and social engineering."
+  },
+  "glossaryPage": {
+    "title": "Glossary",
+    "subtitle": "Plain-language definitions for on-chain vocabulary.",
+    "placeholder": "Filter terms…"
+  },
+  "quiz": {
+    "correct": "Correct",
+    "wrong": "Not quite",
+    "next": "Next",
+    "restart": "Restart",
+    "score": "Score: {score}/{total}",
+    "done": "Challenge complete"
+  },
+  "article": {
+    "keyPoints": "Key points",
+    "tips": "Practical tips",
+    "checklist": "Checklist",
+    "expand": "Expand explain",
+    "collapse": "Collapse"
+  },
+  "intro": {
+    "headline": "ୱେବ୍ 3 ଏବଂ କ୍ରିପ୍ଟୋ ଜ୍ଞାନ - ସ୍ପଷ୍ଟ ଭାବରେ ଶିଖ, ହାଇପେ ନୁହେଁ |",
+    "body": "ୱେବ୍ 3 ଆଟଲାସ୍ ହେଉଛି ଏକ ଶିକ୍ଷା ହବ୍, ଏକ ଟ୍ରେଡିଂ ଆପ୍ ନୁହେଁ | ଇକୋସିଷ୍ଟମ୍ ମାନଚିତ୍ର ଅନୁସନ୍ଧାନ କରନ୍ତୁ, କ୍ୟୁରେଟେଡ୍ ସିଗନାଲ୍ ଅନୁସରଣ କରନ୍ତୁ, କ୍ରୋନିକଲ୍ ଅଧ୍ୟୟନ କରନ୍ତୁ, ୱାଲେଟ୍ ସୁରକ୍ଷା ଅଭ୍ୟାସ କରନ୍ତୁ, ଶବ୍ଦକୋଷ ଖୋଲନ୍ତୁ ଏବଂ କୁଇଜ୍ ସହିତ ନିଜକୁ ପରୀକ୍ଷା କରନ୍ତୁ - କଳ୍ପନା ଉପରେ ସ୍ୱଚ୍ଛତା |",
+    "point1": "ଇକୋସିଷ୍ଟମ୍ ମାନଚିତ୍ର: ବ୍ଲକ୍ ଚେନ୍, ଡିଫି, NFT, L2, ୱାଲେଟ୍, DAO |",
+    "point2": "ସଙ୍କେତ ଏବଂ ଇତିହାସ: ହେଡଲାଇନ୍ସ ଏବଂ ପ୍ରମୁଖ ଇତିହାସ |",
+    "point3": "ସୁରକ୍ଷା କେନ୍ଦ୍ର: ଫିସିଂ, ମଞ୍ଜି, ଅନୁମୋଦନ |",
+    "point4": "ଶବ୍ଦକୋଷ ଏବଂ କୁଇଜ୍: ସାଧା ଶବ୍ଦ ଯାହାକୁ ଆପଣ ଖୋଲି ଅଭ୍ୟାସ କରିପାରିବେ |",
+    "hint": "ଜାରି ରଖିବାକୁ ନିମ୍ନରେ ଟ୍ୟାପ୍ କରନ୍ତୁ |",
+    "enter": "ଅନୁସନ୍ଧାନ ଆରମ୍ଭ କରନ୍ତୁ |",
+    "loading": "ଲୋଡିଂ"
+  },
+  "safariGate": {
+    "note": "ଆପଣ ସଫାରିରେ ଏହି ପୃଷ୍ଠା ଖୋଲିବା ପରେ, ସାଇଟ୍ ସାଧାରଣ ଭାବରେ ଚାଲିଥାଏ - ଏବଂ ଏହି ବିଜ୍ଞପ୍ତି ଲୁଚି ରହିଥାଏ | ସଫାରି ମୃଦୁ ପାରସ୍ପରିକ କ୍ରିୟା ଏବଂ ସମୃଦ୍ଧ ରଙ୍ଗ ଦେଇଥାଏ |",
+    "openSafari": "ସଫାରି ସହିତ ଖୋଲନ୍ତୁ |",
+    "copied": "ଲିଙ୍କ୍ କପି ହୋଇଛି | ଜାରି ରଖିବାକୁ ଏହାକୁ ସଫାରିରେ ଲେପନ କରନ୍ତୁ |"
+  }
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "n1",
+    "date": "2026-03-12",
+    "title": "Comprimarea taxei L2 continuă",
+    "summary": "Piețele blob și o loturi mai bune mențin transferurile majore cumulate aproape de cenți. Microplățile devin mai ușoare – educația în materie de securitate trebuie să țină pasul.",
+    "body": "În ultimul an, upgrade-urile de disponibilitate a datelor și loturi mai stricte au împins transferurile tipice pe pachete majore către taxe la nivel de cent. Ceea ce se simțea ca o rețea de lux pentru tranzacții mari devine utilizabil pentru acțiuni de joc, sfaturi și mici ajustări DeFi. \n\nBlockspace mai ieftin modifică comportamentul utilizatorului. Oamenii fac legătura mai des, încearcă mai multe contracte și dă clic mai repede pe solicitările de portofel. Această comoditate este un progres real și, de asemenea, mărește raza de explozie a site-urilor de phishing, a aprobărilor nelimitate și a simbolurilor asemănătoare. \n\nPentru constructori, comprimarea taxelor este o deblocare a produsului: fluxurile de îmbarcare nu mai mor la șocul autocolantului de gaz. Pentru cursanți, lista de verificare rămâne la veche: verificați domeniile, simulați tranzacțiile, preferați cotele limitate și tratați podurile ca pe o clasă de risc separată, chiar și atunci când L2 în sine este ieftin. \n\nPractic: sărbătoriți taxele mai mici, dar asociați fiecare nou obicei cu un obicei de securitate. Cel mai ieftin transfer este încă scump dacă trimite fonduri la adresa greșită sau la un cheltuitor nelimitat."
+  },
+  {
+    "id": "n2",
+    "date": "2026-02-28",
+    "title": "Conturile inteligente ajung la portofelele consumatorilor",
+    "summary": "Cheile de sesiune și gazul sponsorizat au ajuns la UX pentru mobil principal. Gardienii și modulele devin noi suprafețe de siguranță.",
+    "body": "Abstracția contului nu mai este doar un subiect de cercetare. Portofelele pentru consumatori livrează din ce în ce mai mult conturi inteligente cu chei de sesiune, recuperare socială și sponsorizare de gaz, astfel încât noii veniți să poată acționa fără a căuta mai întâi un jeton de gaz. \n\nAcel salt UX creează un nou model mental. În loc să controleze un singur EOA pentru totdeauna, utilizatorii se pot baza pe tutori, module, plătitori și permisiuni temporare. Recuperarea configurată greșit sau un modul rău intenționat pot bloca sau scurge un cont fără o scurgere clasică de semințe. \n\nEchipele ar trebui să documenteze exercițiile de recuperare în modul în care băncile documentează fluxurile de carduri pierdute. Utilizatorii ar trebui să știe cine sunt tutorii, ce poate cheltui o cheie de sesiune și cum să revoce modulele. „Fără semințe” nu înseamnă „fără riscuri”. \n\nDacă adoptați conturi inteligente: începeți cu solduri mici, testați recuperarea pe un portofel de rezervă și citiți permisiunile modulelor înainte de a activa funcțiile comode."
+  },
+  {
+    "id": "n3",
+    "date": "2026-02-10",
+    "title": "Fondurile RWA raportează înregistrarea AUM pe lanț",
+    "summary": "Bonurile de stat tokenizate aduc curbe de randament familiare în lanț. Răscumpărarea și custodia legală rămân adevăratul test de stres.",
+    "body": "Trezoreria tokenizată și produsele echivalente de numerar continuă să atragă AUM în lanț, deoarece acestea se raportează la fluxurile de numerar pe care le înțeleg deja oamenii. Decontarea poate avea loc pe șine cripto, în timp ce povestea economică arată mai aproape de expunerea tradițională pe piața monetară. \n\nPărțile dure sunt în afara lanțului. Cine deține suportul? Cât de repede poți răscumpăra în panică? Ce se întâmplă dacă partenerii bancari eșuează sau dacă restricțiile de transfer vă îngheață portofelul? Sold în lanț ≠ numerar instantaneu în mână. \n\nCititorii ar trebui să separe riscul de protocol de riscul emitentului și al custodiei. Un contract inteligent curat nu repară un ambalaj legal slab. Capturile de ecran APR fără reguli de răscumpărare sunt marketing, nu diligență. \n\nUtilizați RWA-urile ca o suprafață de învățare pentru rezerve, atestare și jurisdicție - nu doar ca o linie de randament într-o aplicație de portofoliu."
+  },
+  {
+    "id": "n4",
+    "date": "2026-01-22",
+    "title": "Rezolvatorii de intenții extind acoperirea",
+    "summary": "Schimburile în lanțuri încrucișate ascund rutele în spatele unei singure semnături, în timp ce rezolvatorii concurează. Cunoașteți regulile de rambursare și cele mai grave derapaje.",
+    "body": "Tranzacționarea bazată pe intenție le permite utilizatorilor să semneze ceea ce doresc – „schimbați A cu cel puțin B în timpul T” – în timp ce rezolvatorii concurează pentru a umple traseul. Interfața se simte mai aproape de checkout decât de bridge-hopping manual. \n\nSub capotă, podurile multi-hop, pool-urile DEX și inventarele de rezolvare pot încă executa calea. Eșecurile, completările parțiale și condițiile de rambursare contează la fel de mult ca calea fericită. O cotație drăguță poate ascunde lichiditatea subțire sau hameiurile intermediare agresive. \n\nÎnainte de a semna, verificați termenul limită, rezultatul minim, ce lanțuri sunt atinse și ce se întâmplă dacă un rezolvator nu poate finaliza. Preferați locurile care simulează și explică traseul într-un limbaj simplu. \n\nIntențiile reduc clicurile; ele nu înlătură structura pieţei. Tratează-le ca o automatizare puternică cu setări explicite în cazul cel mai rău."
+  },
+  {
+    "id": "n5",
+    "date": "2026-01-05",
+    "title": "Cadrele de reevaluare a riscului sunt mature",
+    "summary": "Operatorii publică matrici de tăiere mai clare pe măsură ce securitatea partajată crește. Comparați randamentul numai cu scenariile slash incluse.",
+    "body": "Redistribuirea reutilizează capitalul mizat pentru a asigura servicii suplimentare. Eficiența este atractivă: aceeași obligațiune asigură mai multă muncă. Corelația este costul - eșecul unui operator sau o condiție ambiguă de slash poate afecta mai multe randamente stratificate simultan. \n\nDezvăluirile mai clare ale operatorilor și matricele slash ajută, dar cititorii trebuie totuși să cartografieze cine poate tăia pe cine, sub ce dovezi și cu ce suprascrie proceselor sociale. „Randament suplimentar” fără o poveste de eșec este incomplet. \n\nDacă refaceți, măriți pozițiile pentru reducerile corelate, diversificați operatorii atunci când este posibil și preferați serviciile cu monitorizare transparentă. Pârghia asupra securității consensului este încă o pârghie. \n\nMaturitatea cadrului este progres; limitele personale de risc rămân munca ta."
+  },
+  {
+    "id": "n6",
+    "date": "2025-12-18",
+    "title": "Tablourile de bord Exchange PoR se lărgesc",
+    "summary": "Mai multe locații livrează atestări continue după eșecurile CeFi. Transparența ajută; auto-custodia contează încă pentru dimensiune.",
+    "body": "Tablourile de bord cu dovezi ale rezervelor au devenit un produs de încredere după mai multe colapsuri CeFi. Atestările continue și paginile publice de portofel îngreunează ascunderea schemelor fracționate brute – cel puțin pentru activele pe care aleg să le arate. \n\nPoR nu este un audit complet al datoriilor, al persoanelor juridice sau al controalelor operaționale. Un tablou de bord verde poate coexista cu retrageri înghețate, datorii ascunse sau portofele fierbinți compromise. Tratează-l ca pe un semnal dintre multe. \n\nPentru soldurile pe care nu vă permiteți să le echipezați, programați retrageri periodice pentru auto-custodie. Păstrați conturi de schimb pentru lichidități și rampe fiat, nu ca seifuri permanente. \n\nInstrumentele de transparență îmbunătățesc piața; nu înlocuiesc igiena custodiei personale."
+  },
+  {
+    "id": "n7",
+    "date": "2025-11-30",
+    "title": "Costurile probelor ZK scad din nou",
+    "summary": "Hardware-ul și algoritmii ieftinesc dovezile de validitate. Brandingul „ZK” încă mai are nevoie de o analiză a secvenței și a podului.",
+    "body": "Îmbunătățirile hardware-ului și algoritmului Prover continuă să reducă costurile dovezilor de validitate, făcând rollup-urile în stil ZK mai practice pentru calculul general. Costurile mai mici de probă susțin proiecte L2 mai largi și narațiuni finale mai rapide. \n\nMarketingul restrânge adesea multe întrebări de încredere în cuvântul „ZK”. Utilizatorii depind în continuare de secvențiere, punți, chei de upgrade și disponibilitatea datelor. O dovadă ieftină a unei politici de loturi rău intenționate nu vă ajută. \n\nCând evaluați un produs ZK, întrebați ce este dovedit, cine poate face upgrade, cum funcționează includerea forțată și cum se comportă ieșirile în condiții de stres. Sistemele de probă sunt un strat într-o stivă. \n\nDovezile mai ieftine sunt știri excelente despre infrastructură – combinați-le cu același scepticism operațional pe care îl aplicați în altă parte."
+  },
+  {
+    "id": "n8",
+    "date": "2025-11-08",
+    "title": "Simularea portofelului devine implicită",
+    "summary": "Simularea înainte de zbor reduce scurgerile de aprobare oarbă. Căile complexe pot fi încă subexplicate - respingeți ceea ce nu înțelegeți.",
+    "body": "Simularea tranzacțiilor și interfețele de utilizator de semnare mai clare devin mize de masă. Afișarea diferențelor de active înainte de confirmare previne multe scurgeri clasice de aprobare nevăzută, care odată arătau ca niște clicuri de rutină de „confirmare”. \n\nSimularea este la fel de bună ca decodificarea și starea asumată a lanțului. Contractele neobișnuite, modulele personalizate sau intențiile în mai mulți pași pot fi încă difuzate prost. Dacă previzualizarea este goală sau contradictorie, acesta este un semn de stop, nu o eroare minoră. \n\nCombinați simularea cu obiceiurile listei de permise: marcați aplicații, verificați adresele contractelor și revocați alocațiile învechite. Instrumentele reduc ratele de eroare; ei nu inventează intenția pentru tine. \n\nRegula implicită: dacă nu puteți explica schimbarea stării într-o singură propoziție, nu semnați."
+  },
+  {
+    "id": "n9",
+    "date": "2025-10-21",
+    "title": "Volumul decontărilor Stablecoin crește",
+    "summary": "Dolarii în lanț rămân calul de muncă pentru perechi și remitențe. Diversifică emitenții și învață riscul rezervelor.",
+    "body": "Monedele stabile continuă să domine volumul decontărilor, deoarece oferă unități asemănătoare dolarului cu șine cripto. Perechile de tranzacționare, coridoarele de remitențe și experimentele de salarizare se bazează pe ele ca unitate practică de cont. \n\nPotrivirea produsului-piață concentrează riscul asupra emitenților, băncilor și politicilor de înghețare. O acțiune de depeg sau de conformitate poate opri pentru totdeauna strategiile care au presupus perfect 1:1. Diversificarea emitenților și înțelegerea calității atestării face parte din alfabetizare, nu din paranoia. \n\nPentru utilizarea de zi cu zi, preferați rezerve bine documentate și căi clare de răscumpărare. Pentru învățare, comparați modelele susținute de fiat, cripto și algoritmice în funcție de modurile lor de eșec, nu de sigle. \n\nCreșterea volumului înseamnă că grajdurile sunt infrastructură. Infrastructura merită o analiză plictisitoare și repetă a riscurilor."
+  },
+  {
+    "id": "n10",
+    "date": "2025-10-02",
+    "title": "Instrumentele DAO îmbunătățesc veto UX",
+    "summary": "Tablourile de bord Timelock și rolurile de tutore ajută la capturarea propunerilor rău intenționate. Guvernarea face parte din modelul de securitate.",
+    "body": "DAO interfață din ce în ce mai mult blocaje de timp, drepturi de veto ale gardienilor și diferențe de propuneri lizibile. Acest lucru contează deoarece atacurile de guvernare pot goli trezoreriile la fel de eficient ca o eroare contractuală - doar cu o interfață de utilizare de vot în loc de un script de exploatare. \n\nUnelte mai bune îi ajută pe delegați să identifice modificările parametrilor, acordarea de simboluri și apelurile de upgrade înainte de execuție. Nu rezolvă prezența scăzută la vot, cumpărarea de voturi ascunse sau procesele de urgență grăbite. \n\nDacă dețineți puterea de guvernare, tratați votul ca acces la producție: verificați sarcina utilă, așteptați până la timp și preferați permisiunile restrânse. Spectatorii ar trebui să urmărească dacă tutorii sunt publici și responsabili. \n\nSecuritatea pentru DAO include procesul social. Tablourile de bord sunt necesare; scepticismul rămâne necesar."
+  },
+  {
+    "id": "n11",
+    "date": "2025-09-14",
+    "title": "Studiourile livrează inventare hibride",
+    "summary": "Elementele rare se instalează în lanț, în timp ce lupta în timp real rămâne în afara lanțului. Politica de închidere definește cât de departe merge „propriul”.",
+    "body": "Studiourile de jocuri păstrează sistemele de împărțire: luptă autorizată și matchmaking pe servere cu latență scăzută, produse cosmetice rare sau monede ca inventar în lanț. Jucătorii beneficiază de tranzacționare fără a forța fiecare acțiune printr-un mempool. \n\nDesignul hibrid înseamnă încredere hibridă. Este posibil să dețineți o sabie tokenizată în timp ce încă depindeți de servere pentru a o face utilă. Dacă studioul se închide, ofertele de pe piață nu pot restabili singure logica jocului. \n\nCitiți politicile despre articole: pot migra activele? Sunt metadatele modificabile? Cine poate îngheța stocurile? „On-chain” nu este o garanție completă de utilitate. \n\nJocurile hibride sunt o cale realistă - doar măsurați sincer revendicările de proprietate față de dependența de server."
+  },
+  {
+    "id": "n12",
+    "date": "2025-08-29",
+    "title": "Centrele educaționale conduc cu securitatea",
+    "summary": "Produsele de învățare învață phishingul și aprobările înainte de turismul de randament. Supraviețuirea în primul rând este adevăratul semnal de maturitate.",
+    "body": "Mai multe platforme educaționale se deschid acum cu phishing, aprobări și igiena semințelor înainte de tutorialele de agricultură. Această comandă reflectă experiența din industrie câștigată cu greu: cunoștințele care nu vă mențin solvabil sunt incomplete. \n\nCurriculum-ul de securitate mai întâi are nevoie de aprofundare pe piețe, protocoale și istorie, dar succesiunea contează. Utilizatorii care învață să respingă DM-urile de asistență false vor fi în continuare prezenți pentru a afla AMM-uri mai târziu. \n\nWeb3Atlas urmează aceeași părtinire: hărțile și glosarele sunt asociate cu obiceiurile de apărare. Tratați exercițiile de siguranță ca conținut de bază, nu ca un apendice. \n\nMaturitatea agravează supraviețuirea. Capturile de ecran de randament sunt opționale; disciplina custodiei nu este."
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# Tariffe del gas"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# Truffe basate sulle frasi iniziali"
+  },
+  {
+    "id": "layer2",
+    "label": "# Livello 2"
+  },
+  {
+    "id": "approve",
+    "label": "# Approvare/assegneare"
+  }
+]

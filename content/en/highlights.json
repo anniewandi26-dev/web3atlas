@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# Gas fees"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# Seed-phrase scams"
+  },
+  {
+    "id": "layer2",
+    "label": "# Layer 2"
+  },
+  {
+    "id": "approve",
+    "label": "# Approve / allowance"
+  }
+]

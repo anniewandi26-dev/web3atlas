@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# Taxas de gás"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# Golpes de frase-semente"
+  },
+  {
+    "id": "layer2",
+    "label": "# Camada 2"
+  },
+  {
+    "id": "approve",
+    "label": "# Aprovar/permitir"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# Taxe de gaz"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# Escrocherii cu fraze semințe"
+  },
+  {
+    "id": "layer2",
+    "label": "# Stratul 2"
+  },
+  {
+    "id": "approve",
+    "label": "# Aprobare/alocație"
+  }
+]

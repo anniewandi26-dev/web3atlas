@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Web3 Knowledge Infrastructure",
+    "badge": "Security First"
+  },
+  "nav": {
+    "explore": "Jelajah",
+    "ecosystem": "Ekosistem",
+    "news": "Warta",
+    "chronicle": "Babad",
+    "security": "Keamanan",
+    "glossary": "Glosarium"
+  },
+  "hero": {
+    "kicker": "8 ECOSYSTEM LAYERS · TAP TO LEARN",
+    "titleLine1": "The Internet Is Changing.",
+    "titleLine2": "Map What Comes Next.",
+    "subtitle": "Discover networks, protocols and ideas shaping Web3 — built for clarity, not hype.",
+    "ctaPrimary": "Explore the Ecosystem",
+    "ctaSecondary": "Open Security Center",
+    "pause": "Pause animation",
+    "play": "Play animation"
+  },
+  "sections": {
+    "ecosystem": "01 · ECOSYSTEM",
+    "ecosystemTitle": "Explore by category",
+    "ecosystemDesc": "Eight layers of Web3. Open one to see concepts and real-world patterns.",
+    "openExplorer": "Open explorer",
+    "news": "02 · SIGNAL",
+    "newsTitle": "What's moving",
+    "newsDesc": "Curated headlines that help you follow infrastructure, markets and regulation.",
+    "allHeadlines": "All headlines",
+    "glossary": "03 · LEXICON",
+    "glossaryTitle": "Speak the language",
+    "glossaryDesc": "Fast definitions for terms you will see every day on-chain.",
+    "openGlossary": "Open glossary",
+    "security": "04 · DEFENSE",
+    "securityTitle": "Stay hard to hack",
+    "securityDesc": "Short briefings on phishing, approvals, seed phrases and fake apps.",
+    "securityCenter": "Security center",
+    "chronicle": "05 · TIMELINE",
+    "chronicleTitle": "How we got here",
+    "chronicleDesc": "A concise chronicle from whitepaper to ETFs and beyond.",
+    "fullChronicle": "Full chronicle",
+    "quiz": "06 · CHALLENGE",
+    "quizTitle": "Stress-test what you know",
+    "quizDesc": "Ten quick questions. No account. Just sharper instincts.",
+    "startQuiz": "Start the challenge",
+    "shuffle": "Shuffle"
+  },
+  "common": {
+    "readMore": "Waca liyane",
+    "back": "Bali",
+    "search": "Search",
+    "items": "items",
+    "minRead": "{m} min read",
+    "language": "Basa",
+    "followIp": "Basa ngetutake wilayah (IP).",
+    "fallbackNote": "Full article language unavailable — showing English.",
+    "noResults": "No matches.",
+    "useful": "Useful",
+    "useIpLanguage": "Gunakake basa IP",
+    "ipActive": "aktif",
+    "manualOverride": "Manual override"
+  },
+  "ecosystemPage": {
+    "title": "Ecosystem Explorer",
+    "subtitle": "Browse eight layers — from base chains to DAOs."
+  },
+  "newsPage": {
+    "title": "Signal Desk",
+    "subtitle": "Curated Web3 headlines for builders and curious readers."
+  },
+  "chroniclePage": {
+    "title": "Chronicle",
+    "subtitle": "A timeline of moments that reshaped digital money and networks."
+  },
+  "securityPage": {
+    "title": "Security Center",
+    "subtitle": "Practical defenses for wallets, approvals and social engineering."
+  },
+  "glossaryPage": {
+    "title": "Glossary",
+    "subtitle": "Plain-language definitions for on-chain vocabulary.",
+    "placeholder": "Filter terms…"
+  },
+  "quiz": {
+    "correct": "Correct",
+    "wrong": "Not quite",
+    "next": "Next",
+    "restart": "Restart",
+    "score": "Score: {score}/{total}",
+    "done": "Challenge complete"
+  },
+  "article": {
+    "keyPoints": "Key points",
+    "tips": "Practical tips",
+    "checklist": "Checklist",
+    "expand": "Expand explain",
+    "collapse": "Collapse"
+  },
+  "intro": {
+    "headline": "Kawruh Web3 & crypto — sinau kanthi jelas, dudu hype",
+    "body": "Web3Atlas minangka pusat pendidikan, dudu aplikasi dagang. Jelajahi peta ekosistem, tindakake sinyal sing dikurasi, sinau babagan babad, praktik keamanan dompet, bukak glosarium, lan nyoba dhewe nganggo kuis - kejelasan babagan spekulasi.",
+    "point1": "Peta ekosistem: blockchain, DeFi, NFT, L2, dompet, DAO",
+    "point2": "Sinyal & babad: berita utama lan riwayat utama",
+    "point3": "Pusat keamanan: phishing, wiji, persetujuan",
+    "point4": "Glosarium & kuis: istilah biasa sing bisa dibukak lan praktek",
+    "hint": "Tutul ing ngisor iki kanggo nerusake",
+    "enter": "Miwiti njelajah",
+    "loading": "Loading"
+  },
+  "safariGate": {
+    "note": "Sawise sampeyan mbukak kaca iki ing Safari, situs kasebut mlaku kanthi normal - lan kabar iki tetep didhelikake. Safari menehi interaksi sing luwih alus lan warna sing luwih sugih.",
+    "openSafari": "Bukak nganggo Safari",
+    "copied": "Link disalin. Tempel ing Safari kanggo nerusake."
+  }
+}

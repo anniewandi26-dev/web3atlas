@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Infrastruktur pengetahuan Web3",
+    "badge": "Keamanan dulu"
+  },
+  "nav": {
+    "explore": "Jelajah",
+    "ecosystem": "Ekosistem",
+    "news": "Berita",
+    "chronicle": "Kronik",
+    "security": "Keamanan",
+    "glossary": "Glosarium"
+  },
+  "hero": {
+    "kicker": "8 LAPISAN · KETUK UNTUK BELAJAR",
+    "titleLine1": "Internet sedang berubah.",
+    "titleLine2": "Petakan apa yang datang.",
+    "subtitle": "Jaringan dan ide Web3 — jelas, tanpa hype.",
+    "ctaPrimary": "Jelajahi ekosistem",
+    "ctaSecondary": "Pusat keamanan",
+    "pause": "Jeda",
+    "play": "Putar"
+  },
+  "sections": {
+    "ecosystem": "01 · EKOSISTEM",
+    "ecosystemTitle": "Jelajah per kategori",
+    "ecosystemDesc": "Delapan lapisan Web3.",
+    "openExplorer": "Buka explorer",
+    "news": "02 · SINYAL",
+    "newsTitle": "Yang sedang bergerak",
+    "newsDesc": "Headline pilihan.",
+    "allHeadlines": "Semua headline",
+    "glossary": "03 · LEKSIKON",
+    "glossaryTitle": "Bicara bahasa yang sama",
+    "glossaryDesc": "Definisi cepat.",
+    "openGlossary": "Buka glosarium",
+    "security": "04 · PERTAHANAN",
+    "securityTitle": "Sulit di-hack",
+    "securityDesc": "Phishing, approve, seed.",
+    "securityCenter": "Pusat keamanan",
+    "chronicle": "05 · LINIMASA",
+    "chronicleTitle": "Bagaimana kita sampai di sini",
+    "chronicleDesc": "Dari whitepaper ke ETF.",
+    "fullChronicle": "Kronik penuh",
+    "quiz": "06 · TANTANGAN",
+    "quizTitle": "Uji pengetahuan",
+    "quizDesc": "Sepuluh pertanyaan.",
+    "startQuiz": "Mulai",
+    "shuffle": "Acak"
+  },
+  "common": {
+    "readMore": "Baca lagi",
+    "back": "Kembali",
+    "search": "Cari",
+    "items": "item",
+    "minRead": "{m} mnt",
+    "language": "Bahasa",
+    "followIp": "Bahasa mengikuti wilayah (IP).",
+    "fallbackNote": "Konten dilokalkan.",
+    "noResults": "Tidak ada hasil.",
+    "useful": "Berguna",
+    "useIpLanguage": "Gunakan bahasa IP",
+    "ipActive": "aktif",
+    "manualOverride": "Manual"
+  },
+  "ecosystemPage": {
+    "title": "Penjelajah ekosistem",
+    "subtitle": "Delapan lapisan."
+  },
+  "newsPage": {
+    "title": "Meja sinyal",
+    "subtitle": "Headline Web3."
+  },
+  "chroniclePage": {
+    "title": "Kronik",
+    "subtitle": "Momen yang membentuk uang digital."
+  },
+  "securityPage": {
+    "title": "Pusat keamanan",
+    "subtitle": "Pertahanan praktis."
+  },
+  "glossaryPage": {
+    "title": "Glosarium",
+    "subtitle": "Definisi jelas.",
+    "placeholder": "Filter…"
+  },
+  "quiz": {
+    "correct": "Benar",
+    "wrong": "Belum tepat",
+    "next": "Lanjut",
+    "restart": "Ulang",
+    "score": "Skor: {score}/{total}",
+    "done": "Selesai"
+  },
+  "article": {
+    "keyPoints": "Poin utama",
+    "tips": "Tips praktis",
+    "checklist": "Checklist",
+    "expand": "Perluas",
+    "collapse": "Tutup"
+  },
+  "intro": {
+    "headline": "Pengetahuan web3 & kripto — pelajari dengan jelas, bukan sensasi",
+    "body": "Web3Atlas adalah pusat pendidikan, bukan aplikasi perdagangan. Jelajahi peta ekosistem, ikuti sinyal yang dikurasi, pelajari kroniknya, praktikkan keamanan dompet, buka glosarium, dan uji diri Anda dengan kuis — kejelasan atas spekulasi.",
+    "point1": "Peta ekosistem: blockchain, DeFi, NFT, L2, dompet, DAO",
+    "point2": "Sinyal & kronik: berita utama plus sejarah penting",
+    "point3": "Pusat keamanan: phishing, seed, persetujuan",
+    "point4": "Glosarium & kuis: istilah sederhana yang dapat Anda buka dan praktikkan",
+    "hint": "Ketuk di bawah untuk melanjutkan",
+    "enter": "Mulailah menjelajah",
+    "loading": "Memuat"
+  },
+  "safariGate": {
+    "note": "Setelah Anda membuka halaman ini di Safari, situs berjalan normal — dan pemberitahuan ini tetap tersembunyi. Safari memberikan interaksi yang lebih lancar dan warna yang lebih kaya.",
+    "openSafari": "Buka dengan Safari",
+    "copied": "Tautan disalin. Tempelkan di Safari untuk melanjutkan."
+  }
+}

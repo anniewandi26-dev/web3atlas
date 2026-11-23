@@ -1,0 +1,86 @@
+[
+  {
+    "id": "n1",
+    "date": "2026-03-12",
+    "title": "Ana ci gaba da matsawa kuɗin L2",
+    "summary": "Kasuwannin Blob da mafi kyawun batching suna ci gaba da canja wurin manyan-sassa kusa da centi. Karancin biyan kuɗi yana samun sauƙi - dole ne a ci gaba da ilimin tsaro.",
+    "body": "A cikin shekarar da ta gabata, haɓaka-samuwar bayanai da ƙwaƙƙwaran batching sun ingiza sauye-sauye na yau da kullun akan manyan juzu'i zuwa kudade na matakin ɗari. Abin da ya kasance yana jin kamar cibiyar sadarwar alatu don manyan cinikai yana zama abin amfani don ayyukan wasan, nasiha, da ƙananan gyare-gyare na DeFi. \n\nBlockspace mai rahusa yana canza halayen mai amfani. Mutane suna yin gada sau da yawa, gwada ƙarin kwangila, kuma danna ta hanyar walat ɗin da sauri. Wannan dacewa shine ci gaba na gaske-kuma yana kuma faɗaɗa ƙwanƙwasa ƙwanƙolin rukunin yanar gizo, amincewa mara iyaka, da alamun kamanni. \n\nGa masu gini, matsawar kuɗi buɗaɗɗen samfur ce: kwararar jirgi baya mutuwa akan firgita sitika gas. Ga masu koyo, jerin abubuwan dubawa suna zama tsohon-makaranta: tabbatar da yanki, daidaita ma'amaloli, fifita iyakataccen alawus, da ɗaukar gadoji a matsayin rukunin haɗari daban koda kuwa L2 kanta yana da arha. \n\nHanya mai amfani: bikin ƙananan kudade, amma haɗa kowace sabuwar al'ada tare da al'adar tsaro. Canja wuri mafi arha har yanzu yana da tsada idan ta aika kuɗi zuwa adireshin da ba daidai ba ko mai kashe kuɗi mara iyaka."
+  },
+  {
+    "id": "n2",
+    "date": "2026-02-28",
+    "title": "Smart asusu suna isa walat ɗin mabukaci",
+    "summary": "Maɓallan zama da iskar iskar gas ɗin da aka ɗauki nauyi sun bugi UX ta wayar hannu ta al'ada. Masu gadi da kayayyaki sun zama sabbin wuraren aminci.",
+    "body": "Ƙirƙirar asusu ba batun bincike ne kawai ba. Wallet ɗin masu amfani suna ƙara jigilar asusu masu wayo tare da maɓallan zaman, farfadowar zamantakewa, da tallafin iskar gas ta yadda sabbin shiga za su iya yin aiki ba tare da fara farautar alamar gas ba. \n\nWannan tsallen UX yana haifar da sabon ƙirar tunani. Maimakon iri ɗaya mai sarrafa EOA ɗaya har abada, masu amfani na iya dogara ga masu kulawa, kayayyaki, masu biyan kuɗi, da izini na wucin gadi. Mayar da ba daidai ba ko tsarin qeta na iya kulle ko zubar da asusu ba tare da tsattsauran iri ba. \n\nYa kamata ƙungiyoyi su rubuta aikin farfadowa kamar yadda bankunan ke tattara katin batattu. Ya kamata masu amfani su san su waye masu kula da su, menene maɓalli na zaman zai iya kashewa, da kuma yadda ake soke tsarin. \"marasa iri\" baya nufin \"marasa haɗari.\" \n\nIdan kun yi amfani da asusu masu wayo: fara da ƙananan ma'auni, gwada farfadowa akan walat ɗin ajiya, da karanta izini na ƙirar kafin kunna fasalulluka masu dacewa."
+  },
+  {
+    "id": "n3",
+    "date": "2026-02-10",
+    "title": "Rahoton kuɗi na RWA yana ba da rahoton rikodin sarkar AUM",
+    "summary": "Takaddun kudi na T-ƙira suna kawo sabani masu lankwasa kan sarkar. Fansa da tsare doka sun kasance ainihin gwajin damuwa.",
+    "body": "Baitul mali da samfuran kwatankwacin kuɗaɗe suna ci gaba da jan hankalin AUM akan sarkar saboda suna taswirar tsabar kuɗi da mutane suka riga suka fahimta. Matsala na iya faruwa akan layin dogo na crypto yayin da labarin tattalin arziƙin ya yi kusa da fallasa kasuwancin kuɗi na gargajiya. \n\nAbubuwan da ke da wuya ba su da sarkar. Wanene ke riƙe da tushe? Yaya sauri za ku iya fansa a cikin firgita? Me zai faru idan abokan aikin banki sun gaza, ko kuma idan hane-hane na canja wuri ya daskare walat ɗin ku? Ma'auni akan sarkar ≠ tsabar kudi nan take a hannu. \n\nMasu karatu yakamata su ware haɗarin yarjejeniya daga mai bayarwa da haɗarin tsarewa. Kwangila mai wayo mai tsafta ba ya gyara naɗaɗɗen doka mai rauni. Hoton hotunan APR ba tare da ka'idojin fansa ba talla ne, ba ƙwazo ba. \n\nYi amfani da RWAs azaman filin koyo don tanadi, shaida, da hukumci-ba kawai azaman layin amfanin ƙasa a cikin aikace-aikacen fayil ba."
+  },
+  {
+    "id": "n4",
+    "date": "2026-01-22",
+    "title": "Masu warware niyya suna faɗaɗa ɗaukar hoto",
+    "summary": "Musanya sarkar giciye suna ɓoye hanyoyi a bayan sa hannu ɗaya yayin da masu warware matsalar ke fafatawa. Sanin maida kuɗi da mafi munin ƙa'idodin zamewa.",
+    "body": "Ciniki na tushen niyya yana bawa masu amfani damar sanya hannu akan abin da suke so-“swap A don aƙalla B ta lokaci T” yayin da masu warwarewa ke gasa don cike hanyar. Mai dubawa yana jin kusa da wurin biya fiye da zuwa hopping gada da hannu. \n\nƘarƙashin kaho, gadoji da yawa, wuraren tafkunan DEX, da kayan aikin warwarewa na iya aiwatar da hanyar. Rashin gazawa, cika bangare, da yanayin dawowa suna da mahimmanci kamar hanyar farin ciki. Kyakkyawar magana na iya ɓoye ɓacin rai na bakin ciki ko matsananciyar hops. \n\nKafin sanya hannu, duba ranar ƙarshe, mafi ƙarancin fitarwa, waɗanne sarƙoƙi aka taɓa, da abin da zai faru idan mai warwarewa ba zai iya kammala ba. Fi son wuraren da suka kwaikwayi da bayyana hanya a cikin yare bayyananne. \n\nƘimar ta rage danna; ba sa cire tsarin kasuwa. Ɗauke su azaman mai ƙarfi ta atomatik tare da fayyace saituna mafi muni."
+  },
+  {
+    "id": "n5",
+    "date": "2026-01-05",
+    "title": "Maimaita tsarin haɗari sun girma",
+    "summary": "Masu gudanar da aiki suna fitar da mafi kyawun matrix masu tsinke yayin da tsaro ɗaya ke girma. Kwatanta yawan amfanin ƙasa kawai tare da ƙulla abubuwan da aka haɗa.",
+    "body": "Sake amfani da babban jari don amintaccen ƙarin ayyuka. Ingancin yana da ban sha'awa: haɗin gwiwa ɗaya yana ƙaddamar da ƙarin aiki. Haɗin kai shine farashi- gazawar ma'aikaci ɗaya ko yanayin slash mai ma'ana zai iya kaiwa ga yawan amfanin ƙasa lokaci guda. \n\nFilayen mai aiki da bayyanawa da slash matrices suna taimakawa, amma masu karatu har yanzu suna buƙatar taswirar wanda zai iya yanke wa, ƙarƙashin wace shaida, da abin da tsarin zamantakewa ya soke. \"Ƙarin yawan amfanin ƙasa\" ba tare da gazawar labarin bai cika ba. \n\nIdan kun sake dawo da, girman matsayi don faɗuwar abubuwa masu alaƙa, haɓaka masu aiki idan zai yiwu, kuma sun fi son ayyuka tare da sa ido na zahiri. Riba kan tsaro yarjejeniya har yanzu ana amfani da shi. \n\nTsarin balagagge shine ci gaba; Iyakokin haɗari na sirri sun kasance aikinku."
+  },
+  {
+    "id": "n6",
+    "date": "2025-12-18",
+    "title": "Musanya PoR dashboards ya faɗaɗa",
+    "summary": "Ƙarin wuraren da ake ci gaba da jigilar shaida bayan gazawar CeFi. Gaskiya yana taimakawa; tsare kai har yanzu yana da mahimmanci ga girman.",
+    "body": "Tabbatattun dashboards sun zama abin dogaro bayan faɗuwar CeFi da yawa. Ci gaba da shaida da shafukan jama'a na walat suna sa ya zama da wahala a ɓoye ɓoyayyiyar ɓangarori na ɓarna - aƙalla don kadarorin da suka zaɓa don nunawa. \n\nPoR ba cikakken bincike ba ne na haƙƙoƙi, ƙungiyoyin doka, ko sarrafawar aiki. Koren dashboard na iya zama tare tare da daskararrun cirewa, boyayyun bashi, ko ƙwaƙƙwaran walat ɗin zafi. Ɗauke shi azaman sigina ɗaya a tsakanin mutane da yawa. \n\nDon ma'aunin ma'auni ba za ku iya yin la'akari ba, tsara jadawalin cirewa lokaci-lokaci zuwa tsare kanku. Ajiye asusun musanya don yawan kuɗi da fiat ramps, ba azaman ma'auni na dindindin ba. \n\nKayan aikin gaskiya sun inganta kasuwa; ba sa maye gurbin tsaftar tsare sirri."
+  },
+  {
+    "id": "n7",
+    "date": "2025-11-30",
+    "title": "ZK prover farashin ya sake raguwa",
+    "summary": "Hardware da Algorithms suna rahusa tabbacin inganci. Har ila yau alamar \"ZK\" tana buƙatar mai bincike da bincike ga gada.",
+    "body": "Prover hardware da algorithm haɓakawa suna ci gaba da rage farashin ingantattun hujjoji, yana sa nau'ikan nau'ikan nau'ikan ZK ya fi dacewa don ƙididdigewa gabaɗaya. Ƙididdiga ƙananan ƙididdiga yana goyan bayan ƙira L2 mafi fa'ida da labaran ƙarshe cikin sauri. \n\nTallace-tallacen kan rushe yawancin amintattun tambayoyin cikin kalmar \"ZK.\" Masu amfani har yanzu sun dogara da masu biyo baya, gadoji, maɓallan haɓakawa, da wadatar bayanai. Tabbacin arha na manufar tsari ba zai taimaka muku ba. \n\nLokacin kimanta samfurin ZK, tambayi abin da aka tabbatar, wanda zai iya haɓakawa, yadda tilasta haɗawa ke aiki, da kuma yadda fita ke aiki a ƙarƙashin damuwa. Tsarukan tabbatarwa ɗaya ne a cikin tari. \n\nHujjoji masu arha ingantattun labarai ne na ababen more rayuwa - haɗa su tare da shakku na aiki iri ɗaya da kuke nema a wani wuri."
+  },
+  {
+    "id": "n8",
+    "date": "2025-11-08",
+    "title": "Simulation na walat ya zama tsoho",
+    "summary": "Simulation preflight yana yanke magudanar amincewa da makanta. Har ila yau za a iya fayyace hadaddun hanyoyin hanyoyi - ƙin abin da ba ku fahimta ba.",
+    "body": "Simulation na ma'amala da mafi kyawun sa hannun UI suna zama gungumomi na tebur. Nuna bambance-bambancen kadara kafin tabbatarwa yana hana yawancin magudanar amincewa da makafi waɗanda da zarar sunyi kama da dannawa na yau da kullun \"tabbatar\". \n\nKwaikwayo yana da kyau kawai kamar yanke hukunci da yanayin sarkar da aka ɗauka. Kwangilolin da ba a saba gani ba, na'urori na al'ada, ko maƙasudin matakai da yawa na iya zama mara kyau. Idan samfotin fanko ne ko kuma ya saba wa juna, wannan alama ce ta tsayawa-ba ƙaramin ƙulli ba. \n\nHaɗa kwaikwaya tare da halayen lissafin izini: ƙa'idodin alamar shafi, tabbatar da adiresoshin kwangila, da soke alawus ɗin da ba su da yawa. Kayan aiki suna rage ƙimar kuskure; Ba su ƙirƙira maka niyya. \n\nDoka ta asali: idan ba za ku iya bayyana canjin jihar a cikin jumla ɗaya ba, kar ku sa hannu."
+  },
+  {
+    "id": "n9",
+    "date": "2025-10-21",
+    "title": "Stablecoin kasuwar kasuwa",
+    "summary": "Dalar kan-sarkar ta kasance dokin aiki na nau'i-nau'i da kuma turawa. Bambance masu fitarwa kuma koyi haɗarin ajiya.",
+    "body": "Stablecoins na ci gaba da mamaye girman sasantawa saboda suna ba da raka'a-kamar dala tare da layin crypto. Kasuwancin nau'i-nau'i, hanyoyin aika kuɗi, da gwaje-gwajen biyan kuɗi duk sun dogara da su azaman sashin asusu mai amfani. \n\nDaidaitaccen kasuwa-kasuwa yana mai da hankali kan haɗari ga masu bayarwa, bankuna, da manufofin daskare. Ƙaddamarwa ko aikin yarda zai iya dakatar da dabarun da suka ɗauka cikakke 1: 1 har abada. Bambance-bambancen masu bayarwa da fahimtar ingancin shaida wani bangare ne na karatun karatu, ba paranoia ba. \n\nDon amfanin yau da kullun, fi son tanadin da aka rubuta da kyau da share hanyoyin fansa. Don koyo, kwatanta fiat-goyon baya, crypto-goyan baya, da ƙirar algorithm ta hanyoyin gazawar su-ba tambarin su ba. \n\nGirman girma yana nufin tsayayyun ababen more rayuwa. Kayayyakin gine-gine sun cancanci m, maimaita hadarin sake dubawa."
+  },
+  {
+    "id": "n10",
+    "date": "2025-10-02",
+    "title": "DAO kayan aiki yana inganta veto UX",
+    "summary": "Dash allunan kulle lokaci da ayyukan masu kulawa suna taimakawa kama shawarwarin mugunta. Mulki wani bangare ne na tsarin tsaro.",
+    "body": "Abubuwan musaya na DAO suna ƙara ƙullewar lokaci, ƙwararrun masu kulawa, da shawarwarin da za a iya karantawa. Wannan yana da mahimmanci saboda hare-haren gwamnati na iya ɓarna baitul mali yadda ya kamata a matsayin kwaro na kwangila-kawai tare da UI mai jefa ƙuri'a maimakon rubutun amfani. \n\nKyakkyawan kayan aiki yana taimaka wa wakilai su sami sauye-sauyen sigogi, tallafin alama, da haɓaka kira kafin aiwatarwa. Ba ya gyara ƙarancin fitowar jama'a, siyan kuri'a na ɓoye, ko matakan gaggawa na gaggawa. \n\nIdan kuna riƙe da ikon mulki, ɗauki jefa ƙuri'a kamar samun damar samarwa: tabbatar da abin da aka biya, jira ta hanyar kulle lokaci, kuma zaɓi kunkuntar izini. Ya kamata masu kallo su bi diddigin ko masu kula da jama'a ne kuma masu kishin kasa. \n\nTsaro ga DAO ya haɗa da tsarin zamantakewa. Dashboards wajibi ne; shakka ya rage da ake bukata."
+  },
+  {
+    "id": "n11",
+    "date": "2025-09-14",
+    "title": "Studios na jigilar kayan haɗin gwiwar",
+    "summary": "Abubuwan da ba su da yawa suna daidaita sarkar yayin da yaƙi na ainihi ya tsaya a kan sarkar. Manufar rufewa ta bayyana nisa \"nasa\" ke tafiya.",
+    "body": "Studios na wasan suna ci gaba da rarrabuwar kawuna: yaƙi mai iko da daidaitawa akan sabar saƙo mara ƙarancin ƙarfi, ƙarancin kayan kwalliya ko kuɗi azaman ƙira akan sarkar. Yan wasa suna samun tradability ba tare da tilasta kowane aiki ta hanyar mempool ba. \n\nHaɓaka ƙira yana nufin amintaccen haɗin gwiwa. Kuna iya mallakar takobi mai alama yayin da har yanzu kuna dogara ga sabobin don yin amfani da shi. Idan ɗakin studio ya rufe, ƙaddamar da kasuwa ba zai iya dawo da tunanin wasan da kansu ba. \n\nKaranta manufofin abu: Shin dukiya za ta iya ƙaura? Shin metadata za a iya canzawa? Wanene zai iya daskare kayayyaki? \"A kan sarkar\" ba cikakken garantin mai amfani bane. \n\nWasannin matasan hanya ce ta gaskiya-kawai auna iƙirarin mallakar mallaka a kan dogaro da uwar garken gaskiya."
+  },
+  {
+    "id": "n12",
+    "date": "2025-08-29",
+    "title": "Cibiyoyin ilimi suna jagoranci tare da tsaro",
+    "summary": "Kayayyakin koyo suna koyar da phishing da yarda kafin samar da yawon shakatawa. Tsira na farko shine ainihin siginar balaga.",
+    "body": "Ƙarin dandamali na ilimi yanzu suna buɗewa tare da phishing, yarda, da tsaftar iri kafin koyaswar noma. Wannan oda yana nuna ƙwarewar masana'antu masu wahala: ilimin da baya kiyaye ku da ƙarfi bai cika ba. \n\nHar yanzu manhajojin tsaro-na farko suna buƙatar zurfin kan kasuwanni, ƙa'idodi, da tarihi-amma jerin suna da mahimmanci. Masu amfani waɗanda suka koyi ƙin goyon bayan DM na karya za su kasance a kusa don koyon AMMs daga baya. \n\nWeb3Atlas yana biye da son zuciya ɗaya: taswirori da ƙamus an haɗa su tare da halayen tsaro. Ɗauki matakan tsaro a matsayin ainihin abun ciki, ba ƙari ba. \n\nBalaga yana haɓaka rayuwa. Haɓaka hotunan kariyar kwamfuta na zaɓi ne; horon tsarewa ba."
+  }
+]

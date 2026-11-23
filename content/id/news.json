@@ -1,0 +1,86 @@
+[
+  {
+    "id": "n1",
+    "date": "2026-03-12",
+    "title": "Kompresi biaya L2 berlanjut",
+    "summary": "Pasar blob dan batching yang lebih baik membuat transfer besar-besaran mendekati sen. Pembayaran mikro menjadi lebih mudah—pendidikan keamanan harus terus dipertahankan.",
+    "body": "Selama setahun terakhir, peningkatan ketersediaan data dan pengelompokan yang lebih ketat telah mendorong transfer pada umumnya ke biaya sen. Apa yang dulunya terasa seperti jaringan mewah untuk perdagangan besar kini dapat digunakan untuk aksi permainan, tip, dan penyesuaian kecil DeFi. \n\nBlockspace yang lebih murah mengubah perilaku pengguna. Orang-orang lebih sering menjembatani, mencoba lebih banyak kontrak, dan mengklik perintah dompet lebih cepat. Kenyamanan tersebut merupakan kemajuan nyata—dan juga memperluas radius serangan situs phishing, persetujuan tanpa batas, dan token serupa. \n\nBagi pembangun, kompresi biaya adalah pembuka kunci produk: arus orientasi tidak lagi mati karena guncangan stiker gas. Bagi pelajar, daftar periksanya tetap kuno: verifikasi domain, simulasikan transaksi, lebih memilih tunjangan terbatas, dan perlakukan jembatan sebagai kelas risiko terpisah bahkan ketika L2 itu sendiri murah. \n\nKesimpulan praktisnya: rayakan biaya yang lebih rendah, tetapi padukan setiap kebiasaan baru dengan kebiasaan keamanan. Transfer termurah tetap mahal jika mengirimkan dana ke alamat yang salah atau pembelanja tidak terbatas."
+  },
+  {
+    "id": "n2",
+    "date": "2026-02-28",
+    "title": "Akun pintar menjangkau dompet konsumen",
+    "summary": "Kunci sesi dan gas bersponsor mencapai UX seluler mainstream. Pelindung dan modul menjadi permukaan keselamatan baru.",
+    "body": "Abstraksi akun tidak lagi hanya menjadi topik penelitian. Dompet konsumen semakin banyak mengirimkan akun pintar dengan kunci sesi, pemulihan sosial, dan sponsor gas sehingga pendatang baru dapat bertindak tanpa terlebih dahulu mencari token gas. \n\nLompatan UX tersebut menciptakan model mental baru. Daripada satu benih mengendalikan satu EOA selamanya, pengguna dapat mengandalkan wali, modul, pemberi pembayaran, dan izin sementara. Pemulihan yang salah dikonfigurasi atau modul jahat dapat mengunci atau menguras akun tanpa kebocoran benih klasik. \n\nTim harus mendokumentasikan latihan pemulihan seperti cara bank mendokumentasikan aliran kartu yang hilang. Pengguna harus mengetahui siapa walinya, kunci sesi apa yang dapat digunakan, dan cara mencabut modul. “Tanpa biji” bukan berarti “tanpa risiko.” \n\nJika Anda menggunakan akun pintar: mulailah dengan saldo kecil, uji pemulihan pada dompet cadangan, dan baca izin modul sebelum mengaktifkan fitur kenyamanan."
+  },
+  {
+    "id": "n3",
+    "date": "2026-02-10",
+    "title": "Dana ATMR melaporkan catatan AUM on-chain",
+    "summary": "T-bill yang diberi token menghadirkan kurva hasil yang familiar secara on-chain. Penebusan dan hak asuh yang sah tetap menjadi ujian berat yang sesungguhnya.",
+    "body": "Perbendaharaan yang diberi token dan produk-produk yang setara dengan uang tunai terus menarik AUM on-chain karena mereka memetakan arus kas yang sudah dipahami orang-orang. Penyelesaian dapat terjadi di jalur kripto sementara kisah ekonominya terlihat lebih dekat dengan paparan pasar uang tradisional. \n\nBagian yang sulit berada di luar rantai. Siapa yang memegang landasannya? Seberapa cepat Anda bisa menebusnya dengan panik? Apa yang terjadi jika mitra perbankan gagal, atau jika pembatasan transfer membekukan dompet Anda? Saldo on-chain ≠ uang tunai instan di tangan. \n\nPembaca harus memisahkan risiko protokol dari risiko penerbit dan hak asuh. Kontrak cerdas yang bersih tidak memperbaiki pembungkus hukum yang lemah. Tangkapan layar APR tanpa aturan penukaran adalah pemasaran, bukan ketekunan. \n\nGunakan ATMR sebagai landasan pembelajaran untuk cadangan, pengesahan, dan yurisdiksi—tidak hanya sebagai garis hasil dalam aplikasi portofolio."
+  },
+  {
+    "id": "n4",
+    "date": "2026-01-22",
+    "title": "Pemecah niat memperluas cakupan",
+    "summary": "Pertukaran lintas rantai menyembunyikan rute di balik satu tanda tangan sementara pemecah bersaing. Ketahui aturan pengembalian dana dan slippage terburuk.",
+    "body": "Perdagangan berbasis niat memungkinkan pengguna menandatangani apa yang mereka inginkan—“menukar A setidaknya dengan B pada waktu T”—sementara pemecah masalah bersaing untuk mengisi rute. Antarmukanya terasa lebih dekat dengan checkout daripada peralihan manual. \n\nDi bawah tenda, jembatan multi-hop, kumpulan DEX, dan inventaris pemecah masih dapat menjalankan jalur tersebut. Kegagalan, pengisian sebagian, dan ketentuan pengembalian dana sama pentingnya dengan jalan bahagia. Harga yang bagus dapat menyembunyikan likuiditas yang tipis atau lompatan menengah yang agresif. \n\nSebelum menandatangani, periksa tenggat waktu, keluaran minimum, rantai mana yang disentuh, dan apa yang terjadi jika pemecah tidak dapat menyelesaikannya. Lebih suka tempat yang menyimulasikan dan menjelaskan rute dalam bahasa sederhana. \n\nMaksud mengurangi klik; mereka tidak menghapus struktur pasar. Perlakukan mereka sebagai otomatisasi yang kuat dengan pengaturan kasus terburuk yang eksplisit."
+  },
+  {
+    "id": "n5",
+    "date": "2026-01-05",
+    "title": "Mempersiapkan kembali kerangka risiko yang sudah matang",
+    "summary": "Operator menerbitkan matriks pemotongan yang lebih jelas seiring dengan meningkatnya keamanan bersama. Bandingkan hasil hanya dengan skenario pemotongan yang disertakan.",
+    "body": "Restaking menggunakan kembali modal yang dipertaruhkan untuk mengamankan layanan ekstra. Efisiensi itu menarik: obligasi yang sama menjamin lebih banyak pekerjaan. Korelasi adalah biayanya—kegagalan satu operator atau kondisi tebasan yang ambigu dapat berdampak pada banyak hasil sekaligus. \n\nPengungkapan operator yang lebih jelas dan matriks pemotongan dapat membantu, namun pembaca masih perlu memetakan siapa yang dapat memangkas siapa, berdasarkan bukti apa, dan dengan proses sosial apa yang dikesampingkan. “Hasil tambahan” tanpa kisah kegagalan tidaklah lengkap. \n\nJika Anda melakukan pengambilan ulang, ukur posisi untuk penarikan yang berkorelasi, diversifikasi operator jika memungkinkan, dan pilih layanan dengan pemantauan transparan. Leverage pada keamanan konsensus masih berupa leverage. \n\nKematangan kerangka kerja adalah kemajuan; batasan risiko pribadi tetap menjadi tugas Anda."
+  },
+  {
+    "id": "n6",
+    "date": "2025-12-18",
+    "title": "Dasbor Exchange PoR melebar",
+    "summary": "Semakin banyak tempat yang mengirimkan pengesahan berkelanjutan setelah kegagalan CeFi. Transparansi membantu; hak asuh diri masih penting untuk ukuran.",
+    "body": "Dasbor bukti cadangan menjadi produk kepercayaan setelah beberapa kali CeFi runtuh. Pengesahan berkelanjutan dan halaman dompet publik mempersulit penyembunyian skema pecahan—setidaknya untuk aset yang mereka pilih untuk ditampilkan. \n\nPoR bukanlah audit penuh atas kewajiban, badan hukum, atau pengendalian operasional. Dasbor hijau dapat hidup berdampingan dengan penarikan yang dibekukan, utang tersembunyi, atau dompet panas yang disusupi. Perlakukan itu sebagai satu sinyal di antara banyak sinyal lainnya. \n\nUntuk saldo yang tidak mampu Anda habiskan, jadwalkan penarikan berkala untuk disimpan sendiri. Pertahankan akun bursa untuk likuiditas dan jalur fiat, bukan sebagai brankas permanen. \n\nAlat transparansi meningkatkan pasar; mereka tidak menggantikan kebersihan hak asuh pribadi."
+  },
+  {
+    "id": "n7",
+    "date": "2025-11-30",
+    "title": "Biaya pembuktian ZK turun lagi",
+    "summary": "Perangkat keras dan algoritma merendahkan bukti validitas. Pencitraan merek “ZK” masih memerlukan pengawasan sequencer dan bridge.",
+    "body": "Peningkatan perangkat keras dan algoritme Prover terus memangkas biaya pembuktian validitas, menjadikan rollup gaya ZK lebih praktis untuk komputasi umum. Biaya pembuktian yang lebih rendah mendukung desain L2 yang lebih luas dan narasi finalitas yang lebih cepat. \n\nPemasaran sering kali menghilangkan banyak pertanyaan tentang kepercayaan ke dalam kata “ZK”. Pengguna masih bergantung pada sequencer, bridge, kunci upgrade, dan ketersediaan data. Bukti murah dari kebijakan batch yang berbahaya tidak membantu Anda. \n\nSaat mengevaluasi produk ZK, tanyakan apa yang terbukti, siapa yang dapat melakukan upgrade, cara kerja inklusi paksa, dan bagaimana perilaku exit di bawah tekanan. Sistem pembuktian adalah satu lapisan dalam tumpukan. \n\nBukti yang lebih murah adalah berita infrastruktur yang bagus—pasangkan dengan skeptisisme operasional yang sama seperti yang Anda terapkan di tempat lain."
+  },
+  {
+    "id": "n8",
+    "date": "2025-11-08",
+    "title": "Simulasi dompet menjadi default",
+    "summary": "Simulasi pra-penerbangan memotong saluran persetujuan buta. Jalur yang rumit masih belum bisa dijelaskan—tolak apa yang tidak Anda pahami.",
+    "body": "Simulasi transaksi dan UI penandatanganan yang lebih jelas menjadi taruhannya. Menampilkan perbedaan aset sebelum konfirmasi mencegah banyak pengurasan persetujuan buta klasik yang dulunya tampak seperti klik “konfirmasi” rutin. \n\nSimulasi hanya sebaik decoding dan asumsi keadaan rantai. Kontrak yang tidak biasa, modul khusus, atau maksud multi-langkah mungkin masih menghasilkan performa yang buruk. Jika pratinjau kosong atau bertentangan, itu adalah tanda berhenti—bukan kesalahan kecil. \n\nGabungkan simulasi dengan kebiasaan daftar yang diizinkan: tandai aplikasi, verifikasi alamat kontrak, dan cabut tunjangan yang sudah usang. Alat mengurangi tingkat kesalahan; mereka tidak menciptakan niat untuk Anda. \n\nAturan default: jika Anda tidak dapat menjelaskan perubahan keadaan dalam satu kalimat, jangan menandatangani."
+  },
+  {
+    "id": "n9",
+    "date": "2025-10-21",
+    "title": "Volume penyelesaian Stablecoin meningkat",
+    "summary": "Dolar on-chain tetap menjadi pekerja keras untuk pasangan dan pengiriman uang. Diversifikasi emiten dan pelajari risiko cadangan.",
+    "body": "Stablecoin terus mendominasi volume penyelesaian karena mereka menawarkan unit mirip dolar dengan jalur kripto. Pasangan perdagangan, koridor pengiriman uang, dan eksperimen penggajian semuanya bersandar pada keduanya sebagai unit perhitungan praktis. \n\nKesesuaian pasar produk memusatkan risiko pada emiten, bank, dan membekukan kebijakan. Tindakan depeg atau kepatuhan dapat menghentikan strategi yang diasumsikan sempurna 1:1 selamanya. Diversifikasi penerbit dan pemahaman kualitas pengesahan adalah bagian dari literasi, bukan paranoia. \n\nUntuk penggunaan sehari-hari, pilihlah cadangan yang terdokumentasi dengan baik dan jalur penebusan yang jelas. Untuk pembelajaran, bandingkan desain yang didukung fiat, didukung kripto, dan algoritmik berdasarkan mode kegagalannya—bukan logonya. \n\nPertumbuhan volume berarti kandang adalah infrastruktur. Infrastruktur layak mendapatkan tinjauan risiko yang membosankan dan berulang-ulang."
+  },
+  {
+    "id": "n10",
+    "date": "2025-10-02",
+    "title": "Perkakas DAO meningkatkan veto UX",
+    "summary": "Dasbor Timelock dan peran wali membantu menangkap proposal jahat. Tata kelola adalah bagian dari model keamanan.",
+    "body": "Antarmuka DAO semakin memunculkan timelock, veto pelindung, dan perbedaan proposal yang dapat dibaca. Hal ini penting karena serangan tata kelola dapat mengosongkan perbendaharaan seefektif bug kontrak—hanya dengan UI pemungutan suara, bukan skrip eksploitasi. \n\nPeralatan yang lebih baik membantu delegasi mengenali perubahan parameter, pemberian token, dan meningkatkan panggilan sebelum eksekusi. Hal ini tidak memperbaiki tingkat partisipasi yang rendah, pembelian suara yang tersembunyi, atau proses darurat yang terburu-buru. \n\nJika Anda memegang kekuasaan tata kelola, perlakukan pemungutan suara seperti akses produksi: verifikasi payload, tunggu hingga batas waktu, dan pilih izin yang sempit. Penonton harus melacak apakah wali bersifat publik dan bertanggung jawab. \n\nKeamanan untuk DAO mencakup proses sosial. Dasbor diperlukan; skeptisisme masih diperlukan."
+  },
+  {
+    "id": "n11",
+    "date": "2025-09-14",
+    "title": "Studio mengirimkan inventaris hybrid",
+    "summary": "Item langka diselesaikan dalam rantai sementara pertarungan waktu nyata tetap berada di luar rantai. Kebijakan penutupan menentukan sejauh mana “kepemilikan” berjalan.",
+    "body": "Studio game mempertahankan sistem pemisahan: pertarungan otoritatif dan perjodohan di server latensi rendah, kosmetik langka, atau mata uang sebagai inventaris on-chain. Pemain mendapatkan kemampuan untuk diperdagangkan tanpa memaksakan setiap tindakan melalui mempool. \n\nDesain hibrida berarti kepercayaan hibrida. Anda mungkin memiliki pedang yang diberi token sambil tetap bergantung pada server agar berguna. Jika studio ditutup, tawaran pasar tidak dapat memulihkan logika permainan dengan sendirinya. \n\nBaca kebijakan item: Bisakah aset dimigrasikan? Apakah metadata bisa berubah? Siapa yang dapat membekukan persediaan? “On-chain” bukanlah jaminan utilitas penuh. \n\nGame hibrid adalah jalur yang realistis—cukup ukur klaim kepemilikan terhadap ketergantungan server dengan jujur."
+  },
+  {
+    "id": "n12",
+    "date": "2025-08-29",
+    "title": "Pusat pendidikan memimpin dengan keamanan",
+    "summary": "Produk pembelajaran mengajarkan phishing dan persetujuan sebelum menghasilkan pariwisata. Bertahan terlebih dahulu adalah sinyal kedewasaan yang sesungguhnya.",
+    "body": "Kini semakin banyak platform pendidikan yang terbuka dengan phishing, persetujuan, dan kebersihan benih sebelum tutorial bertani. Pemesanan tersebut mencerminkan pengalaman industri yang diperoleh dengan susah payah: pengetahuan yang tidak membuat Anda tetap mampu membayar tidaklah lengkap. \n\nKurikulum yang mengutamakan keamanan masih memerlukan kedalaman mengenai pasar, protokol, dan sejarah—tetapi urutannya penting. Pengguna yang belajar menolak DM dukungan palsu akan tetap ada untuk mempelajari AMM nanti. \n\nWeb3Atlas mengikuti bias yang sama: peta dan glosarium dipadukan dengan kebiasaan pertahanan. Perlakukan latihan keselamatan sebagai konten inti, bukan sebagai lampiran. \n\nKedewasaan memperparah kelangsungan hidup. Tangkapan layar hasil bersifat opsional; disiplin hak asuh tidak."
+  }
+]

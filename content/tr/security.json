@@ -1,0 +1,234 @@
+[
+  {
+    "id": "homograph",
+    "tag": "Uyarı",
+    "title": "Homograf kimlik avı savunması",
+    "minutes": 5,
+    "summary": "Benzer karakterler, imza veya tohum toplamak için resmi alan adlarını oluşturur.",
+    "sections": [
+      {
+        "heading": "Neye benziyor",
+        "body": "Saldırganlar görsel olarak benzer karakterleri alan adlarıyla değiştirir ve bunları reklamlarla veya DM'lerle eşleştirir. Kullanıcı arayüzü piksel açısından mükemmel olabilir ve hatta sahte bakiyeler bile gösterebilir."
+      },
+      {
+        "heading": "Nasıl fark edilir",
+        "body": "URL'leri yazın veya yer işaretlerini kullanın. Sertifika sahiplerini kontrol edin. Cüzdanlar/köprüler için en üstteki arama reklamına asla tıklamayın. Bağlantıların üzerine gelin ve tek alt alan adlarını inceleyin."
+      },
+      {
+        "heading": "Eğer tıkladıysanız",
+        "body": "Onayları iptal edin ve kalan fonları aktarın. Bir tohum yazdıysanız, o cüzdan yakılır; yalnızca yepyeni bir tohum kurtarılır. Raporlar için kanıtları saklayın."
+      }
+    ],
+    "checklist": [
+      "Resmi siteleri yer imlerine ekleyin",
+      "Arama ağı reklamlarını atla",
+      "Her URL karakterini inceleyin",
+      "Boyut için ikinci bir cihazda çapraz kontrol yapın",
+      "Hiçbir zaman web sayfalarına tohum yazmayın"
+    ],
+    "body": "Benzer karakterler, imza veya tohum toplamak için resmi alan adlarını oluşturur."
+  },
+  {
+    "id": "seed",
+    "tag": "Anahtarlar",
+    "title": "Tohum cümlesi tam kılavuzu",
+    "minutes": 6,
+    "summary": "Tohumunuz varlıkların kontrolüdür. Bunu isteyen herkes düşmandır.",
+    "sections": [
+      {
+        "heading": "Yedeklemeler",
+        "body": "Elle yazın ve siparişi yeniden kontrol edin; metal plakaları düşünün; yerleri dikkatlice ayırın. Fotoğraf, bulut veya sohbet uygulaması yok."
+      },
+      {
+        "heading": "Dolandırıcılıklar",
+        "body": "12/24 kelime isteyen “Senkronizasyon/doğrulama/yükseltme/çözme/airdrop” sayfaları. Sahte Discord yöneticileri aynı komut dosyasını kullanır. Tohum isteyen donanım \"orijinallik denetleyicileri\" sahtedir."
+      },
+      {
+        "heading": "Miras",
+        "body": "Eğer planı kimse bilmezse fonlar da sizinle birlikte ölür. Mühürlü talimatlar, avukatlar veya çoklu imza kullanın. Sızıntı şüphesi durumunda hemen geçiş yapın."
+      }
+    ],
+    "checklist": [
+      "Yalnızca çevrimdışı medyada tohumlar",
+      "Bu sözleri kimseye söyleme",
+      "Bunları asla ağa bağlı bir cihaza girmeyin",
+      "Boyuta göre donanım + soğuk yedekleme",
+      "Herhangi bir sızıntı sinyaline göre geçiş yapın"
+    ],
+    "body": "Tohumunuz varlıkların kontrolüdür. Bunu isteyen herkes düşmandır."
+  },
+  {
+    "id": "approve",
+    "tag": "DeFi",
+    "title": "Onaylama/ödenek tuzakları",
+    "minutes": 6,
+    "summary": "Onaylar tokenleri hemen taşımaz; daha sonra, özellikle de sınırsız olanların boşaltılmasına izin verir.",
+    "sections": [
+      {
+        "heading": "Mekanik",
+        "body": "ERC-20 transferinden ödenek gerekiyor. Sonsuz onaylar uygundur; tehlikeye giren harcamacılar daha sonra sizi boşaltabilir. setApprovalForAll NFT eşdeğeridir."
+      },
+      {
+        "heading": "Güvenli uygulama",
+        "body": "Mümkün olduğunda kesin ödenekler; rutin olarak iptal edin; yeni protokolleri küçük olarak test edin. Önce Onay gerektiren airdrop sitelerini izleyin."
+      },
+      {
+        "heading": "Olay yanıtı",
+        "body": "Fonları iptal edin ve taşıyın. Saldırı açıklamalarında adı geçen harcama yapan kişilere öncelik verin."
+      }
+    ],
+    "checklist": [
+      "Gereksiz sınırsız onayları reddet",
+      "Ödenekleri aylık olarak gözden geçirin",
+      "Kullanılmayan NFT operatörlerini iptal edin",
+      "Harcama yapanların adreslerini okuyun",
+      "Saldırıya uğramış protokol harcayanlara öncelik verin"
+    ],
+    "body": "Onaylar tokenleri hemen taşımaz; daha sonra, özellikle de sınırsız olanların boşaltılmasına izin verir."
+  },
+  {
+    "id": "fake-apps",
+    "tag": "Mobil",
+    "title": "Sahte cüzdan uygulamaları",
+    "minutes": 5,
+    "summary": "Tohumları veya uzaktan kumanda cihazlarını çalmak için mağazalarda ve yan yükleme kanallarında klonlar ortaya çıkıyor.",
+    "sections": [
+      {
+        "heading": "Sahte ürünleri tespit etmek",
+        "body": "Yayıncı adlarını resmi gönderilerle eşleştirin; 1. sırada yer alan yepyeni uygulamalara dikkat edin. Gerçek siteden gelen bağlantıları tercih edin. Yandan yüklenen APK'lar daha risklidir."
+      },
+      {
+        "heading": "Sertleşme",
+        "body": "İşletim sistemini güncel tutun; eklentileri en aza indirin; özel bir telefon düşünün. Boyut için donanım kullanın. Telefon kaybolursa uzaktan kilitlemeyi planlayın."
+      },
+      {
+        "heading": "Kurulumdan sonra",
+        "body": "Bir tohum sahte bir uygulamaya girildiyse, tehlikeyi üstlenin ve temiz bir cihaza geçiş yapın."
+      }
+    ],
+    "checklist": [
+      "Resmi kanallardan yükleyin",
+      "Geliştirici adlarını doğrulayın",
+      "Rastgele APK'lardan kaçının",
+      "Donanımla eşleşme boyutu onaylanıyor",
+      "Sahteyse hemen taşıyın"
+    ],
+    "body": "Tohumları veya uzaktan kumanda cihazlarını çalmak için mağazalarda ve yan yükleme kanallarında klonlar ortaya çıkıyor."
+  },
+  {
+    "id": "drainer",
+    "tag": "İmzalama",
+    "title": "İmza filtreleri ve kötü amaçlı izinler",
+    "minutes": 7,
+    "summary": "Kaynak gerektirmez; kötü amaçlı yapılandırılmış imzalar, tahliyelere izin verebilir.",
+    "sections": [
+      {
+        "heading": "Taktikler",
+        "body": "Sahte darphane/talep talepleri setApprovalForAll, izinler veya \"oturum açma bilgileri\". Bazı yükler boş görünüyor. Botlar daha sonra süpürür."
+      },
+      {
+        "heading": "Savunma",
+        "body": "Açık imzalı cüzdanlar, simülasyon, bilinmeyenleri reddetme. Yeni siteleri önce bir yakıcıyla bağlayın. Alan adlarını kontrol edin."
+      },
+      {
+        "heading": "Daha sonra",
+        "body": "Fonları iptal edin, kurtarın, toplulukları uyarın, aynı onaylar için diğer zincirleri kontrol edin."
+      }
+    ],
+    "checklist": [
+      "Opak imzaları reddet",
+      "Simülasyonu etkinleştir",
+      "Yeni sitelerde yakıcı kullanın",
+      "Düzenli olarak iptal et",
+      "Gerçek dApp'lere yer işareti koyun"
+    ],
+    "body": "Kaynak gerektirmez; kötü amaçlı yapılandırılmış imzalar, tahliyelere izin verebilir."
+  },
+  {
+    "id": "support",
+    "tag": "Sosyal",
+    "title": "Sahte destek ve sosyal mühendislik",
+    "minutes": 5,
+    "summary": "Bir hata gönderdikten sonra, taklitçiler DM \"yardım\" ederek uzaktan erişim veya tohum talebinde bulunurlar.",
+    "sections": [
+      {
+        "heading": "Başucu kitabı",
+        "body": "Klonlanmış avatarlar, aciliyet, uzaktan kontrol uygulamaları veya \"güvenli sözleşme\" para yatırma talimatları. Ele geçirilen arkadaş hesapları da bağlantıları yayar."
+      },
+      {
+        "heading": "Tüzük",
+        "body": "Gerçek takımlar sırlar için nadiren ilk önce DM atarlar. Resmi biletleri/kamu kanallarını kullanın. Arkadaşlarınızı bant dışı doğrulayın."
+      },
+      {
+        "heading": "Hijyen",
+        "body": "Tohumları asla kamuya açık kanallara, hatta \"kısmen maskelenmiş\" bile yapıştırmayın."
+      }
+    ],
+    "checklist": [
+      "Soğuk destek DM'lerini dikkate almayın",
+      "Rastgele uzak araçlar yüklemeyin",
+      "Asla desteğe tohum vermeyin",
+      "Garip arkadaş bağlantılarını çevrimdışı olarak doğrulayın",
+      "Kamu görevlisi yardım kanallarını kullanın"
+    ],
+    "body": "Bir hata gönderdikten sonra, taklitçiler DM \"yardım\" ederek uzaktan erişim veya tohum talebinde bulunurlar."
+  },
+  {
+    "id": "bridges",
+    "tag": "Çapraz zincir",
+    "title": "Köprü güvenliği",
+    "minutes": 6,
+    "summary": "Köprüler en önemli saldırı hedefleri ve kimlik avının favorileridir. Daha hızlı, varsayılan olarak daha güvenli değildir.",
+    "sections": [
+      {
+        "heading": "Seçim",
+        "body": "Resmi belgelerdeki kanonik köprüleri tercih edin. Denetimler ve sınırlamalar için hızlı köprüleri inceleyin. Çıkış gecikmelerini anlayın."
+      },
+      {
+        "heading": "İşletim",
+        "body": "Minik uçtan uca testler; hedef token sözleşmelerini doğrulamak; karmaları kaydedin. Uçuş sırasındaki çıkışları serbest marj olarak değerlendirmeyin."
+      },
+      {
+        "heading": "Olaylar",
+        "body": "Köprü saldırılarında, DM \"geçiş komut dosyalarını\" değil, resmi duraklatma bildirimlerini izleyin."
+      }
+    ],
+    "checklist": [
+      "Resmi köprülere yer işareti koyun",
+      "Önce minikleri test edin",
+      "Hedef sözleşmelerini doğrulayın",
+      "Tx karmalarını kaydet",
+      "DM geçiş komut dosyalarını yoksay"
+    ],
+    "body": "Köprüler en önemli saldırı hedefleri ve kimlik avının favorileridir. Daha hızlı, varsayılan olarak daha güvenli değildir."
+  },
+  {
+    "id": "devices",
+    "tag": "Operasyonlar",
+    "title": "Cihaz ve tarayıcı hijyeni",
+    "minutes": 5,
+    "summary": "Pano kötü amaçlı yazılımları, sahte uzantılar ve paylaşılan bilgisayarlar günlük hırsızlık yollarıdır.",
+    "sections": [
+      {
+        "heading": "Tarayıcı",
+        "body": "Özel kripto profili; minimum resmi uzantılar; yer imi siteleri. Boyut için temiz bir makine kullanın."
+      },
+      {
+        "heading": "Sistem",
+        "body": "Yama İşletim Sistemi; “airdrop araçlarına” dikkat edin; yarım yamalak kamu şarj cihazlarından kaçının. Yapıştırılan adresleri her zaman yeniden kontrol edin."
+      },
+      {
+        "heading": "Katmanlama",
+        "body": "Günlük için sıcak, tasarruf için soğuk, hazineler için çoklu imza tek bir süper cüzdandan üstündür."
+      }
+    ],
+    "checklist": [
+      "Ayrı tarayıcı profili",
+      "Beyaz liste uzantıları",
+      "Yapıştırılan adresleri yeniden kontrol edin",
+      "İşletim sistemini güncel tutun",
+      "Fonları role göre bölme"
+    ],
+    "body": "Pano kötü amaçlı yazılımları, sahte uzantılar ve paylaşılan bilgisayarlar günlük hırsızlık yollarıdır."
+  }
+]

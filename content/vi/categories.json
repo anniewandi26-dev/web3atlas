@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "blockchain",
+    "name": "Chuỗi khối",
+    "summary": "Mạng ghi lại và bảo mật các giao dịch",
+    "blurb": "Sổ cái được chia sẻ với sự đồng thuận—lớp giải quyết mọi thứ khác đều nằm trên đó. Mỗi bài viết bao gồm giải thích đầy đủ, các điểm chính và lời khuyên.",
+    "items": [
+      {
+        "id": "bitcoin",
+        "title": "bitcoin",
+        "summary": "Mạng tiền điện tử ngang hàng đầu tiên có quy tắc phát hành cố định",
+        "intro": "Bitcoin cho thấy giá trị có thể di chuyển như thế nào trên internet mà không cần ngân hàng làm trọng tài. Một tập hợp các nút toàn cầu chia sẻ một sổ cái được bảo mật bằng mật mã và các ưu đãi. Đối với người mới bắt đầu, khóa, UTXO và quy tắc phát hành quan trọng hơn biểu đồ giá ngắn hạn.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Các bên trung gian đáng tin cậy có thể đóng băng tài khoản, chặn thanh toán hoặc thất bại trong khủng hoảng. Bitcoin thay thế sự cho phép của tổ chức bằng xác minh công khai: bất kỳ ai cũng có thể kiểm tra lịch sử, trong khi việc viết lại nó được thiết kế để cực kỳ tốn kém. \nKhối Genesis thậm chí còn nhúng một tiêu đề báo chí về các gói cứu trợ ngân hàng – một tín hiệu có chủ ý về các quy tắc tiền tệ trong mã."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Bạn ký một giao dịch chi tiêu các kết quả đầu ra chưa được chi tiêu (UTXO) đến các địa chỉ mới. Những người khai thác cạnh tranh thông qua bằng chứng công việc để nối các khối và kiếm phần thưởng. \nGiảm một nửa làm giảm nguồn cung mới theo thời gian; độ khó điều chỉnh để các khối vẫn gần như ổn định. Nhiều xác nhận hơn có nghĩa là rủi ro tổ chức lại thấp hơn."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Kiểm soát khóa riêng tư như nhau; địa chỉ có thể được công khai. Phí là một thị trường cho không gian khối. Kịch bản của Bitcoin bị hạn chế có chủ ý, do đó, nó hoạt động giống như giải quyết và khan hiếm kỹ thuật số hơn là một nền tảng ứng dụng chung."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Biến động không phải là lỗi giao thức. Tiền xu trên sàn giao dịch là IOU cho đến khi được rút. Lừa đảo, hỗ trợ giả mạo và chuyển khoản sai mạng gây ra tổn thất vĩnh viễn—trước tiên hãy thực hành với số tiền nhỏ."
+          }
+        ],
+        "keyPoints": [
+          "Bitcoin là một mạng thanh toán có thể xác minh công khai, không phải là mã thông báo của công ty.",
+          "Các quy tắc phát hành bao gồm cả việc giảm một nửa được thực thi bởi giao thức và các ưu đãi.",
+          "Chữ ký UTXO + xác định chuyển khoản; mất chìa khóa có nghĩa là mất tiền.",
+          "Bảo mật chủ yếu là thói quen vệ sinh và xác nhận quan trọng."
+        ],
+        "tips": [
+          "Thực hành nhận/gửi bằng ví phần cứng hoặc ví có uy tín.",
+          "Di chuyển kích thước theo đợt và chờ đủ xác nhận.",
+          "Sao lưu hạt giống ngoại tuyến—không bao giờ chụp ảnh hoặc nhắn tin cho nó."
+        ],
+        "body": "Bitcoin cho thấy giá trị có thể di chuyển như thế nào trên internet mà không cần ngân hàng làm trọng tài. Một tập hợp các nút toàn cầu chia sẻ một sổ cái được bảo mật bằng mật mã và các ưu đãi. Đối với người mới bắt đầu, khóa, UTXO và quy tắc phát hành quan trọng hơn biểu đồ giá ngắn hạn."
+      },
+      {
+        "id": "ethereum",
+        "title": "Ethereum",
+        "summary": "Một blockchain có mục đích chung cho các hợp đồng thông minh—thường được gọi là máy tính thế giới",
+        "intro": "Trong khi Bitcoin tập trung vào việc chuyển tiền thì Ethereum tập trung vào việc thực thi các quy tắc có thể lập trình được. Hợp đồng lưu ký tài sản, mã hóa các điều kiện và soạn thành ứng dụng. Sau khi Hợp nhất, sự đồng thuận là bằng chứng cổ phần trong khi việc thực thi vẫn là EVM.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Chỉ riêng các khoản thanh toán không thể thể hiện các khoản vay, trao đổi hoặc quản trị trên chuỗi một cách rõ ràng. Một máy ảo dùng chung biến mã thành cơ sở hạ tầng công cộng. \nCác giao diện mở cho phép các token và giao thức kết nối với nhau—nền tảng của Lego DeFi."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "EOA được kiểm soát bằng khóa; tài khoản hợp đồng được kiểm soát bằng mã. Bạn trả tiền xăng cho những thay đổi trạng thái. Người xác thực đặt cọc ETH để đề xuất và chứng thực; lỗi nghiêm trọng có thể bị cắt giảm. \nNgười dùng vẫn tương tác thông qua chữ ký ví, nhưng không gian thiết kế rộng hơn nhiều so với chuyển khoản đơn giản."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Tính toán đồng hồ đo khí. Các tiêu chuẩn mã thông báo (ERC-20/721) cho phép tương thích với ví và thị trường. Lớp 2 chuyển việc thực thi ra khỏi mạng chính trong khi quay trở lại bảo mật của Ethereum."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "“Trên Ethereum” ≠ đã được kiểm toán hoặc an toàn. Phê duyệt không giới hạn và mã thông báo giả làm cạn kiệt ví. Phí cao nhất có thể vượt quá quy mô giao dịch—kiểm tra mạng lưới, hợp đồng và phạm vi trợ cấp."
+          }
+        ],
+        "keyPoints": [
+          "Ethereum là một máy trạng thái dùng chung cộng với thời gian chạy hợp đồng thông minh.",
+          "PoS đảm bảo sự đồng thuận; EVM thực thi các ứng dụng.",
+          "Các tiêu chuẩn làm cho tài sản có thể tương tác được trên toàn hệ sinh thái.",
+          "Sự an toàn phụ thuộc vào chất lượng hợp đồng, sự phê duyệt và những cây cầu."
+        ],
+        "tips": [
+          "Xác minh địa chỉ hợp đồng trong trình khám phá khối, không chỉ bằng mã đánh dấu.",
+          "Sử dụng L2 chính thức hoặc đợi khi mạng chính bị tắc nghẽn.",
+          "Thử nghiệm các giao thức mới với số tiền bạn có thể chấp nhận được."
+        ],
+        "body": "Trong khi Bitcoin tập trung vào việc chuyển tiền thì Ethereum tập trung vào việc thực thi các quy tắc có thể lập trình được. Hợp đồng lưu ký tài sản, mã hóa các điều kiện và soạn thành ứng dụng. Sau khi Hợp nhất, sự đồng thuận là bằng chứng cổ phần trong khi việc thực thi vẫn là EVM."
+      },
+      {
+        "id": "consensus",
+        "title": "Sự đồng thuận",
+        "summary": "Cách một mạng thống nhất về một lịch sử kinh điển",
+        "intro": "Không có trọng tài trung tâm, các nút vẫn cần một sổ cái. Sự đồng thuận xác định ai đề xuất chặn, những kẻ gian lận bị trừng phạt như thế nào và khi nào việc chuyển tiền hoàn tất. Bằng chứng công việc và bằng chứng cổ phần là những cách khác nhau khiến việc viết lại lịch sử trở nên tốn kém.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Những người tham gia phân tán có thể trì hoãn, ngắt kết nối hoặc nói dối. Sự đồng thuận ngăn chặn việc chi tiêu gấp đôi bằng cách làm cho một lịch sử chiếm ưu thế về mặt kinh tế. \nĐối với người dùng, nó xác định thời gian chờ đợi, rủi ro tổ chức lại và chi phí tấn công."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Giá PoW tấn công bằng năng lượng/tốc độ băm. Giá PoS tấn công bằng vốn ngoại quan và cắt giảm. Một số giao thức đưa ra quyết định cuối cùng mạnh mẽ hơn sau các điểm kiểm tra; những người khác là xác suất. \nTrao đổi thiết lập xác nhận tiền gửi từ các tài sản này."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Sự đánh đổi giữa sự sống và sự an toàn là vấn đề quan trọng. Chuỗi “nhanh hơn” với các bộ xác thực nhỏ có thể làm suy yếu khả năng chống kiểm duyệt. Hỏi ai sản xuất khối trước khi kỷ niệm TPS."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Khẩu hiệu không phải là luận điểm đầu tư. Các giả định cầu nối và khách hàng nhẹ thường yếu hơn so với sự đồng thuận cơ bản — và đó là nơi xảy ra nhiều vụ hack."
+          }
+        ],
+        "keyPoints": [
+          "Sự đồng thuận bầu chọn một lịch sử kinh điển duy nhất giữa các nút không đáng tin cậy.",
+          "Các cuộc tấn công giá PoW và PoS khác nhau.",
+          "Xác nhận/quyết định cuối cùng quyết định thời điểm “nhận được tiền”.",
+          "Các thành phần chuỗi chéo có thể yếu hơn câu chuyện L1."
+        ],
+        "tips": [
+          "Tôn trọng số lượng xác nhận được đề xuất cho số tiền gửi lớn.",
+          "Nghiên cứu các quy tắc phân phối và cắt giảm trình xác nhận trên chuỗi mới.",
+          "Giảm hoạt động cầu/đòn bẩy trong quá trình nâng cấp gây tranh cãi."
+        ],
+        "body": "Không có trọng tài trung tâm, các nút vẫn cần một sổ cái. Sự đồng thuận xác định ai đề xuất chặn, những kẻ gian lận bị trừng phạt như thế nào và khi nào việc chuyển tiền hoàn tất. Bằng chứng công việc và bằng chứng cổ phần là những cách khác nhau khiến việc viết lại lịch sử trở nên tốn kém."
+      },
+      {
+        "id": "accounts",
+        "title": "Tài khoản & Chìa khóa",
+        "summary": "Danh tính trên chuỗi là một cặp khóa, không phải tên người dùng được bộ phận hỗ trợ đặt lại",
+        "intro": "Tài khoản của bạn thường là một địa chỉ được lấy từ khóa riêng. Không ai có thể đặt lại chìa khóa đó cho bạn; chữ ký là ủy quyền. Hiểu EOA, tài khoản hợp đồng và cụm từ gốc là nền tảng của việc sử dụng an toàn.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Tài khoản Web2 hoạt động trên máy chủ của công ty có đặt lại mật khẩu. Chuỗi khối đẩy quyền kiểm soát cho những người nắm giữ chìa khóa để tự quản lý—và đẩy trách nhiệm vận hành theo đó."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Khóa riêng lấy được khóa và địa chỉ công khai. Hạt giống (BIP-39) có thể tạo lại nhiều tài khoản trên các chuỗi. Tài khoản hợp đồng chuyển tiền bằng đường dẫn mã; tài khoản thông minh mã hóa các chính sách như giới hạn và người giám hộ."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Ví nóng rất tiện lợi; ví phần cứng giữ chìa khóa ở một phần tử an toàn. Kiểm soát chênh lệch Multisig. Một hạt giống bị rò rỉ có thể làm tổn hại đến toàn bộ cây phái sinh."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Ảnh chụp màn hình đám mây, phần mềm độc hại và các yêu cầu hạt giống “hỗ trợ” là những đường dẫn mất mát cổ điển. Việc ký tên mù có thể phê duyệt hệ thống thoát nước—từ chối những lời nhắc không rõ ràng."
+          }
+        ],
+        "keyPoints": [
+          "Chìa khóa có quyền sở hữu ngang nhau.",
+          "Địa chỉ có thể chia sẻ được; hạt giống thì không.",
+          "EOA có chữ ký của con người; hợp đồng được kiểm soát bằng mã.",
+          "Đọc phạm vi cho phép trước khi ký."
+        ],
+        "tips": [
+          "Tách quỹ thử nghiệm khỏi ví tiết kiệm.",
+          "Viết hạt giống lên giấy/kim loại và lưu trữ ngoại tuyến.",
+          "Kích hoạt mô phỏng giao dịch trên dApps mới."
+        ],
+        "body": "Tài khoản của bạn thường là một địa chỉ được lấy từ khóa riêng. Không ai có thể đặt lại chìa khóa đó cho bạn; chữ ký là ủy quyền. Hiểu EOA, tài khoản hợp đồng và cụm từ gốc là nền tảng của việc sử dụng an toàn."
+      },
+      {
+        "id": "gas",
+        "title": "Gas & Phí",
+        "summary": "Mọi thay đổi trạng thái đều được đo lường để máy tính công cộng không thể bị spam miễn phí",
+        "intro": "Khí đốt không phải là một loại thuế tùy tiện—nó đánh giá việc tính toán và lưu trữ. Phí của bạn là mức sử dụng × đơn giá. Sự tắc nghẽn làm tăng đơn giá, đó là lý do tại sao cùng một hành động có thể tiêu tốn hàng xu hoặc hàng chục đô la.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Chuỗi khối công khai phải ràng buộc tài nguyên. Gas tạo ra một thị trường phí: giá thầu cao hơn sẽ được xác định trước; nhà phát triển phải viết hợp đồng hiệu quả."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Chuyển khoản đơn giản tốn ít xăng; các tuyến DeFi phức tạp có giá cao hơn. Sau EIP-1559, phí cơ bản sẽ bị đốt và tiền boa sẽ được trả cho những người đề xuất. L2 khấu hao chi phí dữ liệu L1 cho nhiều người dùng, do đó phí đơn vị giảm xuống."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Giới hạn mức gas bạn cho phép. Các giao dịch không thành công vẫn có thể tính phí gas vì quá trình thực thi đã diễn ra. Tăng tốc/hủy thay thế một lần chờ xử lý bằng mức phí cao hơn."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Các trang web giả mạo có thể dẫn đến những cuộc gọi vô lý hoặc vô nghĩa. Các chiến dịch “Không tốn xăng” thường mở rộng quyền—hãy hỏi ai tài trợ và bạn ủy quyền những gì."
+          }
+        ],
+        "keyPoints": [
+          "Thi công đồng hồ đo gas; giá cả được định hướng theo thị trường.",
+          "Thất bại vẫn có thể tốn xăng.",
+          "L2 và phân đợt là những cách tiết kiệm phí chính.",
+          "Từ chối các yêu cầu phê duyệt hoặc phí bất thường."
+        ],
+        "tips": [
+          "Thực hiện các hành động không khẩn cấp ngoài giờ cao điểm hoặc trên L2.",
+          "Sử dụng ước tính và mô phỏng phí ví.",
+          "Định giá tổng lượng gas trước các chiến dịch nhiều bước."
+        ],
+        "body": "Khí đốt không phải là một loại thuế tùy tiện—nó đánh giá việc tính toán và lưu trữ. Phí của bạn là mức sử dụng × đơn giá. Sự tắc nghẽn làm tăng đơn giá, đó là lý do tại sao cùng một hành động có thể tiêu tốn hàng xu hoặc hàng chục đô la."
+      },
+      {
+        "id": "bridges",
+        "title": "Cầu",
+        "summary": "Các kênh di chuyển giá trị hoặc thông điệp qua các chuỗi—và mục tiêu bị hack thường xuyên",
+        "intro": "Tài sản không xuất hiện một cách kỳ diệu trên một sổ cái khác. Khóa cầu, đúc, đốt hoặc hoán đổi thông qua tính thanh khoản—mở rộng quyền truy cập trong khi tập trung rủi ro. Một số vụ khai thác lớn nhất trong lịch sử đã ảnh hưởng đến việc giám sát và xác minh cây cầu.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Không có cầu, hệ sinh thái vẫn là hòn đảo. Với bridge, người dùng thừa hưởng thêm niềm tin và rủi ro hợp đồng để đổi lấy tính di động."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Các mô hình bao gồm lock-and-mint, burn-and-reem, mạng thanh khoản và chuyển tiếp khách hàng nhẹ. Cầu cuộn lên Canonical kế thừa bảo mật cuộn lên nhưng có thể có độ trễ khi thoát; cầu nhanh thêm các giả định của bên thứ ba về tốc độ."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Bạn có thể đổi 1:1 được không? Trình xác nhận được phân quyền như thế nào? TVL cao có thể có nghĩa là mục tiêu béo hơn, không phải là an toàn tự động."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Các miền lừa đảo phát triển mạnh xung quanh các cây cầu. Hợp đồng mạng hoặc mã thông báo sai sẽ gửi tiền vào khoảng trống. Luôn luôn kiểm tra với một chuyển khoản nhỏ trước."
+          }
+        ],
+        "keyPoints": [
+          "Bridge là một giao thức sổ cái chéo, không phải dịch chuyển tức thời.",
+          "Cầu Canonical và cầu nhanh có mô hình tin cậy khác nhau.",
+          "Cầu thống trị các vụ hack lịch sử.",
+          "Xác minh tên miền, hợp đồng và mạng cùng nhau."
+        ],
+        "tips": [
+          "Chỉ nhập các cầu nối từ các tài liệu chính thức được đánh dấu trang.",
+          "Kiểm tra kích thước tối thiểu trước khi di chuyển kích thước.",
+          "Hãy coi các lệnh thoát đang chờ xử lý là chưa thể chi tiêu thoải mái."
+        ],
+        "body": "Tài sản không xuất hiện một cách kỳ diệu trên một sổ cái khác. Khóa cầu, đúc, đốt hoặc hoán đổi thông qua tính thanh khoản—mở rộng quyền truy cập trong khi tập trung rủi ro. Một số vụ khai thác lớn nhất trong lịch sử đã ảnh hưởng đến việc giám sát và xác minh cây cầu."
+      }
+    ]
+  },
+  {
+    "id": "defi",
+    "name": "DeFi",
+    "summary": "Cho vay, hoán đổi và đặt cược thông qua hợp đồng thông minh",
+    "blurb": "Những tổ chức tài chính mở nguyên thủy hoạt động như thế nào—và những rủi ro xung quanh tỷ giá, thanh lý và ổn định.",
+    "items": [
+      {
+        "id": "amm",
+        "title": "Nhà tạo lập thị trường tự động",
+        "summary": "Nhóm thanh khoản và đường cong giá thay thế sổ lệnh cổ điển",
+        "intro": "AMM cho phép mọi người gửi token vào một nhóm để các nhà giao dịch có thể trao đổi theo công thức. Bạn nhận được tính thanh khoản và phí LP liên tục—cộng với tổn thất tạm thời và rủi ro hợp đồng thông minh.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Sách đặt hàng trên chuỗi rất tốn kém. Các nhóm duy trì tính thanh khoản trong hợp đồng để việc hoán đổi có thể xảy ra bất cứ lúc nào, dân chủ hóa việc tạo lập thị trường."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Tích không đổi là đường cong cổ điển; Hoán đổi ổn định và thanh khoản tập trung cải thiện hiệu quả sử dụng vốn. Bộ định tuyến phân chia giao dịch giữa các nhóm. Giới hạn trượt giá bảo vệ bạn khi trạng thái chuyển động."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Sự mất mát tạm thời có thể làm cho LP hoạt động kém hơn khi nắm giữ. Token giả và honeypot giả có thể mua được nhưng không thể bán được. APR phát thải có thể không kéo dài."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Việc phê duyệt không giới hạn đối với các bộ định tuyến không xác định là rất nguy hiểm. Depegs căng thẳng “ổn định” khó khăn."
+          }
+        ],
+        "keyPoints": [
+          "Giá AMM thông qua toán học nhóm để hoán đổi ngay lập tức.",
+          "LP kiếm được phí và chịu rủi ro hợp đồng IL +.",
+          "Kết quả ổ đĩa chất lượng trượt và định tuyến.",
+          "Xác minh nhóm/mã thông báo trước khi theo đuổi lợi nhuận."
+        ],
+        "tips": [
+          "Đặt mức trượt giá chặt chẽ và số tiền rút tối thiểu.",
+          "Ưu tiên các vùng sâu trên các giao thức trưởng thành.",
+          "Thu hồi các khoản trợ cấp mã thông báo không sử dụng thường xuyên."
+        ],
+        "body": "AMM cho phép mọi người gửi token vào một nhóm để các nhà giao dịch có thể trao đổi theo công thức. Bạn nhận được tính thanh khoản và phí LP liên tục—cộng với tổn thất tạm thời và rủi ro hợp đồng thông minh."
+      },
+      {
+        "id": "lending",
+        "title": "Giao thức cho vay",
+        "summary": "Khoản vay được thế chấp quá mức với lãi suất và thanh lý theo thuật toán",
+        "intro": "Gửi tài sản để kiếm lợi nhuận hoặc vay bằng tài sản thế chấp mà không cần bàn tín dụng. Các yếu tố sức khỏe, lời tiên tri và bot thanh lý—không phải trình quản lý mối quan hệ—giữ cho hệ thống có khả năng thanh toán.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Việc thực thi tín dụng không có bảo đảm trên chuỗi là rất khó, do đó việc thế chấp quá mức chiếm ưu thế. Bất cứ ai cũng có thể tham gia; hiệu quả vốn là sự đánh đổi."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Việc sử dụng thúc đẩy đường cong lãi suất. Giá thức ăn của Oracles. Khi sức khỏe suy giảm, người thanh lý sẽ trả nợ và thu giữ tài sản thế chấp để lấy tiền thưởng."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Các chế độ cô lập, LTV và xã hội hóa nợ xấu khác nhau tùy theo giao thức. Đòn bẩy lặp lại nhân lên rủi ro. APR ròng phải trừ tiền phạt gas và thanh lý."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Sự chậm trễ hoặc thao túng của Oracle có thể gây ra việc thanh lý sai trái. Việc coi việc cho vay là “tiết kiệm an toàn” là một cái bẫy tư duy."
+          }
+        ],
+        "keyPoints": [
+          "Thế chấp quá mức + thanh lý là cốt lõi.",
+          "Yếu tố sức khỏe đánh bại tỷ lệ tiêu đề.",
+          "Oracle và chất lượng thanh khoản quyết định sự an toàn.",
+          "Các vòng đòn bẩy khuếch đại các khoản rút vốn."
+        ],
+        "tips": [
+          "Để lại một khoảng đệm lớn phía trên việc thanh lý.",
+          "Tránh tài sản thế chấp có mối tương quan cao trong cơn bão.",
+          "Ước tính giá thanh lý trước khi vay."
+        ],
+        "body": "Gửi tài sản để kiếm lợi nhuận hoặc vay bằng tài sản thế chấp mà không cần bàn tín dụng. Các yếu tố sức khỏe, lời tiên tri và bot thanh lý—không phải trình quản lý mối quan hệ—giữ cho hệ thống có khả năng thanh toán."
+      },
+      {
+        "id": "stablecoins",
+        "title": "Stablecoin",
+        "summary": "Các đơn vị trên chuỗi được thiết kế để theo dõi một tài liệu tham khảo ổn định như USD",
+        "intro": "Tài sản cơ sở dễ biến động gây khó khăn cho việc định giá và kế toán. Stablecoin cung cấp phương thức giao dịch và chuyển tiền giống như đồng đô la nhưng cơ chế và phương thức thất bại rất khác nhau.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Họ cung cấp một đơn vị tài khoản quen thuộc cho hoạt động trên chuỗi và nơi trú ẩn tạm thời trong những thời điểm không có rủi ro—nơi trú ẩn ≠ không có rủi ro."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Đồng tiền được hỗ trợ bằng tiền pháp định dựa vào dự trữ và mua lại; những cái được hỗ trợ bằng tiền điện tử về việc thế chấp quá mức; các thiết kế thuật toán điều chỉnh nguồn cung và đã được chứng minh là dễ vỡ. Các điều khoản về tính minh bạch và quy đổi hoàn trả rất quan trọng."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Việc đóng băng, gỡ bỏ chốt, phiên bản chuỗi chéo giả mạo và trình bao bọc lợi nhuận sẽ tạo thêm nhiều lớp rủi ro. Cùng một mã trên một chuỗi khác có thể không chính thức."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "USD mang tên là tiếp thị, không phải bảo hiểm. Sự tập trung vào một tổ chức phát hành là rủi ro đối tác."
+          }
+        ],
+        "keyPoints": [
+          "Stablecoin là công cụ có rủi ro về cơ chế/nhà phát hành.",
+          "Dự trữ, tài sản thế chấp hoặc thuật toán thất bại theo những cách khác nhau.",
+          "Chính sách quy đổi và đóng băng ảnh hưởng đến khả năng sử dụng.",
+          "Luôn xác minh các hợp đồng chính thức trên mỗi chuỗi."
+        ],
+        "tips": [
+          "Thích các thiết kế minh bạch có thể đổi được theo kích thước.",
+          "Đa dạng hóa tổ chức phát hành và địa điểm.",
+          "Hãy coi “lợi suất ổn định” quá lớn như một lời cảnh báo."
+        ],
+        "body": "Tài sản cơ sở dễ biến động gây khó khăn cho việc định giá và kế toán. Stablecoin cung cấp phương thức giao dịch và chuyển tiền giống như đồng đô la nhưng cơ chế và phương thức thất bại rất khác nhau."
+      },
+      {
+        "id": "staking",
+        "title": "Đặt cược & Đặt lại",
+        "summary": "Vốn trái phiếu để bảo đảm mạng lưới—và đôi khi tái sử dụng bảo mật đó",
+        "intro": "Bằng chứng cổ phần điều chỉnh trình xác nhận với bảo mật chuỗi thông qua cổ phần ngoại quan. Token đặt cược lỏng cải thiện hiệu quả sử dụng vốn; đặt lại cổ phần tái sử dụng cho các dịch vụ bổ sung và ngăn chặn rủi ro cắt giảm tương quan.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "PoS cần một bộ trình xác nhận đủ phi tập trung. Phần thưởng bù đắp cho hoạt động và chi phí cơ hội; đặt cược thanh khoản làm tăng sự tham gia với rủi ro hợp đồng mới."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Hàng đợi kích hoạt và thoát, nhiệm vụ và cắt giảm xác định công việc. Việc đặt lại ủy quyền bảo mật cho các giao thức bổ sung để có thêm lợi nhuận—và các điều kiện cắt giảm bổ sung."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Hiệu suất của nhà điều hành, sự đa dạng của khách hàng và vấn đề rủi ro liên quan đến LST. Năng suất cao hơn thường có nghĩa là có nhiều cách để bị trừng phạt hơn."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Các trang web đặt cược giả mạo thu hoạch phê duyệt hoặc hạt giống. Đặt lại không phải là đòn bẩy không có rủi ro trên ETH."
+          }
+        ],
+        "keyPoints": [
+          "Đặt cược trả tiền cho công việc bảo mật.",
+          "Đặt cược lỏng bổ sung thêm các lớp hợp đồng/nhà điều hành.",
+          "Khôi phục lại các điều kiện chém của cộng dồn.",
+          "Sự chậm trễ trong việc hủy đặt cược có nghĩa là tính thanh khoản không được thực hiện ngay lập tức."
+        ],
+        "tips": [
+          "Chọn những người vận hành có hồ sơ theo dõi và mức độ tập trung thấp.",
+          "Đặt lại kích thước để giảm dung sai.",
+          "Chỉ nhập thông qua các liên kết tài liệu chính thức."
+        ],
+        "body": "Bằng chứng cổ phần điều chỉnh trình xác nhận với bảo mật chuỗi thông qua cổ phần ngoại quan. Token đặt cược lỏng cải thiện hiệu quả sử dụng vốn; đặt lại cổ phần tái sử dụng cho các dịch vụ bổ sung và ngăn chặn rủi ro cắt giảm tương quan."
+      },
+      {
+        "id": "perps",
+        "title": "Hợp đồng tương lai vĩnh viễn",
+        "summary": "Thị trường có đòn bẩy không hết hạn được neo bởi tỷ lệ tài trợ",
+        "intro": "Perps cho phép nhà giao dịch mua/bán với mức ký quỹ và không hết hạn. Các địa điểm trên chuỗi mã hóa số tiền ký quỹ và thanh lý trong mã hoặc hệ thống kết hợp. Ưu điểm được khuếch đại—tốc độ đạt đến mức 0 cũng vậy.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Chỉ riêng điểm không thể thể hiện hàng rào một cách hiệu quả. Perps đã trở thành công cụ phái sinh chiếm ưu thế của tiền điện tử bằng cách loại bỏ ma sát cuộn."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Chuyển tiền tài trợ giữa vị thế mua và vị thế bán để buộc giá vào một chỉ số. Ký quỹ duy trì kích hoạt thanh lý; quỹ bảo hiểm có thể hấp thụ sự thiếu hụt. Những lời tiên tri và sự cố mất điện rất quan trọng trong sự hỗn loạn."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Đòn bẩy, tự động hủy đòn bẩy và tích lũy vốn quyết định sự sống còn. Mô hình lưu ký CEX và DEX khác nhau."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "“Đòn bẩy nhỏ là an toàn” thất bại trong bấc. Không thể thêm tiền ký quỹ do các vấn đề về gas/mạng có thể khiến bạn bị thanh lý."
+          }
+        ],
+        "keyPoints": [
+          "Nguồn tài trợ thay thế thời hạn cho việc neo đậu.",
+          "Cơ chế thanh lý là tồn tại.",
+          "Đòn bẩy chuyển đổi sự biến động thành tỷ lệ cược bị xóa sổ.",
+          "Rủi ro về địa điểm và nhà tiên tri chồng lên rủi ro thị trường."
+        ],
+        "tips": [
+          "Mặc định ở mức đòn bẩy thấp với mức ký quỹ dự phòng.",
+          "Giảm kích thước trước các sự kiện; đừng trả thù-thêm.",
+          "Sử dụng các địa điểm có quy tắc mà bạn có thể xác minh."
+        ],
+        "body": "Perps cho phép nhà giao dịch mua/bán với mức ký quỹ và không hết hạn. Các địa điểm trên chuỗi mã hóa số tiền ký quỹ và thanh lý trong mã hoặc hệ thống kết hợp. Ưu điểm được khuếch đại—tốc độ đạt đến mức 0 cũng vậy."
+      },
+      {
+        "id": "rwa",
+        "title": "Mã thông báo RWA",
+        "summary": "Đưa các yêu cầu về dòng tiền trong thế giới thực vào đường ray tiền điện tử",
+        "intro": "RWA kết nối lợi tức quen thuộc (như tín phiếu kho bạc) với việc thanh toán trên chuỗi. Mã thông báo chỉ hoạt động tốt khi được bao bọc, lưu ký và mua lại hợp pháp — không chỉ là giao diện người dùng hợp đồng thông minh.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Lợi suất tiền điện tử gốc không ổn định; các công cụ tiền mặt được mã hóa có thể đáp ứng tốt hơn nhu cầu của ngân quỹ khi có cấu trúc hợp lý."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Tổ chức được cấp phép nắm giữ tài sản; các yêu cầu theo dõi mã thông báo; sản lượng được phân phối trên chuỗi. Danh sách cho phép KYC là phổ biến. Giá thứ cấp có thể phân kỳ khỏi NAV."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Khoảng cách xa với phá sản, chứng thực, mua lại T+N và quyền tài phán quyết định kết quả căng thẳng. “Hiển thị trên chuỗi” ≠ có thể tự động thực thi ngoài chuỗi."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Rủi ro đối tác và thay đổi quy định nằm cạnh rủi ro hợp đồng. Các trang đăng ký giả mạo có rất nhiều."
+          }
+        ],
+        "keyPoints": [
+          "RWA = pháp lý + quyền giám hộ + hệ thống mã thông báo.",
+          "Lợi nhuận đến từ tài sản ngoài chuỗi.",
+          "Quy tắc chuyển nhượng/quy đổi có thể được kiểm soát.",
+          "Cần chú ý đến cơ cấu tổ chức phát hành, không chỉ APR."
+        ],
+        "tips": [
+          "Đọc tài liệu cung cấp và chứng thực dự trữ.",
+          "Xác nhận thẩm quyền của bạn cho phép giữ nó.",
+          "Xem các cửa sổ đổi thưởng và độ sâu thứ cấp."
+        ],
+        "body": "RWA kết nối lợi tức quen thuộc (như tín phiếu kho bạc) với việc thanh toán trên chuỗi. Mã thông báo chỉ hoạt động tốt khi được bao bọc, lưu ký và mua lại hợp pháp — không chỉ là giao diện người dùng hợp đồng thông minh."
+      }
+    ]
+  },
+  {
+    "id": "nfts",
+    "name": "NFT",
+    "summary": "Token độc đáo và thị trường dành cho chúng",
+    "blurb": "Từ tiêu chuẩn và thị trường đến văn hóa, trò chơi và tài sản năng động.",
+    "items": [
+      {
+        "id": "erc721",
+        "title": "ERC-721 & ERC-1155",
+        "summary": "Giao diện tiêu chuẩn cho các mã thông báo độc đáo và có thể thay thế được",
+        "intro": "Tiêu chuẩn cho phép ví và thị trường nói một ngôn ngữ. 721 ánh xạ một id tới một chủ sở hữu; 1155 quản lý nhiều id và chuyển hàng loạt—tiện dụng cho trò chơi.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Không có tiêu chuẩn, mọi dự án đều phát minh ra các API riêng biệt và phá vỡ khả năng tương tác. Người sáng tạo cũng có được sự phân phối đa thị trường."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Quyền sở hữu và chuyển nhượng được tiêu chuẩn hóa; siêu dữ liệu thường tồn tại ở tokenURI (thường là IPFS). Sự phê duyệt có thể được thực hiện theo từng mã thông báo hoặc trên toàn nhà điều hành."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Siêu dữ liệu có thể thay đổi, ghim và chính sách tiền bản quyền định hình độ bền và tính kinh tế. Bộ sưu tập giả sao chép nghệ thuật với các hợp đồng khác nhau—địa chỉ tin cậy."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Blind setApprovalForAll cho các thị trường chưa biết là một cách làm kinh điển. Câu chuyện về độ hiếm ≠ tính thanh khoản."
+          }
+        ],
+        "keyPoints": [
+          "Các tiêu chuẩn cho phép tương tác chứ không phải giá trị nội tại.",
+          "Lựa chọn lưu trữ ảnh hưởng đến tính lâu dài.",
+          "Giảm thiểu sự phê duyệt",
+          "Địa chỉ hợp đồng là kiểm tra tính xác thực."
+        ],
+        "tips": [
+          "Xác minh hợp đồng chính thức trước khi mua.",
+          "Thu hồi các nhà khai thác thị trường cũ.",
+          "Chia các phần có giá trị cao trên các ví vault."
+        ],
+        "body": "Tiêu chuẩn cho phép ví và thị trường nói một ngôn ngữ. 721 ánh xạ một id tới một chủ sở hữu; 1155 quản lý nhiều id và chuyển hàng loạt—tiện dụng cho trò chơi."
+      },
+      {
+        "id": "markets",
+        "title": "Thị trường NFT",
+        "summary": "Các lớp chính sách niêm yết, đấu thầu, thanh toán và tiền bản quyền",
+        "intro": "Thị trường kết nối người mua và người bán bằng luồng đơn hàng trên chuỗi hoặc kết hợp. Tuyến đường tổng hợp trên khắp các địa điểm. Việc thực thi tiền bản quyền ngày càng trở thành chính sách thị trường chứ không phải phép thuật giao thức thuần túy.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Người sáng tạo cần phân phối; người sưu tập cần khám phá và hình thành giá cả. Cạnh tranh làm giảm phí và tăng kỳ vọng về bảo mật."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Người bán chấp thuận chuyển nhượng; người mua giải quyết. Xem danh sách bị đánh cắp với mức giảm giá không thể tin được. Các công cụ tổng hợp giúp định giá nhưng không hỗ trợ thẩm định."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Phí, ký quỹ giá thầu, giao dịch rửa tiền và các vấn đề liên quan đến danh sách chéo đều quan trọng. Biểu đồ sàn có thể được thao tác."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Giao diện người dùng lừa đảo bắt chước các thị trường hàng đầu. Chữ ký airdrop là một sự thu hút phổ biến."
+          }
+        ],
+        "keyPoints": [
+          "Thị trường là đường ray, không đảm bảo giá trị.",
+          "Hồ sơ dự thầu và phê duyệt có rủi ro.",
+          "Quy tắc tiền bản quyền khác nhau tùy theo địa điểm.",
+          "Yêu cầu cực thấp có thể là tài sản bị đánh cắp."
+        ],
+        "tips": [
+          "Đánh dấu các miền chính thức; bỏ qua quảng cáo tìm kiếm.",
+          "Giữ quy mô giá thầu và thời hạn sử dụng ở mức thận trọng.",
+          "Tích lũy cẩn thận theo thời gian."
+        ],
+        "body": "Thị trường kết nối người mua và người bán bằng luồng đơn hàng trên chuỗi hoặc kết hợp. Tuyến đường tổng hợp trên khắp các địa điểm. Việc thực thi tiền bản quyền ngày càng trở thành chính sách thị trường chứ không phải phép thuật giao thức thuần túy."
+      },
+      {
+        "id": "pfp",
+        "title": "PFP & NFT văn hóa",
+        "summary": "Danh tính và tư cách thành viên cộng đồng được bao bọc dưới dạng phương tiện có thể giao dịch",
+        "intro": "NFT ảnh hồ sơ biến quyền sở hữu thành tín hiệu xã hội. Việc định giá dựa trên tường thuật và tính thanh khoản nhiều hơn là dựa trên dòng tiền. Trước tiên hãy coi chúng như văn hóa, sau đó là suy đoán.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Tên người dùng nền tảng được thuê; PFP cố gắng nhận diện hình ảnh di động và tiếp cận cộng đồng—sự chú ý có thể kiếm tiền và sự chú ý có thể rời đi."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Mint, công cụ hiếm, Discord/Telegram và giao dịch thứ cấp tạo thành vòng lặp. Một số thêm tiện ích; nhiều người thì không."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Việc phân phối giá đỡ, mở khóa và sách mỏng sẽ dẫn đến nguy cơ va chạm. Lừa đảo mạo danh là liên tục."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Việc theo đuổi những câu chuyện về “blue chip” ở thời điểm hưng phấn đang lên đến đỉnh điểm. Đừng bao giờ tin tưởng vào quản trị viên DM về hạt giống."
+          }
+        ],
+        "keyPoints": [
+          "Giá trị chủ yếu là xã hội và tường thuật.",
+          "Xác minh các hợp đồng/kênh chính thức.",
+          "Thanh khoản có thể biến mất nhanh chóng.",
+          "Thu thập/xã hội hóa; không coi đó là lợi nhuận được đảm bảo."
+        ],
+        "tips": [
+          "Lurk cộng đồng trước khi mua.",
+          "Bỏ qua DM airdrop.",
+          "Xác định trước ngân sách tổn thất tối đa."
+        ],
+        "body": "NFT ảnh hồ sơ biến quyền sở hữu thành tín hiệu xã hội. Việc định giá dựa trên tường thuật và tính thanh khoản nhiều hơn là dựa trên dòng tiền. Trước tiên hãy coi chúng như văn hóa, sau đó là suy đoán."
+      },
+      {
+        "id": "gaming-assets",
+        "title": "Tài sản trò chơi",
+        "summary": "Các vật phẩm, nhân vật và đất đai có thể giao dịch với quyền sở hữu có thể xác minh được",
+        "intro": "Trò chơi tiền điện tử hứa hẹn rằng những mặt hàng khan hiếm vẫn là của bạn. Các vòng lặp thú vị, nền kinh tế cân bằng và quyền sở hữu thực sự phải cùng tồn tại - nếu không bạn sẽ chỉ còn lại cái vỏ đầu cơ.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Việc tắt máy truyền thống sẽ xóa sạch hàng tồn kho. Thị trường mở và quyền sở hữu có thể kiểm chứng sẽ thay đổi kỳ vọng của người chơi và tạo điều kiện cho nền kinh tế UGC."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Hỗn hợp giúp duy trì cuộc chiến ngoài chuỗi theo thời gian thực và giải quyết tình trạng khan hiếm trên chuỗi. Giá bạc hà, bồn rửa và tạo hình thủ công; lượng khí thải không được kiểm soát sẽ thổi phồng chúng đi."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Tỷ lệ sản xuất/tiêu thụ và người chi tiêu quan trọng hơn chỉ riêng nghệ thuật. Có thể sở hữu ≠ yêu cầu."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Việc coi phần thưởng token sớm như tiền lương đã thất bại trong thị trường giá xuống. Tách khóa trò chơi khỏi ví vault."
+          }
+        ],
+        "keyPoints": [
+          "Quyền sở hữu cần một vòng lặp trò chơi bền vững.",
+          "Thiết kế kinh tế thúc đẩy giá cả trong dài hạn.",
+          "Giống lai đánh đổi độ tinh khiết để lấy hiệu suất.",
+          "Tỷ lệ giữ chân cường điệu ≠ tỷ lệ giữ chân người chơi."
+        ],
+        "tips": [
+          "Chơi trước khi mua tài sản đắt tiền.",
+          "Theo dõi bồn rửa và khí thải.",
+          "Cô lập tài khoản trò chơi khỏi quỹ chính."
+        ],
+        "body": "Trò chơi tiền điện tử hứa hẹn rằng những mặt hàng khan hiếm vẫn là của bạn. Các vòng lặp thú vị, nền kinh tế cân bằng và quyền sở hữu thực sự phải cùng tồn tại - nếu không bạn sẽ chỉ còn lại cái vỏ đầu cơ."
+      },
+      {
+        "id": "tickets",
+        "title": "Vé & Thông tin xác thực",
+        "summary": "Quyền truy cập có thể xác minh được với các quy tắc chuyển giao tùy chọn",
+        "intro": "Vé và tư cách thành viên là để chứng minh quyền lợi. Thông tin xác thực trên chuỗi có thể giảm thiểu tình trạng giả mạo và cho phép bán lại có kiểm soát—nếu UX đăng ký thực sự có tác dụng với người bình thường.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Giấy giả và sự kiện gây tổn thương da đầu mờ đục. Vé kỹ thuật số có thể xác minh có thể ràng buộc danh tính hoặc đặt ra các ràng buộc chuyển giao và để lại dấu vết có thể kiểm tra được."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Đúc tiền/yêu cầu khi mua hàng; quét để đổi điểm được sử dụng. Tùy chọn Soulbound giảm chào hàng. Quyền riêng tư/KYC thường nằm ngoài chuỗi."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Khả năng chuyển nhượng, tấn công ảnh chụp màn hình và khả năng phục hồi nếu hạt giống bị mất đều cần thiết kế. Ma sát về ví có thể loại trừ khán giả."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Việc đúc vé giả và các sự kiện bị bỏ rơi để lại những token vô giá trị. Không chia sẻ quá mức dữ liệu cá nhân với các hợp đồng không xác định."
+          }
+        ],
+        "keyPoints": [
+          "Giá trị là đúng chứ không phải lật.",
+          "UX quy đổi quyết định quy mô.",
+          "Đọc quy định chuyển nhượng trước khi mua.",
+          "Đường dẫn phục hồi vẫn còn quan trọng."
+        ],
+        "tips": [
+          "Chỉ mua qua các kênh tổ chức.",
+          "Kiểm tra hiển thị ví trước sự kiện.",
+          "Giữ cả email xác nhận ngoài chuỗi."
+        ],
+        "body": "Vé và tư cách thành viên là để chứng minh quyền lợi. Thông tin xác thực trên chuỗi có thể giảm thiểu tình trạng giả mạo và cho phép bán lại có kiểm soát—nếu UX đăng ký thực sự có tác dụng với người bình thường."
+      },
+      {
+        "id": "dynamic",
+        "title": "NFT động",
+        "summary": "Tài sản có đặc điểm có thể thay đổi theo trạng thái on-chain hoặc oracle",
+        "intro": "NFT động cập nhật giao diện hoặc thuộc tính từ tiến trình trò chơi, thời gian hoặc dữ liệu bên ngoài. Chúng có cảm giác sống động—nhưng khả năng thay đổi phải rõ ràng đối với người mua.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Cấp độ thành viên và các vật phẩm trò chơi đang phát triển cần có trạng thái. Động lực làm cho NFT nhiều hơn hình ảnh tĩnh."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Hợp đồng hoặc dịch vụ siêu dữ liệu cập nhật URI từ trình kích hoạt. Nếu siêu dữ liệu được tập trung, động lực có thể trở thành chỉnh sửa thầm lặng."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Ai có thể cập nhật? Lịch sử có thể kiểm tra được không? Các thị trường phải hiển thị trạng thái mới nhất. Người mua nên biết những gì có thể thay đổi."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Người vận hành có thể giảm độ hiếm. Lỗi của Oracle có thể đặt biểu mẫu sai. “Độ hiếm bất biến” cộng với các cập nhật im lặng của quản trị viên là một lá cờ đỏ."
+          }
+        ],
+        "keyPoints": [
+          "Động lực là một tính năng và một rủi ro.",
+          "Xuất bản quyền cập nhật rõ ràng.",
+          "Mô hình lưu trữ thúc đẩy niềm tin.",
+          "Xác nhận những đặc điểm mới nhất trước khi giao dịch."
+        ],
+        "tips": [
+          "Đọc các quy tắc và lịch sử cập nhật.",
+          "Ưu tiên các máy trạng thái trên chuỗi có thể kiểm chứng được.",
+          "Lưu trữ các sản phẩm có giá trị cao trong ví lạnh."
+        ],
+        "body": "NFT động cập nhật giao diện hoặc thuộc tính từ tiến trình trò chơi, thời gian hoặc dữ liệu bên ngoài. Chúng có cảm giác sống động—nhưng khả năng thay đổi phải rõ ràng đối với người mua."
+      }
+    ]
+  },
+  {
+    "id": "layer2",
+    "name": "Lớp 2",
+    "summary": "Mạng mở rộng được xây dựng trên Ethereum",
+    "blurb": "Bản tổng hợp lạc quan/ZK, tính khả dụng của dữ liệu, cầu nối và lý do phí có thể giảm xuống còn xu.",
+    "items": [
+      {
+        "id": "optimistic",
+        "title": "Tổng hợp lạc quan",
+        "summary": "Giả sử các lô là hợp lệ; bảo vệ chúng bằng một cửa sổ chống gian lận",
+        "intro": "Các bản tổng hợp lạc quan thực thi trên L2, đăng dữ liệu lên Ethereum và giả định tính chính xác trừ khi bị thách thức. Người dùng nhận được UX rẻ hơn; các lối thoát kinh điển có thể chờ đợi một giai đoạn thử thách.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Không gian khối L1 đắt tiền. Di chuyển việc thực thi ra khỏi chuỗi trong khi neo vào L1 sẽ cắt giảm chi phí. Các thiết kế lạc quan được xuất xưởng sớm với khả năng tương thích EVM mạnh mẽ."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Trình sắp xếp thứ tự sắp xếp các giao dịch và xuất bản các đợt; rễ trạng thái neo trên L1. Trong cửa sổ, người xem có thể tranh chấp. Thoát nhanh sử dụng thanh khoản của bên thứ ba với các giả định bổ sung."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Phân cấp trình tự, tính khả dụng của dữ liệu và khóa nâng cấp xác định tính bảo mật thực sự. Tốc độ UX ≠ hoàn thành phân cấp."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Bỏ qua sự chậm trễ thoát ra, tính thanh khoản sai giá. Các trang cầu nối giả tăng đột biến bất cứ khi nào xu hướng của L2."
+          }
+        ],
+        "keyPoints": [
+          "Thử thách độ trễ giao dịch trong Windows để có bằng chứng gian lận đơn giản hơn.",
+          "Bảo mật dựa trên dữ liệu L1 + trò chơi tranh chấp.",
+          "Cầu Canonical chậm hơn nhưng rõ ràng hơn.",
+          "Thời gian hoạt động của trình sắp xếp thứ tự là một rủi ro về trải nghiệm."
+        ],
+        "tips": [
+          "Kế hoạch L1 được thực hiện có tính đến độ trễ.",
+          "Ưu tiên các điểm vào cầu chính thức.",
+          "Đọc tài liệu về lối thoát khi trình sắp xếp thứ tự ngừng hoạt động."
+        ],
+        "body": "Các bản tổng hợp lạc quan thực thi trên L2, đăng dữ liệu lên Ethereum và giả định tính chính xác trừ khi bị thách thức. Người dùng nhận được UX rẻ hơn; các lối thoát kinh điển có thể chờ đợi một giai đoạn thử thách."
+      },
+      {
+        "id": "zk",
+        "title": "Bản tổng hợp ZK",
+        "summary": "Bằng chứng về tính hợp lệ thuyết phục L1 rằng các lô L2 là chính xác",
+        "intro": "Bằng chứng hợp lệ cho phép L1 chấp nhận kết quả mà không có thời gian gian lận kéo dài. Việc chứng minh nặng nề về mặt tính toán, nhưng tính hữu hạn có thể trở nên nhanh chóng hơn khi bằng chứng được đưa ra.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Mở rộng quy mô mà không dựa vào “giả sử trung thực trừ khi bị thách thức”. Giải quyết nhanh hơn giúp trao đổi và cầu nối."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "L2 thực thi; người chứng minh xây dựng bằng chứng; Người xác minh L1 kiểm tra chúng. Tương đương EVM cao hơn giúp dễ dàng di chuyển ứng dụng."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Hệ thống bằng chứng, DA và khóa nâng cấp vẫn quan trọng. Thương hiệu “ZK” ≠ thị trường chứng minh phi tập trung chưa."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Bộ chứng minh/trình tự tập trung có thể vẫn còn. Cầu nối và lừa đảo vẫn chiếm ưu thế trong tổn thất của người dùng."
+          }
+        ],
+        "keyPoints": [
+          "Bằng chứng hiệu lực tăng cường đảm bảo tính đúng đắn.",
+          "Chi phí phần cứng/kỹ thuật định hình phí và sự phân cấp.",
+          "Người dùng vẫn cần vệ sinh cầu và ví.",
+          "Khả năng tương thích EVM thúc đẩy quá trình chuyển hệ sinh thái."
+        ],
+        "tips": [
+          "Kiểm tra lộ trình phân quyền của người chứng minh.",
+          "Kiểm tra cầu với số lượng nhỏ.",
+          "Đọc kỹ thiết kế DA."
+        ],
+        "body": "Bằng chứng hợp lệ cho phép L1 chấp nhận kết quả mà không có thời gian gian lận kéo dài. Việc chứng minh nặng nề về mặt tính toán, nhưng tính hữu hạn có thể trở nên nhanh chóng hơn khi bằng chứng được đưa ra."
+      },
+      {
+        "id": "data",
+        "title": "Tính sẵn có của dữ liệu",
+        "summary": "Đảm bảo bất kỳ ai cũng có thể lấy được dữ liệu cần thiết để xây dựng lại trạng thái",
+        "intro": "Bản tổng hợp phải làm cho dữ liệu giao dịch có thể thu được. Nếu dữ liệu biến mất, người dùng có thể không thoát ra được một cách an toàn. Blobs đã giảm chi phí Ethereum DA và giúp giảm phí L2.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Bằng chứng không có dữ liệu vẫn có thể bẫy người dùng. Dữ liệu tồn tại ở đâu—và mức độ tốn kém của nó—là trung tâm của các cuộc tranh luận về quy mô."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Dữ liệu có thể nằm trong calldata/blobs của Ethereum hoặc các lớp DA bên ngoài, thường có mã hóa lấy mẫu/xóa. Kế thừa bảo mật khác nhau tùy theo thiết kế."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "“Đã thanh toán bằng Ethereum” không giống với “DA tương đương với sự đảm bảo đầy đủ của Ethereum”. Giảm phí thường theo dõi DA rẻ hơn."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Đánh giá thấp các dạng lỗi DA là nguy hiểm. Tiếp thị có thể làm mờ việc thanh toán so với tính sẵn có."
+          }
+        ],
+        "keyPoints": [
+          "Không có DA, khả năng tự cứu sẽ yếu đi.",
+          "Các nâng cấp thời Blob đã thay đổi đường cong phí L2.",
+          "Các lựa chọn DA mang những giả định riêng biệt.",
+          "Phí thẩm phán, an toàn và phân cấp cùng nhau."
+        ],
+        "tips": [
+          "Đọc phần DA của mỗi L2.",
+          "Giữ sẵn các ghi chú về lối thoát chính thức.",
+          "Đừng xếp hạng chuỗi chỉ bằng TPS."
+        ],
+        "body": "Bản tổng hợp phải làm cho dữ liệu giao dịch có thể thu được. Nếu dữ liệu biến mất, người dùng có thể không thoát ra được một cách an toàn. Blobs đã giảm chi phí Ethereum DA và giúp giảm phí L2."
+      },
+      {
+        "id": "bridges-l2",
+        "title": "Cầu L2",
+        "summary": "Đường dẫn chuẩn và bên thứ ba giữa L1 ​​và L2",
+        "intro": "Cầu nối Canonical kế thừa các quy tắc cuộn lên và có thể chậm; cầu nối của bên thứ ba bán tốc độ với sự tin cậy cao hơn. Chọn sai giao diện người dùng là một tình trạng mất mát lớn nhất.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Bạn cần tiền trên L2 cho UX giá rẻ hoặc quay lại L1 để thanh toán. Những người dùng khác nhau chọn điểm tin cậy/độ trễ khác nhau."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Cầu nối chính thức ghi có số dư L2 sau khi gửi và thoát theo quy tắc tổng hợp. Nhanh chóng thu hẹp thanh khoản trước và cân bằng lại sau—xem phí và giới hạn."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Tính xác thực của tên miền, khả năng nâng cấp, giới hạn và đường dẫn hoàn tiền đều quan trọng. Nhanh hơn thường có nghĩa là nhiều đối tác hơn."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Quảng cáo tìm kiếm tên miền giả. Kết nối phiên bản mã thông báo sai sẽ làm mất thanh khoản. Việc chi tiền vẫn còn trong cửa sổ thử thách có nguy cơ đánh dấu sai."
+          }
+        ],
+        "keyPoints": [
+          "Cầu nối chuẩn phù hợp nhất với các giả định tổng hợp.",
+          "Cầu nhanh đánh đổi niềm tin lấy thời gian.",
+          "Xác minh tên miền là bắt buộc.",
+          "Các thử nghiệm nhỏ trước kích thước."
+        ],
+        "tips": [
+          "Nhấp vào cầu nối từ trang web riêng của L2.",
+          "Lưu băm tx để hỗ trợ/gỡ lỗi.",
+          "Tránh những cây cầu hoàn toàn mới chưa được kiểm tra về kích thước."
+        ],
+        "body": "Cầu nối Canonical kế thừa các quy tắc cuộn lên và có thể chậm; cầu nối của bên thứ ba bán tốc độ với sự tin cậy cao hơn. Chọn sai giao diện người dùng là một tình trạng mất mát lớn nhất."
+      },
+      {
+        "id": "accounts-aa",
+        "title": "Trừu tượng hóa tài khoản",
+        "summary": "Ví hợp đồng thông minh có khả năng phục hồi, giới hạn và gas được tài trợ",
+        "intro": "EOA cổ điển có nghĩa là cụm từ hạt giống và gas tự trả. AA cho phép ví xác định logic xác minh—người bảo vệ, khóa phiên, nhóm, người trả tiền—để việc triển khai có cảm giác gần gũi hơn với Web2 mà không từ bỏ hoàn toàn quyền tự quản lý.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Hạt giống khiến người mới sợ hãi; mã thông báo gas làm họ bối rối. AA giảm ma sát trong khi vẫn duy trì khả năng kiểm soát có thể kiểm chứng được. dApps nhận được ít cửa sổ bật lên hơn thông qua các phiên và đợt."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "UserOperations được đóng gói trên chuỗi; người trả lương có thể tài trợ phí. Hợp đồng ví thực thi chính sách. Các tiêu chuẩn như ERC-4337 thay đổi tùy theo mức độ trưởng thành của chuỗi."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Những người giám hộ là ai? Quá trình phục hồi có tập trung không? Quyền của phiên có quá rộng không? Misconfig vẫn mất tiền."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "“Không có hạt giống” ≠ không có rủi ro—các kênh phục hồi có thể bị tấn công. Điểm cuối của gói/người quản lý thanh toán độc hại tồn tại. Các phiên truy cập vào các dApp không xác định rất nguy hiểm."
+          }
+        ],
+        "keyPoints": [
+          "AA mã hóa chính sách trong ví hợp đồng.",
+          "Khí được tài trợ và phục hồi xã hội là những chiến thắng nổi bật của UX.",
+          "Cấu hình chọn bảo mật thực sự.",
+          "Lừa đảo vẫn hoạt động nếu bạn chấp nhận một cách mù quáng."
+        ],
+        "tips": [
+          "Chọn những người bảo vệ và thiết bị đa dạng.",
+          "Chỉ tồn tại trong thời gian ngắn, các khóa phiên giới hạn.",
+          "Giữ phần cứng/multisig cho vault."
+        ],
+        "body": "EOA cổ điển có nghĩa là cụm từ hạt giống và gas tự trả. AA cho phép ví xác định logic xác minh—người bảo vệ, khóa phiên, nhóm, người trả tiền—để việc triển khai có cảm giác gần gũi hơn với Web2 mà không từ bỏ hoàn toàn quyền tự quản lý."
+      },
+      {
+        "id": "multi-chain",
+        "title": "Thực tế đa chuỗi",
+        "summary": "Thanh khoản và người dùng phân chia trên nhiều lĩnh vực thanh toán",
+        "intro": "Bây giờ rất ít người sống trên một chuỗi. Mã thông báo gas, cầu nối và triển khai ứng dụng khác nhau. Người giải quyết ý định ẩn đường dẫn, nhưng bạn vẫn phải biết tiền nằm ở đâu.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Một chuỗi không thể tối ưu hóa mọi phân khúc về phí/hiệu suất. Nhiều sự lựa chọn hơn cũng có nghĩa là có nhiều cách hơn để chọn sai mạng."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Ví chuyển đổi RPC/ID chuỗi; cùng một địa chỉ có thể chứa các tài sản khác nhau trên mỗi chuỗi EVM. Các trạng thái kết nối cầu nối và nhắn tin; người giải quyết cạnh tranh để thực hiện ý định."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Tính xác thực của ID chuỗi, RPC giả và hợp đồng mã thông báo trên mỗi chuỗi là những khẩu súng ngắn hàng ngày. Số dư bằng 0 thường có nghĩa là đã chọn sai mạng."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Chữ ký lừa RPC tùy chỉnh độc hại. Cửa sổ bắc cầu thêm rủi ro. Việc dàn trải các khoản tiền không thể thay thế trên 10 L2 mới là khoản nợ hoạt động."
+          }
+        ],
+        "keyPoints": [
+          "Đa chuỗi là bình thường—luôn xác minh mạng.",
+          "Cùng một địa chỉ ≠ cùng số dư ở mọi nơi.",
+          "Ý định che giấu sự phức tạp; họ không xóa bỏ rủi ro cầu nối.",
+          "Ít chuỗi hoạt động hơn làm giảm sai lầm."
+        ],
+        "tips": [
+          "Dán nhãn mạng rõ ràng trong ví của bạn.",
+          "Ảnh chụp màn hình/kiểm tra tên mạng trước khi gửi.",
+          "Tìm hiểu các lối thoát trước khi gửi tiền vào chuỗi mới."
+        ],
+        "body": "Bây giờ rất ít người sống trên một chuỗi. Mã thông báo gas, cầu nối và triển khai ứng dụng khác nhau. Người giải quyết ý định ẩn đường dẫn, nhưng bạn vẫn phải biết tiền nằm ở đâu."
+      },
+      {
+        "id": "costs",
+        "title": "Tại sao phí L2 có thể là xu",
+        "summary": "Dữ liệu theo đợt và rẻ hơn sẽ khấu hao chi phí L1 cho nhiều người dùng",
+        "intro": "Trên L1 bị tắc nghẽn, bạn đấu thầu để có được không gian khối khan hiếm. L2 gói nhiều tx lại với nhau để mỗi người dùng trả một phần chi phí kiểm chứng/dữ liệu dùng chung—thường giảm xuống đến xu.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Phí cao chặn các khoản thanh toán vi mô và vòng lặp trò chơi. Mức phí thấp hơn cho phép người bình thường sử dụng ứng dụng chứ không chỉ xem biểu đồ."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Việc thực thi xảy ra trên L2; tóm tắt nhấn L1. DA thời Blob cắt giảm chi phí đơn vị. L2 vẫn có thể tắc nghẽn, thường thấp hơn nhiều so với đỉnh L1. Phí cầu và trượt giá là các chi tiết đơn hàng riêng biệt."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Rẻ ≠ phi tập trung như nhau. Chính sách phí trình tự định hình UX. Phê duyệt nhiều bước vẫn tăng lên."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Rủi ro lừa đảo trên cầu để tiết kiệm hai đô la là không hợp lý. Các sự kiện căng thẳng làm xấu đi cả phí và thời gian thoát."
+          }
+        ],
+        "keyPoints": [
+          "Khấu hao + nén phí ổ DA rẻ hơn.",
+          "Sự tắc nghẽn L2 tồn tại ở một quy mô khác.",
+          "Tổng chi phí bao gồm cầu, độ trượt và thời gian.",
+          "An toàn hơn là tiết kiệm từng xu."
+        ],
+        "tips": [
+          "Bao gồm phí cầu khi so sánh các tuyến đường.",
+          "Chờ đợi đột biến cho các hành động không khẩn cấp.",
+          "Giữ lại một ít L1 ETH làm nhiên liệu thoát hiểm."
+        ],
+        "body": "Trên L1 bị tắc nghẽn, bạn đấu thầu để có được không gian khối khan hiếm. L2 gói nhiều tx lại với nhau để mỗi người dùng trả một phần chi phí kiểm chứng/dữ liệu dùng chung—thường giảm xuống đến xu."
+      }
+    ]
+  },
+  {
+    "id": "infra",
+    "name": "Cơ sở hạ tầng",
+    "summary": "Oracles, công cụ lưu trữ, lập chỉ mục và nhà phát triển",
+    "blurb": "Các đường ống vô hình hỗ trợ ví, DeFi và UX an toàn hơn.",
+    "items": [
+      {
+        "id": "oracles",
+        "title": "Lời tiên tri",
+        "summary": "Những cầu nối đưa thông tin ngoài chuỗi vào hợp đồng thông minh",
+        "intro": "Hợp đồng không thể chỉ nhìn thấy giá trao đổi hoặc điểm số trong thế giới thực. Oracles tổng hợp dữ liệu bên ngoài để thanh lý, phạm tội và bảo hiểm. Khi họ thất bại, các tầng sẽ theo sau.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Blockchain cô lập vì tính quyết định, nhưng tài chính lại cần đầu vào. Oracles cân bằng sự mới mẻ với tính toàn vẹn — nếu không có chúng thì hầu hết DeFi đều dừng lại."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Các nguồn tổng hợp, các giá trị ngoại lệ giảm, các cập nhật thúc đẩy nhịp tim hoặc nhu cầu. Một số thiết kế đóng cọc và chém những phóng viên xấu. Bộ ngắt mạch quan trọng trong sự hỗn loạn."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Thị trường mỏng dễ bị thao túng hơn đối với các khoản nợ khó đòi. Tin nhắn xuyên chuỗi cũng là những vấn đề về niềm tin giống như lời tiên tri."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Có “một lời tiên tri” ≠ bất khả xâm phạm. Giá cũ, số thập phân sai và nguồn cấp dữ liệu bị tạm dừng đều có tác dụng."
+          }
+        ],
+        "keyPoints": [
+          "Oracles là huyết mạch của DeFi.",
+          "Đánh giá các nguồn, tổng hợp và cập nhật các quy tắc.",
+          "Tài sản kém thanh khoản dễ bị giả mạo hơn.",
+          "Bộ ngắt mạch giao thức làm giảm bán kính vụ nổ."
+        ],
+        "tips": [
+          "Biết nguồn cấp dữ liệu và nhịp tim nào mà giao thức sử dụng.",
+          "Giảm các hành động nhạy cảm với độ chính xác trong tình trạng biến động cực độ.",
+          "Tránh các thiết kế nguồn đơn cho kích thước."
+        ],
+        "body": "Hợp đồng không thể chỉ nhìn thấy giá trao đổi hoặc điểm số trong thế giới thực. Oracles tổng hợp dữ liệu bên ngoài để thanh lý, phạm tội và bảo hiểm. Khi họ thất bại, các tầng sẽ theo sau."
+      },
+      {
+        "id": "rpc",
+        "title": "RPC & nút",
+        "summary": "Cách ví đọc trạng thái chuỗi và phát sóng giao dịch",
+        "intro": "Ví giao tiếp với blockchain thông qua các điểm cuối RPC. RPC công khai rất dễ sử dụng nhưng có thể bị giới hạn tốc độ, ghi nhật ký hoặc bị hoán đổi để lừa đảo. Hiểu RPC giúp gỡ lỗi “số dư sai” và các tx bị kẹt.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Không phải ai cũng chạy một nút đầy đủ. RPC hiển thị các khả năng của nút dưới dạng API trong khi vẫn duy trì tùy chọn tự lưu trữ."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Ứng dụng gửi lệnh gọi JSON-RPC đến trạng thái truy vấn hoặc gửi tx thô. Các nhà cung cấp khác nhau về độ sâu lưu trữ, quyền riêng tư và độ tin cậy."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "RPC độc hại có thể hiển thị số dư giả hoặc tx kiểm duyệt. Việc ký vẫn cục bộ nhưng dữ liệu xấu vẫn có thể đánh lừa bạn. Xác minh ID chuỗi khi thêm mạng."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Chỉ một cú nhấp chuột “thêm mạng” từ các trang web mờ ám là rất rủi ro. Sự cố ngừng hoạt động công cộng không phải lúc nào cũng là lỗi ví. Không bao giờ đưa bí mật RPC vào giao diện công khai."
+          }
+        ],
+        "keyPoints": [
+          "RPC là ô cửa đọc/ghi.",
+          "Ký kết cục bộ ≠ trạng thái hiển thị đáng tin cậy.",
+          "Kiểm tra chéo các hành động quan trọng trên trình khám phá.",
+          "Các nút riêng tư/tự lưu trữ cải thiện tính riêng tư/độ tin cậy."
+        ],
+        "tips": [
+          "Giữ hai bản sao lưu RPC đáng tin cậy.",
+          "Trên số dư kỳ lạ, hãy chuyển đổi nút hoặc sử dụng trình khám phá.",
+          "Nhập thông số mạng chính thức theo cách thủ công."
+        ],
+        "body": "Ví giao tiếp với blockchain thông qua các điểm cuối RPC. RPC công khai rất dễ sử dụng nhưng có thể bị giới hạn tốc độ, ghi nhật ký hoặc bị hoán đổi để lừa đảo. Hiểu RPC giúp gỡ lỗi “số dư sai” và các tx bị kẹt."
+      },
+      {
+        "id": "indexers",
+        "title": "Người lập chỉ mục",
+        "summary": "Biến nhật ký thô thành API sản phẩm có thể truy vấn",
+        "intro": "Quét toàn bộ chuỗi cho mọi giao diện người dùng bị chậm. Người lập chỉ mục nhập các sự kiện vào cơ sở dữ liệu để danh mục đầu tư và bảng xếp hạng có cảm giác ngay lập tức—hầu hết các lượt xem \"lịch sử\" đều đến từ các chỉ mục chứ không phải từ bản quét toàn bộ trực tiếp.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Sản phẩm cần truy vấn được lọc ở tốc độ internet. Các nhà phân tích và bot dựa vào cùng một lớp."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Xác định lược đồ, xử lý nhật ký, lưu trữ, phục vụ GraphQL/REST. Mất điện hiển thị giao diện người dùng cũ. Mạng chỉ mục phi tập trung khuyến khích nhiều nhà khai thác."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Giao diện người dùng có thể tụt lại trạng thái chuỗi thực sự. Nâng cấp yêu cầu cập nhật bộ chỉ mục. Đừng thanh lý chỉ dựa trên bảng điều khiển mà hãy xác minh trên chuỗi."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Các chỉ số tham nhũng đánh lừa các nhà giao dịch. Các trang web “danh mục đầu tư” lừa đảo bắt chước các trang tổng quan thực."
+          }
+        ],
+        "keyPoints": [
+          "Lập chỉ mục các truy vấn tốc độ; họ không đồng thuận.",
+          "Dữ liệu giao diện người dùng có thể cũ.",
+          "Người khám phá/hợp đồng là nguồn gốc của sự thật cho những động thái quan trọng.",
+          "Lỗi của trình lập chỉ mục trông giống như lỗi giao thức."
+        ],
+        "tips": [
+          "Kiểm tra lại các điểm bất thường trên Explorer.",
+          "Mong đợi độ trễ sau khi nâng cấp lớn.",
+          "Giám sát nghiêm túc có thể đọc các nút trực tiếp."
+        ],
+        "body": "Quét toàn bộ chuỗi cho mọi giao diện người dùng bị chậm. Người lập chỉ mục nhập các sự kiện vào cơ sở dữ liệu để danh mục đầu tư và bảng xếp hạng có cảm giác ngay lập tức—hầu hết các lượt xem \"lịch sử\" đều đến từ các chỉ mục chứ không phải từ bản quét toàn bộ trực tiếp."
+      },
+      {
+        "id": "storage",
+        "title": "Lưu trữ phi tập trung",
+        "summary": "Mạng có địa chỉ nội dung cho tệp và siêu dữ liệu NFT",
+        "intro": "Việc lưu trữ các tệp lớn trên L1 rất tốn kém nên phương tiện truyền thông thường nằm trên các hệ thống giống như IPFS/Arweave. Băm đảm bảo tính toàn vẹn, nhưng tính khả dụng trực tuyến vẫn cần được ghim hoặc trả phí lâu dài.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Máy chủ trung tâm có thể xóa phương tiện NFT. Lưu trữ phi tập trung cải thiện độ bền và khả năng chống kiểm duyệt cho các ứng dụng và bộ dữ liệu."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Các tệp nhận ID nội dung; các nút truy xuất bằng hàm băm. IPFS cần ghim; một số mạng nhấn mạnh tính lâu dài của việc trả tiền một lần. Cổng HTTP trợ giúp trình duyệt nhưng thêm độ tin cậy vào cổng."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "TokenURI tập trung có thể thay đổi làm suy yếu câu chuyện. Sao lưu các băm siêu dữ liệu quan trọng."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "“Trên IPFS” ≠ bất tử nếu không có gì ghim nó. Các cổng độc hại có thể chèn các tập lệnh. Xác minh giá trị băm trước khi chạy nhị phân."
+          }
+        ],
+        "keyPoints": [
+          "Việc đánh địa chỉ nội dung ngăn cản việc chỉnh sửa thầm lặng chứ không phải bỏ bê.",
+          "Độ bền của NFT phụ thuộc vào việc ghim/thanh toán.",
+          "URI quản trị viên có thể thay đổi là một lá cờ đỏ.",
+          "Cổng được thuận tiện thêm sự tin tưởng."
+        ],
+        "tips": [
+          "Tự mình ghim siêu dữ liệu cho NFT có giá trị cao.",
+          "Xác minh CID chính thức.",
+          "Các nhà phát triển nên ưu tiên siêu dữ liệu bất biến."
+        ],
+        "body": "Việc lưu trữ các tệp lớn trên L1 rất tốn kém nên phương tiện truyền thông thường nằm trên các hệ thống giống như IPFS/Arweave. Băm đảm bảo tính toàn vẹn, nhưng tính khả dụng trực tuyến vẫn cần được ghim hoặc trả phí lâu dài."
+      },
+      {
+        "id": "mev",
+        "title": "MEV",
+        "summary": "Giá trị có thể trích xuất từ ​​thứ tự và bao gồm giao dịch",
+        "intro": "Người xây dựng và người tìm kiếm có thể sắp xếp lại hoặc chèn txs—bánh mì kẹp, cuộc đua thanh lý, v.v. Người dùng cảm thấy nó như một sự trượt giá độc hại; các giao thức phản hồi bằng các cuộc đấu giá và luồng riêng tư.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Các mempool công khai phơi bày những giao dịch hoán đổi lớn cho những kẻ săn mồi. Hiểu MEV sẽ giải thích cài đặt trượt giá và các tùy chọn gửi riêng tư."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Người tìm kiếm tìm thấy cơ hội; người xây dựng đóng gói các khối; người đề xuất xuất bản. Một số chuỗi phân phối lại MEV cho các nhà đầu tư. Bánh mì kẹp bao bọc giao dịch của bạn để làm xấu đi giá cả."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Giới hạn trượt giá, chuyển tiếp riêng, đấu giá hàng loạt và ý định giảm thiểu tác hại. Trình sắp xếp chuỗi L2 cũng có thể trích xuất MEV."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Không phải mọi thao tác lấp đầy xấu đều là MEV—sự trượt giá rộng là do tự gây ra. Tránh các phần mở rộng “chống MEV” sơ sài."
+          }
+        ],
+        "keyPoints": [
+          "MEV đến từ luồng công cộng có thể đặt hàng.",
+          "Người dùng giảm thiểu thông qua trượt giá và đường dẫn riêng tư.",
+          "Thiết kế giao thức tái phân bổ MEV.",
+          "Hãy coi nó như một thực tế kỹ thuật."
+        ],
+        "tips": [
+          "Chia nhỏ các giao dịch hoán đổi lớn và thắt chặt tình trạng trượt giá.",
+          "Sử dụng ví/bộ định tuyến với các tùy chọn riêng tư.",
+          "Tránh các đơn đặt hàng thị trường lớn trong sự hỗn loạn cao điểm."
+        ],
+        "body": "Người xây dựng và người tìm kiếm có thể sắp xếp lại hoặc chèn txs—bánh mì kẹp, cuộc đua thanh lý, v.v. Người dùng cảm thấy nó như một sự trượt giá độc hại; các giao thức phản hồi bằng các cuộc đấu giá và luồng riêng tư."
+      },
+      {
+        "id": "sdks",
+        "title": "Công cụ dành cho nhà phát triển",
+        "summary": "Khung kiểm tra, thư viện và bộ tài khoản giúp nâng cao mức an toàn",
+        "intro": "Sự an toàn của hệ sinh thái phụ thuộc vào các bài kiểm tra kiểu Foundry/Hardhat, thư viện đánh máy, mô phỏng và bộ tài khoản—không chỉ riêng kiểm toán viên. Các công cụ tốt hơn sẽ phát hiện lỗi sớm hơn và giúp ví giải thích chữ ký.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Triển khai thủ công không thành công. Những hợp đồng chưa được kiểm chứng là những quả bom hẹn giờ. SDK mặt trước thống nhất kết nối đa chuỗi và xử lý lỗi."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Các thử nghiệm phân nhánh, làm mờ, triển khai tập lệnh, giám sát và SDK AA tạo thành vòng lặp. Mô phỏng ký trước cho thấy sự khác biệt về nội dung."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Các phần phụ thuộc cũ mang các CVE đã biết. Các cuộc tấn công vào chuỗi cung ứng đánh vào các gói hàng “an toàn”. Người dùng nên thích ví có chữ ký rõ ràng."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Việc sao chép các mẫu chưa được kiểm tra vào mạng chính là liều lĩnh. Tiện ích mở rộng \"công cụ dành cho nhà phát triển\" giả mạo đánh cắp khóa."
+          }
+        ],
+        "keyPoints": [
+          "Công cụ là cơ sở hạ tầng bảo mật vô hình.",
+          "Mô phỏng trước tiền mainnet.",
+          "Vệ sinh phụ thuộc là công việc bảo mật.",
+          "Việc ký rõ ràng làm giảm thành công lừa đảo của người dùng."
+        ],
+        "tips": [
+          "Nhà phát triển: thử nghiệm các đường dẫn quan trọng của fork.",
+          "Người dùng: bật mô phỏng.",
+          "Chỉ cài đặt tiện ích mở rộng từ các nguồn chính thức."
+        ],
+        "body": "Sự an toàn của hệ sinh thái phụ thuộc vào các bài kiểm tra kiểu Foundry/Hardhat, thư viện đánh máy, mô phỏng và bộ tài khoản—không chỉ riêng kiểm toán viên. Các công cụ tốt hơn sẽ phát hiện lỗi sớm hơn và giúp ví giải thích chữ ký."
+      },
+      {
+        "id": "identity",
+        "title": "Nhận dạng trên chuỗi",
+        "summary": "Tên dễ đọc, chứng thực và danh tiếng về sự phối hợp của con người",
+        "intro": "Địa chỉ dài dễ gõ nhầm. Hệ thống tên ánh xạ nhãn của con người tới hồ sơ; các giao thức chứng thực đưa ra các yêu cầu như tư cách thành viên. Khả năng sử dụng tăng lên—và các vấn đề về quyền riêng tư và mạo danh cũng vậy.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Thanh toán và xã hội cần có những địa chỉ đáng nhớ. Tên giảm thiểu lỗi chuyển giao và hoạt động như danh thiếp Web3. Danh tiếng giúp người chống Sybil đánh đổi quyền riêng tư."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Đăng ký tên, lập hồ sơ, tùy ý thu thập các chứng thực đã ký. Một số thông tin xác thực có tính chất ràng buộc tâm hồn."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Tên hết hạn; hồ sơ thay đổi. Cùng một chuỗi có thể phân giải khác nhau giữa các chuỗi. Tách địa chỉ nhận dạng khỏi vault."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Tên miền mạo danh ăn cắp tiền. Việc ràng buộc mọi thông tin xác thực vào một địa chỉ có thể doxxable sẽ khiến bạn bị lộ thông tin quá mức."
+          }
+        ],
+        "keyPoints": [
+          "Tên là một lớp giải quyết, không phải là sự bảo đảm của ngân hàng.",
+          "Luôn kiểm tra địa chỉ đã giải quyết trước khi gửi.",
+          "Chứng thực giúp phối hợp với chi phí bảo mật.",
+          "Tách danh tính công khai khỏi địa chỉ vault."
+        ],
+        "tips": [
+          "Xác nhận độ phân giải khi gửi.",
+          "Đặt lời nhắc hết hạn.",
+          "Sử dụng địa chỉ có giá trị thấp cho các mạng xã hội công cộng."
+        ],
+        "body": "Địa chỉ dài dễ gõ nhầm. Hệ thống tên ánh xạ nhãn của con người tới hồ sơ; các giao thức chứng thực đưa ra các yêu cầu như tư cách thành viên. Khả năng sử dụng tăng lên—và các vấn đề về quyền riêng tư và mạo danh cũng vậy."
+      },
+      {
+        "id": "aa-infra",
+        "title": "Người đóng gói & Người trả tiền",
+        "summary": "Đường ray phụ trợ đóng gói UserOperations và gas tài trợ",
+        "intro": "Không có bộ đóng gói, UserOperations gặp khó khăn để đạt được mục tiêu; không có người trả tiền, tài trợ gas và “thanh toán bằng bất kỳ mã thông báo nào” đều khó khăn. Cơ sở hạ tầng AA bị định cấu hình sai sẽ bị ngừng hoạt động hoặc bị lạm dụng.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Người dùng không thích nắm giữ gas token của mọi chuỗi. Ứng dụng muốn tài trợ cho những hành động đầu tiên. Cơ sở hạ tầng hỗ trợ các chính sách sản phẩm đó bằng ngân sách và danh sách cho phép."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Ví xây dựng Hoạt động của người dùng; trình đóng gói mô phỏng và gửi; EntryPoint thực thi; quỹ trả lương cho mỗi chính sách với giới hạn lãi suất."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Việc tài trợ có bị ràng buộc bởi một số hợp đồng nhất định không? Có thể nuôi được không? Liệu các gói có kiểm duyệt không? Sự phân cấp ảnh hưởng đến khả năng phục hồi."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Điểm cuối độc hại và các phiên mở rộng còn sót lại sau chiến dịch là những rủi ro. Không cần gas ≠ không cần phê duyệt."
+          }
+        ],
+        "keyPoints": [
+          "AA UX phụ thuộc vào các gói/người trả tiền đáng tin cậy.",
+          "Việc tài trợ cần có các quy tắc chống lạm dụng.",
+          "Lựa chọn điểm cuối ảnh hưởng đến quyền riêng tư và kiểm duyệt.",
+          "Người dùng vẫn phải đọc chữ ký."
+        ],
+        "tips": [
+          "Bám sát các điểm cuối đáng tin cậy mặc định của ví.",
+          "Thu hồi phiên sau chiến dịch.",
+          "Hãy coi tình trạng mất hơi đột ngột là đáng ngờ."
+        ],
+        "body": "Không có bộ đóng gói, UserOperations gặp khó khăn để đạt được mục tiêu; không có người trả tiền, tài trợ gas và “thanh toán bằng bất kỳ mã thông báo nào” đều khó khăn. Cơ sở hạ tầng AA bị định cấu hình sai sẽ bị ngừng hoạt động hoặc bị lạm dụng."
+      }
+    ]
+  },
+  {
+    "id": "wallets",
+    "name": "Ví",
+    "summary": "Ứng dụng và thiết bị giữ chìa khóa của bạn",
+    "blurb": "Giải thích về ví nóng/lạnh, hạt giống, multisig và mô hình lưu ký.",
+    "items": [
+      {
+        "id": "hot",
+        "title": "Ví nóng",
+        "summary": "Ví phần mềm được kết nối cho số dư nhỏ hàng ngày",
+        "intro": "Trình duyệt và ví di động giúp tạo dApp ngay lập tức. Tiện lợi mở rộng bề mặt tấn công: trang web độc hại, tiện ích mở rộng giả mạo, phần mềm độc hại clipboard, điện thoại bị mất. Hãy coi chúng như tài khoản séc chứ không phải tiền tiết kiệm cả đời.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Ví lạnh rất vụng về đối với DeFi tần số cao. Ví nóng dạy cách ký và chuyển đổi mạng một cách nhanh chóng."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Các phím được mã hóa trên thiết bị; mở khóa cục bộ; phát sóng qua RPC. Việc kết nối dApp chia sẻ một địa chỉ chứ không phải khóa—nhưng các chữ ký nguy hiểm vẫn bị cạn kiệt."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Chia tài khoản chi tiêu và tài khoản tiết kiệm. Xem xét các khoản phụ cấp. Sinh trắc học bảo vệ việc mở khóa ứng dụng chứ không phải phục hồi chuỗi."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Các APK được tải sẵn, các trang “đồng bộ hóa” hạt giống và các máy tính công cộng đều là những lỗi cổ điển."
+          }
+        ],
+        "keyPoints": [
+          "Ví nóng tối ưu hóa sự tiện lợi.",
+          "Chỉ lưu trữ các quỹ chịu lỗ ở đó.",
+          "Chữ ký/phê duyệt là mối nguy hiểm chính.",
+          "Lớp với kho lạnh."
+        ],
+        "tips": [
+          "Chỉ tải xuống từ các kênh chính thức.",
+          "Sử dụng hồ sơ trình duyệt dành riêng cho tiền điện tử.",
+          "Kiểm tra phê duyệt mã thông báo hàng tuần."
+        ],
+        "body": "Trình duyệt và ví di động giúp tạo dApp ngay lập tức. Tiện lợi mở rộng bề mặt tấn công: trang web độc hại, tiện ích mở rộng giả mạo, phần mềm độc hại clipboard, điện thoại bị mất. Hãy coi chúng như tài khoản séc chứ không phải tiền tiết kiệm cả đời."
+      },
+      {
+        "id": "hardware",
+        "title": "Ví phần cứng",
+        "summary": "Chìa khóa trong một con chip bảo mật có xác nhận trên thiết bị",
+        "intro": "Ví phần cứng giữ khóa riêng khỏi PC bị nhiễm. Bạn vẫn phải đọc màn hình thiết bị—việc ký tên mù hoặc chương trình cơ sở mờ ám có thể đánh bại con chip tốt nhất.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Nắm giữ lâu dài và lớn cần sự cô lập mạnh mẽ hơn. Xác nhận vật lý nâng cao tiêu chuẩn cho hành vi trộm cắp từ xa. Các nhóm sử dụng chúng làm điều khiển vault cơ sở."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Máy chủ xây dựng một tx; thiết bị hiển thị một bản tóm tắt; bạn chấp thuận; chữ ký trả về để phát sóng. Hạt giống được tạo ra tại init là bản sao lưu. Cập nhật chương trình cơ sở phải là chính thức."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Mua thiết bị đích thực; biết các chính sách ký mù cho mỗi chuỗi. Mất thiết bị cũng không sao nếu hạt giống an toàn; mất hạt giống thì không."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Các thiết bị cũ bị giả mạo, các trang web “kiểm tra” yêu cầu hạt giống và thao tác OK mà không đọc là các chế độ lỗi."
+          }
+        ],
+        "keyPoints": [
+          "Cách ly phần cứng ngăn chặn nhiều vụ trộm chìa khóa từ xa.",
+          "Xác minh màn hình vẫn thuộc về bạn.",
+          "Sao lưu hạt giống có tầm quan trọng tương đương với thiết bị.",
+          "Vấn đề vệ sinh chuỗi cung ứng và phần sụn."
+        ],
+        "tips": [
+          "Mua từ cửa hàng bán lẻ chính thức/có uy tín.",
+          "Kiểm tra với các lần chuyển nhỏ sau khi thiết lập.",
+          "Khớp địa chỉ đầy đủ trên thiết bị cho kích thước."
+        ],
+        "body": "Ví phần cứng giữ khóa riêng khỏi PC bị nhiễm. Bạn vẫn phải đọc màn hình thiết bị—việc ký tên mù hoặc chương trình cơ sở mờ ám có thể đánh bại con chip tốt nhất."
+      },
+      {
+        "id": "seed",
+        "title": "Cụm từ hạt giống",
+        "summary": "Bản sao lưu mà con người có thể đọc được để tạo lại khóa ví",
+        "intro": "24/12 từ không phải là mật khẩu đăng nhập—chúng là bí mật chính để tạo lại khóa. Bất cứ ai có lời đều có thể làm trống ví ở nơi khác. Không có đại lý hỗ trợ thực sự nào cần hạt giống của bạn để “xác minh” bạn.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Thiết bị chết. Seeds cho phép bạn khôi phục các tài khoản tương tự ở nơi khác dưới dạng có thể ghi ngoại tuyến."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "BIP-39 biến entropy thành các từ được sắp xếp để tạo ra các tài khoản. Thứ tự sai không khôi phục được. Cụm mật khẩu tùy chọn tăng thêm rủi ro về bảo mật và quên."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Ảnh, đồng bộ hóa đám mây và trò chuyện không an toàn. Sao lưu kim loại đánh bại giấy chống lại lửa/nước. Sao lưu nhiều vị trí phải cân bằng giữa hành vi trộm cắp và tổn thất tổng thể."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Các trang “đồng bộ hóa ví” lừa đảo và hỗ trợ giả mạo là những kẻ giết người hàng đầu. Nhập hạt giống vào bất kỳ trang web nào là một trường hợp khẩn cấp."
+          }
+        ],
+        "keyPoints": [
+          "Hạt giống là tài sản.",
+          "Giữ nó ngoại tuyến mãi mãi.",
+          "Dòng chảy hợp pháp không bao giờ yêu cầu nó.",
+          "Thiết kế dự phòng chống cả cháy nổ và trộm cắp."
+        ],
+        "tips": [
+          "Viết tay và kiểm tra lại trật tự từ.",
+          "Không bao giờ lưu trữ trong ảnh hoặc email.",
+          "Lên kế hoạch kế thừa một cách có chủ ý."
+        ],
+        "body": "24/12 từ không phải là mật khẩu đăng nhập—chúng là bí mật chính để tạo lại khóa. Bất cứ ai có lời đều có thể làm trống ví ở nơi khác. Không có đại lý hỗ trợ thực sự nào cần hạt giống của bạn để “xác minh” bạn."
+      },
+      {
+        "id": "multisig",
+        "title": "Đa chữ ký",
+        "summary": "Tài khoản được chia sẻ yêu cầu phê duyệt M-of-N",
+        "intro": "Multisig biến “một kẻ lừa đảo mất tất cả” thành “nhiều người phải đồng ý”. Lý tưởng cho kho bạc và gia đình. Nó cắt giảm các điểm lỗi duy nhất và bổ sung thêm chi phí phối hợp.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Kho tiền một chìa khóa chết vì một sai lầm. Multisig buộc kẻ tấn công phải thỏa hiệp nhiều người ký và mã hóa sự phân chia quyền lực."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Hợp đồng hoặc sơ đồ gốc đặt ngưỡng và chủ sở hữu. Đề xuất → thu thập chữ ký → thực hiện. Việc luân chuyển người ký và các mô-đun cần được chăm sóc như nhau."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Các thiết bị đa dạng đánh bại phần mềm độc hại có liên quan. Ngưỡng quỹ gạch quá cao; ngưỡng quá thấp làm suy yếu an ninh. Các mô-đun khẩn cấp có thể là cửa hậu."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Tất cả những người ký trên một trình duyệt nóng, không bao giờ thực hiện quá trình khôi phục và lừa đảo Giao diện người dùng an toàn đều là những lỗi phổ biến."
+          }
+        ],
+        "keyPoints": [
+          "Multisig lan truyền rủi ro quan trọng và quyết định.",
+          "Thiết kế ngưỡng đặt tính khả dụng và an toàn.",
+          "Luyện tập ký và thay thế.",
+          "Đánh dấu các giao diện chính thức."
+        ],
+        "tips": [
+          "Sử dụng các thiết bị/HĐH đa dạng của người ký.",
+          "Chạy một cuộc tập trận nhỏ hàng quý.",
+          "Ghi lại các bước thay thế người ký bị mất."
+        ],
+        "body": "Multisig biến “một kẻ lừa đảo mất tất cả” thành “nhiều người phải đồng ý”. Lý tưởng cho kho bạc và gia đình. Nó cắt giảm các điểm lỗi duy nhất và bổ sung thêm chi phí phối hợp."
+      },
+      {
+        "id": "smart-accounts",
+        "title": "Tài khoản thông minh",
+        "summary": "Ví có thể lập trình với giới hạn, người giám hộ, phân đợt và phiên",
+        "intro": "Chính sách mã hóa tài khoản thông minh: giới hạn hàng ngày, danh sách cho phép, khôi phục và gọi hàng loạt. Linh hoạt hơn EOA—và nhiều cách hơn để định cấu hình sai mô-đun.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "EOA là tất cả hoặc không có gì. Tài khoản thông minh cho phép đặc quyền thấp hàng ngày với sự giám sát bổ sung có giá trị cao, hướng tới UX không hạt giống."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Logic tồn tại trong một hợp đồng với các trình xác nhận có thể cắm được, thường được kết hợp với các gói AA/người trả tiền. Nâng cấp mô-đun phải được bảo vệ."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Đặc quyền tối thiểu, kiểm tra và đường dẫn khôi phục đã được kiểm tra đều quan trọng. Biết ai có thể nâng cấp trước khi gọi nó là vault."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Các plugin ngẫu nhiên chưa được kiểm tra, những người bảo vệ ngây thơ và việc tin rằng các tài khoản thông minh sẽ ngăn chặn mọi hoạt động lừa đảo là những sai lầm."
+          }
+        ],
+        "keyPoints": [
+          "Tài khoản thông minh là tài khoản tự quản lý dựa trên chính sách.",
+          "Tính linh hoạt mở rộng bề mặt tấn công.",
+          "Quyền mô-đun/nâng cấp là bảo mật cốt lõi.",
+          "Thói quen vẫn quan trọng."
+        ],
+        "tips": [
+          "Vô hiệu hóa các plugin không sử dụng.",
+          "Khóa thời gian thay đổi chính sách lớn.",
+          "Viết và luyện tập các sổ tay phục hồi."
+        ],
+        "body": "Chính sách mã hóa tài khoản thông minh: giới hạn hàng ngày, danh sách cho phép, khôi phục và gọi hàng loạt. Linh hoạt hơn EOA—và nhiều cách hơn để định cấu hình sai mô-đun."
+      },
+      {
+        "id": "custody",
+        "title": "Mô hình giám sát",
+        "summary": "Người nắm giữ chìa khóa sẽ kiểm soát tài sản một cách hiệu quả",
+        "intro": "Người giám sát đặt lại mật khẩu giao dịch và hỗ trợ rủi ro đối tác. Quyền tự quản đánh đổi chủ quyền để đổi lấy rủi ro hoạt động cá nhân. Hầu hết mọi người kết hợp cả hai: giao dịch trên nền tảng, lưu trong ví.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Các mục tiêu khác nhau cần các mô hình rủi ro khác nhau. Quyền tự chăm sóc thuần túy khiến người mới bắt đầu sợ hãi; quyền giám hộ thuần túy sẽ gây tổn hại đến sự thất bại của nền tảng."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Số dư tạm giữ thường là sổ cái nội bộ cho đến khi rút tiền. Tự giám sát phát sóng mọi hành động. Những người giám sát được quản lý có thể chứng thực các khoản dự trữ—vẫn không phải là không có rủi ro."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Đóng băng, xếp hàng, quyền tài phán và chất lượng bằng chứng dự trữ là vấn đề quan trọng. Thất bại trong việc tự lưu giữ trông giống như hạt giống bị mất và chữ ký xấu."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "“Quá lớn để thất bại” đã thất bại nhiều lần. Việc lưu trữ hạt giống trong sổ tay trao đổi không phải là quyền tự quản lý."
+          }
+        ],
+        "keyPoints": [
+          "Vị trí chính xác định quyền kiểm soát.",
+          "Thuận tiện và chủ quyền là thương mại.",
+          "Phân bổ kết hợp là thực tế.",
+          "Mỗi mô hình thất bại khác nhau."
+        ],
+        "tips": [
+          "Rút túi dài hạn về tự bảo quản.",
+          "Ưu tiên những địa điểm minh bạch.",
+          "Hãy tập tự quản với quy mô nhỏ trước."
+        ],
+        "body": "Người giám sát đặt lại mật khẩu giao dịch và hỗ trợ rủi ro đối tác. Quyền tự quản đánh đổi chủ quyền để đổi lấy rủi ro hoạt động cá nhân. Hầu hết mọi người kết hợp cả hai: giao dịch trên nền tảng, lưu trong ví."
+      }
+    ]
+  },
+  {
+    "id": "gaming",
+    "name": "chơi game",
+    "summary": "Trò chơi và thế giới ảo có tài sản thuộc sở hữu",
+    "blurb": "Cách chơi, nền kinh tế, cơ sở hạ tầng và các chế độ suy đoán thất bại.",
+    "items": [
+      {
+        "id": "play",
+        "title": "Chơi & sở hữu",
+        "summary": "Đầu tiên là niềm vui, quyền sở hữu có thể kiểm chứng được như một phần thưởng—không phải ảo tưởng về tiền lương",
+        "intro": "Trò chơi tiền điện tử lành mạnh ưu tiên giải trí; quyền sở hữu tăng lên, nó không thay thế thiết kế. Thị trường thứ cấp phải là kết quả chứ không phải là nội dung duy nhất.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Sự đầu cơ thuần túy sụp đổ ở phe gấu. Việc đưa quyền sở hữu vào các vòng lặp thực sự thú vị sẽ cải thiện khả năng giữ chân và hỗ trợ nền kinh tế của người sáng tạo."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Trò chơi cốt lõi chạy nhanh ngoài chuỗi hoặc trên các đường ray chuyên dụng; những khu định cư khan hiếm đã xảy ra một chuỗi. Các studio kiếm tiền thông qua UX, phí và dịch vụ trong khi điều chỉnh tính kinh tế."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Các số liệu về tỷ lệ giữ chân và chi tiêu đánh bại biểu đồ mã thông báo dưới dạng tín hiệu sức khỏe. Quy định vẫn có thể hạn chế mã thông báo vật phẩm."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Coi công việc vất vả như một công việc và bỏ qua việc bảo mật tài khoản là những cái bẫy cổ điển."
+          }
+        ],
+        "keyPoints": [
+          "Vui vẻ trước, tài chính sau.",
+          "Quyền sở hữu không thể giải cứu sự nhàm chán.",
+          "Nền kinh tế lành mạnh cân bằng nguồn và nguồn.",
+          "Cô lập các phím trò chơi khỏi kho tiền."
+        ],
+        "tips": [
+          "Chơi trước khi mua những món đồ đắt tiền.",
+          "Đọc ghi chú kinh tế và lịch sử vá lỗi.",
+          "Hãy coi bất kỳ khoản “thu nhập” nào là hoạt động đầu cơ có rủi ro cao."
+        ],
+        "body": "Trò chơi tiền điện tử lành mạnh ưu tiên giải trí; quyền sở hữu tăng lên, nó không thay thế thiết kế. Thị trường thứ cấp phải là kết quả chứ không phải là nội dung duy nhất."
+      },
+      {
+        "id": "economies",
+        "title": "Nền kinh tế trong trò chơi",
+        "summary": "Việc phát hành và tiêu thụ quyết định liệu giá mặt hàng có thể đứng vững hay không",
+        "intro": "Các nền kinh tế mở hoạt động giống như các hệ thống tài chính nhỏ bé: lượng khí thải vô tận mà không cần giảm thiểu sẽ làm giá cả sụp đổ. Đọc nhịp sản xuất và nhịp phá hủy khi nghe khẩu hiệu GameFi.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Giao dịch mở loại bỏ một số quyền kiểm soát của studio, buộc phải thiết kế nghiêm túc hơn để người chơi và nhà giao dịch lâu năm có thể cùng tồn tại."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Nhiệm vụ phát ra; chế tạo/sửa chữa/chìm mùa; bảng điều khiển tiết lộ lạm phát. Giá token bên ngoài gây sốc cho các vòng nội bộ."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Mã thông báo kép, năng lượng và tiền thuê đất có thể hữu ích hoặc gây nhầm lẫn. Xem nhóm mở khóa và ví của nhà tạo lập thị trường."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Lợi nhuận cao sớm thu hút lính đánh thuê chứ không phải người chơi. Sao chép kinh tế học mà không có khán giả sẽ thất bại."
+          }
+        ],
+        "keyPoints": [
+          "Làm cho lạm phát/giảm phát có thể quan sát được.",
+          "Tỷ lệ lính đánh thuê cao là mong manh.",
+          "Đệm các cú sốc mã thông báo bên ngoài.",
+          "Điều chỉnh minh bạch xây dựng niềm tin."
+        ],
+        "tips": [
+          "Thực hiện theo các báo cáo kinh tế chính thức.",
+          "Giảm kích thước trong các giai đoạn siêu APY.",
+          "Thích tài sản có bồn rửa thực sự."
+        ],
+        "body": "Các nền kinh tế mở hoạt động giống như các hệ thống tài chính nhỏ bé: lượng khí thải vô tận mà không cần giảm thiểu sẽ làm giá cả sụp đổ. Đọc nhịp sản xuất và nhịp phá hủy khi nghe khẩu hiệu GameFi."
+      },
+      {
+        "id": "worlds",
+        "title": "Thế giới ảo",
+        "summary": "Tường thuật về đất đai và không gian xã hội có thể sở hữu",
+        "intro": "Đất ảo bán vị trí, giao thông và sự hiện diện. Một số thế giới tổ chức hoạt động đang diễn ra; những người khác bị đình trệ sau khi bán hàng. Đánh giá bởi người xây dựng và DAU, không phải đoạn phim quảng cáo.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Mọi người muốn có những tài sản chung và mặt tiền cửa hàng kỹ thuật số lâu bền. Quyền sở hữu trên chuỗi cho phép thị trường thứ cấp và thử nghiệm của các thương hiệu."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "NFT đất cộng với khách hàng cộng với tiền thuê tùy chọn. Nội dung đến từ người dùng hoặc quan chức; hiệu suất thường dựa vào các máy chủ truyền thống."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Giao thông chân đặt giá trị đất. Thế giới trống rỗng là nghệ thuật suy đoán. Quyền xây dựng và tiền bản quyền hình thành sự sẵn lòng của người sáng tạo."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "FOMO bán sơ cấp và coi các slide metaverse là lợi suất ngắn hạn là những cái bẫy."
+          }
+        ],
+        "keyPoints": [
+          "Giá đất giao thông.",
+          "Trải nghiệm của khách hàng quan trọng hơn khẩu hiệu.",
+          "Interop thường làm chậm doanh số bán hàng.",
+          "Đánh giá hệ sinh thái xây dựng."
+        ],
+        "tips": [
+          "Ghé thăm như một khách du lịch đầu tiên.",
+          "Kiểm tra dữ liệu cho thuê/sự kiện trước khi mua.",
+          "Tránh các nhóm chỉ bán, không bao giờ xây dựng."
+        ],
+        "body": "Đất ảo bán vị trí, giao thông và sự hiện diện. Một số thế giới tổ chức hoạt động đang diễn ra; những người khác bị đình trệ sau khi bán hàng. Đánh giá bởi người xây dựng và DAU, không phải đoạn phim quảng cáo."
+      },
+      {
+        "id": "infra-game",
+        "title": "Cơ sở hạ tầng trò chơi",
+        "summary": "Sự cân bằng kỹ thuật giữa độ trễ thấp và giải quyết trên chuỗi",
+        "intro": "Trò chơi hành động cần phản hồi tính bằng mili giây. Các studio sử dụng các máy chủ có thẩm quyền cộng với tài sản khan hiếm trên chuỗi hoặc các chuỗi thông lượng cao chuyên dụng. Biết ranh giới tin cậy sẽ ngăn chặn sự nhầm lẫn trong tiếp thị “phân quyền hoàn toàn”.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Vòng lặp L1 thuần túy quá chậm/đắt đối với nhiều thể loại. Phân lớp giúp trải nghiệm người dùng có thể chơi được với mức độ khan hiếm có thể kiểm chứng được."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Mai mối/chiến đấu ngoài chuỗi; đúc tiền/giao dịch/giải độc đắc trên chuỗi. Tính năng chống gian lận phần lớn vẫn nằm ngoài chuỗi. Appchains tăng thông lượng nhưng tăng thêm chi phí cầu nối/thanh khoản."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Những phần nào tin cậy một máy chủ? Tài sản có tồn tại được khi studio đóng cửa không? Điều đó xác định mức độ “quyền sở hữu” thực sự."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Tuyên bố “hoàn toàn trên chuỗi” với sự thật về máy chủ có thể thay đổi. Kết nối tài sản trò chơi thông qua các trang web giả mạo."
+          }
+        ],
+        "keyPoints": [
+          "Xe hybrid là tiêu chuẩn kỹ thuật.",
+          "Độ trễ và sự phân quyền kéo theo những hướng trái ngược nhau.",
+          "Chính sách tắt máy ảnh hưởng đến ý nghĩa của tài sản.",
+          "Appchains thêm độ phức tạp của cầu nối."
+        ],
+        "tips": [
+          "Đọc tài liệu về ranh giới tin cậy.",
+          "Chuyển những tài sản có ý nghĩa sang ví tự quản lý.",
+          "Hãy thử testnet trước khi gửi tiền vào mainnet."
+        ],
+        "body": "Trò chơi hành động cần phản hồi tính bằng mili giây. Các studio sử dụng các máy chủ có thẩm quyền cộng với tài sản khan hiếm trên chuỗi hoặc các chuỗi thông lượng cao chuyên dụng. Biết ranh giới tin cậy sẽ ngăn chặn sự nhầm lẫn trong tiếp thị “phân quyền hoàn toàn”."
+      },
+      {
+        "id": "modding",
+        "title": "Sửa đổi & UGC",
+        "summary": "Người sáng tạo kiếm được tiền khi bản đồ, giao diện và mod có thể được giải quyết một cách minh bạch",
+        "intro": "UGC kéo dài tuổi thọ trò chơi. Nếu các mod có thể giao dịch được với sự phân chia rõ ràng thì người sáng tạo sẽ xuất hiện. Việc phân chia trên chuỗi hỗ trợ khả năng kiểm toán; Cấp phép IP vẫn quyết định liệu nó có mở rộng hay không.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "UGC truyền thống phải đối mặt với sự thay đổi chính sách nền tảng đột ngột Thị trường mở và tiền bản quyền có thể lập trình mang lại một con đường khuyến khích khác và nội dung người chơi phong phú hơn."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Người sáng tạo xuất bản nội dung → thị trường giao dịch → hợp đồng chia doanh thu. Kiểm duyệt và khám phá quyết định liệu chất lượng có tập trung hay không."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Phạm vi giấy phép, chính sách nội dung và khoản bồi hoàn vẫn được giữ nguyên. Toán học trên chuỗi không tự động giải quyết các vụ kiện."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Mua các mod thương hiệu trái phép và mã thông báo của người sáng tạo không ổn định là rủi ro."
+          }
+        ],
+        "keyPoints": [
+          "UGC cần các quy tắc về doanh thu và IP rõ ràng.",
+          "Chất lượng thiết lập khám phá/điều tiết.",
+          "Sự phân chia có thể lập trình nâng cao tính minh bạch.",
+          "Các lớp pháp lý vẫn được áp dụng."
+        ],
+        "tips": [
+          "Người sáng tạo: đọc giấy phép nền tảng.",
+          "Người chơi: kiểm tra dấu ủy quyền.",
+          "Rút tiền với giới hạn rủi ro cá nhân."
+        ],
+        "body": "UGC kéo dài tuổi thọ trò chơi. Nếu các mod có thể giao dịch được với sự phân chia rõ ràng thì người sáng tạo sẽ xuất hiện. Việc phân chia trên chuỗi hỗ trợ khả năng kiểm toán; Cấp phép IP vẫn quyết định liệu nó có mở rộng hay không."
+      },
+      {
+        "id": "risks",
+        "title": "Rủi ro trò chơi đầu cơ",
+        "summary": "Khi niềm vui phụ thuộc vào việc tăng giá, thị trường giá xuống phá vỡ vòng lặp",
+        "intro": "Các dự án thất bại coi việc bơm token là nội dung. Người chơi trở thành lính đánh thuê, nền kinh tế chuyển sang phản xạ và việc bảo trì dừng lại khi giá giảm. Phát hiện mô hình giúp tiết kiệm học phí.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Giáo dục rủi ro là một phần của một sản phẩm lành mạnh: các cộng đồng thảo luận về lạm phát một cách trung thực sẽ tồn tại lâu hơn những bất hòa do cường điệu hóa."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Lượng khí thải cao thu hút sự gia nhập → áp lực bán tăng → giá giảm → người chơi rời đi. Sự phá vỡ thường xuất hiện khi cắt giảm ưu đãi. Rất ít tựa game chuyển hướng thành công sang trò chơi thực tế."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Doanh thu chủ yếu là người mới tham gia? Nhóm có gửi bản cập nhật có thể chơi được không? Giá thứ cấp không phải là một thước đo thú vị."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Các cụm từ con tin FOMO và đòn bẩy tài chính là những dấu hiệu nguy hiểm."
+          }
+        ],
+        "keyPoints": [
+          "Giá không thể thay thế lối chơi.",
+          "Việc cắt giảm khuyến khích là những bài kiểm tra căng thẳng.",
+          "Lính đánh thuê chia sẻ dự đoán sự mong manh.",
+          "Chỉ có rủi ro quỹ tùy ý."
+        ],
+        "tips": [
+          "Hỏi: tôi có thể chơi với giá token bằng 0 không?",
+          "Xem cập nhật nội dung thực tế.",
+          "Từ chối mài đòn bẩy."
+        ],
+        "body": "Các dự án thất bại coi việc bơm token là nội dung. Người chơi trở thành lính đánh thuê, nền kinh tế chuyển sang phản xạ và việc bảo trì dừng lại khi giá giảm. Phát hiện mô hình giúp tiết kiệm học phí."
+      }
+    ]
+  },
+  {
+    "id": "daos",
+    "name": "DAO",
+    "summary": "Cộng đồng quản lý bằng phiếu bầu trên chuỗi",
+    "blurb": "Quản trị, kho bạc, đề xuất, giấy tờ pháp lý và bề mặt tấn công.",
+    "items": [
+      {
+        "id": "governance",
+        "title": "Quản trị mã thông báo",
+        "summary": "Phiếu bầu đặt thông số, nâng cấp và chi tiêu",
+        "intro": "DAO đẩy mạnh việc nâng cấp và quyết định ngân quỹ cho chủ sở hữu mã thông báo hoặc hệ thống danh tiếng. Một mã thông báo một phiếu bầu là đơn giản và dễ bị cá voi; sự ủy quyền và các thiết kế khác cố gắng cải thiện tính đại diện. Quyền biểu quyết là ảnh hưởng—và là bề mặt tấn công.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Các giao thức phải thay đổi mà không trở thành chế độ độc tài của một công ty. Các phiếu bầu trên chuỗi để lại dấu vết có thể kiểm tra được và có thể hạn chế các nhóm."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Đề xuất → thảo luận → bỏ phiếu → chốt thời gian → thực hiện. Sự ủy quyền cho phép các chủ sở hữu nhỏ ủy thác các chuyên gia. Số đại biểu và quyền phủ quyết sẽ làm giảm khả năng thu hút được tỷ lệ cử tri đi bỏ phiếu thấp."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Vấn đề phân phối, quy mô kho bạc và thời lượng khóa thời gian. Những cử tri được airdrop có thể thờ ơ. Tâm trạng của diễn đàn có thể khác với kết quả trên chuỗi."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Các cuộc bỏ phiếu cho vay chớp nhoáng (nếu được phép), hối lộ và bỏ phiếu chưa đọc đều là những rủi ro."
+          }
+        ],
+        "keyPoints": [
+          "Quản trị phân bổ quyền lực.",
+          "Thiết kế cơ chế chiến đấu với cá voi và sự thờ ơ.",
+          "Khóa thời gian là phanh quan trọng.",
+          "Đọc tác động và xung đột trước khi bỏ phiếu."
+        ],
+        "tips": [
+          "Giao cho người đại diện chịu trách nhiệm.",
+          "Xem các kênh phản đối trong thời gian khóa.",
+          "Rà soát các đề xuất ngân quỹ lớn."
+        ],
+        "body": "DAO đẩy mạnh việc nâng cấp và quyết định ngân quỹ cho chủ sở hữu mã thông báo hoặc hệ thống danh tiếng. Một mã thông báo một phiếu bầu là đơn giản và dễ bị cá voi; sự ủy quyền và các thiết kế khác cố gắng cải thiện tính đại diện. Quyền biểu quyết là ảnh hưởng—và là bề mặt tấn công."
+      },
+      {
+        "id": "treasury",
+        "title": "Kho bạc DAO",
+        "summary": "Vốn chia sẻ trên chuỗi để xây dựng, thanh khoản và vùng đệm",
+        "intro": "Kho bạc là đạn DAO. Sự đa dạng hóa, tính minh bạch và quy trình chi tiêu sẽ quyết định xem chúng là đường băng hay hầm mật ong. Multisig hoặc thống đốc kiểm soát các khoản thanh toán mà cộng đồng nên kiểm toán.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Hàng hóa công cần tài trợ cho hoạt động kiểm toán, xây dựng và khuyến khích. Kho bạc giữ giá trị dưới sự kiểm soát của cộng đồng và có thể ổn định các cuộc khủng hoảng."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Dòng tiền vào từ phí/phát hành/tài trợ; dòng tiền chảy ra thông qua các đề xuất. Việc nắm giữ có thể kết hợp các quỹ ổn định, chuyên ngành và token gốc—sự tập trung vốn có là rủi ro phản thân."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Tháng hoạt động, rủi ro tỷ giá và địa chỉ hàng tồn kho đều quan trọng. Các cam kết mềm cũng được tính."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Kho bạc luôn biến động và chi tiêu của các bên liên quan không rõ ràng là những dấu hiệu cảnh báo."
+          }
+        ],
+        "keyPoints": [
+          "Sức khỏe = minh bạch + đa dạng hóa + quy trình.",
+          "Túi phản xạ khuếch đại khủng hoảng.",
+          "Chi tiêu phải có trách nhiệm.",
+          "Vệ sinh phím Multisig là cơ bản."
+        ],
+        "tips": [
+          "Đọc báo cáo tài chính định kỳ.",
+          "Xem cổ phiếu dự trữ stablecoin.",
+          "Thích các khoản thanh toán lớn được phát trực tuyến."
+        ],
+        "body": "Kho bạc là đạn DAO. Sự đa dạng hóa, tính minh bạch và quy trình chi tiêu sẽ quyết định xem chúng là đường băng hay hầm mật ong. Multisig hoặc thống đốc kiểm soát các khoản thanh toán mà cộng đồng nên kiểm toán."
+      },
+      {
+        "id": "proposals",
+        "title": "Vòng đời đề xuất",
+        "summary": "Từ bản thảo diễn đàn đến thực thi trên chuỗi",
+        "intro": "Các đề xuất tốt tranh luận ngoài chuỗi, kiểm tra nhiệt độ, bỏ phiếu trên chuỗi, sau đó thực hiện sau một khoảng thời gian. Bất ngờ “đề nghị chớp nhoáng” là một mùi. Biết bạn đang ở giai đoạn nào.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Quy trình thay thế chế độ độc tài hoặc hỗn loạn, giúp đối thủ có thời gian tổ chức và đưa ra đánh giá kiểm toán/pháp lý khi cần thiết."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Bản nháp → phản hồi → văn bản cuối cùng → bỏ phiếu → xếp hàng. Ý tưởng thất bại có thể sửa đổi. Một số hệ thống sử dụng chữ ký ngoài chuỗi không cần gas để bỏ phiếu."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Số đại biểu, ngưỡng và đường dẫn khẩn cấp rất quan trọng—các trường hợp khẩn cấp trên diện rộng là cửa sau. Dữ liệu cuộc gọi có thể thực thi phải khớp với văn bản."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Việc bỏ phiếu chỉ theo tiêu đề và bỏ qua cảnh báo khóa thời gian đều thất bại."
+          }
+        ],
+        "keyPoints": [
+          "Chất lượng thảo luận thúc đẩy chất lượng quản trị.",
+          "Khóa thời gian bảo vệ thiểu số và lối thoát.",
+          "Quyền lực khẩn cấp cần có giới hạn chặt chẽ.",
+          "Thông số đánh bại khẩu hiệu."
+        ],
+        "tips": [
+          "Đăng ký nhận thông báo diễn đàn/bỏ phiếu.",
+          "Trình bày lại rủi ro bằng lời nói của bạn trước khi bỏ phiếu.",
+          "Xác minh việc thực thi khớp với văn bản đề xuất."
+        ],
+        "body": "Các đề xuất tốt tranh luận ngoài chuỗi, kiểm tra nhiệt độ, bỏ phiếu trên chuỗi, sau đó thực hiện sau một khoảng thời gian. Bất ngờ “đề nghị chớp nhoáng” là một mùi. Biết bạn đang ở giai đoạn nào."
+      },
+      {
+        "id": "legal",
+        "title": "Giấy gói pháp lý",
+        "summary": "Các tổ chức và công ty kết nối DAO với thế giới ngoài chuỗi",
+        "intro": "Mã không tự động cấp trách nhiệm hữu hạn. Tổ chức/LLC ký hợp đồng, ngân hàng và thuế. Những người đóng góp nên biết ai có thể phải chịu trách nhiệm nếu mọi việc xảy ra.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Việc tuyển dụng, sở hữu trí tuệ và cơ quan quản lý cần có đối tác hợp pháp. Giấy gói tốt làm giảm sự tiếp xúc cá nhân—chúng không phải là thiết bị che giấu."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Quyền tài phán → điều lệ → hội đồng/multisig → điều khoản liên kết với phiếu bầu DAO. Các quy tắc rất khác nhau tùy theo quốc gia."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Chứng khoán, lệnh trừng phạt và thuế (bao gồm cả airdrop) đều quan trọng. Ẩn danh ≠ không có rủi ro pháp lý."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Giả sử “phi tập trung” bỏ qua luật pháp địa phương hoặc ký kết các thỏa thuận không xác định là liều lĩnh."
+          }
+        ],
+        "keyPoints": [
+          "Các thực thể cung cấp khả năng ngoài chuỗi.",
+          "Các cấu trúc có tính chất thẩm quyền cụ thể.",
+          "Biết ranh giới trách nhiệm của bạn.",
+          "Tuân thủ là một phần của rủi ro sản phẩm."
+        ],
+        "tips": [
+          "Tìm kiếm lời khuyên chuyên nghiệp để đóng góp vật chất.",
+          "Đọc tài liệu về mối quan hệ Foundation↔DAO.",
+          "Giữ hồ sơ airdrop/thu nhập."
+        ],
+        "body": "Mã không tự động cấp trách nhiệm hữu hạn. Tổ chức/LLC ký hợp đồng, ngân hàng và thuế. Những người đóng góp nên biết ai có thể phải chịu trách nhiệm nếu mọi việc xảy ra."
+      },
+      {
+        "id": "ops",
+        "title": "Hoạt động DAO",
+        "summary": "Biến phiếu bầu thành vận chuyển thông qua các nhóm làm việc và các khoản thanh toán",
+        "intro": "Không có người điều hành, quản trị chỉ là rạp hát. Các nhóm làm việc, tiền thưởng, ngân sách và đánh giá chuyển đổi năng lượng thành sản phẩm. Sự kiệt sức, quyền sở hữu không rõ ràng và việc trả lương muộn đang âm thầm giết chết DAO.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Hàng hóa công cộng đang bị thiếu hụt. Bảo trì quỹ hệ thống Ops; trả lương minh bạch làm giảm các giao dịch ngầm."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Nhiệm vụ → số liệu → ngân sách → tuyển dụng/tiền thưởng → cổ điển. Bảng lương trên chuỗi giúp ích. Quyền truy cập của quản trị viên có ít đặc quyền nhất sẽ tránh được các điểm lỗi duy nhất."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "KPI có thể kiểm chứng được không? Việc nhúng đôi có được kiểm soát không? Tài liệu chống lại yếu tố xe buýt."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Thanh toán mà không có trách nhiệm giải trình và làm quá tải những người đóng góp không thể thay thế được là những phương thức thất bại."
+          }
+        ],
+        "keyPoints": [
+          "Hệ thống phân phối biến DAO thành hiện thực.",
+          "Ngân sách và hiệu suất nên được công khai.",
+          "Giảm sự phụ thuộc vào con người.",
+          "Minh bạch thanh toán làm giảm nhiên liệu âm mưu."
+        ],
+        "tips": [
+          "Bắt đầu với số tiền thưởng nhỏ để tìm hiểu quy trình.",
+          "Sao lưu các vai trò quan trọng.",
+          "Xuất bản báo cáo của nhóm làm việc."
+        ],
+        "body": "Không có người điều hành, quản trị chỉ là rạp hát. Các nhóm làm việc, tiền thưởng, ngân sách và đánh giá chuyển đổi năng lượng thành sản phẩm. Sự kiệt sức, quyền sở hữu không rõ ràng và việc trả lương muộn đang âm thầm giết chết DAO."
+      },
+      {
+        "id": "attacks",
+        "title": "Tấn công quản trị",
+        "summary": "Nắm bắt các giao thức thông qua phiếu bầu, hối lộ hoặc tỷ lệ cử tri đi bỏ phiếu thấp",
+        "intro": "Những kẻ tấn công theo đuổi kho bạc, thông số hoặc khóa nâng cấp bằng cách sử dụng phiếu bầu tích lũy, khoản vay nhanh, hối lộ hoặc số đại biểu buồn ngủ. Các biện pháp bảo vệ bao gồm khóa thời gian, người bảo vệ có quyền phủ quyết và thiết kế bỏ phiếu tốt hơn.",
+        "sections": [
+          {
+            "heading": "Nó giải quyết được vấn đề gì",
+            "body": "Thảo luận về các bề mặt tấn công cho phép cộng đồng phòng thủ sớm. “Không ai làm điều đó” không phải là một sự kiểm soát. Bảo mật quản trị đối thủ ký hợp đồng bảo mật."
+          },
+          {
+            "heading": "Nó hoạt động như thế nào",
+            "body": "Giành được phiếu bầu → vượt qua ác ý → thực thi sau khi hết thời gian nếu không bị ngăn chặn. Các tham số phức tạp có thể ngụy trang ý định. Người bảo vệ có thể trì hoãn hoặc hủy bỏ các cuộc tấn công rõ ràng."
+          },
+          {
+            "heading": "Các khái niệm chính",
+            "body": "Thời gian chụp nhanh, quy tắc bỏ phiếu cho vay nhanh và sự tập trung của ủy quyền là chìa khóa. Theo dõi chuyển động mã thông báo lớn."
+          },
+          {
+            "heading": "Rủi ro và quan niệm sai lầm",
+            "body": "Việc bỏ qua các cảnh báo về thời gian khóa và cho rằng việc kiểm tra sẽ ngăn chặn hành vi trộm cắp quản trị là sai lầm."
+          }
+        ],
+        "keyPoints": [
+          "Quyền lực quản trị có thể trở thành hành vi trộm cắp trực tiếp.",
+          "Khóa thời gian và người bảo vệ là phanh.",
+          "Tỷ lệ cử tri đi bỏ phiếu thấp là một điểm dễ bị tổn thương.",
+          "Giám sát và diễn tập các con đường phủ quyết."
+        ],
+        "tips": [
+          "Kích hoạt bot cảnh báo quản trị.",
+          "Những người nắm giữ lớn thực sự nên bỏ phiếu.",
+          "Hỗ trợ các thiết kế chặn bỏ phiếu cho vay nhanh."
+        ],
+        "body": "Những kẻ tấn công theo đuổi kho bạc, thông số hoặc khóa nâng cấp bằng cách sử dụng phiếu bầu tích lũy, khoản vay nhanh, hối lộ hoặc số đại biểu buồn ngủ. Các biện pháp bảo vệ bao gồm khóa thời gian, người bảo vệ có quyền phủ quyết và thiết kế bỏ phiếu tốt hơn."
+      }
+    ]
+  }
+]

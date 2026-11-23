@@ -1,0 +1,362 @@
+[
+  {
+    "id": "gas",
+    "term": "Gas",
+    "definition": "Unit metering computation and storage a transaction consumes.",
+    "explain": "Gas measures how much computation and storage a transaction asks the network to perform. Without metering, a public chain could be stalled by infinite loops or spam. Your fee is roughly usage × unit price; congestion raises the unit price as blockspace demand spikes.\n\nFailed transactions can still cost gas because validators already executed the work. Practical habit: estimate fees, prefer off-peak when learning, and never confuse a failed UX message with a free retry."
+  },
+  {
+    "id": "gwei",
+    "term": "Gwei",
+    "definition": "A common ETH denomination for quoting gas prices.",
+    "explain": "Gwei is a denomination of ether used to quote gas prices in human-scale numbers. One ETH equals 1e9 Gwei. Wallets often show max fee and priority fee in Gwei so you can compare urgency without counting eighteen decimals.\n\nWhen reading tutorials or mempool screenshots, check units carefully. Mixing Gwei quotes with ETH transfer amounts is a classic beginner mistake that leads to overpaying or underpaying."
+  },
+  {
+    "id": "evm",
+    "term": "EVM",
+    "definition": "Ethereum Virtual Machine—the smart-contract runtime.",
+    "explain": "The Ethereum Virtual Machine is the shared runtime that executes smart-contract bytecode. Most “EVM-compatible” chains reuse opcodes and tooling so developers can deploy similar contracts elsewhere.\n\nCompatibility is about developer experience, not identical security or economics. Always verify which chain you are on, which explorer you trust, and whether proxy upgrade patterns are involved before assuming code behaves forever."
+  },
+  {
+    "id": "amm",
+    "term": "AMM",
+    "definition": "Market making via pools and formulas instead of books.",
+    "explain": "An automated market maker prices trades with pool formulas instead of a classic order book. Liquidity providers deposit assets and earn fees while taking inventory risk known as impermanent loss.\n\nFake pools and lookalike tokens are common traps. Check contract addresses, pool depth, and fee tiers. AMMs are powerful primitives—treat them as markets with transparent math and adversarial flow."
+  },
+  {
+    "id": "tvl",
+    "term": "TVL",
+    "definition": "Total value locked in a protocol’s contracts.",
+    "explain": "Total value locked sums assets deposited in a protocol’s contracts. High TVL can signal usage and trust—or simply inflated recursively counted deposits and a fatter hack target.\n\nRead TVL beside audit quality, admin keys, oracle design, and real fee revenue. A headline number without those contexts is a marketing metric, not a safety rating."
+  },
+  {
+    "id": "apy",
+    "term": "APY",
+    "definition": "Annualized yield including compounding.",
+    "explain": "APY annualizes yield including compounding assumptions. Short incentive campaigns annualized into triple-digit APYs often mislead because emissions, token price, and sustainability are unstable.\n\nCompare like with like: lasting fee APY versus temporary reward APY. Ask what happens when incentives end, and whether you can exit without wrecking the position."
+  },
+  {
+    "id": "apr",
+    "term": "APR",
+    "definition": "Annualized rate without compounding.",
+    "explain": "APR quotes an annualized rate without compounding. Lending interfaces often show supply APR and borrow APR side by side; definitions differ across products.\n\nWhen comparing APR and APY, confirm compounding frequency and whether rewards tokens are included. Precision in definitions prevents false “better rate” conclusions."
+  },
+  {
+    "id": "slippage",
+    "term": "Slippage",
+    "definition": "Gap between expected and executed price.",
+    "explain": "Slippage is the gap between the price you expect and the price you receive. Thin pools, large size, and volatile moments widen that gap.\n\nToo-wide slippage settings invite sandwiching; too-tight settings fail and may still spend gas. Set consciously per trade size and pool depth, and prefer private submission when available for large swaps."
+  },
+  {
+    "id": "mev",
+    "term": "MEV",
+    "definition": "Value extractable from ordering/inclusion of transactions.",
+    "explain": "Maximal extractable value is profit from controlling transaction ordering, inclusion, or censorship. Public mempools let searchers detect large swaps and compete to capture the edge.\n\nMitigations include tighter slippage, private orderflow, batch auctions, and simply splitting size. Understanding MEV explains why “same trade, worse fill” happens even without a UI bug."
+  },
+  {
+    "id": "oracle",
+    "term": "Oracle",
+    "definition": "Service bringing off-chain data on-chain.",
+    "explain": "Oracles bring off-chain facts—especially prices—on-chain so contracts can react. Lending liquidations and perpetual mark prices depend on feed integrity.\n\nThin markets are easier to manipulate into bad oracle prints. Prefer protocols with robust aggregation, circuit breakers, and clear failure behavior when feeds stall."
+  },
+  {
+    "id": "rollup",
+    "term": "Rollup",
+    "definition": "L2 execution that posts data/proofs to L1.",
+    "explain": "A rollup executes off the base chain and posts data or proofs back so L1 can secure the results. Optimistic designs rely on challenge windows; validity rollups rely on proofs.\n\nUser fees fall because many transactions share L1 costs. Your risk checklist still includes bridges, sequencers, upgrade keys, and how forced exits work."
+  },
+  {
+    "id": "sequencer",
+    "term": "Sequencer",
+    "definition": "Component that orders L2 transactions.",
+    "explain": "The sequencer orders L2 transactions and often provides fast soft confirmations. Many sequencers remain centralized today, which affects downtime and censorship resistance.\n\nDecentralizing sequencers is a major roadmap theme. Until then, treat soft confirmation as convenience, and understand the path to L1-enforced inclusion when operators misbehave."
+  },
+  {
+    "id": "finality",
+    "term": "Finality",
+    "definition": "When a tx/block is practically irreversible.",
+    "explain": "Finality describes when a transaction is practically irreversible. Some protocols have explicit finality gadgets; others are probabilistic and strengthen with depth.\n\nExchanges pick confirmation counts from these assumptions. For large transfers, wait for the finality your counterparty actually requires—not the first “success” toast."
+  },
+  {
+    "id": "utxo",
+    "term": "UTXO",
+    "definition": "Unspent transaction output accounting model.",
+    "explain": "Unspent transaction outputs are how Bitcoin-like systems track spendable coins. Your balance is the sum of UTXOs you can sign for; spending consumes outputs and may create change.\n\nUTXO accounting differs from account balances and affects fees, privacy, and coin selection. Light wallets hide the details—full nodes reveal why consolidation matters."
+  },
+  {
+    "id": "eoa",
+    "term": "EOA",
+    "definition": "Externally owned account controlled by a key.",
+    "explain": "An externally owned account is controlled directly by a private key with no contract code. Most classic wallets are EOAs: signature equals authorization.\n\nThere is no password reset. Seed loss is asset loss. Smart accounts change this model; if you stay on EOAs, offline backups and phishing resistance are everything."
+  },
+  {
+    "id": "multisig",
+    "term": "Multisig",
+    "definition": "Account requiring multiple approvals.",
+    "explain": "Multisignature accounts require M-of-N approvals before funds move. Treasuries and teams use them to remove single-key failure.\n\nDesign trade-offs include threshold choice, signer geographic diversity, and recovery drills. A multisig you never rehearse can fail at the worst moment."
+  },
+  {
+    "id": "seed-phrase",
+    "term": "Seed Phrase",
+    "definition": "Word list that regenerates wallet keys.",
+    "explain": "A seed phrase regenerates wallet keys. Anyone who sees the words can recreate the wallet elsewhere—support agents never need it to “verify” you.\n\nKeep seeds offline, never type them into websites, and assume a photographed seed is compromised. If leaked, migrate immediately to a fresh seed on a clean device."
+  },
+  {
+    "id": "allowance",
+    "term": "Allowance",
+    "definition": "Max amount a contract may spend of your token.",
+    "explain": "An allowance caps how much of a token a spender contract may transferFrom your balance. Unlimited allowances are convenient for frequent traders and dangerous for everyone else.\n\nReview and revoke unused allowances regularly. Prefer exact or modest allowances when learning a new app."
+  },
+  {
+    "id": "approve",
+    "term": "Approve",
+    "definition": "Transaction that sets an allowance.",
+    "explain": "Approve transactions set or change allowances. They do not move tokens by themselves, but they unlock later spending by the spender address.\n\nRead the spender carefully, simulate the effect, and beware phishing that asks for approvals to unknown contracts. Approvals are a top drain vector."
+  },
+  {
+    "id": "rug",
+    "term": "Rug Pull",
+    "definition": "Insiders drain liquidity or abandon a project.",
+    "explain": "A rug pull is when insiders drain liquidity or abandon a project after raising funds. Warning signs include unreachable liquidity, opaque admins, and yield-only marketing.\n\nDue diligence is social and technical: team accountability, contract permissions, and whether liquidity is locked. If you cannot explain the exit, do not size large."
+  },
+  {
+    "id": "phishing",
+    "term": "Phishing",
+    "definition": "Fake sites/identities tricking keys or signatures.",
+    "explain": "Phishing uses fake sites, ads, and identities to harvest keys or signatures. Homograph domains and fake support DMs are perennial hits.\n\nUse bookmarks, ignore search ads for wallet brands, and never share seeds. When unsure, verify on a second channel before signing anything."
+  },
+  {
+    "id": "bridge",
+    "term": "Bridge",
+    "definition": "Protocol moving assets/messages across chains.",
+    "explain": "Bridges move assets or messages across chains. Canonical bridges inherit more of the home rollup’s security model; fast bridges often add extra trust assumptions for speed.\n\nAlways test with tiny amounts, verify official URLs, and understand refund behavior. Bridge risk is historically concentrated and unforgiving."
+  },
+  {
+    "id": "stablecoin",
+    "term": "Stablecoin",
+    "definition": "Token designed to track a stable reference.",
+    "explain": "Stablecoins aim to track a stable reference such as USD. Designs include fiat reserves, crypto collateral, and algorithmic mechanisms—each fails differently.\n\nLearn issuer attestation quality, freeze policy, and redemption paths. Diversify when stables are core to your workflow."
+  },
+  {
+    "id": "liquidity",
+    "term": "Liquidity",
+    "definition": "Ability to trade size without moving price much.",
+    "explain": "Liquidity is the ability to trade size without moving price too much. Deep pools reduce slippage; removable or illusory liquidity can fake safety.\n\nCheck who can withdraw LP tokens and how quickly. Liquidity that vanishes in stress is not liquidity when you need it."
+  },
+  {
+    "id": "impermanent-loss",
+    "term": "Impermanent Loss",
+    "definition": "LP underperformance vs holding when prices diverge.",
+    "explain": "Impermanent loss is LP underperformance versus simply holding the assets when prices diverge. Fees may or may not compensate.\n\nExiting crystallizes the gap. Model scenarios before providing liquidity, especially in volatile pairs with thin fee income."
+  },
+  {
+    "id": "liquidation",
+    "term": "Liquidation",
+    "definition": "Forced sale of collateral when a loan is unhealthy.",
+    "explain": "Liquidation forcibly sells collateral when a loan’s health factor fails. Oracles set the trigger price; cascades amplify crashes.\n\nKeep buffers, avoid max leverage while learning, and understand whether liquidations are auction-based or keeper-bot based."
+  },
+  {
+    "id": "staking",
+    "term": "Staking",
+    "definition": "Locking assets to secure a network or earn rewards.",
+    "explain": "Staking locks assets to secure a network or earn protocol rewards. Designs differ on lockups, slashing, and whether you run a validator or delegate.\n\nDelegation adds operator risk. Read unbonding times before treating staked assets as liquid rainy-day funds."
+  },
+  {
+    "id": "validator",
+    "term": "Validator",
+    "definition": "PoS node that proposes/attests blocks.",
+    "explain": "Validators propose and attest blocks in proof-of-stake systems. Poor performance or malice can be slashed.\n\nSolo validating needs ops discipline; liquid staking and restaking add layers of smart-contract and operator risk on top of consensus duties."
+  },
+  {
+    "id": "dao",
+    "term": "DAO",
+    "definition": "Organization coordinating via on-chain rules/votes.",
+    "explain": "A DAO coordinates via on-chain rules and votes over treasuries and parameters. Turnout, whale concentration, and proposal quality shape outcomes.\n\nGovernance is a security surface: malicious upgrades can drain funds with a “successful” vote. Read payloads, not only titles."
+  },
+  {
+    "id": "nft",
+    "term": "NFT",
+    "definition": "Non-fungible token for unique items.",
+    "explain": "Non-fungible tokens represent unique items. Ownership of the token is on-chain; media and traits often live off-chain and depend on pinning or servers.\n\nVerify contract addresses, royalty policies, and metadata mutability. Same artwork, different contract, is a classic trap."
+  },
+  {
+    "id": "ipfs",
+    "term": "IPFS",
+    "definition": "Content-addressed distributed file network.",
+    "explain": "IPFS addresses content by hash so integrity can be checked. Permanence still depends on someone pinning the data.\n\nWhen NFTs or docs cite IPFS, ask who pins and what happens if gateways vanish. Content addressing ≠ automatic forever hosting."
+  },
+  {
+    "id": "ens",
+    "term": "ENS",
+    "definition": "Ethereum Name Service mapping names to records.",
+    "explain": "ENS maps human-readable names to addresses and records. It reduces typos but names expire and resolution can be hijacked if you skip checks.\n\nAlways re-check the resolved address on a trusted path before sending size."
+  },
+  {
+    "id": "layer1",
+    "term": "Layer 1",
+    "definition": "Base chain with its own consensus/settlement.",
+    "explain": "A layer-1 chain provides its own consensus and settlement security. Fees and throughput reflect that base-layer scarcity.\n\nL1s are where final dispute resolution often lives for rollups. Understanding L1 fees and finality helps you interpret L2 promises."
+  },
+  {
+    "id": "layer2",
+    "term": "Layer 2",
+    "definition": "Scaling layer inheriting security from an L1.",
+    "explain": "Layer-2 systems scale execution while aiming to inherit security from an L1. Rollups dominate the current design space.\n\nUsers should learn bridge trust, sequencer assumptions, and exit windows. “Cheaper Ethereum” still has its own operational map."
+  },
+  {
+    "id": "zk-proof",
+    "term": "ZK / Validity Proof",
+    "definition": "Proof of correctness without re-executing everything.",
+    "explain": "Validity proofs convince a verifier that a batch is correct without re-executing everything. ZK rollups use them to settle succinctly on L1.\n\n“ZK” branding does not answer who sequences, who upgrades, or how bridges work. Ask what is proven and what remains trusted."
+  },
+  {
+    "id": "fraud-proof",
+    "term": "Fraud Proof",
+    "definition": "Evidence that an optimistic batch is invalid.",
+    "explain": "Fraud proofs challenge invalid optimistic batches during a window. Watchers must be able to access data and submit evidence.\n\nIf data is missing or watchers fail, security assumptions weaken. Optimistic systems trade latency to finality for simpler proving."
+  },
+  {
+    "id": "blob",
+    "term": "Blob",
+    "definition": "Cheap data space introduced for scaling.",
+    "explain": "Blobs provide cheaper temporary data space for rollups to post transaction data. Lower DA cost is a major reason L2 fees fell.\n\nBlobs are infrastructure, not a user product by themselves. They enable applications; they do not remove bridge or signing risk."
+  },
+  {
+    "id": "wallet",
+    "term": "Wallet",
+    "definition": "Software/hardware that manages keys and signatures.",
+    "explain": "A wallet manages keys and constructs signatures. Coins live on-chain; the wallet holds control, not a custodial balance unless it is an exchange account.\n\nChoose hot versus cold based on size and frequency. Backup discipline matters more than brand aesthetics."
+  },
+  {
+    "id": "cold-storage",
+    "term": "Cold Storage",
+    "definition": "Keeping keys offline to shrink attack surface.",
+    "explain": "Cold storage keeps keys offline to shrink remote attack surface. It fits long-term holdings better than high-frequency trading.\n\nTest receive and small send flows before parking size. Operational mistakes (wrong chain, wrong address) still apply offline."
+  },
+  {
+    "id": "kyc",
+    "term": "KYC",
+    "definition": "Identity checks on platforms.",
+    "explain": "KYC is identity verification on platforms for compliance. It is distinct from blockchain addresses and creates privacy and data-breach trade-offs.\n\nUnderstand what you give up for fiat ramps. Self-custody does not erase KYC history at on-ramps you already used."
+  },
+  {
+    "id": "dex",
+    "term": "DEX",
+    "definition": "Exchange settling via smart contracts.",
+    "explain": "Decentralized exchanges settle trades via smart contracts, usually non-custodially. Users keep keys and bear signature and MEV risk.\n\nVerify router contracts and token addresses. A DEX UI can still be phishing even when the underlying protocol is reputable."
+  },
+  {
+    "id": "cex",
+    "term": "CEX",
+    "definition": "Centralized exchange.",
+    "explain": "Centralized exchanges offer fast matching and fiat ramps with custody risk. You hold an IOU until you withdraw.\n\nUse them as tools, not vaults. Withdraw size you care about, enable strong account security, and watch for lookalike apps."
+  },
+  {
+    "id": "dapp",
+    "term": "DApp",
+    "definition": "App with critical logic on-chain.",
+    "explain": "A dapp places critical logic on-chain while the frontend may still be centralized. Domain takeover can point users at malicious contract calls.\n\nBookmark official URLs, prefer verified contract interactions, and treat frontend trust as part of the threat model."
+  },
+  {
+    "id": "hash",
+    "term": "Hash",
+    "definition": "One-way digest of data.",
+    "explain": "A cryptographic hash maps data to a fixed digest. Tiny input changes flip the output; finding collisions is designed to be hard.\n\nHashes link blocks, address content, and commit to messages. They are the glue of integrity checks across crypto systems."
+  },
+  {
+    "id": "block",
+    "term": "Block",
+    "definition": "Batch of txs linked into history.",
+    "explain": "A block batches transactions into a linked history. Size and time targets shape throughput and fee markets.\n\nExplorers show height, proposer, and included txs. Understanding blocks helps you interpret confirmations and reorg risk."
+  },
+  {
+    "id": "private-key",
+    "term": "Private Key",
+    "definition": "Secret that authorizes spends.",
+    "explain": "A private key authorizes spends. Sharing it—or a seed that derives it—is equivalent to sharing the funds.\n\nNever type keys into websites, chat apps, or “support” forms. Hardware isolation helps; operational caution still decides outcomes."
+  },
+  {
+    "id": "public-key",
+    "term": "Public Key",
+    "definition": "Derived value used to verify signatures.",
+    "explain": "A public key verifies signatures corresponding to a private key. Addresses are usually derived from hashing the public key.\n\nPublic keys and addresses are shareable for receiving. Privacy practices still matter if you reuse them widely."
+  },
+  {
+    "id": "address",
+    "term": "Address",
+    "definition": "Identifier used to receive funds.",
+    "explain": "An address is the identifier used to receive funds on a network. Sending to the wrong chain or a typo address is often irreversible.\n\nCopy carefully, verify a few characters at start and end, and send a test when moving size to a new destination."
+  },
+  {
+    "id": "confirmation",
+    "term": "Confirmation",
+    "definition": "How many blocks have built on a tx.",
+    "explain": "Confirmations count how many blocks have been built on top of your transaction. More depth makes reorgs harder.\n\nServices pick different thresholds for different sizes. Patience is a security control for large settlement."
+  },
+  {
+    "id": "smart-contract",
+    "term": "Smart Contract",
+    "definition": "Program deployed to a chain.",
+    "explain": "A smart contract is a program deployed to a chain address. It can custody assets and enforce rules without a traditional intermediary.\n\nBugs, admin keys, and unexpected integrations create risk. Prefer audited, time-tested code paths when learning with real funds."
+  },
+  {
+    "id": "token",
+    "term": "Token",
+    "definition": "Asset unit accounted in a contract.",
+    "explain": "Tokens are asset units accounted by contracts. Names and tickers can be cloned; contract addresses identify the real asset.\n\nAlways verify the address from a trusted source before swapping or adding liquidity."
+  },
+  {
+    "id": "erc-20",
+    "term": "ERC-20",
+    "definition": "Dominant fungible token interface.",
+    "explain": "ERC-20 is the dominant fungible token interface on Ethereum-like chains. It standardizes transfer and approval behaviors for wallets and DEXs.\n\nApprovals are part of the standard—and part of the risk. Understand allowance mechanics before farming new tokens."
+  },
+  {
+    "id": "permissionless",
+    "term": "Permissionless",
+    "definition": "Anyone can use or deploy without allowlists.",
+    "explain": "Permissionless systems allow anyone to use or deploy without allowlists. Open access fuels innovation and scams together.\n\nYour filter becomes personal: verify contracts, prefer reputation with evidence, and size experiments small."
+  },
+  {
+    "id": "custody",
+    "term": "Custody",
+    "definition": "Third party holding keys/assets.",
+    "explain": "Custody means a third party holds keys or assets for you. Convenience trades against counterparty and operational risk.\n\nSelf-custody shifts ops to you. Hybrid approaches—exchange for trading, cold storage for savings—are common literate patterns."
+  },
+  {
+    "id": "yield-farming",
+    "term": "Yield Farming",
+    "definition": "Allocating liquidity to earn rewards across protocols.",
+    "explain": "Yield farming allocates liquidity across protocols to earn rewards. High APRs are often temporary and paid in volatile reward tokens.\n\nModel exit liquidity and smart-contract risk. Farming is a strategy, not a savings account."
+  },
+  {
+    "id": "airdrop",
+    "term": "Airdrop",
+    "definition": "Token distribution for growth/community.",
+    "explain": "Airdrops distribute tokens for growth or community rewards. Claiming can involve signatures that are safer—or much less safe—than they look.\n\nWatch for phishing claim sites and tax surprises. If a claim asks for your seed, it is not an airdrop."
+  },
+  {
+    "id": "whitepaper",
+    "term": "Whitepaper",
+    "definition": "Document describing design and goals.",
+    "explain": "A whitepaper explains design goals and mechanisms. Prefer concrete rules, threat models, and parameters over vibe decks.\n\nTreat papers as starting claims to verify in code and production behavior, not as guarantees."
+  },
+  {
+    "id": "halving",
+    "term": "Halving",
+    "definition": "Periodic cut of Bitcoin’s block subsidy.",
+    "explain": "Bitcoin’s halving periodically cuts the block subsidy. New supply issuance slows on a known schedule.\n\nIt does not guarantee price rises. It does illustrate how security budgets and fee markets evolve as subsidies decline."
+  },
+  {
+    "id": "merkle-tree",
+    "term": "Merkle Tree",
+    "definition": "Hash tree proving inclusion efficiently.",
+    "explain": "Merkle trees hash data into a root so inclusion can be proven efficiently. Light clients and many proof systems rely on them.\n\nThey let you verify a piece belongs to a committed set without downloading everything—core to scalable verification."
+  },
+  {
+    "id": "nonce",
+    "term": "Nonce",
+    "definition": "Account tx sequence number.",
+    "explain": "An account nonce sequences transactions so each is processed once in order. Stuck transactions are often replaced by resending the same nonce with a higher fee.\n\nUnderstanding nonces demystifies “pending forever” wallets and replacement flows."
+  }
+]

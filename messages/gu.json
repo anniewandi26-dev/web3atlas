@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Web3 Knowledge Infrastructure",
+    "badge": "Security First"
+  },
+  "nav": {
+    "explore": "શોધો",
+    "ecosystem": "ઇકોસિસ્ટમ",
+    "news": "સમાચાર",
+    "chronicle": "ઇતિહાસ",
+    "security": "સુરક્ષા",
+    "glossary": "શબ્દકોશ"
+  },
+  "hero": {
+    "kicker": "8 ECOSYSTEM LAYERS · TAP TO LEARN",
+    "titleLine1": "The Internet Is Changing.",
+    "titleLine2": "Map What Comes Next.",
+    "subtitle": "Discover networks, protocols and ideas shaping Web3 — built for clarity, not hype.",
+    "ctaPrimary": "Explore the Ecosystem",
+    "ctaSecondary": "Open Security Center",
+    "pause": "Pause animation",
+    "play": "Play animation"
+  },
+  "sections": {
+    "ecosystem": "01 · ECOSYSTEM",
+    "ecosystemTitle": "Explore by category",
+    "ecosystemDesc": "Eight layers of Web3. Open one to see concepts and real-world patterns.",
+    "openExplorer": "Open explorer",
+    "news": "02 · SIGNAL",
+    "newsTitle": "What's moving",
+    "newsDesc": "Curated headlines that help you follow infrastructure, markets and regulation.",
+    "allHeadlines": "All headlines",
+    "glossary": "03 · LEXICON",
+    "glossaryTitle": "Speak the language",
+    "glossaryDesc": "Fast definitions for terms you will see every day on-chain.",
+    "openGlossary": "Open glossary",
+    "security": "04 · DEFENSE",
+    "securityTitle": "Stay hard to hack",
+    "securityDesc": "Short briefings on phishing, approvals, seed phrases and fake apps.",
+    "securityCenter": "Security center",
+    "chronicle": "05 · TIMELINE",
+    "chronicleTitle": "How we got here",
+    "chronicleDesc": "A concise chronicle from whitepaper to ETFs and beyond.",
+    "fullChronicle": "Full chronicle",
+    "quiz": "06 · CHALLENGE",
+    "quizTitle": "Stress-test what you know",
+    "quizDesc": "Ten quick questions. No account. Just sharper instincts.",
+    "startQuiz": "Start the challenge",
+    "shuffle": "Shuffle"
+  },
+  "common": {
+    "readMore": "વધુ વાંચો",
+    "back": "પાછળ",
+    "search": "Search",
+    "items": "items",
+    "minRead": "{m} min read",
+    "language": "ભાષા",
+    "followIp": "ભાષા તમારા પ્રદેશ (IP)ને અનુસરે છે.",
+    "fallbackNote": "Full article language unavailable — showing English.",
+    "noResults": "No matches.",
+    "useful": "Useful",
+    "useIpLanguage": "IP ભાષા વાપરો",
+    "ipActive": "સક્રિય",
+    "manualOverride": "Manual override"
+  },
+  "ecosystemPage": {
+    "title": "Ecosystem Explorer",
+    "subtitle": "Browse eight layers — from base chains to DAOs."
+  },
+  "newsPage": {
+    "title": "Signal Desk",
+    "subtitle": "Curated Web3 headlines for builders and curious readers."
+  },
+  "chroniclePage": {
+    "title": "Chronicle",
+    "subtitle": "A timeline of moments that reshaped digital money and networks."
+  },
+  "securityPage": {
+    "title": "Security Center",
+    "subtitle": "Practical defenses for wallets, approvals and social engineering."
+  },
+  "glossaryPage": {
+    "title": "Glossary",
+    "subtitle": "Plain-language definitions for on-chain vocabulary.",
+    "placeholder": "Filter terms…"
+  },
+  "quiz": {
+    "correct": "Correct",
+    "wrong": "Not quite",
+    "next": "Next",
+    "restart": "Restart",
+    "score": "Score: {score}/{total}",
+    "done": "Challenge complete"
+  },
+  "article": {
+    "keyPoints": "Key points",
+    "tips": "Practical tips",
+    "checklist": "Checklist",
+    "expand": "Expand explain",
+    "collapse": "Collapse"
+  },
+  "intro": {
+    "headline": "વેબ3 અને ક્રિપ્ટો જ્ઞાન — સ્પષ્ટપણે શીખો, હાઇપ નહીં",
+    "body": "Web3Atlas એ એજ્યુકેશન હબ છે, ટ્રેડિંગ એપ્લિકેશન નથી. ઇકોસિસ્ટમના નકશાનું અન્વેષણ કરો, ક્યુરેટેડ સિગ્નલોને અનુસરો, ક્રોનિકલનો અભ્યાસ કરો, વૉલેટ સુરક્ષાનો અભ્યાસ કરો, શબ્દકોષ ખોલો અને ક્વિઝ સાથે તમારી જાતને પરીક્ષણ કરો — અનુમાન પર સ્પષ્ટતા.",
+    "point1": "ઇકોસિસ્ટમ મેપ: બ્લોકચેન, ડીફાઇ, એનએફટી, એલ2, વોલેટ્સ, ડીએઓ",
+    "point2": "સિગ્નલ્સ અને ક્રોનિકલ: હેડલાઇન્સ વત્તા કી ઇતિહાસ",
+    "point3": "સુરક્ષા કેન્દ્ર: ફિશિંગ, બીજ, મંજૂરીઓ",
+    "point4": "ગ્લોસરી અને ક્વિઝ: સાદા શબ્દો તમે ખોલી અને પ્રેક્ટિસ કરી શકો છો",
+    "hint": "ચાલુ રાખવા માટે નીચે ટૅપ કરો",
+    "enter": "શોધખોળ શરૂ કરો",
+    "loading": "લોડ કરી રહ્યું છે"
+  },
+  "safariGate": {
+    "note": "તમે Safari માં આ પૃષ્ઠ ખોલો તે પછી, સાઇટ સામાન્ય રીતે ચાલે છે — અને આ સૂચના છુપાયેલી રહે છે. સફારી સરળ ક્રિયાપ્રતિક્રિયા અને સમૃદ્ધ રંગ આપે છે.",
+    "openSafari": "સફારી સાથે ખોલો",
+    "copied": "લિંક કૉપિ કરી. ચાલુ રાખવા માટે તેને સફારીમાં પેસ્ટ કરો."
+  }
+}

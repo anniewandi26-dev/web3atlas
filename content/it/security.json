@@ -1,0 +1,234 @@
+[
+  {
+    "id": "homograph",
+    "tag": "Avviso",
+    "title": "Difesa dal phishing omografo",
+    "minutes": 5,
+    "summary": "Personaggi sosia creano domini ufficiali per raccogliere firme o semi.",
+    "sections": [
+      {
+        "heading": "Come appare",
+        "body": "Gli aggressori scambiano caratteri visivamente simili nei domini e li associano ad annunci o DM. L'interfaccia utente può essere perfetta al pixel e mostrare persino saldi falsi."
+      },
+      {
+        "heading": "Come individuarlo",
+        "body": "Digita URL o utilizza i segnalibri. Controlla i proprietari dei certificati. Non fare mai clic sull'annuncio di ricerca principale per portafogli/ponti. Passa il mouse sui collegamenti ed esamina i sottodomini strani."
+      },
+      {
+        "heading": "Se hai cliccato",
+        "body": "Revocare le approvazioni e spostare i fondi rimanenti. Se hai digitato un seme, quel portafoglio viene bruciato: salvataggio solo in un seme nuovo di zecca. Conservare le prove per i rapporti."
+      }
+    ],
+    "checklist": [
+      "Aggiungi ai preferiti i siti ufficiali",
+      "Salta gli annunci di ricerca",
+      "Ispeziona ogni carattere dell'URL",
+      "Effettua un controllo incrociato su un secondo dispositivo per verificarne le dimensioni",
+      "Non digitare mai semi nelle pagine web"
+    ],
+    "body": "Personaggi sosia creano domini ufficiali per raccogliere firme o semi."
+  },
+  {
+    "id": "seed",
+    "tag": "Chiavi",
+    "title": "Guida completa alle frasi seed",
+    "minutes": 6,
+    "summary": "Il tuo seme è il controllo delle risorse. Chiunque lo chieda è ostile.",
+    "sections": [
+      {
+        "heading": "Backup",
+        "body": "Scrivi a mano e ricontrolla l'ordine; considera le piastre metalliche; dividere attentamente le posizioni. Nessuna foto, cloud o app di chat."
+      },
+      {
+        "heading": "Truffe",
+        "body": "Pagine \"Sincronizza/verifica/aggiorna/sblocca/airdrop\" che richiedono 12/24 parole. Gli amministratori falsi di Discord utilizzano lo stesso script. I \"controllori di autenticità\" hardware che richiedono i semi sono falsi."
+      },
+      {
+        "heading": "Eredità",
+        "body": "Se nessuno conosce il piano, i fondi muoiono con te. Utilizza istruzioni sigillate, avvocati o multisig. In caso di sospetta perdita, migrare immediatamente."
+      }
+    ],
+    "checklist": [
+      "Seeds solo sui media offline",
+      "Dire le parole a nessuno",
+      "Non inserirli mai su un dispositivo di rete",
+      "Hardware + backup a freddo per dimensioni",
+      "Migrare su qualsiasi segnale di perdita"
+    ],
+    "body": "Il tuo seme è il controllo delle risorse. Chiunque lo chieda è ostile."
+  },
+  {
+    "id": "approve",
+    "tag": "DeFi",
+    "title": "Approvare/concedere trappole",
+    "minutes": 6,
+    "summary": "Le approvazioni non spostano i token immediatamente: consentono drenaggi successivi, soprattutto illimitati.",
+    "sections": [
+      {
+        "heading": "Meccanica",
+        "body": "Trasferimento ERC-20 Dall'indennità per bisogni. Le approvazioni infinite sono convenienti; gli spendaccioni compromessi possono svuotarti in seguito. setApprovalForAll è l'equivalente NFT."
+      },
+      {
+        "heading": "Pratica sicura",
+        "body": "Indennità esatte quando possibile; revocare regolarmente; testare nuovi protocolli in piccolo. Guarda i siti di airdrop che richiedono prima l'approvazione."
+      },
+      {
+        "heading": "Risposta all'incidente",
+        "body": "Revoca e spostamento di fondi. Dai la priorità a chi spende indicato nelle informative sugli attacchi hacker."
+      }
+    ],
+    "checklist": [
+      "Rifiuta inutili approvazioni illimitate",
+      "Revisione mensile delle indennità",
+      "Revocare gli operatori NFT non utilizzati",
+      "Leggi gli indirizzi degli spendaccioni",
+      "Dai la priorità a coloro che spendono protocolli compromessi"
+    ],
+    "body": "Le approvazioni non spostano i token immediatamente: consentono drenaggi successivi, soprattutto illimitati."
+  },
+  {
+    "id": "fake-apps",
+    "tag": "Mobile",
+    "title": "App di portafogli falsi",
+    "minutes": 5,
+    "summary": "I cloni compaiono nei negozi e nei canali di trasferimento laterale per rubare semi o dispositivi di controllo remoto.",
+    "sections": [
+      {
+        "heading": "Individuazione dei falsi",
+        "body": "Abbina i nomi degli editori ai post ufficiali; fai attenzione alle nuovissime app in classifica n. 1. Preferire i collegamenti dal sito reale. Gli APK trasferiti lateralmente sono più rischiosi."
+      },
+      {
+        "heading": "Indurimento",
+        "body": "Mantieni aggiornato il sistema operativo; minimizzare i plugin; considera un telefono dedicato. Usa l'hardware per le dimensioni. Pianifica il blocco remoto in caso di smarrimento del telefono."
+      },
+      {
+        "heading": "Dopo l'installazione",
+        "body": "Se un seed è stato inserito in un'app falsa, presumi la compromissione e migra su un dispositivo pulito."
+      }
+    ],
+    "checklist": [
+      "Installa dai canali ufficiali",
+      "Verifica i nomi degli sviluppatori",
+      "Evita APK casuali",
+      "La dimensione dell'abbinamento con l'hardware è confermata",
+      "Migrare immediatamente se falsificato"
+    ],
+    "body": "I cloni compaiono nei negozi e nei canali di trasferimento laterale per rubare semi o dispositivi di controllo remoto."
+  },
+  {
+    "id": "drainer",
+    "tag": "Firma",
+    "title": "Drenatori di firme e permessi dannosi",
+    "minutes": 7,
+    "summary": "Non è richiesto alcun seed: firme strutturate dannose possono autorizzare i drenaggi.",
+    "sections": [
+      {
+        "heading": "Tattiche",
+        "body": "Richieste di conio/reclami falsi setApprovalForAll, permessi o \"login\". Alcuni payload sembrano vuoti. I robot spazzano dopo."
+      },
+      {
+        "heading": "Difesa",
+        "body": "Portafogli con firma chiara, simulazione, rifiuto di incognite. Connetti prima i nuovi siti con un masterizzatore. Controlla i domini."
+      },
+      {
+        "heading": "Dopo",
+        "body": "Revocare, salvare fondi, avvisare le comunità, verificare che altre catene abbiano le stesse approvazioni."
+      }
+    ],
+    "checklist": [
+      "Rifiuta le firme opache",
+      "Abilita la simulazione",
+      "Utilizza un masterizzatore su nuovi siti",
+      "Revocare regolarmente",
+      "Aggiungi ai segnalibri le dApp reali"
+    ],
+    "body": "Non è richiesto alcun seed: firme strutturate dannose possono autorizzare i drenaggi."
+  },
+  {
+    "id": "support",
+    "tag": "Sociale",
+    "title": "Supporto falso e ingegneria sociale",
+    "minutes": 5,
+    "summary": "Dopo aver pubblicato un errore, gli imitatori \"aiutano\" in DM chiedendo l'accesso remoto o i seed.",
+    "sections": [
+      {
+        "heading": "Il playbook",
+        "body": "Avatar clonati, app di urgenza, di controllo remoto o istruzioni di deposito con “contratto sicuro”. Anche gli account degli amici compromessi diffondono collegamenti."
+      },
+      {
+        "heading": "Regole",
+        "body": "I veri team raramente scrivono prima per i segreti. Utilizza biglietti ufficiali/canali pubblici. Verifica gli amici fuori banda."
+      },
+      {
+        "heading": "Igiene",
+        "body": "Non incollare mai i semi nei canali pubblici, nemmeno “parzialmente mascherati”."
+      }
+    ],
+    "checklist": [
+      "Ignora i messaggi diretti di supporto a freddo",
+      "Non installare strumenti remoti casuali",
+      "Non dare mai semi per sostenere",
+      "Verifica i collegamenti di amici strani offline",
+      "Utilizzare i canali di aiuto pubblici ufficiali"
+    ],
+    "body": "Dopo aver pubblicato un errore, gli imitatori \"aiutano\" in DM chiedendo l'accesso remoto o i seed."
+  },
+  {
+    "id": "bridges",
+    "tag": "Catena incrociata",
+    "title": "Sicurezza del ponte",
+    "minutes": 6,
+    "summary": "I bridge sono i principali obiettivi degli hacker e favoriti del phishing. Più veloce non è più sicuro per impostazione predefinita.",
+    "sections": [
+      {
+        "heading": "Scegliere",
+        "body": "Preferisci i ponti canonici dei documenti ufficiali. Controlla i ponti rapidi per audit e limiti. Comprendere i ritardi di uscita."
+      },
+      {
+        "heading": "Operativa",
+        "body": "Piccoli test end-to-end; verificare i contratti dei token di destinazione; salvare gli hash. Non considerare le uscite in volo come margine libero."
+      },
+      {
+        "heading": "Incidenti",
+        "body": "Per quanto riguarda gli hack del bridge, segui gli avvisi ufficiali di pausa, non gli \"script di migrazione\" dei DM."
+      }
+    ],
+    "checklist": [
+      "Segnalibro ponti ufficiali",
+      "Prova prima il piccolo",
+      "Verificare i contratti di destinazione",
+      "Salva hash tx",
+      "Ignora gli script di migrazione DM"
+    ],
+    "body": "I bridge sono i principali obiettivi degli hacker e favoriti del phishing. Più veloce non è più sicuro per impostazione predefinita."
+  },
+  {
+    "id": "devices",
+    "tag": "Op",
+    "title": "Igiene del dispositivo e del browser",
+    "minutes": 5,
+    "summary": "Malware degli appunti, estensioni false e PC condivisi sono percorsi di furto quotidiani.",
+    "sections": [
+      {
+        "heading": "Navigatrice",
+        "body": "Profilo crittografico dedicato; estensioni ufficiali minime; siti di segnalibri. Utilizzare una macchina pulita per le dimensioni."
+      },
+      {
+        "heading": "Sistema",
+        "body": "Sistema operativo con patch; attenzione agli “strumenti airdrop”; evitare caricabatterie pubblici imprecisi. Ricontrolla sempre gli indirizzi incollati."
+      },
+      {
+        "heading": "Stratificazione",
+        "body": "Caldo per il quotidiano, freddo per il risparmio, multisig per i titoli del Tesoro batte un super portafoglio."
+      }
+    ],
+    "checklist": [
+      "Profilo del browser separato",
+      "Estensioni della lista bianca",
+      "Ricontrolla gli indirizzi incollati",
+      "Mantieni aggiornato il sistema operativo",
+      "Dividere i fondi per ruolo"
+    ],
+    "body": "Malware degli appunti, estensioni false e PC condivisi sono percorsi di furto quotidiani."
+  }
+]

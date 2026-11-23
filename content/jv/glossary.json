@@ -1,0 +1,362 @@
+[
+  {
+    "id": "gas",
+    "term": "Gas",
+    "definition": "Unit pangukuran lan panyimpenan sing digunakake kanggo transaksi.",
+    "explain": "Gas ngukur pinten komputasi lan panyimpenan transaksi sing dijaluk jaringan. Tanpa pangukuran, rantai umum bisa diblokir dening puteran utawa spam tanpa wates. Ragad sampeyan kira-kira panggunaan × rega unit; rame mundhak rega unit amarga panjaluk blockspace mundhak. \n\nTransaksi gagal isih bisa biaya gas amarga validators wis kaleksanan karya. Kebiasaan praktis: ngira biaya, luwih seneng nalika sinau, lan aja bingung pesen UX sing gagal karo nyoba maneh gratis."
+  },
+  {
+    "id": "gwei",
+    "term": "Gwei",
+    "definition": "A denominasi ETH umum kanggo ngutip rega gas.",
+    "explain": "Gwei minangka denominasi eter sing digunakake kanggo ngutip rega gas ing nomer skala manungsa. Siji ETH padha karo 1e9 Gwei. Dompet asring nuduhake ragad maksimal lan ragad prioritas ing Gwei supaya sampeyan bisa mbandhingake urgensi tanpa ngetung wolulas desimal. \n\nNalika maca tutorial utawa gambar mempool, priksa unit kasebut kanthi teliti. Nyampur kuotasi Gwei karo jumlah transfer ETH minangka kesalahan pamula klasik sing nyebabake overpaying utawa underpaying."
+  },
+  {
+    "id": "evm",
+    "term": "EVM",
+    "definition": "Mesin Virtual Ethereum-runtime kontrak cerdas.",
+    "explain": "Mesin Virtual Ethereum yaiku wektu kerja bareng sing nglakokake bytecode kontrak cerdas. Umume rantai \"EVM-kompatibel\" nggunakake maneh opcode lan perkakas supaya pangembang bisa masang kontrak sing padha ing papan liya. \n\nKompatibilitas babagan pengalaman pangembang, dudu keamanan utawa ekonomi sing padha. Tansah verifikasi chain sing sampeyan tindakake, panjelajah sing dipercaya, lan apa pola upgrade proxy melu sadurunge nganggep kode tumindak ing salawas-lawase."
+  },
+  {
+    "id": "amm",
+    "term": "AMM",
+    "definition": "Nggawe pasar liwat pools lan rumus tinimbang buku.",
+    "explain": "Rega produsen pasar otomatis dagang karo formula kolam tinimbang buku pesenan klasik. Panyedhiya likuiditas nyetop aset lan entuk biaya nalika njupuk risiko inventaris sing dikenal minangka mundhut ora permanen. \n\nKolam palsu lan token mirip minangka jebakan umum. Priksa alamat kontrak, ambane blumbang, lan tingkat biaya. AMM minangka primitif sing kuat - dianggep minangka pasar kanthi matématika transparan lan aliran mungsuh."
+  },
+  {
+    "id": "tvl",
+    "term": "TVL",
+    "definition": "Nilai total sing dikunci ing kontrak protokol.",
+    "explain": "Total nilai dikunci jumlah aset sing disimpen ing kontrak protokol. TVL sing dhuwur bisa menehi sinyal panggunaan lan kapercayan-utawa mung nggedhekake celengan sing diitung kanthi rekursif lan target hack sing luwih gedhe. \n\nWaca TVL ing jejere kualitas audit, kunci admin, desain oracle, lan penghasilan ragad nyata. Nomer judhul tanpa konteks kasebut minangka metrik marketing, dudu rating safety."
+  },
+  {
+    "id": "apy",
+    "term": "APY",
+    "definition": "Ngasilake taunan kalebu compounding.",
+    "explain": "APY ngasilake taunan kalebu asumsi compounding. Kampanye insentif singkat sing disedhiyakake saben taun dadi APY telung digit asring nyasarake amarga emisi, rega token, lan kelestarian ora stabil. \n\nBandhingake kaya karo: ragad langgeng APY versus ganjaran sementara APY. Takon apa sing kedadeyan nalika insentif rampung, lan apa sampeyan bisa metu tanpa ngrusak posisi kasebut."
+  },
+  {
+    "id": "apr",
+    "term": "APR",
+    "definition": "Tingkat taunan tanpa compounding.",
+    "explain": "APR kuotasi tingkat taunan tanpa compounding. Antarmuka kredit asring nuduhake pasokan APR lan nyilih APR bebarengan; definisi beda antarane produk. \n\nNalika mbandhingake APR lan APY, konfirmasi frekuensi compounding lan apa token ganjaran kalebu. Presisi ing definisi nyegah kesimpulan \"tingkat sing luwih apik\"."
+  },
+  {
+    "id": "slippage",
+    "term": "Slippage",
+    "definition": "Gap antarane rega samesthine lan kaleksanan.",
+    "explain": "Slippage minangka longkangan antarane rega sing dikarepake lan rega sing ditampa. Kolam sing tipis, ukuran gedhe, lan wektu sing molah malih nambah jurang kasebut. \n\nSetelan slippage amba banget ngajak sandwiching; setelan banget-nyenyet gagal lan isih bisa mbuwang gas. Setel kanthi sadar saben ukuran perdagangan lan ambane blumbang, lan luwih seneng kiriman pribadi yen kasedhiya kanggo swap gedhe."
+  },
+  {
+    "id": "mev",
+    "term": "MEV",
+    "definition": "Nilai sing bisa diekstrak saka pesenan / kalebu transaksi.",
+    "explain": "Nilai sing bisa diekstrak maksimal yaiku bathi saka ngontrol pesenan transaksi, inklusi, utawa penyensoran. Mempools umum ngidini para pencari ndeteksi swap gedhe lan saingan kanggo njupuk pinggiran. \n\nMitigasi kalebu slippage sing luwih kenceng, alur pesenan pribadi, lelang batch, lan mung ukuran pamisah. Pangertosan MEV nerangake kenapa \"perdagangan sing padha, isi sing luwih elek\" kedadeyan sanajan tanpa bug UI."
+  },
+  {
+    "id": "oracle",
+    "term": "Oracle",
+    "definition": "Layanan nggawa data off-chain on-chain.",
+    "explain": "Oracles nggawa fakta sing ora ana rantai-utamane rega-on-chain supaya kontrak bisa bereaksi. Likuidasi pinjaman lan rega tandha terus-terusan gumantung marang integritas feed. \n\nPasar tipis luwih gampang dimanipulasi dadi cetakan oracle sing ala. Luwih milih protokol kanthi agregasi sing kuat, pemutus sirkuit, lan prilaku gagal sing jelas nalika feed mandheg."
+  },
+  {
+    "id": "rollup",
+    "term": "Rollup",
+    "definition": "L2 eksekusi sing ngirim data / bukti kanggo L1.",
+    "explain": "Rollup ngeksekusi rantai dasar lan ngirim data utawa bukti maneh supaya L1 bisa ngamanake asil kasebut. Desain optimistis gumantung ing jendhela tantangan; rollups validitas gumantung ing bukti. \n\nRagad pangguna tiba amarga akeh transaksi nuduhake biaya L1. Dhaptar pamriksa risiko sampeyan isih kalebu kreteg, sequencer, tombol upgrade, lan cara metu sing dipeksa."
+  },
+  {
+    "id": "sequencer",
+    "term": "Sequencer",
+    "definition": "Komponen sing pesen transaksi L2.",
+    "explain": "Sequencer pesen transaksi L2 lan asring menehi konfirmasi alus cepet. Akeh sequencer tetep terpusat saiki, sing mengaruhi downtime lan resistensi sensor. \n\nDecentralizing sequencers minangka tema roadmap utama. Nganti saiki, nambani konfirmasi alus minangka penak, lan ngerti dalan menyang Gawan L1-dileksanakake nalika operator misbehave."
+  },
+  {
+    "id": "finality",
+    "term": "Finalitas",
+    "definition": "Nalika tx / pamblokiran praktis ora bisa dibalèkaké.",
+    "explain": "Finality nggambarake nalika transaksi sacoro prakteke ora bisa dibalèkaké. Sawetara protokol duwe gadget finalitas eksplisit; liyane sing probabilistik lan ngiyataken karo ambane. \n\nExchanges milih count konfirmasi saka asumsi kasebut. Kanggo transfer gedhe, enteni finalitas sing dibutuhake mitra sampeyan - dudu roti panggang \"sukses\" pisanan."
+  },
+  {
+    "id": "utxo",
+    "term": "UTXO",
+    "definition": "Model akuntansi output transaksi sing ora digunakake.",
+    "explain": "Output transaksi unspent carane Bitcoin-kaya sistem trek dhuwit recehan spendable. Imbangan sampeyan minangka jumlah UTXO sing bisa ditandatangani; mbuwang nggunakake output lan bisa nggawe owah-owahan. \n\nAkuntansi UTXO beda karo saldo akun lan mengaruhi biaya, privasi, lan pilihan koin. Dompet sing entheng ndhelikake rincian-node lengkap nuduhake kenapa konsolidasi penting."
+  },
+  {
+    "id": "eoa",
+    "term": "EOA",
+    "definition": "Akun eksternal sing dikontrol dening kunci.",
+    "explain": "Akun sing diduweni eksternal dikontrol langsung dening kunci pribadi tanpa kode kontrak. Umume dompet klasik yaiku EOA: teken padha karo wewenang. \n\nOra ana reset sandhi. Mundhut wiji yaiku mundhut aset. Akun pinter ngganti model iki; yen sampeyan tetep ing EOAs, serep offline lan resistance phishing kabeh."
+  },
+  {
+    "id": "multisig",
+    "term": "Multisig",
+    "definition": "Akun sing mbutuhake sawetara persetujuan.",
+    "explain": "Akun multisignature mbutuhake persetujuan M-of-N sadurunge dana pindhah. Treasuries lan tim digunakake kanggo mbusak kegagalan tombol siji. \n\nTrade-off desain kalebu pilihan ambang, keragaman geografis signer, lan latihan pemulihan. A multisig sing ora tau latihan bisa gagal ing wayahe paling ala."
+  },
+  {
+    "id": "seed-phrase",
+    "term": "Frasa Wiji",
+    "definition": "Dhaptar tembung sing nggawe maneh kunci dompet.",
+    "explain": "Frasa wiji ngasilake kunci dompet. Sapa wae sing ndeleng tembung kasebut bisa nggawe maneh dompet ing papan liya-agen dhukungan ora mbutuhake \"verifikasi\" sampeyan. \n\nTansah wiji ing offline, aja ketik ing situs web, lan anggep yen wiji sing difoto dikompromi. Yen bocor, langsung pindhah menyang wiji seger ing piranti sing resik."
+  },
+  {
+    "id": "allowance",
+    "term": "sangu",
+    "definition": "Jumlah maksimal sing bisa ditindakake kontrak kanggo token sampeyan.",
+    "explain": "Tunjangan nutupi jumlah token sing bisa ditransfer saka kontrak pembelanjaan Saka saldo sampeyan. Tunjangan tanpa wates trep kanggo pedagang sing kerep lan mbebayani kanggo wong liya. \n\nDeleng lan njabut tunjangan sing ora digunakake kanthi rutin. Luwih milih tunjangan sing tepat utawa sithik nalika sinau aplikasi anyar."
+  },
+  {
+    "id": "approve",
+    "term": "Sarujuk",
+    "definition": "Transaksi sing nyetel sangu.",
+    "explain": "Sarujuk transaksi nyetel utawa ngganti tunjangan. Dheweke ora mindhah token dhewe, nanging banjur mbukak kunci mbuwang dening alamat spender. \n\nWaca spender kasebut kanthi teliti, simulasi efek, lan ati-ati phishing sing njaluk persetujuan kanggo kontrak dingerteni. Persetujuan minangka vektor saluran ndhuwur."
+  },
+  {
+    "id": "rug",
+    "term": "Tarik Karpet",
+    "definition": "Wong njero ngeculake likuiditas utawa ninggalake proyek.",
+    "explain": "Tarik karpet yaiku nalika wong njero ngeculake likuiditas utawa ninggalake proyek sawise ngumpulake dana. Tandha peringatan kalebu likuiditas sing ora bisa digayuh, admin ora jelas, lan pemasaran mung ngasilake. \n\nKetekunan amarga sosial lan teknis: akuntabilitas tim, ijin kontrak, lan apa likuiditas dikunci. Yen sampeyan ora bisa nerangake metu, ora ukuran gedhe."
+  },
+  {
+    "id": "phishing",
+    "term": "Phising",
+    "definition": "Situs / identitas palsu ngapusi kunci utawa tanda tangan.",
+    "explain": "Phishing nggunakake situs, iklan, lan identitas palsu kanggo entuk kunci utawa teken. Domain homograf lan DM dhukungan palsu minangka hits perennial. \n\nGunakake tetenger, nglirwakake iklan telusuran kanggo merek dompet, lan aja nuduhake wiji. Yen ora yakin, verifikasi ing saluran liya sadurunge mlebu apa wae."
+  },
+  {
+    "id": "bridge",
+    "term": "Jembatan",
+    "definition": "Protokol obah aset / pesen antarane chain.",
+    "explain": "Bridges mindhah aset utawa pesen ing ranté. kreteg kanonik oleh warisan luwih saka model keamanan rollup ngarep; kreteg cepet asring nambah asumsi dateng ekstra kanggo kacepetan. \n\nTansah nyoba kanthi jumlah cilik, verifikasi URL resmi, lan ngerti prilaku mbalekaken. Resiko jembatan historis klempakan lan unforgiving."
+  },
+  {
+    "id": "stablecoin",
+    "term": "Stablecoin",
+    "definition": "Token dirancang kanggo trek referensi stabil.",
+    "explain": "Stablecoins ngarahake nglacak referensi stabil kayata USD. Desain kalebu cadangan fiat, jaminan crypto, lan mekanisme algoritmik-saben gagal beda. \n\nSinau kualitas pembuktian sing ngetokake sekuritas, kabijakan beku, lan jalur penebusan. Diversifikasi nalika stables minangka inti saka alur kerja sampeyan."
+  },
+  {
+    "id": "liquidity",
+    "term": "Likuiditas",
+    "definition": "Kemampuan kanggo perdagangan ukuran tanpa obah rega akeh.",
+    "explain": "Likuiditas minangka kemampuan kanggo perdagangan ukuran tanpa obah rega banget. Kolam jero nyuda slippage; likuiditas sing bisa dicopot utawa khayalan bisa palsu safety. \n\nPriksa sapa sing bisa mbatalake token LP lan sepira cepet. Likuiditas sing ilang sajrone stres dudu likuiditas nalika sampeyan butuh."
+  },
+  {
+    "id": "impermanent-loss",
+    "term": "Rugi ora langgeng",
+    "definition": "LP underperformance vs nyekeli nalika prices beda.",
+    "explain": "Mundhut ora permanen yaiku kinerja LP sing kurang lan mung nyekel aset nalika rega beda. Fees bisa utawa ora bisa menehi ganti rugi. \n\nMetu crystallizes longkangan. Skenario model sadurunge nyedhiyakake likuiditas, utamane ing pasangan sing molah malih kanthi penghasilan ragad tipis."
+  },
+  {
+    "id": "liquidation",
+    "term": "Likuidasi",
+    "definition": "Penjualan paksa jaminan nalika utangan ora sehat.",
+    "explain": "Likuidasi kanthi paksa adol jaminan nalika faktor kesehatan utang gagal. Oracles nyetel rega pemicu; cascades amplify kacilakan. \n\nTansah buffer, ngindhari pengaruh maksimal nalika sinau, lan ngerti apa likuidasi adhedhasar lelang utawa adhedhasar bot."
+  },
+  {
+    "id": "staking",
+    "term": "Staking",
+    "definition": "Ngunci aset kanggo ngamanake jaringan utawa entuk ganjaran.",
+    "explain": "Staking ngunci aset kanggo ngamanake jaringan utawa entuk ganjaran protokol. Desain beda-beda ing lockups, slashing, lan apa sampeyan mbukak validator utawa utusan. \n\nDelegasi nambah risiko operator. Waca kaping unbonding sadurunge nambani aset staked minangka dana udan dina cair."
+  },
+  {
+    "id": "validator",
+    "term": "Validator",
+    "definition": "Node PoS sing ngusulake / mbuktekake pamblokiran.",
+    "explain": "Validator ngusulake lan mbuktekake pamblokiran ing sistem proof-of-stake. Kinerja sing ala utawa ala bisa dikurangi. \n\nValidating Solo mbutuhake disiplin ops; staking Cairan lan restaking nambah lapisan saka pinter-kontrak lan risiko operator ing ndhuwur tugas konsensus."
+  },
+  {
+    "id": "dao",
+    "term": "DAO",
+    "definition": "Organisasi koordinasi liwat aturan on-chain / voting.",
+    "explain": "A DAO koordinat liwat aturan on-chain lan votes liwat treasuries lan paramèter. Jumlah turnout, konsentrasi paus, lan kualitas proposal mbentuk asil. \n\nPamrentahan minangka permukaan keamanan: upgrade angkoro bisa ngirit dana kanthi swara \"sukses\". Maca payloads, ora mung judhul."
+  },
+  {
+    "id": "nft",
+    "term": "NFT",
+    "definition": "Token non-fungible kanggo item unik.",
+    "explain": "Token non-fungible makili item unik. Kepemilikan token iku on-chain; media lan sipat asring urip off-chain lan gumantung ing pinning utawa server. \n\nVerifikasi alamat kontrak, kabijakan royalti, lan mutabilitas metadata. Karya seni sing padha, kontrak sing beda, minangka jebakan klasik."
+  },
+  {
+    "id": "ipfs",
+    "term": "IPFS",
+    "definition": "Jaringan file sing disebarake kanthi alamat konten.",
+    "explain": "IPFS alamat isi kanthi hash supaya integritas bisa dicenthang. Permanen isih gumantung marang wong sing ngeset data kasebut. \n\nNalika NFTs utawa docs nyebut IPFS, takon sapa pin lan apa sing kedadeyan yen gateway ilang. Isi alamat ≠ hosting langgeng otomatis."
+  },
+  {
+    "id": "ens",
+    "term": "ENS",
+    "definition": "Ethereum Name Service jeneng pemetaan kanggo cathetan.",
+    "explain": "ENS peta jeneng sing bisa diwaca manungsa menyang alamat lan cathetan. Iku nyuda kesalahan ketik nanging jeneng kadaluwarsa lan resolusi bisa dibajak yen sampeyan ngliwati mriksa. \n\nTansah mriksa maneh alamat sing wis ditanggulangi ing dalan sing dipercaya sadurunge ngirim ukuran."
+  },
+  {
+    "id": "layer1",
+    "term": "Lapisan 1",
+    "definition": "Rantai dhasar kanthi konsensus / pemukiman dhewe.",
+    "explain": "Rantai lapisan-1 nyedhiyakake konsensus lan keamanan pemukiman dhewe. Fees lan throughput nggambarake kekurangan lapisan dasar. \n\nL1 ing ngendi resolusi regejegan pungkasan asring urip kanggo rollups. Pangertosan biaya lan finalitas L1 mbantu sampeyan napsirake janji L2."
+  },
+  {
+    "id": "layer2",
+    "term": "Lapisan 2",
+    "definition": "Scaling lapisan marisi keamanan saka L1.",
+    "explain": "Eksekusi skala sistem Layer-2 nalika ngarahake entuk keamanan saka L1. Rollups ndominasi ruang desain saiki. \n\nPangguna kudu sinau kapercayan jembatan, asumsi sequencer, lan jendela metu. \"Ethereum sing luwih murah\" isih duwe peta operasional dhewe."
+  },
+  {
+    "id": "zk-proof",
+    "term": "ZK / Bukti Validitas",
+    "definition": "Bukti sing bener tanpa nglakokake maneh kabeh.",
+    "explain": "Bukti kesahihan ngyakinake verifier manawa batch bener tanpa nglakokake kabeh. Rollups ZK digunakake kanggo ngrampungake kanthi ringkes ing L1. \n\nBranding \"ZK\" ora njawab sing urutan, sing nganyarke, utawa carane kreteg bisa. Takon apa sing wis kabukten lan apa sing tetep dipercaya."
+  },
+  {
+    "id": "fraud-proof",
+    "term": "Bukti Penipuan",
+    "definition": "Bukti yen kumpulan optimis ora sah.",
+    "explain": "Bukti penipuan nantang kelompok optimis sing ora valid sajrone jendela. Pengamat kudu bisa ngakses data lan ngirim bukti. \n\nYen data ilang utawa pengamat gagal, asumsi keamanan bakal saya lemah. Sistem optimistis perdagangan latensi nganti pungkasan kanggo bukti sing luwih gampang."
+  },
+  {
+    "id": "blob",
+    "term": "Blob",
+    "definition": "papan data mirah ngenalaken kanggo scaling.",
+    "explain": "Blobs nyedhiyakake ruang data sementara sing luwih murah kanggo rollups kanggo ngirim data transaksi. Biaya DA sing luwih murah minangka alasan utama biaya L2 mudhun. \n\nBlobs minangka infrastruktur, dudu produk pangguna dhewe. Padha ngaktifake aplikasi; padha ora mbusak bridge utawa tondo asto resiko."
+  },
+  {
+    "id": "wallet",
+    "term": "Dompet",
+    "definition": "Piranti lunak/hardware sing ngatur tombol lan teken.",
+    "explain": "Dompet ngatur kunci lan nggawe tanda tangan. Dhuwit recehan urip on-chain; dompet ngemu kontrol, ora imbangan custodial kajaba iku akun exchange. \n\nPilih panas versus kadhemen adhedhasar ukuran lan frekuensi. Disiplin serep luwih penting tinimbang estetika merek."
+  },
+  {
+    "id": "cold-storage",
+    "term": "Cold Storage",
+    "definition": "Tetep tombol offline kanggo nyilikake permukaan serangan.",
+    "explain": "Panyimpenan kadhemen nyimpen kunci offline kanggo nyuda permukaan serangan remot. Cocog karo kepemilikan jangka panjang luwih apik tinimbang dagang frekuensi dhuwur. \n\nTest nampa lan ngirim cilik mili sadurunge ukuran parking. Kesalahan operasional (rantai salah, alamat salah) isih ditrapake ing offline."
+  },
+  {
+    "id": "kyc",
+    "term": "KYC",
+    "definition": "Priksa identitas ing platform.",
+    "explain": "KYC minangka verifikasi identitas ing platform kanggo kepatuhan. Beda karo alamat pamblokiran lan nggawe trade-off privasi lan pelanggaran data. \n\nNgerti apa sing nyerah kanggo fiat ramps. Hak asuh dhewe ora mbusak riwayat KYC ing ramp sing wis sampeyan gunakake."
+  },
+  {
+    "id": "dex",
+    "term": "DEX",
+    "definition": "Penyelesaian ijol-ijolan liwat kontrak cerdas.",
+    "explain": "Ijol-ijolan terdesentralisasi ngrampungake perdagangan liwat kontrak cerdas, biasane non-custodially. Pangguna nyimpen kunci lan duwe tandha tandha lan risiko MEV. \n\nVerifikasi kontrak router lan alamat token. UI DEX isih bisa phishing sanajan protokol sing ndasari biso dipercoyo."
+  },
+  {
+    "id": "cex",
+    "term": "CEX",
+    "definition": "Exchange terpusat.",
+    "explain": "Ijol-ijolan terpusat nawakake cocog cepet lan ramp fiat kanthi resiko ditahan. Sampeyan nyekel IOU nganti sampeyan mundur. \n\nGunakake minangka alat, dudu kubah. Mbatalake ukuran sing sampeyan senengi, aktifake keamanan akun sing kuwat, lan nonton aplikasi sing mirip."
+  },
+  {
+    "id": "dapp",
+    "term": "DApp",
+    "definition": "App karo logika kritis on-chain.",
+    "explain": "A dapp nempatake logika kritis ing rantai nalika frontend isih bisa terpusat. Pengambilalihan domain bisa ngarahake pangguna ing telpon kontrak sing ala. \n\nTetenger URL resmi, luwih seneng interaksi kontrak sing wis diverifikasi, lan anggep kepercayaan frontend minangka bagean saka model ancaman."
+  },
+  {
+    "id": "hash",
+    "term": "Hash",
+    "definition": "Data siji-arah.",
+    "explain": "A hash cryptographic map data menyang digest tetep. Owah-owahan input cilik flip output; nemokake tabrakan dirancang kanggo hard. \n\nHashes ngubungake pamblokiran, alamat isi, lan setya pesen. Iki minangka lem pamriksa integritas ing sistem crypto."
+  },
+  {
+    "id": "block",
+    "term": "Blok",
+    "definition": "Batch saka txs disambung menyang sajarah.",
+    "explain": "A blok batch transaksi menyang sajarah disambung. Ukuran lan wektu target mbentuk throughput lan pasar ragad. \n\nPenjelajah nuduhake dhuwur, proposer, lan kalebu txs. Pangertosan pamblokiran mbantu sampeyan napsirake konfirmasi lan risiko reorganisasi."
+  },
+  {
+    "id": "private-key",
+    "term": "Kunci Pribadi",
+    "definition": "Rahasia sing ngidini mbuwang.",
+    "explain": "Kunci pribadi ngidini mbuwang. Nuduhake - utawa wiji sing entuk - padha karo nuduhake dana. \n\nAja ngetik tombol menyang situs web, aplikasi chatting, utawa formulir \"dhukungan\". Isolasi hardware mbantu; ati-ati operasional isih nemtokake asil."
+  },
+  {
+    "id": "public-key",
+    "term": "Kunci Umum",
+    "definition": "Nilai asale digunakake kanggo verifikasi teken.",
+    "explain": "Kunci umum verifikasi teken sing cocog karo kunci pribadi. Alamat biasane asale saka hashing kunci publik. \n\nKunci lan alamat umum bisa dienggo bareng kanggo nampa. Praktek privasi isih penting yen sampeyan nggunakake maneh kanthi wiyar."
+  },
+  {
+    "id": "address",
+    "term": "alamat",
+    "definition": "Identifier digunakake kanggo nampa dana.",
+    "explain": "Alamat minangka pengenal sing digunakake kanggo nampa dana ing jaringan. Ngirim menyang chain salah utawa alamat salah ketik asring ora bisa dibalèkaké. \n\nNyalin kanthi teliti, verifikasi sawetara karakter ing wiwitan lan pungkasan, lan ngirim tes nalika mindhah ukuran menyang panggonan anyar."
+  },
+  {
+    "id": "confirmation",
+    "term": "Konfirmasi",
+    "definition": "Carane akeh pamblokiran wis dibangun ing tx a.",
+    "explain": "Konfirmasi ngitung jumlah blok sing wis dibangun ing ndhuwur transaksi sampeyan. More ambane ndadekake reorgs harder. \n\nLayanan milih ambang sing beda kanggo ukuran sing beda. Sabar minangka kontrol keamanan kanggo pemukiman gedhe."
+  },
+  {
+    "id": "smart-contract",
+    "term": "Kontrak Smart",
+    "definition": "Program disebarake menyang chain.",
+    "explain": "Kontrak cerdas minangka program sing dikirim menyang alamat rantai. Bisa njaga aset lan ngetrapake aturan tanpa perantara tradisional. \n\nBug, tombol admin, lan integrasi sing ora dikarepke nggawe risiko. Luwih milih jalur kode sing wis diaudit, diuji wektu nalika sinau nganggo dana nyata."
+  },
+  {
+    "id": "token",
+    "term": "Token",
+    "definition": "Unit aset diitung ing kontrak.",
+    "explain": "Token minangka unit aset sing dikira kontrak. Jeneng lan ticker bisa dikloning; alamat kontrak ngenali aset nyata. \n\nTansah verifikasi alamat saka sumber sing dipercaya sadurunge ngganti utawa nambah likuiditas."
+  },
+  {
+    "id": "erc-20",
+    "term": "ERC-20",
+    "definition": "Antarmuka token fungible sing dominan.",
+    "explain": "ERC-20 minangka antarmuka token fungible sing dominan ing rantai kaya Ethereum. Standarisasi prilaku transfer lan persetujuan kanggo dompet lan DEX. \n\nPersetujuan minangka bagean saka standar-lan bagean saka risiko. Ngerti mekanika sangu sadurunge tani token anyar."
+  },
+  {
+    "id": "permissionless",
+    "term": "Tanpa ijin",
+    "definition": "Sapa wae bisa nggunakake utawa nyebarake tanpa dhaptar sing diidini.",
+    "explain": "Sistem tanpa ijin ngidini sapa wae nggunakake utawa nyebarake tanpa idin. Bukak akses bahan bakar inovasi lan apus bebarengan. \n\nFilter sampeyan dadi pribadi: verifikasi kontrak, luwih seneng reputasi kanthi bukti, lan eksperimen ukuran cilik."
+  },
+  {
+    "id": "custody",
+    "term": "Kustodian",
+    "definition": "Pihak katelu nyekeli kunci/aset.",
+    "explain": "Kustodian tegese pihak katelu nyekel kunci utawa aset kanggo sampeyan. Penak dagang nglawan counterparty lan risiko operasional. \n\nSelf-custody shifts ops kanggo sampeyan. Pendekatan hibrida-ijol-ijolan kanggo dagang, panyimpenan adhem kanggo tabungan-iku pola literate umum."
+  },
+  {
+    "id": "yield-farming",
+    "term": "Hasil Pertanian",
+    "definition": "Nyedhiyakake likuiditas kanggo entuk ganjaran antarane protokol.",
+    "explain": "Tani ngasilake nyedhiyakake likuiditas ing antarane protokol kanggo entuk hadiah. APR dhuwur asring sementara lan dibayar kanthi token ganjaran sing molah malih. \n\nLikuiditas metu model lan risiko kontrak pinter. Tani minangka strategi, dudu akun tabungan."
+  },
+  {
+    "id": "airdrop",
+    "term": "Airdrop",
+    "definition": "Distribusi token kanggo wutah / komunitas.",
+    "explain": "Airdrops mbagekke token kanggo wutah utawa ganjaran komunitas. Nuntut bisa kalebu teken sing luwih aman-utawa luwih aman tinimbang sing katon. \n\nNonton situs klaim phishing lan kejutan pajak. Yen pratelan njaluk wiji sampeyan, iku dudu airdrop."
+  },
+  {
+    "id": "whitepaper",
+    "term": "Kertas putih",
+    "definition": "Dokumen sing nggambarake desain lan tujuan.",
+    "explain": "A whitepaper nerangake tujuan desain lan mekanisme. Luwih milih aturan konkrit, model ancaman, lan paramèter tinimbang dek vibe. \n\nNambani makalah minangka pratelan wiwitan kanggo verifikasi kode lan prilaku produksi, dudu jaminan."
+  },
+  {
+    "id": "halving",
+    "term": "Setengah",
+    "definition": "Pemotongan périodik saka subsidi blok Bitcoin.",
+    "explain": "Halving Bitcoin sacara periodik ngethok subsidi blok. Penerbitan pasokan anyar alon-alon ing jadwal sing dikenal. \n\nOra njamin mundhak rega. Iki nggambarake kepiye anggaran keamanan lan pasar ragad berkembang nalika subsidi mudhun."
+  },
+  {
+    "id": "merkle-tree",
+    "term": "Pohon Merkle",
+    "definition": "Wit hash mbuktekake inklusi kanthi efisien.",
+    "explain": "Data hash wit Merkle dadi oyod supaya inklusi bisa dibuktekake kanthi efisien. Klien cahya lan akeh sistem bukti ngandelake. \n\nDheweke ngidini sampeyan verifikasi manawa potongan kasebut kalebu set setya tanpa ndownload kabeh - inti kanggo verifikasi sing bisa diukur."
+  },
+  {
+    "id": "nonce",
+    "term": "Ora ono",
+    "definition": "Nomer urut akun tx.",
+    "explain": "Akun nonce ngurutake transaksi supaya saben diproses sapisan. Transaksi sing macet asring diganti kanthi ngirim ulang nonce sing padha karo ragad sing luwih dhuwur. \n\nNgerteni nonces demystifies \"tundha ing salawas-lawase\" dompet lan aliran panggantos."
+  }
+]

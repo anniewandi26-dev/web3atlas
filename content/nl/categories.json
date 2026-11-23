@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "blockchain",
+    "name": "Blockchain",
+    "summary": "Netwerken die transacties registreren en beveiligen",
+    "blurb": "Gedeelde grootboeken met consensus – de vereffeningslaag waarop al het andere zich bevindt. Elk artikel bevat volledige uitleg, belangrijke punten en tips.",
+    "items": [
+      {
+        "id": "bitcoin",
+        "title": "Bitcoin",
+        "summary": "Het eerste peer-to-peer elektronische geldnetwerk met vaste uitgifteregels",
+        "intro": "Bitcoin laat zien hoe waarde zich op internet kan verplaatsen zonder een bank als scheidsrechter. Een mondiale reeks knooppunten deelt één grootboek, beveiligd door cryptografie en prikkels. Voor beginners zijn sleutels, UTXO's en uitgifteregels belangrijker dan prijsgrafieken voor de korte termijn.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Vertrouwde tussenpersonen kunnen rekeningen bevriezen, betalingen blokkeren of in crises falen. Bitcoin vervangt institutionele toestemming door publieke verificatie: iedereen kan de geschiedenis controleren, terwijl het herschrijven ervan extreem kostbaar is. \nIn het ontstaansblok zat zelfs een krantenkop over reddingsoperaties voor banken – een opzettelijk signaal over monetaire regels in code."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "U ondertekent een transactie waarbij ongebruikte output (UTXO's) wordt besteed aan nieuwe adressen. Mijnwerkers concurreren via proof-of-work om blokken toe te voegen en beloningen te verdienen. \nHalveringen verminderen het nieuwe aanbod in de loop van de tijd; De moeilijkheidsgraad wordt aangepast, zodat blokken ongeveer stabiel blijven. Meer bevestigingen betekent een lager reorgrisico."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Privésleutels zorgen voor gelijke controle; adressen kunnen openbaar zijn. Kosten zijn een markt voor blokruimte. De scripting van Bitcoin is opzettelijk beperkt, dus het gedraagt ​​zich meer als afwikkeling en digitale schaarste dan als een algemeen app-platform."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Volatiliteit is geen protocolbug. Munten op een beurs zijn schuldbekentenissen totdat ze worden ingetrokken. Phishing, valse ondersteuning en overdrachten naar het verkeerde netwerk veroorzaken permanente verliezen. Oefen eerst met kleine bedragen."
+          }
+        ],
+        "keyPoints": [
+          "Bitcoin is een openbaar verifieerbaar verrekeningsnetwerk en geen bedrijfstoken.",
+          "Uitgifteregels, inclusief halvings, worden afgedwongen door het protocol en de incentives.",
+          "UTXO + handtekeningen definiëren overdrachten; verloren sleutels betekenen verloren geld.",
+          "Beveiliging is meestal een belangrijk onderdeel van hygiëne en bevestigingsgewoonten."
+        ],
+        "tips": [
+          "Oefen met ontvangen/verzenden met een gerenommeerde of hardware wallet.",
+          "Verplaats de grootte in batches en wacht op voldoende bevestigingen.",
+          "Maak offline een back-up van het zaadje. Maak er nooit foto's van en stuur er geen berichten naar."
+        ],
+        "body": "Bitcoin laat zien hoe waarde zich op internet kan verplaatsen zonder een bank als scheidsrechter. Een mondiale reeks knooppunten deelt één grootboek, beveiligd door cryptografie en prikkels. Voor beginners zijn sleutels, UTXO's en uitgifteregels belangrijker dan prijsgrafieken voor de korte termijn."
+      },
+      {
+        "id": "ethereum",
+        "title": "Ethereum",
+        "summary": "Een blockchain voor algemene doeleinden voor slimme contracten, vaak een wereldcomputer genoemd",
+        "intro": "Waar Bitcoin zich richt op het overmaken van geld, richt Ethereum zich op het afdwingen van programmeerbare regels. Contracteert de bewaring van activa, codeert voorwaarden en stelt deze samen in apps. Na de fusie is consensus een proof-of-stake, terwijl de uitvoering de EVM blijft.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Betalingen alleen kunnen leningen, uitwisselingen of ketenbeheer niet zuiver uitdrukken. Een gedeelde virtuele machine verandert code in een openbare infrastructuur. \nDankzij open interfaces kunnen tokens en protocollen op elkaar worden aangesloten: de basis van DeFi-lego's."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "EOA's worden met sleutels beheerd; contractrekeningen worden gecodeerd. U betaalt gas voor staatsveranderingen. Validators zetten ETH in om voor te stellen en te getuigen; ernstige fouten kunnen worden verminderd. \nGebruikers communiceren nog steeds via portemonnee-handtekeningen, maar de ontwerpruimte is veel breder dan eenvoudige overdrachten."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Berekening van gasmeters. Tokenstandaarden (ERC-20/721) maken portemonnee- en marktcompatibiliteit mogelijk. Laag 2 verplaatst de uitvoering buiten het mainnet en keert terug naar de beveiliging van Ethereum."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "“Op Ethereum” ≠ gecontroleerd of veilig. Onbeperkte goedkeuringen en valse tokens putten portemonnees uit. Piekkosten kunnen de handelsomvang overschrijden. Controleer het netwerk, het contract en de reikwijdte van de vergoedingen."
+          }
+        ],
+        "keyPoints": [
+          "Ethereum is een gedeelde staatsmachine plus smart-contract runtime.",
+          "PoS zorgt voor consensus; de EVM voert applicaties uit.",
+          "Normen maken assets interoperabel in het hele ecosysteem.",
+          "Veiligheid is afhankelijk van contractkwaliteit, goedkeuringen en bruggen."
+        ],
+        "tips": [
+          "Controleer contractadressen in een blokverkenner, niet alleen via ticker.",
+          "Gebruik officiële L2's of wacht wanneer het hoofdnet overbelast is.",
+          "Test nieuwe protocollen met geld dat u kunt missen."
+        ],
+        "body": "Waar Bitcoin zich richt op het overmaken van geld, richt Ethereum zich op het afdwingen van programmeerbare regels. Contracteert de bewaring van activa, codeert voorwaarden en stelt deze samen in apps. Na de fusie is consensus een proof-of-stake, terwijl de uitvoering de EVM blijft."
+      },
+      {
+        "id": "consensus",
+        "title": "Overeenstemming",
+        "summary": "Hoe een netwerk het eens wordt over één canonieke geschiedenis",
+        "intro": "Zonder een centrale scheidsrechter hebben knooppunten nog steeds één grootboek nodig. Consensus bepaalt wie blokkades voorstelt, hoe valsspelers worden gestraft en wanneer een overdracht definitief genoeg is. Proof-of-work en proof-of-stake zijn verschillende manieren om het herschrijven van de geschiedenis duur te maken.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Gedistribueerde deelnemers kunnen vertragen, de verbinding verbreken of liegen. Consensus voorkomt dubbele uitgaven door één geschiedenis economisch dominant te maken. \nVoor gebruikers bepaalt het de wachttijden, het reorganisatierisico en de aanvalskosten."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "PoW-prijzen vallen aan met energie/hashrate. PoS-prijzen vallen aan met obligaties en bezuinigingen. Sommige protocollen bieden een sterkere finaliteit na controlepunten; andere zijn probabilistisch. \nUitwisselingen stellen stortingsbevestigingen van deze eigendommen in."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "De afwegingen tussen levendigheid en veiligheid zijn van belang. Een ‘snellere’ keten met kleine validatorsets kan de weerstand tegen censuur verzwakken. Vraag wie blokken produceert voordat je TPS viert."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Slogans zijn geen beleggingsstellingen. Bridge- en light-client-aannames zijn vaak zwakker dan basisconsensus – en dat is waar veel hacks terechtkomen."
+          }
+        ],
+        "keyPoints": [
+          "Consensus kiest voor één enkele canonieke geschiedenis onder niet-vertrouwde knooppunten.",
+          "PoW- en PoS-prijsaanvallen verschillend.",
+          "Bevestigingen/finaliteit beslissen wanneer geld wordt ‘ontvangen’.",
+          "Cross-chain componenten kunnen zwakker zijn dan het L1-verhaal."
+        ],
+        "tips": [
+          "Respecteer het voorgestelde bevestigingsaantal voor grote stortingen.",
+          "Bestudeer de distributie van validatoren en verlaag de regels voor nieuwe ketens.",
+          "Verminder bridge-/hefboomactiviteiten tijdens controversiële upgrades."
+        ],
+        "body": "Zonder een centrale scheidsrechter hebben knooppunten nog steeds één grootboek nodig. Consensus bepaalt wie blokkades voorstelt, hoe valsspelers worden gestraft en wanneer een overdracht definitief genoeg is. Proof-of-work en proof-of-stake zijn verschillende manieren om het herschrijven van de geschiedenis duur te maken."
+      },
+      {
+        "id": "accounts",
+        "title": "Rekeningen en sleutels",
+        "summary": "On-chain identiteit is een sleutelpaar, geen gebruikersnaam-reset door ondersteuning",
+        "intro": "Uw account is meestal een adres dat is afgeleid van een privésleutel. Niemand kan die sleutel voor u resetten; een handtekening is een machtiging. Het begrijpen van EOA's, contractrekeningen en basiszinnen vormt de basis voor veilig gebruik.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Web2-accounts staan ​​live op bedrijfsservers met wachtwoordreset. Blockchains schuiven de controle naar de sleutelhouders voor zelfbeheer – en duwen daarmee de operationele verantwoordelijkheid naar zich toe."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Privésleutels leiden openbare sleutels en adressen af. Seeds (BIP-39) kunnen veel accounts in ketens regenereren. Contractaccounts verplaatsen geld via codepaden; slimme accounts coderen beleid zoals limieten en bewakers."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Hot wallets zijn handig; hardware wallets bewaren sleutels in een veilig element. Multisig verspreidt de controle. Eén uitgelekt zaadje kan een hele afstammingsboom in gevaar brengen."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Cloudscreenshots, malware en ‘support’-seedverzoeken zijn klassieke verliespaden. Door blind te ondertekenen kunnen afvoeren worden goedgekeurd en kunnen onduidelijke aanwijzingen worden afgewezen."
+          }
+        ],
+        "keyPoints": [
+          "Sleutels zijn gelijk aan eigendom.",
+          "Adressen zijn deelbaar; zaden zijn dat niet.",
+          "EOA's zijn door mensen ondertekend; contracten zijn codegecontroleerd.",
+          "Lees het toestemmingsbereik voordat u ondertekent."
+        ],
+        "tips": [
+          "Scheid experimentfondsen van spaarportefeuilles.",
+          "Schrijf zaden op papier/metaal en bewaar ze offline.",
+          "Schakel transactiesimulatie in op nieuwe dApps."
+        ],
+        "body": "Uw account is meestal een adres dat is afgeleid van een privésleutel. Niemand kan die sleutel voor u resetten; een handtekening is een machtiging. Het begrijpen van EOA's, contractrekeningen en basiszinnen vormt de basis voor veilig gebruik."
+      },
+      {
+        "id": "gas",
+        "title": "Benzine en kosten",
+        "summary": "Elke statusverandering wordt gemeten, zodat de openbare computer niet gratis kan worden gespamd",
+        "intro": "Gas is geen willekeurige belasting; het brengt kosten in rekening voor berekeningen en opslag. Uw vergoeding is gebruik × eenheidsprijs. Door congestie stijgt de eenheidsprijs, waardoor dezelfde actie centen of tientallen dollars kan kosten.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Publieke blockchains moeten hulpbronnen binden. Gas creëert een vergoedingsmarkt: hogere biedingen komen eerst vrij; ontwikkelaars moeten efficiënte contracten schrijven."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Eenvoudige overstappen kosten weinig benzine; complexe DeFi-routes kosten meer. Na EIP-1559 dalen de basisvergoedingen en betalen de fooien de indieners. L2's schrijven de L1-datakosten voor veel gebruikers af, waardoor de eenheidskosten dalen."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Gaslimiet beperkt hoeveel u toestaat. Bij mislukte transacties kan nog steeds gas in rekening worden gebracht omdat de executie heeft plaatsgevonden. Versnellen/annuleren vervangt een lopende nonce door een hogere vergoeding."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Valse sites kunnen aanleiding geven tot absurde gas- of onzinoproepen. ‘Nul-gas’-campagnes breiden vaak de rechten uit: vraag wie sponsort en wat u autoriseert."
+          }
+        ],
+        "keyPoints": [
+          "Uitvoering gasmeters; prijs is marktgedreven.",
+          "Storingen kunnen nog steeds gas kosten.",
+          "L2's en batching zijn de belangrijkste kostenbesparingen.",
+          "Wijs abnormale vergoedingen of goedkeuringsverzoeken af."
+        ],
+        "tips": [
+          "Voer niet-spoedeisende handelingen uit buiten de spits of op L2.",
+          "Gebruik schattingen en simulatie van portemonneekosten.",
+          "Prijs het totale gas vóór meerstapscampagnes."
+        ],
+        "body": "Gas is geen willekeurige belasting; het brengt kosten in rekening voor berekeningen en opslag. Uw vergoeding is gebruik × eenheidsprijs. Door congestie stijgt de eenheidsprijs, waardoor dezelfde actie centen of tientallen dollars kan kosten."
+      },
+      {
+        "id": "bridges",
+        "title": "Bruggen",
+        "summary": "Kanalen die waarde of berichten over ketens verplaatsen, en een frequent doelwit voor hackers",
+        "intro": "Activa verschijnen niet op magische wijze in een ander grootboek. Bruggen vergrendelen, minten, verbranden of ruilen via liquiditeit, waardoor de toegang wordt uitgebreid en het risico wordt geconcentreerd. Een aantal van de grootste exploits uit de geschiedenis hebben betrekking op de hechtenis en verificatie van bruggen.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Zonder bruggen blijven ecosystemen eilanden. Met bruggen erven gebruikers extra vertrouwen en contractrisico in ruil voor mobiliteit."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Modellen omvatten lock-and-mint, burn-and-redeem, liquiditeitsnetwerken en light-client-relais. Canonieke rollup-bruggen nemen de rollup-beveiliging over, maar kunnen uitloopvertragingen hebben; snelle bruggen voegen aannames van derden toe voor snelheid."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Kun je 1:1 verzilveren? Hoe gedecentraliseerd zijn validators? Hoge TVL kan een dikker doelwit betekenen, geen automatische veiligheid."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Phishing-domeinen gedijen rond bruggen. Verkeerde netwerk- of tokencontracten zorgen ervoor dat geld in de leegte terechtkomt. Test altijd eerst met een kleine transfer."
+          }
+        ],
+        "keyPoints": [
+          "Een bridge is een cross-ledger-protocol, geen teleportatie.",
+          "Canonieke versus snelle bruggen hebben verschillende vertrouwensmodellen.",
+          "Bruggen domineren historische hackverliezen.",
+          "Domein, contract en netwerk samen verifiëren."
+        ],
+        "tips": [
+          "Voer alleen bruggen in vanuit officiële documenten met een bladwijzer.",
+          "Test de minimale grootte voordat u de grootte verplaatst.",
+          "Behandel lopende exits als nog niet vrij besteedbaar."
+        ],
+        "body": "Activa verschijnen niet op magische wijze in een ander grootboek. Bruggen vergrendelen, minten, verbranden of ruilen via liquiditeit, waardoor de toegang wordt uitgebreid en het risico wordt geconcentreerd. Een aantal van de grootste exploits uit de geschiedenis hebben betrekking op de hechtenis en verificatie van bruggen."
+      }
+    ]
+  },
+  {
+    "id": "defi",
+    "name": "DeFi",
+    "summary": "Uitlenen, ruilen en staken via slimme contracten",
+    "blurb": "Hoe open financiële primitieven zijn samengesteld – en de risico's rond rentetarieven, liquidaties en stallen.",
+    "items": [
+      {
+        "id": "amm",
+        "title": "Geautomatiseerde marktmakers",
+        "summary": "Liquiditeitspools en prijscurves vervangen klassieke orderboeken",
+        "intro": "Met AMM's kan iedereen tokens in een pool storten, zodat handelaren tegen een formule kunnen ruilen. U krijgt continue liquiditeits- en LP-vergoedingen, plus tijdelijke verliezen en slimme contractrisico's.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Orderboeken in de keten zijn kostbaar. Pools houden de liquiditeit in contracten vast, zodat swaps op elk moment kunnen plaatsvinden, waardoor de marktvorming wordt gedemocratiseerd."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Constant-product is de klassieke curve; stableswaps en geconcentreerde liquiditeit verbeteren de kapitaalefficiëntie. Routers verdelen transacties over pools. Slippage-limieten beschermen u wanneer de staat in beweging komt."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Tijdelijk verlies kan ervoor zorgen dat LP's minder goed presteren. Valse tokens en honeypots kunnen er koopbaar maar onverkoopbaar uitzien. Emissie-APR's duren mogelijk niet lang."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Onbeperkte goedkeuringen voor onbekende routers zijn gevaarlijk. Depegs leggen de nadruk op “stabiele” pools."
+          }
+        ],
+        "keyPoints": [
+          "AMM's prijzen via poolwiskunde voor directe swaps.",
+          "LP's verdienen vergoedingen en nemen IL + contractrisico.",
+          "Slippage en routingkwaliteit zorgen voor resultaten.",
+          "Verifieer pools/tokens voordat u op opbrengst jaagt."
+        ],
+        "tips": [
+          "Stel strakke slip- en minimum-out-bedragen in.",
+          "Geef de voorkeur aan diepe zwembaden op volwassen protocollen.",
+          "Trek ongebruikte tokenrechten regelmatig in."
+        ],
+        "body": "Met AMM's kan iedereen tokens in een pool storten, zodat handelaren tegen een formule kunnen ruilen. U krijgt continue liquiditeits- en LP-vergoedingen, plus tijdelijke verliezen en slimme contractrisico's."
+      },
+      {
+        "id": "lending",
+        "title": "Kredietprotocollen",
+        "summary": "Overcollateralised leningen met algoritmische rentetarieven en liquidaties",
+        "intro": "Stort activa om rendement te behalen of leen tegen onderpand zonder een kredietdesk. Gezondheidsfactoren, orakels en liquidatiebots – en geen relatiemanagers – houden het systeem solvabel.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Het op de keten afdwingen van ongedekt krediet is lastig, dus overheerst de overcollateralisering. Iedereen kan meedoen; kapitaalefficiëntie is de afweging."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Gebruik drijft rentecurves aan. Orakels voeden de prijzen. Als de gezondheid achteruitgaat, betalen curatoren schulden terug en nemen ze onderpand in beslag voor een bonus."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Isolatiemodi, LTV en socialisaties met grote schulden verschillen per protocol. Doorgeluste hefboomwerking vermenigvuldigt het risico. Het netto-JKP moet de gas- en liquidatieboetes aftrekken."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Vertraging of manipulatie van Oracle kan onrechtmatige liquidaties veroorzaken. Het behandelen van kredietverlening als ‘veilig sparen’ is een mentaliteitsvalkuil."
+          }
+        ],
+        "keyPoints": [
+          "Overcollateralisatie + liquidaties vormen de kern.",
+          "Gezondheidsfactor verslaat de krantenkoppen.",
+          "Oracle en liquiditeitskwaliteit bepalen de veiligheid.",
+          "Hefboomlussen versterken de dalingen."
+        ],
+        "tips": [
+          "Laat een grote buffer achter boven liquidatie.",
+          "Vermijd sterk gecorreleerd onderpand bij stormen.",
+          "Schat de liquidatieprijs vóór het lenen."
+        ],
+        "body": "Stort activa om rendement te behalen of leen tegen onderpand zonder een kredietdesk. Gezondheidsfactoren, orakels en liquidatiebots – en geen relatiemanagers – houden het systeem solvabel."
+      },
+      {
+        "id": "stablecoins",
+        "title": "Stabiele munten",
+        "summary": "On-chain-eenheden ontworpen om een ​​stabiele referentie zoals USD te volgen",
+        "intro": "Volatiele basisactiva zijn lastig voor prijsstelling en boekhouding. Stablecoins bieden een dollarachtig spoor voor handel en geldovermakingen, maar de mechanismen en faalwijzen verschillen sterk.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Ze bieden een vertrouwde rekeneenheid voor activiteiten in de keten en een tijdelijk toevluchtsoord op momenten waarop er geen risico is – toevluchtsoord ≠ zonder risico."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Door Fiat gesteunde munten zijn afhankelijk van reserves en aflossing; door crypto ondersteunde systemen over overcollateralisatie; algoritmische ontwerpen passen het aanbod aan en zijn kwetsbaar gebleken. Transparantie en verlossingsvoorwaarden zijn van belang bij stress."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Freezes, depegs, nep-cross-chain-versies en yield wrappers voegen risicolagen toe. Dezelfde ticker op een andere keten kan onofficieel zijn."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "USD in de naam is marketing, geen verzekering. Concentratie in één emittent brengt tegenpartijrisico met zich mee."
+          }
+        ],
+        "keyPoints": [
+          "Stablecoins zijn instrumenten met een risico voor de uitgever/mechanisme.",
+          "Reserves, onderpand of algoritmen falen op verschillende manieren.",
+          "Het inwisselings- en bevriezingsbeleid heeft invloed op de bruikbaarheid.",
+          "Controleer officiële contracten altijd per keten."
+        ],
+        "tips": [
+          "Geef de voorkeur aan transparante, inwisselbare ontwerpen vanwege de maat.",
+          "Diversifieer emittenten en locaties.",
+          "Beschouw buitenmaatse “stabiele opbrengsten” als een waarschuwing."
+        ],
+        "body": "Volatiele basisactiva zijn lastig voor prijsstelling en boekhouding. Stablecoins bieden een dollarachtig spoor voor handel en geldovermakingen, maar de mechanismen en faalwijzen verschillen sterk."
+      },
+      {
+        "id": "staking",
+        "title": "Uitzetten en hernemen",
+        "summary": "Borg kapitaal om een ​​netwerk te beveiligen – en gebruik die beveiliging soms opnieuw",
+        "intro": "Proof-of-stake brengt validators op één lijn met ketenbeveiliging via bonded stake. Vloeibare staking-tokens verbeteren de kapitaalefficiëntie; het terugnemen van de hergebruiksinzet voor extra diensten en stapels correleerde het risico op snijden.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "PoS heeft een voldoende gedecentraliseerde validatorset nodig. Beloningen compenseren operaties en alternatieve kosten; liquide staking verhoogt de deelname met nieuwe contractrisico's."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Activerings- en uitgangswachtrijen, taken en slashing bepalen de taak. Door het opnieuw instellen wordt de beveiliging overgedragen aan aanvullende protocollen voor extra opbrengst en extra slash-voorwaarden."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "De prestaties van operators, de diversiteit van klanten en het LST-depegrisico zijn van belang. Een hogere opbrengst betekent meestal dat er meer manieren zijn om gestraft te worden."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Valse stakingssites oogsten goedkeuringen of zaden. Hernemen is geen risicovrije hefboomwerking op ETH."
+          }
+        ],
+        "keyPoints": [
+          "Staking betaalt voor beveiligingswerk.",
+          "Liquid staking voegt contract-/operatorlagen toe.",
+          "Het hernemen van stapels verlaagt de voorwaarden.",
+          "Door voortdurende vertragingen is de liquiditeit niet onmiddellijk aanwezig."
+        ],
+        "tips": [
+          "Kies operators met trackrecords en een lage concentratie.",
+          "Grootte opnieuw ingesteld op slash-tolerantie.",
+          "Alleen toegankelijk via officiële documentatielinks."
+        ],
+        "body": "Proof-of-stake brengt validators op één lijn met ketenbeveiliging via bonded stake. Vloeibare staking-tokens verbeteren de kapitaalefficiëntie; het terugnemen van de hergebruiksinzet voor extra diensten en stapels correleerde het risico op snijden."
+      },
+      {
+        "id": "perps",
+        "title": "Eeuwige toekomst",
+        "summary": "Niet-aflopende markten met hefboomwerking, verankerd door financieringstarieven",
+        "intro": "Perps laten handelaren long/short gaan met marge en zonder vervaldatum. Locaties op de keten coderen marges en liquidaties in code of hybride systemen. De bovenkant wordt versterkt, net als de snelheid van pad naar nul.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Spot alleen kan heggen niet efficiënt uitdrukken. Daders werden het dominante derivaat van crypto door de rolwrijving weg te nemen."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Financieringsoverdrachten tussen longs en shorts om de prijs aan een index te binden. Onderhoudsmarge leidt tot liquidaties; verzekeringsfondsen kunnen tekorten opvangen. Orakels en storingen zijn van belang in chaos."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Hefboomwerking, automatische schuldafbouw en financieringsopbouw bepalen het voortbestaan. CEX versus DEX-bewaringsmodellen verschillen."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "“Kleine hefboomwerking is veilig” faalt in lonten. Als u geen marge kunt toevoegen vanwege gas-/netwerkproblemen, kunt u failliet gaan."
+          }
+        ],
+        "keyPoints": [
+          "Financiering vervangt de vervaldatum voor verankering.",
+          "Het liquidatiemechanisme is existentieel.",
+          "Hefboomwerking zet volatiliteit om in wipe-outkansen.",
+          "Locatie- en orakelrisico stapelen zich op marktrisico."
+        ],
+        "tips": [
+          "Standaard op lage hefboomwerking met reservemarge.",
+          "Verklein de omvang vóór evenementen; geen wraak toevoegen.",
+          "Gebruik locaties waarvan u de regels kunt verifiëren."
+        ],
+        "body": "Perps laten handelaren long/short gaan met marge en zonder vervaldatum. Locaties op de keten coderen marges en liquidaties in code of hybride systemen. De bovenkant wordt versterkt, net als de snelheid van pad naar nul."
+      },
+      {
+        "id": "rwa",
+        "title": "RWA-tokenisatie",
+        "summary": "Claims op echte cashflows op cryptorails brengen",
+        "intro": "RWA's verbinden bekende rendementen (zoals T-bills) met afwikkeling in de keten. Het token is slechts zo goed als juridische verpakkingen, bewaring en inwisseling, en niet alleen de gebruikersinterface van het slimme contract.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "De opbrengst aan native cryptovaluta is volatiel; tokenized cashinstrumenten kunnen beter aansluiten bij de thesauriebehoeften als de structuren gezond zijn."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Een vergunninghoudende entiteit bezit activa; tokens volgen claims; De opbrengst wordt via de keten verdeeld. KYC-toelatingslijsten zijn gebruikelijk. Secundaire prijzen kunnen afwijken van de NAV."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "De afgelegen ligging van faillissementen, attesten, aflossing van T+N en jurisdictie bepalen de stressresultaten. “Zichtbaar on-chain” ≠ automatisch afdwingbaar off-chain."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Het tegenpartijrisico en het risico op veranderingen in de regelgeving bestaan ​​naast het contractrisico. Er zijn veel nep-abonnementspagina's."
+          }
+        ],
+        "keyPoints": [
+          "RWA = legaal + bewaring + symbolisch sanitair.",
+          "Het rendement is afkomstig van activa buiten de keten.",
+          "Er kunnen regels voor overdracht/inwisseling gelden.",
+          "Zorg voor de structuur van de emittent, niet alleen voor het APR."
+        ],
+        "tips": [
+          "Lees de aanbiedingsdocumenten en reserveer attesten.",
+          "Controleer of uw jurisdictie het bezit ervan toestaat.",
+          "Bekijk verlossingsvensters en secundaire diepte."
+        ],
+        "body": "RWA's verbinden bekende rendementen (zoals T-bills) met afwikkeling in de keten. Het token is slechts zo goed als juridische verpakkingen, bewaring en inwisseling, en niet alleen de gebruikersinterface van het slimme contract."
+      }
+    ]
+  },
+  {
+    "id": "nfts",
+    "name": "NFT's",
+    "summary": "Unieke tokens en de marktplaatsen ervoor",
+    "blurb": "Van standaarden en markten tot cultuur, games en dynamische troeven.",
+    "items": [
+      {
+        "id": "erc721",
+        "title": "ERC-721 en ERC-1155",
+        "summary": "Standaardinterfaces voor unieke en semi-fungibele tokens",
+        "intro": "Normen zorgen ervoor dat portemonnees en markten één taal spreken. 721 wijst één ID toe aan één eigenaar; 1155 beheert veel ID's en batchoverdrachten - handig voor games.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Zonder standaarden bedenkt elk project op maat gemaakte API's en verbreekt het de interoperabiliteit. Makers verwerven ook distributie over meerdere markten."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Eigendom en overdracht zijn gestandaardiseerd; metadata bevinden zich vaak op een tokenURI (gewoonlijk IPFS). Goedkeuringen kunnen per token of voor de hele operator plaatsvinden."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Veranderlijke metadata, vastzetten en royaltybeleid bepalen de duurzaamheid en de economie. Valse collecties kopiëren kunst met verschillende contracten – vertrouwensadressen."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Blind setApprovalForAll naar onbekende markten is een klassieke drain. Zeldzame verhalen ≠ liquiditeit."
+          }
+        ],
+        "keyPoints": [
+          "Standaarden maken interoperabiliteit mogelijk, en niet de intrinsieke waarde.",
+          "Opslagkeuzes hebben invloed op de duurzaamheid.",
+          "Minimaliseer goedkeuringen.",
+          "Contractadres is de echtheidscontrole."
+        ],
+        "tips": [
+          "Controleer officiële contracten voordat u koopt.",
+          "Trek verouderde marktplaatsexploitanten in.",
+          "Verdeel waardevolle stukken over kluisportefeuilles."
+        ],
+        "body": "Normen zorgen ervoor dat portemonnees en markten één taal spreken. 721 wijst één ID toe aan één eigenaar; 1155 beheert veel ID's en batchoverdrachten - handig voor games."
+      },
+      {
+        "id": "markets",
+        "title": "NFT-marktplaatsen",
+        "summary": "Beleidslagen voor vermelding, bieding, afwikkeling en royalty's",
+        "intro": "Markten matchen kopers en verkopers met on-chain of hybride orderstromen. Aggregators routeren langs locaties. Het afdwingen van royalty's is steeds meer een marktbeleid en geen pure protocolmagie.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Makers hebben distributie nodig; verzamelaars hebben ontdekking en prijsvorming nodig. Concurrentie drukt de vergoedingen en verhoogt de veiligheidsverwachtingen."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Verkopers keuren overdrachten goed; kopers regelen. Bekijk gestolen vermeldingen met onmogelijke kortingen. Aggregators helpen bij de prijsstelling, maar niet bij due diligence."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Kosten, escrows voor biedingen, washtrading en cross-listing-eigenaardigheden zijn van belang. Vloerdiagrammen kunnen worden gemanipuleerd."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Phishing-UI's bootsen topmarkten na. Airdrop-handtekeningen zijn een veelvoorkomend lokmiddel."
+          }
+        ],
+        "keyPoints": [
+          "Markten zijn rails, geen waardegaranties.",
+          "Biedingen en goedkeuringen brengen risico's met zich mee.",
+          "Royaltyregels variëren per locatie.",
+          "Ultra-lage vragen kunnen gestolen activa zijn."
+        ],
+        "tips": [
+          "Maak een bladwijzer van officiële domeinen; zoekadvertenties overslaan.",
+          "Houd de bodgrootte en de vervaldatum conservatief.",
+          "Verzamel zorgvuldig in de loop van de tijd."
+        ],
+        "body": "Markten matchen kopers en verkopers met on-chain of hybride orderstromen. Aggregators routeren langs locaties. Het afdwingen van royalty's is steeds meer een marktbeleid en geen pure protocolmagie."
+      },
+      {
+        "id": "pfp",
+        "title": "PFP & Cultuur NFT's",
+        "summary": "Identiteit en gemeenschapslidmaatschap verpakt als verhandelbare media",
+        "intro": "Profielfoto-NFT's maken van eigendom een ​​sociaal signaal. Prijzen zijn meer narratief en liquiditeitsgedreven dan cashflowgedreven. Behandel ze eerst als cultuur, daarna als speculatie.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Platformgebruikersnamen worden verhuurd; PFP's proberen een draagbare visuele identiteit en toegang tot de gemeenschap te bewerkstelligen; aandacht kan geld opleveren en aandacht kan weggaan."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Munt, zeldzaamheidstools, Discord/Telegram en secundaire handel vormen de cirkel. Sommigen voegen nut toe; velen niet."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Houderdistributie, ontgrendeling en dunne boeken vergroten het risico op crashes. Oplichting met nabootsing van identiteit is constant."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Het najagen van ‘blue chip’-verhalen op euforiepieken doet pijn. Vertrouw DM-beheerders nooit met zaden."
+          }
+        ],
+        "keyPoints": [
+          "Waarde is vooral sociaal en narratief.",
+          "Controleer officiële contracten/kanalen.",
+          "De liquiditeit kan snel verdwijnen.",
+          "Verzamelen/socialiseren; niet behandelen als gegarandeerde opbrengst."
+        ],
+        "tips": [
+          "Loer gemeenschappen voordat je koopt.",
+          "Negeer airdrop-DM's.",
+          "Definieer vooraf een budget voor maximaal verlies."
+        ],
+        "body": "Profielfoto-NFT's maken van eigendom een ​​sociaal signaal. Prijzen zijn meer narratief en liquiditeitsgedreven dan cashflowgedreven. Behandel ze eerst als cultuur, daarna als speculatie."
+      },
+      {
+        "id": "gaming-assets",
+        "title": "Spelactiva",
+        "summary": "Verhandelbare items, personages en land met verifieerbaar eigendom",
+        "intro": "Crypto-spellen beloven dat schaarse items van jou blijven. Leuke loops, evenwichtige economieën en echt eigenaarschap moeten naast elkaar bestaan ​​– anders blijf je zitten met een speculatief omhulsel.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Traditionele shutdowns vernietigen voorraden. Open markten en verifieerbaar eigendom veranderen de verwachtingen van spelers en maken UGC-economieën mogelijk."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Hybriden houden realtime gevechten off-chain en regelen schaarste on-chain. Prijzen voor pepermuntjes, gootstenen en ambachtelijke vormen; ongecontroleerde emissies blazen ze weg."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "De productie/sink-verhoudingen en de spenders zijn belangrijker dan kunst alleen. Eigendom ≠ gevraagd."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Het behandelen van vroege tokenbeloningen als een salaris dat mislukt in bearmarkten. Aparte spelsleutels van kluisportefeuilles."
+          }
+        ],
+        "keyPoints": [
+          "Eigenaarschap heeft een duurzame spelloop nodig.",
+          "Economisch ontwerp drijft prijzen op de lange termijn aan.",
+          "Hybriden ruilen zuiverheid in voor prestatie.",
+          "Hypebehoud ≠ spelersbehoud."
+        ],
+        "tips": [
+          "Speel voordat u dure activa koopt.",
+          "Volg putten versus emissies.",
+          "Isoleer spelaccounts van hoofdfondsen."
+        ],
+        "body": "Crypto-spellen beloven dat schaarse items van jou blijven. Leuke loops, evenwichtige economieën en echt eigenaarschap moeten naast elkaar bestaan ​​– anders blijf je zitten met een speculatief omhulsel."
+      },
+      {
+        "id": "tickets",
+        "title": "Tickets en inloggegevens",
+        "summary": "Verifieerbare toegangsrechten met optionele overdrachtsregels",
+        "intro": "Bij tickets en lidmaatschappen gaat het om het bewijzen van het recht. On-chain inloggegevens kunnen vervalsingen verminderen en gecontroleerde wederverkoop mogelijk maken, als check-in UX daadwerkelijk voor normale mensen werkt.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Papieren vervalsingen en ondoorzichtig scalperen schaden gebeurtenissen. Verifieerbare digitale tickets kunnen identiteit binden of overdrachtsbeperkingen instellen en controleerbare sporen achterlaten."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Mint/claim bij aankoop; scan-to-redeem-markeringen gebruikt. Soulbound-opties verminderen het aanprijzen. Privacy/KYC bevindt zich vaak buiten de keten."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Overdraagbaarheid, screenshot-aanvallen en herstel als zaden verloren gaan, hebben allemaal een ontwerp nodig. Wallet-frictie kan doelgroepen uitsluiten."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Valse kaartjesmuntjes en verlaten evenementen laten waardeloze tokens achter. Deel persoonlijke gegevens niet te veel met onbekende contracten."
+          }
+        ],
+        "keyPoints": [
+          "Waarde is het juiste, niet de omkering.",
+          "Redemption UX bepaalt de schaal.",
+          "Lees de overdrachtsregels voordat u koopt.",
+          "Herstelpaden zijn nog steeds belangrijk."
+        ],
+        "tips": [
+          "Koop alleen via organisatorkanalen.",
+          "Test de portemonnee-weergave vóór het evenement.",
+          "Bewaar ook bevestigingsmails buiten de keten."
+        ],
+        "body": "Bij tickets en lidmaatschappen gaat het om het bewijzen van het recht. On-chain inloggegevens kunnen vervalsingen verminderen en gecontroleerde wederverkoop mogelijk maken, als check-in UX daadwerkelijk voor normale mensen werkt."
+      },
+      {
+        "id": "dynamic",
+        "title": "Dynamische NFT's",
+        "summary": "Activa waarvan de eigenschappen kunnen veranderen afhankelijk van de status in de keten of in het orakel",
+        "intro": "Dynamische NFT's updaten het uiterlijk of de attributen van de spelvoortgang, tijd of externe gegevens. Ze voelen zich levend, maar veranderlijkheid moet transparant zijn voor kopers.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Lidmaatschapsniveaus en evoluerende game-items moeten worden vermeld. Dynamiek maakt NFT's meer dan statische afbeeldingen."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Contracten of metadataservices updaten URI's van triggers. Als metadata gecentraliseerd wordt, kan de dynamiek stille bewerkingen worden."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Wie mag updaten? Is de geschiedenis controleerbaar? Marktplaatsen moeten de laatste stand van zaken tonen. Kopers moeten weten wat er kan veranderen."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Operators kunnen zeldzaamheid veroorzaken. Oracle-fouten kunnen verkeerde vormen aannemen. “Onveranderlijke zeldzaamheid” plus stille beheerdersupdates is een waarschuwingssignaal."
+          }
+        ],
+        "keyPoints": [
+          "Dynamiek is een kenmerk en een risico.",
+          "Publiceer updaterechten duidelijk.",
+          "Het hostingmodel stimuleert vertrouwen.",
+          "Bevestig de nieuwste eigenschappen voordat u handelt."
+        ],
+        "tips": [
+          "Lees updateregels en geschiedenis.",
+          "Geef de voorkeur aan verifieerbare staatsmachines op de keten.",
+          "Bewaar waardevolle stukken in koude portefeuilles."
+        ],
+        "body": "Dynamische NFT's updaten het uiterlijk of de attributen van de spelvoortgang, tijd of externe gegevens. Ze voelen zich levend, maar veranderlijkheid moet transparant zijn voor kopers."
+      }
+    ]
+  },
+  {
+    "id": "layer2",
+    "name": "Laag 2",
+    "summary": "Schaalnetwerken gebouwd bovenop Ethereum",
+    "blurb": "Optimistische/ZK-combinaties, beschikbaarheid van gegevens, bruggen en waarom de kosten tot centen kunnen dalen.",
+    "items": [
+      {
+        "id": "optimistic",
+        "title": "Optimistische samenvoegingen",
+        "summary": "Ga ervan uit dat batches geldig zijn; beveilig ze met een fraudebestendig venster",
+        "intro": "Optimistische rollups worden uitgevoerd op L2, posten gegevens naar Ethereum en gaan uit van juistheid, tenzij ze worden betwist. Gebruikers krijgen goedkopere UX; canonieke uitgangen kunnen een uitdagingsperiode wachten.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "L1-blokruimte is duur. Door de uitvoering buiten de keten te verplaatsen en tegelijkertijd te verankeren in L1, worden de kosten verlaagd. Optimistische ontwerpen werden vroeg geleverd met sterke EVM-compatibiliteit."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Een sequencer bestelt transacties en publiceert batches; staatswortelanker op L1. Tijdens de periode kunnen toeschouwers discussiëren. Snelle exits maken gebruik van liquiditeit van derden met extra aannames."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Sequencer-decentralisatie, databeschikbaarheid en upgradesleutels definiëren echte beveiliging. UX-snelheid ≠ voltooide decentralisatie."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Het negeren van uitstelvertragingen leidt tot verkeerde prijzen van de liquiditeit. Valse bridgesites pieken wanneer de L2s-trend toeneemt."
+          }
+        ],
+        "keyPoints": [
+          "Daag de Windows-handelslatentie uit voor eenvoudigere fraudebewijzen.",
+          "Beveiliging leunt op L1-gegevens + betwistingsspellen.",
+          "Canonieke bruggen zijn langzamer maar duidelijker.",
+          "De uptime van sequencers is een ervaringsrisico."
+        ],
+        "tips": [
+          "Plan L1 wordt afgesloten met de vertraging in gedachten.",
+          "Geef de voorkeur aan officiële brugtoegangspunten.",
+          "Lees escape-hatch-documentatie voor uitval van de sequencer."
+        ],
+        "body": "Optimistische rollups worden uitgevoerd op L2, posten gegevens naar Ethereum en gaan uit van juistheid, tenzij ze worden betwist. Gebruikers krijgen goedkopere UX; canonieke uitgangen kunnen een uitdagingsperiode wachten."
+      },
+      {
+        "id": "zk",
+        "title": "ZK-rollups",
+        "summary": "Geldigheidsbewijzen overtuigen L1 ervan dat L2-batches correct zijn",
+        "intro": "Dankzij geldigheidsbewijzen accepteert L1 resultaten zonder lange fraudeperioden. Bewijzen is rekenkundig zwaar, maar de finaliteit kan vlotter aanvoelen zodra de bewijzen landen.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Schaal op zonder te vertrouwen op ‘eerlijk tenzij uitgedaagd’. Snellere afwikkeling bevordert uitwisselingen en bruggen."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "L2 wordt uitgevoerd; provers bouwen bewijzen; L1-verificateurs controleren ze. Hogere EVM-equivalentie vergemakkelijkt app-migratie."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Bewijssystemen, DA en upgradesleutels zijn nog steeds van belang. “ZK”-branding ≠ gedecentraliseerde prover-markten tot nu toe."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Gecentraliseerde provers/sequencers kunnen blijven bestaan. Bridges en phishing domineren nog steeds het gebruikersverlies."
+          }
+        ],
+        "keyPoints": [
+          "Geldigheidsbewijzen versterken de juistheidsgaranties.",
+          "Hardware-/engineeringkosten bepalen de vergoedingen en decentralisatie.",
+          "Gebruikers hebben nog steeds bridge- en portemonnee-hygiëne nodig.",
+          "EVM-compatibiliteit stimuleert de portering van ecosystemen."
+        ],
+        "tips": [
+          "Bekijk de decentralisatieroutekaarten van Prover.",
+          "Test bruggen met kleine hoeveelheden.",
+          "Lees het DA-ontwerp zorgvuldig."
+        ],
+        "body": "Dankzij geldigheidsbewijzen accepteert L1 resultaten zonder lange fraudeperioden. Bewijzen is rekenkundig zwaar, maar de finaliteit kan vlotter aanvoelen zodra de bewijzen landen."
+      },
+      {
+        "id": "data",
+        "title": "Beschikbaarheid van gegevens",
+        "summary": "Ervoor zorgen dat iedereen de gegevens kan verkrijgen die nodig zijn om de staat te reconstrueren",
+        "intro": "Rollups moeten transactiegegevens beschikbaar maken. Als gegevens verdwijnen, kunnen gebruikers mogelijk niet veilig afsluiten. Blobs verlaagden de Ethereum DA-kosten en hielpen de L2-kosten te comprimeren.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Bewijzen zonder gegevens kunnen nog steeds gebruikers in de val lokken. Waar data leven – en hoe duur het is – staat centraal in schaaldebatten."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Gegevens kunnen zich in Ethereum calldata/blobs of externe DA-lagen bevinden, vaak met sampling/wiscodering. Beveiligingsovererving verschilt per ontwerp."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "“Settled to Ethereum” is niet identiek aan “DA is gelijk aan volledige Ethereum-garanties.” Vergoedingsdalingen volgen vaak goedkopere DA."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Het onderschatten van DA-foutmodi is gevaarlijk. Marketing kan de afwikkeling versus beschikbaarheid vertroebelen."
+          }
+        ],
+        "keyPoints": [
+          "Zonder DA verzwakt de zelfredding.",
+          "Upgrades uit het Blob-tijdperk veranderden de L2-vergoedingscurves.",
+          "DA-keuzes gaan uit van verschillende aannames.",
+          "Beoordeel vergoedingen, veiligheid en decentralisatie samen."
+        ],
+        "tips": [
+          "Lees de DA-sectie van elke L2.",
+          "Houd officiële aantekeningen bij het ontsnappingsluik bij de hand.",
+          "Rangschik ketens niet alleen op basis van TPS."
+        ],
+        "body": "Rollups moeten transactiegegevens beschikbaar maken. Als gegevens verdwijnen, kunnen gebruikers mogelijk niet veilig afsluiten. Blobs verlaagden de Ethereum DA-kosten en hielpen de L2-kosten te comprimeren."
+      },
+      {
+        "id": "bridges-l2",
+        "title": "L2-bruggen",
+        "summary": "Canonieke versus paden van derden tussen L1 en L2",
+        "intro": "Canonieke bruggen nemen samenvoegregels over en kunnen traag zijn; Bridges van derden verkopen snelheid met extra vertrouwen. Het kiezen van de verkeerde gebruikersinterface is een patroon met grote verliezen.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Je hebt geld nodig op L2 voor goedkope UX, of terug op L1 voor afwikkeling. Verschillende gebruikers kiezen verschillende vertrouwens-/latentiepunten."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Officiële overbruggingscredits L2-saldi na storting en exit per rollup-regels. Snel overbrugt de liquiditeit aan de voorkant en brengt deze later opnieuw in evenwicht – let op de vergoedingen en limieten."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Domeinauthenticiteit, upgradebaarheid, limieten en terugbetalingspaden zijn van belang. Sneller betekent meestal meer tegenpartijen."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Nepdomeinen in zoekadvertenties. Het overbruggen van de verkeerde tokenversie verstoort de liquiditeit. Het uitgeven van geld dat nog steeds in moeilijkheden verkeert, geeft een verkeerd risico weer."
+          }
+        ],
+        "keyPoints": [
+          "Canonieke bruggen komen het beste overeen met de samenvoegingsaannames.",
+          "Fast overbrugt handelsvertrouwen voor tijd.",
+          "Domeinverificatie is verplicht.",
+          "Kleine tests vóór de maat."
+        ],
+        "tips": [
+          "Klik op bruggen vanaf de eigen site van L2.",
+          "Bewaar tx-hashes voor ondersteuning/foutopsporing.",
+          "Vermijd niet-gecontroleerde gloednieuwe bruggen op maat."
+        ],
+        "body": "Canonieke bruggen nemen samenvoegregels over en kunnen traag zijn; Bridges van derden verkopen snelheid met extra vertrouwen. Het kiezen van de verkeerde gebruikersinterface is een patroon met grote verliezen."
+      },
+      {
+        "id": "accounts-aa",
+        "title": "Rekeningabstractie",
+        "summary": "Slimme contractportefeuilles met herstel, limieten en gesponsord gas",
+        "intro": "Klassieke EOA's betekenen zaadzinnen en zelfbetaald gas. Met AA kunnen portemonnees de verificatielogica definiëren (bewakers, sessiesleutels, batching, betaalmeesters) zodat onboarding dichter bij Web2 lijkt zonder de zelfbeheersing volledig op te geven.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Zaden maken nieuwkomers bang; gasfiches brengen hen in verwarring. AA vermindert wrijving terwijl de controleerbare controle behouden blijft. dApps krijgen minder pop-ups via sessies en batches."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "UserOperations worden on-chain gebundeld; betaalmeesters kunnen vergoedingen sponsoren. Wallet-contracten dwingen beleid af. Normen zoals ERC-4337 variëren afhankelijk van de volwassenheid van de keten."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Wie zijn voogden? Is herstel gecentraliseerd? Zijn sessierechten te breed? Misconfig verliest nog steeds geld."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "“Geen zaad” ≠ geen risico: herstelkanalen kunnen worden aangevallen. Er bestaan ​​schadelijke bundel-/betaalmaster-eindpunten. Sessies met onbekende dApps zijn gevaarlijk."
+          }
+        ],
+        "keyPoints": [
+          "AA codeert beleid in contractportefeuilles.",
+          "Gesponsord gas en sociaal herstel zijn belangrijke UX-overwinningen.",
+          "Configuratie kiest voor echte veiligheid.",
+          "Phishing werkt nog steeds als u het blindelings goedkeurt."
+        ],
+        "tips": [
+          "Kies verschillende voogden en apparaten.",
+          "Alleen kortstondige, beperkte sessiesleutels.",
+          "Behoud hardware/multisig voor kluizen."
+        ],
+        "body": "Klassieke EOA's betekenen zaadzinnen en zelfbetaald gas. Met AA kunnen portemonnees de verificatielogica definiëren (bewakers, sessiesleutels, batching, betaalmeesters) zodat onboarding dichter bij Web2 lijkt zonder de zelfbeheersing volledig op te geven."
+      },
+      {
+        "id": "multi-chain",
+        "title": "Realiteit met meerdere ketens",
+        "summary": "Liquiditeit en gebruikers zijn gefragmenteerd over veel afwikkelingsdomeinen",
+        "intro": "Er zijn nog maar weinig mensen die aan één keten wonen. Gastokens, bruggen en app-implementaties verschillen. Intentieoplossers verbergen paden, maar je moet nog steeds weten waar het geld zit.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Eén keten kan niet elke niche van vergoedingen/prestaties optimaliseren. Meer keuze betekent ook meer manieren om het verkeerde netwerk te kiezen."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Portefeuilles wisselen RPC/keten-ID; hetzelfde adres kan verschillende activa per EVM-keten bevatten. Bruggen en berichten verbinden staten; oplossers concurreren om intenties te vervullen."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Authenticiteit van keten-ID's, valse RPC's en tokencontracten per keten zijn dagelijkse voetwapens. Nulbalans betekent vaak dat er een verkeerd netwerk is geselecteerd."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Schadelijke aangepaste RPC's misleiden handtekeningen. Overbruggingsvensters brengen risico met zich mee. Het verspreiden van onvervangbare fondsen over tien nieuwe L2’s is operationele schuld."
+          }
+        ],
+        "keyPoints": [
+          "Multi-chain is normaal: verifieer netwerken altijd.",
+          "Hetzelfde adres ≠ overal dezelfde saldi.",
+          "Intenties verbergen complexiteit; ze nemen het brugrisico niet weg.",
+          "Minder actieve ketens verminderen fouten."
+        ],
+        "tips": [
+          "Label netwerken duidelijk in uw portemonnee.",
+          "Screenshot/controleer netwerknamen voordat u verzendt.",
+          "Leer uitgangen voordat u in een nieuwe keten stort."
+        ],
+        "body": "Er zijn nog maar weinig mensen die aan één keten wonen. Gastokens, bruggen en app-implementaties verschillen. Intentieoplossers verbergen paden, maar je moet nog steeds weten waar het geld zit."
+      },
+      {
+        "id": "costs",
+        "title": "Waarom L2-kosten centen kunnen zijn",
+        "summary": "Batching en goedkopere gegevens verlagen de L1-kosten voor veel gebruikers",
+        "intro": "Op drukke L1 bied je op schaarse blokruimte. L2's bundelen veel tx's bij elkaar, zodat elke gebruiker een deel van de gedeelde gegevens-/proefkosten betaalt, vaak tot in de centen.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Hoge kosten blokkeren microbetalingen en gameloops. Dankzij lagere kosten kunnen normale mensen apps gebruiken en niet alleen grafieken bekijken."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Uitvoering vindt plaats op L2; samenvattingen raken L1. DA uit het Blob-tijdperk verlaagt de eenheidskosten. L2's kunnen nog steeds overbelast raken, meestal ver onder de L1-pieken. Overbruggingsvergoedingen en slippage zijn afzonderlijke regelitems."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Goedkoop ≠ even gedecentraliseerd. Sequencervergoedingsbeleid geeft vorm aan UX. Goedkeuringen in meerdere stappen tellen nog steeds op."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Het riskeren van een bridgefraude om twee dollar te besparen is irrationeel. Stressgebeurtenissen verergeren zowel de kosten als de uitstaptijden."
+          }
+        ],
+        "keyPoints": [
+          "Afschrijving + goedkopere compressie van de DA-schijfvergoeding.",
+          "L2-congestie bestaat op een andere schaal.",
+          "De totale kosten zijn inclusief brug, slippen en tijd.",
+          "Veiligheid gaat boven het besparen van centen."
+        ],
+        "tips": [
+          "Neem bij het vergelijken van routes de bruggelden mee.",
+          "Wacht op pieken voor niet-dringende acties.",
+          "Houd een beetje L1 ETH achter als ontsnappingsbrandstof."
+        ],
+        "body": "Op drukke L1 bied je op schaarse blokruimte. L2's bundelen veel tx's bij elkaar, zodat elke gebruiker een deel van de gedeelde gegevens-/proefkosten betaalt, vaak tot in de centen."
+      }
+    ]
+  },
+  {
+    "id": "infra",
+    "name": "Infrastructuur",
+    "summary": "Oracles, opslag-, indexerings- en ontwikkelaarstools",
+    "blurb": "De onzichtbare pijpen die portemonnees, DeFi en veiligere UX voeden.",
+    "items": [
+      {
+        "id": "oracles",
+        "title": "Orakels",
+        "summary": "Bruggen die feiten buiten de keten omzetten in slimme contracten",
+        "intro": "Contracten kunnen niet alleen wisselkoersprijzen of reële scores zien. Oracles verzamelt externe gegevens voor liquidaties, daders en verzekeringen. Als ze falen, volgen er cascades.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Blockchains isoleren vanwege hun determinisme, maar de financiële sector heeft input nodig. Orakels balanceren frisheid met integriteit – zonder hen stoppen de meeste DeFi-stops."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Bronnen verzamelen zich, uitschieters nemen af, updates worden sneller of sneller doorgevoerd. Sommige ontwerpen zetten slechte verslaggevers in en snijden ze af. Stroomonderbrekers zijn van belang in chaos."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Dunne markten zijn gemakkelijker te manipuleren voor slechte leningen. Cross-chain-berichten zijn ook orakelachtige vertrouwensproblemen."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Het hebben van “een orakel” ≠ onkwetsbaarheid. Verouderde prijzen, verkeerde decimalen en gepauzeerde feeds zijn allemaal lastig."
+          }
+        ],
+        "keyPoints": [
+          "Orakels zijn de levensader van DeFi.",
+          "Beoordeel bronnen, aggregatie en update regels.",
+          "Illiquide activa zijn gemakkelijker te vervalsen.",
+          "Protocolstroomonderbrekers verkleinen de straal van de explosie."
+        ],
+        "tips": [
+          "Weet welke feed en hartslag een protocol gebruikt.",
+          "Verminder precisiegevoelige acties bij extreme volatiliteit.",
+          "Vermijd ontwerpen met één bron vanwege de grootte."
+        ],
+        "body": "Contracten kunnen niet alleen wisselkoersprijzen of reële scores zien. Oracles verzamelt externe gegevens voor liquidaties, daders en verzekeringen. Als ze falen, volgen er cascades."
+      },
+      {
+        "id": "rpc",
+        "title": "RPC en knooppunten",
+        "summary": "Hoe portemonnees de ketenstatus lezen en transacties uitzenden",
+        "intro": "Portefeuilles communiceren met blockchains via RPC-eindpunten. Openbare RPC's zijn eenvoudig, maar kunnen een snelheidslimiet hebben, loggen of worden ingewisseld voor phishing. Het begrijpen van RPC helpt bij het debuggen van “verkeerde balans” en vastgelopen txs.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Niet iedereen draait een volledige node. RPC's stellen knooppuntmogelijkheden bloot als API's, terwijl de optie voor zelfhosting behouden blijft."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Apps verzenden JSON-RPC-aanroepen om de status op te vragen of onbewerkte txs te verzenden. Aanbieders verschillen wat betreft archiefdiepte, privacy en betrouwbaarheid."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Schadelijke RPC's kunnen valse saldi weergeven of Tx's censureren. Ondertekenen blijft lokaal, maar slechte gegevens kunnen u nog steeds misleiden. Controleer keten-ID's bij het toevoegen van netwerken."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Met één klik ‘netwerk toevoegen’ vanaf schaduwrijke sites is riskant. Openbare storingen zijn niet altijd portemonnee-bugs. Vermeld nooit RPC-geheimen in openbare frontends."
+          }
+        ],
+        "keyPoints": [
+          "RPC is de lees-/schrijfpoort.",
+          "Lokale handtekening ≠ betrouwbare weergegeven staat.",
+          "Controleer kritische acties op ontdekkingsreizigers.",
+          "Privé/zelf-gehoste knooppunten verbeteren de privacy/betrouwbaarheid."
+        ],
+        "tips": [
+          "Bewaar twee vertrouwde RPC-back-ups.",
+          "Bij vreemde saldi kun je van knooppunt wisselen of een verkenner gebruiken.",
+          "Typ de officiële netwerkparameters handmatig."
+        ],
+        "body": "Portefeuilles communiceren met blockchains via RPC-eindpunten. Openbare RPC's zijn eenvoudig, maar kunnen een snelheidslimiet hebben, loggen of worden ingewisseld voor phishing. Het begrijpen van RPC helpt bij het debuggen van “verkeerde balans” en vastgelopen txs."
+      },
+      {
+        "id": "indexers",
+        "title": "Indexeerders",
+        "summary": "Onbewerkte logboeken omzetten in opvraagbare product-API's",
+        "intro": "Het scannen van de hele keten voor elke gebruikersinterface is traag. Indexeerders nemen gebeurtenissen op in databases, zodat portfolio's en scoreborden direct aanvoelen. De meeste 'geschiedenis'-weergaven zijn afkomstig van indexen en niet van live volledige scans.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Producten hebben gefilterde zoekopdrachten met internetsnelheid nodig. Analisten en bots vertrouwen op dezelfde laag."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Definieer een schema, proceslogboeken, sla op en serveer GraphQL/REST. Uitvalsingen duiden op een verouderde gebruikersinterface. Gedecentraliseerde indexernetwerken stimuleren meerdere operators."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "De gebruikersinterface kan achterblijven bij de echte ketenstatus. Voor upgrades zijn indexeringsupdates vereist. Liquideer niet alleen op basis van een dashboard: verifieer on-chain."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Corrupte indexen misleiden handelaren. Phishing-portfoliosites bootsen echte dashboards na."
+          }
+        ],
+        "keyPoints": [
+          "Indexeert snelheidsquery's; ze zijn geen consensus.",
+          "UI-gegevens kunnen verouderd zijn.",
+          "Ontdekkingsreizigers/contracten zijn een bron van waarheid voor kritieke zetten.",
+          "Indexerfouten zien eruit als protocolfouten."
+        ],
+        "tips": [
+          "Controleer afwijkingen op een verkenner opnieuw.",
+          "Verwacht vertraging na grote upgrades.",
+          "Serieuze monitoring kan knooppunten rechtstreeks lezen."
+        ],
+        "body": "Het scannen van de hele keten voor elke gebruikersinterface is traag. Indexeerders nemen gebeurtenissen op in databases, zodat portfolio's en scoreborden direct aanvoelen. De meeste 'geschiedenis'-weergaven zijn afkomstig van indexen en niet van live volledige scans."
+      },
+      {
+        "id": "storage",
+        "title": "Gedecentraliseerde opslag",
+        "summary": "Op inhoud geadresseerde netwerken voor bestanden en NFT-metagegevens",
+        "intro": "Het opslaan van grote bestanden op L1 is prijzig, dus media staan ​​vaak op IPFS/Arweave-achtige systemen. Hashes zorgen voor integriteit, maar online beschikbaarheid heeft nog steeds pinning of betaalde permanentie nodig.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Centrale servers kunnen NFT-media verwijderen. Gedecentraliseerde opslag verbetert de duurzaamheid en censuurweerstand voor apps en datasets."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Bestanden krijgen inhouds-ID's; knooppunten worden opgehaald door hash. IPFS moet worden vastgezet; sommige netwerken leggen de nadruk op eenmalig betalen. HTTP-gateways helpen browsers, maar voegen gateway-vertrouwen toe."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Veranderlijke gecentraliseerde tokenURI's ondermijnen het verhaal. Maak een back-up van belangrijke metadata-hashes."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "“Op IPFS” ≠ onsterfelijk als niets het vastlegt. Schadelijke gateways kunnen scripts injecteren. Controleer hashes voordat u binaire bestanden uitvoert."
+          }
+        ],
+        "keyPoints": [
+          "Inhoudsadressering voorkomt stille bewerkingen en niet verwaarlozing.",
+          "De duurzaamheid van de NFT is afhankelijk van pinnen/betaling.",
+          "Veranderlijke beheerders-URI's zijn een waarschuwingssignaal.",
+          "Gateways zijn handig extra vertrouwen."
+        ],
+        "tips": [
+          "Zet zelf metadata vast voor hoogwaardige NFT's.",
+          "Controleer officiële CID's.",
+          "Ontwikkelaars zouden de voorkeur moeten geven aan onveranderlijke metadata."
+        ],
+        "body": "Het opslaan van grote bestanden op L1 is prijzig, dus media staan ​​vaak op IPFS/Arweave-achtige systemen. Hashes zorgen voor integriteit, maar online beschikbaarheid heeft nog steeds pinning of betaalde permanentie nodig."
+      },
+      {
+        "id": "mev",
+        "title": "MEV",
+        "summary": "Waarde die kan worden afgeleid uit het bestellen en opnemen van transacties",
+        "intro": "Bouwers en zoekers kunnen txs opnieuw rangschikken of invoegen: sandwiches, liquidatieraces en meer. Gebruikers ervaren het als een giftige slip; protocollen reageren met veilingen en privéstromen.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Openbare mempools stellen grote swaps bloot aan roofdieren. In MEV begrijpen worden slippage-instellingen en privé-inzendingsopties uitgelegd."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Zoekers vinden kansen; bouwers pakken blokken in; indieners publiceren. Sommige ketens herverdelen MEV onder stakers. Sandwiches verpakken uw transactie om de prijs te verslechteren."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Slippage caps, privérelais, batchveilingen en intenties beperken de schade. L2-sequencers kunnen ook MEV extraheren."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Niet elke slechte vulling is MEV; een brede slip wordt door jezelf veroorzaakt. Vermijd schetsmatige “anti-MEV”-extensies."
+          }
+        ],
+        "keyPoints": [
+          "MEV komt uit bestelbare publieke stroom.",
+          "Gebruikers beperken dit via slippen en privépaden.",
+          "Protocolontwerp herverdeelt MEV.",
+          "Beschouw het als een technische realiteit."
+        ],
+        "tips": [
+          "Splits grote swaps en verscherp de slippen.",
+          "Gebruik portemonnees/routers met privéopties.",
+          "Vermijd enorme marktorders tijdens piekchaos."
+        ],
+        "body": "Bouwers en zoekers kunnen txs opnieuw rangschikken of invoegen: sandwiches, liquidatieraces en meer. Gebruikers ervaren het als een giftige slip; protocollen reageren met veilingen en privéstromen."
+      },
+      {
+        "id": "sdks",
+        "title": "Ontwikkelaarstools",
+        "summary": "Het testen van raamwerken, bibliotheken en accountkits die de veiligheidsvloer verhogen",
+        "intro": "De veiligheid van het ecosysteem hangt af van tests in Foundry/Hardhat-stijl, getypte bibliotheken, simulatie en accountkits – en niet alleen van auditors. Betere tools vangen bugs eerder op en helpen portemonnees handtekeningen uit te leggen.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Handmatige implementatie mislukt. Niet-geteste contracten zijn tijdbommen. Front-end SDK's verenigen verbindingen met meerdere ketens en foutafhandeling."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Gevorkte tests, fuzzing, implementatiescripts, monitoring en AA SDK's vormen de lus. Simulatie vóór ondertekening toont activaverschillen."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Verouderde afhankelijkheden hebben bekende CVE's. Aanvallen op de toeleveringsketen treffen ‘veilige’ pakketten. Gebruikers zouden de voorkeur moeten geven aan portefeuilles met duidelijke handtekening."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Het kopiëren en plakken van niet-gecontroleerde monsters naar het mainnet is roekeloos. Valse ‘dev tools’-extensies stelen sleutels."
+          }
+        ],
+        "keyPoints": [
+          "Tooling is een onzichtbare beveiligingsinfrastructuur.",
+          "Simuleer vóór mainnet-geld.",
+          "Afhankelijkheidshygiëne is veiligheidswerk.",
+          "Duidelijke ondertekening vermindert het succes van phishing door gebruikers."
+        ],
+        "tips": [
+          "Ontwikkelaars: kritische paden testen op fork.",
+          "Gebruikers: schakel simulatie in.",
+          "Installeer alleen extensies van officiële bronnen."
+        ],
+        "body": "De veiligheid van het ecosysteem hangt af van tests in Foundry/Hardhat-stijl, getypte bibliotheken, simulatie en accountkits – en niet alleen van auditors. Betere tools vangen bugs eerder op en helpen portemonnees handtekeningen uit te leggen."
+      },
+      {
+        "id": "identity",
+        "title": "Identiteit in de keten",
+        "summary": "Leesbare namen, attesten en reputatie voor menselijke coördinatie",
+        "intro": "Lange adressen kunnen gemakkelijk verkeerd worden getypt. Naamsystemen koppelen menselijke labels aan records; attestprotocollen geven claims zoals lidmaatschap. De bruikbaarheid neemt toe, en dat geldt ook voor problemen met privacy en nabootsing van identiteit.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Betalingen en sociaal hebben gedenkwaardige handvatten nodig. Namen verminderen overdrachtsfouten en fungeren als Web3-visitekaartjes. Reputatie helpt anti-Sybil bij privacy-afwegingen."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Registreer een naam, stel records in en verzamel optioneel ondertekende attesten. Sommige referenties zijn zielsgebonden."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Namen verlopen; records veranderen. Dezelfde string kan in ketens verschillend worden opgelost. Scheid identiteitsadressen van kluizen."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Imitatiedomeinen stelen geld. Als u elke inloggegevens aan één doxxeerbaar adres koppelt, wordt u overbelicht."
+          }
+        ],
+        "keyPoints": [
+          "Namen zijn een resolutielaag, geen bankgarantie.",
+          "Controleer altijd de opgeloste adressen voordat u ze verzendt.",
+          "Attesten helpen bij de coördinatie van de privacykosten.",
+          "Splits de openbare identiteit van kluisadressen."
+        ],
+        "tips": [
+          "Bevestig de oplossing bij verzending.",
+          "Stel vervalherinneringen in.",
+          "Gebruik een adres met een lage waarde voor openbare socials."
+        ],
+        "body": "Lange adressen kunnen gemakkelijk verkeerd worden getypt. Naamsystemen koppelen menselijke labels aan records; attestprotocollen geven claims zoals lidmaatschap. De bruikbaarheid neemt toe, en dat geldt ook voor problemen met privacy en nabootsing van identiteit."
+      },
+      {
+        "id": "aa-infra",
+        "title": "Bundelaars en betaalmeesters",
+        "summary": "Backend-rails die UserOperations verpakken en gas sponsoren",
+        "intro": "Zonder bundelaars heeft UserOperations moeite om te landen; zonder betaalmeesters zijn gassponsoring en ‘betalen met welk token dan ook’ moeilijk. Verkeerd geconfigureerde AA-infra wordt een storings- of misbruikoppervlak.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Gebruikers houden er niet van om het gasfiche van elke keten vast te houden. Apps willen eerste acties sponsoren. Infrastructuur maakt dit productbeleid mogelijk met budgetten en toelatingslijsten."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Portefeuilles bouwen UserOperations; bundelaars simuleren en indienen; EntryPoint wordt uitgevoerd; betaalmeestersfonds per polis met tarieflimieten."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Is sponsoring gebonden aan bepaalde contracten? Kan het worden verbouwd? Zullen bundelaars censureren? Decentralisatie tast de veerkracht aan."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Schadelijke eindpunten en overgebleven brede sessies na campagnes vormen een risico. Gasloos ≠ goedkeuringsloos."
+          }
+        ],
+        "keyPoints": [
+          "AA UX is afhankelijk van betrouwbare bundelaars/betaalmeesters.",
+          "Voor sponsoring zijn anti-misbruikregels nodig.",
+          "De keuze van het eindpunt beïnvloedt de privacy en de censuur.",
+          "Gebruikers moeten nog steeds handtekeningen lezen."
+        ],
+        "tips": [
+          "Houd u aan vertrouwde eindpunten die standaard in de portemonnee staan.",
+          "Sessies na campagnes intrekken.",
+          "Behandel onverwachte gasloosheid als verdacht."
+        ],
+        "body": "Zonder bundelaars heeft UserOperations moeite om te landen; zonder betaalmeesters zijn gassponsoring en ‘betalen met welk token dan ook’ moeilijk. Verkeerd geconfigureerde AA-infra wordt een storings- of misbruikoppervlak."
+      }
+    ]
+  },
+  {
+    "id": "wallets",
+    "name": "Portefeuilles",
+    "summary": "Apps en apparaten die uw sleutels bevatten",
+    "blurb": "Warme/koude portemonnees, zaden, multisig en bewaarmodellen uitgelegd.",
+    "items": [
+      {
+        "id": "hot",
+        "title": "Hete portemonnees",
+        "summary": "Verbonden softwareportefeuilles voor dagelijkse kleine saldi",
+        "intro": "Browser- en mobiele portemonnees maken dApps direct. Gemak vergroot het aanvalsoppervlak: kwaadaardige sites, nep-extensies, klembord-malware, verloren telefoons. Behandel ze als betaalrekeningen, niet als spaargeld.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Cold wallets zijn onhandig voor hoogfrequente DeFi. Hot wallets leren snel tekenen en schakelen tussen netwerken."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Sleutels staan ​​versleuteld op het apparaat; lokaal ontgrendelen; uitgezonden via RPC. Het verbinden van een dApp deelt een adres, niet de sleutel, maar er lopen nog steeds gevaarlijke handtekeningen weg."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Verdeel uitgaven versus spaarrekeningen. Beoordelen vergoedingen. Biometrie beschermt de ontgrendeling van de app, niet het ketenherstel."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Sideloaded APK's, zaad-'synchronisatie'-pagina's en openbare computers zijn klassieke mislukkingen."
+          }
+        ],
+        "keyPoints": [
+          "Hot wallets optimaliseren het gemak.",
+          "Bewaar daar alleen verliestolerante fondsen.",
+          "Handtekeningen/goedkeuringen vormen het grootste gevaar.",
+          "Laag met koude opslag."
+        ],
+        "tips": [
+          "Alleen downloaden vanaf officiële kanalen.",
+          "Gebruik een speciaal browserprofiel voor crypto.",
+          "Goedkeuringen van tokens wekelijks controleren."
+        ],
+        "body": "Browser- en mobiele portemonnees maken dApps direct. Gemak vergroot het aanvalsoppervlak: kwaadaardige sites, nep-extensies, klembord-malware, verloren telefoons. Behandel ze als betaalrekeningen, niet als spaargeld."
+      },
+      {
+        "id": "hardware",
+        "title": "Hardware-portefeuilles",
+        "summary": "Sleutelt een beveiligde chip in met bevestiging op het apparaat",
+        "intro": "Hardware wallets houden privésleutels buiten de geïnfecteerde pc. Je moet nog steeds het scherm van het apparaat lezen: blinde handtekeningen of duistere firmware kunnen de beste chip verslaan.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Langetermijnbedrijven en grote bedrijven hebben een sterkere isolatie nodig. Fysieke bevestiging legt de lat hoger voor diefstal op afstand. Teams gebruiken ze als basiscontrole voor de kluis."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "De host bouwt een tx; het apparaat toont een samenvatting; jij keurt het goed; de handtekening keert terug voor uitzending. Seeds gegenereerd bij init vormen de back-up. Firmware-updates moeten officieel zijn."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Koop authentieke apparaten; ken het beleid voor blind ondertekenen per keten. Het kwijtraken van het apparaat is prima als het zaad veilig is; het zaad verliezen is dat niet."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Gemanipuleerde tweedehands apparaten, “checker”-websites die om zaden vragen en OK-zonder-lezen zijn faalwijzen."
+          }
+        ],
+        "keyPoints": [
+          "Hardware-isolatie blokkeert veel sleuteldiefstallen op afstand.",
+          "Schermverificatie is nog steeds uw verantwoordelijkheid.",
+          "Seed-back-up is qua belang gelijk aan het apparaat.",
+          "Supply chain- en firmware-hygiëne zijn belangrijk."
+        ],
+        "tips": [
+          "Koop bij een officiële/gerenommeerde detailhandel.",
+          "Test met kleine overdrachten na het instellen.",
+          "Match de volledige adressen op het apparaat voor de grootte."
+        ],
+        "body": "Hardware wallets houden privésleutels buiten de geïnfecteerde pc. Je moet nog steeds het scherm van het apparaat lezen: blinde handtekeningen of duistere firmware kunnen de beste chip verslaan."
+      },
+      {
+        "id": "seed",
+        "title": "Zaadzinnen",
+        "summary": "Voor mensen leesbare back-ups die portemonneesleutels regenereren",
+        "intro": "12/24 woorden zijn geen inlogwachtwoord; ze zijn het hoofdgeheim dat sleutels opnieuw creëert. Iedereen met de woorden kan elders portemonnees legen. Geen enkele echte ondersteuningsagent heeft uw zaad nodig om u te ‘verifiëren’.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Apparaten sterven. Met Seeds kunt u dezelfde accounts elders herstellen in een offline beschrijfbare vorm."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "BIP-39 verandert entropie in geordende woorden die verhalen afleiden. Verkeerde volgorde mislukt herstellen. Optionele wachtwoordzinnen vergroten het risico op beveiliging en vergeetachtigheid."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Foto's, cloudsynchronisatie en chat zijn onveilig. Metalen back-ups verslaan papier tegen vuur/water. Back-ups op meerdere locaties moeten een evenwicht bieden tussen diefstal en totaal verlies."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Phishing-portemonnee-synchronisatiepagina's en nep-ondersteuning zijn topmoordenaars. Het typen van een zaadje in een website is een noodgeval."
+          }
+        ],
+        "keyPoints": [
+          "Het zaad is het bezit.",
+          "Houd het voor altijd offline.",
+          "Legitieme stromen eisen dit nooit.",
+          "Ontwerpredundantie tegen zowel brand als diefstal."
+        ],
+        "tips": [
+          "Schrijf met de hand en controleer de woordvolgorde opnieuw.",
+          "Bewaar nooit op foto's of e-mail.",
+          "Plan de erfenis bewust."
+        ],
+        "body": "12/24 woorden zijn geen inlogwachtwoord; ze zijn het hoofdgeheim dat sleutels opnieuw creëert. Iedereen met de woorden kan elders portemonnees legen. Geen enkele echte ondersteuningsagent heeft uw zaad nodig om u te ‘verifiëren’."
+      },
+      {
+        "id": "multisig",
+        "title": "Multisign",
+        "summary": "Gedeelde accounts waarvoor M-of-N-goedkeuringen vereist zijn",
+        "intro": "Multisig verandert ‘één phish verliest alles’ in ‘meerdere mensen moeten het erover eens zijn’. Ideaal voor schatkisten en gezinnen. Het vermindert afzonderlijke faalpunten en voegt coördinatieoverhead toe.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Kluizen met één sleutel sterven in één fout. Multisig dwingt aanvallers om meerdere ondertekenaars te compromitteren en codeert de scheiding der machten."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Een contract of een native regeling stelt de drempel en de eigenaren vast. Voorstellen → handtekeningen verzamelen → uitvoeren. Ondertekenaarrotatie en modules hebben gelijke zorg nodig."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Diverse apparaten verslaan gecorreleerde malware. Te hoge drempels blokkeren fondsen; te lage drempels verzwakken de veiligheid. Noodmodules kunnen achterdeuren zijn."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Alle ondertekenaars in één populaire browser, nooit oefenen met herstel, en phishing via de Veilige gebruikersinterface zijn vaak voorkomende mislukkingen."
+          }
+        ],
+        "keyPoints": [
+          "Multisig spreidt het sleutel- en beslissingsrisico.",
+          "Het drempelontwerp bepaalt beschikbaarheid versus veiligheid.",
+          "Oefen het tekenen en vervangen.",
+          "Maak een bladwijzer van officiële interfaces."
+        ],
+        "tips": [
+          "Gebruik diverse ondertekenapparaten/besturingssystemen.",
+          "Voer een kleine driemaandelijkse oefening uit.",
+          "Documenteer stappen voor het vervangen van verloren ondertekenaars."
+        ],
+        "body": "Multisig verandert ‘één phish verliest alles’ in ‘meerdere mensen moeten het erover eens zijn’. Ideaal voor schatkisten en gezinnen. Het vermindert afzonderlijke faalpunten en voegt coördinatieoverhead toe."
+      },
+      {
+        "id": "smart-accounts",
+        "title": "Slimme accounts",
+        "summary": "Programmeerbare portemonnees met limieten, voogden, batching en sessies",
+        "intro": "Slimme accounts coderen beleid: dagelijkse limieten, toelatingslijsten, herstel en batchaanroepen. Meer flexibiliteit dan EOA's - en meer manieren om modules verkeerd te configureren.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "EOA's zijn alles of niets. Slimme accounts maken dagelijkse lage privileges mogelijk met hoogwaardig extra onderzoek, waardoor een brug wordt geslagen naar zaadloze UX."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Logica leeft in een contract met inplugbare validators, vaak gecombineerd met AA-bundelaars/betaalmeesters. Module-upgrades moeten worden bewaakt."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Minimale privileges, audits en geteste herstelpaden zijn van belang. Weet wie kan upgraden voordat u het een kluis noemt."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Willekeurige, niet-gecontroleerde plug-ins, naïeve bewakers en de overtuiging dat slimme accounts alle phishing stoppen, zijn fouten."
+          }
+        ],
+        "keyPoints": [
+          "Slimme accounts zijn op beleid gebaseerd zelfbeheer.",
+          "Flexibiliteit vergroot het aanvalsoppervlak.",
+          "Module-/upgraderechten vormen de kernbeveiliging.",
+          "Gewoonten zijn nog steeds belangrijk."
+        ],
+        "tips": [
+          "Schakel ongebruikte plug-ins uit.",
+          "Tijdslot voor grote beleidswijzigingen.",
+          "Herstelrunbooks schrijven en oefenen."
+        ],
+        "body": "Slimme accounts coderen beleid: dagelijkse limieten, toelatingslijsten, herstel en batchaanroepen. Meer flexibiliteit dan EOA's - en meer manieren om modules verkeerd te configureren."
+      },
+      {
+        "id": "custody",
+        "title": "Bewaringsmodellen",
+        "summary": "Degene die de sleutels bezit, heeft feitelijk controle over de activa",
+        "intro": "Bewaarders handelen in wachtwoordherstel en ondersteuning voor tegenpartijrisico. Zelfbewaring ruilt soevereiniteit in voor persoonlijk bedrijfsrisico. De meeste mensen combineren beide: handelen op platforms, sparen in portemonnees.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Verschillende doelen hebben verschillende risicomodellen nodig. Pure zelfbeheersing maakt beginners bang; pure hechtenis doet pijn bij platformstoringen."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Bewaarsaldi zijn vaak interne grootboeken tot opname. Zelfbewaking zendt elke beweging uit. Gereguleerde bewaarders kunnen reserves aantonen – nog steeds geen nulrisico."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Bevriezingen, wachtrijen, jurisdictie en de kwaliteit van het bewijs van reserve zijn van belang. Mislukkingen op het gebied van zelfbeheer lijken op verloren zaden en slechte handtekeningen."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "‘Too big to fail’ heeft herhaaldelijk gefaald. Het opslaan van een zaadje in een uitwisselingsnotitieboekje is geen zelfbeheer."
+          }
+        ],
+        "keyPoints": [
+          "Sleutellocatie definieert controle.",
+          "Gemak versus soevereiniteit is de handel.",
+          "Hybride allocaties zijn pragmatisch.",
+          "Elk model faalt anders."
+        ],
+        "tips": [
+          "Trek tassen voor de langere termijn in voor zelfbewaring.",
+          "Geef de voorkeur aan transparante locaties.",
+          "Oefen eerst zelfbeheersing met een klein formaat."
+        ],
+        "body": "Bewaarders handelen in wachtwoordherstel en ondersteuning voor tegenpartijrisico. Zelfbewaring ruilt soevereiniteit in voor persoonlijk bedrijfsrisico. De meeste mensen combineren beide: handelen op platforms, sparen in portemonnees."
+      }
+    ]
+  },
+  {
+    "id": "gaming",
+    "name": "Gamen",
+    "summary": "Games en virtuele werelden met eigendommen",
+    "blurb": "Gameplay, economieën, infrastructuur en speculatieve faalmodi.",
+    "items": [
+      {
+        "id": "play",
+        "title": "Speel en bezit",
+        "summary": "Eerst plezier, verifieerbaar eigendom als bonus – geen loonillusie",
+        "intro": "Gezonde cryptogames geven prioriteit aan entertainment; eigendom versterkt, het vervangt het ontwerp niet. Secundaire markten moeten uitkomsten zijn, en niet de enige inhoud.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Pure speculatie stort in bij beren. Het inbedden van eigendom in echt leuke loops verbetert de retentie en maakt de economie van makers mogelijk."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "De kerngameplay draait snel buiten de keten of op gespecialiseerde rails; schaarse nederzettingen raakten een ketting. Studio's verdienen via UX, vergoedingen en diensten terwijl ze de economie afstemmen."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Retentie- en uitgavenstatistieken verslaan tokengrafieken als gezondheidssignalen. Regelgeving kan nog steeds itemtokens beperken."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Het behandelen van sleur als een baan en het negeren van accountbeveiliging zijn klassieke valkuilen."
+          }
+        ],
+        "keyPoints": [
+          "Eerst plezier, daarna financiën.",
+          "Eigendom kan verveling niet redden.",
+          "Gezonde economieën zorgen voor een evenwicht tussen putten en bronnen.",
+          "Isoleer spelsleutels uit kluizen."
+        ],
+        "tips": [
+          "Speel voordat je dure items koopt.",
+          "Lees economienotities en patchgeschiedenis.",
+          "Boek eventuele ‘winsten’ als speculatie met een hoog risico."
+        ],
+        "body": "Gezonde cryptogames geven prioriteit aan entertainment; eigendom versterkt, het vervangt het ontwerp niet. Secundaire markten moeten uitkomsten zijn, en niet de enige inhoud."
+      },
+      {
+        "id": "economies",
+        "title": "Economieën in het spel",
+        "summary": "Uitgifte en sinks bepalen of de artikelprijzen stand kunnen houden",
+        "intro": "Open economieën gedragen zich als kleine begrotingssystemen: eindeloze emissies zonder zinkputten doen de prijzen instorten. Het lezen van productie versus vernietiging is beter dan luisteren naar GameFi-slogans.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Open handelen neemt enige studiocontrole weg, waardoor een serieuzer ontwerp wordt gedwongen, zodat spelers en handelaars op de lange termijn naast elkaar kunnen bestaan."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Quests worden uitgezonden; knutselen/reparaties/seizoenengootsteen; dashboards onthullen inflatie. Externe tokenprijzen shockeren interne loops."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Dubbele tokens, energie en landhuur kunnen helpen of verwarren. Kijk hoe teamontgrendelingen en portemonnees voor marktmakers worden ontgrendeld."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Vroege hoge rentes trekken huurlingen aan, geen spelers. Het kopiëren van economie zonder publiek mislukt."
+          }
+        ],
+        "keyPoints": [
+          "Maak inflatie/deflatie waarneembaar.",
+          "Een hoog aandeel huurlingen is kwetsbaar.",
+          "Buffer externe tokenschokken.",
+          "Transparante afstemming schept vertrouwen."
+        ],
+        "tips": [
+          "Volg de officiële economische rapporten.",
+          "Verklein tijdens hyper-APY-fasen.",
+          "Geef de voorkeur aan activa met echte putten."
+        ],
+        "body": "Open economieën gedragen zich als kleine begrotingssystemen: eindeloze emissies zonder zinkputten doen de prijzen instorten. Het lezen van productie versus vernietiging is beter dan luisteren naar GameFi-slogans."
+      },
+      {
+        "id": "worlds",
+        "title": "Virtuele werelden",
+        "summary": "Verhalen over eigen land en sociale ruimte",
+        "intro": "Virtueel land verkoopt locatie, verkeer en aanwezigheid. Sommige werelden herbergen voortdurende activiteiten; anderen blijven na de verkoop hangen. Oordeel op basis van bouwers en DAU's, niet op filmische trailers.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Mensen willen duurzame digitale commons en winkelpuien. Eigendom op de keten maakt secundaire markten en experimenten door merken mogelijk."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Land-NFT's plus klanten plus optionele verhuur. Inhoud is afkomstig van gebruikers of functionarissen; prestaties zijn vaak afhankelijk van traditionele servers."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Voetverkeer bepaalt de waarde van grond. Lege werelden zijn speculatieve kunst. Bouwrechten en royalty's vormen de bereidheid van makers."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Primaire verkoop-FOMO en het behandelen van metaverse dia's als kortetermijnrendement zijn valkuilen."
+          }
+        ],
+        "keyPoints": [
+          "Verkeersprijzen landen.",
+          "Klantervaring weegt zwaarder dan slogans.",
+          "Interop loopt doorgaans achter op de omzet.",
+          "Evalueer ecosystemen van bouwers."
+        ],
+        "tips": [
+          "Bezoek eerst als toerist.",
+          "Controleer huur-/evenementgegevens voordat u koopt.",
+          "Vermijd teams die alleen verkopen en nooit bouwen."
+        ],
+        "body": "Virtueel land verkoopt locatie, verkeer en aanwezigheid. Sommige werelden herbergen voortdurende activiteiten; anderen blijven na de verkoop hangen. Oordeel op basis van bouwers en DAU's, niet op filmische trailers."
+      },
+      {
+        "id": "infra-game",
+        "title": "Spelinfrastructuur",
+        "summary": "Technische afwegingen tussen lage latentie en on-chain afwikkeling",
+        "intro": "Actiegames hebben feedback van milliseconden nodig. Studio's gebruiken gezaghebbende servers plus schaarse activa in de keten, of gespecialiseerde ketens met hoge doorvoer. Het kennen van de vertrouwensgrens voorkomt ‘volledig gedecentraliseerde’ marketingverwarring.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Pure L1-loops zijn voor veel genres te langzaam/duur. Gelaagdheid houdt speelbare UX met verifieerbare schaarste."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Matchmaking/gevecht buiten de keten; pepermuntjes/transacties/jackpots op de keten. Anti-cheat blijft grotendeels buiten de keten. Appchains verhogen de doorvoer, maar voegen overbruggings-/liquiditeitskosten toe."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Welke onderdelen vertrouwen een server? Overleven assets een studio-sluiting? Dat definieert hoe echt ‘eigendom’ is."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "“Volledig on-chain” claims met veranderlijke serverwaarheid. Overbrugging van game-items via nepsites."
+          }
+        ],
+        "keyPoints": [
+          "Hybriden zijn de technische norm.",
+          "Latency en decentralisatie werken tegengestelde kanten op.",
+          "Het uitschakelbeleid heeft invloed op de betekenis van activa.",
+          "Appchains voegen complexiteit toe aan de brug."
+        ],
+        "tips": [
+          "Lees documenten over vertrouwensgrenzen.",
+          "Verplaats betekenisvolle bezittingen naar portemonnees voor zelfbewaring.",
+          "Probeer testnets voordat u stortingen op het mainnet doet."
+        ],
+        "body": "Actiegames hebben feedback van milliseconden nodig. Studio's gebruiken gezaghebbende servers plus schaarse activa in de keten, of gespecialiseerde ketens met hoge doorvoer. Het kennen van de vertrouwensgrens voorkomt ‘volledig gedecentraliseerde’ marketingverwarring."
+      },
+      {
+        "id": "modding",
+        "title": "Modden en UGC",
+        "summary": "Makers verdienen wanneer kaarten, skins en mods transparant kunnen worden afgehandeld",
+        "intro": "UGC verlengt de levensduur van het spel. Als mods met duidelijke splitsingen verhandelbaar zijn, verschijnen er makers. Splitsingen in de keten bevorderen de controleerbaarheid; IP-licenties beslissen nog steeds of het schaalbaar is.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Traditionele UGC wordt geconfronteerd met plotselinge verschuivingen in het platformbeleid. Open markten en programmeerbare royalty's bieden een ander stimuleringstraject en rijkere spelersinhoud."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Makers publiceren activa → handel op markten → contracten verdelen de inkomsten. Matiging en ontdekking beslissen of de kwaliteit zich concentreert."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Licentiebereik, inhoudsbeleid en terugvorderingen blijven bestaan. On-chain wiskunde beslecht rechtszaken niet automatisch."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Het kopen van ongeautoriseerde merkmods en vluchtige makertokens is een risico."
+          }
+        ],
+        "keyPoints": [
+          "UGC heeft duidelijke IP- en inkomstenregels nodig.",
+          "Kwaliteit van detectie-/moderatieset.",
+          "Programmeerbare splitsingen verhogen de transparantie.",
+          "Juridische lagen zijn nog steeds van toepassing."
+        ],
+        "tips": [
+          "Makers: lees platformlicenties.",
+          "Spelers: controleer de autorisatietekens.",
+          "Uitbetalen met persoonlijke risicolimieten."
+        ],
+        "body": "UGC verlengt de levensduur van het spel. Als mods met duidelijke splitsingen verhandelbaar zijn, verschijnen er makers. Splitsingen in de keten bevorderen de controleerbaarheid; IP-licenties beslissen nog steeds of het schaalbaar is."
+      },
+      {
+        "id": "risks",
+        "title": "Speculatief spelrisico",
+        "summary": "Wanneer plezier afhangt van stijgende prijzen, doorbreken bearmarkten de cirkel",
+        "intro": "Mislukte projecten behandelen tokenpompen als inhoud. Spelers worden huurlingen, economieën worden reflexief en het onderhoud stopt als de prijs daalt. Het herkennen van het patroon bespaart collegegeld.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Risico-educatie maakt deel uit van een gezond product: gemeenschappen die eerlijk over inflatie praten, overleven de hype-onenigheid."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Hoge emissies trekken nieuwe spelers aan → de verkoopdruk stijgt → prijsdalingen → spelers vertrekken. De breuk treedt vaak op als de prikkels wegvallen. Er zijn maar weinig titels die met succes naar echte games draaien."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Zijn de inkomsten vooral afkomstig van nieuwe toetreders? Verstuurt het team speelbare updates? Secundaire prijs is geen leuke maatstaf."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "FOMO-gijzelingsfrases en misbruik zijn tekenen van gevaar."
+          }
+        ],
+        "keyPoints": [
+          "Prijs kan de gameplay niet vervangen.",
+          "Stimulansverlagingen zijn stresstests.",
+          "Het huurlingenaandeel voorspelt kwetsbaarheid.",
+          "Risico alleen discretionaire fondsen."
+        ],
+        "tips": [
+          "Vraag: zou ik tegen een tokenprijs van nul spelen?",
+          "Bekijk echte inhoudsupdates.",
+          "Weigeren met hefboomwerking."
+        ],
+        "body": "Mislukte projecten behandelen tokenpompen als inhoud. Spelers worden huurlingen, economieën worden reflexief en het onderhoud stopt als de prijs daalt. Het herkennen van het patroon bespaart collegegeld."
+      }
+    ]
+  },
+  {
+    "id": "daos",
+    "name": "DAO's",
+    "summary": "Gemeenschappen die regeren met stemmen via de keten",
+    "blurb": "Bestuur, schatkisten, voorstellen, juridische verpakkingen en aanvalsoppervlakken.",
+    "items": [
+      {
+        "id": "governance",
+        "title": "Tokenbeheer",
+        "summary": "Stemmen die parameters, upgrades en uitgaven instellen",
+        "intro": "DAO's pushen upgrades en treasury-beslissingen naar tokenhouders of reputatiesystemen. Eén-token-één-stem is eenvoudig en gevoelig voor walvissen; delegatie en andere ontwerpen proberen de representatie te verbeteren. Stemkracht is invloed – en een aanvalsoppervlak.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Protocollen moeten veranderen zonder dat dit een dictatuur van één bedrijf wordt. Stemmen op de keten laten controleerbare sporen achter en kunnen teams beperken."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Voorstel → discussie → stemming → tijdslot → uitvoering. Dankzij delegatie kunnen kleine boeren deskundigen toevertrouwen. Quorums en veto's stompen de overwinningen bij lage opkomst af."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Distributie, omvang van de schatkist en lengte van het tijdslot zijn van belang. Kiezers die vanuit de lucht zijn gedropt, kunnen apathisch zijn. De stemming op het forum kan afwijken van de resultaten in de keten."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Flitsleningen (indien toegestaan), steekpenningen en ongelezen stemmen zijn risico's."
+          }
+        ],
+        "keyPoints": [
+          "Bestuur verdeelt macht.",
+          "Mechanismeontwerp bestrijdt walvissen en apathie.",
+          "Tijdsloten zijn cruciale remmen.",
+          "Lees de gevolgen en conflicten voordat u gaat stemmen."
+        ],
+        "tips": [
+          "Delegeer aan verantwoordelijke vertegenwoordigers.",
+          "Bekijk protestkanalen tijdens timelocks.",
+          "Onderzoek grote schatkistvoorstellen."
+        ],
+        "body": "DAO's pushen upgrades en treasury-beslissingen naar tokenhouders of reputatiesystemen. Eén-token-één-stem is eenvoudig en gevoelig voor walvissen; delegatie en andere ontwerpen proberen de representatie te verbeteren. Stemkracht is invloed – en een aanvalsoppervlak."
+      },
+      {
+        "id": "treasury",
+        "title": "DAO-schatkisten",
+        "summary": "Gedeeld on-chain kapitaal voor opbouw, liquiditeit en buffers",
+        "intro": "Schatkisten zijn DAO-munitie. Diversificatie, transparantie en bestedingsproces bepalen of het een catwalk of een honeypot betreft. Multisigs of gouverneurs controleren de uitbetalingen die de gemeenschap zou moeten controleren.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Publieke goederen hebben financiering nodig voor audits, bouwers en incentives. Staatsobligaties houden de waarde onder zichtbare controle van de gemeenschap en kunnen crises stabiliseren."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Inkomsten uit vergoedingen/uitgifte/financiering; uitstroom via voorstellen. Holdings kunnen stallen, majors en inheemse tokens combineren; inheemse concentratie is een reflexief risico."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Runway-maanden, valutarisico's en adresvoorraden zijn van belang. Zachte toezeggingen tellen ook mee."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Volledig volatiele staatsobligaties en ondoorzichtige uitgaven van verbonden partijen zijn alarmsignalen."
+          }
+        ],
+        "keyPoints": [
+          "Gezondheid = transparantie + diversificatie + proces.",
+          "Reflexieve zakken versterken crises.",
+          "De uitgaven moeten verantwoord worden.",
+          "Multisig-sleutelhygiëne is de basislijn."
+        ],
+        "tips": [
+          "Lees periodieke financiële rapporten.",
+          "Bekijk het reserveaandeel van stablecoin.",
+          "Geef de voorkeur aan gestreamde grote uitbetalingen."
+        ],
+        "body": "Schatkisten zijn DAO-munitie. Diversificatie, transparantie en bestedingsproces bepalen of het een catwalk of een honeypot betreft. Multisigs of gouverneurs controleren de uitbetalingen die de gemeenschap zou moeten controleren."
+      },
+      {
+        "id": "proposals",
+        "title": "Levenscyclus van het voorstel",
+        "summary": "Van forumconcept tot on-chain uitvoering",
+        "intro": "Goede voorstellen debatteren off-chain, temperatuurcontrole, stemmen on-chain en worden vervolgens na een tijdslot uitgevoerd. Verrassende ‘bliksemvoorstellen’ zijn een geur. Weet in welke fase je zit.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Het proces vervangt dictatuur of chaos, waardoor tegenstanders de tijd krijgen om zich te organiseren en waar nodig audits/juridisch onderzoek in te voeren."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Concept → feedback → definitieve tekst → stemmen → wachtrij. Mislukte ideeën kunnen herzien worden. Sommige systemen gebruiken gasloze handtekeningen buiten de keten om te stemmen."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Quorum, drempels en noodpaden zijn van belang; al te brede noodsituaties zijn achterdeurtjes. Uitvoerbare oproepgegevens moeten overeenkomen met de tekst."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Alleen op titel stemmen en tijdslotwaarschuwingen negeren zijn mislukkingen."
+          }
+        ],
+        "keyPoints": [
+          "De kwaliteit van de discussie is bepalend voor de kwaliteit van het bestuur.",
+          "Tijdsloten beschermen minderheden en uitgangen.",
+          "Noodbevoegdheden hebben strikte grenzen nodig.",
+          "Parameters verslaan slogans."
+        ],
+        "tips": [
+          "Abonneer u op forum-/stemmeldingen.",
+          "Herhaal de risico's in uw eigen woorden voordat u gaat stemmen.",
+          "Controleer of de uitvoering overeenkomt met de voorsteltekst."
+        ],
+        "body": "Goede voorstellen debatteren off-chain, temperatuurcontrole, stemmen on-chain en worden vervolgens na een tijdslot uitgevoerd. Verrassende ‘bliksemvoorstellen’ zijn een geur. Weet in welke fase je zit."
+      },
+      {
+        "id": "legal",
+        "title": "Juridische verpakkingen",
+        "summary": "Stichtingen en bedrijven die DAO’s verbinden met de off-chain wereld",
+        "intro": "De Code kent niet automatisch een beperkte aansprakelijkheid toe. Stichtingen/LLC's ondertekenen contracten, banken en belastingen. Bijdragers moeten weten wie als verantwoordelijk kan worden behandeld als er iets kapot gaat.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Aanwervingen, IP en toezichthouders hebben juridische tegenhangers nodig. Goede wikkels verminderen de persoonlijke blootstelling; het zijn geen verhulmiddelen."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Jurisdictie → charter → bestuur/multisig → clausules die verband houden met DAO-stemmen. De regels variëren enorm per land."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Effecten, sancties en belastingen (inclusief airdrops) zijn van belang. Anonimiteit ≠ nul juridisch risico."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Ervan uitgaande dat ‘gedecentraliseerd’ de lokale wetgeving negeert, of onbekende overeenkomsten tekent, is roekeloos."
+          }
+        ],
+        "keyPoints": [
+          "Entiteiten leveren off-chain mogelijkheden.",
+          "Structuren zijn jurisdictiespecifiek.",
+          "Ken uw aansprakelijkheidsgrens.",
+          "Compliance is onderdeel van productrisico."
+        ],
+        "tips": [
+          "Vraag professioneel advies voor materiële bijdragen.",
+          "Lees de relatiedocumentatie van stichting↔DAO.",
+          "Houd airdrop-/inkomstengegevens bij."
+        ],
+        "body": "De Code kent niet automatisch een beperkte aansprakelijkheid toe. Stichtingen/LLC's ondertekenen contracten, banken en belastingen. Bijdragers moeten weten wie als verantwoordelijk kan worden behandeld als er iets kapot gaat."
+      },
+      {
+        "id": "ops",
+        "title": "DAO-operaties",
+        "summary": "Stemmen omzetten in verzending via werkgroepen en uitbetalingen",
+        "intro": "Zonder operators is bestuur theater. Werkgroepen, premies, budgetten en beoordelingen zetten energie om in producten. Burn-out, onduidelijk eigendom en late loonbetalingen doden DAO's stilletjes.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Er is te weinig aanbod van publieke goederen. Ops-systemen financieren onderhoud; Transparante beloning vermindert schaduwdeals."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Missie → statistieken → budget → aanwervingen/premies → retros. Payrolling in de keten helpt. Beheerderstoegang met de minste privileges voorkomt single points of Failure."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Zijn KPI’s controleerbaar? Wordt dubbeldompelen gecontroleerd? Documentatie bestrijdt de busfactor."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Betalen zonder verantwoordelijkheid en het overbelasten van onvervangbare bijdragers zijn faalwijzen."
+          }
+        ],
+        "keyPoints": [
+          "Leveringssystemen maken DAO's echt.",
+          "Begrotingen en prestaties moeten openbaar zijn.",
+          "Verminder de afhankelijkheid van één persoon.",
+          "Betaaltransparantie vermindert de brandstof voor samenzwering."
+        ],
+        "tips": [
+          "Begin met kleine premies om het proces te leren.",
+          "Maak een back-up van cruciale rollen.",
+          "Publiceer werkgroeprapporten."
+        ],
+        "body": "Zonder operators is bestuur theater. Werkgroepen, premies, budgetten en beoordelingen zetten energie om in producten. Burn-out, onduidelijk eigendom en late loonbetalingen doden DAO's stilletjes."
+      },
+      {
+        "id": "attacks",
+        "title": "Bestuursaanvallen",
+        "summary": "Protocollen vastleggen via stemmen, steekpenningen of een lage opkomst",
+        "intro": "Aanvallers jagen op schatkisten, parameters of upgradesleutels met behulp van verzamelde stemmen, flitsleningen, steekpenningen of slaperige quorums. Verdedigingen omvatten tijdsloten, vetobewakers en betere stemontwerpen.",
+        "sections": [
+          {
+            "heading": "Welk probleem het oplost",
+            "body": "Door aanvalsoppervlakken te bespreken, kunnen gemeenschappen zich vroegtijdig verdedigen. ‘Niemand zou dat doen’ is geen controle. Governance-beveiliging concurreert met contractbeveiliging."
+          },
+          {
+            "heading": "Hoe het werkt",
+            "body": "Verkrijg stemmen → kwaadwilligheid doorgeven → uitvoeren na tijdslot als niet gestopt. Complexe parameters kunnen bedoelingen camoufleren. Bewakers kunnen duidelijke aanvallen uitstellen of annuleren."
+          },
+          {
+            "heading": "Sleutelconcepten",
+            "body": "Momentopnametiming, stemregels voor flashleningen en delegatieconcentratie zijn van cruciaal belang. Houd grote tokenbewegingen in de gaten."
+          },
+          {
+            "heading": "Risico's en misvattingen",
+            "body": "Het negeren van tijdslotwaarschuwingen en ervan uitgaan dat audits diefstal van het bestuur voorkomen, zijn fouten."
+          }
+        ],
+        "keyPoints": [
+          "Bestuursmacht kan directe diefstal worden.",
+          "Tijdsloten en bewakers zijn remmen.",
+          "Een lage opkomst is een kwetsbaarheid.",
+          "Houd toezicht op en oefen vetopaden."
+        ],
+        "tips": [
+          "Schakel waarschuwingsbots voor beheer in.",
+          "Grote houders zouden eigenlijk moeten stemmen.",
+          "Ondersteun ontwerpen die het stemmen over flitsleningen blokkeren."
+        ],
+        "body": "Aanvallers jagen op schatkisten, parameters of upgradesleutels met behulp van verzamelde stemmen, flitsleningen, steekpenningen of slaperige quorums. Verdedigingen omvatten tijdsloten, vetobewakers en betere stemontwerpen."
+      }
+    ]
+  }
+]

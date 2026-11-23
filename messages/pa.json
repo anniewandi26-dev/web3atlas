@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Web3 Knowledge Infrastructure",
+    "badge": "Security First"
+  },
+  "nav": {
+    "explore": "ਖੋਜੋ",
+    "ecosystem": "ਈਕੋਸਿਸਟਮ",
+    "news": "ਖਬਰਾਂ",
+    "chronicle": "ਇਤਿਹਾਸ",
+    "security": "ਸੁਰੱਖਿਆ",
+    "glossary": "ਸ਼ਬਦਾਵਲੀ"
+  },
+  "hero": {
+    "kicker": "8 ECOSYSTEM LAYERS · TAP TO LEARN",
+    "titleLine1": "The Internet Is Changing.",
+    "titleLine2": "Map What Comes Next.",
+    "subtitle": "Discover networks, protocols and ideas shaping Web3 — built for clarity, not hype.",
+    "ctaPrimary": "Explore the Ecosystem",
+    "ctaSecondary": "Open Security Center",
+    "pause": "Pause animation",
+    "play": "Play animation"
+  },
+  "sections": {
+    "ecosystem": "01 · ECOSYSTEM",
+    "ecosystemTitle": "Explore by category",
+    "ecosystemDesc": "Eight layers of Web3. Open one to see concepts and real-world patterns.",
+    "openExplorer": "Open explorer",
+    "news": "02 · SIGNAL",
+    "newsTitle": "What's moving",
+    "newsDesc": "Curated headlines that help you follow infrastructure, markets and regulation.",
+    "allHeadlines": "All headlines",
+    "glossary": "03 · LEXICON",
+    "glossaryTitle": "Speak the language",
+    "glossaryDesc": "Fast definitions for terms you will see every day on-chain.",
+    "openGlossary": "Open glossary",
+    "security": "04 · DEFENSE",
+    "securityTitle": "Stay hard to hack",
+    "securityDesc": "Short briefings on phishing, approvals, seed phrases and fake apps.",
+    "securityCenter": "Security center",
+    "chronicle": "05 · TIMELINE",
+    "chronicleTitle": "How we got here",
+    "chronicleDesc": "A concise chronicle from whitepaper to ETFs and beyond.",
+    "fullChronicle": "Full chronicle",
+    "quiz": "06 · CHALLENGE",
+    "quizTitle": "Stress-test what you know",
+    "quizDesc": "Ten quick questions. No account. Just sharper instincts.",
+    "startQuiz": "Start the challenge",
+    "shuffle": "Shuffle"
+  },
+  "common": {
+    "readMore": "ਹੋਰ ਪੜ੍ਹੋ",
+    "back": "ਵਾਪਸ",
+    "search": "Search",
+    "items": "items",
+    "minRead": "{m} min read",
+    "language": "ਭਾਸ਼ਾ",
+    "followIp": "ਭਾਸ਼ਾ ਤੁਹਾਡੇ ਖੇਤਰ (IP) ਦੀ ਪਾਲਣਾ ਕਰਦੀ ਹੈ।",
+    "fallbackNote": "Full article language unavailable — showing English.",
+    "noResults": "No matches.",
+    "useful": "Useful",
+    "useIpLanguage": "IP ਭਾਸ਼ਾ ਵਰਤੋ",
+    "ipActive": "ਸਰਗਰਮ",
+    "manualOverride": "Manual override"
+  },
+  "ecosystemPage": {
+    "title": "Ecosystem Explorer",
+    "subtitle": "Browse eight layers — from base chains to DAOs."
+  },
+  "newsPage": {
+    "title": "Signal Desk",
+    "subtitle": "Curated Web3 headlines for builders and curious readers."
+  },
+  "chroniclePage": {
+    "title": "Chronicle",
+    "subtitle": "A timeline of moments that reshaped digital money and networks."
+  },
+  "securityPage": {
+    "title": "Security Center",
+    "subtitle": "Practical defenses for wallets, approvals and social engineering."
+  },
+  "glossaryPage": {
+    "title": "Glossary",
+    "subtitle": "Plain-language definitions for on-chain vocabulary.",
+    "placeholder": "Filter terms…"
+  },
+  "quiz": {
+    "correct": "Correct",
+    "wrong": "Not quite",
+    "next": "Next",
+    "restart": "Restart",
+    "score": "Score: {score}/{total}",
+    "done": "Challenge complete"
+  },
+  "article": {
+    "keyPoints": "Key points",
+    "tips": "Practical tips",
+    "checklist": "Checklist",
+    "expand": "Expand explain",
+    "collapse": "Collapse"
+  },
+  "intro": {
+    "headline": "ਵੈਬ3 ਅਤੇ ਕ੍ਰਿਪਟੋ ਗਿਆਨ — ਸਪੱਸ਼ਟ ਤੌਰ 'ਤੇ ਸਿੱਖੋ, ਨਾ ਕਿ ਹਾਈਪ",
+    "body": "Web3Atlas ਇੱਕ ਸਿੱਖਿਆ ਹੱਬ ਹੈ, ਇੱਕ ਵਪਾਰਕ ਐਪ ਨਹੀਂ। ਈਕੋਸਿਸਟਮ ਦੇ ਨਕਸ਼ੇ ਦੀ ਪੜਚੋਲ ਕਰੋ, ਕਿਉਰੇਟ ਕੀਤੇ ਸਿਗਨਲਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ, ਇਤਹਾਸ ਦਾ ਅਧਿਐਨ ਕਰੋ, ਵਾਲਿਟ ਸੁਰੱਖਿਆ ਦਾ ਅਭਿਆਸ ਕਰੋ, ਸ਼ਬਦਾਵਲੀ ਖੋਲ੍ਹੋ, ਅਤੇ ਕਵਿਜ਼ਾਂ ਨਾਲ ਆਪਣੇ ਆਪ ਦੀ ਜਾਂਚ ਕਰੋ - ਕਿਆਸ ਅਰਾਈਆਂ 'ਤੇ ਸਪੱਸ਼ਟਤਾ।",
+    "point1": "ਈਕੋਸਿਸਟਮ ਦਾ ਨਕਸ਼ਾ: ਬਲਾਕਚੈਨ, ਡੀਫਾਈ, ਐਨਐਫਟੀ, ਐਲ 2, ਵਾਲਿਟ, ਡੀਏਓ",
+    "point2": "ਸਿਗਨਲ ਅਤੇ ਕ੍ਰਿਨਿਕਲ: ਸੁਰਖੀਆਂ ਅਤੇ ਮੁੱਖ ਇਤਿਹਾਸ",
+    "point3": "ਸੁਰੱਖਿਆ ਕੇਂਦਰ: ਫਿਸ਼ਿੰਗ, ਬੀਜ, ਪ੍ਰਵਾਨਗੀਆਂ",
+    "point4": "ਸ਼ਬਦਾਵਲੀ ਅਤੇ ਕਵਿਜ਼: ਸਾਦੇ ਸ਼ਬਦ ਜੋ ਤੁਸੀਂ ਖੋਲ੍ਹ ਸਕਦੇ ਹੋ ਅਤੇ ਅਭਿਆਸ ਕਰ ਸਕਦੇ ਹੋ",
+    "hint": "ਜਾਰੀ ਰੱਖਣ ਲਈ ਹੇਠਾਂ ਟੈਪ ਕਰੋ",
+    "enter": "ਪੜਚੋਲ ਸ਼ੁਰੂ ਕਰੋ",
+    "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ"
+  },
+  "safariGate": {
+    "note": "ਤੁਹਾਡੇ ਵੱਲੋਂ Safari ਵਿੱਚ ਇਸ ਪੰਨੇ ਨੂੰ ਖੋਲ੍ਹਣ ਤੋਂ ਬਾਅਦ, ਸਾਈਟ ਆਮ ਤੌਰ 'ਤੇ ਚੱਲਦੀ ਹੈ — ਅਤੇ ਇਹ ਨੋਟਿਸ ਲੁਕਿਆ ਰਹਿੰਦਾ ਹੈ। ਸਫਾਰੀ ਨਿਰਵਿਘਨ ਪਰਸਪਰ ਪ੍ਰਭਾਵ ਅਤੇ ਅਮੀਰ ਰੰਗ ਦਿੰਦੀ ਹੈ।",
+    "openSafari": "ਸਫਾਰੀ ਨਾਲ ਖੋਲ੍ਹੋ",
+    "copied": "ਲਿੰਕ ਕਾਪੀ ਕੀਤਾ ਗਿਆ। ਜਾਰੀ ਰੱਖਣ ਲਈ ਇਸਨੂੰ Safari ਵਿੱਚ ਪੇਸਟ ਕਰੋ।"
+  }
+}

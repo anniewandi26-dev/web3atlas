@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# phí gas"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# Lừa đảo cụm từ hạt giống"
+  },
+  {
+    "id": "layer2",
+    "label": "# Lớp 2"
+  },
+  {
+    "id": "approve",
+    "label": "# Phê duyệt/cho phép"
+  }
+]

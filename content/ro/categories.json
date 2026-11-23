@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "blockchain",
+    "name": "Blockchain",
+    "summary": "Rețele care înregistrează și securizează tranzacțiile",
+    "blurb": "Registre partajate cu consens — stratul de decontare pe care se află totul. Fiecare articol include explicații complete, puncte cheie și sfaturi.",
+    "items": [
+      {
+        "id": "bitcoin",
+        "title": "Bitcoin",
+        "summary": "Prima rețea electronică de numerar peer-to-peer cu reguli fixe de emitere",
+        "intro": "Bitcoin arată cum valoarea se poate mișca pe internet fără o bancă ca arbitru. Un set global de noduri partajează un registru securizat prin criptare și stimulente. Pentru începători, cheile, UTXO-urile și regulile de emitere contează mai mult decât graficele de preț pe termen scurt.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Intermediarii de încredere pot îngheța conturile, pot bloca plăți sau pot eșua în crize. Bitcoin înlocuiește permisiunea instituțională cu verificarea publică: oricine poate verifica istoricul, în timp ce rescrierea acestuia este concepută pentru a fi extrem de costisitoare. \nBlocul geneză a inclus chiar și un titlu de ziar despre salvarea băncilor – un semnal intenționat despre regulile monetare în cod."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Semnați o tranzacție care cheltuiește ieșiri necheltuite (UTXO) către noi adrese. Minerii concurează prin dovada muncii pentru a adăuga blocuri și pentru a câștiga recompense. \nÎnjumătățirile reduc oferta nouă în timp; dificultatea se ajustează astfel încât blocurile rămân aproximativ constante. Mai multe confirmări înseamnă un risc mai mic de reorganizare."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Cheile private au un control egal; adresele pot fi publice. Taxele sunt o piață pentru spațiul de bloc. Scriptul Bitcoin este limitat în mod intenționat, așa că se comportă mai mult ca o soluție și deficit digital decât o platformă generală de aplicații."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Volatilitatea nu este o eroare de protocol. Monedele de pe un schimb sunt IOU până la retragere. Phishingul, asistența falsă și transferurile greșite în rețea provoacă pierderi permanente — mai întâi exersați-vă cu sume mici."
+          }
+        ],
+        "keyPoints": [
+          "Bitcoin este o rețea de decontare verificabilă public, nu un simbol al companiei.",
+          "Regulile de emitere, inclusiv reducerile la jumătate, sunt aplicate prin protocol și prin stimulente.",
+          "Semnăturile UTXO + definesc transferurile; cheile pierdute înseamnă fonduri pierdute.",
+          "Securitatea este în principal obiceiuri cheie de igienă și confirmare."
+        ],
+        "tips": [
+          "Practicați primirea/trimiterea cu un portofel de renume sau hardware.",
+          "Mutați dimensiunea în loturi și așteptați suficiente confirmări.",
+          "Faceți copii de rezervă offline pentru semințe - nu fotografiați sau trimiteți niciodată mesaje."
+        ],
+        "body": "Bitcoin arată cum valoarea se poate mișca pe internet fără o bancă ca arbitru. Un set global de noduri partajează un registru securizat prin criptare și stimulente. Pentru începători, cheile, UTXO-urile și regulile de emitere contează mai mult decât graficele de preț pe termen scurt."
+      },
+      {
+        "id": "ethereum",
+        "title": "Ethereum",
+        "summary": "Un blockchain de uz general pentru contracte inteligente - adesea numit computer mondial",
+        "intro": "Acolo unde Bitcoin se concentrează pe transferul de bani, Ethereum se concentrează pe aplicarea regulilor programabile. Contractează custoderea activelor, codifică condițiile și compune în aplicații. După Fuziune, consensul este o dovadă a mizei, în timp ce execuția rămâne EVM.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Plățile singure nu pot exprima în mod curat împrumuturile, schimburile sau guvernanța în lanț. O mașină virtuală partajată transformă codul în infrastructură publică. \nInterfețele deschise permit jetoanelor și protocoalelor să se conecteze unul la celălalt – baza Lego-urilor DeFi."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "EOA sunt controlate prin cheie; conturile contractuale sunt controlate prin cod. Plătești benzină pentru schimbările de stat. Validatorii pun în miză ETH să propună și să ateste; defectele grave pot fi reduse. \nUtilizatorii interacționează în continuare prin semnăturile portofelului, dar spațiul de proiectare este mult mai larg decât transferurile simple."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Calcularea contoarelor de gaz. Standardele de jetoane (ERC-20/721) permit compatibilitatea cu portofelul și piața. Nivelul 2 mută execuția în afara rețelei principale, în timp ce revine la securitatea Ethereum."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "„Pe Ethereum” ≠ auditat sau în siguranță. Aprobările nelimitate și jetoanele false consumă portofelele. Taxele de vârf pot depăși dimensiunea tranzacției - verificați rețeaua, contractul și domeniul de aplicare."
+          }
+        ],
+        "keyPoints": [
+          "Ethereum este o mașină de stat partajată plus timp de execuție cu contract inteligent.",
+          "PoS asigură consensul; EVM execută aplicații.",
+          "Standardele fac activele interoperabile în întregul ecosistem.",
+          "Siguranța depinde de calitatea contractului, aprobări și poduri."
+        ],
+        "tips": [
+          "Verificați adresele contractelor într-un explorator de blocuri, nu numai prin ticker.",
+          "Utilizați L2-uri oficiale sau așteptați când rețeaua principală este aglomerată.",
+          "Testează noi protocoale cu bani pe care îți poți permite să-i pierzi."
+        ],
+        "body": "Acolo unde Bitcoin se concentrează pe transferul de bani, Ethereum se concentrează pe aplicarea regulilor programabile. Contractează custoderea activelor, codifică condițiile și compune în aplicații. După Fuziune, consensul este o dovadă a mizei, în timp ce execuția rămâne EVM."
+      },
+      {
+        "id": "consensus",
+        "title": "Consens",
+        "summary": "Cum o rețea este de acord cu o istorie canonică",
+        "intro": "Fără un arbitru central, nodurile au nevoie de un singur registru. Consensul definește cine propune blocaje, cum sunt pedepsiți trișorii și când un transfer este suficient de final. Dovada de lucru și dovada de miză sunt moduri diferite de a face rescrierea istoriei costisitoare.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Participanții distribuiți pot întârzia, deconecta sau minți. Consensul previne cheltuielile duble, făcând o istorie dominantă din punct de vedere economic. \nPentru utilizatori, determină timpii de așteptare, riscul de reorganizare și costul atacului."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Prețurile PoW atacă cu energie/hashrate. Atacurile prețurilor PoS cu capital obligat și slashing. Unele protocoale oferă o finalitate mai puternică după punctele de control; altele sunt probabiliste. \nSchimburile stabilesc confirmări de depozit de la aceste proprietăți."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Compartimentul dintre viabilitate și siguranță contează. Un lanț „mai rapid” cu seturi mici de validatoare poate slăbi rezistența la cenzură. Întrebați cine produce blocuri înainte de a sărbători TPS."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Sloganurile nu sunt teze de investiții. Ipotezele bridge și light-client sunt adesea mai slabe decât consensul de bază - și aici ajung mulți hack-uri."
+          }
+        ],
+        "keyPoints": [
+          "Consensul alege o singură istorie canonică printre nodurile neîncrezătoare.",
+          "Atacurile de preț PoW și PoS în mod diferit.",
+          "Confirmările/finalitatea decid când sunt „primite” fondurile.",
+          "Componentele cross-chain pot fi mai slabe decât povestea L1."
+        ],
+        "tips": [
+          "Respectați confirmarea sugerată pentru depozitele mari.",
+          "Studiați distribuția validatorului și regulile de reducere a noilor lanțuri.",
+          "Reduceți activitatea bridge/leverage în timpul upgrade-urilor controversate."
+        ],
+        "body": "Fără un arbitru central, nodurile au nevoie de un singur registru. Consensul definește cine propune blocaje, cum sunt pedepsiți trișorii și când un transfer este suficient de final. Dovada de lucru și dovada de miză sunt moduri diferite de a face rescrierea istoriei costisitoare."
+      },
+      {
+        "id": "accounts",
+        "title": "Conturi și chei",
+        "summary": "Identitatea în lanț este o pereche de chei, nu o resetare a numelui de utilizator de către asistență",
+        "intro": "Contul dvs. este de obicei o adresă derivată dintr-o cheie privată. Nimeni nu poate reseta acea cheie pentru tine; o semnătură este autorizare. Înțelegerea EOA, a conturilor contractuale și a frazelor de început este fundamentul utilizării în siguranță.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Conturile Web2 trăiesc pe serverele companiei cu resetarea parolei. Blockchain-urile împing controlul către deținătorii de chei pentru auto-custodie – și împinge responsabilitatea operațională cu el."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Cheile private derivă chei și adrese publice. Semințele (BIP-39) pot regenera multe conturi în lanțuri. Conturile contractuale mută fondurile după căile de cod; conturile inteligente codifică politici precum limitele și tutorii."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Portofelele fierbinți sunt convenabile; Portofelele hardware păstrează cheile într-un element sigur. Controlul împrăștierilor Multisig. O sămânță scursă poate compromite un întreg arbore de derivare."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Capturile de ecran din cloud, programele malware și cererile de început de „asistență” sunt căi clasice de pierdere. Semnarea oarbă poate aproba scurgerile - respinge solicitările neclare."
+          }
+        ],
+        "keyPoints": [
+          "Proprietatea egală a cheilor.",
+          "Adresele pot fi partajate; semințele nu sunt.",
+          "EOA sunt semnate de om; contractele sunt controlate de cod.",
+          "Citiți domeniul de aplicare înainte de a semna."
+        ],
+        "tips": [
+          "Separați fondurile pentru experiment de portofelele de economii.",
+          "Scrieți semințele pe hârtie/metal și stocați offline.",
+          "Activați simularea tranzacțiilor pe noile dApps."
+        ],
+        "body": "Contul dvs. este de obicei o adresă derivată dintr-o cheie privată. Nimeni nu poate reseta acea cheie pentru tine; o semnătură este autorizare. Înțelegerea EOA, a conturilor contractuale și a frazelor de început este fundamentul utilizării în siguranță."
+      },
+      {
+        "id": "gas",
+        "title": "Gaze și taxe",
+        "summary": "Fiecare schimbare de stare este măsurată, astfel încât computerul public să nu poată fi spam gratuit",
+        "intro": "Gazul nu este o taxă arbitrară, ci prețuiește calculul și stocarea. Taxa dvs. este utilizare × preț unitar. Aglomerația crește prețul unitar, motiv pentru care aceeași acțiune poate costa cenți sau zeci de dolari.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Blockchain-urile publice trebuie să limiteze resursele. Gazul creează o piață de taxe: ofertele mai mari se clarifică mai întâi; dezvoltatorii trebuie să scrie contracte eficiente."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Transferurile simple costă puțin gaz; rutele DeFi complexe costă mai mult. După EIP-1559, taxele de bază ard și bacșișurile plătesc solicitanții. L2-urile amortizează costul datelor L1 pentru mulți utilizatori, astfel încât taxele unitare scad."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Limitele de gaze limitează cât permiteți. Tranzacțiile eșuate pot încă încărca gaz deoarece execuția a avut loc. Accelerarea/anularea înlocuiește un nonce în așteptare cu o taxă mai mare tx."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Site-urile false pot provoca gaze absurde sau apeluri prostii. Campaniile „Zero gaz” extind adesea permisiunile – întrebați cine sponsorizează și ce autorizați."
+          }
+        ],
+        "keyPoints": [
+          "Executie contoare de gaz; prețul este determinat de piață.",
+          "Eșecurile pot costa în continuare gaze.",
+          "L2-urile și loturile sunt principalele economii de taxe.",
+          "Respingeți cererile anormale de taxe sau de aprobare."
+        ],
+        "tips": [
+          "Faceți acțiuni non-urgente în afara orelor de vârf sau în L2.",
+          "Utilizați estimările și simularea taxelor pentru portofel.",
+          "Prețul gazului total înainte de campaniile în mai mulți pași."
+        ],
+        "body": "Gazul nu este o taxă arbitrară, ci prețuiește calculul și stocarea. Taxa dvs. este utilizare × preț unitar. Aglomerația crește prețul unitar, motiv pentru care aceeași acțiune poate costa cenți sau zeci de dolari."
+      },
+      {
+        "id": "bridges",
+        "title": "Poduri",
+        "summary": "Canale care mută valoarea sau mesajele de-a lungul lanțurilor – și o țintă de hack-uri frecvente",
+        "intro": "Activele nu apar în mod magic pe alt registru. Podurile se blochează, bate, arde sau schimbă prin lichiditate – extinzând accesul în același timp concentrând riscul. Câteva dintre cele mai mari exploit-uri din istorie au lovit custodia și verificarea bridge-ului.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Fără poduri, ecosistemele rămân insule. Cu podurile, utilizatorii moștenesc un plus de încredere și contractează riscuri în schimbul mobilității."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Modelele includ blocare și menținere, ardere și răscumpărare, rețele de lichiditate și relee pentru clienți light. Punțile de acumulare canonice moștenesc securitatea de acumulare, dar pot avea întârzieri de ieșire; podurile rapide adaugă ipoteze ale unor terțe părți pentru viteza."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Poți răscumpăra 1:1? Cât de descentralizați sunt validatorii? TVL ridicat poate însemna o țintă mai grasă, nu siguranță automată."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Domeniile de phishing prosperă în jurul podurilor. Contractele de rețea sau token greșite trimit fonduri în gol. Testați întotdeauna cu un transfer mic mai întâi."
+          }
+        ],
+        "keyPoints": [
+          "Un pod este un protocol încrucișat, nu teleportare.",
+          "Podurile canonice vs. rapide au modele de încredere diferite.",
+          "Podurile domină pierderile istorice de hack.",
+          "Verificați împreună domeniul, contractul și rețeaua."
+        ],
+        "tips": [
+          "Introduceți poduri numai din documentele oficiale marcate.",
+          "Testați dimensiunea minimă înainte de a muta dimensiunea.",
+          "Tratează ieșirile în așteptare ca încă nefolositoare."
+        ],
+        "body": "Activele nu apar în mod magic pe alt registru. Podurile se blochează, bate, arde sau schimbă prin lichiditate – extinzând accesul în același timp concentrând riscul. Câteva dintre cele mai mari exploit-uri din istorie au lovit custodia și verificarea bridge-ului."
+      }
+    ]
+  },
+  {
+    "id": "defi",
+    "name": "DeFi",
+    "summary": "Împrumut, schimb și miza prin contracte inteligente",
+    "blurb": "Cum compun primitivele financiare deschise – și riscurile din jurul ratelor, lichidărilor și grajdurilor.",
+    "items": [
+      {
+        "id": "amm",
+        "title": "Creatori de piață automati",
+        "summary": "Pool-urile de lichiditate și curbele de preț înlocuiesc carnetele de comenzi clasice",
+        "intro": "AMM-urile permit oricui să depună jetoane într-un pool, astfel încât comercianții să poată schimba cu o formulă. Obțineți lichiditate continuă și comisioane LP, plus pierderi temporare și risc de contract inteligent.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Registrele de comenzi în lanț sunt costisitoare. Pool-urile păstrează lichiditatea rezidentă în contracte, astfel încât swapurile să poată avea loc oricând, democratizând formarea pieței."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Produsul constant este curba clasică; stableswap-urile și lichiditatea concentrată îmbunătățesc eficiența capitalului. Routerele împart tranzacțiile în grupuri. Limitele de alunecare vă protejează atunci când statul se mută."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Pierderea permanentă poate face ca LP-urile să devină sub performanță. Jetoanele false și ghivecele de miere pot părea cumpărabile, dar nevândubile. Emisiile APR ar putea să nu dureze."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Aprobarile nelimitate pentru routere necunoscute sunt periculoase. Depegs stresează puternic piscinele „stabile”."
+          }
+        ],
+        "keyPoints": [
+          "Prețul AMM-urilor prin calculul grupului pentru schimburi instantanee.",
+          "LP-urile câștigă comisioane și își asumă riscul IL + contract.",
+          "Alunecarea și calitatea direcționării generează rezultate.",
+          "Verificați pool-urile/jetoanele înainte de a urmări randamentul."
+        ],
+        "tips": [
+          "Setați un alunecare strâns și sume minime de ieșire.",
+          "Preferă bazine adânci pe protocoale mature.",
+          "Revocați în mod regulat alocațiile de jetoane neutilizate."
+        ],
+        "body": "AMM-urile permit oricui să depună jetoane într-un pool, astfel încât comercianții să poată schimba cu o formulă. Obțineți lichiditate continuă și comisioane LP, plus pierderi temporare și risc de contract inteligent."
+      },
+      {
+        "id": "lending",
+        "title": "Protocoale de creditare",
+        "summary": "Împrumuturi supracolateralizate cu rate algoritmice și lichidări",
+        "intro": "Depuneți active pentru a obține randament sau pentru a vă împrumuta cu garanții fără un birou de credit. Factorii de sănătate, oracolele și roboții de lichidare – nu managerii de relații – mențin sistemul solvent.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Aplicarea în lanț a creditului negarantat este grea, așa că supracolateralizarea domină. Oricine poate participa; eficiența capitalului este compromisul."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Utilizarea conduce curbele dobânzii. Oracolele prețuri de alimentare. Când starea de sănătate scade, lichidatorii rambursează datoria și sechestrează garanțiile pentru un bonus."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Modurile de izolare, LTV și socializările cu datorii neperformante diferă în funcție de protocol. Levierul în buclă multiplică riscul. DAE netă trebuie să scadă gazele și penalitățile de lichidare."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Întârzierea sau manipularea Oracle poate provoca lichidări greșite. Tratarea creditării drept „economii sigure” este o capcană a mentalității."
+          }
+        ],
+        "keyPoints": [
+          "Supracolateralizarea + lichidările sunt nucleul.",
+          "Factorul de sănătate bate ratele principale.",
+          "Oracle și calitatea lichidității decid siguranța.",
+          "Buclele de levier amplifică reducerile."
+        ],
+        "tips": [
+          "Lăsați un tampon mare deasupra lichidării.",
+          "Evitați garanțiile foarte corelate în timpul furtunii.",
+          "Estimați prețul de lichidare înainte de a vă împrumuta."
+        ],
+        "body": "Depuneți active pentru a obține randament sau pentru a vă împrumuta cu garanții fără un birou de credit. Factorii de sănătate, oracolele și roboții de lichidare – nu managerii de relații – mențin sistemul solvent."
+      },
+      {
+        "id": "stablecoins",
+        "title": "Monede stabile",
+        "summary": "Unități în lanț concepute pentru a urmări o referință stabilă precum USD",
+        "intro": "Activele de bază volatile sunt incomode pentru stabilirea prețurilor și contabilității. Monedele stabile oferă o șină asemănătoare unui dolar pentru tranzacționare și remitențe, dar mecanismele și modurile de eșec diferă foarte mult.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Ele furnizează o unitate de cont familiară pentru activitatea în lanț și un refugiu temporar în momentele fără risc - refugiu ≠ fără riscuri."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Monedele susținute de Fiat se bazează pe rezerve și răscumpărare; cele susținute prin cripto-colateralizare; desenele algoritmice ajustează oferta și s-au dovedit fragile. Termenii de transparență și de răscumpărare contează în stres."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Înghețurile, depeg-urile, versiunile false cu lanțuri încrucișate și învelișurile de randament adaugă straturi de risc. Același ticker pe alt lanț poate fi neoficial."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "USD în numele este marketing, nu asigurare. Concentrarea într-un singur emitent reprezintă riscul de contrapartidă."
+          }
+        ],
+        "keyPoints": [
+          "Monedele stabile sunt instrumente cu risc de emitent/mecanism.",
+          "Rezervele, garanțiile sau algoritmii eșuează diferit.",
+          "Politicile de răscumpărare și înghețare afectează capacitatea de utilizare.",
+          "Verificați întotdeauna contractele oficiale pe lanț."
+        ],
+        "tips": [
+          "Preferați modelele transparente rambursabile pentru dimensiune.",
+          "Diversificați emitenții și locațiile.",
+          "Tratați „randamentul stabil” exagerat ca pe un avertisment."
+        ],
+        "body": "Activele de bază volatile sunt incomode pentru stabilirea prețurilor și contabilității. Monedele stabile oferă o șină asemănătoare unui dolar pentru tranzacționare și remitențe, dar mecanismele și modurile de eșec diferă foarte mult."
+      },
+      {
+        "id": "staking",
+        "title": "Mizați și relocați",
+        "summary": "Obligațiuni pentru a asigura o rețea și, uneori, reutilizați această securitate",
+        "intro": "Proof-of-stake aliniază validatorii cu securitatea lanțului prin miză legată. Jetoanele de miza lichide îmbunătățesc eficiența capitalului; refacerea reutilizează miza pentru servicii suplimentare și stiva riscul de reducere corelat.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "PoS are nevoie de un set de validatori suficient de descentralizat. Recompensele compensează operațiunile și costurile de oportunitate; miza lichidă crește participarea cu noi riscuri contractuale."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Cozile de activare și de ieșire, sarcinile și reducerile definesc jobul. Restabilirea securității delegaților la protocoale suplimentare pentru un randament suplimentar și condiții suplimentare de slash."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Performanța operatorului, diversitatea clienților și riscul de depeg LST contează. Un randament mai mare înseamnă de obicei mai multe modalități de a fi pedepsit."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Locurile de parcare false recoltează aprobări sau semințe. Relocarea nu este o pârghie fără risc pentru ETH."
+          }
+        ],
+        "keyPoints": [
+          "Stakingul plătește pentru munca de securitate.",
+          "Stakingul lichid adaugă straturi de contract/operator.",
+          "Reîncărcarea stivelor reduce condițiile.",
+          "Întârzierile nemijlocite înseamnă că lichiditatea nu este instantanee."
+        ],
+        "tips": [
+          "Alegeți operatori cu antecedente și concentrare scăzută.",
+          "Redimensionarea mărimii pentru a reduce toleranța.",
+          "Intră numai prin link-uri de documentație oficială."
+        ],
+        "body": "Proof-of-stake aliniază validatorii cu securitatea lanțului prin miză legată. Jetoanele de miza lichide îmbunătățesc eficiența capitalului; refacerea reutilizează miza pentru servicii suplimentare și stiva riscul de reducere corelat."
+      },
+      {
+        "id": "perps",
+        "title": "Viitoarele perpetue",
+        "summary": "Piețe cu efect de levier care nu expiră, ancorate de ratele de finanțare",
+        "intro": "Perps permite comercianților să facă lung/short cu marjă și fără expirare. Locurile din lanț codifică marja și lichidările în sisteme de cod sau hibride. Upside este amplificat, la fel și calea către viteza zero.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Numai Spot nu poate exprima eficient gardurile vii. Perps a devenit derivatul dominant al cripto-ului prin eliminarea frecării de rulare."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Transferurile de finanțare între lungi și scurte pentru a lega prețul la un indice. Marja de întreținere declanșează lichidări; fondurile de asigurări pot absorbi deficitele. Oracolele și întreruperile contează în haos."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Levierul, reducerea automată a efectului de levier și acumularea de finanțare determină supraviețuirea. Modelele de custodie CEX și DEX diferă."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "„Pârghia mică este sigură” eșuează în fitil. Incapacitatea de a adăuga marjă din cauza problemelor de gaz/rețea vă poate lichida."
+          }
+        ],
+        "keyPoints": [
+          "Finanțarea înlocuiește expirarea pentru ancorare.",
+          "Mecanica lichidării este existențială.",
+          "Levierul transformă volatilitatea în șanse de eliminare.",
+          "Riscul locativ și oracol se adună pe riscul pieței."
+        ],
+        "tips": [
+          "Implicit la levier scăzut cu marjă de rezervă.",
+          "Reduceți dimensiunea înainte de evenimente; nu răzbuna-adaugă.",
+          "Folosiți locații ale căror reguli le puteți verifica."
+        ],
+        "body": "Perps permite comercianților să facă lung/short cu marjă și fără expirare. Locurile din lanț codifică marja și lichidările în sisteme de cod sau hibride. Upside este amplificat, la fel și calea către viteza zero."
+      },
+      {
+        "id": "rwa",
+        "title": "Tokenizare RWA",
+        "summary": "Aducerea pretențiilor privind fluxurile de numerar din lumea reală pe șine cripto",
+        "intro": "RWA-urile conectează randamentele familiare (cum ar fi titlurile de stat) la decontarea în lanț. Tokenul este la fel de bun ca ambalajele legale, custodia și răscumpărarea — nu doar interfața de utilizare a contractului inteligent.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Randamentul cripto nativ este volatil; instrumentele de numerar tokenizate pot corespunde mai bine nevoilor trezoreriei atunci când structurile sunt solide."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "O entitate autorizată deține active; jetoanele urmăresc revendicările; randamentul este distribuit pe lanț. Listele de permisiuni KYC sunt comune. Prețurile secundare pot diferi de NAV."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Depărtarea falimentului, atestările, răscumpărarea T+N și jurisdicția decid rezultatele stresului. „Vizibil în lanț” ≠ aplicabil automat în afara lanțului."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Riscul de contraparte și de schimbare a reglementărilor stau alături de riscul contractual. Paginile de abonament false abundă."
+          }
+        ],
+        "keyPoints": [
+          "RWA = legal + custodie + instalații sanitare simbol.",
+          "Randamentul provine din activele din afara lanțului.",
+          "Regulile de transfer/răcumparare pot fi limitate.",
+          "Diligența structurii emitentului, nu doar DAE."
+        ],
+        "tips": [
+          "Citiți documentele privind ofertele și rezervați atestările.",
+          "Confirmați că jurisdicția dvs. permite deținerea acestuia.",
+          "Urmăriți ferestrele de răscumpărare și adâncimea secundară."
+        ],
+        "body": "RWA-urile conectează randamentele familiare (cum ar fi titlurile de stat) la decontarea în lanț. Tokenul este la fel de bun ca ambalajele legale, custodia și răscumpărarea — nu doar interfața de utilizare a contractului inteligent."
+      }
+    ]
+  },
+  {
+    "id": "nfts",
+    "name": "NFT-uri",
+    "summary": "Jetoane unice și piețe pentru ele",
+    "blurb": "De la standarde și piețe la cultură, jocuri și active dinamice.",
+    "items": [
+      {
+        "id": "erc721",
+        "title": "ERC-721 și ERC-1155",
+        "summary": "Interfețe standard pentru jetoane unice și semi-fungibile",
+        "intro": "Standardele permit portofelelor și piețelor să vorbească o singură limbă. 721 mapează un ID la un proprietar; 1155 gestionează multe ID-uri și transferuri în loturi, la îndemână pentru jocuri.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Fără standarde, fiecare proiect inventează API-uri personalizate și întrerupe interoperabilitatea. Creatorii câștigă, de asemenea, distribuție pe mai multe piețe."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Proprietatea și transferurile sunt standardizate; metadatele trăiesc adesea la un tokenURI (de obicei IPFS). Aprobarile pot fi per-token sau la nivel de operator."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Metadatele modificabile, fixarea și politica de redevențe influențează durabilitatea și economia. Colecțiile false copiază artă cu diferite contracte – adrese de încredere."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Blind setApprovalForAll către piețe necunoscute este o scurgere clasică. Narațiuni de raritate ≠ lichiditate."
+          }
+        ],
+        "keyPoints": [
+          "Standardele permit interoperabilitatea, nu valoarea intrinsecă.",
+          "Opțiunile de stocare afectează permanența.",
+          "Minimizați aprobările.",
+          "Adresa contractului este verificarea autenticității."
+        ],
+        "tips": [
+          "Verificați contractele oficiale înainte de a cumpăra.",
+          "Revocați operatorii pieței învechite.",
+          "Împărțiți piese de mare valoare în portofelele seifului."
+        ],
+        "body": "Standardele permit portofelelor și piețelor să vorbească o singură limbă. 721 mapează un ID la un proprietar; 1155 gestionează multe ID-uri și transferuri în loturi, la îndemână pentru jocuri."
+      },
+      {
+        "id": "markets",
+        "title": "Piețe NFT",
+        "summary": "Straturi de politică de listare, licitare, decontare și redevențe",
+        "intro": "Piețele potrivesc cumpărătorii și vânzătorii cu fluxul de comenzi în lanț sau hibrid. Agregatorii rutează prin locații. Aplicarea drepturilor de autor este din ce în ce mai mult o politică a pieței, nu o magie pură de protocol.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Creatorii au nevoie de distribuție; colecționarii au nevoie de descoperire și formarea prețurilor. Concurența comprimă taxele și crește așteptările de securitate."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Vânzătorii aprobă transferurile; cumpărătorii se stabilesc. Urmărește înregistrările furate la reduceri imposibile. Agregatorii ajută la preț, dar nu la due diligence."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Taxele, licitațiile escrows, wash trading și ciudateniile încrucișate contează. Diagramele de etaj pot fi manipulate."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Interfețele de utilizare pentru phishing imită piețele de top. Semnăturile Airdrop sunt o momeală comună."
+          }
+        ],
+        "keyPoints": [
+          "Piețele sunt șine, nu garanții de valoare.",
+          "Ofertele și aprobările implică riscuri.",
+          "Regulile privind redevențele variază în funcție de locație.",
+          "Solicitările ultra-scăzute pot fi bunuri furate."
+        ],
+        "tips": [
+          "Marcați domenii oficiale; omiteți anunțurile de căutare.",
+          "Păstrați mărimea ofertei și expirarea conservatoare.",
+          "Acumulați cu grijă în timp."
+        ],
+        "body": "Piețele potrivesc cumpărătorii și vânzătorii cu fluxul de comenzi în lanț sau hibrid. Agregatorii rutează prin locații. Aplicarea drepturilor de autor este din ce în ce mai mult o politică a pieței, nu o magie pură de protocol."
+      },
+      {
+        "id": "pfp",
+        "title": "PFP și culturi NFT",
+        "summary": "Identitatea și apartenența la comunitate înfășurate ca media tranzacționabile",
+        "intro": "NFT-urile cu imagini de profil transformă proprietatea într-un semnal social. Prețul este determinat mai mult de narativ și de lichiditate decât de fluxul de numerar. Tratează-i mai întâi ca pe cultură, în al doilea rând ca speculații.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Numele de utilizator ale platformei sunt închiriate; PFP încearcă identitatea vizuală portabilă și accesul la comunitate — atenția poate genera bani, iar atenția poate pleca."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Monetăria, instrumentele de raritate, Discord/Telegram și tranzacționarea secundară formează bucla. Unele adaugă utilitate; multi nu."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Distribuția titularilor, deblocarea și cărțile subțiri generează riscul de accidentare. Escrocherii de uzurpare a identității sunt constante."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Urmărirea narațiunilor „blue chip” la vârfurile de euforie doare. Nu aveți încredere niciodată în administratorii DM cu semințe."
+          }
+        ],
+        "keyPoints": [
+          "Valoarea este în mare parte socială și narativă.",
+          "Verificați contractele/canalele oficiale.",
+          "Lichiditatea poate dispărea rapid.",
+          "Colectează/socializează; nu tratați drept randament garantat."
+        ],
+        "tips": [
+          "Pândește comunitățile înainte de a cumpăra.",
+          "Ignorați DM-urile airdrop.",
+          "Predefiniți un buget cu pierderi maxime."
+        ],
+        "body": "NFT-urile cu imagini de profil transformă proprietatea într-un semnal social. Prețul este determinat mai mult de narativ și de lichiditate decât de fluxul de numerar. Tratează-i mai întâi ca pe cultură, în al doilea rând ca speculații."
+      },
+      {
+        "id": "gaming-assets",
+        "title": "Activele jocului",
+        "summary": "Articole comercializabile, personaje și terenuri cu drept de proprietate verificabil",
+        "intro": "Jocurile cripto promit că articolele rare rămân ale tale. Buclele distractive, economiile echilibrate și proprietatea reală trebuie să coexiste - sau rămâi cu o coajă speculativă.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Opririle tradiționale șterg stocurile. Piețele deschise și proprietatea verificabilă schimbă așteptările jucătorilor și permit economii UGC."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Hibrizii mențin lupta în timp real în afara lanțului și elimină deficitul în lanț. Prețuri pentru monetări, chiuvete și forme de artizanat; emisiile necontrolate le umfla."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Raporturile producție/scufundări și cheltuitorii contează mai mult decât arta singură. Proprietar ≠ cerut."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Tratarea recompenselor simbolice timpurii ca pe un salariu eșuează pe piețele ursiste. Separați cheile jocului de portofelele seifului."
+          }
+        ],
+        "keyPoints": [
+          "Proprietatea are nevoie de o buclă de joc durabilă.",
+          "Designul economic determina prețurile pe termen lung.",
+          "Hibrizii schimbă puritatea cu performanță.",
+          "Hype retention ≠ retentia jucatorului."
+        ],
+        "tips": [
+          "Joacă înainte de a cumpăra active scumpe.",
+          "Urmărește chiuvete vs emisii.",
+          "Izolați conturile de joc de fondurile principale."
+        ],
+        "body": "Jocurile cripto promit că articolele rare rămân ale tale. Buclele distractive, economiile echilibrate și proprietatea reală trebuie să coexiste - sau rămâi cu o coajă speculativă."
+      },
+      {
+        "id": "tickets",
+        "title": "Bilete și acreditări",
+        "summary": "Drepturi de acces verificabile cu reguli de transfer opționale",
+        "intro": "Biletele și abonamentele sunt despre dovedirea dreptului. Acreditările în lanț pot reduce falsurile și pot permite revânzarea controlată – dacă UX-ul de check-in funcționează efectiv pentru oamenii obișnuiți.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Falsurile de hârtie și scalpingul opac au rănit evenimentele. Biletele digitale verificabile pot lega identitatea sau pot stabili constrângeri de transfer și pot lăsa urme auditabile."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Mint/revendicare la cumpărare; mărcile de scanare pentru valorificare utilizate. Opțiunile legate de suflet reduc vânzările. Confidențialitate/KYC se află adesea în afara lanțului."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Transferabilitatea, atacurile prin capturi de ecran și recuperarea dacă semințele sunt pierdute, toate au nevoie de design. Frecarea portofelului poate exclude publicul."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Monetăria biletelor false și evenimentele abandonate lasă jetoane fără valoare. Nu împărtășiți datele personale cu contracte necunoscute."
+          }
+        ],
+        "keyPoints": [
+          "Valoarea este corectă, nu flip.",
+          "Redemption UX decide amploarea.",
+          "Citiți regulile de transfer înainte de a cumpăra.",
+          "Căile de recuperare contează încă."
+        ],
+        "tips": [
+          "Cumpărați numai prin canalele organizatorilor.",
+          "Testați afișarea portofelului înainte de eveniment.",
+          "Păstrați și e-mailurile de confirmare în afara lanțului."
+        ],
+        "body": "Biletele și abonamentele sunt despre dovedirea dreptului. Acreditările în lanț pot reduce falsurile și pot permite revânzarea controlată – dacă UX-ul de check-in funcționează efectiv pentru oamenii obișnuiți."
+      },
+      {
+        "id": "dynamic",
+        "title": "NFT-uri dinamice",
+        "summary": "Active ale căror trăsături se pot schimba cu starea în lanț sau oracol",
+        "intro": "NFT-urile dinamice actualizează aspectul sau atributele din progresul jocului, timp sau date externe. Se simt vii, dar mutabilitatea trebuie să fie transparentă pentru cumpărători.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Nivelurile de membru și elementele de joc în evoluție au nevoie de stare. Dinamica face ca NFT-urile să fie mai mult decât imaginile statice."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Contractele sau serviciile de metadate actualizează URI-urile de la declanșatori. Dacă metadatele sunt centralizate, dinamica poate deveni editări silentioase."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Cine poate actualiza? Este istoria auditabilă? Piețele trebuie să arate cea mai recentă stare. Cumpărătorii ar trebui să știe ce se poate schimba."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Operatorii ar putea nerf raritate. Greșelile Oracle pot seta forme greșite. „Raritate imuabilă” plus actualizări silențioase ale administratorului este un semnal roșu."
+          }
+        ],
+        "keyPoints": [
+          "Dinamica este o caracteristică și un risc.",
+          "Publicați clar permisiunile de actualizare.",
+          "Modelul de găzduire generează încredere.",
+          "Confirmați cele mai recente caracteristici înainte de tranzacționare."
+        ],
+        "tips": [
+          "Citiți regulile de actualizare și istoricul.",
+          "Preferați mașinile de stare în lanț verificabile.",
+          "Păstrați piese de mare valoare în portofele reci."
+        ],
+        "body": "NFT-urile dinamice actualizează aspectul sau atributele din progresul jocului, timp sau date externe. Se simt vii, dar mutabilitatea trebuie să fie transparentă pentru cumpărători."
+      }
+    ]
+  },
+  {
+    "id": "layer2",
+    "name": "Stratul 2",
+    "summary": "Scalarea rețelelor construite pe Ethereum",
+    "blurb": "Acumulări optimiste/ZK, disponibilitatea datelor, poduri și de ce taxele pot scădea la cenți.",
+    "items": [
+      {
+        "id": "optimistic",
+        "title": "Rollup-uri optimiste",
+        "summary": "Să presupunem că loturile sunt valide; asigurați-le cu o fereastră anti-fraudă",
+        "intro": "Rollup-urile optimiste se execută pe L2, postează date pe Ethereum și presupun corectitudine dacă nu sunt contestate. Utilizatorii obțin UX mai ieftin; ieșirile canonice pot aștepta o perioadă de provocare.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Spațiul bloc L1 este scump. Mutarea execuției în afara lanțului în timp ce ancorarea la L1 reduce costurile. Design-urile optimiste au fost livrate devreme cu compatibilitate puternică EVM."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Un secvențietor comandă tranzacții și publică loturi; rădăcinile de stat se ancorează pe L1. În timpul ferestrei, observatorii pot contesta. Ieșirile rapide folosesc lichiditate terță parte cu ipoteze suplimentare."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Descentralizarea secvenței, disponibilitatea datelor și cheile de actualizare definesc securitatea reală. Viteză UX ≠ descentralizare terminată."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Ignorarea întârzierilor de ieșire face ca prețurile greșite ale lichidității. Site-urile false de poduri cresc oricând tendința L2."
+          }
+        ],
+        "keyPoints": [
+          "Provocați latența comerțului Windows pentru dovezi mai simple de fraudă.",
+          "Securitatea se bazează pe date L1 + jocuri de dispută.",
+          "Podurile canonice sunt mai lente, dar mai clare.",
+          "Timpul de funcționare al secvenței este un risc de experiență."
+        ],
+        "tips": [
+          "Planul L1 iese cu întârzierea în minte.",
+          "Preferați punctele oficiale de intrare în pod.",
+          "Citiți documentele escape-hatch pentru întreruperi ale secvenței."
+        ],
+        "body": "Rollup-urile optimiste se execută pe L2, postează date pe Ethereum și presupun corectitudine dacă nu sunt contestate. Utilizatorii obțin UX mai ieftin; ieșirile canonice pot aștepta o perioadă de provocare."
+      },
+      {
+        "id": "zk",
+        "title": "ZK Rollups",
+        "summary": "Dovezile de valabilitate conving L1 că loturile L2 sunt corecte",
+        "intro": "Dovezile de valabilitate permit L1 să accepte rezultate fără ferestre lungi de fraudă. Demonstrarea este grea din punct de vedere computațional, dar finalitatea poate fi mai rapidă odată ce dovezile ajung.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Scapă fără să te bazezi pe „asumă cinstit dacă nu este contestat”. Decontarea mai rapidă ajută la schimburi și punți."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "L2 execută; probatorii construiesc dovezi; Verificatorii L1 le verifică. Echivalența EVM mai mare ușurează migrarea aplicației."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Sistemele de probă, DA și cheile de actualizare contează în continuare. Branding „ZK” ≠ piețe de testare descentralizate încă."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Pot rămâne probatori/secvențieri centralizați. Bridge-urile și phishingul încă domină pierderile utilizatorilor."
+          }
+        ],
+        "keyPoints": [
+          "Dovezile de valabilitate întăresc garanțiile de corectitudine.",
+          "Costurile de hardware/inginerie influențează taxele și descentralizarea.",
+          "Utilizatorii au nevoie în continuare de igiena pentru pod și portofel.",
+          "Compatibilitatea EVM conduce la portarea ecosistemului."
+        ],
+        "tips": [
+          "Verificați foile de parcurs de descentralizare a doveditorului.",
+          "Testați poduri cu cantități mici.",
+          "Citiți cu atenție designul DA."
+        ],
+        "body": "Dovezile de valabilitate permit L1 să accepte rezultate fără ferestre lungi de fraudă. Demonstrarea este grea din punct de vedere computațional, dar finalitatea poate fi mai rapidă odată ce dovezile ajung."
+      },
+      {
+        "id": "data",
+        "title": "Disponibilitatea datelor",
+        "summary": "Asigurarea că oricine poate obține datele necesare pentru a reconstrui starea",
+        "intro": "Rollup-urile trebuie să permită obținerea datelor privind tranzacțiile. Dacă datele dispar, este posibil ca utilizatorii să nu poată ieși în siguranță. Bloburile au redus costurile Ethereum DA și au ajutat la comprimarea taxelor L2.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Dovezile fără date pot încă prinde utilizatorii. Unde se află datele – și cât de costisitoare sunt acestea – se află în centrul dezbaterilor de extindere."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Datele pot sta în calldata/blob-uri Ethereum sau în straturi DA externe, adesea cu codare de eșantionare/ștergere. Moștenirea securității diferă în funcție de design."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "„Decontat la Ethereum” nu este identic cu „DA este egal cu garanțiile Ethereum complete”. Scăderile taxelor urmăresc adesea DA mai ieftin."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Subestimarea modurilor de eroare DA este periculoasă. Marketingul poate estompa soluționarea față de disponibilitate."
+          }
+        ],
+        "keyPoints": [
+          "Fără DA, autosalvarea slăbește.",
+          "Upgrade-urile din era blob au modificat curbele taxelor L2.",
+          "Alegerile DA poartă ipoteze distincte.",
+          "Judecă împreună taxele, siguranța și descentralizarea."
+        ],
+        "tips": [
+          "Citiți fiecare secțiune DA a L2.",
+          "Păstrați la îndemână notele oficiale ale trapei de evacuare.",
+          "Nu clasați lanțurile numai după TPS."
+        ],
+        "body": "Rollup-urile trebuie să permită obținerea datelor privind tranzacțiile. Dacă datele dispar, este posibil ca utilizatorii să nu poată ieși în siguranță. Bloburile au redus costurile Ethereum DA și au ajutat la comprimarea taxelor L2."
+      },
+      {
+        "id": "bridges-l2",
+        "title": "L2 Poduri",
+        "summary": "Căi canonice față de terțe părți între L1 și L2",
+        "intro": "Punțile canonice moștenesc reguli de acumulare și pot fi lente; podurile terțe vând viteză cu un plus de încredere. Alegerea interfeței de utilizare greșită este un model de pierdere maximă.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Aveți nevoie de fonduri pe L2 pentru UX ieftin sau înapoi pe L1 pentru decontare. Utilizatori diferiți aleg diferite puncte de încredere/latență."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Podurile oficiale creditează soldurile L2 după depunere și ieșire conform regulilor de acumulare. Punte rapide de lichiditate frontală și reechilibrare mai târziu - comisioane de urmărire și limite."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Autenticitatea domeniului, posibilitatea de actualizare, limitele și căile de rambursare contează. Mai rapid înseamnă de obicei mai multe contrapărți."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Domenii false de anunțuri de căutare. Îndepărtarea versiunii de token greșită generează lichidități. Cheltuirea fondurilor încă în ferestrele de provocare marchează greșit riscul."
+          }
+        ],
+        "keyPoints": [
+          "Punțile canonice se potrivesc cel mai bine cu ipotezele acumulate.",
+          "Podurile rapide schimbă încrederea pentru timp.",
+          "Verificarea domeniului este obligatorie.",
+          "Teste mici înainte de dimensiune."
+        ],
+        "tips": [
+          "Faceți clic pe poduri de pe site-ul propriu al L2.",
+          "Salvați hash-urile tx pentru suport/depanare.",
+          "Evitați podurile noi-nouțe neauditate pentru dimensiune."
+        ],
+        "body": "Punțile canonice moștenesc reguli de acumulare și pot fi lente; podurile terțe vând viteză cu un plus de încredere. Alegerea interfeței de utilizare greșită este un model de pierdere maximă."
+      },
+      {
+        "id": "accounts-aa",
+        "title": "Abstracția contului",
+        "summary": "Portofele cu contracte inteligente cu recuperare, limite și gaz sponsorizat",
+        "intro": "EOA clasice înseamnă fraze de bază și gaz auto-plătit. AA permite portofelelor să definească logica de verificare – tutori, chei de sesiune, loturi, plătitori – astfel încât integrarea se simte mai aproape de Web2 fără a renunța complet la auto-custodia.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Semințele îi sperie pe nou-veniți; jetoanele de gaz îi încurcă. AA reduce frecarea, păstrând în același timp un control verificabil. dApps obțin mai puține ferestre pop-up prin sesiuni și loturi."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Operațiunile utilizatorului sunt incluse în lanț; plătitorii pot sponsoriza taxe. Contractele de portofel impun politicile. Standarde precum ERC-4337 variază în funcție de maturitatea lanțului."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Cine sunt gardienii? Recuperarea este centralizată? Permisiunile sesiunii sunt prea largi? Misconfig încă pierde fonduri."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "„Fără sămânță” ≠ fără risc – canalele de recuperare pot fi atacate. Există puncte finale rău intenționate pentru bundler/paymaster. Sesiunile către dApps necunoscute sunt periculoase."
+          }
+        ],
+        "keyPoints": [
+          "AA codifică politica în portofelele contractuale.",
+          "Gazul sponsorizat și recuperarea socială sunt principalele câștiguri UX.",
+          "Configurația alege securitatea reală.",
+          "Phishingul funcționează în continuare dacă aprobi orbește."
+        ],
+        "tips": [
+          "Alegeți diverse gardieni și dispozitive.",
+          "Numai chei de sesiune limitate, de scurtă durată.",
+          "Păstrați hardware/multiig pentru seifuri."
+        ],
+        "body": "EOA clasice înseamnă fraze de bază și gaz auto-plătit. AA permite portofelelor să definească logica de verificare – tutori, chei de sesiune, loturi, plătitori – astfel încât integrarea se simte mai aproape de Web2 fără a renunța complet la auto-custodia."
+      },
+      {
+        "id": "multi-chain",
+        "title": "Realitate cu mai multe lanțuri",
+        "summary": "Lichiditatea și utilizatorii se fragmentează în multe domenii de decontare",
+        "intro": "Puțini oameni trăiesc acum într-un singur lanț. Jetoanele de gaz, podurile și implementările aplicațiilor diferă. Rezolvatorii de intenții ascund căi, dar totuși trebuie să știi unde stau fondurile.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Un singur lanț nu poate optimiza fiecare nișă de taxe/performanță. Mai multe opțiuni înseamnă, de asemenea, mai multe modalități de a alege rețeaua greșită."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Portofelele comută RPC/ID lanț; aceeași adresă poate deține active diferite pentru fiecare lanț EVM. Podurile și mesajele conectează stările; rezolvatorii concurează pentru a completa intențiile."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Autenticitatea ID-ului de lanț, RPC-urile false și contractele de token pe lanț sunt arme zilnice. Echilibrul zero înseamnă adesea o rețea greșită selectată."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "RPC-urile personalizate rău intenționate înșală semnăturile. Punerea ferestrelor adaugă riscuri. Răspândirea fondurilor de neînlocuit în zece noi L2 reprezintă o datorie operațională."
+          }
+        ],
+        "keyPoints": [
+          "Multi-lanțul este normal - verificați întotdeauna rețelele.",
+          "Aceeași adresă ≠ aceleași solduri peste tot.",
+          "Intențiile ascund complexitatea; nu șterg riscul de punte.",
+          "Mai puține lanțuri active reduc greșelile."
+        ],
+        "tips": [
+          "Etichetați clar rețelele în portofel.",
+          "Captură de ecran/verificați numele rețelei înainte de a trimite.",
+          "Aflați ieșirile înainte de a depune într-un lanț nou."
+        ],
+        "body": "Puțini oameni trăiesc acum într-un singur lanț. Jetoanele de gaz, podurile și implementările aplicațiilor diferă. Rezolvatorii de intenții ascund căi, dar totuși trebuie să știi unde stau fondurile."
+      },
+      {
+        "id": "costs",
+        "title": "De ce taxele L2 pot fi cenți",
+        "summary": "Loturile și datele mai ieftine amortizează costurile L1 pentru mulți utilizatori",
+        "intro": "Pe L1 aglomerat licitați pentru spațiu limitat în bloc. L2-urile împachetează multe tx-uri, astfel încât fiecare utilizator să plătească o parte din costul de date/dovare partajat – adesea până la cenți.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Taxele mari blochează microplățile și buclele de joc. Taxele mai mici permit oamenilor obișnuiți să folosească aplicații, nu doar să urmărească diagrame."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Execuția are loc pe L2; rezumate hit L1. DA din era Blob reduce costurile unitare. L2s pot încă congestiona, de obicei mult sub vârfurile L1. Taxele pont și derapajul sunt elemente rând separate."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Ieftin ≠ la fel de descentralizat. Politica privind taxele de secvențiere modelează UX. Aprobările în mai mulți pași se adună în continuare."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "A risca o escrocherie pentru a economisi doi dolari este irațional. Evenimentele de stres agravează atât taxele, cât și timpii de ieșire."
+          }
+        ],
+        "keyPoints": [
+          "Amortizare + compresie mai ieftină a taxei de unitate DA.",
+          "Congestia L2 există la o scară diferită.",
+          "Costul total include podul, alunecarea și timpul.",
+          "Siguranța bate economisirea bănuților."
+        ],
+        "tips": [
+          "Includeți taxele de pod atunci când comparați rutele.",
+          "Așteptați vârfurile pentru acțiuni non-urgente.",
+          "Păstrați puțin L1 ETH ca combustibil de evacuare."
+        ],
+        "body": "Pe L1 aglomerat licitați pentru spațiu limitat în bloc. L2-urile împachetează multe tx-uri, astfel încât fiecare utilizator să plătească o parte din costul de date/dovare partajat – adesea până la cenți."
+      }
+    ]
+  },
+  {
+    "id": "infra",
+    "name": "Infrastructură",
+    "summary": "Oracole, stocare, indexare și instrumente de dezvoltare",
+    "blurb": "Țevile invizibile care alimentează portofelele, DeFi și UX mai sigur.",
+    "items": [
+      {
+        "id": "oracles",
+        "title": "Oracole",
+        "summary": "Poduri care aduc fapte în afara lanțului în contractele inteligente",
+        "intro": "Contractele nu pot vedea doar prețurile de schimb sau scorurile din lumea reală. Oracles adună date externe pentru lichidări, criminali și asigurări. Când eșuează, urmează cascade.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Blockchain-urile se izolează pentru determinism, dar finanțele au nevoie de intrări. Oracolele echilibrează prospețimea cu integritatea — fără ele, cele mai multe opriri DeFi."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Sursele se adună, valorile aberante scad, actualizările împing o bataie sau cerere. Unele modele pun în miză și tăiați reporterii răi. Întreruptoarele contează în haos."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Piețele subțiri sunt mai ușor de manipulat pentru creditele neperformante. Mesajele încrucișate sunt și ele probleme de încredere asemănătoare unui oracol."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "A avea „un oracol” ≠ invulnerabilitate. Prețurile învechite, zecimale greșite și furajele întrerupte toate mușcă."
+          }
+        ],
+        "keyPoints": [
+          "Oracolele sunt linia de salvare a DeFi.",
+          "Judecă sursele, agregarea și actualizarea regulilor.",
+          "Activele ilichide sunt mai ușor de falsificat.",
+          "Întrerupătoarele de protocol reduc raza exploziei."
+        ],
+        "tips": [
+          "Aflați ce hrană și bătăile inimii folosește un protocol.",
+          "Reduceți acțiunile sensibile la precizie în condiții de volatilitate extremă.",
+          "Evitați modelele cu o singură sursă pentru dimensiune."
+        ],
+        "body": "Contractele nu pot vedea doar prețurile de schimb sau scorurile din lumea reală. Oracles adună date externe pentru lichidări, criminali și asigurări. Când eșuează, urmează cascade."
+      },
+      {
+        "id": "rpc",
+        "title": "RPC și noduri",
+        "summary": "Cum citesc portofelele starea lanțului și difuzează tranzacțiile",
+        "intro": "Portofelele vorbesc cu blockchain-uri prin punctele finale RPC. RPC-urile publice sunt ușoare, dar pot limita rata, pot fi înregistrate sau pot fi schimbate cu phishing. Înțelegerea RPC ajută la depanarea „echilibrului greșit” și a tx-urilor blocate.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Nu toată lumea rulează un nod complet. RPC-urile expun capabilitățile nodurilor ca API-uri, păstrând în același timp opțiunea de auto-găzduire."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Aplicațiile trimit apeluri JSON-RPC pentru a interoga starea sau trimit tx-uri brute. Furnizorii diferă în ceea ce privește adâncimea arhivei, confidențialitate și fiabilitate."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "RPC-urile rău intenționate pot afișa solduri false sau pot cenzura txs. Semnarea rămâne locală, dar datele proaste vă pot păcăli în continuare. Verificați ID-urile lanțului când adăugați rețele."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Un singur clic pe „adăugați rețea” de pe site-uri umbrite este riscant. Întreruperile publice nu sunt întotdeauna erori de portofel. Nu introduceți niciodată secrete RPC în front-end-uri publice."
+          }
+        ],
+        "keyPoints": [
+          "RPC este ușa de citire/scriere.",
+          "Semnarea locală ≠ stare afișată de încredere.",
+          "Verificați încrucișați acțiunile critice ale exploratorilor.",
+          "Nodurile private/auto-găzduite îmbunătățesc confidențialitatea/fiabilitatea."
+        ],
+        "tips": [
+          "Păstrați două copii de siguranță RPC de încredere.",
+          "Pe solduri ciudate, comutați nodurile sau folosiți un explorator.",
+          "Introduceți manual parametrii oficiali de rețea."
+        ],
+        "body": "Portofelele vorbesc cu blockchain-uri prin punctele finale RPC. RPC-urile publice sunt ușoare, dar pot limita rata, pot fi înregistrate sau pot fi schimbate cu phishing. Înțelegerea RPC ajută la depanarea „echilibrului greșit” și a tx-urilor blocate."
+      },
+      {
+        "id": "indexers",
+        "title": "Indexatori",
+        "summary": "Transformarea jurnalelor brute în API-uri de produs interogabile",
+        "intro": "Scanarea întregului lanț pentru fiecare UI este lentă. Indexatorii ingerează evenimente în bazele de date, astfel încât portofoliile și clasamentele să pară instantanee – majoritatea vizualizărilor „istoric” provin din indici, nu din scanări complete live.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Produsele au nevoie de interogări filtrate la viteza internetului. Analiștii și roboții se bazează pe același strat."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Definiți o schemă, procesați jurnalele, stocați, serviți GraphQL/REST. Întreruperile arată interfața de utilizare învechită. Rețelele de indexare descentralizate stimulează mai mulți operatori."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "UI poate întârzia starea lanțului real. Actualizările necesită actualizări de indexare. Nu lichidați doar pe baza unui tablou de bord - verificați în lanț."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Indicii corupți induc comercianții în eroare. Site-urile „de portofoliu” de phishing imită tablouri de bord reale."
+          }
+        ],
+        "keyPoints": [
+          "Indexează interogările rapide; nu sunt consens.",
+          "Datele UI pot fi învechite.",
+          "Exploratorii/contractele sunt sursa de adevăr pentru mișcările critice.",
+          "Defecțiunile indexatorului arată ca erori de protocol."
+        ],
+        "tips": [
+          "Verifică din nou anomaliile pe un explorator.",
+          "Așteptați-vă la întârziere după upgrade-uri majore.",
+          "Monitorizarea serioasă poate citi direct nodurile."
+        ],
+        "body": "Scanarea întregului lanț pentru fiecare UI este lentă. Indexatorii ingerează evenimente în bazele de date, astfel încât portofoliile și clasamentele să pară instantanee – majoritatea vizualizărilor „istoric” provin din indici, nu din scanări complete live."
+      },
+      {
+        "id": "storage",
+        "title": "Stocare descentralizată",
+        "summary": "Rețele adresate de conținut pentru fișiere și metadate NFT",
+        "intro": "Stocarea fișierelor mari pe L1 este costisitoare, astfel încât media se află adesea pe sisteme IPFS/Arweave. Hasheurile asigură integritatea, dar disponibilitatea online necesită încă fixare sau permanență plătită.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Serverele centrale pot șterge mediile NFT. Stocarea descentralizată îmbunătățește durabilitatea și rezistența la cenzură pentru aplicații și seturi de date."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Fișierele primesc ID-uri de conținut; nodurile sunt preluate prin hash. IPFS necesită fixare; unele rețele pun accentul pe permanența plății o singură dată. Gateway-urile HTTP ajută browserele, dar adaugă încredere în gateway."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "TokenURI-urile centralizate modificabile subminează povestea. Faceți backup pentru hash-uri importante de metadate."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "„Pe IPFS” ≠ nemuritor dacă nimic nu îl fixează. Gateway-urile rău intenționate pot injecta scripturi. Verificați hashurile înainte de a rula fișierele binare."
+          }
+        ],
+        "keyPoints": [
+          "Adresarea conținutului previne editările silențioase, nu neglijarea.",
+          "Durabilitatea NFT depinde de fixare/plată.",
+          "URI-urile de administrator modificabile sunt un semnal roșu.",
+          "Gateway-urile sunt convenabile pentru un plus de încredere."
+        ],
+        "tips": [
+          "Fixați singuri metadatele pentru NFT-uri de mare valoare.",
+          "Verificați CID-urile oficiale.",
+          "Dezvoltatorii ar trebui să prefere metadatele imuabile."
+        ],
+        "body": "Stocarea fișierelor mari pe L1 este costisitoare, astfel încât media se află adesea pe sisteme IPFS/Arweave. Hasheurile asigură integritatea, dar disponibilitatea online necesită încă fixare sau permanență plătită."
+      },
+      {
+        "id": "mev",
+        "title": "MEV",
+        "summary": "Valoare care poate fi extrasă din comandarea și includerea tranzacțiilor",
+        "intro": "Constructorii și cei care caută pot reordona sau insera tx-uri - sandvișuri, curse de lichidare și multe altele. Utilizatorii îl simt ca o alunecare toxică; protocoalele răspund cu licitații și flux privat.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Mempool-urile publice expun schimburile mari către prădători. Înțelegerea MEV explică setările de derapaj și opțiunile de trimitere privată."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Căutătorii găsesc oportunități; constructorii impacheteaza blocuri; propunătorii publică. Unele lanțuri redistribuie MEV către stakers. Sandvișurile vă înfășoară comerțul pentru a înrăutăți prețul."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Limitele de alunecare, releele private, licitațiile pe lot și intențiile atenuează daunele. Secvențierele L2 pot extrage și MEV."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Nu orice umplere proastă este MEV - alunecarea largă este auto-provocată. Evitați extensiile „anti-MEV” incomplete."
+          }
+        ],
+        "keyPoints": [
+          "MEV provine din fluxul public ordonabil.",
+          "Utilizatorii atenuează prin alunecare și căi private.",
+          "Proiectarea protocolului realocează MEV.",
+          "Tratează-l ca pe o realitate inginerească."
+        ],
+        "tips": [
+          "Împărțiți schimburile mari și strângeți alunecarea.",
+          "Utilizați portofele/routere cu opțiuni private.",
+          "Evitați comenzile uriașe de pe piață în vârful haosului."
+        ],
+        "body": "Constructorii și cei care caută pot reordona sau insera tx-uri - sandvișuri, curse de lichidare și multe altele. Utilizatorii îl simt ca o alunecare toxică; protocoalele răspund cu licitații și flux privat."
+      },
+      {
+        "id": "sdks",
+        "title": "Instrumente pentru dezvoltatori",
+        "summary": "Testare cadre, biblioteci și kituri de cont care ridică nivelul de siguranță",
+        "intro": "Siguranța ecosistemului depinde de teste în stil Foundry/Hardhat, biblioteci tipizate, simulare și kituri de conturi — nu numai auditori. Instrumente mai bune prinde erori mai devreme și ajută portofelele să explice semnăturile.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Implementările manuale eșuează. Contractele netestate sunt bombe cu ceas. SDK-urile front-end unifică conexiunea cu mai multe lanțuri și gestionarea erorilor."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Testele forked, fuzzing, implementarea scripturilor, monitorizarea și SDK-urile AA formează bucla. Simularea înainte de semnare arată diferențele dintre active."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Dependențe învechite poartă CVE-uri cunoscute. Atacurile din lanțul de aprovizionare au lovit pachetele „sigure”. Utilizatorii ar trebui să prefere portofele cu semnătură clară."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Copierea și lipirea mostrelor neauditate pe rețeaua principală este nesăbuită. Extensiile false „instrumente de dezvoltare” fură chei."
+          }
+        ],
+        "keyPoints": [
+          "Instrumentul este o infrastructură de securitate invizibilă.",
+          "Simulați bani înainte de mainnet.",
+          "Igiena dependenței este o muncă de securitate.",
+          "Semnarea clară reduce succesul phishingului utilizatorului."
+        ],
+        "tips": [
+          "Dezvoltatori: furk-test căi critice.",
+          "Utilizatori: activați simularea.",
+          "Instalați extensii numai din surse oficiale."
+        ],
+        "body": "Siguranța ecosistemului depinde de teste în stil Foundry/Hardhat, biblioteci tipizate, simulare și kituri de conturi — nu numai auditori. Instrumente mai bune prinde erori mai devreme și ajută portofelele să explice semnăturile."
+      },
+      {
+        "id": "identity",
+        "title": "Identitate în lanț",
+        "summary": "Nume lizibile, atestări și reputație pentru coordonarea umană",
+        "intro": "Adresele lungi sunt ușor de scris greșit. Sistemele de nume mapează etichetele umane la înregistrări; protocoalele de atestare emit revendicări precum calitatea de membru. Utilizabilitatea crește – la fel și problemele de confidențialitate și uzurpare a identității.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Plăți și nevoi sociale mânere memorabile. Numele reduc greșelile de transfer și acționează ca cărți de vizită Web3. Reputația ajută anti-Sybil cu compromisuri privind confidențialitatea."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Înregistrați un nume, setați înregistrări, opțional adunați atestări semnate. Unele acreditări sunt legate de suflet."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Numele expiră; înregistrările se schimbă. Același șir se poate rezolva diferit în lanțuri. Separați adresele de identitate de seifuri."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Domeniile de uzurpare a identității fură fonduri. Legarea fiecărei acreditări la o singură adresă doxxable te supraexpune."
+          }
+        ],
+        "keyPoints": [
+          "Numele sunt un nivel de rezoluție, nu o garanție bancară.",
+          "Verificați întotdeauna adresele rezolvate înainte de a trimite.",
+          "Atestările ajută la coordonarea cu costurile de confidențialitate.",
+          "Împărțiți identitatea publică de adresele seifului."
+        ],
+        "tips": [
+          "Confirmați rezoluția la trimitere.",
+          "Setați mementouri de expirare.",
+          "Utilizați o adresă de valoare mică pentru rețelele sociale publice."
+        ],
+        "body": "Adresele lungi sunt ușor de scris greșit. Sistemele de nume mapează etichetele umane la înregistrări; protocoalele de atestare emit revendicări precum calitatea de membru. Utilizabilitatea crește – la fel și problemele de confidențialitate și uzurpare a identității."
+      },
+      {
+        "id": "aa-infra",
+        "title": "Bundlers & Paymasters",
+        "summary": "Sine backend care împachetează UserOperations și sponsorizează gaz",
+        "intro": "Fără pachete, UserOperations se luptă să aterizeze; fără plătitori, sponsorizarea gazelor și „plătiți cu orice simbol” sunt dificile. Infra AA configurată greșit devine suprafață de întrerupere sau de abuz.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Utilizatorilor nu le place să dețină jetonul de gaz al fiecărui lanț. Aplicațiile vor să sponsorizeze primele acțiuni. Infrastructura permite acele politici de produse cu bugete și liste permise."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Portofelele construiesc UserOperations; bundlerii simulează și trimit; EntryPoint execută; fondul paymasters pe poliță cu limite de rate."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Sponsorizarea este legată de anumite contracte? Poate fi cultivat? Vor cenzura bundlerii? Descentralizarea afectează rezistența."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Punctele finale rău intenționate și sesiunile largi rămase după campanii reprezintă riscuri. Fără gaz ≠ fără aprobare."
+          }
+        ],
+        "keyPoints": [
+          "AA UX depinde de bundlers/paymasteri de încredere.",
+          "Sponsorizarea necesită reguli anti-abuz.",
+          "Alegerea punctului final afectează confidențialitatea și cenzura.",
+          "Utilizatorii trebuie să citească în continuare semnăturile."
+        ],
+        "tips": [
+          "Respectați punctele finale de încredere implicite pentru portofel.",
+          "Revocați sesiunile după campanii.",
+          "Tratează lipsa de gaze surpriză ca fiind suspectă."
+        ],
+        "body": "Fără pachete, UserOperations se luptă să aterizeze; fără plătitori, sponsorizarea gazelor și „plătiți cu orice simbol” sunt dificile. Infra AA configurată greșit devine suprafață de întrerupere sau de abuz."
+      }
+    ]
+  },
+  {
+    "id": "wallets",
+    "name": "Portofele",
+    "summary": "Aplicații și dispozitive care dețin cheile dvs",
+    "blurb": "Portofele calde/reci, semințe, modele multisig și custodie explicate.",
+    "items": [
+      {
+        "id": "hot",
+        "title": "Portofele fierbinți",
+        "summary": "Portofele software conectate pentru solduri mici de zi cu zi",
+        "intro": "Browserul și portofelele mobile fac dApps instant. Comoditatea extinde suprafața de atac: site-uri rău intenționate, extensii false, programe malware pentru clipboard, telefoane pierdute. Tratează-le ca niște conturi curente, nu economii de viață.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Portofelele reci sunt stângace pentru DeFi de înaltă frecvență. Portofelele fierbinți învață rapid semnarea și schimbarea rețelei."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Cheile sunt criptate pe dispozitiv; deblocare local; difuzat prin RPC. Conectarea unei dApp partajează o adresă, nu cheia, dar semnăturile periculoase încă se scurg."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Împărțiți cheltuielile față de conturile de economii. Revizuiți indemnizațiile. Biometria protejează deblocarea aplicației, nu recuperarea în lanț."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "APK-urile încărcate lateral, paginile de „sincronizare” de bază și computerele publice sunt erori clasice."
+          }
+        ],
+        "keyPoints": [
+          "Portofelele fierbinți optimizează confortul.",
+          "Păstrați acolo doar fonduri tolerante la pierderi.",
+          "Semnăturile/aprobările reprezintă principalul pericol.",
+          "Strat cu depozitare la rece."
+        ],
+        "tips": [
+          "Descărcați numai de pe canalele oficiale.",
+          "Utilizați un profil de browser dedicat pentru cripto.",
+          "Auditează săptămânal aprobările jetonelor."
+        ],
+        "body": "Browserul și portofelele mobile fac dApps instant. Comoditatea extinde suprafața de atac: site-uri rău intenționate, extensii false, programe malware pentru clipboard, telefoane pierdute. Tratează-le ca niște conturi curente, nu economii de viață."
+      },
+      {
+        "id": "hardware",
+        "title": "Portofele hardware",
+        "summary": "Cheile într-un cip securizat cu confirmare de pe dispozitiv",
+        "intro": "Portofelele hardware păstrează cheile private de pe computerul infectat. Încă trebuie să citiți ecranul dispozitivului - semnarea oarbă sau firmware-ul umbrit pot depăși cel mai bun cip.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Exploatațiile mari și pe termen lung au nevoie de o izolare mai puternică. Confirmarea fizică ridică ștacheta pentru furtul de la distanță. Echipele le folosesc ca comenzi de bază ale seifului."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Gazda construiește un tx; dispozitivul afișează un rezumat; aprobi; semnătura se întoarce pentru difuzare. Semințele generate la init sunt de rezervă. Actualizările de firmware trebuie să fie oficiale."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Cumpărați dispozitive autentice; cunoașteți politicile de semnare oarbă pe lanț. Pierderea dispozitivului este bine dacă sămânța este în siguranță; pierderea sămânței nu este."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Dispozitivele la mâna a doua manipulate, site-urile web „verificatoare” care solicită semințe și OK-fără citire sunt moduri de eșec."
+          }
+        ],
+        "keyPoints": [
+          "Izolarea hardware blochează multe furturi de chei de la distanță.",
+          "Verificarea ecranului este încă în sarcina dvs.",
+          "Backup-ul semințelor este egal cu importanța dispozitivului.",
+          "Lanțul de aprovizionare și igiena firmware-ului contează."
+        ],
+        "tips": [
+          "Cumpărați de la comerțul oficial/reputabil.",
+          "Testați cu transferuri mici după configurare.",
+          "Potriviți adresele complete de pe dispozitiv pentru dimensiune."
+        ],
+        "body": "Portofelele hardware păstrează cheile private de pe computerul infectat. Încă trebuie să citiți ecranul dispozitivului - semnarea oarbă sau firmware-ul umbrit pot depăși cel mai bun cip."
+      },
+      {
+        "id": "seed",
+        "title": "Expresii semințe",
+        "summary": "Backup-uri care pot fi citite de om care regenerează cheile portofelului",
+        "intro": "12/24 de cuvinte nu sunt o parolă de conectare – sunt secretul principal care recreează cheile. Oricine are cuvintele poate goli portofelele în altă parte. Niciun agent de asistență real nu are nevoie de semințele dvs. pentru a vă „verifica”.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Dispozitivele mor. Seeds vă permit să restaurați aceleași conturi în altă parte într-o formă care poate fi scrisă offline."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "BIP-39 transformă entropia în cuvinte ordonate care derivă relatări. Ordinea greșită nu reușește restaurarea. Frazele de acces opționale adaugă risc de securitate și de uitare."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Fotografiile, sincronizarea în cloud și chatul sunt nesigure. Suporturile metalice bat hârtia împotriva focului/apă. Backup-urile în mai multe locații trebuie să echilibreze furtul și pierderea totală."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Paginile de phishing „sincronizare portofel” și asistența falsă sunt ucigașe de top. Introducerea unei semințe pe orice site web este o urgență."
+          }
+        ],
+        "keyPoints": [
+          "Sămânța este atuul.",
+          "Păstrați-l offline pentru totdeauna.",
+          "Fluxurile legitime nu o cer niciodată.",
+          "Redundanță de proiectare atât împotriva incendiului, cât și împotriva furtului."
+        ],
+        "tips": [
+          "Scrieți de mână și verificați din nou ordinea cuvintelor.",
+          "Nu stocați niciodată în fotografii sau e-mail.",
+          "Planificați în mod deliberat moștenirea."
+        ],
+        "body": "12/24 de cuvinte nu sunt o parolă de conectare – sunt secretul principal care recreează cheile. Oricine are cuvintele poate goli portofelele în altă parte. Niciun agent de asistență real nu are nevoie de semințele dvs. pentru a vă „verifica”."
+      },
+      {
+        "id": "multisig",
+        "title": "Multisig",
+        "summary": "Conturi partajate care necesită aprobări M-of-N",
+        "intro": "Multisig transformă „un phishing pierde totul” în „mai multe persoane trebuie să fie de acord”. Ideal pentru trezorerie și familii. Îndepărtează punctele de defecțiune unice și adaugă coordonarea generală.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Seifurile cu o singură cheie mor într-o singură greșeală. Multisig forțează atacatorii să compromită mai mulți semnatari și codifică separarea puterilor."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Un contract sau o schemă nativă stabilește pragul și proprietarii. Propune → colectează semnături → execută. Rotația semnatarului și modulele au nevoie de îngrijire egală."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Diverse dispozitive înving malware-ul corelat. Fonduri de cărămidă cu praguri prea mari; pragurile prea scăzute slăbesc securitatea. Modulele de urgență pot fi uși din spate."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Toți semnatarii dintr-un browser fierbinte, care nu repetă niciodată recuperarea și phishingul la Safe UI sunt eșecuri comune."
+          }
+        ],
+        "keyPoints": [
+          "Multisig răspândește riscul cheie și riscul de decizie.",
+          "Designul pragului stabilește disponibilitatea față de siguranță.",
+          "Repetați semnarea și înlocuirea.",
+          "Marcați interfețele oficiale."
+        ],
+        "tips": [
+          "Utilizați diverse dispozitive/OS pentru semnături.",
+          "Rulați un mic burghiu trimestrial.",
+          "Pașii de înlocuire a semnatarului pierdut."
+        ],
+        "body": "Multisig transformă „un phishing pierde totul” în „mai multe persoane trebuie să fie de acord”. Ideal pentru trezorerie și familii. Îndepărtează punctele de defecțiune unice și adaugă coordonarea generală."
+      },
+      {
+        "id": "smart-accounts",
+        "title": "Conturi inteligente",
+        "summary": "Portofele programabile cu limite, gardieni, loturi și sesiuni",
+        "intro": "Politica de codificare a conturilor inteligente: limite zilnice, liste permise, recuperare și apeluri în lot. Mai multă flexibilitate decât EOA – și mai multe modalități de a configura greșit modulele.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "EOA sunt totul sau nimic. Conturile inteligente permit privilegii scăzute de zi cu zi, cu o analiză suplimentară de mare valoare, creând o punte către UX fără semințe."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Logic trăiește într-un contract cu validatoare conectabile, adesea asociate cu bundleri/paymasteri AA. Upgrade-urile modulelor trebuie să fie protejate."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Privilegiul minim, auditurile și căile de recuperare testate contează. Aflați cine poate face upgrade înainte de a-l numi seif."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Pluginurile aleatorii neauditate, gardienii naivi și conturile inteligente care cred că opresc orice tip de phishing sunt greșeli."
+          }
+        ],
+        "keyPoints": [
+          "Conturile inteligente sunt auto-custodie bazată pe politici.",
+          "Flexibilitatea extinde suprafața de atac.",
+          "Drepturile la modul/upgrade reprezintă securitatea de bază.",
+          "Obiceiurile încă contează."
+        ],
+        "tips": [
+          "Dezactivați pluginurile neutilizate.",
+          "Blocați în timp schimbările mari de politică.",
+          "Scrieți și repetați runbook-uri de recuperare."
+        ],
+        "body": "Politica de codificare a conturilor inteligente: limite zilnice, liste permise, recuperare și apeluri în lot. Mai multă flexibilitate decât EOA – și mai multe modalități de a configura greșit modulele."
+      },
+      {
+        "id": "custody",
+        "title": "Modele de custodie",
+        "summary": "Cine deține cheile controlează eficient bunurile",
+        "intro": "Custozii tranzacționează resetarea parolei și suport pentru riscul de contrapartidă. Auto-custodia schimbă suveranitatea cu riscul operațiunilor personale. Majoritatea oamenilor le amestecă pe ambele: tranzacționați pe platforme, economisiți în portofele.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Obiectivele diferite necesită modele de risc diferite. Auto-custodia pură îi sperie pe începători; custodia pură doare în defecțiunile platformei."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Soldurile de custodie sunt adesea registre interne până la retragere. Auto-custodia transmite fiecare mișcare. Depozitorii reglementați pot atesta rezerve – încă nu riscul zero."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Înghețurile, cozile, jurisdicția și calitatea dovadă a rezervelor contează. Eșecurile de auto-custodie arată ca semințe pierdute și semnături proaste."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "„Prea mare pentru a eșua” a eșuat în mod repetat. Depozitarea unei semințe într-un caiet de schimb nu este auto-custodia."
+          }
+        ],
+        "keyPoints": [
+          "Locația cheii definește controlul.",
+          "Comoditatea vs suveranitatea este comerțul.",
+          "Alocările hibride sunt pragmatice.",
+          "Fiecare model eșuează diferit."
+        ],
+        "tips": [
+          "Retrageți pungile pe termen lung în auto-custodie.",
+          "Preferați locurile transparente.",
+          "Practicați mai întâi auto-custodia cu dimensiuni mici."
+        ],
+        "body": "Custozii tranzacționează resetarea parolei și suport pentru riscul de contrapartidă. Auto-custodia schimbă suveranitatea cu riscul operațiunilor personale. Majoritatea oamenilor le amestecă pe ambele: tranzacționați pe platforme, economisiți în portofele."
+      }
+    ]
+  },
+  {
+    "id": "gaming",
+    "name": "Jocuri",
+    "summary": "Jocuri și lumi virtuale cu active deținute",
+    "blurb": "Gameplay, economii, infrastructură și moduri de eșec speculative.",
+    "items": [
+      {
+        "id": "play",
+        "title": "Joacă și deține",
+        "summary": "Distracție în primul rând, proprietate verificabilă ca bonus - nu o iluzie de salariu",
+        "intro": "Jocurile cripto sănătoase acordă prioritate divertismentului; proprietatea se amplifică, nu înlocuiește designul. Piețele secundare ar trebui să fie rezultate, nu singurul conținut.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Speculația pură se prăbușește în urși. Încorporarea proprietății în bucle cu adevărat distractive îmbunătățește păstrarea și permite economii creatorilor."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Gameplay-ul de bază rulează rapid în afara lanțului sau pe șine specializate; așezările rare au lovit un lanț. Studiourile câștigă prin UX, taxe și servicii în timp ce reglează economiile."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Valorile de retenție și cheltuieli au depășit graficele cu simboluri ca semnale de sănătate. Reglementarea poate încă constrânge jetoanele de articol."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Tratarea grind ca pe o muncă și ignorarea securității contului sunt capcane clasice."
+          }
+        ],
+        "keyPoints": [
+          "Distracția în primul rând, în al doilea rând finanțele.",
+          "Proprietatea nu poate salva plictiseala.",
+          "Economiile sănătoase echilibrează chiuvete și surse.",
+          "Izolați cheile jocului din seifuri."
+        ],
+        "tips": [
+          "Joacă înainte de a cumpăra articole scumpe.",
+          "Citiți notele economice și istoricul patch-urilor.",
+          "Rezervați orice „câștig” ca speculație cu risc ridicat."
+        ],
+        "body": "Jocurile cripto sănătoase acordă prioritate divertismentului; proprietatea se amplifică, nu înlocuiește designul. Piețele secundare ar trebui să fie rezultate, nu singurul conținut."
+      },
+      {
+        "id": "economies",
+        "title": "Economii în joc",
+        "summary": "Emiterea și chiuvetele decid dacă prețurile articolelor pot rămâne în picioare",
+        "intro": "Economiile deschise se comportă ca niște sisteme fiscale minuscule: emisiile nesfârșite fără chiuvete prăbușesc prețurile. Citirea producție vs distrugere bate ascultarea sloganurilor GameFi.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Tranzacționarea deschisă elimină un anumit control al studioului, forțând un design mai serios, astfel încât jucătorii și comercianții pe termen lung să poată coexista."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Misiunile emit; meșteșuguri/reparații/chiuvetă de anotimpuri; tablourile de bord dezvăluie inflația. Prețurile jetoanelor externe șochează buclele interne."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Jetonele duble, energia și chiriile terenurilor pot ajuta sau deruta. Urmărește deblochările echipelor și portofelele market-maker."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Randamentele mari timpurii atrag mercenari, nu jucători. Copierea economiei fără audiență eșuează."
+          }
+        ],
+        "keyPoints": [
+          "Faceți inflația/deflația observabilă.",
+          "Cota mare de mercenari este fragilă.",
+          "tamponați șocurile de simbol extern.",
+          "Reglajul transparent creează încredere."
+        ],
+        "tips": [
+          "Urmăriți rapoartele oficiale ale economiei.",
+          "Dimensiunea mai mică în timpul fazelor de hiper-APY.",
+          "Preferați activele cu chiuvete reale."
+        ],
+        "body": "Economiile deschise se comportă ca niște sisteme fiscale minuscule: emisiile nesfârșite fără chiuvete prăbușesc prețurile. Citirea producție vs distrugere bate ascultarea sloganurilor GameFi."
+      },
+      {
+        "id": "worlds",
+        "title": "Lumi virtuale",
+        "summary": "Narațiunile de teren propriu și spațiu social",
+        "intro": "Terenul virtual vinde locație, trafic și prezență. Unele lumi găzduiesc activitate continuă; alții se blochează după vânzare. Judecă după constructori și DAU, nu trailere cinematografice.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Oamenii doresc bunuri comune digitale durabile și vitrine. Proprietatea în lanț permite piețe secundare și experimente de către mărci."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Land NFT plus clienți plus închirieri opționale. Conținutul provine de la utilizatori sau oficiali; performanța se bazează adesea pe serverele tradiționale."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Traficul pietonal stabilește valoarea terenului. Lumile goale sunt artă speculativă. Drepturile de construire și redevențele modelează dorința creatorului."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "FOMO de vânzare primară și tratarea diapozitivelor metaverse ca randament pe termen scurt sunt capcane."
+          }
+        ],
+        "keyPoints": [
+          "Preturi de trafic teren.",
+          "Experiența clientului depășește sloganurile.",
+          "Interop de obicei rămâne în urmă cu vânzările.",
+          "Evaluați ecosistemele constructorilor."
+        ],
+        "tips": [
+          "Vizitați mai întâi ca turist.",
+          "Verificați datele de închiriere/eveniment înainte de a cumpăra.",
+          "Evitați echipele de vânzare, care nu construiesc niciodată."
+        ],
+        "body": "Terenul virtual vinde locație, trafic și prezență. Unele lumi găzduiesc activitate continuă; alții se blochează după vânzare. Judecă după constructori și DAU, nu trailere cinematografice."
+      },
+      {
+        "id": "infra-game",
+        "title": "Infrastructura jocului",
+        "summary": "Compensații tehnice între latența scăzută și decontarea în lanț",
+        "intro": "Jocurile de acțiune au nevoie de feedback în milisecunde. Studiourile folosesc servere autorizate plus active rare în lanț sau lanțuri specializate de mare debit. Cunoașterea limitei încrederii previne confuzia de marketing „complet descentralizată”.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Buclele pure L1 sunt prea lente/costisitoare pentru multe genuri. Stratificarea menține UX jucabil cu deficit verificabil."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Matchmaking/combat off-chain; monetări/comerțuri/jackpot-uri în lanț. Anti-cheat rămâne în mare parte în afara lanțului. Appchains mărește debitul, dar adaugă costuri de punte/lichiditate."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Ce părți au încredere într-un server? Supraviețuiesc activele unei închideri a studioului? Aceasta definește cât de reală este „proprietatea”."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Afirmații „complet în lanț” cu adevărul serverului mutabil. Conectarea activelor jocului prin site-uri false."
+          }
+        ],
+        "keyPoints": [
+          "Hibrizii sunt norma inginerească.",
+          "Latența și descentralizarea trag în direcții opuse.",
+          "Politica de închidere afectează semnificația activelor.",
+          "Appchains-urile adaugă complexitate bridge."
+        ],
+        "tips": [
+          "Citiți documentele privind limitele de încredere.",
+          "Mutați activele semnificative în portofele auto-custodie.",
+          "Încercați rețelele de testare înainte de depozitarea rețelei principale."
+        ],
+        "body": "Jocurile de acțiune au nevoie de feedback în milisecunde. Studiourile folosesc servere autorizate plus active rare în lanț sau lanțuri specializate de mare debit. Cunoașterea limitei încrederii previne confuzia de marketing „complet descentralizată”."
+      },
+      {
+        "id": "modding",
+        "title": "Modificare și UGC",
+        "summary": "Creatorii câștigă atunci când hărțile, skin-urile și modurile se pot stabili în mod transparent",
+        "intro": "UGC prelungește durata de viață a jocului. Dacă modificările sunt tranzacționabile cu divizări clare, apar creatorii. Diviziunile în lanț ajută la auditabilitatea; Licențiarea IP decide în continuare dacă se extinde.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "UGC tradițional se confruntă cu schimbări bruște de politică a platformei. Piețele deschise și redevențele programabile oferă o altă cale de stimulare și un conținut mai bogat pentru jucători."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Creatorii publică active → comerțul piețelor → contractele împart veniturile. Moderația și descoperirea decid dacă calitatea se concentrează."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Sfera licenței, politica de conținut și rambursările rămân. Matematica în lanț nu soluționează automat procesele."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Cumpărarea de mod-uri de marcă neautorizate și jetoane de creatori volatile reprezintă riscuri."
+          }
+        ],
+        "keyPoints": [
+          "UGC are nevoie de reguli clare privind IP și venituri.",
+          "Calitatea setului de descoperire/moderare.",
+          "Diviziunile programabile sporesc transparența.",
+          "Straturile legale încă se aplică."
+        ],
+        "tips": [
+          "Creatori: citește licențele platformei.",
+          "Jucători: verificați mărcile de autorizare.",
+          "Încasări cu limite de risc personal."
+        ],
+        "body": "UGC prelungește durata de viață a jocului. Dacă modificările sunt tranzacționabile cu divizări clare, apar creatorii. Diviziunile în lanț ajută la auditabilitatea; Licențiarea IP decide în continuare dacă se extinde."
+      },
+      {
+        "id": "risks",
+        "title": "Riscul de joc speculativ",
+        "summary": "Când distracția depinde de creșterea prețurilor, piețele ursului întrerup bucla",
+        "intro": "Proiectele eșuate tratează pompele de jetoane ca conținut. Jucătorii devin mercenari, economiile devin reflexive și întreținerea se oprește atunci când prețul scade. Detectarea modelului economisește școlarizarea.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Educația privind riscul face parte dintr-un produs sănătos: comunitățile care discută despre inflație supraviețuiesc cu sinceritate discordiilor hype."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Emisiile mari atrag intrarea → presiunea de vânzare crește → prețul scade → jucătorii pleacă. Pauza apare adesea atunci când stimulentele sunt reduse. Puține titluri pivotează cu succes către jocuri reale."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Veniturile sunt în mare parte noi intrați? Echipa trimite actualizări care pot fi jucate? Prețul secundar nu este o măsură distractivă."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Frazele de ostatici FOMO și șlefuirea cu pârghie sunt semne de pericol."
+          }
+        ],
+        "keyPoints": [
+          "Prețul nu poate înlocui jocul.",
+          "Reducerile de stimulente sunt teste de stres.",
+          "Cota de mercenar prezice fragilitatea.",
+          "Riscă doar fonduri discreționare."
+        ],
+        "tips": [
+          "Întrebați: aș juca la preț zero token?",
+          "Urmăriți actualizările de conținut real.",
+          "Refuzați șlefuirea cu pârghie."
+        ],
+        "body": "Proiectele eșuate tratează pompele de jetoane ca conținut. Jucătorii devin mercenari, economiile devin reflexive și întreținerea se oprește atunci când prețul scade. Detectarea modelului economisește școlarizarea."
+      }
+    ]
+  },
+  {
+    "id": "daos",
+    "name": "DAO-uri",
+    "summary": "Comunități care guvernează cu voturi în lanț",
+    "blurb": "Guvernare, trezorerie, propuneri, învelișuri legale și suprafețe de atac.",
+    "items": [
+      {
+        "id": "governance",
+        "title": "Token Governance",
+        "summary": "Voturi care stabilesc parametri, upgrade-uri și cheltuieli",
+        "intro": "DAO-urile împing upgrade-urile și deciziile de trezorerie către deținătorii de token-uri sau sistemele de reputație. One-token-one-vot este simplu și predispus la balene; delegația și alte modele încearcă să îmbunătățească reprezentarea. Puterea de vot este influență și o suprafață de atac.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Protocoalele trebuie să se schimbe fără a deveni o dictatură cu o singură companie. Voturile în lanț lasă urme auditabile și pot constrânge echipele."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Propunere → discuție → vot → cronometru → execuție. Delegarea permite micilor proprietari să încredințeze experți. Cvorumurile și vetourile limitează capturile cu prezență redusă la vot."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Distribuția, dimensiunea trezoreriei și durata blocării contează. Alegătorii abandonați pot fi apatici. Starea de spirit a forumului poate diverge de la rezultatele în lanț."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Voturile prin împrumut rapid (dacă sunt permise), mita și votul necitit sunt riscuri."
+          }
+        ],
+        "keyPoints": [
+          "Guvernarea alocă puterea.",
+          "Designul mecanismului luptă împotriva balenelor și apatiei.",
+          "Timelock-urile sunt frâne critice.",
+          "Citiți impacturile și conflictele înainte de a vota."
+        ],
+        "tips": [
+          "Delegați reprezentanților responsabili.",
+          "Urmăriți canalele de protest în timpul blocării.",
+          "Analizați propunerile mari de trezorerie."
+        ],
+        "body": "DAO-urile împing upgrade-urile și deciziile de trezorerie către deținătorii de token-uri sau sistemele de reputație. One-token-one-vot este simplu și predispus la balene; delegația și alte modele încearcă să îmbunătățească reprezentarea. Puterea de vot este influență și o suprafață de atac."
+      },
+      {
+        "id": "treasury",
+        "title": "Trezoreria DAO",
+        "summary": "Capital partajat în lanț pentru construcție, lichiditate și tampon",
+        "intro": "Trezoreriile sunt muniție DAO. Procesul de diversificare, transparență și cheltuieli decid dacă sunt piste sau honeypots. Multisig-urile sau guvernanții controlează plățile pe care comunitatea ar trebui să le auditeze.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Bunurile publice au nevoie de finanțare pentru audituri, constructori și stimulente. Trezoreriile păstrează valoarea sub control vizibil de comunitate și pot stabiliza crizele."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Intrări din comisioane/emitere/finanțare; ieșiri prin propuneri. Holdingurile pot amesteca grajduri, majore și jetoane native – concentrarea nativă este un risc reflex."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Lunile pistei, riscul valutar și stocurile de adrese contează. Contează și angajamentele blânde."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Trezoreriile volatile și cheltuielile opace ale părților afiliate sunt semnale roșii."
+          }
+        ],
+        "keyPoints": [
+          "Sănătate = transparență + diversificare + proces.",
+          "Pungile reflexive amplifică crizele.",
+          "Cheltuielile trebuie să fie responsabile.",
+          "Igiena cu cheie Multisig este de bază."
+        ],
+        "tips": [
+          "Citiți rapoarte financiare periodice.",
+          "Urmăriți cota de rezervă de stablecoin.",
+          "Preferați plățile mari transmise în flux."
+        ],
+        "body": "Trezoreriile sunt muniție DAO. Procesul de diversificare, transparență și cheltuieli decid dacă sunt piste sau honeypots. Multisig-urile sau guvernanții controlează plățile pe care comunitatea ar trebui să le auditeze."
+      },
+      {
+        "id": "proposals",
+        "title": "Ciclul de viață al propunerii",
+        "summary": "De la schița pe forum la execuția în lanț",
+        "intro": "Propunerile bune dezbat în afara lanțului, verificarea temperaturii, votează în lanț, apoi se execută după o blocare. „Propuneri-fulger” surpriză sunt un miros. Aflați în ce stadiu vă aflați.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Procesul înlocuiește fie dictatura, fie haosul, dând oponenților timp să se organizeze și să introducă auditul/evaluarea juridică acolo unde este necesar."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Schiță → feedback → text final → vot → coadă. Ideile eșuate se pot revizui. Unele sisteme folosesc semnături în afara lanțului fără gaz pentru vot."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Cvorumul, pragurile și căile de urgență contează – urgențele excesive sunt ușile din spate. Datele de apel executabile trebuie să se potrivească cu textul."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Votarea numai pentru titlu și ignorarea alertelor de blocare a timpului sunt eșecuri."
+          }
+        ],
+        "keyPoints": [
+          "Calitatea discuțiilor conduce la calitatea guvernării.",
+          "Timelock-urile protejează minoritățile și ieșirile.",
+          "Puterile de urgență au nevoie de limite strânse.",
+          "Parametrii bat sloganuri."
+        ],
+        "tips": [
+          "Abonați-vă la alerte de forum/vot.",
+          "Reformulați riscurile cu propriile cuvinte înainte de a vota.",
+          "Verificați execuția se potrivește cu textul propunerii."
+        ],
+        "body": "Propunerile bune dezbat în afara lanțului, verificarea temperaturii, votează în lanț, apoi se execută după o blocare. „Propuneri-fulger” surpriză sunt un miros. Aflați în ce stadiu vă aflați."
+      },
+      {
+        "id": "legal",
+        "title": "Ambalaje legale",
+        "summary": "Fundații și companii care interacționează DAO-urile cu lumea off-chain",
+        "intro": "Codul nu acordă automat răspundere limitată. Fundațiile/LLC-urile semnează contracte, bancă și impozite. Colaboratorii ar trebui să știe cine poate fi tratat ca responsabil dacă lucrurile se rup.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Angajarea, IP și autoritățile de reglementare au nevoie de omologi legali. Învelișurile bune reduc expunerea personală - nu sunt dispozitive de înveliș."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Jurisdicție → statut → consiliu/multigrup → clauze legate de voturile DAO. Regulile variază foarte mult în funcție de țară."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Valorile mobiliare, sancțiunile și taxele (inclusiv airdrops) contează. Anonimitate ≠ risc legal zero."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "A presupune că „descentralizat” ignoră legislația locală sau a semna acorduri necunoscute este o nesăbuită."
+          }
+        ],
+        "keyPoints": [
+          "Entitățile furnizează capabilități în afara lanțului.",
+          "Structurile sunt specifice jurisdicției.",
+          "Cunoaște-ți limita răspunderii.",
+          "Conformitatea face parte din riscul produsului."
+        ],
+        "tips": [
+          "Solicitați sfaturi profesionale pentru contribuții materiale.",
+          "Citiți documentele despre relația fundație↔DAO.",
+          "Păstrați evidențe airdrop/venituri."
+        ],
+        "body": "Codul nu acordă automat răspundere limitată. Fundațiile/LLC-urile semnează contracte, bancă și impozite. Colaboratorii ar trebui să știe cine poate fi tratat ca responsabil dacă lucrurile se rup."
+      },
+      {
+        "id": "ops",
+        "title": "Operațiuni DAO",
+        "summary": "Transformarea voturilor în expediere prin grupuri de lucru și plăți",
+        "intro": "Fără operatori, guvernarea este teatru. Grupurile de lucru, recompensele, bugetele și recenziile transformă energia în produs. Epuizarea, proprietatea neclară și întârzierea statelor de plată îi omoară în liniște pe DAO.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Bunurile publice sunt subaprovizionate. Sistemele operaționale fondează întreținerea; plata transparentă reduce ofertele umbre."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Misiune → valori → buget → angajare/recompense → retros. Salarizarea în lanț ajută. Accesul de administrator cu cel mai mic privilegiu evită punctele unice de eșec."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Sunt KPI-urile verificabile? Este controlată dubla scufundare? Documentarea luptă cu factorul autobuzului."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Plata fără responsabilitate și supraîncărcarea contribuabililor de neînlocuit sunt moduri de eșec."
+          }
+        ],
+        "keyPoints": [
+          "Sistemele de livrare fac DAO-urile reale.",
+          "Bugetele și performanța ar trebui să fie publice.",
+          "Reduceți dependența de un singur om.",
+          "Transparența plăților reduce combustibilul pentru conspirație."
+        ],
+        "tips": [
+          "Începeți cu recompense mici pentru a învăța procesul.",
+          "Faceți backup pentru roluri critice.",
+          "Publicați rapoartele grupului de lucru."
+        ],
+        "body": "Fără operatori, guvernarea este teatru. Grupurile de lucru, recompensele, bugetele și recenziile transformă energia în produs. Epuizarea, proprietatea neclară și întârzierea statelor de plată îi omoară în liniște pe DAO."
+      },
+      {
+        "id": "attacks",
+        "title": "Atacurile de guvernare",
+        "summary": "Captarea protocoalelor prin voturi, mită sau prezență redusă la vot",
+        "intro": "Atacatorii urmăresc trezorerii, parametrii sau cheile de upgrade folosind voturi acumulate, împrumuturi flash, mită sau cvorumuri adormite. Apărările includ timelock-uri, gardieni cu veto și modele de vot mai bune.",
+        "sections": [
+          {
+            "heading": "Ce problema rezolva",
+            "body": "Discutarea suprafețelor de atac permite comunităților să se apere devreme. „Nimeni nu ar face asta” nu este un control. Securitatea guvernanței rivalizează cu securitatea contractului."
+          },
+          {
+            "heading": "Cum funcționează",
+            "body": "Obțineți voturi → treceți răutatea → executați după blocarea timpului dacă nu este oprit. Parametrii complexi pot camufla intentia. Gardienii pot întârzia sau anula atacurile clare."
+          },
+          {
+            "heading": "Concepte cheie",
+            "body": "Momentul instantaneului, regulile de vot prin împrumut rapid și concentrarea delegației sunt esențiale. Monitorizați mișcările mari de jeton."
+          },
+          {
+            "heading": "Riscuri și concepții greșite",
+            "body": "Ignorarea alertelor de timelock și presupunerea că auditurile opresc furtul guvernanței sunt greșeli."
+          }
+        ],
+        "keyPoints": [
+          "Puterea de guvernare poate deveni furt direct.",
+          "Timelock-urile și gardienii sunt frâne.",
+          "Prezența scăzută la vot este o vulnerabilitate.",
+          "Monitorizați și repetați căile de veto."
+        ],
+        "tips": [
+          "Activați roboții de alertă de guvernare.",
+          "Deținătorii mari ar trebui să voteze.",
+          "Sprijină modele care blochează votul prin împrumut rapid."
+        ],
+        "body": "Atacatorii urmăresc trezorerii, parametrii sau cheile de upgrade folosind voturi acumulate, împrumuturi flash, mită sau cvorumuri adormite. Apărările includ timelock-uri, gardieni cu veto și modele de vot mai bune."
+      }
+    ]
+  }
+]

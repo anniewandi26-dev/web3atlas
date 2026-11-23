@@ -1,0 +1,362 @@
+[
+  {
+    "id": "gas",
+    "term": "Gas",
+    "definition": "Berechnung der Einheitsmessung und Speicher, der eine Transaktion verbraucht.",
+    "explain": "Gas misst, wie viel Rechen- und Speicheraufwand eine Transaktion vom Netzwerk verlangt. Ohne Messung könnte eine öffentliche Kette durch Endlosschleifen oder Spam blockiert werden. Ihre Gebühr beträgt ungefähr Nutzung x Stückpreis; Eine Überlastung erhöht den Stückpreis, wenn die Nachfrage nach Blockflächen steigt. \n\nFehlgeschlagene Transaktionen können immer noch Benzin kosten, da die Validatoren die Arbeit bereits ausgeführt haben. Praktische Angewohnheit: Schätzen Sie die Gebühren, bevorzugen Sie beim Lernen außerhalb der Hauptverkehrszeiten und verwechseln Sie niemals eine fehlgeschlagene UX-Nachricht mit einem kostenlosen Wiederholungsversuch."
+  },
+  {
+    "id": "gwei",
+    "term": "Gwei",
+    "definition": "Eine gängige ETH-Bezeichnung für die Angabe von Gaspreisen.",
+    "explain": "Gwei ist eine Bezeichnung für Ether, die zur Angabe von Gaspreisen in menschlichen Zahlen verwendet wird. Eine ETH entspricht 1e9 Gwei. Auf Wallets werden häufig die Höchstgebühr und die Prioritätsgebühr in Gwei angezeigt, sodass Sie die Dringlichkeit vergleichen können, ohne achtzehn Dezimalstellen zählen zu müssen. \n\nÜberprüfen Sie die Einheiten sorgfältig, wenn Sie Tutorials oder Mempool-Screenshots lesen. Das Mischen von Gwei-Kursen und ETH-Überweisungsbeträgen ist ein klassischer Anfängerfehler, der zu Über- oder Unterzahlungen führt."
+  },
+  {
+    "id": "evm",
+    "term": "EVM",
+    "definition": "Ethereum Virtual Machine – die Smart-Contract-Laufzeit.",
+    "explain": "Die Ethereum Virtual Machine ist die gemeinsame Laufzeit, die Smart-Contract-Bytecode ausführt. Die meisten „EVM-kompatiblen“ Ketten verwenden Opcodes und Tools wieder, sodass Entwickler ähnliche Verträge an anderer Stelle bereitstellen können. \n\nBei der Kompatibilität geht es um die Erfahrung des Entwicklers, nicht um identische Sicherheit oder Wirtschaftlichkeit. Überprüfen Sie immer, in welcher Kette Sie sich befinden, welchem ​​Explorer Sie vertrauen und ob Proxy-Upgrade-Muster beteiligt sind, bevor Sie davon ausgehen, dass sich der Code dauerhaft verhält."
+  },
+  {
+    "id": "amm",
+    "term": "AMM",
+    "definition": "Market Making über Pools und Formeln statt über Bücher.",
+    "explain": "Ein automatisierter Market Maker bewertet Geschäfte anhand von Poolformeln anstelle eines klassischen Orderbuchs. Liquiditätsanbieter hinterlegen Vermögenswerte und verdienen Gebühren, während sie gleichzeitig ein Bestandsrisiko eingehen, das als vorübergehender Verlust bezeichnet wird. \n\nGefälschte Pools und ähnliche Token sind häufige Fallen. Überprüfen Sie Vertragsadressen, Pooltiefe und Gebührenstufen. AMMs sind leistungsstarke Primitive – behandeln Sie sie als Märkte mit transparenter Mathematik und kontradiktorischem Fluss."
+  },
+  {
+    "id": "tvl",
+    "term": "TVL",
+    "definition": "Gesamtwert, der in den Verträgen eines Protokolls festgelegt ist.",
+    "explain": "Der Gesamtwert der gesperrten Vermögenswerte umfasst die in den Verträgen eines Protokolls hinterlegten Vermögenswerte. Ein hoher TVL kann Nutzung und Vertrauen signalisieren – oder einfach überhöhte rekursiv gezählte Einzahlungen und ein größeres Hack-Ziel. \n\nLesen Sie TVL neben Audit-Qualität, Admin-Schlüsseln, Oracle-Design und realen Gebühreneinnahmen. Eine Schlagzeilenzahl ohne diese Kontexte ist eine Marketingkennzahl und keine Sicherheitsbewertung."
+  },
+  {
+    "id": "apy",
+    "term": "APY",
+    "definition": "Annualisierte Rendite inklusive Zinseszins.",
+    "explain": "APY annualisiert die Rendite, einschließlich der Annahmen zur Aufzinsung. Kurze Anreizkampagnen, die auf Jahresbasis auf dreistellige APYs umgerechnet werden, führen oft in die Irre, weil Emissionen, Token-Preis und Nachhaltigkeit instabil sind. \n\nVergleichen Sie Gleiches mit Gleichem: dauerhafter APY-Gebühr versus temporärer Prämien-APY. Fragen Sie, was passiert, wenn die Anreize enden, und ob Sie aussteigen können, ohne die Position zu ruinieren."
+  },
+  {
+    "id": "apr",
+    "term": "APR",
+    "definition": "Annualisierter Zinssatz ohne Aufzinsung.",
+    "explain": "Der effektive Jahreszins gibt einen Jahreszins ohne Aufzinsung an. Kreditschnittstellen zeigen häufig den Angebots-APR und den Kredit-APR nebeneinander an; Die Definitionen unterscheiden sich je nach Produkt. \n\nBestätigen Sie beim Vergleich von APR und APY die Häufigkeit der Aufzinsung und ob Prämientoken enthalten sind. Präzise Definitionen verhindern falsche Schlussfolgerungen zu „besseren Tarifen“."
+  },
+  {
+    "id": "slippage",
+    "term": "Schlupf",
+    "definition": "Lücke zwischen erwartetem und ausgeführtem Preis.",
+    "explain": "Slippage ist die Lücke zwischen dem Preis, den Sie erwarten, und dem Preis, den Sie erhalten. Dünne Pools, große Größen und volatile Momente vergrößern diese Lücke. \n\nZu große Schlupfeinstellungen laden zum Einklemmen ein; Zu enge Einstellungen schlagen fehl und verbrauchen möglicherweise trotzdem Benzin. Legen Sie die Werte bewusst je nach Handelsgröße und Pooltiefe fest und bevorzugen Sie die private Einreichung, wenn dies für große Swaps möglich ist."
+  },
+  {
+    "id": "mev",
+    "term": "MEV",
+    "definition": "Aus der Bestellung/Einbeziehung von Transaktionen extrahierbarer Wert.",
+    "explain": "Der maximal erzielbare Wert ist der Gewinn aus der Kontrolle der Reihenfolge, Einbeziehung oder Zensur von Transaktionen. Öffentliche Mempools ermöglichen es Suchenden, große Swaps zu erkennen und um die Eroberung des Vorsprungs zu konkurrieren. \n\nZu den Abhilfemaßnahmen gehören eine engere Slippage, ein privater Orderflow, Batch-Auktionen und eine einfache Aufteilung der Größe. Das Verständnis von MEV erklärt, warum „gleicher Handel, schlechtere Ausführung“ auch ohne einen UI-Fehler auftritt."
+  },
+  {
+    "id": "oracle",
+    "term": "Orakel",
+    "definition": "Dienst, der Daten außerhalb der Kette in die Kette bringt.",
+    "explain": "Orakel bringen Fakten außerhalb der Kette – insbesondere Preise – in die Kette, damit Verträge reagieren können. Kreditauflösungen und unbefristete Markpreise hängen von der Futtermittelintegrität ab. \n\nDünne Märkte lassen sich leichter zu schlechten Orakeldrucken manipulieren. Bevorzugen Sie Protokolle mit robuster Aggregation, Leistungsschaltern und klarem Fehlerverhalten, wenn die Einspeisung ins Stocken gerät."
+  },
+  {
+    "id": "rollup",
+    "term": "Rollup",
+    "definition": "L2-Ausführung, die Daten/Beweise an L1 sendet.",
+    "explain": "Ein Rollup wird außerhalb der Basiskette ausgeführt und sendet Daten oder Beweise zurück, damit L1 die Ergebnisse sichern kann. Optimistische Designs basieren auf Herausforderungsfenstern. Gültigkeits-Rollups basieren auf Beweisen. \n\nDie Nutzungsgebühren sinken, da sich viele Transaktionen die L1-Kosten teilen. Ihre Risiko-Checkliste umfasst weiterhin Brücken, Sequenzer, Upgrade-Schlüssel und die Funktionsweise erzwungener Ausgänge."
+  },
+  {
+    "id": "sequencer",
+    "term": "Sequenzer",
+    "definition": "Komponente, die L2-Transaktionen anordnet.",
+    "explain": "Der Sequenzer ordnet L2-Transaktionen an und liefert oft schnelle Soft-Bestätigungen. Viele Sequenzer sind heute noch zentralisiert, was sich auf Ausfallzeiten und Zensurresistenz auswirkt. \n\nDie Dezentralisierung von Sequenzern ist ein wichtiges Roadmap-Thema. Behandeln Sie bis dahin die weiche Bestätigung als Bequemlichkeit und verstehen Sie den Weg zur L1-erzwungenen Einbeziehung, wenn sich Bediener schlecht benehmen."
+  },
+  {
+    "id": "finality",
+    "term": "Endgültigkeit",
+    "definition": "Wenn ein Sendevorgang/Block praktisch irreversibel ist.",
+    "explain": "Endgültigkeit beschreibt, wann eine Transaktion praktisch irreversibel ist. Einige Protokolle verfügen über explizite Endgültigkeitsfunktionen. andere sind probabilistisch und verstärken sich durch Tiefe. \n\nBörsen wählen Bestätigungszahlen aus diesen Annahmen aus. Warten Sie bei großen Überweisungen auf die Endgültigkeit, die Ihr Kontrahent tatsächlich verlangt – und nicht auf den ersten Toast auf „Erfolg“."
+  },
+  {
+    "id": "utxo",
+    "term": "UTXO",
+    "definition": "Abrechnungsmodell für nicht ausgegebene Transaktionsausgaben.",
+    "explain": "Nicht ausgegebene Transaktionsausgaben sind die Art und Weise, wie Bitcoin-ähnliche Systeme ausgegebene Münzen verfolgen. Ihr Guthaben ist die Summe der UTXOs, für die Sie sich anmelden können; Ausgaben verbrauchen Output und können Veränderungen bewirken. \n\nDie UTXO-Buchhaltung unterscheidet sich vom Kontostand und wirkt sich auf Gebühren, Datenschutz und Münzauswahl aus. Light Wallets verbergen die Details – Full Nodes verraten, warum Konsolidierung wichtig ist."
+  },
+  {
+    "id": "eoa",
+    "term": "EOA",
+    "definition": "Externes Konto, das durch einen Schlüssel kontrolliert wird.",
+    "explain": "Ein externes Konto wird direkt durch einen privaten Schlüssel ohne Vertragscode gesteuert. Bei den meisten klassischen Wallets handelt es sich um EOAs: Signatur ist gleichbedeutend mit Autorisierung. \n\nEs gibt kein Zurücksetzen des Passworts. Saatgutverlust ist Vermögensverlust. Smart Accounts ändern dieses Modell; Wenn Sie bei EOAs bleiben, sind Offline-Backups und Phishing-Resistenz alles."
+  },
+  {
+    "id": "multisig",
+    "term": "Multisig",
+    "definition": "Konto, das mehrere Genehmigungen erfordert.",
+    "explain": "Multisignaturkonten erfordern M-of-N-Genehmigungen, bevor Gelder verschoben werden können. Finanzämter und Teams nutzen sie, um Single-Key-Fehler zu beheben. \n\nZu den Design-Kompromissen gehören die Wahl des Schwellenwerts, die geografische Diversität der Unterzeichner und Wiederherstellungsübungen. Ein Multisig, das Sie nie einstudieren, kann im schlimmsten Moment scheitern."
+  },
+  {
+    "id": "seed-phrase",
+    "term": "Samenphrase",
+    "definition": "Wortliste, die Brieftaschenschlüssel neu generiert.",
+    "explain": "Eine Seed-Phrase regeneriert Wallet-Schlüssel. Jeder, der die Wörter sieht, kann die Brieftasche an anderer Stelle neu erstellen – Supportmitarbeiter benötigen sie nie, um Sie zu „verifizieren“. \n\nHalten Sie Samen offline, geben Sie sie niemals in Websites ein und gehen Sie davon aus, dass ein fotografierter Samen gefährdet ist. Bei Undichtigkeit sofort auf ein frisches Saatgut auf einem sauberen Gerät umstellen."
+  },
+  {
+    "id": "allowance",
+    "term": "Zuschuss",
+    "definition": "Maximaler Betrag, den ein Vertrag von Ihrem Token ausgeben darf.",
+    "explain": "Eine Zulage begrenzt den Betrag eines Tokens, den ein Spendervertrag von Ihrem Guthaben übertragen kann. Unbegrenzte Kontingente sind für Vielhändler praktisch und für alle anderen gefährlich. \n\nÜberprüfen und widerrufen Sie nicht genutzte Berechtigungen regelmäßig. Bevorzugen Sie beim Erlernen einer neuen App genaue oder bescheidene Vorgaben."
+  },
+  {
+    "id": "approve",
+    "term": "Genehmigen",
+    "definition": "Transaktion, die einen Freibetrag festlegt.",
+    "explain": "Genehmigen Sie festgelegte Transaktionen oder ändern Sie Vergütungen. Sie bewegen die Token nicht selbst, schalten aber spätere Ausgaben durch die Spenderadresse frei. \n\nLesen Sie den Geldgeber sorgfältig durch, simulieren Sie die Wirkung und hüten Sie sich vor Phishing, das nach Genehmigungen für unbekannte Verträge fragt. Genehmigungen sind ein Top-Drain-Vektor."
+  },
+  {
+    "id": "rug",
+    "term": "Teppichzug",
+    "definition": "Insider schöpfen Liquidität ab oder geben ein Projekt auf.",
+    "explain": "Von einem Rug Pull spricht man, wenn Insider Liquidität abschöpfen oder ein Projekt aufgeben, nachdem sie Gelder gesammelt haben. Zu den Warnzeichen gehören unerreichbare Liquidität, undurchsichtige Administratoren und rein renditeorientiertes Marketing. \n\nDue Diligence ist sozialer und technischer Natur: Teamverantwortung, Vertragsgenehmigungen und ob Liquidität gesperrt ist. Wenn Sie den Ausgang nicht erklären können, wählen Sie keine große Größe."
+  },
+  {
+    "id": "phishing",
+    "term": "Phishing",
+    "definition": "Gefälschte Websites/Identitäten, die Schlüssel oder Signaturen austricksen.",
+    "explain": "Phishing nutzt gefälschte Websites, Anzeigen und Identitäten, um Schlüssel oder Signaturen abzugreifen. Homograph-Domains und gefälschte Support-DMs sind Dauerbrenner. \n\nVerwenden Sie Lesezeichen, ignorieren Sie Suchanzeigen für Wallet-Marken und teilen Sie niemals Samen. Wenn Sie sich nicht sicher sind, überprüfen Sie dies auf einem zweiten Kanal, bevor Sie etwas unterschreiben."
+  },
+  {
+    "id": "bridge",
+    "term": "Brücke",
+    "definition": "Protokoll zum Verschieben von Vermögenswerten/Nachrichten über Ketten hinweg.",
+    "explain": "Brücken bewegen Vermögenswerte oder Nachrichten über Ketten hinweg. Canonical Bridges übernehmen mehr vom Home-Rollup-Sicherheitsmodell; Schnelle Brücken fügen oft zusätzliche Vertrauensannahmen für die Geschwindigkeit hinzu. \n\nTesten Sie immer mit kleinen Beträgen, überprüfen Sie offizielle URLs und verstehen Sie das Rückerstattungsverhalten. Das Brückenrisiko ist historisch konzentriert und unversöhnlich."
+  },
+  {
+    "id": "stablecoin",
+    "term": "Stablecoin",
+    "definition": "Token zur Verfolgung einer stabilen Referenz.",
+    "explain": "Stablecoins zielen darauf ab, eine stabile Referenz wie den USD nachzubilden. Zu den Entwürfen gehören Fiat-Reserven, Krypto-Sicherheiten und algorithmische Mechanismen – jeder schlägt anders fehl. \n\nInformieren Sie sich über die Qualität der Emittentenbescheinigung, die Einfrierrichtlinie und die Einlösungswege. Diversifizieren Sie, wenn Ställe das Herzstück Ihres Arbeitsablaufs sind."
+  },
+  {
+    "id": "liquidity",
+    "term": "Liquidität",
+    "definition": "Möglichkeit, Größe zu handeln, ohne den Preis stark zu verändern.",
+    "explain": "Liquidität ist die Fähigkeit, Größe zu handeln, ohne den Preis zu stark zu verändern. Tiefe Becken verringern das Verrutschen; Abnehmbare oder illusorische Liquidität kann Sicherheit vortäuschen. \n\nPrüfen Sie, wer wie schnell LP-Tokens abheben kann. Liquidität, die im Stress verschwindet, ist keine Liquidität, wenn Sie sie brauchen."
+  },
+  {
+    "id": "impermanent-loss",
+    "term": "Vergänglicher Verlust",
+    "definition": "Unterdurchschnittliche Performance von LP im Vergleich zum Halten, wenn die Preise divergieren.",
+    "explain": "Bei einem vorübergehenden Verlust handelt es sich um eine schlechtere LP-Leistung im Vergleich zum bloßen Halten der Vermögenswerte, wenn die Preise voneinander abweichen. Gebühren können eine Entschädigung leisten oder auch nicht. \n\nDas Verlassen kristallisiert die Lücke heraus. Modellieren Sie Szenarien, bevor Sie Liquidität bereitstellen, insbesondere bei volatilen Paaren mit geringen Gebühreneinnahmen."
+  },
+  {
+    "id": "liquidation",
+    "term": "Liquidation",
+    "definition": "Zwangsverkauf von Sicherheiten, wenn ein Kredit fraglich ist.",
+    "explain": "Bei der Liquidation werden Sicherheiten zwangsweise verkauft, wenn der Gesundheitsfaktor eines Kredits versagt. Orakel legen den Auslösepreis fest; Kaskaden verstärken Abstürze. \n\nHalten Sie Puffer bereit, vermeiden Sie maximale Hebelwirkung beim Lernen und verstehen Sie, ob Liquidationen auktionsbasiert oder auf Keeper-Bot-Basis erfolgen."
+  },
+  {
+    "id": "staking",
+    "term": "Abstecken",
+    "definition": "Sperren von Vermögenswerten, um ein Netzwerk zu sichern oder Belohnungen zu verdienen.",
+    "explain": "Durch das Abstecken werden Vermögenswerte gesperrt, um ein Netzwerk zu sichern oder Protokollprämien zu verdienen. Die Designs unterscheiden sich in Bezug auf Lockups, Slashing und ob Sie einen Validator oder einen Delegaten ausführen. \n\nDurch die Delegierung erhöht sich das Bedienerrisiko. Lesen Sie die Freigabezeiten, bevor Sie eingesetzte Vermögenswerte als liquide Mittel für schlechte Zeiten behandeln."
+  },
+  {
+    "id": "validator",
+    "term": "Validator",
+    "definition": "PoS-Knoten, der Blöcke vorschlägt/attestiert.",
+    "explain": "Validatoren schlagen Blöcke in Proof-of-Stake-Systemen vor und bestätigen sie. Schlechte Leistung oder Böswilligkeit können gemildert werden. \n\nSolo-Validierung erfordert operative Disziplin; Liquid Staking und Restaking fügen zusätzlich zu den Konsenspflichten noch Ebenen von Smart-Contract- und Betreiberrisiken hinzu."
+  },
+  {
+    "id": "dao",
+    "term": "DAO",
+    "definition": "Organisation koordiniert über On-Chain-Regeln/Abstimmungen.",
+    "explain": "Ein DAO koordiniert über On-Chain-Regeln und stimmt über Treasuries und Parameter ab. Wahlbeteiligung, Walkonzentration und Angebotsqualität prägen die Ergebnisse. \n\nGovernance ist eine Sicherheitsoberfläche: Böswillige Upgrades können bei einer „erfolgreichen“ Abstimmung Gelder verschlingen. Lesen Sie Payloads, nicht nur Titel."
+  },
+  {
+    "id": "nft",
+    "term": "NFT",
+    "definition": "Nicht fungibler Token für einzigartige Gegenstände.",
+    "explain": "Nicht fungible Token stellen einzigartige Gegenstände dar. Der Besitz des Tokens liegt in der Kette; Medien und Merkmale leben oft außerhalb der Kette und sind auf Pinning oder Server angewiesen. \n\nÜberprüfen Sie Vertragsadressen, Lizenzgebührenrichtlinien und die Veränderbarkeit von Metadaten. Gleiches Kunstwerk, anderer Vertrag, ist eine klassische Falle."
+  },
+  {
+    "id": "ipfs",
+    "term": "IPFS",
+    "definition": "Inhaltsadressiertes verteiltes Dateinetzwerk.",
+    "explain": "IPFS adressiert Inhalte per Hash, sodass die Integrität überprüft werden kann. Die Dauerhaftigkeit hängt immer noch davon ab, dass jemand die Daten anheftet. \n\nWenn NFTs oder Dokumente IPFS erwähnen, fragen Sie, wer pinnt und was passiert, wenn Gateways verschwinden. Inhaltsadressierung ≠ Automatisches, dauerhaftes Hosting."
+  },
+  {
+    "id": "ens",
+    "term": "ENS",
+    "definition": "Der Ethereum Name Service ordnet Namen Datensätzen zu.",
+    "explain": "ENS ordnet für Menschen lesbare Namen Adressen und Datensätzen zu. Es reduziert Tippfehler, aber Namen verfallen und die Lösung kann gekapert werden, wenn Sie Überprüfungen überspringen. \n\nÜberprüfen Sie die aufgelöste Adresse immer noch einmal auf einem vertrauenswürdigen Pfad, bevor Sie die Größe senden."
+  },
+  {
+    "id": "layer1",
+    "term": "Schicht 1",
+    "definition": "Basiskette mit eigenem Konsens/Abwicklung.",
+    "explain": "Eine Layer-1-Kette bietet ihre eigene Konsens- und Abwicklungssicherheit. Gebühren und Durchsatz spiegeln diese Knappheit auf der Basisschicht wider. \n\nIn L1s findet die endgültige Streitbeilegung häufig statt. Das Verständnis der L1-Gebühren und der Endgültigkeit hilft Ihnen bei der Interpretation von L2-Versprechen."
+  },
+  {
+    "id": "layer2",
+    "term": "Schicht 2",
+    "definition": "Skalierungsschicht, die die Sicherheit von einer L1 erbt.",
+    "explain": "Layer-2-Systeme skalieren die Ausführung und streben gleichzeitig an, die Sicherheit von einem L1 zu übernehmen. Rollups dominieren den aktuellen Designbereich. \n\nBenutzer sollten sich mit Bridge-Vertrauen, Sequencer-Annahmen und Exit-Fenstern vertraut machen. „Cheaper Ethereum“ hat immer noch seine eigene operative Karte."
+  },
+  {
+    "id": "zk-proof",
+    "term": "ZK / Gültigkeitsnachweis",
+    "definition": "Beweis der Korrektheit, ohne alles noch einmal ausführen zu müssen.",
+    "explain": "Gültigkeitsnachweise überzeugen einen Prüfer davon, dass ein Stapel korrekt ist, ohne alles erneut ausführen zu müssen. ZK-Rollups nutzen sie, um sich prägnant auf L1 niederzulassen. \n\nDas „ZK“-Branding gibt keine Auskunft darüber, wer Sequenzen durchführt, wer Upgrades durchführt oder wie Brücken funktionieren. Fragen Sie, was sich bewährt hat und was weiterhin vertrauenswürdig ist."
+  },
+  {
+    "id": "fraud-proof",
+    "term": "Betrugssicher",
+    "definition": "Beweis dafür, dass eine optimistische Charge ungültig ist.",
+    "explain": "Betrugsnachweise stellen ungültige optimistische Chargen während eines Fensters in Frage. Beobachter müssen in der Lage sein, auf Daten zuzugreifen und Beweise einzureichen. \n\nWenn Daten fehlen oder Beobachter ausfallen, werden die Sicherheitsannahmen geschwächt. Optimistische Systeme tauschen Latenz gegen Endgültigkeit, um die Prüfung zu vereinfachen."
+  },
+  {
+    "id": "blob",
+    "term": "Klecks",
+    "definition": "Günstiger Datenraum zur Skalierung eingeführt.",
+    "explain": "Blobs bieten günstigeren temporären Datenraum für Rollups zum Veröffentlichen von Transaktionsdaten. Niedrigere DA-Kosten sind ein Hauptgrund für den Rückgang der L2-Gebühren. \n\nBlobs sind eine Infrastruktur und kein eigenständiges Benutzerprodukt. Sie ermöglichen Anwendungen; Sie beseitigen nicht das Brücken- oder Unterzeichnungsrisiko."
+  },
+  {
+    "id": "wallet",
+    "term": "Geldbörse",
+    "definition": "Software/Hardware, die Schlüssel und Signaturen verwaltet.",
+    "explain": "Eine Wallet verwaltet Schlüssel und erstellt Signaturen. Münzen leben in der Kette; Die Kontrolle liegt bei der Wallet und nicht bei einem Depotguthaben, es sei denn, es handelt sich um ein Börsenkonto. \n\nWählen Sie je nach Größe und Häufigkeit zwischen heiß und kalt. Backup-Disziplin ist wichtiger als Markenästhetik."
+  },
+  {
+    "id": "cold-storage",
+    "term": "Kühllager",
+    "definition": "Schlüssel offline halten, um die Angriffsfläche zu verkleinern.",
+    "explain": "Cold Storage hält Schlüssel offline, um die Angriffsfläche aus der Ferne zu verkleinern. Es eignet sich besser für langfristige Bestände als der Hochfrequenzhandel. \n\nTesten Sie Empfangs- und kleine Sendeflüsse, bevor Sie die Größe parken. Betriebsfehler (falsche Kette, falsche Adresse) gelten auch offline."
+  },
+  {
+    "id": "kyc",
+    "term": "KYC",
+    "definition": "Identitätsprüfungen auf Plattformen.",
+    "explain": "KYC ist eine Identitätsüberprüfung auf Plattformen zur Einhaltung der Compliance. Es unterscheidet sich von Blockchain-Adressen und führt zu Kompromissen in Bezug auf Datenschutz und Datenschutzverletzungen. \n\nVerstehen Sie, was Sie für Fiat-Rampen aufgeben. Durch die Selbstverwahrung wird der KYC-Verlauf an bereits genutzten Zufahrtsrampen nicht gelöscht."
+  },
+  {
+    "id": "dex",
+    "term": "DEX",
+    "definition": "Börsenabwicklung über Smart Contracts.",
+    "explain": "Dezentrale Börsen wickeln Geschäfte über Smart Contracts ab, in der Regel ohne Verwahrung. Der Benutzer behält die Schlüssel und trägt die Unterschrift sowie das MEV-Risiko. \n\nÜberprüfen Sie Router-Verträge und Token-Adressen. Eine DEX-Benutzeroberfläche kann auch dann Phishing sein, wenn das zugrunde liegende Protokoll seriös ist."
+  },
+  {
+    "id": "cex",
+    "term": "CEX",
+    "definition": "Zentralisierter Austausch.",
+    "explain": "Zentralisierte Börsen bieten schnelles Matching und Fiat-Rampen mit Verwahrungsrisiko. Sie behalten einen Schuldschein, bis Sie ihn abheben. \n\nBenutzen Sie sie als Werkzeuge, nicht als Tresore. Heben Sie die Größe ab, die Ihnen wichtig ist, aktivieren Sie eine starke Kontosicherheit und achten Sie auf ähnliche Apps."
+  },
+  {
+    "id": "dapp",
+    "term": "DApp",
+    "definition": "App mit kritischer Logik in der Kette.",
+    "explain": "Ein Dapp platziert kritische Logik in der Kette, während das Frontend möglicherweise noch zentralisiert ist. Die Übernahme einer Domain kann Benutzer auf böswillige Vertragsaufrufe hinweisen. \n\nSetzen Sie Lesezeichen für offizielle URLs, bevorzugen Sie verifizierte Vertragsinteraktionen und behandeln Sie Frontend-Vertrauen als Teil des Bedrohungsmodells."
+  },
+  {
+    "id": "hash",
+    "term": "Hash",
+    "definition": "Einseitige Zusammenfassung der Daten.",
+    "explain": "Ein kryptografischer Hash ordnet Daten einem festen Digest zu. Winzige Eingabeänderungen kehren die Ausgabe um; Das Auffinden von Kollisionen soll schwierig sein. \n\nHashes verknüpfen Blöcke, adressieren Inhalte und übernehmen Nachrichten. Sie sind der Klebstoff für Integritätsprüfungen in allen Kryptosystemen."
+  },
+  {
+    "id": "block",
+    "term": "Block",
+    "definition": "Stapel von Sendungen, die mit dem Verlauf verknüpft sind.",
+    "explain": "Ein Block bündelt Transaktionen in einem verknüpften Verlauf. Größen- und Zeitziele bestimmen den Durchsatz und die Gebührenmärkte. \n\nExplorer zeigen Größe, Antragsteller und enthaltene Sendungen an. Das Verständnis von Blöcken hilft Ihnen bei der Interpretation von Bestätigungen und dem Reorganisationsrisiko."
+  },
+  {
+    "id": "private-key",
+    "term": "Privater Schlüssel",
+    "definition": "Geheimnis, das Ausgaben autorisiert.",
+    "explain": "Ein privater Schlüssel autorisiert Ausgaben. Es zu teilen – oder einen Samen, der es hervorbringt – ist gleichbedeutend mit dem Teilen der Gelder. \n\nGeben Sie niemals Schlüssel in Websites, Chat-Apps oder „Support“-Formulare ein. Hardware-Isolation hilft; Operative Vorsicht entscheidet immer noch über die Ergebnisse."
+  },
+  {
+    "id": "public-key",
+    "term": "Öffentlicher Schlüssel",
+    "definition": "Abgeleiteter Wert, der zur Überprüfung von Signaturen verwendet wird.",
+    "explain": "Ein öffentlicher Schlüssel überprüft Signaturen, die einem privaten Schlüssel entsprechen. Adressen werden normalerweise durch Hashing des öffentlichen Schlüssels abgeleitet. \n\nÖffentliche Schlüssel und Adressen können zum Empfangen gemeinsam genutzt werden. Datenschutzpraktiken sind immer noch wichtig, wenn Sie sie häufig wiederverwenden."
+  },
+  {
+    "id": "address",
+    "term": "Adresse",
+    "definition": "Kennung, die zum Empfangen von Geldern verwendet wird.",
+    "explain": "Eine Adresse ist die Kennung, die zum Empfangen von Geldern in einem Netzwerk verwendet wird. Das Senden an die falsche Kette oder eine Tippfehleradresse ist oft irreversibel. \n\nKopieren Sie sorgfältig, überprüfen Sie einige Zeichen am Anfang und am Ende und senden Sie einen Test, wenn Sie die Größe an ein neues Ziel verschieben."
+  },
+  {
+    "id": "confirmation",
+    "term": "Bestätigung",
+    "definition": "Wie viele Blöcke wurden auf einem TX gebaut?",
+    "explain": "Bestätigungen zählen, wie viele Blöcke auf Ihrer Transaktion aufgebaut wurden. Mehr Tiefe macht Neuorganisationen schwieriger. \n\nDienste wählen unterschiedliche Schwellenwerte für unterschiedliche Größen. Geduld ist eine Sicherheitskontrolle für große Siedlungen."
+  },
+  {
+    "id": "smart-contract",
+    "term": "Intelligenter Vertrag",
+    "definition": "Programm, das in einer Kette bereitgestellt wird.",
+    "explain": "Ein Smart Contract ist ein Programm, das an einer Kettenadresse bereitgestellt wird. Es kann Vermögenswerte verwahren und Regeln durchsetzen, ohne dass ein traditioneller Vermittler erforderlich ist. \n\nFehler, Admin-Schlüssel und unerwartete Integrationen bergen Risiken. Bevorzugen Sie geprüfte, bewährte Codepfade, wenn Sie mit echten Mitteln lernen."
+  },
+  {
+    "id": "token",
+    "term": "Token",
+    "definition": "In einem Vertrag verbuchte Vermögenseinheit.",
+    "explain": "Token sind Vermögenseinheiten, die durch Verträge verbucht werden. Namen und Ticker können geklont werden; Vertragsadressen identifizieren den tatsächlichen Vermögenswert. \n\nÜberprüfen Sie immer die Adresse einer vertrauenswürdigen Quelle, bevor Sie tauschen oder Liquidität hinzufügen."
+  },
+  {
+    "id": "erc-20",
+    "term": "ERC-20",
+    "definition": "Dominante fungible Token-Schnittstelle.",
+    "explain": "ERC-20 ist die dominierende fungible Token-Schnittstelle auf Ethereum-ähnlichen Ketten. Es standardisiert das Übertragungs- und Genehmigungsverhalten für Wallets und DEXs. \n\nZulassungen sind Teil des Standards – und Teil des Risikos. Verstehen Sie die Mechanismen der Zuschüsse, bevor Sie neue Token farmen."
+  },
+  {
+    "id": "permissionless",
+    "term": "Erlaubnislos",
+    "definition": "Jeder kann ohne Zulassungslisten verwenden oder bereitstellen.",
+    "explain": "Erlaubnislose Systeme ermöglichen jedem die Nutzung oder Bereitstellung ohne Zulassungslisten. Open Access treibt Innovationen und Betrügereien gleichermaßen voran. \n\nIhr Filter wird persönlich: Überprüfen Sie Verträge, bevorzugen Sie den Ruf mit Beweisen und fassen Sie Experimente klein."
+  },
+  {
+    "id": "custody",
+    "term": "Gewahrsam",
+    "definition": "Dritte halten Schlüssel/Vermögenswerte.",
+    "explain": "Verwahrung bedeutet, dass ein Dritter Schlüssel oder Vermögenswerte für Sie verwahrt. Convenience-Trades gegen Kontrahenten- und Betriebsrisiko. \n\nDas Sorgerecht verlagert die Verantwortung auf Sie. Hybride Ansätze – Tausch gegen Handel, Kühllagerung gegen Ersparnisse – sind gängige Alphabetisierungsmuster."
+  },
+  {
+    "id": "yield-farming",
+    "term": "Ertragslandwirtschaft",
+    "definition": "Zuweisung von Liquidität, um protokollübergreifende Belohnungen zu erhalten.",
+    "explain": "Beim Yield Farming wird Liquidität protokollübergreifend verteilt, um Belohnungen zu verdienen. Hohe effektive Jahreszinsen sind oft vorübergehender Natur und werden in volatilen Belohnungstoken ausgezahlt. \n\nModellieren Sie Exit-Liquidität und Smart-Contract-Risiko. Landwirtschaft ist eine Strategie, kein Sparkonto."
+  },
+  {
+    "id": "airdrop",
+    "term": "Luftabwurf",
+    "definition": "Token-Verteilung für Wachstum/Community.",
+    "explain": "Airdrops verteilen Token für Wachstum oder Community-Belohnungen. Bei der Geltendmachung von Ansprüchen kann es sich um Unterschriften handeln, die sicherer – oder viel weniger sicher – sind, als sie aussehen. \n\nAchten Sie auf Websites mit Phishing-Ansprüchen und Steuerüberraschungen. Wenn in einem Anspruch Ihr Saatgut verlangt wird, handelt es sich nicht um einen Airdrop."
+  },
+  {
+    "id": "whitepaper",
+    "term": "Whitepaper",
+    "definition": "Dokument, das Design und Ziele beschreibt.",
+    "explain": "Ein Whitepaper erläutert Designziele und -mechanismen. Bevorzugen Sie konkrete Regeln, Bedrohungsmodelle und Parameter gegenüber Vibe-Decks. \n\nBehandeln Sie Papiere als Ausgangsansprüche zur Überprüfung des Codes und des Produktionsverhaltens, nicht als Garantien."
+  },
+  {
+    "id": "halving",
+    "term": "Halbierung",
+    "definition": "Regelmäßige Kürzung der Bitcoin-Blocksubvention.",
+    "explain": "Durch die Halbierung von Bitcoin wird die Blocksubvention regelmäßig gekürzt. Die Ausgabe neuer Lieferungen verlangsamt sich nach einem bekannten Zeitplan. \n\nEs ist keine Garantie für Preiserhöhungen. Es zeigt, wie sich Sicherheitsbudgets und Gebührenmärkte entwickeln, wenn die Subventionen zurückgehen."
+  },
+  {
+    "id": "merkle-tree",
+    "term": "Merkle-Baum",
+    "definition": "Hash-Baum, der die Inklusion effizient beweist.",
+    "explain": "Merkle-Bäume hashen Daten in eine Wurzel, sodass die Einbeziehung effizient nachgewiesen werden kann. Light-Clients und viele Proof-Systeme verlassen sich auf sie. \n\nMit ihnen können Sie überprüfen, ob ein Teil zu einem festgelegten Satz gehört, ohne alles herunterladen zu müssen – von zentraler Bedeutung für die skalierbare Überprüfung."
+  },
+  {
+    "id": "nonce",
+    "term": "Nonce",
+    "definition": "Konto-Sendesequenznummer.",
+    "explain": "Eine Konto-Nonce ordnet Transaktionen so, dass jede einmal der Reihe nach verarbeitet wird. Feststeckende Transaktionen werden häufig durch erneutes Senden derselben Nonce gegen eine höhere Gebühr ersetzt. \n\nDas Verstehen von Nonces entmystifiziert „für immer ausstehende“ Wallets und Ersatzströme."
+  }
+]

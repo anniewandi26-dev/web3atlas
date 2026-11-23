@@ -1,0 +1,86 @@
+[
+  {
+    "id": "n1",
+    "date": "2026-03-12",
+    "title": "Continua la compressione delle tariffe L2",
+    "summary": "I mercati blob e il migliore raggruppamento mantengono i trasferimenti di rollup principali vicini ai centesimi. I micropagamenti diventano più facili: l’educazione alla sicurezza deve tenere il passo.",
+    "body": "Nell'ultimo anno, i miglioramenti della disponibilità dei dati e il raggruppamento più ristretto hanno spinto i trasferimenti tipici sui principali rollup verso commissioni a livello di centesimi. Quella che sembrava una rete di lusso per grandi operazioni sta diventando utilizzabile per azioni di gioco, suggerimenti e piccoli aggiustamenti DeFi. \n\nBlockspace più economico cambia il comportamento dell'utente. Le persone effettuano bridge più spesso, provano più contratti e fanno clic più rapidamente sulle richieste del portafoglio. Questa comodità è un vero progresso e amplia anche il raggio d’azione dei siti di phishing, delle approvazioni illimitate e dei token simili. \n\nPer i costruttori, la compressione delle tariffe è uno sblocco del prodotto: i flussi di onboarding non muoiono più per lo shock del adesivo sul gas. Per gli studenti, la lista di controllo rimane vecchia scuola: verificare i domini, simulare le transazioni, preferire quote limitate e trattare i bridge come una classe di rischio separata anche quando la L2 stessa è economica. \n\nConclusione pratica: festeggia tariffe più basse, ma abbina ogni nuova abitudine a un'abitudine di sicurezza. Il trasferimento più economico è comunque costoso se invia fondi all'indirizzo sbagliato o a chi spende illimitato."
+  },
+  {
+    "id": "n2",
+    "date": "2026-02-28",
+    "title": "Gli account intelligenti raggiungono i portafogli dei consumatori",
+    "summary": "Le chiavi di sessione e il gas sponsorizzato hanno colpito la UX mobile mainstream. Guardiani e moduli diventano nuove superfici di sicurezza.",
+    "body": "L’astrazione dell’account non è più solo un argomento di ricerca. I portafogli dei consumatori forniscono sempre più account intelligenti con chiavi di sessione, recupero sociale e sponsorizzazione del gas in modo che i nuovi arrivati ​​possano agire senza prima cercare un gettone del gas. \n\nQuesto salto di UX crea un nuovo modello mentale. Invece di un seed che controlla un EOA per sempre, gli utenti possono fare affidamento su tutori, moduli, pagatori e autorizzazioni temporanee. Un ripristino configurato in modo errato o un modulo dannoso può bloccare o svuotare un account senza la classica perdita di seed. \n\nI team dovrebbero documentare le esercitazioni di recupero nello stesso modo in cui le banche documentano i flussi di carte smarrite. Gli utenti dovrebbero sapere chi sono i tutori, quanto può spendere una chiave di sessione e come revocare i moduli. “Senza semi” non significa “privo di rischi”. \n\nSe adotti account intelligenti: inizia con piccoli saldi, prova il recupero su un portafoglio di riserva e leggi le autorizzazioni del modulo prima di abilitare le funzionalità utili."
+  },
+  {
+    "id": "n3",
+    "date": "2026-02-10",
+    "title": "I fondi RWA riportano un record di AUM on-chain",
+    "summary": "I Buoni del Tesoro tokenizzati portano curve di rendimento familiari sulla catena. Il riscatto e la custodia legale restano il vero stress test.",
+    "body": "I prodotti di tesoreria tokenizzati e equivalenti al denaro continuano ad attrarre AUM on-chain perché si associano ai flussi di cassa che le persone già comprendono. La liquidazione può avvenire sui binari delle criptovalute mentre la storia economica sembra più vicina alla tradizionale esposizione al mercato monetario. \n\nLe parti difficili sono fuori catena. Chi detiene il sottostante? Quanto velocemente puoi riscattarti in preda al panico? Cosa succede se i partner bancari falliscono o se le restrizioni sui trasferimenti congelano il tuo portafoglio? Saldo in catena ≠ contanti istantanei in mano. \n\nI lettori dovrebbero separare il rischio del protocollo dal rischio dell’emittente e della custodia. Un contratto intelligente e pulito non ripara un involucro legale debole. Gli screenshot APR senza regole di riscatto sono marketing, non diligenza. \n\nUtilizza gli RWA come superficie di apprendimento per riserve, attestazioni e giurisdizione, non solo come linea di rendimento in un'app di portafoglio."
+  },
+  {
+    "id": "n4",
+    "date": "2026-01-22",
+    "title": "I risolutori di intenti ampliano la copertura",
+    "summary": "Gli scambi cross-chain nascondono i percorsi dietro una firma mentre i risolutori competono. Conoscere le regole sui rimborsi e sul peggior slittamento.",
+    "body": "Il trading basato sugli intenti consente agli utenti di firmare ciò che vogliono – “scambiare A con almeno B entro il tempo T” – mentre i risolutori competono per riempire il percorso. L'interfaccia sembra più vicina al checkout che al bridge-hopping manuale. \n\nDietro le quinte, i bridge multi-hop, i pool DEX e gli inventari dei solutori possono ancora eseguire il percorso. I fallimenti, i riempimenti parziali e le condizioni di rimborso contano tanto quanto il percorso felice. Una bella quotazione può nascondere scarsa liquidità o aggressivi salti intermedi. \n\nPrima di firmare, controlla la scadenza, l'output minimo, quali catene vengono toccate e cosa succede se un risolutore non può essere completato. Preferire luoghi che simulino e spieghino il percorso con un linguaggio semplice. \n\nGli intenti riducono i clic; non rimuovono la struttura del mercato. Trattateli come potenti automazioni con impostazioni esplicite del caso peggiore."
+  },
+  {
+    "id": "n5",
+    "date": "2026-01-05",
+    "title": "I quadri di riformulazione del rischio maturano",
+    "summary": "Gli operatori pubblicano matrici di taglio più chiare man mano che la sicurezza condivisa aumenta. Confronta il rendimento solo con gli scenari slash inclusi.",
+    "body": "Il ricondizionamento riutilizza il capitale investito per garantire servizi extra. L’efficienza è attrattiva: lo stesso vincolo garantisce più lavoro. La correlazione è il costo: il fallimento di un operatore o una condizione di taglio ambigua possono incidere su più rendimenti stratificati contemporaneamente. \n\nInformazioni più chiare sugli operatori e matrici di barre aiutano, ma i lettori devono comunque mappare chi può tagliare chi, con quali prove e con quale processo sociale prevale. Il “rendimento aggiuntivo” senza una storia di fallimento è incompleto. \n\nSe riprendi, dimensiona le posizioni per i prelievi correlati, diversifica gli operatori quando possibile e preferisci servizi con monitoraggio trasparente. La leva sulla sicurezza del consenso è ancora leva. \n\nLa maturità del quadro è un progresso; i limiti di rischio personali rimangono il tuo lavoro."
+  },
+  {
+    "id": "n6",
+    "date": "2025-12-18",
+    "title": "Si ampliano i dashboard PoR di Exchange",
+    "summary": "Molte sedi inviano attestati continui dopo i fallimenti del CeFi. La trasparenza aiuta; l’autocustodia conta ancora per le dimensioni.",
+    "body": "I dashboard delle prove di riserva sono diventati un prodotto fiduciario dopo diversi crolli della CeFi. Le continue attestazioni e le pagine dei portafogli pubblici rendono più difficile nascondere rozzi schemi frazionari, almeno per le risorse che scelgono di mostrare. \n\nIl PoR non è un audit completo delle passività, delle entità giuridiche o dei controlli operativi. Una dashboard verde può coesistere con prelievi congelati, debiti nascosti o portafogli attivi compromessi. Trattatelo come un segnale tra tanti. \n\nPer i saldi che non puoi permetterti di lasciare, pianifica prelievi periodici in custodia personale. Mantieni i conti di scambio per liquidità e rampe fiat, non come depositi permanenti. \n\nGli strumenti di trasparenza migliorano il mercato; non sostituiscono l'igiene della custodia personale."
+  },
+  {
+    "id": "n7",
+    "date": "2025-11-30",
+    "title": "I costi del prover ZK scendono nuovamente",
+    "summary": "Hardware e algoritmi riducono le prove di validità. Il marchio \"ZK\" necessita ancora di un sequenziamento e di un controllo approfondito.",
+    "body": "I miglioramenti dell'hardware e dell'algoritmo del prover continuano a ridurre il costo delle prove di validità, rendendo i rollup in stile ZK più pratici per il calcolo generale. I costi di dimostrazione inferiori supportano progetti L2 più ampi e narrazioni di finalità più veloci. \n\nIl marketing spesso condensa molte domande sulla fiducia nella parola “ZK”. Gli utenti dipendono ancora da sequenziatori, bridge, chiavi di aggiornamento e disponibilità dei dati. Una prova economica di una politica batch dannosa non ti aiuta. \n\nQuando valuti un prodotto ZK, chiediti cosa è provato, chi può aggiornarlo, come funziona l'inclusione forzata e come si comportano le uscite sotto stress. I sistemi di prova sono uno strato in una pila. \n\nLe prove più economiche sono ottime notizie in materia di infrastrutture: abbinale allo stesso scetticismo operativo che applichi altrove."
+  },
+  {
+    "id": "n8",
+    "date": "2025-11-08",
+    "title": "La simulazione del portafoglio diventa predefinita",
+    "summary": "La simulazione preflight riduce gli sprechi di approvazione cieca. Percorsi complessi possono ancora essere sottospiegati: rifiuta ciò che non capisci.",
+    "body": "La simulazione delle transazioni e le UI di firma più chiare stanno diventando la posta in gioco. Mostrare le differenze tra le risorse prima della conferma impedisce molti classici drenaggi di approvazione cieca che una volta sembravano semplici clic di \"conferma\". \n\nLa simulazione è valida tanto quanto la decodifica e lo stato della catena presunto. Contratti insoliti, moduli personalizzati o intenti in più passaggi potrebbero comunque essere visualizzati in modo inadeguato. Se l'anteprima è vuota o contraddittoria, si tratta di un segnale di stop, non di un piccolo problema tecnico. \n\nCombina la simulazione con le abitudini delle liste consentite: aggiungi app ai segnalibri, verifica gli indirizzi dei contratti e revoca le quote obsolete. Gli strumenti riducono i tassi di errore; non inventano intenzioni per te. \n\nRegola predefinita: se non puoi spiegare il cambiamento di stato in una frase, non firmare."
+  },
+  {
+    "id": "n9",
+    "date": "2025-10-21",
+    "title": "Aumentano i volumi di liquidazione delle stablecoin",
+    "summary": "I dollari on-chain rimangono il cavallo di battaglia per le coppie e le rimesse. Diversificare gli emittenti e apprendere il rischio di riservazione.",
+    "body": "Le stablecoin continuano a dominare il volume dei pagamenti perché offrono unità simili al dollaro con binari crittografici. Le coppie di scambio, i corridoi di rimessa e gli esperimenti sui salari si basano tutti su di essi come unità di conto pratica. \n\nL’adattamento del prodotto al mercato concentra il rischio su emittenti, banche e politiche di congelamento. Un’azione di depeg o di conformità può fermare per sempre strategie che presupponevano un rapporto perfetto 1:1. Diversificare gli emittenti e comprendere la qualità degli attestati fa parte dell'alfabetizzazione, non della paranoia. \n\nPer l'uso quotidiano, preferisci riserve ben documentate e percorsi di rimborso chiari. Per imparare, confronta i progetti basati su fiat, crittografici e algoritmici in base alle loro modalità di fallimento, non ai loro loghi. \n\nLa crescita del volume significa che le stalle sono infrastrutture. Le infrastrutture meritano una noiosa e ripetuta revisione dei rischi."
+  },
+  {
+    "id": "n10",
+    "date": "2025-10-02",
+    "title": "Gli strumenti DAO migliorano il veto UX",
+    "summary": "Le dashboard Timelock e i ruoli di tutore aiutano a individuare proposte dannose. La governance è parte del modello di sicurezza.",
+    "body": "Le interfacce DAO emergono sempre più vincoli temporali, veti dei guardiani e differenze di proposte leggibili. Ciò è importante perché gli attacchi alla governance possono svuotare le tesorerie con la stessa efficacia di un bug contrattuale, solo con un’interfaccia utente di voto invece che con uno script di exploit. \n\nStrumenti migliori aiutano i delegati a individuare le modifiche dei parametri, le concessioni di token e le chiamate di aggiornamento prima dell'esecuzione. Non risolve il problema della bassa affluenza alle urne, dell’acquisto nascosto di voti o dei processi di emergenza affrettati. \n\nSe detieni il potere di governance, tratta il voto come un accesso alla produzione: verifica il carico utile, attendi i limiti di tempo e preferisci autorizzazioni limitate. Gli spettatori dovrebbero verificare se i tutori sono pubblici e responsabili. \n\nLa sicurezza per le DAO include il processo sociale. I dashboard sono necessari; lo scetticismo resta necessario."
+  },
+  {
+    "id": "n11",
+    "date": "2025-09-14",
+    "title": "Gli studi spediscono inventari ibridi",
+    "summary": "Gli oggetti scarsi si stabiliscono in catena mentre il combattimento in tempo reale rimane fuori catena. La politica di spegnimento definisce fino a che punto arriva il \"proprio\".",
+    "body": "Gli studi di gioco continuano a dividere i sistemi: combattimento autorevole e matchmaking su server a bassa latenza, cosmetici scarsi o valute come inventario on-chain. I giocatori ottengono la commerciabilità senza forzare ogni azione attraverso un mempool. \n\nDesign ibrido significa fiducia ibrida. Potresti possedere una spada tokenizzata e allo stesso tempo dipendere dai server per renderla utile. Se lo studio chiude, le offerte sul mercato non possono ripristinare da sole la logica del gioco. \n\nLeggi le policy degli elementi: è possibile migrare le risorse? I metadati sono modificabili? Chi può congelare le scorte? “On-chain” non è una garanzia completa di utilità. \n\nI giochi ibridi sono un percorso realistico: basta misurare onestamente le rivendicazioni di proprietà rispetto alla dipendenza dal server."
+  },
+  {
+    "id": "n12",
+    "date": "2025-08-29",
+    "title": "Gli hub educativi guidano in sicurezza",
+    "summary": "I prodotti didattici insegnano il phishing e le approvazioni prima di produrre turismo. Sopravvivere per primi è il vero segnale di maturità.",
+    "body": "Molte piattaforme educative ora si aprono con phishing, approvazioni e tutorial sull'igiene dei semi prima dell'agricoltura. Tale ordinamento riflette un’esperienza di settore conquistata con fatica: la conoscenza che non mantiene solvibili è incompleta. \n\nI programmi di studio incentrati sulla sicurezza necessitano ancora di approfondimenti su mercati, protocolli e storia, ma la sequenza è importante. Gli utenti che imparano a rifiutare i messaggi diretti di supporto falsi saranno ancora in giro per apprendere gli AMM in seguito. \n\nWeb3Atlas segue lo stesso pregiudizio: mappe e glossari sono abbinati ad abitudini di difesa. Trattare le esercitazioni di sicurezza come contenuto principale, non come un'appendice. \n\nLa maturità sta aggravando la sopravvivenza. Gli screenshot del rendimento sono facoltativi; la disciplina della custodia non lo è."
+  }
+]

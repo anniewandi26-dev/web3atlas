@@ -1,0 +1,86 @@
+[
+  {
+    "id": "n1",
+    "date": "2026-03-12",
+    "title": "L2 fee compression continues",
+    "summary": "Blob markets and better batching keep major-rollup transfers near cents. Micropayments get easier—security education must keep up.",
+    "body": "Over the past year, data-availability upgrades and tighter batching have pushed typical transfers on major rollups toward cent-level fees. What used to feel like a luxury network for large trades is becoming usable for game actions, tips, and small DeFi adjustments.\n\nCheaper blockspace changes user behavior. People bridge more often, try more contracts, and click through wallet prompts faster. That convenience is real progress—and it also widens the blast radius of phishing sites, unlimited approvals, and lookalike tokens.\n\nFor builders, fee compression is a product unlock: onboarding flows no longer die on gas sticker shock. For learners, the checklist stays old-school: verify domains, simulate transactions, prefer limited allowances, and treat bridges as a separate risk class even when the L2 itself is cheap.\n\nPractical takeaway: celebrate lower fees, but pair every new habit with a security habit. The cheapest transfer is still expensive if it sends funds to the wrong address or an unlimited spender."
+  },
+  {
+    "id": "n2",
+    "date": "2026-02-28",
+    "title": "Smart accounts reach consumer wallets",
+    "summary": "Session keys and sponsored gas hit mainstream mobile UX. Guardians and modules become new safety surfaces.",
+    "body": "Account abstraction is no longer only a research topic. Consumer wallets increasingly ship smart accounts with session keys, social recovery, and gas sponsorship so newcomers can act without first hunting for a gas token.\n\nThat UX leap creates a new mental model. Instead of one seed controlling one EOA forever, users may rely on guardians, modules, paymasters, and temporary permissions. Misconfigured recovery or a malicious module can lock or drain an account without a classic seed leak.\n\nTeams should document recovery drills the way banks document lost-card flows. Users should know who the guardians are, what a session key can spend, and how to revoke modules. “Seedless” does not mean “riskless.”\n\nIf you adopt smart accounts: start with small balances, test recovery on a spare wallet, and read module permissions before enabling convenience features."
+  },
+  {
+    "id": "n3",
+    "date": "2026-02-10",
+    "title": "RWA funds report record on-chain AUM",
+    "summary": "Tokenized T-bills bring familiar yield curves on-chain. Redemption and legal custody remain the real stress test.",
+    "body": "Tokenized treasury and cash-equivalent products continue to attract on-chain AUM because they map to cashflows people already understand. Settlement can happen on crypto rails while the economic story looks closer to traditional money-market exposure.\n\nThe hard parts are off-chain. Who holds the underlying? How fast can you redeem in a panic? What happens if banking partners fail, or if transfer restrictions freeze your wallet? On-chain balance ≠ instant cash in hand.\n\nReaders should separate protocol risk from issuer and custody risk. A clean smart contract does not repair a weak legal wrapper. APR screenshots without redemption rules are marketing, not diligence.\n\nUse RWAs as a learning surface for reserves, attestation, and jurisdiction—not only as a yield line in a portfolio app."
+  },
+  {
+    "id": "n4",
+    "date": "2026-01-22",
+    "title": "Intent solvers expand coverage",
+    "summary": "Cross-chain swaps hide routes behind one signature while solvers compete. Know refund and worst-slippage rules.",
+    "body": "Intent-based trading lets users sign what they want—“swap A for at least B by time T”—while solvers compete to fill the route. The interface feels closer to checkout than to manual bridge-hopping.\n\nUnder the hood, multi-hop bridges, DEX pools, and solver inventories may still execute the path. Failures, partial fills, and refund conditions matter as much as the happy path. A pretty quote can hide thin liquidity or aggressive intermediate hops.\n\nBefore signing, check deadline, minimum output, which chains are touched, and what happens if a solver cannot complete. Prefer venues that simulate and explain the route in plain language.\n\nIntents reduce clicking; they do not remove market structure. Treat them as powerful automation with explicit worst-case settings."
+  },
+  {
+    "id": "n5",
+    "date": "2026-01-05",
+    "title": "Restaking risk frameworks mature",
+    "summary": "Operators publish clearer slashing matrices as shared security grows. Compare yield only with slash scenarios included.",
+    "body": "Restaking reuses staked capital to secure extra services. Efficiency is attractive: the same bond underwrites more work. Correlation is the cost—one operator failure or ambiguous slash condition can hit many layered yields at once.\n\nClearer operator disclosures and slash matrices help, but readers still need to map who can slash whom, under what evidence, and with what social-process overrides. “Additional yield” without a failure story is incomplete.\n\nIf you restake, size positions for correlated drawdowns, diversify operators when possible, and prefer services with transparent monitoring. Leverage on consensus security is still leverage.\n\nFramework maturity is progress; personal risk limits remain your job."
+  },
+  {
+    "id": "n6",
+    "date": "2025-12-18",
+    "title": "Exchange PoR dashboards widen",
+    "summary": "More venues ship continuous attestations after CeFi failures. Transparency helps; self-custody still matters for size.",
+    "body": "Proof-of-reserves dashboards became a trust product after several CeFi collapses. Continuous attestations and public wallet pages make it harder to hide crude fractional schemes—at least for the assets they choose to show.\n\nPoR is not a full audit of liabilities, legal entities, or operational controls. A green dashboard can coexist with frozen withdrawals, hidden debt, or compromised hot wallets. Treat it as one signal among many.\n\nFor balances you cannot afford to strand, schedule periodic withdrawals to self-custody. Keep exchange accounts for liquidity and fiat ramps, not as permanent vaults.\n\nTransparency tools improve the market; they do not replace personal custody hygiene."
+  },
+  {
+    "id": "n7",
+    "date": "2025-11-30",
+    "title": "ZK prover costs drop again",
+    "summary": "Hardware and algorithms cheapen validity proofs. “ZK” branding still needs sequencer and bridge scrutiny.",
+    "body": "Prover hardware and algorithm improvements keep cutting the cost of validity proofs, making ZK-style rollups more practical for general computation. Lower proving cost supports broader L2 designs and faster finality narratives.\n\nMarketing often collapses many trust questions into the word “ZK.” Users still depend on sequencers, bridges, upgrade keys, and data availability. A cheap proof of a malicious batch policy does not help you.\n\nWhen evaluating a ZK product, ask what is proven, who can upgrade, how forced inclusion works, and how exits behave under stress. Proof systems are one layer in a stack.\n\nCheaper proofs are excellent infrastructure news—pair them with the same operational skepticism you apply elsewhere."
+  },
+  {
+    "id": "n8",
+    "date": "2025-11-08",
+    "title": "Wallet simulation becomes default",
+    "summary": "Preflight simulation cuts blind-approval drains. Complex paths can still be under-explained—reject what you don’t understand.",
+    "body": "Transaction simulation and clearer signing UIs are becoming table stakes. Showing asset diffs before confirmation prevents many classic blind-approval drains that once looked like routine “confirm” clicks.\n\nSimulation is only as good as decoding and the assumed chain state. Unusual contracts, custom modules, or multi-step intents may still render poorly. If the preview is empty or contradictory, that is a stop sign—not a minor glitch.\n\nCombine simulation with allowlist habits: bookmark apps, verify contract addresses, and revoke stale allowances. Tools reduce error rates; they do not invent intent for you.\n\nDefault rule: if you cannot explain the state change in one sentence, do not sign."
+  },
+  {
+    "id": "n9",
+    "date": "2025-10-21",
+    "title": "Stablecoin settlement volumes climb",
+    "summary": "On-chain dollars remain the workhorse for pairs and remittances. Diversify issuers and learn reserve risk.",
+    "body": "Stablecoins continue to dominate settlement volume because they offer dollar-like units with crypto rails. Trading pairs, remittance corridors, and payroll experiments all lean on them as the practical unit of account.\n\nProduct-market fit concentrates risk on issuers, banks, and freeze policies. A depeg or compliance action can halt strategies that assumed perfect 1:1 forever. Diversifying issuers and understanding attestation quality is part of literacy, not paranoia.\n\nFor everyday use, prefer well-documented reserves and clear redemption paths. For learning, compare fiat-backed, crypto-backed, and algorithmic designs by their failure modes—not their logos.\n\nVolume growth means stables are infrastructure. Infrastructure deserves boring, repeated risk review."
+  },
+  {
+    "id": "n10",
+    "date": "2025-10-02",
+    "title": "DAO tooling improves veto UX",
+    "summary": "Timelock dashboards and guardian roles help catch malicious proposals. Governance is part of the security model.",
+    "body": "DAO interfaces increasingly surface timelocks, guardian vetoes, and readable proposal diffs. That matters because governance attacks can empty treasuries as effectively as a contract bug—only with a voting UI instead of an exploit script.\n\nBetter tooling helps delegates spot parameter changes, token grants, and upgrade calls before execution. It does not fix low turnout, hidden vote buying, or rushed emergency processes.\n\nIf you hold governance power, treat voting like production access: verify the payload, wait through timelocks, and prefer narrow permissions. Spectators should track whether guardians are public and accountable.\n\nSecurity for DAOs includes social process. Dashboards are necessary; skepticism remains required."
+  },
+  {
+    "id": "n11",
+    "date": "2025-09-14",
+    "title": "Studios ship hybrid inventories",
+    "summary": "Scarce items settle on-chain while realtime combat stays off-chain. Shutdown policy defines how far “own” goes.",
+    "body": "Game studios keep splitting systems: authoritative combat and matchmaking on low-latency servers, scarce cosmetics or currencies as on-chain inventory. Players get tradability without forcing every action through a mempool.\n\nHybrid design means hybrid trust. You may own a tokenized sword while still depending on servers to make it useful. If the studio shuts down, marketplace bids cannot restore game logic by themselves.\n\nRead item policies: Can assets migrate? Are metadata mutable? Who can freeze inventories? “On-chain” is not a full warranty of utility.\n\nHybrid games are a realistic path—just measure ownership claims against server dependency honestly."
+  },
+  {
+    "id": "n12",
+    "date": "2025-08-29",
+    "title": "Education hubs lead with security",
+    "summary": "Learning products teach phishing and approvals before yield tourism. Surviving first is the real maturity signal.",
+    "body": "More education platforms now open with phishing, approvals, and seed hygiene before farming tutorials. That ordering reflects hard-won industry experience: knowledge that does not keep you solvent is incomplete.\n\nSecurity-first curricula still need depth on markets, protocols, and history—but the sequence matters. Users who learn to reject fake support DMs will still be around to learn AMMs later.\n\nWeb3Atlas follows the same bias: maps and glossaries are paired with defense habits. Treat safety drills as core content, not an appendix.\n\nMaturity is compounding survival. Yield screenshots are optional; custody discipline is not."
+  }
+]

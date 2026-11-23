@@ -1,0 +1,86 @@
+[
+  {
+    "id": "n1",
+    "date": "2026-03-12",
+    "title": "Tiếp tục nén phí L2",
+    "summary": "Thị trường Blob và tính năng phân đợt tốt hơn giữ cho các khoản chuyển khoản lớn gần bằng xu. Thanh toán vi mô trở nên dễ dàng hơn—giáo dục về bảo mật phải được duy trì.",
+    "body": "Trong năm qua, việc nâng cấp tính khả dụng của dữ liệu và phân đợt chặt chẽ hơn đã đẩy các khoản chuyển tiền điển hình trên các đợt giới thiệu lớn sang mức phí ở mức phần trăm. Những gì từng có cảm giác giống như một mạng xa xỉ dành cho các giao dịch lớn giờ đây có thể sử dụng được cho các hành động trong trò chơi, mẹo và các điều chỉnh DeFi nhỏ. \n\nKhông gian khối rẻ hơn sẽ thay đổi hành vi của người dùng. Mọi người kết nối thường xuyên hơn, thử nhiều hợp đồng hơn và nhấp qua lời nhắc về ví nhanh hơn. Sự tiện lợi đó là sự tiến bộ thực sự—và nó cũng mở rộng phạm vi bùng nổ của các trang web lừa đảo, phê duyệt không giới hạn và các mã thông báo tương tự. \n\nĐối với các nhà xây dựng, việc nén phí là một cách mở khóa sản phẩm: các quy trình giới thiệu không còn bị gián đoạn do sốc nhãn gas. Đối với người học, danh sách kiểm tra vẫn còn cũ: xác minh tên miền, mô phỏng giao dịch, ưu tiên các khoản trợ cấp có giới hạn và coi các cầu nối như một loại rủi ro riêng biệt ngay cả khi bản thân L2 rẻ. \n\nBài học rút ra thực tế: ăn mừng việc giảm phí nhưng kết hợp mọi thói quen mới với thói quen bảo mật. Chuyển khoản rẻ nhất vẫn đắt nếu gửi tiền đến sai địa chỉ hoặc người chi tiêu không giới hạn."
+  },
+  {
+    "id": "n2",
+    "date": "2026-02-28",
+    "title": "Tài khoản thông minh tiếp cận ví của người tiêu dùng",
+    "summary": "Khóa phiên và gas được tài trợ đã tấn công UX di động phổ thông. Người bảo vệ và mô-đun trở thành bề mặt an toàn mới.",
+    "body": "Việc trừu tượng hóa tài khoản không còn chỉ là một chủ đề nghiên cứu nữa. Ví tiêu dùng ngày càng cung cấp các tài khoản thông minh với khóa phiên, khôi phục xã hội và tài trợ gas để những người mới có thể hành động mà không cần tìm kiếm token gas trước. \n\nBước nhảy vọt UX đó tạo ra một mô hình tinh thần mới. Thay vì một hạt giống kiểm soát một EOA mãi mãi, người dùng có thể dựa vào người giám hộ, mô-đun, người quản lý thanh toán và quyền tạm thời. Khôi phục bị định cấu hình sai hoặc mô-đun độc hại có thể khóa hoặc rút tài khoản mà không bị rò rỉ hạt giống cổ điển. \n\nCác nhóm nên ghi lại các hoạt động khắc phục theo cách các ngân hàng ghi lại các luồng thẻ bị mất. Người dùng nên biết người giám hộ là ai, khóa phiên có thể sử dụng những gì và cách thu hồi mô-đun. “Không hạt” không có nghĩa là “không có rủi ro”. \n\nNếu bạn sử dụng tài khoản thông minh: hãy bắt đầu với số dư nhỏ, kiểm tra quá trình khôi phục trên ví dự phòng và đọc quyền của mô-đun trước khi bật các tính năng tiện lợi."
+  },
+  {
+    "id": "n3",
+    "date": "2026-02-10",
+    "title": "Quỹ RWA báo cáo kỷ lục AUM trên chuỗi",
+    "summary": "Tín phiếu kho bạc được mã hóa mang lại đường cong lợi suất quen thuộc trên chuỗi. Việc mua lại và quyền giám hộ hợp pháp vẫn là bài kiểm tra căng thẳng thực sự.",
+    "body": "Kho bạc được token hóa và các sản phẩm tương đương tiền mặt tiếp tục thu hút AUM trên chuỗi vì chúng ánh xạ tới dòng tiền mà mọi người đã hiểu. Việc thanh toán có thể xảy ra trên đường ray tiền điện tử trong khi câu chuyện kinh tế có vẻ gần hơn với việc tiếp xúc với thị trường tiền tệ truyền thống. \n\nCác phần cứng nằm ngoài chuỗi. Ai nắm giữ cơ sở? Bạn có thể đổi quà nhanh đến mức nào trong cơn hoảng loạn? Điều gì xảy ra nếu các đối tác ngân hàng không thành công hoặc nếu các hạn chế chuyển tiền đóng băng ví của bạn? Số dư trên chuỗi ≠ tiền mặt ngay lập tức. \n\nNgười đọc nên tách rủi ro giao thức khỏi rủi ro của nhà phát hành và quyền giám sát. Một hợp đồng thông minh sạch sẽ không sửa chữa được lớp vỏ pháp lý yếu kém. Ảnh chụp màn hình APR không có quy tắc đổi quà là tiếp thị chứ không phải siêng năng. \n\nSử dụng RWA làm nền tảng học tập cho khoản dự trữ, chứng thực và quyền tài phán—không chỉ dưới dạng đường lợi nhuận trong ứng dụng danh mục đầu tư."
+  },
+  {
+    "id": "n4",
+    "date": "2026-01-22",
+    "title": "Bộ giải quyết ý định mở rộng phạm vi bảo hiểm",
+    "summary": "Hoán đổi chuỗi chéo ẩn các tuyến đường đằng sau một chữ ký trong khi những người giải quyết cạnh tranh. Biết các quy tắc hoàn tiền và trượt giá tồi tệ nhất.",
+    "body": "Giao dịch dựa trên mục đích cho phép người dùng ký những gì họ muốn—“hoán đổi A lấy ít nhất B vào thời điểm T”—trong khi những người giải quyết cạnh tranh để lấp đầy tuyến đường. Giao diện có cảm giác gần giống với việc thanh toán hơn là nhảy cầu thủ công. \n\nDưới mui xe, các cầu nối nhiều bước nhảy, nhóm DEX và kho lưu trữ bộ giải vẫn có thể thực hiện đường dẫn. Lỗi, điền một phần và điều kiện hoàn tiền cũng quan trọng như con đường hạnh phúc. Một báo giá hấp dẫn có thể che giấu tính thanh khoản thấp hoặc những bước nhảy vọt trung gian mạnh mẽ. \n\nTrước khi ký, hãy kiểm tra thời hạn, sản lượng tối thiểu, chuỗi nào được chạm vào và điều gì sẽ xảy ra nếu người giải không thể hoàn thành. Ưu tiên những địa điểm mô phỏng và giải thích lộ trình bằng ngôn ngữ đơn giản. \n\nÝ định giảm nhấp chuột; chúng không loại bỏ cấu trúc thị trường. Hãy coi chúng như sự tự động hóa mạnh mẽ với các cài đặt rõ ràng trong trường hợp xấu nhất."
+  },
+  {
+    "id": "n5",
+    "date": "2026-01-05",
+    "title": "Đặt lại các khung rủi ro đã trưởng thành",
+    "summary": "Các nhà khai thác xuất bản các ma trận cắt giảm rõ ràng hơn khi bảo mật được chia sẻ phát triển. Chỉ so sánh lợi nhuận với các kịch bản gạch chéo được bao gồm.",
+    "body": "Việc đặt lại sẽ tái sử dụng vốn đặt cọc để đảm bảo các dịch vụ bổ sung. Hiệu quả rất hấp dẫn: cùng một trái phiếu bảo lãnh cho nhiều công việc hơn. Mối tương quan là chi phí—một lỗi của người vận hành hoặc điều kiện gạch chéo không rõ ràng có thể ảnh hưởng đến nhiều lớp lợi nhuận cùng một lúc. \n\nViệc tiết lộ rõ ​​ràng hơn về người vận hành và ma trận gạch chéo sẽ giúp ích, nhưng người đọc vẫn cần lập bản đồ ai có thể chém ai, theo bằng chứng nào và bằng quy trình xã hội nào ghi đè. “Lợi suất bổ sung” không có câu chuyện thất bại là không đầy đủ. \n\nNếu bạn đặt lại, hãy xác định kích thước vị trí cho các khoản rút vốn tương quan, đa dạng hóa các nhà khai thác khi có thể và ưu tiên các dịch vụ có giám sát minh bạch. Đòn bẩy về bảo mật đồng thuận vẫn là đòn bẩy. \n\nSự trưởng thành của khung là sự tiến bộ; giới hạn rủi ro cá nhân vẫn là công việc của bạn."
+  },
+  {
+    "id": "n6",
+    "date": "2025-12-18",
+    "title": "Bảng điều khiển PoR của Exchange mở rộng",
+    "summary": "Nhiều địa điểm hơn gửi chứng thực liên tục sau khi CeFi thất bại. Sự minh bạch giúp ích; quyền tự quản vẫn quan trọng đối với kích thước.",
+    "body": "Bảng điều khiển bằng chứng dự trữ đã trở thành một sản phẩm đáng tin cậy sau một số lần CeFi sụp đổ. Chứng thực liên tục và các trang ví công khai khiến việc che giấu các sơ đồ phân số thô sơ trở nên khó khăn hơn - ít nhất là đối với các tài sản mà chúng chọn hiển thị. \n\nPoR không phải là cuộc kiểm toán đầy đủ các khoản nợ, pháp nhân hoặc kiểm soát hoạt động. Bảng điều khiển màu xanh lá cây có thể cùng tồn tại với việc rút tiền bị đóng băng, nợ ẩn hoặc ví nóng bị xâm phạm. Hãy coi nó như một tín hiệu trong số nhiều tín hiệu. \n\nĐối với số dư mà bạn không đủ khả năng để mắc kẹt, hãy lên lịch rút tiền định kỳ để tự quản lý. Giữ các tài khoản trao đổi để đảm bảo tính thanh khoản và tiền pháp định, chứ không phải dưới dạng kho tiền cố định. \n\nCác công cụ minh bạch cải thiện thị trường; chúng không thay thế việc vệ sinh quyền nuôi con cá nhân."
+  },
+  {
+    "id": "n7",
+    "date": "2025-11-30",
+    "title": "Chi phí chứng minh ZK lại giảm",
+    "summary": "Phần cứng và thuật toán làm giảm giá trị của bằng chứng xác thực. Thương hiệu “ZK” vẫn cần được giám sát kỹ lưỡng về trình tự sắp xếp và cầu nối.",
+    "body": "Các cải tiến về phần cứng và thuật toán của Prover tiếp tục cắt giảm chi phí chứng minh tính hợp lệ, làm cho các bản tổng hợp kiểu ZK trở nên thiết thực hơn cho tính toán chung. Chi phí chứng minh thấp hơn hỗ trợ các thiết kế L2 rộng hơn và tường thuật về kết quả cuối cùng nhanh hơn. \n\nHoạt động tiếp thị thường gộp nhiều câu hỏi về niềm tin vào từ “ZK”. Người dùng vẫn phụ thuộc vào trình sắp xếp chuỗi, cầu nối, khóa nâng cấp và tính khả dụng của dữ liệu. Bằng chứng rẻ tiền về chính sách hàng loạt độc hại không giúp ích gì cho bạn. \n\nKhi đánh giá một sản phẩm ZK, hãy hỏi xem điều gì đã được chứng minh, ai có thể nâng cấp, cách thức hoạt động của việc đưa vào bắt buộc và cách thoát ra khi bị căng thẳng. Hệ thống chứng minh là một lớp trong một ngăn xếp. \n\nBằng chứng rẻ hơn là tin tức tuyệt vời về cơ sở hạ tầng—hãy kết hợp chúng với cùng thái độ hoài nghi về hoạt động mà bạn áp dụng ở những nơi khác."
+  },
+  {
+    "id": "n8",
+    "date": "2025-11-08",
+    "title": "Mô phỏng ví trở thành mặc định",
+    "summary": "Mô phỏng trước chuyến bay cắt giảm các cống phê duyệt mù. Những đường dẫn phức tạp vẫn có thể chưa được giải thích rõ ràng—hãy từ chối những gì bạn không hiểu.",
+    "body": "Mô phỏng giao dịch và giao diện người dùng ký kết rõ ràng hơn đang trở thành cổ phần trên bảng. Việc hiển thị những khác biệt về nội dung trước khi xác nhận sẽ ngăn chặn nhiều lần rút phê duyệt mù cổ điển từng giống như những lần nhấp chuột \"xác nhận\" thông thường. \n\nMô phỏng chỉ tốt khi giải mã và trạng thái chuỗi giả định. Các hợp đồng bất thường, mô-đun tùy chỉnh hoặc ý định nhiều bước vẫn có thể hiển thị kém. Nếu bản xem trước trống hoặc mâu thuẫn thì đó là dấu hiệu dừng—không phải trục trặc nhỏ. \n\nKết hợp mô phỏng với thói quen trong danh sách cho phép: đánh dấu ứng dụng, xác minh địa chỉ hợp đồng và thu hồi các khoản trợ cấp cũ. Công cụ giảm tỷ lệ lỗi; họ không phát minh ra ý định cho bạn. \n\nQuy tắc mặc định: nếu bạn không thể giải thích sự thay đổi trạng thái trong một câu thì đừng ký."
+  },
+  {
+    "id": "n9",
+    "date": "2025-10-21",
+    "title": "Khối lượng thanh toán Stablecoin tăng lên",
+    "summary": "Đô la trên chuỗi vẫn là công cụ chính cho các cặp và chuyển tiền. Đa dạng hóa tổ chức phát hành và tìm hiểu rủi ro dự trữ.",
+    "body": "Stablecoin tiếp tục thống trị khối lượng thanh toán vì chúng cung cấp các đơn vị giống như đô la với đường ray tiền điện tử. Các cặp giao dịch, hành lang chuyển tiền và thử nghiệm bảng lương đều dựa vào chúng như một đơn vị tài khoản thực tế. \n\nSự phù hợp với thị trường sản phẩm tập trung rủi ro vào các tổ chức phát hành, ngân hàng và đóng băng chính sách. Một hành động tuân thủ hoặc depeg có thể tạm dừng các chiến lược được coi là hoàn hảo 1:1 mãi mãi. Đa dạng hóa các tổ chức phát hành và hiểu rõ chất lượng chứng thực là một phần của khả năng đọc viết chứ không phải chứng hoang tưởng. \n\nĐể sử dụng hàng ngày, hãy ưu tiên các khoản dự trữ được ghi chép rõ ràng và đường dẫn quy đổi rõ ràng. Để tìm hiểu, hãy so sánh các thiết kế được hỗ trợ bằng tiền pháp định, được hỗ trợ bằng tiền điện tử và thuật toán theo các chế độ lỗi—chứ không phải logo của chúng. \n\nTăng trưởng số lượng có nghĩa là chuồng ngựa là cơ sở hạ tầng. Cơ sở hạ tầng xứng đáng được xem xét rủi ro nhàm chán, lặp đi lặp lại."
+  },
+  {
+    "id": "n10",
+    "date": "2025-10-02",
+    "title": "Công cụ DAO cải thiện trải nghiệm người dùng phủ quyết",
+    "summary": "Bảng điều khiển khóa thời gian và vai trò người giám hộ giúp nắm bắt các đề xuất độc hại. Quản trị là một phần của mô hình bảo mật.",
+    "body": "Giao diện DAO ngày càng hiển thị các khóa thời gian, quyền phủ quyết của người giám hộ và các khác biệt về đề xuất có thể đọc được. Điều đó quan trọng vì các cuộc tấn công quản trị có thể làm trống kho bạc một cách hiệu quả như lỗi hợp đồng—chỉ với giao diện người dùng biểu quyết thay vì tập lệnh khai thác. \n\nCông cụ tốt hơn giúp đại biểu phát hiện các thay đổi về tham số, cấp mã thông báo và nâng cấp lệnh gọi trước khi thực hiện. Nó không khắc phục được tỷ lệ cử tri đi bỏ phiếu thấp, mua phiếu bầu ẩn hoặc các quy trình khẩn cấp gấp rút. \n\nNếu bạn nắm quyền quản trị, hãy coi việc biểu quyết giống như quyền truy cập sản xuất: xác minh tải trọng, đợi trong khoảng thời gian và ưu tiên các quyền hạn hẹp. Khán giả nên theo dõi xem người giám hộ có công khai và chịu trách nhiệm hay không. \n\nBảo mật cho DAO bao gồm quy trình xã hội. Bảng điều khiển là cần thiết; sự hoài nghi vẫn cần thiết."
+  },
+  {
+    "id": "n11",
+    "date": "2025-09-14",
+    "title": "Studios tàu hàng tồn kho lai",
+    "summary": "Các vật phẩm khan hiếm được giải quyết trên chuỗi trong khi chiến đấu thời gian thực vẫn ở ngoài chuỗi. Chính sách tắt máy xác định mức độ “của riêng” đi được bao xa.",
+    "body": "Các studio trò chơi tiếp tục phân chia các hệ thống: chiến đấu và mai mối có thẩm quyền trên các máy chủ có độ trễ thấp, mỹ phẩm hoặc tiền tệ khan hiếm dưới dạng hàng tồn kho trên chuỗi. Người chơi có được khả năng giao dịch mà không cần phải thực hiện mọi hành động thông qua mempool. \n\nThiết kế lai có nghĩa là niềm tin lai. Bạn có thể sở hữu một thanh kiếm được mã hóa trong khi vẫn phụ thuộc vào máy chủ để nó trở nên hữu ích. Nếu studio đóng cửa, giá thầu trên thị trường không thể tự khôi phục logic trò chơi. \n\nĐọc chính sách mục: Nội dung có thể di chuyển không? Siêu dữ liệu có thể thay đổi được không? Ai có thể đóng băng hàng tồn kho? “Trên chuỗi” không phải là sự đảm bảo đầy đủ về tiện ích. \n\nTrò chơi kết hợp là một con đường thực tế—chỉ cần đo lường các yêu cầu về quyền sở hữu đối với sự phụ thuộc vào máy chủ một cách trung thực."
+  },
+  {
+    "id": "n12",
+    "date": "2025-08-29",
+    "title": "Các trung tâm giáo dục dẫn đầu về vấn đề bảo mật",
+    "summary": "Các sản phẩm học tập hướng dẫn cách lừa đảo và phê duyệt trước khi du lịch lợi nhuận. Sống sót trước tiên là tín hiệu trưởng thành thực sự.",
+    "body": "Hiện nay, nhiều nền tảng giáo dục hơn đã mở ra với hành vi lừa đảo, phê duyệt và vệ sinh hạt giống trước khi hướng dẫn canh tác. Thứ tự đó phản ánh kinh nghiệm khó có được trong ngành: kiến ​​thức không giúp bạn có khả năng thanh toán là không đầy đủ. \n\nChương trình giảng dạy ưu tiên bảo mật vẫn cần có chiều sâu về thị trường, giao thức và lịch sử nhưng trình tự mới là vấn đề quan trọng. Những người dùng học cách từ chối DM hỗ trợ giả mạo sẽ vẫn ở đó để tìm hiểu AMM sau này. \n\nWeb3Atlas cũng có xu hướng tương tự: bản đồ và bảng chú giải thuật ngữ được kết hợp với thói quen phòng thủ. Hãy coi các cuộc diễn tập an toàn là nội dung cốt lõi chứ không phải là phụ lục. \n\nTrưởng thành là sự sống còn. Ảnh chụp màn hình năng suất là tùy chọn; kỷ luật giam giữ thì không."
+  }
+]

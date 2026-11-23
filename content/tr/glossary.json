@@ -1,0 +1,362 @@
+[
+  {
+    "id": "gas",
+    "term": "Gaz",
+    "definition": "Bir işlemin tükettiği birim ölçüm hesaplaması ve depolama.",
+    "explain": "Gas, bir işlemin ağdan ne kadar hesaplama ve depolama yapmasını istediğini ölçer. Ölçüm olmadan halka açık bir zincir, sonsuz döngüler veya spam nedeniyle durdurulabilir. Ücretiniz kabaca kullanım × birim fiyattır; Tıkanıklık, blok alanı talebi arttıkça birim fiyatı yükseltir. \n\nDoğrulayıcılar işi zaten yürüttüğünden, başarısız işlemler hala gas'a mal olabilir. Pratik alışkanlık: ücretleri tahmin edin, öğrenim sırasında yoğun olmayan saatleri tercih edin ve başarısız bir UX mesajını asla ücretsiz yeniden denemeyle karıştırmayın."
+  },
+  {
+    "id": "gwei",
+    "term": "Gwei",
+    "definition": "Gaz fiyatlarını belirlemek için kullanılan ortak bir ETH birimi.",
+    "explain": "Gwei, gaz fiyatlarını insan ölçeğindeki rakamlarla belirtmek için kullanılan bir eter birimidir. Bir ETH, 1e9 Gwei'ye eşittir. Cüzdanlar genellikle maksimum ücreti ve öncelik ücretini Gwei cinsinden gösterir, böylece on sekiz ondalık rakamı saymadan aciliyeti karşılaştırabilirsiniz. \n\nÖğreticileri veya bellek havuzu ekran görüntülerini okurken birimleri dikkatlice kontrol edin. Gwei tekliflerini ETH transfer tutarlarıyla karıştırmak, fazla veya eksik ödemeye yol açan klasik bir başlangıç ​​hatasıdır."
+  },
+  {
+    "id": "evm",
+    "term": "EVM",
+    "definition": "Ethereum Sanal Makinesi — akıllı sözleşme çalışma zamanı.",
+    "explain": "Ethereum Sanal Makinesi, akıllı sözleşme bayt kodunu yürüten paylaşılan çalışma zamanıdır. Çoğu \"EVM uyumlu\" zincir, geliştiricilerin benzer sözleşmeleri başka yerlerde dağıtabilmesi için işlem kodlarını ve araçları yeniden kullanır. \n\nUyumluluk, aynı güvenlik veya ekonomiyle değil, geliştirici deneyimiyle ilgilidir. Kodun sonsuza kadar çalışacağını varsaymadan önce her zaman hangi zincirde olduğunuzu, hangi kaşife güvendiğinizi ve proxy yükseltme modellerinin dahil olup olmadığını doğrulayın."
+  },
+  {
+    "id": "amm",
+    "term": "AM",
+    "definition": "Kitaplar yerine havuzlar ve formüller aracılığıyla pazar oluşturma.",
+    "explain": "Otomatik bir piyasa yapıcı, klasik emir defteri yerine havuz formülleriyle işlem yapar. Likidite sağlayıcıları, kalıcı kayıp olarak bilinen envanter riskini alırken varlıkları yatırır ve ücret kazanırlar. \n\nSahte havuzlar ve benzer tokenlar yaygın tuzaklardır. Sözleşme adreslerini, havuz derinliğini ve ücret katmanlarını kontrol edin. AMM'ler güçlü ilkel varlıklardır; onlara şeffaf matematik ve çekişmeli akışa sahip pazarlar gibi davranın."
+  },
+  {
+    "id": "tvl",
+    "term": "TVL",
+    "definition": "Bir protokolün sözleşmelerinde kilitlenen toplam değer.",
+    "explain": "Kilitli toplam değer, bir protokolün sözleşmelerine yatırılan varlıkların toplamını oluşturur. Yüksek TVL, kullanımın ve güvenin sinyalini verebilir veya basitçe yinelemeli olarak sayılan mevduatların şişirilmesi ve daha büyük bir hack hedefinin sinyalini verebilir. \n\nDenetim kalitesi, yönetici anahtarları, oracle tasarımı ve gerçek ücret gelirinin yanı sıra TVL'yi okuyun. Bu bağlamların bulunmadığı bir başlık numarası, bir güvenlik derecelendirmesi değil, bir pazarlama ölçüsüdür."
+  },
+  {
+    "id": "apy",
+    "term": "APY",
+    "definition": "Bileşim dahil yıllık verim.",
+    "explain": "APY, bileşik varsayımlar da dahil olmak üzere getiriyi yıllıklaştırır. Yıllık olarak üç haneli APY'lere dönüştürülen kısa teşvik kampanyaları genellikle yanıltıcıdır çünkü emisyonlar, token fiyatı ve sürdürülebilirlik istikrarsızdır. \n\nBenzeri benzerle karşılaştırın: kalıcı ücret APY ile geçici ödül APY. Teşvikler sona erdiğinde ne olacağını ve pozisyonu bozmadan çıkıp çıkamayacağınızı sorun."
+  },
+  {
+    "id": "apr",
+    "term": "Nisan",
+    "definition": "Bileşiksiz yıllık oran.",
+    "explain": "APR, bileşik olmadan yıllıklandırılmış bir oran belirtir. Borç verme arayüzleri sıklıkla arz APR'sini ve borçlanma APR'sini yan yana gösterir; Tanımlar ürünler arasında farklılık göstermektedir. \n\nAPR ve APY'yi karşılaştırırken bileşik oluşturma sıklığını ve ödül tokenlarının dahil edilip edilmediğini doğrulayın. Tanımlardaki kesinlik, yanlış \"daha iyi oran\" çıkarımlarını önler."
+  },
+  {
+    "id": "slippage",
+    "term": "Kayma",
+    "definition": "Beklenen ve gerçekleşen fiyat arasındaki fark.",
+    "explain": "Kayma, beklediğiniz fiyat ile aldığınız fiyat arasındaki farktır. İnce havuzlar, büyük boyutlar ve değişken anlar bu açığı genişletiyor. \n\nÇok geniş kayma ayarları sandviçlemeye davetiye çıkarır; çok sıkı ayarlar başarısız olur ve yine de gaz harcayabilir. İşlem büyüklüğüne ve havuz derinliğine göre bilinçli olarak ayarlayın ve büyük takaslar için mümkün olduğunda özel gönderimi tercih edin."
+  },
+  {
+    "id": "mev",
+    "term": "MEV",
+    "definition": "İşlemlerin sipariş edilmesinden/dahil edilmesinden elde edilen değer.",
+    "explain": "Çıkarılabilir maksimum değer, işlem sıralamasının, dahil edilmesinin veya sansürün kontrol edilmesinden elde edilen kârdır. Herkese açık bellek havuzları, araştırmacıların büyük takasları tespit etmesine ve avantajı yakalamak için rekabet etmesine olanak tanır. \n\nAzaltma önlemleri arasında daha sıkı kayma, özel sipariş akışı, toplu açık artırmalar ve boyutun basit şekilde bölünmesi yer alıyor. MEV'yi anlamak, bir kullanıcı arayüzü hatası olmadan bile \"aynı ticaret, daha kötü doldurma\"nın neden gerçekleştiğini açıklıyor."
+  },
+  {
+    "id": "oracle",
+    "term": "Kahin",
+    "definition": "Zincir dışı verileri zincire taşıyan hizmet.",
+    "explain": "Oracle'lar zincir dışı gerçekleri, özellikle de fiyatları zincire aktararak sözleşmelerin tepki verebilmesini sağlar. Borç verme tasfiyeleri ve kalıcı marka fiyatları yem bütünlüğüne bağlıdır. \n\nZayıf pazarların kötü kehanet baskılarına dönüştürülmesi daha kolaydır. Beslemeler durduğunda güçlü toplama, devre kesiciler ve net arıza davranışına sahip protokolleri tercih edin."
+  },
+  {
+    "id": "rollup",
+    "term": "Toplama",
+    "definition": "Verileri/kanıtları L1'e gönderen L2 yürütmesi.",
+    "explain": "Bir toplama temel zinciri yürütür ve L1'in sonuçları güvence altına alabilmesi için verileri veya provaları geri gönderir. İyimser tasarımlar, meydan okuma pencerelerine dayanır; geçerlilik toplamaları kanıtlara dayanır. \n\nBirçok işlemin L1 maliyetlerini paylaşması nedeniyle kullanıcı ücretleri düşer. Risk kontrol listeniz hâlâ köprüleri, sıralayıcıları, yükseltme anahtarlarını ve zorunlu çıkışların nasıl çalıştığını içerir."
+  },
+  {
+    "id": "sequencer",
+    "term": "Sıralayıcı",
+    "definition": "L2 işlemlerini sipariş eden bileşen.",
+    "explain": "Sıralayıcı, L2 işlemlerini sipariş eder ve sıklıkla hızlı elektronik onaylar sağlar. Günümüzde birçok sıralayıcı merkezileştirilmiş durumda, bu da kesinti süresini ve sansüre karşı direnci etkiliyor. \n\nSıralayıcıların merkezi olmayan hale getirilmesi önemli bir yol haritası temasıdır. O zamana kadar, yazılımla onaylamayı kolaylık olarak değerlendirin ve operatörler hatalı davrandığında L1 tarafından zorunlu kılınan katılıma giden yolu anlayın."
+  },
+  {
+    "id": "finality",
+    "term": "Kesinlik",
+    "definition": "Bir tx/blok pratik olarak geri döndürülemez olduğunda.",
+    "explain": "Kesinlik, bir işlemin pratikte geri döndürülemez olduğu zamanı tanımlar. Bazı protokollerin açık kesinlik araçları vardır; diğerleri olasılıksaldır ve derinlikle güçlenir. \n\nBorsalar bu varsayımlardan onay sayılarını seçer. Büyük transferler için, karşı tarafın gerçekten ihtiyaç duyduğu kesinliği bekleyin; ilk \"başarı\" kadehini değil."
+  },
+  {
+    "id": "utxo",
+    "term": "UTXO",
+    "definition": "Harcanmamış işlem çıktısı muhasebe modeli.",
+    "explain": "Harcanmamış işlem çıktıları, Bitcoin benzeri sistemlerin harcanabilir paraları nasıl takip ettiğini gösterir. Bakiyeniz imzalayabileceğiniz UTXO'ların toplamıdır; Harcama çıktıları tüketir ve değişiklik yaratabilir. \n\nUTXO muhasebesi hesap bakiyelerinden farklıdır ve ücretleri, gizliliği ve madeni para seçimini etkiler. Light cüzdanlar ayrıntıları gizler; tam düğümler ise konsolidasyonun neden önemli olduğunu ortaya çıkarır."
+  },
+  {
+    "id": "eoa",
+    "term": "EOA",
+    "definition": "Bir anahtar tarafından kontrol edilen, dışarıdan sahip olunan hesap.",
+    "explain": "Dışarıdan sahip olunan bir hesap, sözleşme kodu olmadan doğrudan özel bir anahtarla kontrol edilir. Çoğu klasik cüzdan EOA'dır: imza eşittir yetkilendirme. \n\nŞifre sıfırlama yoktur. Tohum kaybı varlık kaybıdır. Akıllı hesaplar bu modeli değiştiriyor; EOA'larda kalırsanız çevrimdışı yedeklemeler ve kimlik avına karşı direnç her şeydir."
+  },
+  {
+    "id": "multisig",
+    "term": "Çoklu imza",
+    "definition": "Birden fazla onay gerektiren hesap.",
+    "explain": "Çoklu imza hesapları, fonların taşınmasından önce M-of-N onaylarını gerektirir. Hazine ve ekipler bunları tek anahtar arızasını ortadan kaldırmak için kullanıyor. \n\nTasarım ödünleşimleri arasında eşik seçimi, imzalayanların coğrafi çeşitliliği ve kurtarma tatbikatları yer alır. Asla prova etmediğiniz bir çoklu imza, en kötü anda başarısız olabilir."
+  },
+  {
+    "id": "seed-phrase",
+    "term": "Tohum İfadesi",
+    "definition": "M-cüzdan anahtarlarını yeniden oluşturan kelime listesi.",
+    "explain": "Bir tohum cümlesi, cüzdan anahtarlarını yeniden oluşturur. Bu kelimeleri gören herkes cüzdanı başka bir yerde yeniden oluşturabilir; destek temsilcilerinin sizi \"doğrulamak\" için buna asla ihtiyacı olmaz. \n\nTohumları çevrimdışı tutun, asla web sitelerine yazmayın ve fotoğrafı çekilen bir tohumun ele geçirildiğini varsaymayın. Sızıntı olması durumunda derhal temiz bir cihazdaki yeni bir tohuma geçin."
+  },
+  {
+    "id": "allowance",
+    "term": "Ödenek",
+    "definition": "Bir sözleşmenin jetonunuzdan harcayabileceği maksimum tutar.",
+    "explain": "Tahsisat, bir harcama sözleşmesinin bakiyenizden ne kadar jeton aktarabileceğini sınırlar. Sınırsız tahsisatlar sık ​​sık işlem yapanlar için uygundur ve diğer herkes için tehlikelidir. \n\nKullanılmayan ödenekleri düzenli olarak gözden geçirin ve iptal edin. Yeni bir uygulamayı öğrenirken tam veya mütevazı harçlıkları tercih edin."
+  },
+  {
+    "id": "approve",
+    "term": "Onaylamak",
+    "definition": "Bir ödenek belirleyen işlem.",
+    "explain": "İşlem setini onaylayın veya tahsisatları değiştirin. Tokenları kendi başlarına taşımazlar, ancak daha sonra harcama yapan kişinin adresine göre yapılan harcamaların kilidini açarlar. \n\nHarcayan kişiyi dikkatlice okuyun, etkiyi simüle edin ve bilinmeyen sözleşmeler için onay isteyen kimlik avına karşı dikkatli olun. Onaylar bir üst drenaj vektörüdür."
+  },
+  {
+    "id": "rug",
+    "term": "Halı Çekme",
+    "definition": "İçeridekiler likiditeyi tüketiyor veya bir projeyi terk ediyor.",
+    "explain": "Halı çekme, içeridekilerin fon topladıktan sonra likiditeyi boşaltması veya bir projeyi terk etmesidir. Uyarı işaretleri arasında ulaşılamayan likidite, şeffaf olmayan yöneticiler ve yalnızca getiri sağlayan pazarlama yer alır. \n\nDurum tespiti sosyal ve tekniktir: ekibin sorumluluğu, sözleşme izinleri ve likiditenin kilitli olup olmadığı. Eğer çıkışı açıklayamıyorsanız büyük beden almayın."
+  },
+  {
+    "id": "phishing",
+    "term": "Kimlik avı",
+    "definition": "Anahtarları veya imzaları kandıran sahte siteler/kimlikler.",
+    "explain": "Kimlik avı, anahtarları veya imzaları toplamak için sahte siteler, reklamlar ve kimlikler kullanır. Homograf alanları ve sahte destek DM'leri kalıcı hitlerdir. \n\nYer işaretlerini kullanın, cüzdan markalarına yönelik arama reklamlarını göz ardı edin ve tohumları asla paylaşmayın. Emin olmadığınız durumlarda herhangi bir şeyi imzalamadan önce ikinci bir kanalda doğrulama yapın."
+  },
+  {
+    "id": "bridge",
+    "term": "Köprü",
+    "definition": "Varlıkların/mesajların zincirler arasında taşınmasını sağlayan protokol.",
+    "explain": "Köprüler varlıkları veya mesajları zincirler arasında taşır. Kanonik köprüler, ev toplamanın güvenlik modelinin çoğunu devralır; hızlı köprüler genellikle hız için ekstra güven varsayımları ekler. \n\nHer zaman küçük miktarlarla test yapın, resmi URL'leri doğrulayın ve geri ödeme davranışını anlayın. Köprü riski tarihsel olarak yoğundur ve affetmez."
+  },
+  {
+    "id": "stablecoin",
+    "term": "Stablecoin",
+    "definition": "Kararlı bir referansı izlemek için tasarlanmış belirteç.",
+    "explain": "Stablecoin'ler USD gibi stabil bir referansı izlemeyi amaçlar. Tasarımlar fiat rezervlerini, kripto teminatını ve algoritmik mekanizmaları içerir; her biri farklı şekilde başarısız olur. \n\nSertifikayı veren kuruluş onay kalitesini, dondurma politikasını ve geri ödeme yollarını öğrenin. Ahırlar iş akışınızın temelini oluşturduğunda çeşitlendirin."
+  },
+  {
+    "id": "liquidity",
+    "term": "Likidite",
+    "definition": "Fiyatı çok fazla değiştirmeden boyut ticareti yapabilme yeteneği.",
+    "explain": "Likidite, fiyatı çok fazla hareket ettirmeden büyüklükte işlem yapabilme yeteneğidir. Derin havuzlar kaymayı azaltır; Çıkarılabilir veya yanıltıcı likidite, güvenliği taklit edebilir. \n\nLP jetonlarını kimin ve ne kadar hızlı çekebileceğini kontrol edin. Stres anında yok olan likidite, ihtiyaç duyduğunuzda likidite değildir."
+  },
+  {
+    "id": "impermanent-loss",
+    "term": "Kalıcı Kayıp",
+    "definition": "Fiyatlar farklılaştığında LP'nin düşük performansı ve elde tutulması.",
+    "explain": "Kalıcı kayıp, LP'nin düşük performansı ve fiyatlar farklılaştığında varlıkları elinde tutmasıdır. Ücretler telafi edebilir veya etmeyebilir. \n\nÇıkış, boşluğu kristalleştirir. Özellikle düşük ücret geliri olan değişken çiftlerde likidite sağlamadan önce senaryoları modelleyin."
+  },
+  {
+    "id": "liquidation",
+    "term": "Tasfiye",
+    "definition": "Bir kredi sağlıksız olduğunda zorla teminat satışı.",
+    "explain": "Tasfiye, bir kredinin sağlık faktörü başarısız olduğunda zorla teminat satar. Oracle'lar tetikleme fiyatını belirler; çağlayanlar kazaları artırır. \n\nTamponları tutun, öğrenirken maksimum kaldıraçtan kaçının ve tasfiyelerin açık artırmaya dayalı mı yoksa koruyucu robota dayalı mı olduğunu anlayın."
+  },
+  {
+    "id": "staking",
+    "term": "Staking",
+    "definition": "Bir ağı güvence altına almak veya ödül kazanmak için varlıkları kilitleme.",
+    "explain": "Staking, bir ağı güvence altına almak veya protokol ödülleri kazanmak için varlıkları kilitler. Tasarımlar kilitlemelere, eğik çizgiye ve doğrulayıcı mı yoksa temsilci mi çalıştırdığınıza göre farklılık gösterir. \n\nYetkilendirme operatör riskini artırır. Bahis konulan varlıkları likit yağmurlu gün fonları olarak değerlendirmeden önce tahvillerin çözülme sürelerini okuyun."
+  },
+  {
+    "id": "validator",
+    "term": "Doğrulayıcı",
+    "definition": "Blokları öneren/onaylayan PoS düğümü.",
+    "explain": "Doğrulayıcılar, hisse kanıtı sistemlerinde bloklar önerir ve doğrular. Düşük performans veya kötü niyet azaltılabilir. \n\nTek başına doğrulama operasyon disiplini gerektirir; Sıvı staking ve yeniden stake etme, fikir birliği görevlerinin yanı sıra akıllı sözleşme ve operatör riski katmanlarını da ekliyor."
+  },
+  {
+    "id": "dao",
+    "term": "DAO",
+    "definition": "Zincir içi kurallar/oylar yoluyla koordinasyon sağlayan organizasyon.",
+    "explain": "Bir DAO, zincir içi kurallar aracılığıyla koordinasyon sağlar ve hazine bonoları ve parametreler üzerinde oy kullanır. Katılım, balina yoğunluğu ve teklifin kalitesi sonuçları şekillendirir. \n\nYönetişim bir güvenlik yüzeyidir: Kötü niyetli yükseltmeler, \"başarılı\" bir oylamayla fonları tüketebilir. Yalnızca başlıkları değil, yükleri de okuyun."
+  },
+  {
+    "id": "nft",
+    "term": "NFT",
+    "definition": "Benzersiz öğeler için değiştirilemez jeton.",
+    "explain": "Değiştirilemez tokenlar benzersiz öğeleri temsil eder. Tokenın mülkiyeti zincir üzerindedir; medya ve özellikler genellikle zincir dışında yaşar ve sabitlemeye veya sunuculara bağlıdır. \n\nSözleşme adreslerini, telif hakkı politikalarını ve meta verilerin değişebilirliğini doğrulayın. Aynı sanat eseri, farklı sözleşme klasik bir tuzaktır."
+  },
+  {
+    "id": "ipfs",
+    "term": "IPFS'ler",
+    "definition": "İçerik adresli dağıtılmış dosya ağı.",
+    "explain": "IPFS, içeriği karma yoluyla adresler, böylece bütünlük kontrol edilebilir. Kalıcılık hâlâ birisinin veriyi sabitlemesine bağlı. \n\nNFT'ler veya belgeler IPFS'den alıntı yaptığında, kimin pin attığını ve ağ geçitleri kaybolursa ne olacağını sorun. İçerik adresleme ≠ otomatik sonsuza kadar barındırma."
+  },
+  {
+    "id": "ens",
+    "term": "ENS",
+    "definition": "Ethereum Name Service adları kayıtlara eşler.",
+    "explain": "ENS, insanların okuyabildiği adları adreslere ve kayıtlara eşler. Yazım hatalarını azaltır ancak adların geçerliliği sona erer ve kontrolleri atlarsanız çözünürlük kaçırılabilir. \n\nBoyutu göndermeden önce her zaman güvenilir bir yol üzerinde çözümlenen adresi yeniden kontrol edin."
+  },
+  {
+    "id": "layer1",
+    "term": "Katman 1",
+    "definition": "Kendi fikir birliğine/uzlaşısına sahip temel zincir.",
+    "explain": "Katman 1 zinciri kendi konsensüs ve uzlaşma güvenliğini sağlar. Ücretler ve verim, temel katman kıtlığını yansıtıyor. \n\nL1'ler, nihai anlaşmazlık çözümünün genellikle toparlamalar için geçerli olduğu yerdir. L1 ücretlerini ve kesinliğini anlamak, L2 vaatlerini yorumlamanıza yardımcı olur."
+  },
+  {
+    "id": "layer2",
+    "term": "Katman 2",
+    "definition": "Güvenliği L1'den devralan ölçeklendirme katmanı.",
+    "explain": "Katman 2 sistemleri, güvenliği L1'den devralmayı hedeflerken yürütmeyi ölçeklendirir. Toplamalar mevcut tasarım alanına hakimdir. \n\nKullanıcılar köprü güvenini, sıralayıcı varsayımlarını ve çıkış pencerelerini öğrenmelidir. “Daha Ucuz Ethereum”un hala kendi operasyonel haritası var."
+  },
+  {
+    "id": "zk-proof",
+    "term": "ZK / Geçerlilik Kanıtı",
+    "definition": "Her şeyi yeniden yürütmeden doğruluğun kanıtı.",
+    "explain": "Geçerlilik kanıtları, doğrulayıcıyı her şeyi yeniden yürütmeye gerek kalmadan bir grubun doğru olduğuna ikna eder. ZK toplamaları bunları kısaca L1'e yerleşmek için kullanıyor. \n\n\"ZK\" markası kimin sıralama yaptığına, kimin yükseltme yaptığına veya köprülerin nasıl çalıştığına cevap vermiyor. Neyin kanıtlanmış olduğunu ve neyin güvenilir kaldığını sorun."
+  },
+  {
+    "id": "fraud-proof",
+    "term": "Sahtekarlığa Karşı Kanıt",
+    "definition": "İyimser bir grubun geçersiz olduğuna dair kanıt.",
+    "explain": "Dolandırıcılık kanıtları, bir pencere sırasında geçersiz iyimser gruplara meydan okur. Gözlemciler verilere erişebilmeli ve kanıt sunabilmelidir. \n\nVeriler eksikse veya izleyiciler başarısız olursa güvenlik varsayımları zayıflar. İyimser sistemler, daha basit kanıtlama için gecikmeyi kesinliğe dönüştürür."
+  },
+  {
+    "id": "blob",
+    "term": "Damla",
+    "definition": "Ölçeklendirme için ucuz veri alanı tanıtıldı.",
+    "explain": "Bloblar, işlem verilerinin yayınlanması için toplamalar için daha ucuz geçici veri alanı sağlar. Daha düşük DA maliyeti, L2 ücretlerinin düşmesinin önemli bir nedenidir. \n\nBloblar altyapıdır, kendi başlarına bir kullanıcı ürünü değildir. Uygulamaları etkinleştirirler; köprü veya imza riskini ortadan kaldırmazlar."
+  },
+  {
+    "id": "wallet",
+    "term": "Cüzdan",
+    "definition": "Anahtarları ve imzaları yöneten yazılım/donanım.",
+    "explain": "Bir cüzdan anahtarları yönetir ve imzalar oluşturur. Madeni paralar zincir üzerinde yaşıyor; cüzdan, bir takas hesabı olmadığı sürece saklama bakiyesini değil, kontrolü elinde tutar. \n\nBoyut ve frekansa göre sıcak ve soğuğu seçin. Yedekleme disiplini marka estetiğinden daha önemlidir."
+  },
+  {
+    "id": "cold-storage",
+    "term": "Soğuk Hava Deposu",
+    "definition": "Saldırı yüzeyini küçültmek için anahtarları çevrimdışı tutmak.",
+    "explain": "Soğuk depolama, uzaktan saldırı yüzeyini daraltmak için anahtarları çevrimdışı tutar. Uzun vadeli holdinglere yüksek frekanslı ticaretten daha iyi uyum sağlar. \n\nPark boyutundan önce alma ve küçük gönderme akışlarını test edin. Operasyonel hatalar (yanlış zincir, yanlış adres) çevrimdışı olarak da geçerlidir."
+  },
+  {
+    "id": "kyc",
+    "term": "KYC",
+    "definition": "Platformlarda kimlik kontrolleri.",
+    "explain": "KYC, uyumluluk için platformlarda kimlik doğrulamadır. Blockchain adreslerinden farklıdır ve gizlilik ve veri ihlali değiş tokuşları yaratır. \n\nFiat rampaları için nelerden vazgeçtiğinizi anlayın. Kişisel velayet, halihazırda kullandığınız rampalardaki KYC geçmişini silmez."
+  },
+  {
+    "id": "dex",
+    "term": "DEX",
+    "definition": "Akıllı sözleşmeler yoluyla takas düzenlemesi.",
+    "explain": "Merkezi olmayan borsalar, işlemleri genellikle gözetimsiz olarak akıllı sözleşmeler yoluyla gerçekleştirir. Kullanıcılar anahtarları saklar ve imzayı ve MEV riskini üstlenirler. \n\nYönlendirici sözleşmelerini ve belirteç adreslerini doğrulayın. Bir DEX kullanıcı arayüzü, temel protokol saygın olsa bile yine de kimlik avı olabilir."
+  },
+  {
+    "id": "cex",
+    "term": "CEX",
+    "definition": "Merkezi takas.",
+    "explain": "Merkezi borsalar hızlı eşleştirme ve saklama riski taşıyan fiat rampaları sunar. Çekilinceye kadar bir IOU'yu elinizde tutarsınız. \n\nBunları kasa olarak değil araç olarak kullanın. Önemsediğiniz boyutu geri çekin, güçlü hesap güvenliğini etkinleştirin ve benzer uygulamaları izleyin."
+  },
+  {
+    "id": "dapp",
+    "term": "DUygulaması",
+    "definition": "Zincir üzerinde kritik mantık içeren uygulama.",
+    "explain": "Bir dapp, kritik mantığı zincire yerleştirirken, ön uç hala merkezileştirilmiş olabilir. Etki alanının ele geçirilmesi, kullanıcıları kötü niyetli sözleşme çağrılarına yönlendirebilir. \n\nResmi URL'lere yer işareti koyun, doğrulanmış sözleşme etkileşimlerini tercih edin ve ön uç güvenini tehdit modelinin bir parçası olarak değerlendirin."
+  },
+  {
+    "id": "hash",
+    "term": "Doğramak",
+    "definition": "Verilerin tek yönlü özeti.",
+    "explain": "Kriptografik karma, verileri sabit bir özete eşler. Küçük giriş değişiklikleri çıkışı çevirir; çarpışmaları bulmak zor olacak şekilde tasarlanmıştır. \n\nHash'ler blokları bağlar, içeriği adresler ve mesajları taahhüt eder. Kripto sistemlerindeki bütünlük kontrollerinin yapıştırıcısıdırlar."
+  },
+  {
+    "id": "block",
+    "term": "Engellemek",
+    "definition": "Geçmişe bağlı bir sürü mesaj.",
+    "explain": "Bir blok, işlemleri bağlantılı bir geçmişe toplar. Boyut ve zaman hedefleri, üretim ve ücret pazarlarını şekillendirir. \n\nKaşifler yüksekliği, teklif edeni ve dahil edilen tx'leri gösterir. Blokları anlamak, onayları yorumlamanıza ve riski yeniden düzenlemenize yardımcı olur."
+  },
+  {
+    "id": "private-key",
+    "term": "Özel Anahtar",
+    "definition": "Harcamalara izin veren sır.",
+    "explain": "Özel anahtar harcamalara yetki verir. Bunu (veya onu türeten tohumu) paylaşmak, fonları paylaşmaya eşdeğerdir. \n\nWeb sitelerine, sohbet uygulamalarına veya \"destek\" formlarına asla anahtar yazmayın. Donanım izolasyonu yardımcı olur; Operasyonel tedbir hâlâ sonuçlara karar veriyor."
+  },
+  {
+    "id": "public-key",
+    "term": "Genel Anahtar",
+    "definition": "İmzaları doğrulamak için kullanılan türetilmiş değer.",
+    "explain": "Genel anahtar, özel anahtara karşılık gelen imzaları doğrular. Adresler genellikle genel anahtarın karma işleminden türetilir. \n\nGenel anahtarlar ve adresler alınmak üzere paylaşılabilir. Gizlilik uygulamaları, bunları geniş çapta yeniden kullanırsanız hâlâ önemlidir."
+  },
+  {
+    "id": "address",
+    "term": "Adres",
+    "definition": "Para almak için kullanılan tanımlayıcı.",
+    "explain": "Adres, bir ağda para almak için kullanılan tanımlayıcıdır. Yanlış zincire veya adreste yazım hatası yapılması çoğu zaman geri alınamaz. \n\nDikkatlice kopyalayın, başlangıçta ve sonda birkaç karakteri doğrulayın ve boyutu yeni bir hedefe taşırken bir test gönderin."
+  },
+  {
+    "id": "confirmation",
+    "term": "Onay",
+    "definition": "Bir tx üzerine kaç blok inşa edildi.",
+    "explain": "Onaylar, işleminizin üzerine kaç blok oluşturulduğunu sayar. Daha fazla derinlik, yeniden yapılanmayı zorlaştırır. \n\nHizmetler farklı boyutlar için farklı eşikler seçer. Sabır, büyük yerleşim için bir güvenlik kontrolüdür."
+  },
+  {
+    "id": "smart-contract",
+    "term": "Akıllı Sözleşme",
+    "definition": "Program bir zincire dağıtıldı.",
+    "explain": "Akıllı sözleşme, bir zincir adresine dağıtılan bir programdır. Geleneksel bir aracı olmadan varlıkları koruyabilir ve kuralları uygulayabilir. \n\nHatalar, yönetici anahtarları ve beklenmedik entegrasyonlar risk oluşturur. Gerçek fonlarla öğrenirken denetlenmiş, zaman içinde test edilmiş kod yollarını tercih edin."
+  },
+  {
+    "id": "token",
+    "term": "Jeton",
+    "definition": "Bir sözleşmede muhasebeleştirilen varlık birimi.",
+    "explain": "Tokenlar sözleşmelerle muhasebeleştirilen varlık birimleridir. İsimler ve işaretler kopyalanabilir; Sözleşme adresleri gerçek varlığı tanımlar. \n\nTakas yapmadan veya likidite eklemeden önce daima adresi güvenilir bir kaynaktan doğrulayın."
+  },
+  {
+    "id": "erc-20",
+    "term": "ERC-20",
+    "definition": "Baskın takas edilebilir jeton arayüzü.",
+    "explain": "ERC-20, Ethereum benzeri zincirlerdeki baskın değiştirilebilir token arayüzüdür. Cüzdanlar ve DEX'ler için aktarım ve onay davranışlarını standartlaştırır. \n\nOnaylar standardın ve riskin bir parçasıdır. Yeni tokenleri yetiştirmeden önce tahsisat mekanizmalarını anlayın."
+  },
+  {
+    "id": "permissionless",
+    "term": "İzinsiz",
+    "definition": "İzin verilenler listesi olmadan herkes kullanabilir veya dağıtabilir.",
+    "explain": "İzinsiz sistemler, herkesin izin verilenler listesi olmadan kullanmasına veya dağıtmasına olanak tanır. Açık erişim, yenilikçiliği ve dolandırıcılığı birlikte körükler. \n\nFiltreniz kişisel hale gelir: sözleşmeleri doğrulayın, kanıtlarla itibarı tercih edin ve deneyleri küçük boyuta getirin."
+  },
+  {
+    "id": "custody",
+    "term": "velayet",
+    "definition": "Anahtarları/varlıkları elinde bulunduran üçüncü taraf.",
+    "explain": "Saklama, üçüncü bir tarafın anahtarları veya varlıkları sizin için elinde tutması anlamına gelir. Karşı taraf ve operasyonel riske karşı kolaylık işlemleri. \n\nKişisel velayet, operasyonları size kaydırır. Hibrit yaklaşımlar (ticaret için takas, tasarruf için soğuk depolama) yaygın okuryazar kalıplardır."
+  },
+  {
+    "id": "yield-farming",
+    "term": "Verim Tarımı",
+    "definition": "Protokoller arasında ödül kazanmak için likidite tahsis etmek.",
+    "explain": "Getiri çiftçiliği, ödül kazanmak için protokoller arasında likidite tahsis eder. Yüksek APR'ler genellikle geçicidir ve geçici ödül tokenleri ile ödenir. \n\nÇıkış likiditesini ve akıllı sözleşme riskini modelleyin. Çiftçilik bir tasarruf hesabı değil, bir stratejidir."
+  },
+  {
+    "id": "airdrop",
+    "term": "Airdrop",
+    "definition": "Büyüme/topluluk için jeton dağıtımı.",
+    "explain": "Airdrop'lar, büyüme veya topluluk ödülleri için token dağıtır. Talepte bulunmak, göründüğünden daha güvenli veya çok daha az güvenli olan imzaları içerebilir. \n\nKimlik avı iddiası sitelerine ve vergi sürprizlerine dikkat edin. Eğer bir talepte tohumunuz istenirse, bu bir airdrop değildir."
+  },
+  {
+    "id": "whitepaper",
+    "term": "Teknik İnceleme",
+    "definition": "Tasarım ve hedefleri açıklayan belge.",
+    "explain": "Teknik inceleme, tasarım hedeflerini ve mekanizmalarını açıklar. Titreşim güverteleri yerine somut kuralları, tehdit modellerini ve parametreleri tercih edin. \n\nKağıtları garanti olarak değil, kod ve üretim davranışını doğrulamak için başlangıç ​​talepleri olarak değerlendirin."
+  },
+  {
+    "id": "halving",
+    "term": "Yarıya indirmek",
+    "definition": "Bitcoin'in blok sübvansiyonunun periyodik olarak kesilmesi.",
+    "explain": "Bitcoin'in yarılanması periyodik olarak blok sübvansiyonunu keser. Yeni tedarik ihracı bilinen bir programa göre yavaşlıyor. \n\nFiyat artışlarını garanti etmez. Sübvansiyonlar azaldıkça güvenlik bütçelerinin ve ücret piyasalarının nasıl geliştiğini gösteriyor."
+  },
+  {
+    "id": "merkle-tree",
+    "term": "Merkle Ağacı",
+    "definition": "Etkin bir şekilde dahil edilmeyi kanıtlayan karma ağacı.",
+    "explain": "Merkle ağaçları, veriyi bir köke aktarır, böylece dahil edilme verimli bir şekilde kanıtlanabilir. Hafif istemciler ve birçok kanıt sistemi onlara güveniyor. \n\nTemelden ölçeklenebilir doğrulamaya kadar her şeyi indirmeden bir parçanın taahhütlü bir sete ait olduğunu doğrulamanıza olanak tanırlar."
+  },
+  {
+    "id": "nonce",
+    "term": "bir kez",
+    "definition": "Hesap tx sıra numarası.",
+    "explain": "Bir hesap, işlemleri tek seferde sıralar, böylece her biri sırayla bir kez işlenir. Takılıp kalan işlemler genellikle aynı işlemin daha yüksek bir ücretle yeniden gönderilmesiyle değiştirilir. \n\nNonce'ları anlamak, \"sonsuza kadar beklemede olan\" cüzdanların ve değiştirme akışlarının gizemini çözer."
+  }
+]

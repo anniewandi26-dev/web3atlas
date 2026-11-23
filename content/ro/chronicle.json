@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2008-wp",
+    "date": "2008-10",
+    "title": "Carte albă Bitcoin",
+    "body": "Satoshi publică un design de numerar electronic peer-to-peer într-o listă de criptare. Dovada muncii leagă istoricul fără intermediari de încredere. Lucrarea scurtă devine sămânța intelectuală a industriei și narațiunea „regulilor în cod”. \n\nZiarul reformează banii ca un registru de difuzare cu stimulente economice. Nodurile validează regulile la nivel local; minerii cheltuiesc munca pentru a face istoria costisitoare pentru rescrie. Această combinație – verificare deschisă plus scriere costisitoare – încă ancorează majoritatea explicațiilor „de ce blockchain”. \n\nPentru cursanți, concluzia este arhitecturală: reduceți părțile terțe de încredere pentru emitere și decontare, acceptați confirmarea probabilistică și codificați deficitul în regulile de protocol. Sistemele ulterioare împrumută narațiunea chiar și atunci când schimbă motorul."
+  },
+  {
+    "id": "2009-genesis",
+    "date": "2009-01",
+    "title": "Blocul Genezei",
+    "body": "Cizme Bitcoin cu un titlu despre salvarea băncilor încorporate în blocul geneză. Utilizarea timpurie este mineritul hobbyist și transferurile fără preț. Ideea devine o rețea vie. \n\nÎncorporarea unui titlu de ziar a fost atât marca temporală, cât și semnal politic. Primii participanți au rulat noduri complete în mod implicit, deoarece nu mai era nimic altceva de făcut; cultura a apreciat verificarea mai mult decât comoditatea. \n\nEra genezei le reamintește noilor veniți că rețelele încep sociale și rare. Lichiditatea, schimburile și portofelele lustruite au venit mai târziu. Înțelegerea Bitcoin încă începe cu citirea a ceea ce primul bloc a ales să spună despre sistemul financiar din care a căutat să iasă."
+  },
+  {
+    "id": "2010-pizza",
+    "date": "2010-05",
+    "title": "Ziua pizza Bitcoin",
+    "body": "10.000 BTC cumpără două pizza. Astazi pare absurd, dar a fost un moment timpuriu al cumpararii de bunuri cu numerar electronic. Descoperirea prețurilor este socială – iar lichiditatea timpurie a fost mică. \n\nComerțul cu pizza este amintit ca un punct de referință, dar a fost un experiment de lichiditate și UX: poate numerarul electronic să elibereze o achiziție din lumea reală fără o rețea de carduri? Descoperirea prețului a fost informală; custodia a fost experimentală; meme a supraviețuit chitanței. \n\nAstăzi povestea predă două lecții. În primul rând, piețele timpurii sunt subțiri și anecdotele domină. În al doilea rând, cheltuirea versus deținerea este o alegere personală de politică – regulile protocolului nu vă dictează costul de oportunitate."
+  },
+  {
+    "id": "2013-eth",
+    "date": "2013-11",
+    "title": "Ideea Ethereum",
+    "body": "Vitalik conturează o platformă de contract inteligentă de uz general, dincolo de numerarul digital. Dezvoltatorii ar implementa o logică arbitrară. Ideea generează ICO-uri, DeFi și NFT-uri mai târziu. \n\nViziunea Ethereum a schimbat întrebarea de la „numerar digital” la „decontare programabilă”. Dacă scripturile pot păstra activele și compune, finanțele și jocurile devin software pe o mașină partajată. \n\nAceastă ambiție a creat noi moduri de eșec – reintre, încredere în oracol, captare guvernanță – dar și suprafața aplicației pe care o întâlnesc cei mai mulți nou-veniți. Citirea acestui moment clarifică de ce gazul, ABI-urile și riscul contractual au intrat în vocabular."
+  },
+  {
+    "id": "2015-eth-launch",
+    "date": "2015-07",
+    "title": "Lansare Ethereum",
+    "body": "Frontier oferă capacitatea de blockchain programabilă. Instrumentele sunt dure și incidentele frecvente, dar finanțele și jocurile încep să se miște în lanț. EVM devine de facto un standard multi-lanț. \n\nFrontier a fost în mod intenționat dur: dovediți mașina virtuală în sălbăticie, acceptați incidente, repetați instrumentele. Dezvoltatorii au învățat că implementarea codului este ușoară; raționamentul despre apelanții adversari este greu. \n\nLansarea s-a blocat în EVM ca magnet pentru scule și mai târziu pentru lanțuri „compatibile cu EVM”. Compatibilitatea nu este o securitate identică, dar modelele mentale comune au redus costul experimentării la nivel mondial."
+  },
+  {
+    "id": "2016-dao",
+    "date": "2016-06",
+    "title": "Incidentul DAO",
+    "body": "Este exploatat un contract masiv de crowdfunding timpuriu. Dezbaterea hard-fork împarte ETH/ETC și învață că „codul este lege” nu înseamnă „codul este fără erori”. Consensul social contează și el. \n\nHackul DAO a forțat o comunitate să aleagă între teatrul de imuabilitate și recuperarea socială a fondurilor. Diviziunea ETH/ETC rezultată este un studiu de caz permanent în ceea ce privește modul în care „codul este lege” se ciocnește cu un consens brut. \n\nElevii ar trebui să studieze atât modelul exploatării tehnice, cât și procesul de guvernare care a urmat. Contractele inteligente au nevoie de audituri și design de întrerupere; comunitățile au nevoie de norme explicite înainte de criză."
+  },
+  {
+    "id": "2017-ico",
+    "date": "2017",
+    "title": "Valul ICO",
+    "body": "Vânzările de jetoane permit strângerea de fonduri la nivel mondial și escrocherii la scară industrială. Autoritățile de reglementare răspund; comerțul cu amănuntul plătește școlarizare. Dezvăluirea și conformitatea intră într-o conversație serioasă. \n\nVânzările de jetoane au comprimat strângerea de fonduri globale într-un portofel de browser. Formarea capitalului sa accelerat; dezvăluirea adesea nu a făcut-o. Comerțul cu amănuntul a aflat că o carte albă PDF nu este diligență, iar autoritățile de reglementare au învățat aceeași lecție din cealaltă direcție. \n\nValul a lăsat dezbateri privind standardele, politicile privind listarea burselor și o alergie durabilă la promisiunile nelimitate. Scepticismul sănătos cu privire la lansările de simboluri face parte din alfabetizare, nu anti-inovare."
+  },
+  {
+    "id": "2018-bear",
+    "date": "2018",
+    "title": "Iarna criptografică",
+    "body": "Prețurile scad de la maximele ciclului; proiectele numai narative dispar. Infra și cercetarea continuă în liniște. Iernile sunt filtre la fel de mult ca tragediile. \n\nIarna a colectat jetoane numai narative, în timp ce a finanțat în liniște diversitatea clienților, UX-ul portofelului și cercetările care ulterior le-au reutilizat. Constructorii care au rămas au tratat prețul ca vreme, nu ca climă. \n\nPentru cei care învață: piețele ursoase sunt atunci când poți studia mecanica fără zgomot FOMO. Graficele devin liniștite; documentația și repozițiile sursă primesc o atenție mai sinceră."
+  },
+  {
+    "id": "2020-defi",
+    "date": "2020",
+    "title": "DeFi vara",
+    "body": "Exploatarea lichidității explodează împrumuturile și AMM-urile. Compozibilitatea strălucește; probleme de oracol/lichidare/stimulare ies la suprafață. Utilizatorii întâlnesc finanțarea portofel ca cont la scară. \n\nExploatarea lichidității a transformat AMM-urile și piețele monetare în bucle de creștere. Compabilitatea însemna că o poziție de creditare ar putea deveni garanție în altă parte în câteva minute – la fel și lichidările în cascadă. \n\nVara DeFi a predat designul oracolului, sustenabilitatea stimulentelor și diferența dintre capturile de ecran APY și taxele extractibile. Securitatea portofelului a devenit curentă, deoarece contul era acum un brokeraj."
+  },
+  {
+    "id": "2021-nft",
+    "date": "2021-03",
+    "title": "Momentul curent NFT",
+    "body": "Arta digitală și PFP-urile au lovit mass-media mainstream. Creatorii găsesc șine noi; urmează speculaţiile. După spumă, standardele, dezbaterile privind redevențele și comunitățile reale rămân. \n\nNFT-urile au adus creatori, mărci și mulțimi speculative pe aceleași șine. Permanența metadatelor, aplicarea dreptului de autor și dezbaterile privind tranzacționarea spălată au urmat titlurile. \n\nDupă boom, rămân întrebări durabile: ce anume este deținut, unde locuiește mass-media și ce comunități supraviețuiesc fără aprecierea neîntreruptă a prețurilor? Cultura și contractele s-au împletit permanent."
+  },
+  {
+    "id": "2021-l2",
+    "date": "2021",
+    "title": "Accelerație de rulare",
+    "body": "Design-urile optimiste și ZK transportă trafic real, deoarece utilizatorii fug de taxe. Podurile și secvențierele devin noi UX și centre de risc. Scalarea devine o cale zilnică, nu un tobogan. \n\nUtilizatorii care fugeau de taxele rețelei principale au făcut ca pachetele să fie o cale zilnică. Podurile și secvențierele au devenit noile bilete de asistență: fonduri blocate la mijlocul saltului, timpi de nefuncționare și ceasuri de finalitate confuze. \n\nSuccesul de scalare este măsurat în ieșiri sigure și în ipoteze de încredere ușor de înțeles, nu doar în diapozitive TPS. Alfabetizarea L2 este acum alfabetizarea de bază Web3."
+  },
+  {
+    "id": "2022-merge",
+    "date": "2022-09",
+    "title": "Fuziunea",
+    "body": "Consensul Ethereum trece la proof-of-stake în timp ce execuția continuă. Consumul de energie scade; staking, MEV și diversitatea clienților devin subiecte centrale. O schimbare de reper inginerească. \n\nSchimbarea consensului fără a întrerupe execuția a fost o schimbare rară a unui sistem mare. Narațiunile energetice s-au schimbat peste noapte; economia de miză și cercetarea MEV au trecut în centrul atenției. \n\nMerge arată că blockchain-urile pot dezvolta subsisteme majore cu coordonare. De asemenea, arată că „terminat” nu se termină niciodată – diversitatea clienților și rezistența la cenzură rămân o activitate continuă."
+  },
+  {
+    "id": "2022-contagion",
+    "date": "2022",
+    "title": "contagiune CeFi",
+    "body": "Lanțurile de creditare și de fonduri se rup, expunând nepotrivirile de custodie și scadență. Narațiunile privind autocustodia și PoR cresc. Soldurile platformei nu sunt active în lanț. \n\nCând creditorii și fondurile CeFi au eșuat, utilizatorii au redescoperit că IOU-urile nu sunt UTXO. Marketingul de dovadă a rezervelor a crescut odată cu cozile de retrageri. \n\nCurriculum practic: cunoașteți unde locuiesc cheile, măriți soldurile de schimb în mod deliberat și tratați randamentul care necesită blocarea activelor pe o platformă ca risc de credit."
+  },
+  {
+    "id": "2023-blobs",
+    "date": "2024-03",
+    "title": "Costurile DA din era Blob",
+    "body": "Spațiul de date blob reduce taxele de postare și de utilizator L2. Dezbaterea se îndreaptă către descentralizarea secvenței și interoperabilitatea UX. Taxele se apropie de utilizarea de zi cu zi. \n\nSpațiul blob a reîncadrat costurile L2 și a făcut ca tranzacțiile de zi cu zi să pară din nou plauzibile. Atenția sa îndreptat către descentralizarea secvenței, punți partajate și UX bazat pe intenții. \n\nDisponibilitatea ieftină a datelor este necesară, dar nu suficientă pentru o lume sigură cu mai multe lanțuri. Utilizatorii au încă nevoie de căi de ieșire clare și etichete de risc oneste."
+  },
+  {
+    "id": "2024-etf",
+    "date": "2024-01",
+    "title": "Localizați ETF-uri Bitcoin",
+    "body": "ETF-urile Bitcoin spot din SUA deschid accesul la brokeraj. Descoperirea prețurilor se extinde cu macro-fluxuri. Crypto intră mai profund în conversațiile tradiționale de alocare. \n\nBitcoin împachetat în brokeraj a schimbat cine poate aloca și modul în care fluxurile afectează descoperirea prețului. Birourile macro au intrat în conversații care trăiau cândva doar pe cripto Twitter. \n\nETF-urile nu înlocuiesc educația privind auto-custodia; adaugă o cale de acces paralelă cu intermediari tradiționali. Ambele șine modelează acum piața."
+  },
+  {
+    "id": "2024-halving",
+    "date": "2024-04",
+    "title": "A patra înjumătățire Bitcoin",
+    "body": "Subvenția scade la 3.125 BTC. Minerii se bazează mai mult pe taxe și prețul pe termen lung. Programul arată din nou că emiterea este definită de protocol. \n\nProgramul de subvenții a demonstrat din nou că emiterea este politică doar în cadrul regulilor protocolului - minerii și piețele se adaptează în jurul unui calendar cunoscut. \n\nÎnjumătățirile sunt instrumente de predare utile pentru narațiunile privind deficitul, piețele de taxe și de ce bugetele de securitate se bazează în cele din urmă mai mult pe cererea de tranzacții."
+  },
+  {
+    "id": "2024-restake",
+    "date": "2024",
+    "title": "Regenerarea erei",
+    "body": "Experimentele de securitate partajată se extind cu randament și riscuri stivuite. Matricele Slash și eșecurile corelate intră în discuția curentă. \n\nReluarea a adunat mai multă muncă pe aceeași obligație economică. Securitatea partajată poate fi eficientă; tăierea corelată poate fi brutală. \n\nTratați refacerea ca expunerea la infrastructură cu efect de pârghie: citiți setul de operator, condițiile slash și ipotezele de oracol/atestare înainte de a urmări punctele."
+  },
+  {
+    "id": "2025-aa",
+    "date": "2025",
+    "title": "Push UX pentru cont inteligent",
+    "body": "Instrumentele de extragere a contului ajung în portofelele consumatorilor cu sesiuni și gaz sponsorizat. O parte din responsabilitate trece la tutori și module. Seedless UX caută echilibrul cu auto-custodia. \n\nExtragerea contului a adus gaz sponsorizat și recuperare socială în portofelele consumatorilor. Nou-veniții se confruntă cu mai puține stânci cu fraze semințe și mai multe ecrane de permisiuni pentru module. \n\nUrmătorul val de alfabetizare este exercițiile de recuperare, domeniile cheilor de sesiune și recunoașterea faptului că funcțiile de confort sunt încă suprafețe de autorizare."
+  },
+  {
+    "id": "2025-rwa",
+    "date": "2025",
+    "title": "Extinderea RWA",
+    "body": "Bonurile de stat și creditele tokenizate aduc randament în afara lanțului decontării în lanț. Structura juridică și răscumpărarea domină diligența. Trezoreriile DeFi câștigă mâneci „tradiționale”. \n\nTrezoreriile tokenizate care au randament în lanț par familiare alocătorilor tradiționali. Ambalajele legale și birourile de răscumpărare au devenit la fel de importante ca Solidity. \n\nRWA-urile învață că „în lanț” poate însemna modă de decontare, nu dezintermediere completă. Citiți politicile de custodie și înghețare cu aceeași atenție ca și codul contractului."
+  },
+  {
+    "id": "2026-intent",
+    "date": "2026",
+    "title": "Fluxuri centrate pe intenție",
+    "body": "Utilizatorii exprimă rezultatele; rezolvatorii concurează pe trasee și cotații. UX se simplifică, în timp ce riscurile de punte rămân dedesubt. Portofelele și routerele intră într-o nouă cursă de produse."
+  }
+]

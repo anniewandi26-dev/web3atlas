@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# Gaz ücretleri"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# Tohum cümlesi dolandırıcılığı"
+  },
+  {
+    "id": "layer2",
+    "label": "# Katman 2"
+  },
+  {
+    "id": "approve",
+    "label": "# Onaylama / ödenek"
+  }
+]

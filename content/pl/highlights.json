@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# Opłaty za gaz"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# Oszustwa oparte na frazach początkowych"
+  },
+  {
+    "id": "layer2",
+    "label": "# Warstwa 2"
+  },
+  {
+    "id": "approve",
+    "label": "# Zatwierdź / dodatek"
+  }
+]

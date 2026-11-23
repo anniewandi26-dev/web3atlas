@@ -1,0 +1,362 @@
+[
+  {
+    "id": "gas",
+    "term": "Gas",
+    "definition": "Berekening van eenheidsmeting en opslag die een transactie verbruikt.",
+    "explain": "Gas meet hoeveel berekeningen en opslag een transactie van het netwerk vraagt. Zonder meting zou een publieke keten kunnen vastlopen door oneindige lussen of spam. Uw vergoeding is grofweg gebruik × eenheidsprijs; congestie verhoogt de eenheidsprijs naarmate de vraag naar blockspace toeneemt. \n\nMislukte transacties kunnen nog steeds gas kosten omdat validators het werk al hebben uitgevoerd. Praktische gewoonte: schat de kosten in, geef de voorkeur aan daluren tijdens het leren en verwar een mislukt UX-bericht nooit met een gratis nieuwe poging."
+  },
+  {
+    "id": "gwei",
+    "term": "Gwei",
+    "definition": "Een veel voorkomende ETH-benaming voor het vermelden van gasprijzen.",
+    "explain": "Gwei is een benaming van ether die wordt gebruikt om gasprijzen op menselijke schaal weer te geven. Eén ETH is gelijk aan 1e9 Gwei. Portefeuilles tonen vaak de maximale vergoeding en de prioriteitskosten in Gwei, zodat u de urgentie kunt vergelijken zonder achttien decimalen te tellen. \n\nControleer de eenheden zorgvuldig wanneer u tutorials of mempool-screenshots leest. Het combineren van Gwei-offertes met ETH-overdrachtsbedragen is een klassieke beginnersfout die leidt tot te veel of te weinig betalen."
+  },
+  {
+    "id": "evm",
+    "term": "EVM",
+    "definition": "Ethereum Virtual Machine: de runtime met een slim contract.",
+    "explain": "De Ethereum Virtual Machine is de gedeelde runtime die smart-contract bytecode uitvoert. De meeste “EVM-compatibele” ketens hergebruiken opcodes en tools, zodat ontwikkelaars vergelijkbare contracten elders kunnen inzetten. \n\nCompatibiliteit gaat over de ervaring van ontwikkelaars, niet over identieke beveiliging of economie. Controleer altijd in welke keten u zich bevindt, welke verkenner u vertrouwt en of er proxy-upgradepatronen bij betrokken zijn voordat u ervan uitgaat dat code zich voor altijd gedraagt."
+  },
+  {
+    "id": "amm",
+    "term": "AMM",
+    "definition": "Marktvorming via pools en formules in plaats van boeken.",
+    "explain": "Een geautomatiseerde market maker prijst transacties met poolformules in plaats van een klassiek orderboek. Liquiditeitsverschaffers storten activa en verdienen vergoedingen terwijl ze het voorraadrisico nemen dat bekend staat als vergankelijk verlies. \n\nValse pools en lookalike-tokens zijn veel voorkomende valstrikken. Controleer contractadressen, pooldiepte en tariefniveaus. AMM's zijn krachtige primitieven; behandel ze als markten met transparante wiskunde en vijandige stromen."
+  },
+  {
+    "id": "tvl",
+    "term": "TVL",
+    "definition": "Totale waarde vastgelegd in de contracten van een protocol.",
+    "explain": "Totale waarde van de geblokkeerde bedragen van de activa die zijn gedeponeerd in de contracten van een protocol. Een hoge TVL kan een teken zijn van gebruik en vertrouwen, of eenvoudigweg recursief getelde stortingen en een dikker hackdoel opblazen. \n\nLees TVL naast auditkwaliteit, admin-sleutels, orakelontwerp en echte vergoedingsinkomsten. Een kopnummer zonder deze contexten is een marketingstatistiek, geen veiligheidsbeoordeling."
+  },
+  {
+    "id": "apy",
+    "term": "API",
+    "definition": "Jaarlijkse opbrengst inclusief compounding.",
+    "explain": "APY berekent de opbrengst op jaarbasis, inclusief samengestelde aannames. Korte stimuleringscampagnes, op jaarbasis uitgedrukt in driecijferige APY's, zijn vaak misleidend omdat emissies, symbolische prijzen en duurzaamheid onstabiel zijn. \n\nVergelijk like met like: blijvende vergoeding APY versus tijdelijke beloning APY. Vraag wat er gebeurt als de prikkels eindigen, en of u kunt stoppen zonder de positie te verwoesten."
+  },
+  {
+    "id": "apr",
+    "term": "april",
+    "definition": "Geannualiseerd tarief zonder compounding.",
+    "explain": "APR citeert een percentage op jaarbasis zonder samengestelde cijfers. Kredietinterfaces tonen vaak het aanbod-APR en het leen-APR naast elkaar; definities verschillen per product. \n\nControleer bij het vergelijken van APR en APY de samengestelde frequentie en of beloningstokens zijn inbegrepen. Nauwkeurigheid in definities voorkomt valse ‘beter tarief’-conclusies."
+  },
+  {
+    "id": "slippage",
+    "term": "Slippen",
+    "definition": "Verschil tussen verwachte en uitgevoerde prijs.",
+    "explain": "Slippage is het verschil tussen de prijs die u verwacht en de prijs die u ontvangt. Kleine pools, grote omvang en vluchtige momenten vergroten die kloof. \n\nTe brede slippage-instellingen nodigen uit tot sandwichen; te strakke instellingen mislukken en kunnen nog steeds gas verbruiken. Stel bewust in op handelsgrootte en pooldiepte, en geef de voorkeur aan privé-inzendingen indien beschikbaar voor grote swaps."
+  },
+  {
+    "id": "mev",
+    "term": "MEV",
+    "definition": "Waarde die kan worden geëxtraheerd uit het bestellen/opnemen van transacties.",
+    "explain": "De maximale extraheerbare waarde is winst uit het controleren van de bestelling van transacties, opname of censuur. Met openbare mempools kunnen zoekers grote swaps detecteren en concurreren om de voorsprong te veroveren. \n\nMaatregelen zijn onder meer scherpere ontsporingen, particuliere orderstromen, batchveilingen en het simpelweg opsplitsen van de omvang. Het begrijpen van MEV verklaart waarom “dezelfde transactie, slechtere vulling” zelfs zonder een UI-bug plaatsvindt."
+  },
+  {
+    "id": "oracle",
+    "term": "Orakel",
+    "definition": "Service die gegevens buiten de keten in de keten brengt.",
+    "explain": "Orakels brengen feiten buiten de keten (vooral prijzen) binnen de keten, zodat contracten kunnen reageren. Liquidaties van leningen en eeuwigdurende markprijzen zijn afhankelijk van de feedintegriteit. \n\nDunne markten zijn gemakkelijker te manipuleren tot slechte orakelprenten. Geef de voorkeur aan protocollen met robuuste aggregatie, stroomonderbrekers en duidelijk foutgedrag wanneer de voeding vastloopt."
+  },
+  {
+    "id": "rollup",
+    "term": "Samenvouwen",
+    "definition": "L2-uitvoering die gegevens/bewijzen naar L1 verzendt.",
+    "explain": "Een rollup wordt uitgevoerd vanuit de basisketen en plaatst gegevens of proefdrukken terug, zodat L1 de resultaten kan veiligstellen. Optimistische ontwerpen zijn afhankelijk van uitdagingsvensters; Geldigheidscombinaties zijn afhankelijk van bewijzen. \n\nDe gebruikerskosten dalen omdat veel transacties L1-kosten delen. Uw risicochecklist bevat nog steeds bruggen, sequencers, upgradesleutels en hoe gedwongen uitgangen werken."
+  },
+  {
+    "id": "sequencer",
+    "term": "Sequencer",
+    "definition": "Component dat L2-transacties bestelt.",
+    "explain": "De sequencer bestelt L2-transacties en biedt vaak snelle zachte bevestigingen. Veel sequencers blijven tegenwoordig gecentraliseerd, wat de downtime en de weerstand tegen censuur beïnvloedt. \n\nHet decentraliseren van sequencers is een belangrijk thema op de routekaart. Beschouw tot die tijd zachte bevestiging als gemak en begrijp de weg naar L1-afgedwongen opname wanneer operators zich misdragen."
+  },
+  {
+    "id": "finality",
+    "term": "Finaliteit",
+    "definition": "Wanneer een tx/block vrijwel onomkeerbaar is.",
+    "explain": "Finaliteit beschrijft wanneer een transactie vrijwel onomkeerbaar is. Sommige protocollen hebben expliciete finaliteitsgadgets; andere zijn probabilistisch en versterken met diepte. \n\nUitwisselingen kiezen het aantal bevestigingen uit deze aannames. Wacht bij grote overboekingen op de finaliteit die uw tegenpartij daadwerkelijk verlangt – en niet op de eerste ‘succes’-toast."
+  },
+  {
+    "id": "utxo",
+    "term": "UTXO",
+    "definition": "Boekhoudmodel voor niet-uitgegeven transactie-output.",
+    "explain": "Niet-bestede transactie-outputs zijn de manier waarop Bitcoin-achtige systemen besteedbare munten volgen. Uw saldo is de som van de UTXO’s waarvoor u kunt tekenen; uitgaven verbruiken output en kunnen verandering teweegbrengen. \n\nUTXO-boekhouding verschilt van rekeningsaldi en heeft invloed op vergoedingen, privacy en muntselectie. Lichte portemonnees verbergen de details; volledige knooppunten laten zien waarom consolidatie belangrijk is."
+  },
+  {
+    "id": "eoa",
+    "term": "EOA",
+    "definition": "Extern account beheerd door een sleutel.",
+    "explain": "Een extern eigendomsaccount wordt rechtstreeks beheerd door een privésleutel zonder contractcode. De meeste klassieke portemonnees zijn EOA's: handtekening is gelijk aan autorisatie. \n\nEr vindt geen wachtwoordreset plaats. Zaadverlies is verlies van activa. Slimme accounts veranderen dit model; als je op EOA's blijft, zijn offline back-ups en phishing-resistentie alles."
+  },
+  {
+    "id": "multisig",
+    "term": "Multisign",
+    "definition": "Account waarvoor meerdere goedkeuringen vereist zijn.",
+    "explain": "Multisignature-accounts vereisen goedkeuring van M-of-N voordat geld wordt verplaatst. Financiën en teams gebruiken ze om het falen van één sleutel te elimineren. \n\nOntwerpafwegingen zijn onder meer drempelkeuze, geografische diversiteit van ondertekenaars en hersteloefeningen. Een multisig die je nooit repeteert, kan op het slechtste moment mislukken."
+  },
+  {
+    "id": "seed-phrase",
+    "term": "Zaadzin",
+    "definition": "Woordenlijst die portemonneesleutels regenereert.",
+    "explain": "Een zaadzin genereert portefeuillesleutels opnieuw. Iedereen die de woorden ziet, kan de portemonnee elders opnieuw aanmaken; ondersteuningsagenten hebben deze nooit nodig om u te ‘verifiëren’. \n\nHoud zaden offline, typ ze nooit in websites en ga ervan uit dat een gefotografeerd zaadje is aangetast. Indien gelekt, migreer dan onmiddellijk naar een vers zaadje op een schoon apparaat."
+  },
+  {
+    "id": "allowance",
+    "term": "Toelage",
+    "definition": "Het maximale bedrag dat een contract van uw token mag uitgeven.",
+    "explain": "Een vergoeding beperkt hoeveel van een token een spendercontract van uw saldo mag overdragen. Onbeperkte emissierechten zijn handig voor frequente handelaren en gevaarlijk voor iedereen. \n\nControleer en trek ongebruikte rechten regelmatig in. Geef de voorkeur aan exacte of bescheiden vergoedingen bij het leren van een nieuwe app."
+  },
+  {
+    "id": "approve",
+    "term": "Goedkeuren",
+    "definition": "Transactie waarbij een vergoeding wordt ingesteld.",
+    "explain": "Transacties goedkeuren, toeslagen instellen of wijzigen. Ze verplaatsen de tokens niet zelf, maar ontgrendelen latere uitgaven via het adres van de uitgever. \n\nLees de uitgever zorgvuldig, simuleer het effect en pas op voor phishing waarbij goedkeuring wordt gevraagd voor onbekende contracten. Goedkeuringen zijn een top drain vector."
+  },
+  {
+    "id": "rug",
+    "term": "Tapijt trekken",
+    "definition": "Insiders zuigen liquiditeit weg of verlaten een project.",
+    "explain": "Er is sprake van een rug pull wanneer insiders liquiditeit wegnemen of een project verlaten nadat ze geld hebben ingezameld. Waarschuwingssignalen zijn onder meer onbereikbare liquiditeit, ondoorzichtige beheerders en marketing die alleen rendement oplevert. \n\nDue diligence is sociaal en technisch: teamverantwoordelijkheid, contracttoestemmingen en of de liquiditeit vastzit. Als je de uitgang niet kunt verklaren, neem dan geen maat groot."
+  },
+  {
+    "id": "phishing",
+    "term": "Phishing",
+    "definition": "Valse sites/identiteiten die sleutels of handtekeningen misleiden.",
+    "explain": "Phishing maakt gebruik van valse sites, advertenties en identiteiten om sleutels of handtekeningen te bemachtigen. Homograafdomeinen en nep-support-DM's zijn eeuwige hits. \n\nGebruik bladwijzers, negeer zoekadvertenties voor portefeuillemerken en deel nooit zaden. Als u het niet zeker weet, controleer het dan op een tweede kanaal voordat u iets ondertekent."
+  },
+  {
+    "id": "bridge",
+    "term": "Brug",
+    "definition": "Protocol voor het verplaatsen van activa/berichten over ketens.",
+    "explain": "Bruggen verplaatsen middelen of berichten over ketens. Canonieke bruggen nemen meer van het beveiligingsmodel van het thuispakket over; snelle bruggen voegen vaak extra vertrouwensaannames voor snelheid toe. \n\nTest altijd met kleine bedragen, verifieer officiële URL's en begrijp het terugbetalingsgedrag. Het brugrisico is historisch gezien geconcentreerd en meedogenloos."
+  },
+  {
+    "id": "stablecoin",
+    "term": "Stabiele munt",
+    "definition": "Token ontworpen om een ​​stabiele referentie bij te houden.",
+    "explain": "Stablecoins streven ernaar een stabiele referentie zoals USD te volgen. Ontwerpen omvatten fiatreserves, crypto-onderpand en algoritmische mechanismen – elk faalt anders. \n\nLeer de kwaliteit van de attesten van de uitgever, het bevriezingsbeleid en de inwisselingspaden. Diversifieer wanneer stallen de kern vormen van uw workflow."
+  },
+  {
+    "id": "liquidity",
+    "term": "Liquiditeit",
+    "definition": "Mogelijkheid om in omvang te handelen zonder de prijs veel te laten bewegen.",
+    "explain": "Liquiditeit is het vermogen om in omvang te handelen zonder de prijs te veel te laten bewegen. Diepe poelen verminderen slippen; verwijderbare of illusoire liquiditeit kan de veiligheid nabootsen. \n\nControleer wie LP-tokens kan opnemen en hoe snel. Liquiditeit die bij stress verdwijnt, is geen liquiditeit wanneer u die nodig heeft."
+  },
+  {
+    "id": "impermanent-loss",
+    "term": "Tijdelijk verlies",
+    "definition": "LP ondermaats presteren versus vasthouden als de prijzen uiteenlopen.",
+    "explain": "Vergankelijk verlies is een ondermaatse prestatie van LP versus simpelweg het vasthouden van de activa wanneer de prijzen uiteenlopen. Vergoedingen kunnen al dan niet compenseren. \n\nHet verlaten kristalliseert de kloof. Modelscenario's voordat liquiditeit wordt geboden, vooral in volatiele paren met lage vergoedingsinkomsten."
+  },
+  {
+    "id": "liquidation",
+    "term": "Liquidatie",
+    "definition": "Gedwongen verkoop van onderpand wanneer een lening ongezond is.",
+    "explain": "Bij liquidatie wordt met geweld onderpand verkocht wanneer de gezondheidsfactor van een lening faalt. Orakels bepalen de triggerprijs; Cascades versterken crashes. \n\nHoud buffers aan, vermijd maximale hefboomwerking tijdens het leren en begrijp of liquidaties op veilingen of op keeper-bots zijn gebaseerd."
+  },
+  {
+    "id": "staking",
+    "term": "Uitzetten",
+    "definition": "Activa vergrendelen om een ​​netwerk te beveiligen of beloningen te verdienen.",
+    "explain": "Bij het inzetten worden activa vergrendeld om een ​​netwerk te beveiligen of protocolbeloningen te verdienen. Ontwerpen verschillen wat betreft lockups, slashing en of u een validator of een afgevaardigde gebruikt. \n\nDelegatie vergroot het risico voor de operator. Lees de ontbindingstijden voordat u ingezette activa als liquide regenachtige dagfondsen behandelt."
+  },
+  {
+    "id": "validator",
+    "term": "Validator",
+    "definition": "PoS-knooppunt dat blokken voorstelt/attesteert.",
+    "explain": "Validators stellen blokken voor en attesteren ze in proof-of-stake-systemen. Slechte prestaties of boosaardigheid kunnen worden verminderd. \n\nSolo valideren van behoeften, operationele discipline; liquide staking en herneming voegen lagen van smart-contract- en operatorrisico toe bovenop de consensusplichten."
+  },
+  {
+    "id": "dao",
+    "term": "DAO",
+    "definition": "Organisatiecoördinatie via regels/stemmen in de keten.",
+    "explain": "Een DAO coördineert via on-chain regels en stemt over staatsobligaties en parameters. Opkomst, walvisconcentratie en de kwaliteit van voorstellen bepalen de uitkomsten. \n\nGovernance is een veiligheidsoppervlak: kwaadwillige upgrades kunnen bij een ‘succesvolle’ stemming geld wegslurpen. Lees payloads, niet alleen titels."
+  },
+  {
+    "id": "nft",
+    "term": "NFT",
+    "definition": "Niet-fungibel token voor unieke items.",
+    "explain": "Niet-fungibele tokens vertegenwoordigen unieke items. Het eigendom van het token is on-chain; media en eigenschappen leven vaak buiten de keten en zijn afhankelijk van pinnen of servers. \n\nControleer contractadressen, royaltybeleid en de veranderlijkheid van metagegevens. Hetzelfde kunstwerk, ander contract, is een klassieke valstrik."
+  },
+  {
+    "id": "ipfs",
+    "term": "IPFS",
+    "definition": "Op inhoud gericht gedistribueerd bestandsnetwerk.",
+    "explain": "IPFS adresseert inhoud via hash, zodat de integriteit kan worden gecontroleerd. De duurzaamheid hangt nog steeds af van het feit of iemand de gegevens vastzet. \n\nWanneer NFT's of documenten IPFS citeren, vraag dan wie pinnen en wat er gebeurt als gateways verdwijnen. Inhoudsadressering ≠ automatische forever hosting."
+  },
+  {
+    "id": "ens",
+    "term": "ENS",
+    "definition": "Ethereum Name Service wijst namen toe aan records.",
+    "explain": "ENS koppelt voor mensen leesbare namen aan adressen en records. Het vermindert typefouten, maar namen vervallen en de resolutie kan worden gehackt als u controles overslaat. \n\nControleer altijd opnieuw het opgeloste adres op een vertrouwd pad voordat u het formaat verzendt."
+  },
+  {
+    "id": "layer1",
+    "term": "Laag 1",
+    "definition": "Basisketen met zijn eigen consensus/schikking.",
+    "explain": "Een laag-1-keten biedt zijn eigen consensus- en afwikkelingsveiligheid. Vergoedingen en doorvoer weerspiegelen die schaarste in de basislaag. \n\nL1's zijn waar de definitieve geschillenbeslechting vaak leeft voor rollups. Als u L1-vergoedingen en finaliteit begrijpt, kunt u L2-beloften interpreteren."
+  },
+  {
+    "id": "layer2",
+    "term": "Laag 2",
+    "definition": "Schaallaag die de beveiliging overneemt van een L1.",
+    "explain": "Layer-2-systemen schalen de uitvoering en streven ernaar de beveiliging van een L1. Rollups domineren de huidige ontwerpruimte. \n\nGebruikers moeten het bridge-vertrouwen, de aannames van de sequencer en de exit-vensters leren kennen. “Goedkoper Ethereum” heeft nog steeds zijn eigen operationele kaart."
+  },
+  {
+    "id": "zk-proof",
+    "term": "ZK / Geldigheidsbewijs",
+    "definition": "Bewijs van juistheid zonder alles opnieuw uit te voeren.",
+    "explain": "Geldigheidsbewijzen overtuigen een verificateur ervan dat een batch correct is zonder alles opnieuw uit te voeren. ZK-rollups gebruiken ze om kort en bondig af te rekenen op L1. \n\n“ZK”-branding geeft geen antwoord op wie sequentieert, wie upgradet of hoe bridges werken. Vraag wat bewezen is en wat vertrouwd blijft."
+  },
+  {
+    "id": "fraud-proof",
+    "term": "Fraudebestendig",
+    "definition": "Bewijs dat een optimistische batch ongeldig is.",
+    "explain": "Fraudebewijzen dagen ongeldige, optimistische batches gedurende een bepaalde periode uit. Waarnemers moeten toegang hebben tot gegevens en bewijsmateriaal kunnen overleggen. \n\nAls er gegevens ontbreken of als watchers falen, worden de veiligheidsaannames zwakker. Optimistische systemen verruilen latentie voor finaliteit voor eenvoudiger bewijs."
+  },
+  {
+    "id": "blob",
+    "term": "Blob",
+    "definition": "Goedkope dataruimte geïntroduceerd voor schaalvergroting.",
+    "explain": "Blobs bieden goedkopere tijdelijke gegevensruimte voor samenvoegingen om transactiegegevens te posten. Lagere DA-kosten zijn een belangrijke reden waarom de L2-vergoedingen zijn gedaald. \n\nBlobs zijn een infrastructuur en geen gebruikersproduct op zichzelf. Ze maken toepassingen mogelijk; ze nemen het brug- of ondertekeningsrisico niet weg."
+  },
+  {
+    "id": "wallet",
+    "term": "Portemonnee",
+    "definition": "Software/hardware die sleutels en handtekeningen beheert.",
+    "explain": "Een portemonnee beheert sleutels en construeert handtekeningen. Munten leven in de keten; de portemonnee houdt de controle vast, geen bewaarsaldo, tenzij het een wisselrekening is. \n\nKies warm versus koud op basis van grootte en frequentie. Back-updiscipline is belangrijker dan merkesthetiek."
+  },
+  {
+    "id": "cold-storage",
+    "term": "Koude opslag",
+    "definition": "Sleutels offline houden om het aanvalsoppervlak te verkleinen.",
+    "explain": "Koude opslag houdt sleutels offline om het aanvalsoppervlak op afstand te verkleinen. Het past beter bij langetermijnbeleggingen dan bij hoogfrequente handel. \n\nTest de ontvangst- en kleine verzendstromen vóór de parkeergrootte. Operationele fouten (verkeerde keten, verkeerd adres) gelden offline nog steeds."
+  },
+  {
+    "id": "kyc",
+    "term": "KYC",
+    "definition": "Identiteitscontroles op platforms.",
+    "explain": "KYC is identiteitsverificatie op platforms voor compliance. Het onderscheidt zich van blockchain-adressen en creëert compromissen op het gebied van privacy en datalekken. \n\nBegrijp wat u opgeeft voor fiat-rampen. Zelfbewaring wist de KYC-geschiedenis niet op opritten die u al gebruikte."
+  },
+  {
+    "id": "dex",
+    "term": "DEX",
+    "definition": "Beursafrekening via slimme contracten.",
+    "explain": "Gedecentraliseerde beurzen regelen transacties via slimme contracten, meestal zonder bewaargeving. Gebruikers behouden de sleutels en dragen handtekening- en MEV-risico. \n\nControleer routercontracten en tokenadressen. Een DEX-gebruikersinterface kan nog steeds phishing zijn, zelfs als het onderliggende protocol een goede reputatie heeft."
+  },
+  {
+    "id": "cex",
+    "term": "CEX",
+    "definition": "Gecentraliseerde uitwisseling.",
+    "explain": "Gecentraliseerde beurzen bieden snelle matching en fiat-ramps met bewaarrisico. U houdt een schuldbekentenis totdat u zich terugtrekt. \n\nGebruik ze als gereedschap, niet als kluizen. Trek de grootte terug die u belangrijk vindt, schakel sterke accountbeveiliging in en let op vergelijkbare apps."
+  },
+  {
+    "id": "dapp",
+    "term": "DApp",
+    "definition": "App met kritische logica in de keten.",
+    "explain": "Een dapp plaatst kritische logica in de keten, terwijl de frontend mogelijk nog steeds gecentraliseerd is. Domeinovername kan gebruikers wijzen op kwaadwillige contractoproepen. \n\nMaak een bladwijzer van officiële URL's, geef de voorkeur aan geverifieerde contractinteracties en behandel frontend-vertrouwen als onderdeel van het dreigingsmodel."
+  },
+  {
+    "id": "hash",
+    "term": "Hasj",
+    "definition": "Eenrichtingsoverzicht van gegevens.",
+    "explain": "Een cryptografische hash wijst gegevens toe aan een vaste samenvatting. Kleine veranderingen in de input zorgen ervoor dat de output verandert; het vinden van botsingen is ontworpen om moeilijk te zijn. \n\nHashes koppelen blokken, adresseren inhoud en committeren zich aan berichten. Ze vormen de lijm van integriteitscontroles in cryptosystemen."
+  },
+  {
+    "id": "block",
+    "term": "Blok",
+    "definition": "Partij txs gekoppeld aan de geschiedenis.",
+    "explain": "Een blok bundelt transacties in een gekoppelde geschiedenis. Grootte- en tijddoelstellingen bepalen de doorvoer- en vergoedingsmarkten. \n\nOntdekkingsreizigers tonen lengte, indiener en inbegrepen txs. Door blokkades te begrijpen, kunt u bevestigingen interpreteren en risico's reorganiseren."
+  },
+  {
+    "id": "private-key",
+    "term": "Privésleutel",
+    "definition": "Geheim dat uitgaven autoriseert.",
+    "explain": "Een privésleutel autoriseert uitgaven. Het delen ervan – of een zaadje dat het voortbrengt – staat gelijk aan het delen van het geld. \n\nTyp nooit sleutels in websites, chat-apps of ‘ondersteuningsformulieren’. Hardware-isolatie helpt; operationele voorzichtigheid bepaalt nog steeds de uitkomsten."
+  },
+  {
+    "id": "public-key",
+    "term": "Openbare sleutel",
+    "definition": "Afgeleide waarde die wordt gebruikt om handtekeningen te verifiëren.",
+    "explain": "Een publieke sleutel verifieert handtekeningen die overeenkomen met een private sleutel. Adressen worden meestal afgeleid van het hashen van de openbare sleutel. \n\nOpenbare sleutels en adressen kunnen worden gedeeld voor ontvangst. Privacypraktijken zijn nog steeds van belang als u ze op grote schaal hergebruikt."
+  },
+  {
+    "id": "address",
+    "term": "Adres",
+    "definition": "Identificatiecode die wordt gebruikt om geld te ontvangen.",
+    "explain": "Een adres is de identificatie die wordt gebruikt om geld op een netwerk te ontvangen. Verzenden naar de verkeerde keten of een typfout is vaak onomkeerbaar. \n\nKopieer zorgvuldig, controleer een paar tekens aan het begin en einde en stuur een test wanneer u de grootte naar een nieuwe bestemming verplaatst."
+  },
+  {
+    "id": "confirmation",
+    "term": "Bevestiging",
+    "definition": "Hoeveel blokken zijn er op een TX gebouwd.",
+    "explain": "Bevestigingen tellen hoeveel blokken er bovenop uw transactie zijn gebouwd. Meer diepgang maakt reorgs moeilijker. \n\nServices kiezen verschillende drempels voor verschillende formaten. Geduld is een veiligheidscontrole voor grote nederzettingen."
+  },
+  {
+    "id": "smart-contract",
+    "term": "Slim contract",
+    "definition": "Programma ingezet in een keten.",
+    "explain": "Een slim contract is een programma dat op een ketenadres wordt ingezet. Het kan activa bewaren en regels handhaven zonder een traditionele tussenpersoon. \n\nBugs, beheerderssleutels en onverwachte integraties zorgen voor risico's. Geef de voorkeur aan gecontroleerde, beproefde codepaden als u met echt geld leert."
+  },
+  {
+    "id": "token",
+    "term": "Token",
+    "definition": "Actieve eenheid opgenomen in een contract.",
+    "explain": "Tokens zijn activa-eenheden die in contracten worden vastgelegd. Namen en tickers kunnen worden gekloond; contractadressen identificeren het echte actief. \n\nControleer altijd het adres van een vertrouwde bron voordat u liquiditeit ruilt of toevoegt."
+  },
+  {
+    "id": "erc-20",
+    "term": "ERC-20",
+    "definition": "Dominante vervangbare tokeninterface.",
+    "explain": "ERC-20 is de dominante fungibele tokeninterface op Ethereum-achtige ketens. Het standaardiseert het overdrachts- en goedkeuringsgedrag voor portemonnees en DEX's. \n\nGoedkeuringen maken deel uit van de norm en vormen een deel van het risico. Begrijp de werking van de vergoedingen voordat je nieuwe tokens kweekt."
+  },
+  {
+    "id": "permissionless",
+    "term": "Zonder toestemming",
+    "definition": "Iedereen kan het gebruiken of implementeren zonder toelatingslijsten.",
+    "explain": "Met machtigingsloze systemen kan iedereen deze gebruiken of implementeren zonder toelatingslijsten. Open toegang voedt innovatie en oplichting. \n\nUw filter wordt persoonlijk: verifieer contracten, geef de voorkeur aan reputatie met bewijsmateriaal en schaal experimenten op kleine schaal."
+  },
+  {
+    "id": "custody",
+    "term": "Voogdij",
+    "definition": "Sleutels/activa van derden.",
+    "explain": "Bewaring betekent dat een derde partij sleutels of bezittingen voor u bewaart. Gemakstransacties tegen tegenpartij- en operationeel risico. \n\nZelfbeheersing verschuift de taken naar u. Hybride benaderingen – ruilen voor handel, koude opslag voor spaargeld – zijn veel voorkomende geletterde patronen."
+  },
+  {
+    "id": "yield-farming",
+    "term": "Opbrengst landbouw",
+    "definition": "Liquiditeit toewijzen om beloningen te verdienen via verschillende protocollen.",
+    "explain": "Opbrengstlandbouw verdeelt liquiditeit over protocollen om beloningen te verdienen. Hoge APR's zijn vaak tijdelijk en worden betaald in vluchtige beloningstokens. \n\nModelleer exit-liquiditeit en smart-contractrisico. Landbouw is een strategie, geen spaarrekening."
+  },
+  {
+    "id": "airdrop",
+    "term": "Luchtdruppel",
+    "definition": "Tokendistributie voor groei/gemeenschap.",
+    "explain": "Airdrops distribueren tokens voor groei of gemeenschapsbeloningen. Bij het claimen kunnen handtekeningen betrokken zijn die veiliger (of veel minder veilig) zijn dan ze lijken. \n\nLet op phishing-claimsites en belastingverrassingen. Als er bij een claim om je zaad wordt gevraagd, is er geen sprake van een airdrop."
+  },
+  {
+    "id": "whitepaper",
+    "term": "Witboek",
+    "definition": "Document waarin het ontwerp en de doelstellingen worden beschreven.",
+    "explain": "In een whitepaper worden ontwerpdoelen en -mechanismen uitgelegd. Geef de voorkeur aan concrete regels, dreigingsmodellen en parameters boven sfeerdecks. \n\nBehandel papieren als startclaims om de code en het productiegedrag te verifiëren, niet als garanties."
+  },
+  {
+    "id": "halving",
+    "term": "Halvering",
+    "definition": "Periodieke verlaging van de bloksubsidie ​​van Bitcoin.",
+    "explain": "Door de halvering van Bitcoin wordt periodiek de bloksubsidie ​​verlaagd. De uitgifte van nieuw aanbod vertraagt ​​volgens een bekend schema. \n\nHet garandeert geen prijsstijgingen. Het illustreert wel hoe veiligheidsbudgetten en vergoedingsmarkten evolueren naarmate de subsidies afnemen."
+  },
+  {
+    "id": "merkle-tree",
+    "term": "Merkle boom",
+    "definition": "Hashboom bewijst inclusie efficiënt.",
+    "explain": "Merkle-bomen hashen gegevens in een root, zodat opname efficiënt kan worden bewezen. Light clients en veel proefsystemen vertrouwen erop. \n\nHiermee kunt u verifiëren dat een onderdeel tot een vastgelegde set behoort, zonder dat u alles hoeft te downloaden: de kern van schaalbare verificatie."
+  },
+  {
+    "id": "nonce",
+    "term": "Nonce",
+    "definition": "Rekening TX volgnummer.",
+    "explain": "Een account nonce rangschikt transacties, zodat ze allemaal één keer in volgorde worden verwerkt. Vastgelopen transacties worden vaak vervangen door dezelfde nonce opnieuw te verzenden tegen een hogere vergoeding. \n\nDoor nonces te begrijpen, worden portefeuilles en vervangingsstromen die voor altijd in behandeling zijn, gedemystificeerd."
+  }
+]

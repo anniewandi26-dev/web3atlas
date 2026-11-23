@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q1",
+    "question": "Tại sao BTC trở thành tài liệu tham khảo về tiền điện tử chính thống?",
+    "choices": [
+      "Chỉ riêng sự chứng thực của người nổi tiếng",
+      "Tường thuật về sự khan hiếm tiền mặt kỹ thuật số đáng tin cậy đầu tiên + hiệu ứng mạng",
+      "Đảm bảo sự hỗ trợ của chính phủ",
+      "Nguồn cung không giới hạn"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q2",
+    "question": "Tại sao Ethereum được gọi là “máy tính thế giới”?",
+    "choices": [
+      "Nó chỉ lưu trữ các tập tin",
+      "Nó chạy các hợp đồng thông minh có mục đích chung",
+      "Nó khai thác Bitcoin nhanh hơn",
+      "Nó thay thế DNS trên toàn cầu"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q3",
+    "question": "Bitcoin giảm một nửa khoảng 4 năm một lần – cái gì bị cắt?",
+    "choices": [
+      "Tổng nguồn cung ngay lập tức",
+      "Phần thưởng khối khai thác",
+      "Phí ví mãi mãi",
+      "Số lượng người xác nhận"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q4",
+    "question": "Hoa Kỳ phát hiện ra Bitcoin ETF chủ yếu thay đổi điều gì?",
+    "choices": [
+      "mã BTC",
+      "Con đường tiếp cận môi giới cho các nhà đầu tư truyền thống",
+      "Thuật toán khai thác",
+      "Độ dài cụm từ hạt giống"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q5",
+    "question": "Sau khi hợp nhất, việc sử dụng năng lượng của Ethereum…",
+    "choices": [
+      "Tăng gấp 10 lần",
+      "Giảm đáng kể với bằng chứng cổ phần",
+      "Trở thành chỉ có than",
+      "Không thay đổi"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q6",
+    "question": "Tại sao chuyển lớp 2 có thể tốn xu?",
+    "choices": [
+      "Họ bỏ qua an ninh",
+      "Họ thực hiện nhiều giao dịch và khấu hao chi phí dữ liệu L1",
+      "Ngân hàng trợ cấp cho họ",
+      "Gas là miễn phí theo luật"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q7",
+    "question": "Tại sao các stablecoin lớn được gọi là 'đô la trên chuỗi'?",
+    "choices": [
+      "Chúng là những ví được bảo hiểm FDIC",
+      "Họ nhằm mục đích theo dõi USD để thanh toán và giao dịch",
+      "Chúng là những đồng tiền vàng",
+      "Họ không thể chuyển"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q8",
+    "question": "Vay và kiếm tiền mà không cần bàn giao dịch ngân hàng - danh mục nào?",
+    "choices": [
+      "Chỉ NFT",
+      "Cho vay DeFi và AMM",
+      "Sản xuất phần cứng",
+      "Internet vệ tinh"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q9",
+    "question": "2010: 10.000 BTC mua hai chiếc pizza – bài học?",
+    "choices": [
+      "BTC luôn đắt",
+      "Việc phát hiện giá sớm mang tính thử nghiệm và mang tính xã hội",
+      "Pizza là một giao thức",
+      "Khai thác là bất hợp pháp"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q10",
+    "question": "Một sự phê duyệt bất cẩn có thể…",
+    "choices": [
+      "Tự động cải thiện APY",
+      "Hãy để hợp đồng rút token sau này",
+      "Xóa chuỗi khối",
+      "Nâng cấp phần cứng của bạn"
+    ],
+    "answer": 1
+  }
+]

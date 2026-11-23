@@ -1,0 +1,86 @@
+[
+  {
+    "id": "n1",
+    "date": "2026-03-12",
+    "title": "De compressie van de L2-tarieven gaat door",
+    "summary": "Blob-markten en betere batching zorgen ervoor dat grote rollup-overdrachten dichtbij de cent blijven. Microbetalingen worden eenvoudiger: het veiligheidsonderwijs moet gelijke tred houden.",
+    "body": "Het afgelopen jaar hebben upgrades van de beschikbaarheid van gegevens en een strakkere batching ervoor gezorgd dat de typische overdrachten op grote rollups richting cent-niveau zijn gegaan. Wat vroeger voelde als een luxe netwerk voor grote transacties, wordt bruikbaar voor spelacties, tips en kleine DeFi-aanpassingen. \n\nGoedkopere blockspace verandert het gebruikersgedrag. Mensen bridgen vaker, proberen meer contracten en klikken sneller door portemonneeprompts. Dat gemak is een echte vooruitgang – en het vergroot ook de actieradius van phishing-sites, onbeperkte goedkeuringen en vergelijkbare tokens. \n\nVoor bouwers is de compressie van de vergoedingen een ontgrendeling van het product: onboarding-stromen sterven niet langer als gevolg van de schok van de gassticker. Voor leerlingen blijft de checklist ouderwets: verifieer domeinen, simuleer transacties, geef de voorkeur aan beperkte vergoedingen en behandel bruggen als een aparte risicoklasse, zelfs als de L2 zelf goedkoop is. \n\nPraktische afhaalmogelijkheid: vier lagere kosten, maar koppel elke nieuwe gewoonte aan een veiligheidsgewoonte. De goedkoopste overboeking is nog steeds duur als geld naar het verkeerde adres of naar een onbeperkte uitgever wordt gestuurd."
+  },
+  {
+    "id": "n2",
+    "date": "2026-02-28",
+    "title": "Slimme accounts bereiken de portemonnee van consumenten",
+    "summary": "Sessiesleutels en gesponsord gas bereiken de mainstream mobiele UX. Bewakers en modules worden nieuwe veiligheidsoppervlakken.",
+    "body": "Accountabstractie is niet langer alleen een onderzoeksonderwerp. Consumentenportefeuilles leveren steeds vaker slimme accounts met sessiesleutels, sociaal herstel en gassponsoring, zodat nieuwkomers kunnen handelen zonder eerst op zoek te gaan naar een gastoken. \n\nDie UX-sprong creëert een nieuw mentaal model. In plaats van dat één zaadje voor altijd één EOA beheert, kunnen gebruikers vertrouwen op voogden, modules, betaalmeesters en tijdelijke machtigingen. Verkeerd geconfigureerd herstel of een kwaadaardige module kan een account vergrendelen of leegmaken zonder een klassiek zaadlek. \n\nTeams moeten hersteloefeningen documenteren zoals banken de stromen van verloren kaarten documenteren. Gebruikers moeten weten wie de voogden zijn, wat een sessiesleutel kan uitgeven en hoe ze modules kunnen intrekken. ‘Zaadloos’ betekent niet ‘risicoloos’. \n\nAls u slimme accounts gebruikt: begin met kleine saldi, test het herstel op een reserveportemonnee en lees de modulerechten voordat u gemaksfuncties inschakelt."
+  },
+  {
+    "id": "n3",
+    "date": "2026-02-10",
+    "title": "RWA-fondsen rapporteren record AUM in de keten",
+    "summary": "Tokenized T-bills brengen bekende rentecurves op de keten. Afkoop en wettelijke bewaring blijven de echte stresstest.",
+    "body": "Tokenized Treasury en cash-equivalente producten blijven AUM in de keten aantrekken, omdat ze in verband staan ​​met cashflows die mensen al begrijpen. Afwikkeling kan plaatsvinden via cryptorails, terwijl het economische verhaal dichter bij de traditionele geldmarktblootstelling lijkt. \n\nDe harde delen zijn off-chain. Wie heeft de onderliggende waarde? Hoe snel kun je in paniek verzilveren? Wat gebeurt er als bankpartners failliet gaan, of als overdrachtsbeperkingen uw portemonnee bevriezen? Saldo in de keten ≠ direct contant geld bij de hand. \n\nLezers moeten het protocolrisico scheiden van het emittent- en bewaarrisico. Een schoon slim contract repareert een zwakke juridische verpakking niet. APR-screenshots zonder inwisselingsregels zijn marketing en geen toewijding. \n\nGebruik RWA's als leeroppervlak voor reserves, attesten en jurisdictie, niet alleen als rendementsgrens in een portfolio-app."
+  },
+  {
+    "id": "n4",
+    "date": "2026-01-22",
+    "title": "Intent solvers breiden de dekking uit",
+    "summary": "Cross-chain swaps verbergen routes achter één handtekening terwijl oplossers concurreren. Ken de regels voor terugbetaling en ergste slippen.",
+    "body": "Met intent-based trading kunnen gebruikers ondertekenen wat ze willen (‘A ruilen voor ten minste B op tijdstip T’) – terwijl oplossers strijden om de route te vullen. De interface voelt dichter aan bij het afrekenen dan bij handmatig bridge-hoppen. \n\nOnder de motorkap kunnen multi-hop-bruggen, DEX-pools en oplosser-inventarissen nog steeds het pad uitvoeren. Mislukkingen, gedeeltelijke vullingen en terugbetalingsvoorwaarden zijn net zo belangrijk als het gelukkige pad. Een mooie quote kan een zwakke liquiditeit of agressieve tussenliggende hop verbergen. \n\nControleer vóór ondertekening de deadline, de minimale output, welke ketens worden geraakt en wat er gebeurt als een oplosser niet kan voltooien. Geef de voorkeur aan locaties die de route in eenvoudige taal simuleren en uitleggen. \n\nIntenties verminderen het klikken; ze verwijderen de marktstructuur niet. Beschouw ze als krachtige automatisering met expliciete worst-case-instellingen."
+  },
+  {
+    "id": "n5",
+    "date": "2026-01-05",
+    "title": "Het hernemen van risicokaders wordt volwassen",
+    "summary": "Operators publiceren duidelijkere snijmatrices naarmate de gedeelde beveiliging groeit. Vergelijk de opbrengst alleen met de meegeleverde slash-scenario's.",
+    "body": "Bij Restaking wordt ingezet kapitaal hergebruikt om extra diensten veilig te stellen. Efficiëntie is aantrekkelijk: dezelfde obligatie garandeert meer werk. De correlatie bestaat uit de kosten: één fout van een operator of een onduidelijke slash-situatie kan meerdere gelaagde opbrengsten tegelijk veroorzaken. \n\nDuidelijkere onthullingen door operators en slash-matrices helpen, maar lezers moeten nog steeds in kaart brengen wie wie kan slashen, op basis van welk bewijsmateriaal, en met welk sociaal proces de overhand krijgt. ‘Extra rendement’ zonder faalverhaal is niet compleet. \n\nAls u herbelegt, bepaal dan posities voor gecorreleerde prijsdalingen, diversifieer operators waar mogelijk en geef de voorkeur aan diensten met transparant toezicht. De hefboomwerking op consensusbeveiliging is nog steeds een hefboomwerking. \n\nVolwassenheid is vooruitgang; persoonlijke risicolimieten blijven uw taak."
+  },
+  {
+    "id": "n6",
+    "date": "2025-12-18",
+    "title": "Exchange HbR-dashboards worden breder",
+    "summary": "Steeds meer locaties verzenden continue attesten na CeFi-storingen. Transparantie helpt; zelfbeheersing is nog steeds van belang voor de grootte.",
+    "body": "Bewijs-van-reserves-dashboards werden een trustproduct nadat verschillende CeFi-instortingen plaatsvonden. Doorlopende attesten en openbare portemonneepagina's maken het moeilijker om ruwe fractionele schema's te verbergen, tenminste voor de activa die ze willen tonen. \n\nHbR is geen volledige audit van aansprakelijkheden, juridische entiteiten of operationele controles. Een groen dashboard kan samengaan met bevroren opnames, verborgen schulden of gecompromitteerde hot wallets. Beschouw het als één van de vele signalen. \n\nVoor saldi die u zich niet kunt veroorloven te stranden, kunt u periodieke opnames in eigen beheer plannen. Houd wisselrekeningen bij voor liquiditeit en fiat-rampen, niet als permanente kluizen. \n\nTransparantie-instrumenten verbeteren de markt; ze zijn geen vervanging voor de persoonlijke hygiëne."
+  },
+  {
+    "id": "n7",
+    "date": "2025-11-30",
+    "title": "ZK-beproevingskosten dalen opnieuw",
+    "summary": "Hardware en algoritmen maken geldigheidsbewijzen goedkoper. “ZK”-branding heeft nog steeds onderzoek naar sequencer en bridge nodig.",
+    "body": "Verbeteringen in de hardware en het algoritme van de Prover blijven de kosten van geldigheidsbewijzen verlagen, waardoor rollups in ZK-stijl praktischer worden voor algemene berekeningen. Lagere bewijskosten ondersteunen bredere L2-ontwerpen en snellere finaliteitsverhalen. \n\nMarketing verwoordt veel vertrouwensvragen vaak in het woord ‘ZK’. Gebruikers zijn nog steeds afhankelijk van sequencers, bridges, upgradesleutels en beschikbaarheid van data. Een goedkoop bewijs van een kwaadaardig batchbeleid helpt je niet. \n\nVraag bij het evalueren van een ZK-product wat er bewezen is, wie kan upgraden, hoe gedwongen opname werkt en hoe exits zich gedragen onder stress. Proefsystemen vormen één laag in een stapel. \n\nGoedkopere bewijzen zijn uitstekend infrastructuurnieuws: combineer ze met hetzelfde operationele scepticisme dat u elders toepast."
+  },
+  {
+    "id": "n8",
+    "date": "2025-11-08",
+    "title": "Wallet-simulatie wordt standaard",
+    "summary": "Preflight-simulatie vermindert het verlies van blinde goedkeuring. Complexe paden kunnen nog steeds onvoldoende worden uitgelegd; wijs af wat u niet begrijpt.",
+    "body": "Transactiesimulatie en duidelijkere gebruikersinterfaces voor ondertekening worden steeds belangrijker. Het tonen van asset-verschillen vóór bevestiging voorkomt veel klassieke blinde goedkeuringsdrains die ooit leken op routinematige “bevestig”-klikken. \n\nSimulatie is slechts zo goed als het decoderen en de veronderstelde ketenstatus. Ongebruikelijke contracten, aangepaste modules of intenties met meerdere stappen kunnen nog steeds slecht renderen. Als het voorbeeld leeg of tegenstrijdig is, is dat een stopteken en geen klein probleempje. \n\nCombineer simulatie met gewoonten op de toelatingslijst: maak bladwijzers voor apps, verifieer contractadressen en trek verouderde rechten in. Tools verminderen het foutenpercentage; ze bedenken geen bedoeling voor jou. \n\nStandaardregel: als u de staatswijziging niet in één zin kunt uitleggen, teken dan niet."
+  },
+  {
+    "id": "n9",
+    "date": "2025-10-21",
+    "title": "De volumes van stablecoin-afwikkelingen stijgen",
+    "summary": "On-chain dollars blijven het werkpaard voor paren en overmakingen. Diversifieer emittenten en leer het reserverisico kennen.",
+    "body": "Stablecoins blijven het afwikkelingsvolume domineren omdat ze dollarachtige eenheden met cryptorails aanbieden. Handelsparen, betalingscorridors en loonexperimenten leunen er allemaal op als de praktische rekeneenheid. \n\nProduct-markt fit concentreert het risico op emittenten, banken en bevriezingsbeleid. Een depeg- of compliance-actie kan strategieën die een perfecte 1:1-verhouding voor altijd hebben aangenomen, stopzetten. Het diversifiëren van emittenten en het begrijpen van de kwaliteit van attesten is onderdeel van geletterdheid, niet van paranoia. \n\nVoor dagelijks gebruik geeft u de voorkeur aan goed gedocumenteerde reserves en duidelijke aflossingstrajecten. Vergelijk voor het leren fiat-backed, crypto-backed en algoritmische ontwerpen op basis van hun faalwijzen – niet hun logo’s. \n\nVolumegroei betekent dat stallen infrastructuur zijn. Infrastructuur verdient een saaie, herhaalde risicobeoordeling."
+  },
+  {
+    "id": "n10",
+    "date": "2025-10-02",
+    "title": "DAO-tooling verbetert veto-UX",
+    "summary": "Timelock-dashboards en voogdrollen helpen bij het onderscheppen van kwaadaardige voorstellen. Governance is onderdeel van het beveiligingsmodel.",
+    "body": "DAO-interfaces komen steeds vaker tijdsloten, veto's van voogden en leesbare voorstelverschillen aan het licht. Dat is van belang omdat governance-aanvallen schatkisten net zo effectief kunnen legen als een contractbug, alleen met een steminterface in plaats van een exploitscript. \n\nDankzij betere tools kunnen afgevaardigden parameterwijzigingen, tokentoekenningen en upgrade-aanroepen opmerken voordat ze worden uitgevoerd. Het lost de lage opkomst, het verborgen kopen van stemmen of overhaaste noodprocessen niet op. \n\nAls u bestuursmacht heeft, behandel stemmen dan als productietoegang: verifieer de payload, wacht door tijdsloten heen en geef de voorkeur aan beperkte machtigingen. Toeschouwers moeten nagaan of de voogden openbaar zijn en verantwoordelijk zijn. \n\nBeveiliging voor DAO's omvat sociale processen. Dashboards zijn noodzakelijk; scepsis blijft geboden."
+  },
+  {
+    "id": "n11",
+    "date": "2025-09-14",
+    "title": "Studio's verzenden hybride inventarissen",
+    "summary": "Schaarse items vestigen zich in de keten, terwijl realtime gevechten buiten de keten blijven. Het shutdownbeleid bepaalt hoe ver “eigen” gaat.",
+    "body": "Gamestudio's blijven systemen splitsen: gezaghebbende gevechten en matchmaking op servers met lage latentie, schaarse cosmetica of valuta als on-chain inventaris. Spelers krijgen verhandelbaarheid zonder elke actie via een mempool te forceren. \n\nHybride ontwerp betekent hybride vertrouwen. Het kan zijn dat je een tokenized zwaard bezit, terwijl je nog steeds afhankelijk bent van servers om het bruikbaar te maken. Als de studio wordt gesloten, kunnen marktplaatsbiedingen de spellogica niet zelf herstellen. \n\nArtikelbeleid lezen: Kunnen assets migreren? Zijn metadata veranderlijk? Wie kan voorraden bevriezen? “On-chain” is geen volledige garantie op bruikbaarheid. \n\nHybride games zijn een realistisch pad: meet gewoon eerlijk de eigendomsclaims af tegen de serverafhankelijkheid."
+  },
+  {
+    "id": "n12",
+    "date": "2025-08-29",
+    "title": "Onderwijshubs zijn toonaangevend op het gebied van beveiliging",
+    "summary": "Leerproducten leren phishing en goedkeuringen vóór het rendement op toerisme. Eerst overleven is het echte volwassenheidssignaal.",
+    "body": "Er zijn nu meer onderwijsplatforms geopend met phishing, goedkeuringen en zaadhygiëne vóór landbouwtutorials. Deze ordening weerspiegelt de zwaarbevochten ervaring in de sector: kennis die u niet solvabel houdt, is onvolledig. \n\nCurricula waarbij veiligheid voorop staat, hebben nog steeds behoefte aan verdieping op het gebied van markten, protocollen en geschiedenis, maar de volgorde is van belang. Gebruikers die nep-ondersteunings-DM's leren afwijzen, zullen er later nog steeds zijn om AMM's te leren. \n\nWeb3Atlas volgt dezelfde vooroordeel: kaarten en woordenlijsten gaan gepaard met verdedigingsgewoonten. Behandel veiligheidsoefeningen als kerninhoud, niet als een bijlage. \n\nVolwassenheid verergert de overleving. Opbrengstscreenshots zijn optioneel; hechtenisdiscipline is dat niet."
+  }
+]

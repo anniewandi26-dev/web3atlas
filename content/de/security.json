@@ -1,0 +1,234 @@
+[
+  {
+    "id": "homograph",
+    "tag": "Alarm",
+    "title": "Homograph-Phishing-Abwehr",
+    "minutes": 5,
+    "summary": "Doppelgänger fälschen offizielle Domänen, um Signaturen oder Samen zu sammeln.",
+    "sections": [
+      {
+        "heading": "Wie es aussieht",
+        "body": "Angreifer tauschen visuell ähnliche Zeichen in Domänen aus und koppeln sie mit Anzeigen oder DMs. Die Benutzeroberfläche kann pixelgenau sein und sogar gefälschte Guthaben anzeigen."
+      },
+      {
+        "heading": "So erkennen Sie es",
+        "body": "Geben Sie URLs ein oder verwenden Sie Lesezeichen. Überprüfen Sie die Zertifikatsinhaber. Klicken Sie niemals auf die oberste Suchanzeige für Wallets/Bridges. Bewegen Sie den Mauszeiger über Links und überprüfen Sie ungerade Subdomains."
+      },
+      {
+        "heading": "Wenn Sie geklickt haben",
+        "body": "Widerrufen Sie Genehmigungen und verschieben Sie verbleibende Mittel. Wenn Sie einen Seed eingegeben haben, wird diese Brieftasche verbrannt – die Rettung erfolgt nur auf einen brandneuen Seed. Bewahren Sie Beweise für Berichte auf."
+      }
+    ],
+    "checklist": [
+      "Setzen Sie ein Lesezeichen auf offizielle Websites",
+      "Überspringen Sie Suchanzeigen",
+      "Überprüfen Sie jedes URL-Zeichen",
+      "Überprüfen Sie die Größe auf einem zweiten Gerät",
+      "Geben Sie niemals Seeds in Webseiten ein"
+    ],
+    "body": "Doppelgänger fälschen offizielle Domänen, um Signaturen oder Samen zu sammeln."
+  },
+  {
+    "id": "seed",
+    "tag": "Schlüssel",
+    "title": "Vollständiger Leitfaden zur Saatphrase",
+    "minutes": 6,
+    "summary": "Ihr Samen ist die Kontrolle über die Vermögenswerte. Wer danach fragt, ist feindselig.",
+    "sections": [
+      {
+        "heading": "Backups",
+        "body": "Schreiben Sie die Bestellung handschriftlich und überprüfen Sie sie noch einmal. Betrachten Sie Metallplatten; Teilen Sie die Standorte sorgfältig auf. Keine Fotos, Clouds oder Chat-Apps."
+      },
+      {
+        "heading": "Betrug",
+        "body": "„Sync/Verify/Upgrade/Unfreeze/Airdrop“-Seiten erfordern 12/24 Wörter. Gefälschte Discord-Administratoren verwenden dasselbe Skript. Hardware-„Authentizitätsprüfer“, die nach Samen fragen, sind gefälscht."
+      },
+      {
+        "heading": "Nachlass",
+        "body": "Wenn niemand den Plan kennt, sterben die Gelder mit Ihnen. Verwenden Sie versiegelte Anweisungen, Anwälte oder Mehrfachsignaturen. Bei Verdacht auf Leck sofort migrieren."
+      }
+    ],
+    "checklist": [
+      "Seeds nur auf Offline-Medien",
+      "Sagen Sie die Worte niemandem",
+      "Geben Sie sie niemals auf einem vernetzten Gerät ein",
+      "Hardware + Cold-Backup für Größe",
+      "Bei jedem Lecksignal migrieren"
+    ],
+    "body": "Ihr Samen ist die Kontrolle über die Vermögenswerte. Wer danach fragt, ist feindselig."
+  },
+  {
+    "id": "approve",
+    "tag": "DeFi",
+    "title": "Fallen genehmigen/erlauben",
+    "minutes": 6,
+    "summary": "Genehmigungen verschieben Token nicht sofort – sie ermöglichen spätere Entnahmen, insbesondere unbegrenzte.",
+    "sections": [
+      {
+        "heading": "Mechanik",
+        "body": "ERC-20-TransferVon benötigt Zuschuss. Unbegrenzte Genehmigungen sind praktisch; Kompromittierte Geldgeber können Sie später leeren. setApprovalForAll ist das NFT-Äquivalent."
+      },
+      {
+        "heading": "Sicheres Üben",
+        "body": "Genaue Zulagen, wenn möglich; routinemäßig widerrufen; Testen Sie neue Protokolle klein. Sehen Sie sich Airdrop-Sites an, die zuerst eine Genehmigung erfordern."
+      },
+      {
+        "heading": "Reaktion auf Vorfälle",
+        "body": "Gelder widerrufen und verschieben. Priorisieren Sie die Geldgeber, die in Hack-Enthüllungen genannt werden."
+      }
+    ],
+    "checklist": [
+      "Verweigern Sie unnötige unbegrenzte Genehmigungen",
+      "Überprüfen Sie die Zulagen monatlich",
+      "Widerrufen Sie ungenutzte NFT-Betreiber",
+      "Lesen Sie Spenderadressen",
+      "Priorisieren Sie Ausgaben für gehackte Protokolle"
+    ],
+    "body": "Genehmigungen verschieben Token nicht sofort – sie ermöglichen spätere Entnahmen, insbesondere unbegrenzte."
+  },
+  {
+    "id": "fake-apps",
+    "tag": "Mobile",
+    "title": "Gefälschte Wallet-Apps",
+    "minutes": 5,
+    "summary": "Klone tauchen in Geschäften und Sideload-Kanälen auf, um Samen zu stehlen oder Geräte fernzusteuern.",
+    "sections": [
+      {
+        "heading": "Fälschungen erkennen",
+        "body": "Ordnen Sie Herausgebernamen offiziellen Beiträgen zu; Vorsicht vor brandneuen Apps, die auf Platz 1 stehen. Bevorzugen Sie Links von der echten Website. Seitlich geladene APKs sind riskanter."
+      },
+      {
+        "heading": "Härten",
+        "body": "Halten Sie das Betriebssystem auf dem neuesten Stand; Plugins minimieren; Erwägen Sie ein dediziertes Telefon. Verwenden Sie Hardware für die Größe. Planen Sie eine Fernsperre ein, falls das Telefon verloren geht."
+      },
+      {
+        "heading": "Nach der Installation",
+        "body": "Wenn ein Seed in eine gefälschte App eingegeben wurde, gehen Sie von einer Kompromittierung aus und migrieren Sie auf ein sauberes Gerät."
+      }
+    ],
+    "checklist": [
+      "Von offiziellen Kanälen installieren",
+      "Überprüfen Sie die Entwicklernamen",
+      "Vermeiden Sie zufällige APKs",
+      "Paargröße mit Hardware bestätigt",
+      "Im Falle einer Fälschung sofort migrieren"
+    ],
+    "body": "Klone tauchen in Geschäften und Sideload-Kanälen auf, um Samen zu stehlen oder Geräte fernzusteuern."
+  },
+  {
+    "id": "drainer",
+    "tag": "Unterzeichnung",
+    "title": "Signatur-Drainer und böswillige Genehmigungen",
+    "minutes": 7,
+    "summary": "Kein Seed erforderlich – böswillige strukturierte Signaturen können Abflüsse autorisieren.",
+    "sections": [
+      {
+        "heading": "Taktik",
+        "body": "Gefälschte Mints/Claims, AnforderungssetApprovalForAll, Genehmigungen oder „Logins“. Einige Nutzlasten sehen leer aus. Bots fegen hinterher."
+      },
+      {
+        "heading": "Verteidigung",
+        "body": "Klarsignierende Wallets, Simulation, Unbekannte ablehnen. Verbinden Sie neue Standorte zunächst mit einem Brenner. Überprüfen Sie die Domänen."
+      },
+      {
+        "heading": "Später",
+        "body": "Widerrufen Sie, retten Sie Gelder, warnen Sie Gemeinden, prüfen Sie andere Ketten auf die gleichen Genehmigungen."
+      }
+    ],
+    "checklist": [
+      "Undurchsichtige Signaturen ablehnen",
+      "Simulation aktivieren",
+      "Verwenden Sie auf neuen Websites einen Brenner",
+      "Regelmäßig widerrufen",
+      "Setzen Sie ein Lesezeichen für echte dApps"
+    ],
+    "body": "Kein Seed erforderlich – böswillige strukturierte Signaturen können Abflüsse autorisieren."
+  },
+  {
+    "id": "support",
+    "tag": "Sozial",
+    "title": "Fake-Support und Social Engineering",
+    "minutes": 5,
+    "summary": "Nachdem Sie einen Fehler gepostet haben, „helfen“ Imitatoren per DM und bitten um Fernzugriff oder Seeds.",
+    "sections": [
+      {
+        "heading": "Das Spielbuch",
+        "body": "Geklonte Avatare, Dringlichkeits-, Fernsteuerungs-Apps oder Anweisungen zur Einzahlung „sicherer Verträge“. Auch kompromittierte Freundeskonten verbreiten Links."
+      },
+      {
+        "heading": "Regeln",
+        "body": "Echte Teams sprechen selten zuerst per Direktnachricht nach Geheimnissen. Nutzen Sie offizielle Tickets/öffentliche Kanäle. Verifizieren Sie Freunde außerhalb der Band."
+      },
+      {
+        "heading": "Hygiene",
+        "body": "Fügen Sie niemals Samen in öffentliche Kanäle ein – auch nicht „teilweise maskiert“."
+      }
+    ],
+    "checklist": [
+      "Ignorieren Sie Cold-Support-DMs",
+      "Installieren Sie keine zufälligen Remote-Tools",
+      "Geben Sie niemals Samen zur Unterstützung",
+      "Überprüfen Sie die Links seltsamer Freunde offline",
+      "Nutzen Sie öffentliche offizielle Hilfekanäle"
+    ],
+    "body": "Nachdem Sie einen Fehler gepostet haben, „helfen“ Imitatoren per DM und bitten um Fernzugriff oder Seeds."
+  },
+  {
+    "id": "bridges",
+    "tag": "Kreuzkette",
+    "title": "Brückensicherheit",
+    "minutes": 6,
+    "summary": "Bridges sind Top-Hack-Ziele und Phishing-Favoriten. Schneller ist standardmäßig nicht sicherer.",
+    "sections": [
+      {
+        "heading": "Wählen",
+        "body": "Bevorzugen Sie kanonische Brücken aus offiziellen Dokumenten. Überprüfen Sie schnelle Brücken für Audits und Grenzwerte. Verstehen Sie Ausgangsverzögerungen."
+      },
+      {
+        "heading": "Betrieb",
+        "body": "Kleine End-to-End-Tests; Ziel-Token-Verträge überprüfen; Hashes speichern. Behandeln Sie Ausstiege während des Fluges nicht als freie Marge."
+      },
+      {
+        "heading": "Vorfälle",
+        "body": "Befolgen Sie bei Bridge-Hacks die offiziellen Pausenhinweise – nicht die DM-„Migrationsskripte“."
+      }
+    ],
+    "checklist": [
+      "Lesezeichen für offizielle Brücken setzen",
+      "Testen Sie zuerst den Tiny",
+      "Überprüfen Sie die Zielverträge",
+      "Sende-Hashes speichern",
+      "Ignorieren Sie DM-Migrationsskripts"
+    ],
+    "body": "Bridges sind Top-Hack-Ziele und Phishing-Favoriten. Schneller ist standardmäßig nicht sicherer."
+  },
+  {
+    "id": "devices",
+    "tag": "Ops",
+    "title": "Geräte- und Browserhygiene",
+    "minutes": 5,
+    "summary": "Zwischenablage-Malware, gefälschte Erweiterungen und gemeinsam genutzte PCs sind alltägliche Diebstahlwege.",
+    "sections": [
+      {
+        "heading": "Browser",
+        "body": "Spezielles Kryptoprofil; minimale offizielle Erweiterungen; Lesezeichen für Websites. Verwenden Sie für die Größe eine saubere Maschine."
+      },
+      {
+        "heading": "System",
+        "body": "Patch-Betriebssystem; Vorsicht vor „Airdrop-Tools“; Vermeiden Sie unübersichtliche öffentliche Ladegeräte. Überprüfen Sie eingefügte Adressen immer erneut."
+      },
+      {
+        "heading": "Schichtung",
+        "body": "Heiß für den täglichen Gebrauch, kalt für Ersparnisse, Multisig für Staatsanleihen übertrifft ein Super-Wallet."
+      }
+    ],
+    "checklist": [
+      "Separates Browserprofil",
+      "Erweiterungen auf die Whitelist setzen",
+      "Überprüfen Sie die eingefügten Adressen erneut",
+      "Halten Sie das Betriebssystem auf dem neuesten Stand",
+      "Teilen Sie die Mittel nach Rolle auf"
+    ],
+    "body": "Zwischenablage-Malware, gefälschte Erweiterungen und gemeinsam genutzte PCs sind alltägliche Diebstahlwege."
+  }
+]

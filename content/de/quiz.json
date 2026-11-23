@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q1",
+    "question": "Warum wurde BTC zur Mainstream-Krypto-Referenz?",
+    "choices": [
+      "Allein die Unterstützung von Prominenten",
+      "Erste glaubwürdige Erzählung über knappes digitales Bargeld + Netzwerkeffekte",
+      "Garantierte staatliche Unterstützung",
+      "Unbegrenzter Vorrat"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q2",
+    "question": "Warum wird Ethereum als „Weltcomputer“ bezeichnet?",
+    "choices": [
+      "Es speichert nur Dateien",
+      "Es führt allgemeine Smart Contracts aus",
+      "Es schürft Bitcoin schneller",
+      "Es ersetzt DNS weltweit"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q3",
+    "question": "Bitcoin halbiert sich ungefähr alle 4 Jahre – was wird gekürzt?",
+    "choices": [
+      "Gesamtversorgung sofort",
+      "Miner-Block-Belohnung",
+      "Wallet-Gebühren für immer",
+      "Anzahl der Validatoren"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q4",
+    "question": "Was haben die Bitcoin-ETFs in den USA vor allem verändert?",
+    "choices": [
+      "BTC-Code",
+      "Brokerage-Zugangspfad für traditionelle Anleger",
+      "Mining-Algorithmus",
+      "Länge der Seed-Phrase"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q5",
+    "question": "Nach der Fusion wird der Energieverbrauch von Ethereum…",
+    "choices": [
+      "10x erhöht",
+      "Mit Proof-of-Stake drastisch gesunken",
+      "Wurde nur noch mit Kohle betrieben",
+      "Unverändert"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q6",
+    "question": "Warum können Layer-2-Transfers Cent kosten?",
+    "choices": [
+      "Sie ignorieren die Sicherheit",
+      "Sie stapeln viele Sendungen und amortisieren die L1-Datenkosten",
+      "Banken subventionieren sie",
+      "Gas ist gesetzlich kostenlos"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q7",
+    "question": "Warum werden große Stablecoins „On-Chain-Dollars“ genannt?",
+    "choices": [
+      "Es handelt sich um FDIC-versicherte Geldbörsen",
+      "Ihr Ziel ist es, USD für die Abwicklung und den Handel zu verfolgen",
+      "Es sind Goldmünzen",
+      "Sie können nicht übertragen werden"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q8",
+    "question": "Ohne Bankschalter leihen und verdienen – welche Kategorie?",
+    "choices": [
+      "Nur NFTs",
+      "DeFi-Kredite und AMMs",
+      "Hardware-Herstellung",
+      "Satelliten-Internet"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q9",
+    "question": "2010: 10.000 BTC kauften zwei Pizzen – Lektion?",
+    "choices": [
+      "BTC war schon immer teuer",
+      "Die frühe Preisfindung war experimentell und sozial",
+      "Pizza ist ein Protokoll",
+      "Bergbau war illegal"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q10",
+    "question": "Eine unvorsichtige Genehmigung kann…",
+    "choices": [
+      "APY automatisch verbessern",
+      "Lassen Sie einen Vertrag später Token entleeren",
+      "Löschen Sie die Blockchain",
+      "Rüsten Sie Ihre Hardware auf"
+    ],
+    "answer": 1
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2008-wp",
+    "date": "2008-10",
+    "title": "Karatasi nyeupe ya Bitcoin",
+    "body": "Satoshi huchapisha muundo wa pesa taslimu wa rika-kwa-rika kwenye orodha ya msimbo. Historia ya viungo vya uthibitisho wa kazi bila wapatanishi wanaoaminika. Karatasi fupi inakuwa mbegu ya kiakili ya tasnia na masimulizi ya \"kanuni katika kanuni\". \n\nKaratasi hubadilisha pesa kama leja ya utangazaji yenye motisha za kiuchumi. Nodes kuthibitisha sheria ndani ya nchi; wachimbaji wanatumia kazi kufanya historia kuwa ghali kuiandika upya. Mchanganyiko huo-uthibitishaji wazi pamoja na uandishi wa gharama kubwa-bado unasisitiza zaidi maelezo ya \"kwa nini blockchain\". \n\nKwa wanafunzi, uchukuzi ni wa usanifu: punguza washirika wengine wanaoaminika kwa utoaji na utatuzi, ukubali uthibitisho wa uwezekano, na usimbaji uhaba katika sheria za itifaki. Mifumo ya baadaye hukopa simulizi hata inapobadilisha injini."
+  },
+  {
+    "id": "2009-genesis",
+    "date": "2009-01",
+    "title": "Mwanzo block",
+    "body": "Boti za Bitcoin zilizo na kichwa cha habari kuhusu uokoaji wa benki zilizowekwa kwenye kizuizi cha genesis. Utumiaji wa mapema ni uchimbaji madini na uhamishaji bila malipo yoyote. Wazo hilo linakuwa mtandao hai. \n\nKupachika kichwa cha habari cha gazeti ilikuwa muhuri wa nyakati na ishara ya kisiasa. Washiriki wa mapema waliendesha nodi kamili kwa chaguo-msingi kwa sababu hakukuwa na kitu kingine cha kufanya; utamaduni unaothaminiwa uthibitishaji juu ya urahisi. \n\nEnzi ya genesis inawakumbusha wageni kwamba mitandao huanza kijamii na chache. Liquidity, kubadilishana, na pochi polished alikuja baadaye. Kuelewa Bitcoin bado huanza na kusoma kile block ya kwanza ilichagua kusema juu ya mfumo wa kifedha uliotaka kutoka."
+  },
+  {
+    "id": "2010-pizza",
+    "date": "2010-05",
+    "title": "Bitcoin siku ya pizza",
+    "body": "10,000 BTC hununua pizza mbili. Inaonekana upuuzi leo, lakini ilikuwa wakati wa mapema wa bidhaa za kielektroniki za kununua pesa taslimu. Ugunduzi wa bei ni wa kijamii-na ukwasi wa mapema ulikuwa mdogo. \n\nBiashara ya pizza inakumbukwa kama njia kuu, lakini ilikuwa jaribio la ukwasi na UX: pesa taslimu za kielektroniki zinaweza kumaliza ununuzi wa ulimwengu halisi bila mtandao wa kadi? Ugunduzi wa bei haukuwa rasmi; ulinzi ulikuwa wa majaribio; meme aliishi zaidi ya risiti. \n\nLeo hadithi inafundisha masomo mawili. Kwanza, masoko ya mapema ni nyembamba na hadithi zinatawala. Pili, matumizi dhidi ya kushikilia ni chaguo la kibinafsi la sera-sheria za itifaki haziamuru gharama yako ya fursa."
+  },
+  {
+    "id": "2013-eth",
+    "date": "2013-11",
+    "title": "Wazo la Ethereum",
+    "body": "Vitalik inaangazia jukwaa la kandarasi mahiri la madhumuni ya jumla zaidi ya pesa taslimu dijitali. Wasanidi programu wangetumia mantiki ya kiholela. Wazo mbegu ICOs, DeFi, na NFTs baadaye. \n\nMaono ya Ethereum yalibadilisha swali kutoka \"fedha dijitali\" hadi \"malipo yanayopangwa.\" Ikiwa hati zinaweza kutunza mali na kutunga, fedha na michezo huwa programu kwenye mashine iliyoshirikiwa. \n\nTamaa hiyo iliunda hali mpya za kutofaulu—kujiandikisha upya, kutegemewa kwa neno, kunasa utawala—lakini pia hali ya maombi ambayo wageni wengi hukutana kwanza. Kusoma wakati huu kunafafanua kwa nini gesi, ABI na hatari ya kandarasi ziliingia kwenye msamiati."
+  },
+  {
+    "id": "2015-eth-launch",
+    "date": "2015-07",
+    "title": "Uzinduzi wa Ethereum",
+    "body": "Frontier meli uwezo programmable blockchain. Zana ni mbaya na matukio ya mara kwa mara, lakini fedha na michezo huanza kusonga mbele. EVM inakuwa kiwango halisi cha minyororo mingi. \n\nFrontier ilikuwa mbaya kimakusudi: thibitisha mashine pepe porini, ukubali matukio, utumiaji wa zana mara kwa mara. Watengenezaji walijifunza kwamba kupeleka msimbo ni rahisi; hoja juu ya wapiga simu wapinzani ni ngumu. \n\nUzinduzi ulifungwa kwenye EVM kama sumaku ya zana na baadaye kwa minyororo ya \"EVM-sambamba\". Utangamano si usalama sawa—lakini miundo ya akili iliyoshirikiwa ilipunguza gharama ya majaribio duniani kote."
+  },
+  {
+    "id": "2016-dao",
+    "date": "2016-06",
+    "title": "Tukio la DAO",
+    "body": "Mkataba mkubwa wa mapema wa ufadhili wa watu wengi hutumiwa vibaya. Mjadala wa ngumu unagawanya ETH/ETC na kufundisha kwamba \"msimbo ni sheria\" haimaanishi \"msimbo hauna hitilafu.\" Makubaliano ya kijamii pia ni muhimu. \n\nUdukuzi wa DAO ulilazimisha jumuiya kuchagua kati ya ukumbi wa michezo usiobadilika na urejeshaji wa fedha za kijamii. Mgawanyiko unaotokana wa ETH/ETC ni uchunguzi kifani wa kudumu wa jinsi \"msimbo ni sheria\" unavyogongana na maafikiano mabaya. \n\nWanafunzi wanapaswa kusoma muundo wa matumizi ya kiufundi na mchakato wa utawala uliofuata. Mikataba ya busara inahitaji ukaguzi na miundo ya kusitisha; jamii zinahitaji kanuni za uma wazi kabla ya migogoro."
+  },
+  {
+    "id": "2017-ico",
+    "date": "2017",
+    "title": "wimbi la ICO",
+    "body": "Uuzaji wa tokeni huwezesha ufadhili wa kimataifa-na ulaghai wa kiwango cha viwanda. Wadhibiti hujibu; rejareja hulipa masomo. Kufichua na kufuata huingia kwenye mazungumzo mazito. \n\nMauzo ya tokeni yalibana uchangishaji wa fedha wa kimataifa kwenye pochi ya kivinjari. Ukuzaji wa mtaji uliharakishwa; kufichua mara nyingi hakufanya. Retail ilijifunza kuwa PDF ya karatasi nyeupe si bidii, na wasimamizi walijifunza somo sawa kutoka upande mwingine. \n\nWimbi hilo liliacha mijadala ya viwango, siasa za kuorodhesha kubadilishana, na mizio ya kudumu ya ahadi zisizo na mipaka. Mashaka ya kiafya kuhusu uzinduzi wa ishara ni sehemu ya kusoma na kuandika, sio kupinga uvumbuzi."
+  },
+  {
+    "id": "2018-bear",
+    "date": "2018",
+    "title": "Msimu wa baridi wa Crypto",
+    "body": "Bei huanguka kutoka kwa viwango vya juu vya mzunguko; miradi ya simulizi pekee inatoweka. Infra na utafiti unaendelea kimya kimya. Majira ya baridi ni vichungi kama vile misiba. \n\nMajira ya baridi kali yalizalisha tokeni za simulizi pekee huku kikifadhili kwa utulivu utofauti wa mteja, pochi ya UX, na utafiti ambao mizunguko ya baadaye ilitumika tena. Wajenzi ambao walikaa walichukulia bei kama hali ya hewa, sio hali ya hewa. \n\nKwa wanafunzi: masoko ya dubu ni wakati unaweza kusoma mechanics bila kelele ya FOMO. Chati kwenda kimya; hati na repo za chanzo hupata umakini zaidi."
+  },
+  {
+    "id": "2020-defi",
+    "date": "2020",
+    "title": "DeFi majira ya joto",
+    "body": "Uchimbaji madini yalipuka ukopeshaji na AMM. Composability huangaza; oracle/ufizishaji/matatizo ya motisha yanajitokeza. Watumiaji hukutana na fedha za mkoba kama akaunti kwa kiwango kikubwa. \n\nUchimbaji madini ya ukwasi uligeuza AMM na masoko ya pesa kuwa vitanzi vya ukuaji. Utuaji ulimaanisha nafasi ya kukopesha inaweza kuwa dhamana mahali pengine ndani ya dakika - na hivyo inaweza kusababisha kufilisika. \n\nDeFi majira ya joto ilifundisha muundo wa chumba cha ndani, uendelevu wa motisha, na tofauti kati ya picha za skrini za APY na ada zinazoweza kutolewa. Usalama wa Wallet ulienea kwa sababu akaunti sasa ilikuwa udalali."
+  },
+  {
+    "id": "2021-nft",
+    "date": "2021-03",
+    "title": "Wakati mkuu wa NFT",
+    "body": "Sanaa dijitali na PFP ziligusa media kuu. Waumbaji hupata reli mpya; uvumi unafuata. Baada ya povu, viwango, mijadala ya mirahaba, na jumuiya halisi zimesalia. \n\nNFTs zilileta watayarishi, chapa, na umati wa watu wa kubahatisha kwenye reli sawa. Kudumu kwa metadata, utekelezaji wa mrabaha, na mijadala ya biashara ya kuosha ilifuata vichwa vya habari. \n\nBaada ya kushamiri, maswali ya kudumu yanasalia: nini hasa kinamilikiwa, vyombo vya habari vinaishi wapi, na ni jumuiya zipi zinaishi bila kuthaminiwa kwa bei bila kikomo? Utamaduni na mikataba iliingiliana kabisa."
+  },
+  {
+    "id": "2021-l2",
+    "date": "2021",
+    "title": "Kuongeza kasi ya rollup",
+    "body": "Miundo yenye matumaini na ZK hubeba trafiki halisi watumiaji wanapokimbia ada. Madaraja na vifuatavyo vinakuwa UX mpya na vituo vya hatari. Kuongeza inakuwa njia ya kila siku, sio slaidi. \n\nWatumiaji wanaokimbia ada za mtandaoni walifanya uboreshaji kuwa njia ya kila siku. Madaraja na vifuatavyo vimekuwa tikiti mpya za usaidizi: pesa zilikwama katikati ya kurukaruka, wakati wa kupumzika, na saa za mwisho zenye kutatanisha. \n\nMafanikio ya kuongeza hupimwa katika njia za kutoka salama na mawazo yanayoeleweka ya uaminifu, si slaidi za TPS pekee. Kujua kusoma na kuandika kwa L2 sasa ni ufahamu wa msingi wa Web3."
+  },
+  {
+    "id": "2022-merge",
+    "date": "2022-09",
+    "title": "Kuunganisha",
+    "body": "Makubaliano ya Ethereum yanabadilika hadi uthibitisho wa dau wakati utekelezaji unaendelea. matone ya matumizi ya nishati; staking, MEV, na utofauti wa mteja huwa mada kuu. Sehemu kuu ya uhandisi. \n\nKubadilisha makubaliano bila kuvunja utekelezaji ilikuwa njia adimu ya kukatwa kwa mfumo mkubwa. Simulizi za nishati zilibadilika mara moja; uchumi uliokithiri na utafiti wa MEV ulihamia hatua ya katikati. \n\nKuunganisha kunaonyesha kuwa blockchains inaweza kutoa mifumo midogo mikuu kwa uratibu. Inaonyesha pia kwamba \"kufanywa\" haifanyiki kamwe-anuwai ya mteja na upinzani wa udhibiti unabaki kuwa kazi inayoendelea."
+  },
+  {
+    "id": "2022-contagion",
+    "date": "2022",
+    "title": "Maambukizi ya CeFi",
+    "body": "Minyororo ya ukopeshaji na ufadhili hukatika, na kufichua kutolingana kwa ulinzi na ukomavu. Kujitunza na simulizi za PoR zinaongezeka. Mizani ya jukwaa sio mali ya mnyororo. \n\nWakati wakopeshaji na fedha za CeFi ziliposhindwa, watumiaji waligundua tena kuwa IOUs si UTXO. Uuzaji wa uthibitisho wa akiba ulipanda pamoja na foleni za uondoaji. \n\nMtaala wa vitendo: jua mahali funguo zinaishi, salio la kubadilishana saizi kimakusudi, na uchukue mavuno ambayo yanahitaji kufunga mali kwenye jukwaa kama hatari ya mkopo."
+  },
+  {
+    "id": "2023-blobs",
+    "date": "2024-03",
+    "title": "Gharama za DA za zama za Blob",
+    "body": "Nafasi ya data ya Blob inarahisisha uchapishaji wa L2 na ada za mtumiaji. Mjadala unahamia kwenye ugatuaji wa mpangilio wa madaraka na ushirikiano wa UX. Ada inakaribia matumizi ya kila siku. \n\nBlob space ilibadilisha gharama za L2 na kufanya miamala ya kila siku ionekane kuwa sawa tena. Uangalifu umeelekezwa kwa ugatuaji wa mpangilio wa ugatuaji, madaraja yaliyoshirikiwa, na UX inayozingatia nia. \n\nUpatikanaji wa data wa bei nafuu ni muhimu lakini hautoshi kwa ulimwengu salama wa minyororo mingi. Watumiaji bado wanahitaji njia wazi za kutoka na lebo za hatari za uaminifu."
+  },
+  {
+    "id": "2024-etf",
+    "date": "2024-01",
+    "title": "Doa Bitcoin ETFs",
+    "body": "US doa Bitcoin ETFs kufungua ufikiaji wa udalali. Ugunduzi wa bei hupanuka na mtiririko wa jumla. Crypto inaingia kwenye mazungumzo ya ugawaji wa jadi kwa undani zaidi. \n\nBitcoin iliyofunikwa na udalali ilibadilisha ni nani anayeweza kutenga na jinsi mtiririko unavyogusa ugunduzi wa bei. Madawati ya Macro yaliingia kwenye mazungumzo ambayo hapo awali yaliishi tu kwenye Twitter ya crypto. \n\nETF hazichukui nafasi ya elimu ya kujitunza; wanaongeza njia ya ufikiaji sambamba na wapatanishi wa jadi. Reli zote mbili sasa zinaunda soko."
+  },
+  {
+    "id": "2024-halving",
+    "date": "2024-04",
+    "title": "Nne Bitcoin kupunguza nusu",
+    "body": "Ruzuku iko kwa 3.125 BTC. Wachimbaji hutegemea zaidi ada na bei ya muda mrefu. Ratiba tena inaonyesha utoaji umefafanuliwa itifaki. \n\nRatiba ya ruzuku iliyoonyeshwa tena ni ya kisiasa ndani ya sheria za itifaki pekee—wachimba madini na masoko hubadilika kulingana na kalenda inayojulikana. \n\nNusu ni zana muhimu za kufundishia kwa masimulizi ya uhaba, masoko ya ada, na kwa nini bajeti za usalama hatimaye hutegemea zaidi mahitaji ya muamala."
+  },
+  {
+    "id": "2024-restake",
+    "date": "2024",
+    "title": "Enzi ya kurejesha tena",
+    "body": "Majaribio ya usalama wa pamoja yanapanuka kwa mavuno na hatari. Matrices ya kufyeka na mapungufu yanayohusiana huingia kwenye mjadala mkuu. \n\nKuweka upya kulijaza kazi nyingi zaidi kwenye dhamana ile ile ya kiuchumi. Usalama wa pamoja unaweza kuwa mzuri; kufyeka kwa uhusiano kunaweza kuwa kikatili. \n\nTibu kurudisha nyuma kama kufichua kwa miundombinu iliyoimarishwa: soma seti ya opereta, hali ya kufyeka, na mawazo ya hotuba/uthibitisho kabla ya kutafuta pointi."
+  },
+  {
+    "id": "2025-aa",
+    "date": "2025",
+    "title": "Kushinikiza kwa UX ya akaunti mahiri",
+    "body": "Zana za kuondoa akaunti hufikia pochi za watumiaji kwa vipindi na gesi inayofadhiliwa. Baadhi ya wajibu huhamia kwa walezi na moduli. UX isiyo na mbegu hutafuta usawa na ulinzi wa kibinafsi. \n\nUtoaji wa akaunti ulileta urejeshaji wa gesi na kijamii uliofadhiliwa kwenye pochi za watumiaji. Wageni wapya wanakabiliwa na miamba michache ya maneno-na skrini zaidi za ruhusa za moduli. \n\nWimbi linalofuata la ujuzi wa kusoma na kuandika ni mazoezi ya urejeshaji, upeo wa ufunguo wa kipindi, na kutambua kuwa vipengele vya manufaa bado ni nyuso za uidhinishaji."
+  },
+  {
+    "id": "2025-rwa",
+    "date": "2025",
+    "title": "Upanuzi wa RWA",
+    "body": "Bili za T zilizo na alama na mikopo huleta mavuno ya nje ya mnyororo kwa malipo ya mtandaoni. Muundo wa kisheria na ukombozi hutawala bidii. Hazina za DeFi hupata sleeves \"za jadi\". \n\nHazina zilizowekwa alama zilizotengenezwa kwa mazao ya mnyororo zinaonekana kujulikana kwa wagawaji wa jadi. Vifungashio vya kisheria na madawati ya ukombozi vikawa muhimu kama vile Solidity. \n\nRWAs hufundisha kwamba \"on-chain\" inaweza kumaanisha mtindo wa makazi, sio kutenganisha kamili. Soma sera za ulinzi na kufungia kwa uangalifu sawa na msimbo wa mkataba."
+  },
+  {
+    "id": "2026-intent",
+    "date": "2026",
+    "title": "Mitiririko ya dhamira",
+    "body": "Watumiaji huonyesha matokeo; vitatuzi hushindana kwenye njia na nukuu. UX hurahisisha huku hatari za daraja zikisalia chini. Wallet na ruta huingia kwenye mbio za bidhaa mpya."
+  }
+]

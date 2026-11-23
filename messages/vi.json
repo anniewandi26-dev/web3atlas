@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Hạ tầng tri thức Web3",
+    "badge": "Bảo mật trước"
+  },
+  "nav": {
+    "explore": "Khám phá",
+    "ecosystem": "Hệ sinh thái",
+    "news": "Tin tức",
+    "chronicle": "Niên biểu",
+    "security": "Bảo mật",
+    "glossary": "Thuật ngữ"
+  },
+  "hero": {
+    "kicker": "8 LỚP · CHẠM ĐỂ HỌC",
+    "titleLine1": "Internet đang đổi.",
+    "titleLine2": "Vẽ bản đồ phía trước.",
+    "subtitle": "Mạng lưới và ý tưởng Web3 — rõ ràng, không hype.",
+    "ctaPrimary": "Khám phá hệ sinh thái",
+    "ctaSecondary": "Trung tâm bảo mật",
+    "pause": "Tạm dừng",
+    "play": "Phát"
+  },
+  "sections": {
+    "ecosystem": "01 · HỆ SINH THÁI",
+    "ecosystemTitle": "Theo danh mục",
+    "ecosystemDesc": "Tám lớp Web3.",
+    "openExplorer": "Mở explorer",
+    "news": "02 · TÍN HIỆU",
+    "newsTitle": "Điều đang chuyển động",
+    "newsDesc": "Tiêu đề chọn lọc.",
+    "allHeadlines": "Tất cả tiêu đề",
+    "glossary": "03 · TỪ VỰNG",
+    "glossaryTitle": "Nói cùng ngôn ngữ",
+    "glossaryDesc": "Định nghĩa nhanh.",
+    "openGlossary": "Mở thuật ngữ",
+    "security": "04 · PHÒNG THỦ",
+    "securityTitle": "Khó bị hack hơn",
+    "securityDesc": "Phishing, approve, seed.",
+    "securityCenter": "Trung tâm bảo mật",
+    "chronicle": "05 · DÒNG THỜI GIAN",
+    "chronicleTitle": "Ta đã đến đây thế nào",
+    "chronicleDesc": "Từ whitepaper đến ETF.",
+    "fullChronicle": "Niên biểu đầy đủ",
+    "quiz": "06 · THỬ THÁCH",
+    "quizTitle": "Kiểm tra kiến thức",
+    "quizDesc": "Mười câu hỏi.",
+    "startQuiz": "Bắt đầu",
+    "shuffle": "Xáo"
+  },
+  "common": {
+    "readMore": "Đọc thêm",
+    "back": "Quay lại",
+    "search": "Tìm",
+    "items": "mục",
+    "minRead": "{m} phút",
+    "language": "Ngôn ngữ",
+    "followIp": "Ngôn ngữ theo khu vực (IP).",
+    "fallbackNote": "Nội dung đã địa phương hóa.",
+    "noResults": "Không có kết quả.",
+    "useful": "Hữu ích",
+    "useIpLanguage": "Dùng ngôn ngữ theo IP",
+    "ipActive": "đang bật",
+    "manualOverride": "Thủ công"
+  },
+  "ecosystemPage": {
+    "title": "Khám phá hệ sinh thái",
+    "subtitle": "Tám lớp."
+  },
+  "newsPage": {
+    "title": "Bàn tín hiệu",
+    "subtitle": "Tiêu đề Web3."
+  },
+  "chroniclePage": {
+    "title": "Niên biểu",
+    "subtitle": "Khoảnh khắc định hình tiền số."
+  },
+  "securityPage": {
+    "title": "Trung tâm bảo mật",
+    "subtitle": "Phòng thủ thực tế."
+  },
+  "glossaryPage": {
+    "title": "Thuật ngữ",
+    "subtitle": "Định nghĩa dễ hiểu.",
+    "placeholder": "Lọc…"
+  },
+  "quiz": {
+    "correct": "Đúng",
+    "wrong": "Chưa đúng",
+    "next": "Tiếp",
+    "restart": "Làm lại",
+    "score": "Điểm: {score}/{total}",
+    "done": "Hoàn tất"
+  },
+  "article": {
+    "keyPoints": "Điểm chính",
+    "tips": "Mẹo thực tế",
+    "checklist": "Checklist",
+    "expand": "Mở rộng",
+    "collapse": "Thu gọn"
+  },
+  "intro": {
+    "headline": "Kiến thức về Web3 và tiền điện tử - tìm hiểu rõ ràng, không cường điệu",
+    "body": "Web3Atlas là một trung tâm giáo dục chứ không phải một ứng dụng giao dịch. Khám phá bản đồ hệ sinh thái, theo dõi các tín hiệu được tuyển chọn, nghiên cứu biên niên sử, thực hành bảo mật ví, mở bảng thuật ngữ và kiểm tra bản thân bằng các câu đố - sự rõ ràng hơn là suy đoán.",
+    "point1": "Bản đồ hệ sinh thái: blockchain, DeFi, NFT, L2, ví, DAO",
+    "point2": "Tín hiệu & biên niên sử: tiêu đề cộng với lịch sử quan trọng",
+    "point3": "Trung tâm bảo mật: lừa đảo, hạt giống, phê duyệt",
+    "point4": "Thuật ngữ & bài kiểm tra: thuật ngữ đơn giản bạn có thể mở và thực hành",
+    "hint": "Nhấn vào bên dưới để tiếp tục",
+    "enter": "Bắt đầu khám phá",
+    "loading": "Đang tải"
+  },
+  "safariGate": {
+    "note": "Sau khi bạn mở trang này trong Safari, trang web sẽ chạy bình thường — và thông báo này vẫn bị ẩn. Safari cho khả năng tương tác mượt mà hơn và màu sắc phong phú hơn.",
+    "openSafari": "Mở bằng Safari",
+    "copied": "Đã sao chép liên kết. Dán nó vào Safari để tiếp tục."
+  }
+}

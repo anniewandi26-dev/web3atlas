@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2008-wp",
+    "date": "2008-10",
+    "title": "Bitcoin-witboek",
+    "body": "Satoshi publiceert een peer-to-peer elektronisch contant geldontwerp op een cryptografielijst. Proof-of-work koppelt de geschiedenis zonder vertrouwde tussenpersonen. Het korte artikel wordt het intellectuele zaad van de industrie en het ‘rules in code’-verhaal. \n\nDe krant herformuleert geld als een grootboek met economische prikkels. Knooppunten valideren regels lokaal; mijnwerkers besteden veel moeite om het herschrijven van de geschiedenis duur te maken. Die combinatie – open verificatie plus kostbaar schrijven – verankert nog steeds de meeste ‘waarom blockchain’-verklaringen. \n\nVoor leerlingen is de conclusie architectonisch: beperk het aantal vertrouwde derde partijen voor uitgifte en afwikkeling, accepteer probabilistische bevestiging en codeer schaarste in protocolregels. Latere systemen lenen het verhaal zelfs als ze de motor veranderen."
+  },
+  {
+    "id": "2009-genesis",
+    "date": "2009-01",
+    "title": "Genesis blok",
+    "body": "Bitcoin start met een kop over reddingsoperaties voor banken, ingebed in het ontstaansblok. Vroeg gebruik is hobbyistische mijnbouw en overdracht met in wezen geen prijs. Het idee wordt een levend netwerk. \n\nHet verankeren van een krantenkop was zowel een tijdstempel als een politiek signaal. Vroege deelnemers draaiden standaard volledige knooppunten omdat er weinig anders te doen was; cultuur waardeerde verificatie boven gemak. \n\nHet ontstaanstijdperk herinnert nieuwkomers eraan dat netwerken sociaal en schaars beginnen. Liquiditeit, uitwisselingen en gepolijste portemonnees kwamen later. Het begrijpen van Bitcoin begint nog steeds met het lezen van wat het eerste blok wilde zeggen over het financiële systeem dat het probeerde te verlaten."
+  },
+  {
+    "id": "2010-pizza",
+    "date": "2010-05",
+    "title": "Bitcoin-pizzadag",
+    "body": "10.000 BTC koopt twee pizza's. Het ziet er vandaag de dag absurd uit, maar het was een vroeg moment waarop goederen met elektronisch contant geld werden gekocht. Prijsontdekking is sociaal – en de vroege liquiditeit was klein. \n\nDe pizzahandel wordt herinnerd als een clou, maar het was een liquiditeits- en UX-experiment: kan elektronisch geld een aankoop in de echte wereld verrekenen zonder een kaartnetwerk? Prijsontdekking was informeel; de hechtenis was experimenteel; de meme overleefde de bon. \n\nVandaag leert het verhaal twee lessen. Ten eerste zijn de vroege markten dun en domineren anekdotes. Ten tweede is uitgeven versus vasthouden een persoonlijke beleidskeuze; protocolregels bepalen niet uw opportuniteitskosten."
+  },
+  {
+    "id": "2013-eth",
+    "date": "2013-11",
+    "title": "Ethereum-idee",
+    "body": "Vitalik schetst een smart-contractplatform voor algemeen gebruik dat verder gaat dan digitaal contant geld. Ontwikkelaars zouden willekeurige logica inzetten. Het idee zaait later ICO’s, DeFi en NFT’s. \n\nDe Ethereum-visie verschoof de vraag van ‘digitaal contant geld’ naar ‘programmeerbare afwikkeling’. Als scripts activa kunnen bewaren en componeren, worden financiën en games software op een gedeelde machine. \n\nDie ambitie creëerde nieuwe faalwijzen – herintreding, orakelafhankelijkheid, governance-capture – maar ook het applicatieoppervlak dat de meeste nieuwkomers als eerste tegenkomen. Als u dit moment leest, wordt duidelijk waarom gas, ABI's en contractrisico's in het vocabulaire zijn opgenomen."
+  },
+  {
+    "id": "2015-eth-launch",
+    "date": "2015-07",
+    "title": "Ethereum-lancering",
+    "body": "Frontier levert programmeerbare blockchain-mogelijkheden. De tools zijn ruw en incidenten komen vaak voor, maar toch beginnen financiën en games zich in de keten te verplaatsen. De EVM wordt de facto een standaard voor meerdere ketens. \n\nFrontier was opzettelijk ruw: de virtuele machine in het wild bewijzen, incidenten accepteren, de tooling herhalen. Ontwikkelaars hebben geleerd dat het implementeren van code eenvoudig is; redeneren over vijandige bellers is moeilijk. \n\nDe lancering bleef in de EVM hangen als een magneet voor gereedschap en later voor “EVM-compatibele” kettingen. Compatibiliteit betekent niet dezelfde veiligheid, maar gedeelde mentale modellen hebben de kosten van experimenten wereldwijd verlaagd."
+  },
+  {
+    "id": "2016-dao",
+    "date": "2016-06",
+    "title": "Het DAO-incident",
+    "body": "Er wordt misbruik gemaakt van een enorm vroeg crowdfundingcontract. Het harde debat verdeelt ETH/ETC en leert dat ‘code wet is’ niet betekent dat ‘code bugvrij is’. Sociale consensus is ook van belang. \n\nDe DAO-hack dwong een gemeenschap te kiezen tussen onveranderlijkheidstheater en sociaal herstel van fondsen. De resulterende ETH/ETC-splitsing is een permanente case study van hoe ‘code is wet’ botst met ruwe consensus. \n\nStudenten moeten zowel het technische exploitatiepatroon als het daaropvolgende bestuursproces bestuderen. Slimme contracten hebben audits nodig en pauzeren ontwerpen; gemeenschappen hebben expliciete fork-normen nodig vóór crises."
+  },
+  {
+    "id": "2017-ico",
+    "date": "2017",
+    "title": "ICO-golf",
+    "body": "De verkoop van tokens maakt wereldwijde fondsenwerving en oplichting op industriële schaal mogelijk. Toezichthouders reageren; detailhandel betaalt collegegeld. Openbaarmaking en naleving gaan een serieus gesprek aan. \n\nDe verkoop van tokens comprimeerde de wereldwijde fondsenwerving in een browserportemonnee. De kapitaalvorming versnelde; openbaarmaking vaak niet. De detailhandel heeft geleerd dat een whitepaper-pdf geen zorgvuldigheid is, en toezichthouders hebben dezelfde les uit de andere richting geleerd. \n\nDe golf zorgde voor discussies over standaarden, beurspolitiek en een blijvende allergie voor grenzeloze beloften. Gezond scepticisme over token-lanceringen is onderdeel van geletterdheid, niet van anti-innovatie."
+  },
+  {
+    "id": "2018-bear",
+    "date": "2018",
+    "title": "Crypto-winter",
+    "body": "Prijzen dalen vanaf cyclushoogten; Projecten die alleen maar verhalend zijn, verdwijnen. Infra en onderzoek gaan rustig door. De winters zijn net zo goed filters als tragedies. \n\nDe winter heeft uitsluitend verhalende tokens geruimd en tegelijkertijd in stilte de diversiteit van klanten, portemonnee-UX en onderzoek gefinancierd dat later opnieuw werd gebruikt. Bouwers die bleven, behandelden de prijs als het weer, niet als het klimaat. \n\nVoor leerlingen: op bearmarkten kun je mechanica studeren zonder FOMO-ruis. Grafieken worden stil; documentatie en bronrepo's krijgen eerlijkere aandacht."
+  },
+  {
+    "id": "2020-defi",
+    "date": "2020",
+    "title": "DeFi-zomer",
+    "body": "Liquiditeitsmijnbouw doet de kredietverlening en AMM's exploderen. Composeerbaarheid schittert; orakel-/liquidatie-/stimuleringsproblemen komen naar boven. Gebruikers maken op grote schaal kennis met portemonnee-als-account-financiering. \n\nLiquiditeitsmijnbouw veranderde AMM's en geldmarkten in groeikringlopen. Door de mogelijkheid tot terugbetaling kon een kredietpositie binnen enkele minuten elders onderpand worden – en dat gold ook voor opeenvolgende liquidaties. \n\nDeFi Summer leerde orakelontwerp, duurzaamheid van incentives en het verschil tussen APY-screenshots en extraheerbare vergoedingen. Wallet-beveiliging werd mainstream omdat de rekening nu een makelaardij was."
+  },
+  {
+    "id": "2021-nft",
+    "date": "2021-03",
+    "title": "NFT mainstream-moment",
+    "body": "Digitale kunst en PFP's bereikten de reguliere media. Makers vinden nieuwe rails; speculatie volgt. Na het schuim blijven normen, royaltydebatten en echte gemeenschappen over. \n\nNFT's brachten makers, merken en speculatieve menigten op dezelfde rails. Permanentie van metadata, handhaving van royalty's en discussies over wash-trading volgden de krantenkoppen. \n\nNa de hausse blijven er duurzame vragen bestaan: wat is precies eigendom, waar leven de media en welke gemeenschappen overleven zonder voortdurende prijsstijgingen? Cultuur en contracten blijvend met elkaar verweven."
+  },
+  {
+    "id": "2021-l2",
+    "date": "2021",
+    "title": "Oprolversnelling",
+    "body": "Optimistische en ZK-ontwerpen zorgen voor echt verkeer terwijl gebruikers de kosten ontvluchten. Bridges en sequencers worden nieuwe UX- en risicocentra. Schalen wordt een dagelijks pad, geen glijbaan. \n\nGebruikers die de mainnet-kosten ontvluchtten, maakten rollups tot een dagelijks pad. Bridges en sequencers werden de nieuwe supporttickets: geld bleef halverwege de hop hangen, downtime en verwarrende finaliteitsklokken. \n\nHet succes van schaalvergroting wordt gemeten aan de hand van veilige exits en begrijpelijke aannames over vertrouwen, en niet alleen aan de hand van TPS-diagnoses. L2-geletterdheid is nu de basislijn Web3-geletterdheid."
+  },
+  {
+    "id": "2022-merge",
+    "date": "2022-09",
+    "title": "De samenvoeging",
+    "body": "De consensus van Ethereum schakelt over naar proof-of-stake terwijl de uitvoering doorgaat. Het energieverbruik daalt; staking, MEV en klantdiversiteit worden centrale onderwerpen. Een mijlpaal op het gebied van techniek. \n\nHet veranderen van consensus zonder de uitvoering te verbreken was een zeldzame omschakeling op grote systemen. Energieverhalen veranderden van de ene op de andere dag; stakingeconomie en MEV-onderzoek kwamen centraal te staan. \n\nDe samenvoeging laat zien dat blockchains met coördinatie grote subsystemen kunnen ontwikkelen. Het laat ook zien dat ‘klaar’ nooit klaar is – diversiteit van klanten en weerstand tegen censuur blijven voortdurend werk."
+  },
+  {
+    "id": "2022-contagion",
+    "date": "2022",
+    "title": "CeFi-besmetting",
+    "body": "Kredietverlenings- en fondsketens breken, waardoor de discrepantie tussen bewaring en looptijden aan het licht komt. Er komen steeds meer verhalen over zelfbeschikking en HbR. Platformsaldi zijn geen ketenactiva. \n\nToen de kredietverstrekkers en fondsen van CeFi faalden, ontdekten gebruikers opnieuw dat IOU's geen UTXO's zijn. De marketing van proof-of-reserves steeg naast de wachtrijen voor opnames. \n\nHet praktische curriculum: weten waar de sleutels zich bevinden, de wisselkoersen opzettelijk opmeten en het rendement dat het vastzetten van activa op een platform vereist, als kredietrisico beschouwen."
+  },
+  {
+    "id": "2023-blobs",
+    "date": "2024-03",
+    "title": "DA-kosten uit het Blob-tijdperk",
+    "body": "Blob-dataruimte verlaagt L2-posting en gebruikerskosten. Het debat verschuift naar decentralisatie van sequencers en interoperabiliteit UX. De kosten benaderen de dagelijkse bruikbaarheid. \n\nBlob space herkaderde de L2-kosten en zorgde ervoor dat dagelijkse transacties weer plausibel voelden. De aandacht verschoof naar decentralisatie van sequencers, gedeelde bruggen en op intentie gebaseerde UX. \n\nGoedkope databeschikbaarheid is noodzakelijk maar niet voldoende voor een veilige multi-chain wereld. Gebruikers hebben nog steeds behoefte aan duidelijke exit-paden en eerlijke risicolabels."
+  },
+  {
+    "id": "2024-etf",
+    "date": "2024-01",
+    "title": "Ontdek Bitcoin ETF's",
+    "body": "Amerikaanse spot Bitcoin ETF's bieden toegang tot makelaars. Prijsontdekking wordt breder met macrostromen. Crypto gaat dieper in op traditionele toewijzingsgesprekken. \n\nHet in makelaardij verpakte Bitcoin veranderde wie kan toewijzen en hoe stromen de prijsontdekking beïnvloeden. Macrobureaus voerden gesprekken aan die ooit alleen op crypto Twitter plaatsvonden. \n\nETF's zijn geen vervanging van zelfbeheersingseducatie; ze voegen een parallel toegangspad toe met traditionele tussenpersonen. Beide rails bepalen nu de markt."
+  },
+  {
+    "id": "2024-halving",
+    "date": "2024-04",
+    "title": "Vierde Bitcoin-halvering",
+    "body": "De subsidie ​​daalt naar 3.125 BTC. Mijnwerkers vertrouwen meer op vergoedingen en langetermijnprijzen. Het schema laat opnieuw zien dat de uitgifte protocolgedefinieerd is. \n\nHet subsidieschema toonde opnieuw aan dat uitgifte alleen politiek is binnen de protocolregels: mijnwerkers en markten passen zich aan volgens een bekende kalender. \n\nHalveringen zijn nuttige leermiddelen voor verhalen over schaarste, vergoedingenmarkten en waarom veiligheidsbudgetten uiteindelijk meer afhankelijk zijn van de vraag naar transacties."
+  },
+  {
+    "id": "2024-restake",
+    "date": "2024",
+    "title": "Herstel van tijdperk",
+    "body": "Experimenten met gedeelde beveiliging breiden zich uit met gestapelde opbrengst en risico. Slash-matrices en daarmee samenhangende mislukkingen komen in de reguliere discussie terecht. \n\nHerstel bracht meer werk samen op dezelfde economische band. Gedeelde beveiliging kan efficiënt zijn; gecorreleerd snijden kan wreed zijn. \n\nBehandel hernemingen als blootstelling aan infrastructuur met hefboomwerking: lees de operatorset, slash-voorwaarden en orakel-/attestaannames voordat u punten najaagt."
+  },
+  {
+    "id": "2025-aa",
+    "date": "2025",
+    "title": "Smart-account UX-push",
+    "body": "Tooling voor accountabstractie bereikt de portemonnee van consumenten met sessies en gesponsord gas. Een deel van de verantwoordelijkheid verschuift naar voogden en modules. Seedless UX zoekt balans met zelfbeheersing. \n\nAccountabstractie bracht gesponsord gas en sociaal herstel in de portemonnee van de consument. Nieuwkomers worden geconfronteerd met minder ‘seed-phrase cliffs’ – en meer module-toestemmingsschermen. \n\nDe volgende golf van geletterdheid bestaat uit hersteloefeningen, sessiesleutelscopes en het besef dat gemaksfuncties nog steeds autorisatieoppervlakken zijn."
+  },
+  {
+    "id": "2025-rwa",
+    "date": "2025",
+    "title": "RWA-uitbreiding",
+    "body": "Tokenized T-bills en kredieten zorgen voor off-chain rendement voor on-chain afwikkeling. Juridische structuur en verlossing domineren de zorgvuldigheid. DeFi-staatsobligaties krijgen ‘traditionele’ mouwen. \n\nGetokeniseerde staatsobligaties zorgden ervoor dat het rendement op de keten bekend leek bij traditionele allocators. Juridische wikkels en inwisselbalies werden net zo belangrijk als Soliditeit. \n\nRWA’s leren dat “on-chain” een vorm van afwikkeling kan betekenen, en geen volledige desintermediatie. Lees het voogdij- en bevriezingsbeleid met dezelfde zorg als de contractcode."
+  },
+  {
+    "id": "2026-intent",
+    "date": "2026",
+    "title": "Intentcentrische stromen",
+    "body": "Gebruikers drukken resultaten uit; oplossers concurreren op routes en offertes. UX vereenvoudigt terwijl de brugrisico's eronder blijven. Portefeuilles en routers doen mee aan een nieuwe productrace."
+  }
+]

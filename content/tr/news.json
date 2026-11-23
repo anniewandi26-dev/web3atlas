@@ -1,0 +1,86 @@
+[
+  {
+    "id": "n1",
+    "date": "2026-03-12",
+    "title": "L2 ücret sıkıştırması devam ediyor",
+    "summary": "Blob pazarları ve daha iyi gruplama, büyük toplama transferlerini sente yakın tutuyor. Mikro ödemeler kolaylaşıyor; güvenlik eğitiminin buna ayak uydurması gerekiyor.",
+    "body": "Geçtiğimiz yıl, veri kullanılabilirliği yükseltmeleri ve daha sıkı toplulaştırma, büyük toplamalardaki tipik transferleri yüzde seviye ücretlere doğru itti. Eskiden büyük işlemler için lüks bir ağ gibi görünen ağ, oyun eylemleri, ipuçları ve küçük DeFi ayarlamaları için kullanılabilir hale geliyor. \n\nDaha ucuz blok alanı kullanıcı davranışını değiştirir. İnsanlar daha sık köprü kuruyor, daha fazla sözleşme deneyiyor ve cüzdan istemlerine daha hızlı tıklıyor. Bu kolaylık gerçek bir ilerlemedir ve aynı zamanda kimlik avı sitelerinin, sınırsız onayların ve benzer belirteçlerin etki yarıçapını da genişletir. \n\nİnşaatçılar için ücret sıkıştırması, ürünün kilidini açan bir çözümdür: ilk katılım akışları artık gaz etiketi şoku nedeniyle ölmemektedir. Öğrenciler için kontrol listesi eski usul kalıyor: alanları doğrulayın, işlemleri simüle edin, sınırlı izinleri tercih edin ve L2'nin kendisi ucuz olsa bile köprüleri ayrı bir risk sınıfı olarak ele alın. \n\nPratik çıkarım: Daha düşük ücretleri kutlayın, ancak her yeni alışkanlığı bir güvenlik alışkanlığıyla eşleştirin. En ucuz transfer, parayı yanlış adrese veya sınırsız harcama yapan kişiye gönderirse yine de pahalıdır."
+  },
+  {
+    "id": "n2",
+    "date": "2026-02-28",
+    "title": "Akıllı hesaplar tüketici cüzdanlarına ulaşıyor",
+    "summary": "Oturum anahtarları ve sponsorlu gaz, mobil kullanıcı deneyiminin ana akımını vurdu. Koruyucular ve modüller yeni güvenlik yüzeyleri haline gelir.",
+    "body": "Hesap soyutlaması artık yalnızca bir araştırma konusu değil. Tüketici cüzdanları oturum anahtarları, sosyal kurtarma ve gaz sponsorluğu içeren akıllı hesapları giderek daha fazla gönderiyor, böylece yeni gelenler önce gaz tokeni aramadan harekete geçebiliyor. \n\nBu UX sıçraması yeni bir zihinsel model yaratıyor. Kullanıcılar, tek bir tohumun bir EOA'yı sonsuza kadar kontrol etmesi yerine koruyuculara, modüllere, ödeme yöneticilerine ve geçici izinlere güvenebilir. Yanlış yapılandırılmış kurtarma veya kötü amaçlı bir modül, klasik bir tohum sızıntısı olmadan bir hesabı kilitleyebilir veya boşaltabilir. \n\nEkipler, bankaların kayıp kart akışlarını belgelediği şekilde kurtarma tatbikatlarını belgelemelidir. Kullanıcılar, koruyucuların kim olduğunu, bir oturum anahtarının ne kadar harcayabileceğini ve modüllerin nasıl iptal edileceğini bilmelidir. “Çekirdeksiz”, “risksiz” anlamına gelmez. \n\nAkıllı hesapları benimserseniz: küçük bakiyelerle başlayın, yedek bir cüzdanda kurtarmayı test edin ve kullanışlı özellikleri etkinleştirmeden önce modül izinlerini okuyun."
+  },
+  {
+    "id": "n3",
+    "date": "2026-02-10",
+    "title": "RWA fonları zincirdeki AUM rekorunu bildirdi",
+    "summary": "Tokenize edilmiş hazine bonoları, zincire tanıdık getiri eğrileri getiriyor. Geri alma ve yasal velayet gerçek stres testi olmaya devam ediyor.",
+    "body": "Tokenleştirilmiş hazine ve nakit eşdeğeri ürünler, insanların zaten anladığı nakit akışlarıyla eşleştiği için zincirdeki AUM'u çekmeye devam ediyor. Ekonomik hikaye geleneksel para piyasasına daha yakın görünürken, kripto raylarında ödeme gerçekleşebilir. \n\nSert parçalar zincir dışıdır. Temeli kim tutuyor? Panik halinde ne kadar hızlı kurtarabilirsiniz? Bankacılık ortakları başarısız olursa veya transfer kısıtlamaları cüzdanınızı dondurursa ne olur? Zincir üzeri bakiye ≠ eldeki anında nakit. \n\nOkuyucular protokol riskini ihraççı ve saklama riskinden ayırmalıdır. Temiz bir akıllı sözleşme, zayıf bir yasal ambalajı onarmaz. Kullanma kuralları olmayan APR ekran görüntüleri özen gösterme değil pazarlamadır. \n\nRWA'ları yalnızca bir portföy uygulamasında getiri çizgisi olarak değil, rezervler, tasdik ve yargı yetkisi için bir öğrenme yüzeyi olarak kullanın."
+  },
+  {
+    "id": "n4",
+    "date": "2026-01-22",
+    "title": "Niyet çözücüler kapsamı genişletiyor",
+    "summary": "Zincirler arası takaslar, çözücüler yarışırken rotaları tek bir imzanın arkasına gizler. İade ve en kötü kayma kurallarını bilin.",
+    "body": "Niyet temelli ticaret, kullanıcıların istediklerini imzalamalarına olanak tanır (\"T zamanına kadar A'yı en az B ile değiştirin\") ve çözümleyiciler rotayı doldurmak için rekabet eder. Arayüz, manuel köprü atlamadan ziyade ödeme işlemine daha yakın hissettiriyor. \n\nAslında çok atlamalı köprüler, DEX havuzları ve çözücü envanterleri bu yolu hâlâ yürütebilir. Başarısızlıklar, kısmi dolumlar ve iade koşulları mutlu yol kadar önemlidir. Güzel bir teklif, zayıf likiditeyi veya agresif ara sıçramaları gizleyebilir. \n\nİmzalamadan önce son tarihi, minimum çıktıyı, hangi zincirlere dokunulduğunu ve çözümleyicinin tamamlayamaması durumunda ne olacağını kontrol edin. Rotayı simüle eden ve sade bir dille anlatan mekanları tercih edin. \n\nNiyetler tıklamayı azaltır; piyasa yapısını ortadan kaldırmazlar. Bunları, açık en kötü durum ayarlarına sahip güçlü otomasyon olarak değerlendirin."
+  },
+  {
+    "id": "n5",
+    "date": "2026-01-05",
+    "title": "Yeniden risk alma çerçeveleri olgunlaştı",
+    "summary": "Operatörler, paylaşılan güvenlik arttıkça daha net kesme matrisleri yayınlıyor. Verimi yalnızca dahil edilen eğik çizgi senaryolarıyla karşılaştırın.",
+    "body": "Yeniden paylaştırma, ekstra hizmetleri güvence altına almak için yatırılan sermayeyi yeniden kullanır. Verimlilik çekicidir: Aynı bağ daha fazla işin garantisidir. Korelasyon maliyettir; bir operatör hatası veya belirsiz eğik çizgi durumu aynı anda birçok katmanlı verime zarar verebilir. \n\nOperatörlerin daha net açıklamaları ve eğik çizgi matrisleri yardımcı olur, ancak okuyucuların yine de kimin kimi, hangi kanıtlarla ve hangi sosyal süreci geçersiz kılabileceğini haritalandırması gerekir. Başarısızlık hikayesi olmayan “ek verim” eksiktir. \n\nYeniden alım yaparsanız, ilgili düşüşler için pozisyonları boyutlandırın, mümkün olduğunda operatörleri çeşitlendirin ve şeffaf izlemeli hizmetleri tercih edin. Konsensüs güvenliğinden yararlanma hâlâ bir kaldıraçtır. \n\nÇerçeve olgunluğu ilerlemedir; kişisel risk limitleri sizin işiniz olmaya devam ediyor."
+  },
+  {
+    "id": "n6",
+    "date": "2025-12-18",
+    "title": "Exchange PoR kontrol panelleri genişliyor",
+    "summary": "CeFi arızalarından sonra daha fazla mekan sürekli olarak onay gönderiyor. Şeffaflık yardımcı olur; öz velayet hala büyüklük açısından önemlidir.",
+    "body": "Rezerv kanıtı gösterge tabloları, birkaç CeFi çöküşünün ardından güven ürünü haline geldi. Sürekli onaylar ve halka açık cüzdan sayfaları, en azından göstermeyi seçtikleri varlıklar için kaba kesirli şemaların gizlenmesini zorlaştırıyor. \n\nPoR, yükümlülüklerin, tüzel kişiliklerin veya operasyonel kontrollerin tam bir denetimi değildir. Yeşil bir kontrol paneli, dondurulmuş para çekme işlemleri, gizli borç veya tehlikeye atılmış sıcak cüzdanlarla bir arada bulunabilir. Bunu birçok sinyalden biri olarak değerlendirin. \n\nMahsur kalmayı göze alamayacağınız bakiyeler için, kendi gözetiminize almak üzere periyodik para çekme işlemleri planlayın. Döviz hesaplarını kalıcı kasalar olarak değil, likidite ve itibari para rampaları için tutun. \n\nŞeffaflık araçları piyasayı iyileştirir; kişisel velayet hijyeninin yerini almazlar."
+  },
+  {
+    "id": "n7",
+    "date": "2025-11-30",
+    "title": "ZK kanıtlayıcı maliyetleri yine düştü",
+    "summary": "Donanım ve algoritmalar geçerlilik kanıtlarını ucuzlatıyor. “ZK” markasının hala sıralayıcı ve köprü incelemesine ihtiyacı var.",
+    "body": "Prover donanımı ve algoritma iyileştirmeleri, geçerlilik kanıtlarının maliyetini düşürmeye devam ederek ZK tarzı toplamaları genel hesaplama için daha pratik hale getiriyor. Daha düşük kanıtlama maliyeti, daha geniş L2 tasarımlarını ve daha hızlı kesinlik anlatımlarını destekler. \n\nPazarlama çoğu zaman birçok güven sorusunu \"ZK\" kelimesine indirgemektedir. Kullanıcılar hâlâ sıralayıcılara, köprülere, yükseltme anahtarlarına ve veri kullanılabilirliğine bağımlıdır. Kötü niyetli bir toplu politikanın ucuz bir kanıtı size yardımcı olmaz. \n\nBir ZK ürününü değerlendirirken neyin kanıtlanmış olduğunu, kimin yükseltebileceğini, zorunlu katılımın nasıl çalıştığını ve çıkışların stres altında nasıl davrandığını sorun. Kanıt sistemleri bir yığının tek katmanıdır. \n\nDaha ucuz kanıtlar mükemmel altyapı haberleridir; bunları başka yerlerde uyguladığınız operasyonel şüphecilikle eşleştirin."
+  },
+  {
+    "id": "n8",
+    "date": "2025-11-08",
+    "title": "Cüzdan simülasyonu varsayılan hale geliyor",
+    "summary": "Ön kontrol simülasyonu, kör onaylı drenajları azaltır. Karmaşık yollar hâlâ yeterince açıklanamıyor olabilir; anlamadığınız şeyleri reddedin.",
+    "body": "İşlem simülasyonu ve daha net imzalama kullanıcı arayüzleri artık önemli hale geliyor. Varlık farklarının onaydan önce gösterilmesi, bir zamanlar rutin \"onayla\" tıklamaları gibi görünen birçok klasik kör onay akışını önler. \n\nSimülasyon yalnızca kod çözme ve varsayılan zincir durumu kadar iyidir. Olağandışı sözleşmeler, özel modüller veya çok adımlı amaçlar yine de yetersiz şekilde oluşturulabilir. Önizleme boş veya çelişkiliyse, bu küçük bir aksaklık değil, bir dur işaretidir. \n\nSimülasyonu izin verilenler listesi alışkanlıklarıyla birleştirin: Uygulamalara yer işareti koyun, sözleşme adreslerini doğrulayın ve eski tahsisatları iptal edin. Araçlar hata oranlarını azaltır; senin için niyet icat etmiyorlar. \n\nVarsayılan kural: Durum değişikliğini bir cümleyle açıklayamıyorsanız imzalamayın."
+  },
+  {
+    "id": "n9",
+    "date": "2025-10-21",
+    "title": "Stablecoin takas hacimleri artıyor",
+    "summary": "Zincir üstü dolarlar, çiftler ve havaleler için en büyük güç olmaya devam ediyor. İhraççıları çeşitlendirin ve rezerv riskini öğrenin.",
+    "body": "Stablecoin'ler, kripto para raylarına sahip dolar benzeri birimler sundukları için takas hacmine hakim olmaya devam ediyor. Ticaret çiftleri, havale koridorları ve maaş bordrosu deneylerinin tümü, pratik hesap birimi olarak bunlara dayanıyor. \n\nÜrün-pazar uyumu, riski ihraççılar, bankalar ve dondurma politikaları üzerinde yoğunlaştırıyor. Bir depeg veya uyumluluk eylemi, 1:1'in mükemmel olduğunu varsayan stratejileri sonsuza kadar durdurabilir. Sertifika verenleri çeşitlendirmek ve tasdik kalitesini anlamak paranoyanın değil, okuryazarlığın bir parçasıdır. \n\nGünlük kullanım için iyi belgelenmiş rezervleri ve açık geri ödeme yollarını tercih edin. Öğrenmek için fiat destekli, kripto destekli ve algoritmik tasarımları logolarına göre değil başarısızlık modlarına göre karşılaştırın. \n\nHacim büyümesi ahırların altyapı olduğu anlamına gelir. Altyapı sıkıcı, tekrarlanan risk incelemesini hak ediyor."
+  },
+  {
+    "id": "n10",
+    "date": "2025-10-02",
+    "title": "DAO araçları veto kullanıcı deneyimini geliştiriyor",
+    "summary": "Zaman kilidi kontrol panelleri ve koruyucu rolleri, kötü niyetli tekliflerin yakalanmasına yardımcı olur. Yönetişim güvenlik modelinin bir parçasıdır.",
+    "body": "DAO arayüzleri giderek daha fazla yüzey zaman kilitlerini, koruyucu vetolarını ve okunabilir teklif farklarını ortaya çıkarıyor. Bu önemlidir, çünkü yönetişim saldırıları hazineleri bir sözleşme hatası kadar etkili bir şekilde boşaltabilir; yalnızca bir yararlanma komut dosyası yerine oylama yapan bir kullanıcı arayüzü ile. \n\nDaha iyi araçlar, delegelerin yürütmeden önce parametre değişikliklerini, jeton tahsislerini ve yükseltme çağrılarını tespit etmesine yardımcı olur. Düşük katılımı, gizli oy satın alımını veya aceleye getirilmiş acil durum süreçlerini düzeltmez. \n\nYönetişim gücüne sahipseniz oylamayı üretim erişimi gibi değerlendirin: yükü doğrulayın, zaman kilitlerini bekleyin ve dar izinleri tercih edin. Seyirciler, velilerin kamuya açık ve sorumlu olup olmadıklarını takip etmelidir. \n\nDAO'ların güvenliği sosyal süreci içerir. Gösterge tabloları gereklidir; şüphecilik hala gerekli."
+  },
+  {
+    "id": "n11",
+    "date": "2025-09-14",
+    "title": "Stüdyolar hibrit envanterler gönderiyor",
+    "summary": "Kıt öğeler zincire yerleşirken, gerçek zamanlı savaşlar zincir dışında kalır. Kapatma politikası \"sahip olmanın\" ne kadar ileri gideceğini tanımlar.",
+    "body": "Oyun stüdyoları sistemleri bölmeye devam ediyor: düşük gecikmeli sunucularda yetkili dövüş ve eşleştirme, kıt kozmetik ürünler veya zincir üstü envanter olarak para birimleri. Oyuncular, her eylemi bir bellek havuzu aracılığıyla zorlamadan takas edilebilirlik elde eder. \n\nHibrit tasarım, hibrit güven anlamına gelir. Jetonlu bir kılıca sahip olabilirsiniz ama yine de onu yararlı kılmak için sunuculara bağımlı olabilirsiniz. Stüdyo kapanırsa pazar yeri teklifleri oyun mantığını kendi başlarına geri getiremez. \n\nÖğe politikalarını okuyun: Varlıklar taşınabilir mi? Meta veriler değiştirilebilir mi? Stokları kim dondurabilir? \"Zincir üzerinde\" tam bir fayda garantisi değildir. \n\nHibrit oyunlar gerçekçi bir yoldur; yalnızca sahiplik iddialarını sunucu bağımlılığına karşı dürüstçe ölçün."
+  },
+  {
+    "id": "n12",
+    "date": "2025-08-29",
+    "title": "Eğitim merkezleri güvenlikte öncülük ediyor",
+    "summary": "Öğrenme ürünleri, getiri turizminden önce kimlik avını ve onayları öğretir. İlk önce hayatta kalmak gerçek olgunluk sinyalidir.",
+    "body": "Artık çiftçilik eğitimlerinden önce kimlik avı, onaylar ve tohum hijyeni sağlayan daha fazla eğitim platformu açılıyor. Bu sıralama zorluklarla kazanılmış endüstri deneyimini yansıtıyor: Sizi çözüme kavuşturmayan bilgi eksiktir. \n\nGüvenlik öncelikli müfredatın hâlâ piyasalar, protokoller ve tarih konusunda derinliğe ihtiyacı var; ancak sıra önemli. Sahte destek DM'lerini reddetmeyi öğrenen kullanıcılar, daha sonra AMM'leri öğrenmek için hâlâ ortalıkta olacaklar. \n\nWeb3Atlas da aynı önyargıyı takip ediyor: haritalar ve sözlükler savunma alışkanlıklarıyla eşleştiriliyor. Güvenlik tatbikatlarını bir ek olarak değil, temel içerik olarak ele alın. \n\nOlgunluk hayatta kalmayı birleştiriyor. Verim ekran görüntüleri isteğe bağlıdır; velayet disiplini değildir."
+  }
+]

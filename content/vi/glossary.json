@@ -1,0 +1,362 @@
+[
+  {
+    "id": "gas",
+    "term": "Khí đốt",
+    "definition": "Tính toán đo lường đơn vị và lưu trữ một giao dịch tiêu thụ.",
+    "explain": "Gas đo lường mức độ tính toán và lưu trữ mà một giao dịch yêu cầu mạng thực hiện. Nếu không đo lường, chuỗi công khai có thể bị đình trệ bởi các vòng lặp vô hạn hoặc thư rác. Phí của bạn đại khái là mức sử dụng × đơn giá; tắc nghẽn làm tăng đơn giá khi nhu cầu về không gian khối tăng đột biến. \n\nCác giao dịch thất bại vẫn có thể tốn gas vì người xác nhận đã thực hiện công việc. Thói quen thực tế: ước tính phí, thích học vào thời điểm thấp điểm và không bao giờ nhầm lẫn thông báo UX không thành công với lần thử lại miễn phí."
+  },
+  {
+    "id": "gwei",
+    "term": "Gwei",
+    "definition": "Một mệnh giá ETH phổ biến để báo giá gas.",
+    "explain": "Gwei là mệnh giá của ether được sử dụng để báo giá xăng theo số lượng con người. Một ETH bằng 1e9 Gwei. Ví thường hiển thị phí tối đa và phí ưu tiên trong Gwei để bạn có thể so sánh mức độ khẩn cấp mà không cần đếm mười tám số thập phân. \n\nKhi đọc hướng dẫn hoặc ảnh chụp màn hình mempool, hãy kiểm tra các đơn vị một cách cẩn thận. Trộn lẫn các báo giá của Gwei với số tiền chuyển ETH là một sai lầm kinh điển của người mới bắt đầu dẫn đến việc trả quá mức hoặc trả quá thấp."
+  },
+  {
+    "id": "evm",
+    "term": "EVM",
+    "definition": "Máy ảo Ethereum—thời gian chạy hợp đồng thông minh.",
+    "explain": "Máy ảo Ethereum là thời gian chạy chung thực thi mã byte hợp đồng thông minh. Hầu hết các chuỗi “tương thích với EVM” đều sử dụng lại opcode và công cụ để các nhà phát triển có thể triển khai các hợp đồng tương tự ở nơi khác. \n\nKhả năng tương thích là về trải nghiệm của nhà phát triển, không phải về bảo mật hay kinh tế giống hệt nhau. Luôn xác minh xem bạn đang tham gia chuỗi nào, trình thám hiểm nào bạn tin cậy và liệu các mẫu nâng cấp proxy có liên quan hay không trước khi giả sử mã hoạt động vĩnh viễn."
+  },
+  {
+    "id": "amm",
+    "term": "AMM",
+    "definition": "Tạo thị trường thông qua các nhóm và công thức thay vì sách.",
+    "explain": "Giá của nhà tạo lập thị trường tự động giao dịch theo công thức tập hợp thay vì sổ lệnh cổ điển. Các nhà cung cấp thanh khoản gửi tài sản và kiếm phí trong khi chấp nhận rủi ro về hàng tồn kho được gọi là tổn thất tạm thời. \n\nNhóm giả và mã thông báo trông giống nhau là những cái bẫy phổ biến. Kiểm tra địa chỉ hợp đồng, độ sâu nhóm và mức phí. AMM là những thứ nguyên thủy mạnh mẽ—coi chúng như những thị trường có toán học minh bạch và dòng chảy đối nghịch."
+  },
+  {
+    "id": "tvl",
+    "term": "TVL",
+    "definition": "Tổng giá trị bị khóa trong hợp đồng của giao thức.",
+    "explain": "Tổng giá trị tài sản bị khóa được gửi trong hợp đồng của giao thức. TVL cao có thể báo hiệu mức độ sử dụng và độ tin cậy—hoặc đơn giản là làm tăng số tiền gửi được tính đệ quy và mục tiêu hack lớn hơn. \n\nĐọc TVL bên cạnh chất lượng kiểm toán, khóa quản trị, thiết kế oracle và doanh thu phí thực. Số tiêu đề không có những ngữ cảnh đó là thước đo tiếp thị chứ không phải xếp hạng an toàn."
+  },
+  {
+    "id": "apy",
+    "term": "APY",
+    "definition": "Năng suất hàng năm bao gồm cả lãi kép.",
+    "explain": "APY tính lợi suất hàng năm bao gồm cả các giả định gộp. Các chiến dịch khuyến khích ngắn hạn được tổ chức hàng năm thành APY ba chữ số thường gây hiểu lầm vì lượng phát thải, giá token và tính bền vững không ổn định. \n\nSo sánh lượt thích với lượt thích: APY phí lâu dài so với APY phần thưởng tạm thời. Hãy hỏi điều gì sẽ xảy ra khi động lực kết thúc và liệu bạn có thể thoát ra mà không làm hỏng vị thế hay không."
+  },
+  {
+    "id": "apr",
+    "term": "Tháng Tư",
+    "definition": "Lãi suất hàng năm không gộp lãi.",
+    "explain": "APR báo giá lãi suất hàng năm mà không tính lãi gộp. Giao diện cho vay thường hiển thị APR cung và APR vay cạnh nhau; định nghĩa khác nhau giữa các sản phẩm. \n\nKhi so sánh APR và APY, hãy xác nhận tần suất gộp và liệu có bao gồm mã thông báo phần thưởng hay không. Độ chính xác trong các định nghĩa sẽ ngăn chặn những kết luận sai về “tỷ lệ tốt hơn”."
+  },
+  {
+    "id": "slippage",
+    "term": "Trượt giá",
+    "definition": "Khoảng cách giữa giá dự kiến ​​và giá thực hiện.",
+    "explain": "Trượt giá là khoảng cách giữa giá bạn kỳ vọng và giá bạn nhận được. Các bể mỏng, kích thước lớn và những khoảnh khắc không ổn định đã mở rộng khoảng cách đó. \n\nCài đặt trượt quá rộng mời gọi kẹp; cài đặt quá chặt không thành công và vẫn có thể tiêu tốn xăng. Đặt một cách có ý thức theo quy mô giao dịch và độ sâu nhóm, đồng thời ưu tiên gửi riêng tư khi có sẵn cho các giao dịch hoán đổi lớn."
+  },
+  {
+    "id": "mev",
+    "term": "MEV",
+    "definition": "Giá trị có thể trích xuất từ ​​việc đặt hàng/bao gồm các giao dịch.",
+    "explain": "Giá trị có thể trích xuất tối đa là lợi nhuận từ việc kiểm soát việc đặt hàng, đưa vào hoặc kiểm duyệt giao dịch. Các nhóm công khai cho phép người tìm kiếm phát hiện các giao dịch hoán đổi lớn và cạnh tranh để giành lợi thế. \n\nCác biện pháp giảm thiểu bao gồm trượt giá chặt chẽ hơn, quy trình đặt hàng riêng tư, đấu giá hàng loạt và chỉ đơn giản là chia nhỏ quy mô. Hiểu MEV giải thích tại sao \"giao dịch giống nhau, khớp lệnh tệ hơn\" xảy ra ngay cả khi không có lỗi giao diện người dùng."
+  },
+  {
+    "id": "oracle",
+    "term": "Lời tiên tri",
+    "definition": "Dịch vụ đưa dữ liệu ngoài chuỗi vào chuỗi.",
+    "explain": "Các nhà tiên đoán đưa ra các thông tin ngoài chuỗi—đặc biệt là giá cả—trên chuỗi để hợp đồng có thể phản ứng. Việc thanh lý cho vay và giá đánh dấu vĩnh viễn phụ thuộc vào tính toàn vẹn của thức ăn. \n\nThị trường mỏng dễ bị thao túng thành các bản in oracle xấu. Ưu tiên các giao thức có khả năng tổng hợp mạnh mẽ, bộ ngắt mạch và hành vi lỗi rõ ràng khi nguồn cấp dữ liệu bị đình trệ."
+  },
+  {
+    "id": "rollup",
+    "term": "Tổng hợp",
+    "definition": "Thực thi L2 đăng dữ liệu/bằng chứng lên L1.",
+    "explain": "Một bản tổng hợp thực thi ngoài chuỗi cơ sở và đăng lại dữ liệu hoặc bằng chứng để L1 có thể bảo mật kết quả. Các thiết kế lạc quan dựa vào cửa sổ thử thách; tổng hợp hiệu lực dựa vào bằng chứng. \n\nPhí người dùng giảm vì nhiều giao dịch chia sẻ chi phí L1. Danh sách kiểm tra rủi ro của bạn vẫn bao gồm các cầu nối, trình sắp xếp thứ tự, khóa nâng cấp và cách hoạt động của các lối thoát bắt buộc."
+  },
+  {
+    "id": "sequencer",
+    "term": "Trình sắp xếp thứ tự",
+    "definition": "Thành phần yêu cầu giao dịch L2.",
+    "explain": "Trình sắp xếp thứ tự sắp xếp các giao dịch L2 và thường cung cấp các xác nhận mềm nhanh chóng. Nhiều trình sắp xếp chuỗi vẫn còn tập trung cho đến ngày nay, điều này ảnh hưởng đến thời gian ngừng hoạt động và khả năng chống kiểm duyệt. \n\nTrình sắp xếp phân cấp là một chủ đề lộ trình chính. Cho đến lúc đó, hãy coi xác nhận mềm là sự tiện lợi và hiểu rõ đường dẫn đến việc đưa vào thực thi L1 khi người vận hành có hành vi sai trái."
+  },
+  {
+    "id": "finality",
+    "term": "Cuối cùng",
+    "definition": "Khi một tx/khối thực tế không thể đảo ngược được.",
+    "explain": "Tính hữu hạn mô tả thời điểm một giao dịch thực tế không thể đảo ngược được. Một số giao thức có các tiện ích cuối cùng rõ ràng; một số khác mang tính xác suất và tăng cường theo chiều sâu. \n\nCác sàn giao dịch chọn số lượng xác nhận từ những giả định này. Đối với các khoản chuyển tiền lớn, hãy chờ đợi kết quả cuối cùng mà đối tác của bạn thực sự yêu cầu—chứ không phải lời chúc mừng “thành công” đầu tiên."
+  },
+  {
+    "id": "utxo",
+    "term": "UTXO",
+    "definition": "Mô hình kế toán đầu ra giao dịch chưa chi tiêu.",
+    "explain": "Đầu ra giao dịch chưa chi tiêu là cách các hệ thống giống như Bitcoin theo dõi số tiền có thể chi tiêu. Số dư của bạn là tổng số UTXO bạn có thể đăng ký; chi tiêu tiêu thụ đầu ra và có thể tạo ra sự thay đổi. \n\nKế toán UTXO khác với số dư tài khoản và ảnh hưởng đến phí, quyền riêng tư và lựa chọn tiền xu. Ví nhẹ ẩn thông tin chi tiết—các nút đầy đủ tiết lộ lý do tại sao việc hợp nhất lại quan trọng."
+  },
+  {
+    "id": "eoa",
+    "term": "EOA",
+    "definition": "Tài khoản thuộc sở hữu bên ngoài được kiểm soát bởi một khóa.",
+    "explain": "Tài khoản thuộc sở hữu bên ngoài được kiểm soát trực tiếp bằng khóa riêng không có mã hợp đồng. Hầu hết các ví cổ điển đều là EOA: chữ ký tương đương với ủy quyền. \n\nKhông có thiết lập lại mật khẩu. Mất hạt giống là mất tài sản. Tài khoản thông minh thay đổi mô hình này; nếu bạn tiếp tục sử dụng EOA, sao lưu ngoại tuyến và khả năng chống lừa đảo là tất cả."
+  },
+  {
+    "id": "multisig",
+    "term": "Đa chữ ký",
+    "definition": "Tài khoản yêu cầu nhiều phê duyệt.",
+    "explain": "Tài khoản đa chữ ký yêu cầu phê duyệt M-of-N trước khi chuyển tiền. Kho bạc và các đội sử dụng chúng để loại bỏ lỗi một phím. \n\nSự cân bằng trong thiết kế bao gồm lựa chọn ngưỡng, tính đa dạng về địa lý của người ký và diễn tập phục hồi. Một multisig mà bạn không bao giờ thực hiện có thể thất bại vào thời điểm tồi tệ nhất."
+  },
+  {
+    "id": "seed-phrase",
+    "term": "Cụm từ hạt giống",
+    "definition": "Danh sách từ tạo lại khóa ví.",
+    "explain": "Cụm từ hạt giống sẽ tạo lại khóa ví. Bất kỳ ai nhìn thấy các từ này đều có thể tạo lại ví ở nơi khác—các nhân viên hỗ trợ không bao giờ cần đến nó để “xác minh” bạn. \n\nGiữ hạt giống ngoại tuyến, không bao giờ nhập chúng vào các trang web và cho rằng hạt giống được chụp ảnh đã bị xâm phạm. Nếu bị rò rỉ, hãy di chuyển ngay sang hạt giống mới trên thiết bị sạch."
+  },
+  {
+    "id": "allowance",
+    "term": "Phụ cấp",
+    "definition": "Số tiền tối đa mà hợp đồng có thể chi tiêu cho mã thông báo của bạn.",
+    "explain": "Khoản trợ cấp giới hạn số lượng token mà hợp đồng chi tiêu có thể chuyển Từ số dư của bạn. Các khoản phụ cấp không giới hạn thuận tiện cho những người giao dịch thường xuyên và nguy hiểm cho những người khác. \n\nThường xuyên xem xét và thu hồi các khoản phụ cấp không sử dụng. Thích các khoản phụ cấp chính xác hoặc khiêm tốn khi học một ứng dụng mới."
+  },
+  {
+    "id": "approve",
+    "term": "Chấp thuận",
+    "definition": "Giao dịch thiết lập một khoản trợ cấp.",
+    "explain": "Phê duyệt các giao dịch được thiết lập hoặc thay đổi phụ cấp. Họ không tự mình di chuyển mã thông báo nhưng họ mở khóa chi tiêu sau này theo địa chỉ người chi tiêu. \n\nĐọc kỹ người chi tiêu, mô phỏng tác động và cảnh giác với hành vi lừa đảo yêu cầu phê duyệt các hợp đồng không xác định. Phê duyệt là một vectơ thoát nước hàng đầu."
+  },
+  {
+    "id": "rug",
+    "term": "Kéo thảm",
+    "definition": "Người trong cuộc rút cạn tính thanh khoản hoặc từ bỏ một dự án.",
+    "explain": "Thảm họa xảy ra khi người trong cuộc rút cạn tính thanh khoản hoặc từ bỏ dự án sau khi huy động vốn. Các dấu hiệu cảnh báo bao gồm tính thanh khoản không thể truy cập được, quản trị viên không rõ ràng và hoạt động tiếp thị chỉ mang lại lợi nhuận. \n\nThẩm định mang tính chất xã hội và kỹ thuật: trách nhiệm giải trình của nhóm, quyền hợp đồng và liệu tính thanh khoản có bị khóa hay không. Nếu bạn không thể giải thích lối ra, đừng kích thước lớn."
+  },
+  {
+    "id": "phishing",
+    "term": "Lừa đảo",
+    "definition": "Các trang web/danh tính giả mạo đánh lừa chìa khóa hoặc chữ ký.",
+    "explain": "Lừa đảo sử dụng các trang web, quảng cáo và danh tính giả mạo để lấy chìa khóa hoặc chữ ký. Các miền đồng âm và DM hỗ trợ giả mạo là những hit lâu năm. \n\nSử dụng dấu trang, bỏ qua quảng cáo tìm kiếm về thương hiệu ví và không bao giờ chia sẻ hạt giống. Khi không chắc chắn, hãy xác minh trên kênh thứ hai trước khi ký bất kỳ thứ gì."
+  },
+  {
+    "id": "bridge",
+    "term": "Cầu",
+    "definition": "Giao thức di chuyển nội dung/tin nhắn trên các chuỗi.",
+    "explain": "Cầu di chuyển tài sản hoặc tin nhắn qua chuỗi. Các cầu nối Canonical kế thừa nhiều hơn mô hình bảo mật của bản tổng hợp tại nhà; cầu nhanh thường bổ sung thêm các giả định đáng tin cậy về tốc độ. \n\nLuôn kiểm tra với số tiền nhỏ, xác minh URL chính thức và hiểu hành vi hoàn tiền. Rủi ro cầu nối có tính lịch sử tập trung và không thể tha thứ."
+  },
+  {
+    "id": "stablecoin",
+    "term": "Stablecoin",
+    "definition": "Mã thông báo được thiết kế để theo dõi một tài liệu tham khảo ổn định.",
+    "explain": "Stablecoin nhằm mục đích theo dõi một tài liệu tham khảo ổn định như USD. Các thiết kế bao gồm dự trữ tiền pháp định, tài sản thế chấp bằng tiền điện tử và các cơ chế thuật toán — mỗi cơ chế đều thất bại theo cách khác nhau. \n\nTìm hiểu chất lượng chứng thực của nhà phát hành, chính sách đóng băng và đường dẫn đổi thưởng. Đa dạng hóa khi chuồng ngựa là cốt lõi trong quy trình làm việc của bạn."
+  },
+  {
+    "id": "liquidity",
+    "term": "Thanh khoản",
+    "definition": "Khả năng giao dịch quy mô mà không cần di chuyển giá nhiều.",
+    "explain": "Thanh khoản là khả năng giao dịch quy mô mà không cần di chuyển giá quá nhiều. Các vực sâu làm giảm độ trượt; Tính thanh khoản có thể tháo rời hoặc ảo tưởng có thể làm giả sự an toàn. \n\nKiểm tra xem ai có thể rút token LP và rút nhanh như thế nào. Thanh khoản biến mất khi căng thẳng không phải là thanh khoản khi bạn cần."
+  },
+  {
+    "id": "impermanent-loss",
+    "term": "Mất mát vô thường",
+    "definition": "LP kém hiệu quả so với nắm giữ khi giá phân kỳ.",
+    "explain": "Khoản lỗ nhất thời là LP hoạt động kém hiệu quả so với việc chỉ nắm giữ tài sản khi giá phân kỳ. Lệ phí có thể hoặc không thể bù đắp. \n\nThoát khỏi kết tinh khoảng cách. Lập mô hình các kịch bản trước khi cung cấp thanh khoản, đặc biệt là ở các cặp biến động với thu nhập từ phí thấp."
+  },
+  {
+    "id": "liquidation",
+    "term": "Thanh lý",
+    "definition": "Buộc bán tài sản thế chấp khi khoản vay không lành mạnh.",
+    "explain": "Thanh lý buộc phải bán tài sản thế chấp khi yếu tố sức khỏe của khoản vay không thành công. Oracle đặt giá kích hoạt; thác khuếch đại sự cố. \n\nGiữ vùng đệm, tránh đòn bẩy tối đa trong khi tìm hiểu và hiểu liệu việc thanh lý là dựa trên đấu giá hay dựa trên bot."
+  },
+  {
+    "id": "staking",
+    "term": "đặt cược",
+    "definition": "Khóa tài sản để bảo mật mạng hoặc kiếm phần thưởng.",
+    "explain": "Đặt cược khóa tài sản để bảo mật mạng hoặc kiếm phần thưởng giao thức. Các thiết kế khác nhau về khóa, cắt giảm và việc bạn chạy trình xác nhận hay đại biểu. \n\nViệc ủy ​​quyền làm tăng thêm rủi ro cho người vận hành. Đọc thời gian không liên kết trước khi coi tài sản đặt cọc là tiền có tính thanh khoản cao."
+  },
+  {
+    "id": "validator",
+    "term": "Trình xác thực",
+    "definition": "Nút PoS đề xuất/chứng thực các khối.",
+    "explain": "Người xác nhận đề xuất và chứng thực các khối trong hệ thống bằng chứng cổ phần. Hiệu suất kém hoặc ác ý có thể bị chém. \n\nViệc xác nhận một mình cần có kỷ luật hoạt động; đặt cọc và đặt lại thanh khoản sẽ bổ sung thêm các lớp rủi ro cho hợp đồng thông minh và nhà điều hành bên cạnh các nhiệm vụ đồng thuận."
+  },
+  {
+    "id": "dao",
+    "term": "DAO",
+    "definition": "Tổ chức phối hợp thông qua các quy tắc/phiếu bầu trên chuỗi.",
+    "explain": "DAO phối hợp thông qua các quy tắc trên chuỗi và bỏ phiếu về kho bạc và thông số. Tỷ lệ bỏ phiếu, mức độ tập trung của cá voi và kết quả định hình chất lượng đề xuất. \n\nQuản trị là một bề mặt bảo mật: các nâng cấp độc hại có thể tiêu tốn tiền nếu bỏ phiếu “thành công”. Đọc tải trọng, không chỉ tiêu đề."
+  },
+  {
+    "id": "nft",
+    "term": "NFT",
+    "definition": "Mã thông báo không thể thay thế cho các mặt hàng độc đáo.",
+    "explain": "Mã thông báo không thể thay thế đại diện cho các mặt hàng độc đáo. Quyền sở hữu mã thông báo được thực hiện trên chuỗi; phương tiện và đặc điểm thường tồn tại ngoài chuỗi và phụ thuộc vào việc ghim hoặc máy chủ. \n\nXác minh địa chỉ hợp đồng, chính sách tiền bản quyền và khả năng thay đổi siêu dữ liệu. Cùng một tác phẩm nghệ thuật, hợp đồng khác nhau, là một cái bẫy cổ điển."
+  },
+  {
+    "id": "ipfs",
+    "term": "IPFS",
+    "definition": "Mạng tập tin phân tán có địa chỉ nội dung.",
+    "explain": "IPFS xử lý nội dung bằng hàm băm để có thể kiểm tra tính toàn vẹn. Tính lâu dài vẫn phụ thuộc vào việc ai đó ghim dữ liệu. \n\nKhi NFT hoặc tài liệu trích dẫn IPFS, hãy hỏi ai ghim và điều gì sẽ xảy ra nếu cổng biến mất. Địa chỉ nội dung ≠ lưu trữ tự động mãi mãi."
+  },
+  {
+    "id": "ens",
+    "term": "ENS",
+    "definition": "Dịch vụ tên Ethereum ánh xạ tên vào các bản ghi.",
+    "explain": "ENS ánh xạ các tên mà con người có thể đọc được tới địa chỉ và hồ sơ. Nó làm giảm lỗi chính tả nhưng tên hết hạn và độ phân giải có thể bị xâm phạm nếu bạn bỏ qua việc kiểm tra. \n\nLuôn kiểm tra lại địa chỉ đã giải quyết trên đường dẫn đáng tin cậy trước khi gửi kích thước."
+  },
+  {
+    "id": "layer1",
+    "term": "Lớp 1",
+    "definition": "Chuỗi cơ sở có sự đồng thuận/giải quyết riêng.",
+    "explain": "Chuỗi lớp 1 cung cấp sự đồng thuận và bảo mật giải quyết của riêng nó. Phí và thông lượng phản ánh sự khan hiếm của lớp cơ sở. \n\nL1 là nơi giải quyết tranh chấp cuối cùng thường được áp dụng cho các bản tổng hợp. Hiểu phí L1 và tính hữu hạn giúp bạn diễn giải các lời hứa L2."
+  },
+  {
+    "id": "layer2",
+    "term": "Lớp 2",
+    "definition": "Lớp mở rộng kế thừa bảo mật từ L1.",
+    "explain": "Việc thực thi quy mô hệ thống lớp 2 đồng thời hướng tới kế thừa tính bảo mật từ L1. Rollup thống trị không gian thiết kế hiện tại. \n\nNgười dùng nên tìm hiểu về độ tin cậy của cầu nối, các giả định về trình tự sắp xếp và các cửa sổ thoát. “Ethereum rẻ hơn” vẫn có bản đồ hoạt động riêng."
+  },
+  {
+    "id": "zk-proof",
+    "term": "ZK / Bằng chứng hiệu lực",
+    "definition": "Bằng chứng về tính đúng đắn mà không cần thực hiện lại mọi thứ.",
+    "explain": "Bằng chứng về tính hợp lệ thuyết phục người xác minh rằng một lô là chính xác mà không cần thực hiện lại mọi thứ. Các bản tổng hợp ZK sử dụng chúng để giải quyết ngắn gọn trên L1. \n\nThương hiệu “ZK” không trả lời ai là người trình tự, ai nâng cấp hoặc cầu nối hoạt động như thế nào. Hãy hỏi điều gì đã được chứng minh và điều gì vẫn được tin cậy."
+  },
+  {
+    "id": "fraud-proof",
+    "term": "Bằng chứng gian lận",
+    "definition": "Bằng chứng cho thấy lô lạc quan là không hợp lệ.",
+    "explain": "Bằng chứng gian lận thách thức các lô lạc quan không hợp lệ trong một khoảng thời gian. Người theo dõi phải có khả năng truy cập dữ liệu và gửi bằng chứng. \n\nNếu dữ liệu bị thiếu hoặc người theo dõi không thành công, các giả định về bảo mật sẽ yếu đi. Các hệ thống lạc quan đánh đổi độ trễ thành tính hữu hạn để chứng minh đơn giản hơn."
+  },
+  {
+    "id": "blob",
+    "term": "đốm màu",
+    "definition": "Không gian dữ liệu giá rẻ được giới thiệu để mở rộng quy mô.",
+    "explain": "Blobs cung cấp không gian dữ liệu tạm thời rẻ hơn cho các bản tổng hợp để đăng dữ liệu giao dịch. Chi phí DA thấp hơn là lý do chính khiến phí L2 giảm. \n\nCác đốm màu là cơ sở hạ tầng chứ không phải là sản phẩm của người dùng. Chúng kích hoạt các ứng dụng; họ không loại bỏ rủi ro cầu nối hoặc ký kết."
+  },
+  {
+    "id": "wallet",
+    "term": "Cái ví",
+    "definition": "Phần mềm/phần cứng quản lý khóa và chữ ký.",
+    "explain": "Ví quản lý khóa và xây dựng chữ ký. Tiền xu tồn tại trên chuỗi; ví giữ quyền kiểm soát, không phải là số dư tạm giữ trừ khi đó là tài khoản trao đổi. \n\nChọn nóng và lạnh dựa trên kích thước và tần suất. Kỷ luật dự phòng quan trọng hơn tính thẩm mỹ của thương hiệu."
+  },
+  {
+    "id": "cold-storage",
+    "term": "Kho lạnh",
+    "definition": "Giữ phím ngoại tuyến để thu nhỏ bề mặt tấn công.",
+    "explain": "Kho lạnh giữ các khóa ngoại tuyến để thu nhỏ bề mặt tấn công từ xa. Nó phù hợp với việc nắm giữ dài hạn hơn là giao dịch tần suất cao. \n\nKiểm tra các luồng nhận và gửi nhỏ trước kích thước đỗ xe. Các lỗi thao tác (nhầm chuỗi, sai địa chỉ) vẫn được áp dụng nhé."
+  },
+  {
+    "id": "kyc",
+    "term": "KYC",
+    "definition": "Kiểm tra danh tính trên nền tảng.",
+    "explain": "KYC là xác minh danh tính trên nền tảng để tuân thủ. Nó khác với các địa chỉ blockchain và tạo ra sự đánh đổi về quyền riêng tư và vi phạm dữ liệu. \n\nHiểu những gì bạn từ bỏ cho các đường dốc fiat. Quyền tự quản lý không xóa lịch sử KYC tại các đường dẫn bạn đã sử dụng."
+  },
+  {
+    "id": "dex",
+    "term": "DEX",
+    "definition": "Trao đổi giải quyết thông qua hợp đồng thông minh.",
+    "explain": "Sàn giao dịch phi tập trung giải quyết các giao dịch thông qua hợp đồng thông minh, thường là không giám sát. Người dùng giữ chìa khóa và chịu rủi ro về chữ ký và MEV. \n\nXác minh hợp đồng bộ định tuyến và địa chỉ mã thông báo. Giao diện người dùng DEX vẫn có thể lừa đảo ngay cả khi giao thức cơ bản có uy tín."
+  },
+  {
+    "id": "cex",
+    "term": "CEX",
+    "definition": "Trao đổi tập trung.",
+    "explain": "Các sàn giao dịch tập trung cung cấp các đường nối tiền pháp định và khớp lệnh nhanh chóng với rủi ro về quyền lưu ký. Bạn giữ IOU cho đến khi bạn rút tiền. \n\nSử dụng chúng như công cụ chứ không phải kho tiền. Kích thước rút tiền mà bạn quan tâm, kích hoạt bảo mật tài khoản mạnh mẽ và theo dõi các ứng dụng tương tự."
+  },
+  {
+    "id": "dapp",
+    "term": "DApp",
+    "definition": "Ứng dụng có logic quan trọng trên chuỗi.",
+    "explain": "Một dapp đặt logic quan trọng trên chuỗi trong khi giao diện người dùng vẫn có thể được tập trung. Việc tiếp quản tên miền có thể hướng người dùng vào các cuộc gọi hợp đồng độc hại. \n\nĐánh dấu các URL chính thức, ưu tiên các tương tác hợp đồng đã được xác minh và coi sự tin cậy của giao diện người dùng như một phần của mô hình mối đe dọa."
+  },
+  {
+    "id": "hash",
+    "term": "Băm",
+    "definition": "Phân loại dữ liệu một chiều.",
+    "explain": "Hàm băm mật mã ánh xạ dữ liệu tới một bản tóm tắt cố định. Những thay đổi đầu vào nhỏ sẽ làm đảo lộn đầu ra; việc tìm kiếm va chạm được thiết kế để khó khăn. \n\nBăm các khối liên kết, nội dung địa chỉ và cam kết với tin nhắn. Chúng là chất kết dính để kiểm tra tính toàn vẹn trên các hệ thống tiền điện tử."
+  },
+  {
+    "id": "block",
+    "term": "Khối",
+    "definition": "Hàng loạt txs được liên kết vào lịch sử.",
+    "explain": "Một khối sẽ gộp các giao dịch vào một lịch sử được liên kết. Mục tiêu về quy mô và thời gian định hình thị trường thông lượng và phí. \n\nNgười khám phá hiển thị chiều cao, người đề xuất và các tx được bao gồm. Hiểu các khối giúp bạn diễn giải các xác nhận và rủi ro tổ chức lại."
+  },
+  {
+    "id": "private-key",
+    "term": "Khóa riêng",
+    "definition": "Bí mật cho phép chi tiêu.",
+    "explain": "Khóa riêng cho phép chi tiêu. Chia sẻ nó—hoặc một hạt giống có nguồn gốc từ nó—tương đương với việc chia sẻ số tiền. \n\nKhông bao giờ nhập khóa vào trang web, ứng dụng trò chuyện hoặc biểu mẫu “hỗ trợ”. Cách ly phần cứng giúp ích; hoạt động thận trọng vẫn quyết định kết quả."
+  },
+  {
+    "id": "public-key",
+    "term": "Khóa công khai",
+    "definition": "Giá trị dẫn xuất được sử dụng để xác minh chữ ký.",
+    "explain": "Khóa chung xác minh chữ ký tương ứng với khóa riêng. Địa chỉ thường được lấy từ việc băm khóa chung. \n\nKhóa và địa chỉ công khai có thể chia sẻ để nhận. Các biện pháp bảo mật vẫn quan trọng nếu bạn sử dụng lại chúng một cách rộng rãi."
+  },
+  {
+    "id": "address",
+    "term": "Địa chỉ",
+    "definition": "Mã định danh được sử dụng để nhận tiền.",
+    "explain": "Địa chỉ là mã định danh được sử dụng để nhận tiền trên mạng. Việc gửi sai chuỗi hoặc địa chỉ lỗi đánh máy thường không thể đảo ngược được. \n\nSao chép cẩn thận, xác minh một vài ký tự ở đầu và cuối, đồng thời gửi bài kiểm tra khi di chuyển kích thước đến đích mới."
+  },
+  {
+    "id": "confirmation",
+    "term": "Xác nhận",
+    "definition": "Có bao nhiêu khối đã được xây dựng trên một tx.",
+    "explain": "Xác nhận đếm số lượng khối đã được xây dựng dựa trên giao dịch của bạn. Chiều sâu hơn làm cho việc tổ chức lại khó khăn hơn. \n\nDịch vụ chọn các ngưỡng khác nhau cho các kích cỡ khác nhau. Kiên nhẫn là biện pháp kiểm soát an ninh cho các khoản thanh toán lớn."
+  },
+  {
+    "id": "smart-contract",
+    "term": "Hợp đồng thông minh",
+    "definition": "Chương trình được triển khai thành một chuỗi.",
+    "explain": "Hợp đồng thông minh là một chương trình được triển khai đến một địa chỉ chuỗi. Nó có thể lưu giữ tài sản và thực thi các quy tắc mà không cần qua trung gian truyền thống. \n\nLỗi, khóa quản trị và tích hợp không mong muốn tạo ra rủi ro. Ưu tiên các đường dẫn mã đã được kiểm tra, kiểm tra theo thời gian khi học bằng tiền thật."
+  },
+  {
+    "id": "token",
+    "term": "Mã thông báo",
+    "definition": "Đơn vị tài sản được hạch toán trong hợp đồng.",
+    "explain": "Token là đơn vị tài sản được tính theo hợp đồng. Tên và mã có thể được sao chép; địa chỉ hợp đồng xác định tài sản thực. \n\nLuôn xác minh địa chỉ từ một nguồn đáng tin cậy trước khi hoán đổi hoặc thêm thanh khoản."
+  },
+  {
+    "id": "erc-20",
+    "term": "ERC-20",
+    "definition": "Giao diện mã thông báo có thể thay thế chiếm ưu thế.",
+    "explain": "ERC-20 là giao diện mã thông báo có thể thay thế thống trị trên các chuỗi giống Ethereum. Nó tiêu chuẩn hóa các hành vi chuyển giao và phê duyệt cho ví và DEX. \n\nPhê duyệt là một phần của tiêu chuẩn—và là một phần của rủi ro. Hiểu cơ chế trợ cấp trước khi nuôi các token mới."
+  },
+  {
+    "id": "permissionless",
+    "term": "Không được phép",
+    "definition": "Bất kỳ ai cũng có thể sử dụng hoặc triển khai mà không cần có danh sách cho phép.",
+    "explain": "Hệ thống không được phép cho phép mọi người sử dụng hoặc triển khai mà không cần có danh sách cho phép. Truy cập mở thúc đẩy đổi mới và lừa đảo cùng nhau. \n\nBộ lọc của bạn mang tính cá nhân: xác minh hợp đồng, ưu tiên danh tiếng có bằng chứng và quy mô thử nghiệm nhỏ."
+  },
+  {
+    "id": "custody",
+    "term": "quyền giám hộ",
+    "definition": "Bên thứ ba nắm giữ chìa khóa/tài sản.",
+    "explain": "Quyền giám hộ có nghĩa là bên thứ ba nắm giữ chìa khóa hoặc tài sản cho bạn. Giao dịch thuận tiện chống lại rủi ro đối tác và hoạt động. \n\nQuyền tự chăm sóc sẽ tùy thuộc vào bạn. Các phương pháp kết hợp – trao đổi để giao dịch, kho lạnh để tiết kiệm – là những mô hình phổ biến."
+  },
+  {
+    "id": "yield-farming",
+    "term": "canh tác năng suất",
+    "definition": "Phân bổ thanh khoản để kiếm phần thưởng trên các giao thức.",
+    "explain": "Canh tác lợi nhuận phân bổ tính thanh khoản trên các giao thức để kiếm phần thưởng. APR cao thường là tạm thời và được thanh toán bằng token phần thưởng không ổn định. \n\nMô hình thoát thanh khoản và rủi ro hợp đồng thông minh. Nuôi trồng là một chiến lược, không phải là một tài khoản tiết kiệm."
+  },
+  {
+    "id": "airdrop",
+    "term": "Airdrop",
+    "definition": "Phân phối mã thông báo cho sự phát triển/cộng đồng.",
+    "explain": "Airdrop phân phối token để tăng trưởng hoặc nhận phần thưởng cộng đồng. Việc xác nhận quyền sở hữu có thể liên quan đến các chữ ký an toàn hơn—hoặc kém an toàn hơn nhiều—so với vẻ ngoài của chúng. \n\nTheo dõi các trang web lừa đảo và những bất ngờ về thuế. Nếu có yêu cầu về hạt giống của bạn thì đó không phải là airdrop."
+  },
+  {
+    "id": "whitepaper",
+    "term": "Sách trắng",
+    "definition": "Tài liệu mô tả thiết kế và mục tiêu.",
+    "explain": "Sách trắng giải thích các mục tiêu và cơ chế thiết kế. Ưu tiên các quy tắc cụ thể, mô hình mối đe dọa và thông số hơn các bộ bài rung cảm. \n\nHãy coi giấy tờ như những tuyên bố bắt đầu để xác minh về mã và hành vi sản xuất chứ không phải như những lời đảm bảo."
+  },
+  {
+    "id": "halving",
+    "term": "Giảm một nửa",
+    "definition": "Cắt trợ cấp khối Bitcoin định kỳ.",
+    "explain": "Việc giảm một nửa Bitcoin định kỳ cắt giảm trợ cấp khối. Việc phát hành nguồn cung mới chậm lại theo một lịch trình đã biết. \n\nNó không đảm bảo giá sẽ tăng. Nó minh họa ngân sách an ninh và thị trường phí phát triển như thế nào khi trợ cấp giảm."
+  },
+  {
+    "id": "merkle-tree",
+    "term": "Cây Merkle",
+    "definition": "Cây băm chứng minh sự bao gồm hiệu quả.",
+    "explain": "Cây Merkle băm dữ liệu vào gốc để có thể chứng minh tính bao hàm một cách hiệu quả. Các máy khách nhẹ và nhiều hệ thống chứng minh dựa vào chúng. \n\nChúng cho phép bạn xác minh một phần thuộc về một tập hợp đã cam kết mà không cần tải xuống mọi thứ—xác minh cốt lõi đến xác minh có thể mở rộng."
+  },
+  {
+    "id": "nonce",
+    "term": "Nonce",
+    "definition": "Số thứ tự tài khoản tx.",
+    "explain": "Một tài khoản nonce sẽ sắp xếp các giao dịch sao cho mỗi giao dịch được xử lý một lần theo thứ tự. Các giao dịch bị mắc kẹt thường được thay thế bằng cách gửi lại cùng một lần gửi lại với mức phí cao hơn. \n\nViệc hiểu nonces sẽ làm sáng tỏ các ví “đang chờ xử lý vĩnh viễn” và các luồng thay thế."
+  }
+]

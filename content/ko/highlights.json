@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# 가스비"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# 씨앗 문구 사기"
+  },
+  {
+    "id": "layer2",
+    "label": "# 레이어 2"
+  },
+  {
+    "id": "approve",
+    "label": "# 승인/수당"
+  }
+]

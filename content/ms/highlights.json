@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# Bayaran gas"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# Penipuan frasa benih"
+  },
+  {
+    "id": "layer2",
+    "label": "# Lapisan 2"
+  },
+  {
+    "id": "approve",
+    "label": "# Lulus / elaun"
+  }
+]

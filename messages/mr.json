@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Web3 Knowledge Infrastructure",
+    "badge": "Security First"
+  },
+  "nav": {
+    "explore": "शोधा",
+    "ecosystem": "इकोसिस्टम",
+    "news": "बातम्या",
+    "chronicle": "इतिहास",
+    "security": "सुरक्षा",
+    "glossary": "शब्दकोश"
+  },
+  "hero": {
+    "kicker": "8 ECOSYSTEM LAYERS · TAP TO LEARN",
+    "titleLine1": "The Internet Is Changing.",
+    "titleLine2": "Map What Comes Next.",
+    "subtitle": "Discover networks, protocols and ideas shaping Web3 — built for clarity, not hype.",
+    "ctaPrimary": "Explore the Ecosystem",
+    "ctaSecondary": "Open Security Center",
+    "pause": "Pause animation",
+    "play": "Play animation"
+  },
+  "sections": {
+    "ecosystem": "01 · ECOSYSTEM",
+    "ecosystemTitle": "Explore by category",
+    "ecosystemDesc": "Eight layers of Web3. Open one to see concepts and real-world patterns.",
+    "openExplorer": "Open explorer",
+    "news": "02 · SIGNAL",
+    "newsTitle": "What's moving",
+    "newsDesc": "Curated headlines that help you follow infrastructure, markets and regulation.",
+    "allHeadlines": "All headlines",
+    "glossary": "03 · LEXICON",
+    "glossaryTitle": "Speak the language",
+    "glossaryDesc": "Fast definitions for terms you will see every day on-chain.",
+    "openGlossary": "Open glossary",
+    "security": "04 · DEFENSE",
+    "securityTitle": "Stay hard to hack",
+    "securityDesc": "Short briefings on phishing, approvals, seed phrases and fake apps.",
+    "securityCenter": "Security center",
+    "chronicle": "05 · TIMELINE",
+    "chronicleTitle": "How we got here",
+    "chronicleDesc": "A concise chronicle from whitepaper to ETFs and beyond.",
+    "fullChronicle": "Full chronicle",
+    "quiz": "06 · CHALLENGE",
+    "quizTitle": "Stress-test what you know",
+    "quizDesc": "Ten quick questions. No account. Just sharper instincts.",
+    "startQuiz": "Start the challenge",
+    "shuffle": "Shuffle"
+  },
+  "common": {
+    "readMore": "अधिक वाचा",
+    "back": "मागे",
+    "search": "Search",
+    "items": "items",
+    "minRead": "{m} min read",
+    "language": "भाषा",
+    "followIp": "भाषा तुमच्या प्रदेशाचे (IP) अनुसरण करते.",
+    "fallbackNote": "Full article language unavailable — showing English.",
+    "noResults": "No matches.",
+    "useful": "Useful",
+    "useIpLanguage": "IP भाषा वापरा",
+    "ipActive": "सक्रिय",
+    "manualOverride": "Manual override"
+  },
+  "ecosystemPage": {
+    "title": "Ecosystem Explorer",
+    "subtitle": "Browse eight layers — from base chains to DAOs."
+  },
+  "newsPage": {
+    "title": "Signal Desk",
+    "subtitle": "Curated Web3 headlines for builders and curious readers."
+  },
+  "chroniclePage": {
+    "title": "Chronicle",
+    "subtitle": "A timeline of moments that reshaped digital money and networks."
+  },
+  "securityPage": {
+    "title": "Security Center",
+    "subtitle": "Practical defenses for wallets, approvals and social engineering."
+  },
+  "glossaryPage": {
+    "title": "Glossary",
+    "subtitle": "Plain-language definitions for on-chain vocabulary.",
+    "placeholder": "Filter terms…"
+  },
+  "quiz": {
+    "correct": "Correct",
+    "wrong": "Not quite",
+    "next": "Next",
+    "restart": "Restart",
+    "score": "Score: {score}/{total}",
+    "done": "Challenge complete"
+  },
+  "article": {
+    "keyPoints": "Key points",
+    "tips": "Practical tips",
+    "checklist": "Checklist",
+    "expand": "Expand explain",
+    "collapse": "Collapse"
+  },
+  "intro": {
+    "headline": "वेब3 आणि क्रिप्टो ज्ञान — स्पष्टपणे शिका, हायप नाही",
+    "body": "Web3Atlas हे एज्युकेशन हब आहे, ट्रेडिंग ॲप नाही. इकोसिस्टम नकाशा एक्सप्लोर करा, क्युरेटेड सिग्नल फॉलो करा, क्रॉनिकलचा अभ्यास करा, वॉलेट सिक्युरिटीचा सराव करा, शब्दकोष उघडा आणि क्विझसह स्वतःची चाचणी करा — अनुमानांवर स्पष्टता.",
+    "point1": "इकोसिस्टम नकाशा: ब्लॉकचेन, DeFi, NFT, L2, wallets, DAO",
+    "point2": "सिग्नल आणि क्रॉनिकल: हेडलाईन्स प्लस की इतिहास",
+    "point3": "सुरक्षा केंद्र: फिशिंग, बियाणे, मंजूरी",
+    "point4": "शब्दकोष आणि प्रश्नमंजुषा: साध्या अटी तुम्ही उघडू शकता आणि सराव करू शकता",
+    "hint": "सुरू ठेवण्यासाठी खाली टॅप करा",
+    "enter": "एक्सप्लोर करणे सुरू करा",
+    "loading": "लोड करत आहे"
+  },
+  "safariGate": {
+    "note": "तुम्ही Safari मध्ये हे पृष्ठ उघडल्यानंतर, साइट साधारणपणे चालते — आणि ही सूचना लपलेली राहते. सफारी नितळ संवाद आणि समृद्ध रंग देते.",
+    "openSafari": "सफारीसह उघडा",
+    "copied": "लिंक कॉपी केली. सुरू ठेवण्यासाठी सफारीमध्ये पेस्ट करा."
+  }
+}

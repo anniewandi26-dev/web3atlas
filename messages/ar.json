@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "بنية معرفة Web3",
+    "badge": "الأمان أولاً"
+  },
+  "nav": {
+    "explore": "استكشف",
+    "ecosystem": "النظام",
+    "news": "أخبار",
+    "chronicle": "سجل",
+    "security": "الأمان",
+    "glossary": "قاموس"
+  },
+  "hero": {
+    "kicker": "8 طبقات · اضغط للتعلّم",
+    "titleLine1": "الإنترنت يتغيّر.",
+    "titleLine2": "ارسم ما يأتي.",
+    "subtitle": "اكتشف الشبكات والأفكار بوضوح دون ضجيج.",
+    "ctaPrimary": "استكشف النظام",
+    "ctaSecondary": "مركز الأمان",
+    "pause": "إيقاف",
+    "play": "تشغيل"
+  },
+  "sections": {
+    "ecosystem": "01 · النظام",
+    "ecosystemTitle": "استكشف حسب الفئة",
+    "ecosystemDesc": "ثماني طبقات من Web3.",
+    "openExplorer": "افتح المستكشف",
+    "news": "02 · إشارة",
+    "newsTitle": "ما يتحرك",
+    "newsDesc": "عناوين مختارة.",
+    "allHeadlines": "كل العناوين",
+    "glossary": "03 · معجم",
+    "glossaryTitle": "تحدّث بنفس اللغة",
+    "glossaryDesc": "تعريفات سريعة.",
+    "openGlossary": "افتح القاموس",
+    "security": "04 · دفاع",
+    "securityTitle": "كن أصعب للاختراق",
+    "securityDesc": "تصيّد وموافقات وبذور.",
+    "securityCenter": "مركز الأمان",
+    "chronicle": "05 · خط زمني",
+    "chronicleTitle": "كيف وصلنا هنا",
+    "chronicleDesc": "من الورقة البيضاء إلى ETF.",
+    "fullChronicle": "السجل الكامل",
+    "quiz": "06 · تحدٍ",
+    "quizTitle": "اختبر معرفتك",
+    "quizDesc": "عشرة أسئلة.",
+    "startQuiz": "ابدأ",
+    "shuffle": "خلط"
+  },
+  "common": {
+    "readMore": "اقرأ المزيد",
+    "back": "رجوع",
+    "search": "بحث",
+    "items": "عناصر",
+    "minRead": "{m} دقائق",
+    "language": "اللغة",
+    "followIp": "اللغة تتبع منطقتك (IP).",
+    "fallbackNote": "محتوى مترجم.",
+    "noResults": "لا نتائج.",
+    "useful": "مفيد",
+    "useIpLanguage": "لغة حسب IP",
+    "ipActive": "مفعّل",
+    "manualOverride": "يدوي"
+  },
+  "ecosystemPage": {
+    "title": "مستكشف النظام",
+    "subtitle": "ثماني طبقات."
+  },
+  "newsPage": {
+    "title": "منصة الإشارات",
+    "subtitle": "عناوين Web3."
+  },
+  "chroniclePage": {
+    "title": "السجل",
+    "subtitle": "لحظات غيّرت المال الرقمي."
+  },
+  "securityPage": {
+    "title": "مركز الأمان",
+    "subtitle": "دفاعات عملية."
+  },
+  "glossaryPage": {
+    "title": "القاموس",
+    "subtitle": "تعريفات واضحة.",
+    "placeholder": "تصفية…"
+  },
+  "quiz": {
+    "correct": "صحيح",
+    "wrong": "ليس تماماً",
+    "next": "التالي",
+    "restart": "إعادة",
+    "score": "النتيجة: {score}/{total}",
+    "done": "اكتمل"
+  },
+  "article": {
+    "keyPoints": "نقاط أساسية",
+    "tips": "نصائح عملية",
+    "checklist": "قائمة تحقق",
+    "expand": "توسيع",
+    "collapse": "طي"
+  },
+  "intro": {
+    "headline": "معرفة الويب 3 والعملات المشفرة - التعلم بوضوح، وليس الضجيج",
+    "body": "Web3Atlas هو مركز تعليمي، وليس تطبيق تداول. استكشف خريطة النظام البيئي، واتبع الإشارات المنسقة، وادرس السجل التاريخي، وتدرب على أمان المحفظة، وافتح المسرد، واختبر نفسك من خلال الاختبارات القصيرة - الوضوح بدلاً من المضاربة.",
+    "point1": "خريطة النظام البيئي: blockchain، DeFi، NFT، L2، المحافظ، DAO",
+    "point2": "الإشارات والتاريخ: العناوين الرئيسية بالإضافة إلى التاريخ الرئيسي",
+    "point3": "مركز الأمان: التصيد، البذور، الموافقات",
+    "point4": "المسرد والاختبار: مصطلحات واضحة يمكنك فتحها وممارستها",
+    "hint": "انقر أدناه للمتابعة",
+    "enter": "ابدأ بالاستكشاف",
+    "loading": "تحميل"
+  },
+  "safariGate": {
+    "note": "بعد فتح هذه الصفحة في Safari، يعمل الموقع بشكل طبيعي — ويظل هذا الإشعار مخفيًا. يوفر Safari تفاعلاً أكثر سلاسة وألوانًا أكثر ثراءً.",
+    "openSafari": "افتح باستخدام سفاري",
+    "copied": "تم نسخ الرابط. الصقها في Safari للمتابعة."
+  }
+}

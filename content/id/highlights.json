@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# Biaya bahan bakar"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# Penipuan frase awal"
+  },
+  {
+    "id": "layer2",
+    "label": "# Lapisan 2"
+  },
+  {
+    "id": "approve",
+    "label": "# Menyetujui / tunjangan"
+  }
+]

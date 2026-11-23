@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Infraestrutura de conhecimento Web3",
+    "badge": "Segurança primeiro"
+  },
+  "nav": {
+    "explore": "Explorar",
+    "ecosystem": "Ecossistema",
+    "news": "Notícias",
+    "chronicle": "Crônica",
+    "security": "Segurança",
+    "glossary": "Glossário"
+  },
+  "hero": {
+    "kicker": "8 CAMADAS · TOQUE PARA APRENDER",
+    "titleLine1": "A internet está mudando.",
+    "titleLine2": "Mapeie o que vem.",
+    "subtitle": "Redes, protocolos e ideias Web3 — clareza, sem hype.",
+    "ctaPrimary": "Explorar ecossistema",
+    "ctaSecondary": "Centro de segurança",
+    "pause": "Pausar",
+    "play": "Reproduzir"
+  },
+  "sections": {
+    "ecosystem": "01 · ECOSSISTEMA",
+    "ecosystemTitle": "Explorar por categoria",
+    "ecosystemDesc": "Oito camadas do Web3.",
+    "openExplorer": "Abrir explorador",
+    "news": "02 · SINAL",
+    "newsTitle": "O que está em movimento",
+    "newsDesc": "Manchetes curadas.",
+    "allHeadlines": "Todas as manchetes",
+    "glossary": "03 · LÉXICO",
+    "glossaryTitle": "Fale a língua",
+    "glossaryDesc": "Definições rápidas on-chain.",
+    "openGlossary": "Abrir glossário",
+    "security": "04 · DEFESA",
+    "securityTitle": "Fique difícil de hackear",
+    "securityDesc": "Phishing, approvals e seeds.",
+    "securityCenter": "Centro de segurança",
+    "chronicle": "05 · LINHA DO TEMPO",
+    "chronicleTitle": "Como chegamos aqui",
+    "chronicleDesc": "Do whitepaper aos ETFs.",
+    "fullChronicle": "Crônica completa",
+    "quiz": "06 · DESAFIO",
+    "quizTitle": "Teste o que sabe",
+    "quizDesc": "Dez perguntas.",
+    "startQuiz": "Começar",
+    "shuffle": "Embaralhar"
+  },
+  "common": {
+    "readMore": "Ler mais",
+    "back": "Voltar",
+    "search": "Buscar",
+    "items": "itens",
+    "minRead": "{m} min",
+    "language": "Idioma",
+    "followIp": "O idioma segue sua região (IP).",
+    "fallbackNote": "Conteúdo localizado.",
+    "noResults": "Sem resultados.",
+    "useful": "Útil",
+    "useIpLanguage": "Usar idioma por IP",
+    "ipActive": "ativo",
+    "manualOverride": "Manual"
+  },
+  "ecosystemPage": {
+    "title": "Explorador do ecossistema",
+    "subtitle": "Oito camadas — de chains a DAOs."
+  },
+  "newsPage": {
+    "title": "Mesa de sinais",
+    "subtitle": "Manchetes Web3 para builders."
+  },
+  "chroniclePage": {
+    "title": "Crônica",
+    "subtitle": "Momentos que remodelaram o dinheiro digital."
+  },
+  "securityPage": {
+    "title": "Centro de segurança",
+    "subtitle": "Defesas práticas."
+  },
+  "glossaryPage": {
+    "title": "Glossário",
+    "subtitle": "Definições claras.",
+    "placeholder": "Filtrar…"
+  },
+  "quiz": {
+    "correct": "Correto",
+    "wrong": "Quase",
+    "next": "Próximo",
+    "restart": "Reiniciar",
+    "score": "Pontuação: {score}/{total}",
+    "done": "Concluído"
+  },
+  "article": {
+    "keyPoints": "Pontos-chave",
+    "tips": "Dicas práticas",
+    "checklist": "Checklist",
+    "expand": "Expandir",
+    "collapse": "Recolher"
+  },
+  "intro": {
+    "headline": "Conhecimento Web3 e criptografia - aprenda com clareza, sem exageros",
+    "body": "Web3Atlas é um centro educacional, não um aplicativo comercial. Explore o mapa do ecossistema, siga sinais selecionados, estude a crônica, pratique a segurança da carteira, abra o glossário e teste-se com questionários – clareza sobre especulação.",
+    "point1": "Mapa do ecossistema: blockchain, DeFi, NFT, L2, carteiras, DAO",
+    "point2": "Sinais e crônica: manchetes e histórico importante",
+    "point3": "Central de segurança: phishing, sementes, aprovações",
+    "point4": "Glossário e questionário: termos simples que você pode abrir e praticar",
+    "hint": "Toque abaixo para continuar",
+    "enter": "Comece a explorar",
+    "loading": "Carregando"
+  },
+  "safariGate": {
+    "note": "Depois de abrir esta página no Safari, o site funciona normalmente — e este aviso permanece oculto. O Safari oferece uma interação mais suave e cores mais ricas.",
+    "openSafari": "Abrir com Safari",
+    "copied": "Link copiado. Cole-o no Safari para continuar."
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# Gasgebühren"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# Seed-Phrase-Betrug"
+  },
+  {
+    "id": "layer2",
+    "label": "# Schicht 2"
+  },
+  {
+    "id": "approve",
+    "label": "# Genehmigen / Zulassen"
+  }
+]

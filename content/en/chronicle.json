@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2008-wp",
+    "date": "2008-10",
+    "title": "Bitcoin whitepaper",
+    "body": "Satoshi publishes a peer-to-peer electronic cash design to a cryptography list. Proof-of-work links history without trusted intermediaries. The short paper becomes the intellectual seed of the industry and the “rules in code” narrative.\n\nThe paper reframes money as a broadcast ledger with economic incentives. Nodes validate rules locally; miners expend work to make history expensive to rewrite. That combination—open verification plus costly writing—still anchors most “why blockchain” explanations.\n\nFor learners, the takeaway is architectural: reduce trusted third parties for issuance and settlement, accept probabilistic confirmation, and encode scarcity in protocol rules. Later systems borrow the narrative even when they change the engine."
+  },
+  {
+    "id": "2009-genesis",
+    "date": "2009-01",
+    "title": "Genesis block",
+    "body": "Bitcoin boots with a headline about bank bailouts embedded in the genesis block. Early usage is hobbyist mining and transfers with essentially no price. The idea becomes a living network.\n\nEmbedding a newspaper headline was both timestamp and political signal. Early participants ran full nodes by default because there was little else to do; culture valued verification over convenience.\n\nThe genesis era reminds newcomers that networks start social and sparse. Liquidity, exchanges, and polished wallets came later. Understanding Bitcoin still starts with reading what the first block chose to say about the financial system it sought to exit."
+  },
+  {
+    "id": "2010-pizza",
+    "date": "2010-05",
+    "title": "Bitcoin pizza day",
+    "body": "10,000 BTC buys two pizzas. It looks absurd today, but it was an early moment of electronic cash buying goods. Price discovery is social—and early liquidity was tiny.\n\nThe pizza trade is remembered as a punchline, but it was a liquidity and UX experiment: can electronic cash clear a real-world purchase without a card network? Price discovery was informal; custody was experimental; the meme outlived the receipt.\n\nToday the story teaches two lessons. First, early markets are thin and anecdotes dominate. Second, spending versus holding is a personal policy choice—protocol rules do not dictate your opportunity cost."
+  },
+  {
+    "id": "2013-eth",
+    "date": "2013-11",
+    "title": "Ethereum idea",
+    "body": "Vitalik outlines a general-purpose smart-contract platform beyond digital cash. Developers would deploy arbitrary logic. The idea seeds ICOs, DeFi, and NFTs later.\n\nThe Ethereum vision shifted the question from “digital cash” to “programmable settlement.” If scripts can custody assets and compose, finance and games become software on a shared machine.\n\nThat ambition created new failure modes—reentrancy, oracle reliance, governance capture—but also the application surface most newcomers meet first. Reading this moment clarifies why gas, ABIs, and contract risk entered the vocabulary."
+  },
+  {
+    "id": "2015-eth-launch",
+    "date": "2015-07",
+    "title": "Ethereum launch",
+    "body": "Frontier ships programmable blockchain capability. Tools are rough and incidents frequent, yet finance and games begin moving on-chain. The EVM becomes a de facto multi-chain standard.\n\nFrontier was intentionally rough: prove the virtual machine in the wild, accept incidents, iterate tooling. Developers learned that deploying code is easy; reasoning about adversarial callers is hard.\n\nThe launch locked in the EVM as a magnet for tooling and later for “EVM-compatible” chains. Compatibility is not identical security—but shared mental models lowered the cost of experimentation worldwide."
+  },
+  {
+    "id": "2016-dao",
+    "date": "2016-06",
+    "title": "The DAO incident",
+    "body": "A massive early crowdfunding contract is exploited. The hard-fork debate splits ETH/ETC and teaches that “code is law” does not mean “code is bug-free.” Social consensus matters too.\n\nThe DAO hack forced a community to choose between immutability theater and social recovery of funds. The resulting ETH/ETC split is a permanent case study in how “code is law” collides with rough consensus.\n\nStudents should study both the technical exploit pattern and the governance process that followed. Smart contracts need audits and pause designs; communities need explicit fork norms before crises."
+  },
+  {
+    "id": "2017-ico",
+    "date": "2017",
+    "title": "ICO wave",
+    "body": "Token sales enable global fundraising—and industrial-scale scams. Regulators respond; retail pays tuition. Disclosure and compliance enter serious conversation.\n\nToken sales compressed global fundraising into a browser wallet. Capital formation sped up; disclosure often did not. Retail learned that a whitepaper PDF is not diligence, and regulators learned the same lesson from the other direction.\n\nThe wave left standards debates, exchange listing politics, and a lasting allergy to unbounded promises. Healthy skepticism about token launches is part of literacy, not anti-innovation."
+  },
+  {
+    "id": "2018-bear",
+    "date": "2018",
+    "title": "Crypto winter",
+    "body": "Prices fall from cycle highs; narrative-only projects vanish. Infra and research continue quietly. Winters are filters as much as tragedies.\n\nThe winter culled narrative-only tokens while quietly funding client diversity, wallet UX, and research that later cycles reused. Builders who stayed treated price as weather, not climate.\n\nFor learners: bear markets are when you can study mechanics without FOMO noise. Charts go quiet; documentation and source repos get more honest attention."
+  },
+  {
+    "id": "2020-defi",
+    "date": "2020",
+    "title": "DeFi summer",
+    "body": "Liquidity mining explodes lending and AMMs. Composability shines; oracle/liquidation/incentive problems surface. Users meet wallet-as-account finance at scale.\n\nLiquidity mining turned AMMs and money markets into growth loops. Composability meant a lending position could become collateral elsewhere within minutes—and so could cascading liquidations.\n\nDeFi summer taught oracle design, incentive sustainability, and the difference between APY screenshots and extractable fees. Wallet security became mainstream because the account was now a brokerage."
+  },
+  {
+    "id": "2021-nft",
+    "date": "2021-03",
+    "title": "NFT mainstream moment",
+    "body": "Digital art and PFPs hit mainstream media. Creators find new rails; speculation follows. After the froth, standards, royalties debates, and real communities remain.\n\nNFTs brought creators, brands, and speculative crowds onto the same rails. Metadata permanence, royalty enforcement, and wash trading debates followed the headlines.\n\nAfter the boom, durable questions remain: what exactly is owned, where does media live, and which communities survive without nonstop price appreciation? Culture and contracts intertwined permanently."
+  },
+  {
+    "id": "2021-l2",
+    "date": "2021",
+    "title": "Rollup acceleration",
+    "body": "Optimistic and ZK designs carry real traffic as users flee fees. Bridges and sequencers become new UX and risk centers. Scaling becomes a daily path, not a slide.\n\nUsers fleeing mainnet fees made rollups a daily path. Bridges and sequencers became the new support tickets: funds stuck mid-hop, downtime, and confusing finality clocks.\n\nScaling success is measured in safe exits and understandable trust assumptions, not only TPS slides. L2 literacy is now baseline Web3 literacy."
+  },
+  {
+    "id": "2022-merge",
+    "date": "2022-09",
+    "title": "The Merge",
+    "body": "Ethereum’s consensus switches to proof-of-stake while execution continues. Energy use drops; staking, MEV, and client diversity become central topics. A landmark engineering cutover.\n\nSwitching consensus without breaking execution was a rare large-system cutover. Energy narratives changed overnight; staking economics and MEV research moved to center stage.\n\nThe Merge shows that blockchains can evolve major subsystems with coordination. It also shows that “done” is never done—client diversity and censorship resistance remain ongoing work."
+  },
+  {
+    "id": "2022-contagion",
+    "date": "2022",
+    "title": "CeFi contagion",
+    "body": "Lending and fund chains break, exposing custody and maturity mismatches. Self-custody and PoR narratives rise. Platform balances are not chain assets.\n\nWhen CeFi lenders and funds failed, users rediscovered that IOUs are not UTXOs. Proof-of-reserves marketing rose alongside withdrawals queues.\n\nThe practical curriculum: know where keys live, size exchange balances deliberately, and treat yield that requires locking assets on a platform as credit risk."
+  },
+  {
+    "id": "2023-blobs",
+    "date": "2024-03",
+    "title": "Blob-era DA costs",
+    "body": "Blob data space cheapens L2 posting and user fees. The debate shifts toward sequencer decentralization and interoperability UX. Fees approach everyday usability.\n\nBlob space reframed L2 costs and made everyday transactions feel plausible again. Attention shifted to sequencer decentralization, shared bridges, and intent-based UX.\n\nCheap data availability is necessary but not sufficient for a safe multi-chain world. Users still need clear exit paths and honest risk labels."
+  },
+  {
+    "id": "2024-etf",
+    "date": "2024-01",
+    "title": "Spot Bitcoin ETFs",
+    "body": "US spot Bitcoin ETFs open brokerage access. Price discovery broadens with macro flows. Crypto enters traditional allocation conversations more deeply.\n\nBrokerage-wrapped Bitcoin changed who can allocate and how flows hit price discovery. Macro desks entered conversations that once lived only on crypto Twitter.\n\nETFs do not replace self-custody education; they add a parallel access path with traditional intermediaries. Both rails now shape the market."
+  },
+  {
+    "id": "2024-halving",
+    "date": "2024-04",
+    "title": "Fourth Bitcoin halving",
+    "body": "Subsidy falls to 3.125 BTC. Miners lean more on fees and long-term price. The schedule again shows issuance is protocol-defined.\n\nThe subsidy schedule again demonstrated issuance is political only inside the protocol rules—miners and markets adapt around a known calendar.\n\nHalvings are useful teaching tools for scarcity narratives, fee markets, and why security budgets eventually rely more on transaction demand."
+  },
+  {
+    "id": "2024-restake",
+    "date": "2024",
+    "title": "Restaking era",
+    "body": "Shared-security experiments expand with stacked yield and risk. Slash matrices and correlated failures enter mainstream discussion.\n\nRestaking packed more work onto the same economic bond. Shared security can be efficient; correlated slashing can be brutal.\n\nTreat restaking like leveraged infrastructure exposure: read operator set, slash conditions, and oracle/attestation assumptions before chasing points."
+  },
+  {
+    "id": "2025-aa",
+    "date": "2025",
+    "title": "Smart-account UX push",
+    "body": "Account-abstraction tooling reaches consumer wallets with sessions and sponsored gas. Some responsibility moves to guardians and modules. Seedless UX seeks balance with self-custody.\n\nAccount abstraction brought sponsored gas and social recovery into consumer wallets. Newcomers face fewer seed-phrase cliffs—and more module permission screens.\n\nThe next literacy wave is recovery drills, session-key scopes, and recognizing that convenience features are still authorization surfaces."
+  },
+  {
+    "id": "2025-rwa",
+    "date": "2025",
+    "title": "RWA expansion",
+    "body": "Tokenized T-bills and credit bring off-chain yield to on-chain settlement. Legal structure and redemption dominate diligence. DeFi treasuries gain “traditional” sleeves.\n\nTokenized treasuries made on-chain yield look familiar to traditional allocators. Legal wrappers and redemption desks became as important as Solidity.\n\nRWAs teach that “on-chain” can mean settlement fashion, not full disintermediation. Read custody and freeze policies with the same care as contract code."
+  },
+  {
+    "id": "2026-intent",
+    "date": "2026",
+    "title": "Intent-centric flows",
+    "body": "Users express outcomes; solvers compete on routes and quotes. UX simplifies while bridge risks remain underneath. Wallets and routers enter a new product race."
+  }
+]

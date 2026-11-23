@@ -1,0 +1,234 @@
+[
+  {
+    "id": "homograph",
+    "tag": "Peringatan",
+    "title": "Pertahanan homograf phishing",
+    "minutes": 5,
+    "summary": "Karakter serupa memalsukan domain resmi untuk memanen tanda tangan atau benih.",
+    "sections": [
+      {
+        "heading": "Seperti apa bentuknya",
+        "body": "Penyerang menukar karakter yang mirip secara visual ke dalam domain dan memasangkannya dengan iklan atau DM. UI-nya bisa menjadi piksel sempurna dan bahkan menunjukkan saldo palsu."
+      },
+      {
+        "heading": "Bagaimana cara mengenalinya",
+        "body": "Ketik URL atau gunakan bookmark. Periksa pemilik sertifikat. Jangan pernah mengklik iklan pencarian teratas untuk dompet/jembatan. Arahkan kursor ke tautan dan periksa subdomain yang aneh."
+      },
+      {
+        "heading": "Jika Anda mengklik",
+        "body": "Cabut persetujuan dan pindahkan sisa dana. Jika Anda mengetik benih, dompet itu akan terbakar—hanya simpanan ke benih baru. Simpan bukti untuk laporan."
+      }
+    ],
+    "checklist": [
+      "Tandai situs resmi",
+      "Lewati iklan pencarian",
+      "Periksa setiap karakter URL",
+      "Periksa ulang pada perangkat kedua untuk mengetahui ukurannya",
+      "Jangan pernah mengetikkan benih ke dalam halaman web"
+    ],
+    "body": "Karakter serupa memalsukan domain resmi untuk memanen tanda tangan atau benih."
+  },
+  {
+    "id": "seed",
+    "tag": "Kunci",
+    "title": "Panduan lengkap frase benih",
+    "minutes": 6,
+    "summary": "Benih Anda adalah kendali atas aset. Siapapun yang memintanya berarti bermusuhan.",
+    "sections": [
+      {
+        "heading": "Cadangan",
+        "body": "Tulis tangan dan periksa kembali pesanan; pertimbangkan pelat logam; membagi lokasi dengan hati-hati. Tidak ada foto, awan, atau aplikasi obrolan."
+      },
+      {
+        "heading": "Penipuan",
+        "body": "Halaman “Sinkronkan/verifikasi/upgrade/cairkan/airdrop” yang meminta 12/24 kata. Admin Discord palsu menggunakan skrip yang sama. Perangkat keras “pemeriksa keaslian” yang meminta benih adalah palsu."
+      },
+      {
+        "heading": "Warisan",
+        "body": "Jika tidak ada yang tahu rencananya, dana akan mati bersama Anda. Gunakan instruksi tersegel, pengacara, atau multisig. Jika dicurigai ada kebocoran, segera migrasi."
+      }
+    ],
+    "checklist": [
+      "Bibit hanya di media offline",
+      "Jangan katakan kata-kata itu kepada siapa pun",
+      "Jangan pernah memasukkannya ke perangkat jaringan",
+      "Perangkat keras + cadangan dingin untuk ukuran",
+      "Bermigrasi jika ada sinyal kebocoran"
+    ],
+    "body": "Benih Anda adalah kendali atas aset. Siapapun yang memintanya berarti bermusuhan."
+  },
+  {
+    "id": "approve",
+    "tag": "DeFi",
+    "title": "Menyetujui / memberi izin jebakan",
+    "minutes": 6,
+    "summary": "Persetujuan tidak langsung memindahkan token—persetujuan memungkinkan pengurasan di kemudian hari, terutama yang tidak terbatas.",
+    "sections": [
+      {
+        "heading": "Mekanika",
+        "body": "Transfer ERC-20Dari tunjangan kebutuhan. Persetujuan tanpa batas itu mudah; pembelanja yang berkompromi dapat mengosongkan Anda nanti. setApprovalForAll setara dengan NFT."
+      },
+      {
+        "heading": "Latihan yang aman",
+        "body": "Tunjangan yang tepat jika memungkinkan; mencabut secara rutin; uji protokol baru kecil. Perhatikan situs airdrop yang memerlukan Approve terlebih dahulu."
+      },
+      {
+        "heading": "Respons insiden",
+        "body": "Mencabut dan memindahkan dana. Prioritaskan pembelanja yang disebutkan dalam pengungkapan peretasan."
+      }
+    ],
+    "checklist": [
+      "Tolak persetujuan tak terbatas yang tidak diperlukan",
+      "Tinjau tunjangan setiap bulan",
+      "Cabut operator NFT yang tidak digunakan",
+      "Baca alamat pembelanja",
+      "Prioritaskan pembelanja protokol yang diretas"
+    ],
+    "body": "Persetujuan tidak langsung memindahkan token—persetujuan memungkinkan pengurasan di kemudian hari, terutama yang tidak terbatas."
+  },
+  {
+    "id": "fake-apps",
+    "tag": "Seluler",
+    "title": "Aplikasi dompet palsu",
+    "minutes": 5,
+    "summary": "Klon muncul di toko dan saluran sideload untuk mencuri benih atau perangkat kendali jarak jauh.",
+    "sections": [
+      {
+        "heading": "Menemukan barang palsu",
+        "body": "Cocokkan nama penerbit dengan postingan resmi; hati-hati aplikasi baru peringkat #1. Lebih suka tautan dari situs sebenarnya. APK yang dipindahkan lebih berisiko."
+      },
+      {
+        "heading": "Pengerasan",
+        "body": "Selalu perbarui OS; meminimalkan plugin; pertimbangkan telepon khusus. Gunakan perangkat keras untuk ukuran. Rencanakan kunci jarak jauh jika ponsel hilang."
+      },
+      {
+        "heading": "Setelah menginstal",
+        "body": "Jika seed dimasukkan ke dalam aplikasi palsu, lakukan kompromi dan migrasikan ke perangkat yang bersih."
+      }
+    ],
+    "checklist": [
+      "Instal dari saluran resmi",
+      "Verifikasi nama pengembang",
+      "Hindari APK acak",
+      "Ukuran pasangan dengan konfirmasi perangkat keras",
+      "Segera migrasi jika dipalsukan"
+    ],
+    "body": "Klon muncul di toko dan saluran sideload untuk mencuri benih atau perangkat kendali jarak jauh."
+  },
+  {
+    "id": "drainer",
+    "tag": "Penandatanganan",
+    "title": "Pengurasan tanda tangan & izin berbahaya",
+    "minutes": 7,
+    "summary": "Tidak diperlukan seed—tanda tangan terstruktur yang berbahaya dapat mengizinkan pengurasan.",
+    "sections": [
+      {
+        "heading": "Taktik",
+        "body": "Permintaan mint/klaim palsu setApprovalForAll, izin, atau “login”. Beberapa muatan terlihat kosong. Bot menyapu setelahnya."
+      },
+      {
+        "heading": "Pertahanan",
+        "body": "Hapus dompet penandatanganan, simulasi, tolak hal yang tidak diketahui. Hubungkan situs baru dengan burner terlebih dahulu. Periksa domain."
+      },
+      {
+        "heading": "Kemudian",
+        "body": "Cabut, selamatkan dana, peringatkan masyarakat, periksa rantai lain untuk mendapatkan persetujuan yang sama."
+      }
+    ],
+    "checklist": [
+      "Tolak tanda tangan yang buram",
+      "Aktifkan simulasi",
+      "Gunakan pembakar di situs baru",
+      "Cabut secara teratur",
+      "Tandai dApps asli"
+    ],
+    "body": "Tidak diperlukan seed—tanda tangan terstruktur yang berbahaya dapat mengizinkan pengurasan."
+  },
+  {
+    "id": "support",
+    "tag": "Sosial",
+    "title": "Dukungan palsu & rekayasa sosial",
+    "minutes": 5,
+    "summary": "Setelah Anda memposting kesalahan, peniru DM “membantu” meminta akses jarak jauh atau benih.",
+    "sections": [
+      {
+        "heading": "Buku pedoman",
+        "body": "Avatar kloning, urgensi, aplikasi kendali jarak jauh, atau instruksi setoran “kontrak aman”. Akun teman yang disusupi juga menyebarkan tautan."
+      },
+      {
+        "heading": "Aturan",
+        "body": "Tim nyata jarang DM terlebih dahulu untuk mengetahui rahasia. Gunakan tiket resmi/saluran umum. Verifikasi teman di luar band."
+      },
+      {
+        "heading": "Kebersihan",
+        "body": "Jangan pernah menempelkan benih di saluran publik—bahkan yang “ditutupi sebagian”."
+      }
+    ],
+    "checklist": [
+      "Abaikan DM dukungan dingin",
+      "Jangan memasang alat jarak jauh secara acak",
+      "Jangan pernah memberikan benih untuk mendukung",
+      "Verifikasi tautan teman aneh secara offline",
+      "Gunakan saluran bantuan resmi publik"
+    ],
+    "body": "Setelah Anda memposting kesalahan, peniru DM “membantu” meminta akses jarak jauh atau benih."
+  },
+  {
+    "id": "bridges",
+    "tag": "Rantai silang",
+    "title": "Keamanan jembatan",
+    "minutes": 6,
+    "summary": "Bridge adalah target peretasan teratas dan favorit phishing. Lebih cepat tidak lebih aman secara default.",
+    "sections": [
+      {
+        "heading": "Memilih",
+        "body": "Lebih suka jembatan kanonik dari dokumen resmi. Jembatan cepat dokter hewan untuk audit dan batasan. Pahami penundaan keluar."
+      },
+      {
+        "heading": "Beroperasi",
+        "body": "Tes kecil menyeluruh; verifikasi kontrak token tujuan; simpan hash. Jangan perlakukan pintu keluar dalam penerbangan sebagai margin bebas."
+      },
+      {
+        "heading": "Insiden",
+        "body": "Pada peretasan jembatan, ikuti pemberitahuan jeda resmi—bukan “skrip migrasi” DM."
+      }
+    ],
+    "checklist": [
+      "Tandai jembatan resmi",
+      "Uji kecil dulu",
+      "Verifikasi kontrak tujuan",
+      "Simpan hash tx",
+      "Abaikan skrip migrasi DM"
+    ],
+    "body": "Bridge adalah target peretasan teratas dan favorit phishing. Lebih cepat tidak lebih aman secara default."
+  },
+  {
+    "id": "devices",
+    "tag": "Operasi",
+    "title": "Kebersihan perangkat & browser",
+    "minutes": 5,
+    "summary": "Malware clipboard, ekstensi palsu, dan PC bersama adalah jalur pencurian sehari-hari.",
+    "sections": [
+      {
+        "heading": "Peramban",
+        "body": "Profil kripto khusus; perpanjangan resmi minimal; situs penanda. Gunakan mesin yang bersih untuk ukurannya."
+      },
+      {
+        "heading": "Sistem",
+        "body": "menambal OS; waspadalah terhadap “alat airdrop”; hindari pengisi daya umum yang tidak jelas. Selalu periksa kembali alamat yang ditempel."
+      },
+      {
+        "heading": "Pelapisan",
+        "body": "Panas untuk harian, dingin untuk tabungan, multisig untuk perbendaharaan mengalahkan satu dompet super."
+      }
+    ],
+    "checklist": [
+      "Profil browser terpisah",
+      "Ekstensi daftar putih",
+      "Periksa kembali alamat yang ditempel",
+      "Terus perbarui OS",
+      "Bagi dana berdasarkan peran"
+    ],
+    "body": "Malware clipboard, ekstensi palsu, dan PC bersama adalah jalur pencurian sehari-hari."
+  }
+]

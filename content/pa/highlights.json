@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# ਗੈਸ ਫੀਸ"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# ਬੀਜ-ਵਾਕਾਂਸ਼ ਘਪਲੇ"
+  },
+  {
+    "id": "layer2",
+    "label": "# ਪਰਤ 2"
+  },
+  {
+    "id": "approve",
+    "label": "# ਮਨਜ਼ੂਰ / ਭੱਤਾ"
+  }
+]

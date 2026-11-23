@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Web3 Knowledge Infrastructure",
+    "badge": "Security First"
+  },
+  "nav": {
+    "explore": "Chunguza",
+    "ecosystem": "Ikolojia",
+    "news": "Habari",
+    "chronicle": "Historia",
+    "security": "Usalama",
+    "glossary": "Kamusi"
+  },
+  "hero": {
+    "kicker": "8 ECOSYSTEM LAYERS · TAP TO LEARN",
+    "titleLine1": "The Internet Is Changing.",
+    "titleLine2": "Map What Comes Next.",
+    "subtitle": "Discover networks, protocols and ideas shaping Web3 — built for clarity, not hype.",
+    "ctaPrimary": "Explore the Ecosystem",
+    "ctaSecondary": "Open Security Center",
+    "pause": "Pause animation",
+    "play": "Play animation"
+  },
+  "sections": {
+    "ecosystem": "01 · ECOSYSTEM",
+    "ecosystemTitle": "Explore by category",
+    "ecosystemDesc": "Eight layers of Web3. Open one to see concepts and real-world patterns.",
+    "openExplorer": "Open explorer",
+    "news": "02 · SIGNAL",
+    "newsTitle": "What's moving",
+    "newsDesc": "Curated headlines that help you follow infrastructure, markets and regulation.",
+    "allHeadlines": "All headlines",
+    "glossary": "03 · LEXICON",
+    "glossaryTitle": "Speak the language",
+    "glossaryDesc": "Fast definitions for terms you will see every day on-chain.",
+    "openGlossary": "Open glossary",
+    "security": "04 · DEFENSE",
+    "securityTitle": "Stay hard to hack",
+    "securityDesc": "Short briefings on phishing, approvals, seed phrases and fake apps.",
+    "securityCenter": "Security center",
+    "chronicle": "05 · TIMELINE",
+    "chronicleTitle": "How we got here",
+    "chronicleDesc": "A concise chronicle from whitepaper to ETFs and beyond.",
+    "fullChronicle": "Full chronicle",
+    "quiz": "06 · CHALLENGE",
+    "quizTitle": "Stress-test what you know",
+    "quizDesc": "Ten quick questions. No account. Just sharper instincts.",
+    "startQuiz": "Start the challenge",
+    "shuffle": "Shuffle"
+  },
+  "common": {
+    "readMore": "Soma zaidi",
+    "back": "Rudi",
+    "search": "Search",
+    "items": "items",
+    "minRead": "{m} min read",
+    "language": "Lugha",
+    "followIp": "Lugha inafuata eneo lako (IP).",
+    "fallbackNote": "Full article language unavailable — showing English.",
+    "noResults": "No matches.",
+    "useful": "Useful",
+    "useIpLanguage": "Tumia lugha ya IP",
+    "ipActive": "inatumika",
+    "manualOverride": "Manual override"
+  },
+  "ecosystemPage": {
+    "title": "Ecosystem Explorer",
+    "subtitle": "Browse eight layers — from base chains to DAOs."
+  },
+  "newsPage": {
+    "title": "Signal Desk",
+    "subtitle": "Curated Web3 headlines for builders and curious readers."
+  },
+  "chroniclePage": {
+    "title": "Chronicle",
+    "subtitle": "A timeline of moments that reshaped digital money and networks."
+  },
+  "securityPage": {
+    "title": "Security Center",
+    "subtitle": "Practical defenses for wallets, approvals and social engineering."
+  },
+  "glossaryPage": {
+    "title": "Glossary",
+    "subtitle": "Plain-language definitions for on-chain vocabulary.",
+    "placeholder": "Filter terms…"
+  },
+  "quiz": {
+    "correct": "Correct",
+    "wrong": "Not quite",
+    "next": "Next",
+    "restart": "Restart",
+    "score": "Score: {score}/{total}",
+    "done": "Challenge complete"
+  },
+  "article": {
+    "keyPoints": "Key points",
+    "tips": "Practical tips",
+    "checklist": "Checklist",
+    "expand": "Expand explain",
+    "collapse": "Collapse"
+  },
+  "intro": {
+    "headline": "Web3 & maarifa ya crypto - jifunze kwa uwazi, sio hype",
+    "body": "Web3Atlas ni kitovu cha elimu, si programu ya biashara. Chunguza ramani ya mfumo ikolojia, fuata mawimbi yaliyoratibiwa, soma historia, fanya mazoezi ya usalama wa pochi, fungua faharasa, na ujijaribu kwa maswali - uwazi juu ya uvumi.",
+    "point1": "Ramani ya mfumo wa ikolojia: blockchain, DeFi, NFT, L2, pochi, DAO",
+    "point2": "Ishara na historia: vichwa vya habari pamoja na historia muhimu",
+    "point3": "Kituo cha usalama: hadaa, mbegu, idhini",
+    "point4": "Faharasa & chemsha bongo: maneno wazi unaweza kufungua na kufanya mazoezi",
+    "hint": "Gonga hapa chini ili kuendelea",
+    "enter": "Anza kuchunguza",
+    "loading": "Inapakia"
+  },
+  "safariGate": {
+    "note": "Baada ya kufungua ukurasa huu katika Safari, tovuti huendeshwa kama kawaida - na arifa hii hubakia siri. Safari inatoa mwingiliano laini na rangi tajiri.",
+    "openSafari": "Fungua na Safari",
+    "copied": "Kiungo kimenakiliwa. Ibandike kwenye Safari ili kuendelea."
+  }
+}

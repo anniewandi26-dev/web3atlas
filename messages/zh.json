@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Web3 知识基础设施",
+    "badge": "安全优先"
+  },
+  "nav": {
+    "explore": "探索",
+    "ecosystem": "生态",
+    "news": "资讯",
+    "chronicle": "编年",
+    "security": "安全",
+    "glossary": "词库"
+  },
+  "hero": {
+    "kicker": "八大生态层 · 点选即学",
+    "titleLine1": "互联网正在改写。",
+    "titleLine2": "绘制下一版图。",
+    "subtitle": "用清晰结构读懂网络、协议与 Web3 想法——去炒作，重认知。",
+    "ctaPrimary": "进入生态图谱",
+    "ctaSecondary": "打开安全中心",
+    "pause": "暂停动画",
+    "play": "播放动画"
+  },
+  "sections": {
+    "ecosystem": "01 · 生态",
+    "ecosystemTitle": "按类别探索",
+    "ecosystemDesc": "Web3 的八个层次。点开即可看到概念与真实模式。",
+    "openExplorer": "打开图谱",
+    "news": "02 · 信号",
+    "newsTitle": "正在发生什么",
+    "newsDesc": "精选头条，帮你跟上基础设施、市场与监管。",
+    "allHeadlines": "全部头条",
+    "glossary": "03 · 词库",
+    "glossaryTitle": "说同一种语言",
+    "glossaryDesc": "链上日常术语的快速释义。",
+    "openGlossary": "打开词库",
+    "security": "04 · 防御",
+    "securityTitle": "让自己更难被骗",
+    "securityDesc": "钓鱼、授权、助记词与假 App 的短训。",
+    "securityCenter": "安全中心",
+    "chronicle": "05 · 时间线",
+    "chronicleTitle": "我们如何走到今天",
+    "chronicleDesc": "从白皮书到 ETF 的简明编年。",
+    "fullChronicle": "完整编年",
+    "quiz": "06 · 挑战",
+    "quizTitle": "测测你的直觉",
+    "quizDesc": "十道快问。无需账号，只为更锋利的判断。",
+    "startQuiz": "开始挑战",
+    "shuffle": "打乱"
+  },
+  "common": {
+    "readMore": "阅读更多",
+    "back": "返回",
+    "search": "搜索",
+    "items": "项",
+    "minRead": "约 {m} 分钟",
+    "language": "语言",
+    "followIp": "默认按访问 IP 地区显示语言；可手动切换，也可一键恢复跟 IP。",
+    "fallbackNote": "暂无该语言全文，已显示英文。",
+    "noResults": "没有匹配结果。",
+    "useful": "有用",
+    "useIpLanguage": "跟随 IP / 地区语言",
+    "ipActive": "已启用",
+    "manualOverride": "手动覆盖"
+  },
+  "ecosystemPage": {
+    "title": "生态图谱",
+    "subtitle": "浏览八层结构——从底层链到 DAO。"
+  },
+  "newsPage": {
+    "title": "信号台",
+    "subtitle": "给建设者与好奇读者的精选 Web3 头条。"
+  },
+  "chroniclePage": {
+    "title": "编年史",
+    "subtitle": "改写数字货币与网络的关键节点。"
+  },
+  "securityPage": {
+    "title": "安全中心",
+    "subtitle": "钱包、授权与社会工程的实用防线。"
+  },
+  "glossaryPage": {
+    "title": "词库",
+    "subtitle": "用白话解释链上词汇。",
+    "placeholder": "筛选术语…"
+  },
+  "quiz": {
+    "correct": "正确",
+    "wrong": "再想想",
+    "next": "下一题",
+    "restart": "再来一次",
+    "score": "得分：{score}/{total}",
+    "done": "挑战完成"
+  },
+  "article": {
+    "keyPoints": "核心要点",
+    "tips": "实操建议",
+    "checklist": "安全清单",
+    "expand": "展开讲解",
+    "collapse": "收起讲解"
+  },
+  "intro": {
+    "headline": "Web3 / 加密货币知识——去炒作，重认知",
+    "body": "Web3Atlas 是学习站，不是交易工具。在这里看生态图谱、跟进资讯信号、阅读编年史、练习钱包安全、打开词库，并用小测验检验理解。",
+    "point1": "生态图谱：区块链、DeFi、NFT、Layer2、钱包、DAO",
+    "point2": "资讯信号与编年史：动态解读 + 关键节点",
+    "point3": "安全中心：防钓鱼、助记词、授权习惯",
+    "point4": "词库与测验：白话术语，点进去就能学",
+    "hint": "点击下方按钮继续",
+    "enter": "开始探索",
+    "loading": "加载中"
+  },
+  "safariGate": {
+    "note": "此页面在 Safari 浏览器中打开后，网站即可正常运行，并且将此信息保持隐藏状态。使用 Safari 操作更顺畅，色彩观感也更完整。",
+    "openSafari": "使用 Safari 浏览器打开",
+    "copied": "链接已复制，请到 Safari 中粘贴打开。"
+  }
+}

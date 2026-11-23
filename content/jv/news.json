@@ -1,0 +1,86 @@
+[
+  {
+    "id": "n1",
+    "date": "2026-03-12",
+    "title": "L2 komprèsi ragad terus",
+    "summary": "Pasar blob lan batching sing luwih apik njaga transfer rollup utama cedhak sen. Pembayaran mikro dadi luwih gampang - pendidikan keamanan kudu tetep.",
+    "body": "Ing taun kepungkur, upgrade kasedhiyan data lan batching sing luwih kenceng wis nyurung transfer khas ing rollups utama menyang biaya tingkat sen. Apa sing dirasakake kaya jaringan mewah kanggo perdagangan gedhe dadi bisa digunakake kanggo tumindak game, tips, lan pangaturan DeFi cilik. \n\nBlockspace sing luwih murah ngganti prilaku pangguna. Wong luwih kerep nggawe jembatan, nyoba luwih akeh kontrak, lan ngeklik dompet kanthi luwih cepet. Penak kasebut minangka kemajuan nyata-lan uga nggedhekake radius jeblugan situs phishing, persetujuan tanpa wates, lan token sing mirip. \n\nKanggo tukang bangunan, kompresi ragad minangka bukak kunci produk: arus onboarding ora mati maneh amarga kejut stiker gas. Kanggo siswa, daftar priksa tetep sekolah lawas: verifikasi domain, simulasi transaksi, luwih seneng tunjangan winates, lan nganggep jembatan minangka kelas risiko sing kapisah sanajan L2 dhewe murah. \n\nTakeaway praktis: ngrameke biaya murah, nanging pasangake saben pakulinan anyar karo pakulinan keamanan. Transfer paling murah isih larang yen ngirim dana menyang alamat sing salah utawa mbuwang tanpa wates."
+  },
+  {
+    "id": "n2",
+    "date": "2026-02-28",
+    "title": "Akun pinter tekan dompet konsumen",
+    "summary": "Tombol sesi lan gas sing disponsori tekan UX seluler mainstream. Wali lan modul dadi lumahing safety anyar.",
+    "body": "Abstraksi akun ora mung dadi topik riset. Dompet konsumen saya tambah akeh ngirim akun cerdas kanthi kunci sesi, pemulihan sosial, lan sponsor gas supaya wong anyar bisa tumindak tanpa mburu token gas dhisik. \n\nLompatan UX kasebut nggawe model mental anyar. Tinimbang siji wiji sing ngontrol siji EOA ing salawas-lawase, pangguna bisa ngandelake wali, modul, paymaster, lan ijin sementara. Recovery salah konfigurasi utawa modul angkoro bisa ngunci utawa saluran akun tanpa bocor winih klasik. \n\nTim kudu nyathet latihan pemulihan cara bank-bank ngrekam kertu sing ilang. Pangguna kudu ngerti sapa sing dadi wali, apa kunci sesi bisa digunakake, lan carane mbatalake modul. \"Tanpa wiji\" ora ateges \"tanpa resiko\". \n\nYen sampeyan nggunakake akun pinter: miwiti karo saldo cilik, nyoba Recovery ing dompet cadangan, lan maca ijin modul sadurunge mbisakake fitur penak."
+  },
+  {
+    "id": "n3",
+    "date": "2026-02-10",
+    "title": "Laporan dana RWA cathetan on-chain AUM",
+    "summary": "Tokenized T-bills nggawa kurva ngasilaken sing akrab ing rantai. Penebusan lan hak asuh hukum tetep dadi tes stres sing nyata.",
+    "body": "Perbendaharaan token lan produk sing padha karo awis terus narik AUM on-chain amarga padha peta menyang arus kas sing wis dingerteni wong. Pemukiman bisa kedadeyan ing rel crypto nalika crita ekonomi katon luwih cedhak karo eksposur pasar dhuwit tradisional. \n\nBagean sing angel ora ana rantai. Sapa sing nyekel dhasar? Sepira cepet sampeyan bisa nebus kanthi gupuh? Apa sing kedadeyan yen mitra perbankan gagal, utawa yen watesan transfer beku dompet sampeyan? Saldo on-chain ≠ dhuwit cepet ing tangan. \n\nPembaca kudu misahake risiko protokol saka sing ngetokake sekuritas lan risiko tahanan. Kontrak cerdas sing resik ora ndandani bungkus legal sing lemah. Gambar APR tanpa aturan penebusan yaiku marketing, ora rajin. \n\nGunakake RWAs minangka lumahing sinau kanggo cadangan, bukti, lan yurisdiksi-ora mung minangka baris asil ing app portofolio."
+  },
+  {
+    "id": "n4",
+    "date": "2026-01-22",
+    "title": "Pemecah maksud nggedhekake jangkoan",
+    "summary": "Swap cross-chain ndhelikake rute ing mburi siji teken nalika solvers saingan. Ngerti aturan mbalekaken lan paling awon-slippage.",
+    "body": "Dagang adhedhasar maksud ngidini pangguna mlebu apa sing dikarepake - \"tukar A kanggo paling ora B kanthi wektu T\" - nalika pemecah saingan kanggo ngisi rute kasebut. Antarmuka luwih cedhak karo checkout tinimbang bridge-hopping manual. \n\nIng hood, kreteg multi-hop, DEX pools, lan inventarisasi solver isih bisa nindakake path. Gagal, isi parsial, lan kahanan mbalekaken penting minangka dalan seneng. Kutipan cantik bisa ndhelikake likuiditas tipis utawa hop penengah sing agresif. \n\nSadurunge mlebu, priksa tanggal pungkasan, output minimal, rantai sing didemek, lan apa sing kedadeyan yen solver ora bisa ngrampungake. Luwih milih papan sing nyimulasi lan nerangake rute kasebut kanthi basa biasa. \n\nIntents nyuda klik; padha ora mbusak struktur pasar. Nambani minangka otomatisasi sing kuat kanthi setelan kasus paling elek sing eksplisit."
+  },
+  {
+    "id": "n5",
+    "date": "2026-01-05",
+    "title": "Restaking framework risiko diwasa",
+    "summary": "Operator nerbitake matriks slashing sing luwih jelas nalika keamanan sing dienggo bareng mundhak. Mbandhingake asil mung karo skenario miring sing kalebu.",
+    "body": "Restaking nggunakake maneh modal staked kanggo ngamanake layanan ekstra. Efisiensi atraktif: jaminan sing padha menehi jaminan luwih akeh karya. Korelasi minangka biaya - siji operator gagal utawa kondisi garis miring sing ambigu bisa nyebabake akeh asil lapisan bebarengan. \n\nPambocoran operator sing luwih cetha lan matriks slash mbantu, nanging sing maca isih kudu peta sing bisa motong sapa, ing bukti apa, lan karo apa proses sosial overrides. \"Asil tambahan\" tanpa crita gagal ora lengkap. \n\nYen sampeyan retake maneh, posisi ukuran kanggo drawdowns hubungan, diversifikasi operator yen bisa, lan luwih seneng layanan karo ngawasi transparent. Leverage ing keamanan konsensus isih pengaruh. \n\nKedewasaan kerangka minangka kemajuan; watesan resiko pribadi tetep proyek."
+  },
+  {
+    "id": "n6",
+    "date": "2025-12-18",
+    "title": "Dasbor PoR Exchange nggedhekake",
+    "summary": "Panggonan liyane ngirim bukti terus-terusan sawise gagal CeFi. Transparansi mbantu; ditahan dhewe isih penting kanggo ukuran.",
+    "body": "Dasbor bukti cadangan dadi produk kepercayaan sawise sawetara CeFi ambruk. Kesaksian terus-terusan lan kaca dompet umum nggawe luwih angel ndhelikake skema pecahan mentah-paling ora kanggo aset sing dipilih kanggo ditampilake. \n\nPoR dudu audit lengkap tanggung jawab, entitas hukum, utawa kontrol operasional. Dashboard ijo bisa urip bebarengan karo penarikan beku, utang sing didhelikake, utawa dompet panas sing dikompromi. Nambani minangka siji sinyal ing antarane akeh. \n\nKanggo saldo sampeyan ora bisa kanggo strand, jadwal withdrawals periodik kanggo poto-tahan. Tansah akun ijol-ijolan kanggo likuiditas lan ramp fiat, ora minangka kubah permanen. \n\nPiranti transparan nambah pasar; padha ora ngganti kebersihan pribadi."
+  },
+  {
+    "id": "n7",
+    "date": "2025-11-30",
+    "title": "biaya prover ZK mudhun maneh",
+    "summary": "Hardware lan algoritma murah bukti validitas. Branding \"ZK\" isih perlu sequencer lan nliti jembatan.",
+    "body": "Prover hardware lan algoritma dandan tetep nglereni biaya bukti validitas, nggawe ZK-gaya rollups luwih praktis kanggo komputasi umum. Biaya bukti sing luwih murah ndhukung desain L2 sing luwih jembar lan narasi finalitas sing luwih cepet. \n\nPemasaran asring ambruk akeh pitakonan kepercayaan menyang tembung \"ZK.\" Pangguna isih gumantung marang urutan, jembatan, tombol upgrade, lan kasedhiyan data. Bukti sing murah babagan kabijakan kumpulan angkoro ora mbantu sampeyan. \n\nNalika ngevaluasi produk ZK, takon apa sing wis kabukten, sing bisa nganyarke, cara kerjane inklusi sing dipeksa, lan kepiye carane metu ing stres. Sistem bukti minangka siji lapisan ing tumpukan. \n\nBukti sing luwih murah minangka warta infrastruktur sing apik banget - pasangake karo skeptisisme operasional sing padha sing sampeyan gunakake ing papan liya."
+  },
+  {
+    "id": "n8",
+    "date": "2025-11-08",
+    "title": "Simulasi dompet dadi standar",
+    "summary": "Simulasi preflight ngethok saluran sing disetujoni buta. Dalan sing rumit isih bisa diterangake - nolak apa sing sampeyan ora ngerti.",
+    "body": "Simulasi transaksi lan UI teken luwih cetha dadi totoan meja. Nuduhake bedane aset sadurunge konfirmasi nyegah akeh saluran persetujuan buta klasik sing nate katon kaya klik \"konfirmasi\" rutin. \n\nSimulasi mung apik minangka dekoding lan negara chain dianggep. Kontrak sing ora biasa, modul khusus, utawa maksud multi-langkah bisa uga ora apik. Yen pratinjau kosong utawa kontradiktif, iki minangka tandha mandheg - dudu kesalahan cilik. \n\nGabungan simulasi karo kebiasaan dhaptar sing diidini: aplikasi tetenger, verifikasi alamat kontrak, lan njabut tunjangan basi. Piranti nyuda tingkat kesalahan; padha ora nggawe maksud kanggo sampeyan. \n\nAturan standar: yen sampeyan ora bisa nerangake owah-owahan negara ing siji ukara, aja mlebu."
+  },
+  {
+    "id": "n9",
+    "date": "2025-10-21",
+    "title": "Volume pemukiman Stablecoin mundhak",
+    "summary": "Dolar on-chain tetep dadi tenaga kerja kanggo pasangan lan kiriman dhuwit. Diversifikasi sing ngetokake sekuritas lan sinau risiko cadangan.",
+    "body": "Stablecoins terus ndominasi volume pemukiman amarga nawakake unit kaya dolar kanthi rel crypto. Pasangan dagang, koridor kiriman dhuwit, lan eksperimen gaji kabeh gumantung minangka unit akun praktis. \n\nProduct-market fit konsentrasi risiko ing sing ngetokake sekuritas, bank, lan kabijakan pembekuan. Tindakan depeg utawa kepatuhan bisa nyegah strategi sing dianggep sampurna 1:1 ing salawas-lawase. Diversifikasi sing ngetokake sekuritas lan mangerteni kualitas atestasi minangka bagean saka literasi, dudu paranoia. \n\nKanggo panggunaan saben dina, luwih seneng cadangan sing didokumentasikake kanthi apik lan jalur tebusan sing jelas. Kanggo sinau, mbandhingake desain sing didhukung fiat, sing didhukung crypto, lan algoritma kanthi mode kegagalan - dudu logo. \n\nWutah volume tegese kandang minangka infrastruktur. Infrastruktur pantes mboseni, review risiko bola-bali."
+  },
+  {
+    "id": "n10",
+    "date": "2025-10-02",
+    "title": "Alat DAO nambah veto UX",
+    "summary": "Dasbor Timelock lan peran wali mbantu nyekel usulan sing ala. Pamrentahan minangka bagean saka model keamanan.",
+    "body": "Antarmuka DAO tambah akeh wektu, veto wali, lan beda proposal sing bisa diwaca. Sing penting amarga serangan pamrentah bisa ngosongake perbendaharaan kanthi efektif kaya bug kontrak-mung nganggo UI voting tinimbang skrip eksploitasi. \n\nPerkakas sing luwih apik mbantu para delegasi nemtokake owah-owahan parameter, hibah token, lan nganyarke telpon sadurunge eksekusi. Ora ndandani jumlah sing sithik, tuku swara sing didhelikake, utawa proses darurat sing cepet-cepet. \n\nYen sampeyan duwe kekuwatan pamrentah, anggep voting kaya akses produksi: verifikasi muatan, ngenteni wektu kunci, lan luwih milih ijin sing sempit. Penonton kudu nglacak manawa wali iku umum lan tanggung jawab. \n\nKeamanan kanggo DAO kalebu proses sosial. Dashboards perlu; skeptisisme tetep dibutuhake."
+  },
+  {
+    "id": "n11",
+    "date": "2025-09-14",
+    "title": "Studios ngirim persediaan hibrida",
+    "summary": "Item langka sing ana ing rantai nalika pertempuran wektu nyata tetep ora ana rantai. Kabijakan mateni nemtokake jarak \"dhewe\".",
+    "body": "Studio game tetep sistem pamisah: pertempuran kuoso lan matchmaking ing server low-latency, Kosmetik langka utawa mata uang minangka persediaan on-chain. Pemain entuk tradability tanpa meksa saben tumindak liwat mempool. \n\nDesain hibrida tegese kepercayaan hibrida. Sampeyan bisa uga duwe pedhang token nalika isih gumantung ing server supaya bisa migunani. Yen studio mati, tawaran pasar ora bisa mulihake logika game dhewe. \n\nWaca kabijakan item: Apa aset bisa pindhah? Apa metadata bisa diowahi? Sapa sing bisa beku inventaris? \"On-chain\" dudu jaminan lengkap sarana. \n\nGame hibrida minangka dalan sing nyata-mung ngukur klaim kepemilikan marang ketergantungan server kanthi jujur."
+  },
+  {
+    "id": "n12",
+    "date": "2025-08-29",
+    "title": "Pusat pendidikan mimpin kanthi keamanan",
+    "summary": "Produk sinau ngajari phishing lan persetujuan sadurunge ngasilake pariwisata. Urip pisanan minangka sinyal kedewasaan sing nyata.",
+    "body": "Platform pendidikan liyane saiki mbukak kanthi phishing, persetujuan, lan kebersihan wiji sadurunge tutorial tani. Pesenan kasebut nggambarake pengalaman industri sing menang: kawruh sing ora nggawe sampeyan solvent ora lengkap. \n\nKurikulum keamanan-pisanan isih mbutuhake kedalaman babagan pasar, protokol, lan sejarah-nanging urutane penting. Pangguna sing sinau nolak DM dhukungan palsu isih bakal sinau babagan AMM mengko. \n\nWeb3Atlas ngetutake bias sing padha: peta lan glosarium dipasangake karo kabiasaan pertahanan. Nambani latihan safety minangka isi inti, dudu lampiran. \n\nKadewasan punika compounding kaslametané. Ngasilake gambar opsional; disiplin ditahan ora."
+  }
+]

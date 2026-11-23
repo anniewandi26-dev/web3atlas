@@ -1,0 +1,234 @@
+[
+  {
+    "id": "homograph",
+    "tag": "Alerta",
+    "title": "Defensa contra phishing homógrafo",
+    "minutes": 5,
+    "summary": "Personajes parecidos falsifican dominios oficiales para recolectar firmas o semillas.",
+    "sections": [
+      {
+        "heading": "lo que parece",
+        "body": "Los atacantes intercambian caracteres visualmente similares en dominios y los vinculan con anuncios o mensajes directos. La interfaz de usuario puede tener píxeles perfectos e incluso mostrar saldos falsos."
+      },
+      {
+        "heading": "como detectarlo",
+        "body": "Escriba URL o utilice marcadores. Verifique los propietarios de los certificados. Nunca haga clic en el anuncio de búsqueda superior de billeteras/puentes. Pase el cursor sobre los enlaces e inspeccione los subdominios impares."
+      },
+      {
+        "heading": "Si hiciste clic",
+        "body": "Revocar aprobaciones y transferir los fondos restantes. Si escribiste una semilla, esa billetera se quema; rescata solo una semilla nueva. Guarde evidencia para los informes."
+      }
+    ],
+    "checklist": [
+      "Marcar sitios oficiales",
+      "Saltar anuncios de búsqueda",
+      "Inspeccionar cada carácter de URL",
+      "Verifique el tamaño en un segundo dispositivo",
+      "Nunca escribas semillas en páginas web."
+    ],
+    "body": "Personajes parecidos falsifican dominios oficiales para recolectar firmas o semillas."
+  },
+  {
+    "id": "seed",
+    "tag": "Llaves",
+    "title": "Guía completa de frases iniciales.",
+    "minutes": 6,
+    "summary": "Tu semilla es el control de los activos. Cualquiera que lo solicite es hostil.",
+    "sections": [
+      {
+        "heading": "Copias de seguridad",
+        "body": "Escribir a mano y volver a verificar el pedido; considere placas de metal; divida las ubicaciones con cuidado. Sin fotos, nubes ni aplicaciones de chat."
+      },
+      {
+        "heading": "Estafas",
+        "body": "Páginas de “Sincronización/verificar/actualizar/descongelar/lanzar desde el aire” que solicitan entre 12 y 24 palabras. Los administradores falsos de Discord usan el mismo script. Los “comprobadores de autenticidad” de hardware que solicitan semillas son falsos."
+      },
+      {
+        "heading": "Herencia",
+        "body": "Si nadie conoce el plan, los fondos mueren contigo. Utilice instrucciones selladas, abogados o multifirma. Si sospecha una fuga, migre inmediatamente."
+      }
+    ],
+    "checklist": [
+      "Semillas solo en medios fuera de línea",
+      "No le digas las palabras a nadie",
+      "Nunca las ingrese en un dispositivo en red",
+      "Hardware + respaldo en frío para el tamaño",
+      "Migrar ante cualquier señal de fuga"
+    ],
+    "body": "Tu semilla es el control de los activos. Cualquiera que lo solicite es hostil."
+  },
+  {
+    "id": "approve",
+    "tag": "DeFi",
+    "title": "Aprobar / permitir trampas",
+    "minutes": 6,
+    "summary": "Las aprobaciones no mueven los tokens inmediatamente; permiten drenajes posteriores, especialmente los ilimitados.",
+    "sections": [
+      {
+        "heading": "Mecánica",
+        "body": "Transferencia ERC-20De asignación de necesidades. Las aprobaciones infinitas son convenientes; los gastadores comprometidos pueden vaciarlo más tarde. setApprovalForAll es el equivalente de NFT."
+      },
+      {
+        "heading": "Práctica segura",
+        "body": "Asignaciones exactas cuando sea posible; revocar de forma rutinaria; probar nuevos protocolos pequeños. Mire los sitios de lanzamiento aéreo que requieren Aprobar primero."
+      },
+      {
+        "heading": "Respuesta a incidentes",
+        "body": "Revocar y mover fondos. Priorice a los gastadores nombrados en las divulgaciones de piratería."
+      }
+    ],
+    "checklist": [
+      "Rechazar aprobaciones ilimitadas innecesarias",
+      "Revisar asignaciones mensualmente",
+      "Revocar operadores NFT no utilizados",
+      "Leer direcciones de gastadores",
+      "Priorizar a los gastadores de protocolos pirateados"
+    ],
+    "body": "Las aprobaciones no mueven los tokens inmediatamente; permiten drenajes posteriores, especialmente los ilimitados."
+  },
+  {
+    "id": "fake-apps",
+    "tag": "Móvil",
+    "title": "Aplicaciones de billetera falsa",
+    "minutes": 5,
+    "summary": "Los clones aparecen en tiendas y canales de descarga para robar semillas o dispositivos de control remoto.",
+    "sections": [
+      {
+        "heading": "Detectar falsificaciones",
+        "body": "Haga coincidir los nombres de los editores con las publicaciones oficiales; Tenga cuidado con las aplicaciones nuevas que ocupan el puesto número 1. Prefiere enlaces del sitio real. Los APK descargados son más riesgosos."
+      },
+      {
+        "heading": "Endurecimiento",
+        "body": "Mantenga el sistema operativo actualizado; minimizar complementos; Considere un teléfono dedicado. Utilice hardware para el tamaño. Planifique un bloqueo remoto si se pierde el teléfono."
+      },
+      {
+        "heading": "Después de la instalación",
+        "body": "Si se ingresó una semilla en una aplicación falsa, asuma un compromiso y migre en un dispositivo limpio."
+      }
+    ],
+    "checklist": [
+      "Instalar desde canales oficiales",
+      "Verificar los nombres de los desarrolladores",
+      "Evite los APK aleatorios",
+      "El tamaño del par con el hardware lo confirma.",
+      "Migrar inmediatamente si es falso"
+    ],
+    "body": "Los clones aparecen en tiendas y canales de descarga para robar semillas o dispositivos de control remoto."
+  },
+  {
+    "id": "drainer",
+    "tag": "Firma",
+    "title": "Drenadores de firmas y permisos maliciosos",
+    "minutes": 7,
+    "summary": "No se requiere semilla: las firmas estructuradas maliciosas pueden autorizar drenajes.",
+    "sections": [
+      {
+        "heading": "Táctica",
+        "body": "Solicitudes de mentas/reclamaciones falsas setApprovalForAll, permisos o \"inicios de sesión\". Algunas cargas útiles parecen en blanco. Los robots barren después."
+      },
+      {
+        "heading": "Defensa",
+        "body": "Borrar carteras de firma, simulación, rechazar incógnitas. Primero conecte nuevos sitios con un quemador. Consultar dominios."
+      },
+      {
+        "heading": "Después",
+        "body": "Revocar, rescatar fondos, advertir a las comunidades, consultar otras cadenas por las mismas aprobaciones."
+      }
+    ],
+    "checklist": [
+      "Rechazar firmas opacas",
+      "Habilitar simulación",
+      "Utilice un grabador en sitios nuevos",
+      "Revocar regularmente",
+      "Agregar dApps reales a favoritos"
+    ],
+    "body": "No se requiere semilla: las firmas estructuradas maliciosas pueden autorizar drenajes."
+  },
+  {
+    "id": "support",
+    "tag": "Social",
+    "title": "Soporte falso e ingeniería social",
+    "minutes": 5,
+    "summary": "Después de publicar un error, los imitadores envían \"ayuda\" por mensaje privado solicitando acceso remoto o semillas.",
+    "sections": [
+      {
+        "heading": "el libro de jugadas",
+        "body": "Avatares clonados, urgencia, aplicaciones de control remoto o instrucciones de depósito de “contrato seguro”. Las cuentas de amigos comprometidas también difunden enlaces."
+      },
+      {
+        "heading": "Normas",
+        "body": "Los equipos reales rara vez envían mensajes directos primero en busca de secretos. Utilice entradas oficiales/canales públicos. Verificar amigos fuera de banda."
+      },
+      {
+        "heading": "Higiene",
+        "body": "Nunca pegue semillas en canales públicos, ni siquiera “parcialmente enmascaradas”."
+      }
+    ],
+    "checklist": [
+      "Ignorar mensajes directos de soporte en frío",
+      "No instale herramientas remotas aleatorias",
+      "Nunca des semillas para apoyar.",
+      "Verificar enlaces de amigas extrañas fuera de línea",
+      "Utilice canales públicos de ayuda oficiales"
+    ],
+    "body": "Después de publicar un error, los imitadores envían \"ayuda\" por mensaje privado solicitando acceso remoto o semillas."
+  },
+  {
+    "id": "bridges",
+    "tag": "cadena cruzada",
+    "title": "Seguridad del puente",
+    "minutes": 6,
+    "summary": "Los puentes son los principales objetivos de piratería y los favoritos del phishing. Más rápido no es más seguro por defecto.",
+    "sections": [
+      {
+        "heading": "Eligiendo",
+        "body": "Prefiere puentes canónicos de documentos oficiales. Examinar puentes rápidos para auditorías y límites. Comprenda los retrasos en la salida."
+      },
+      {
+        "heading": "Operante",
+        "body": "Pequeñas pruebas de un extremo a otro; verificar los contratos de tokens de destino; guardar hashes. No trate las salidas en vuelo como margen libre."
+      },
+      {
+        "heading": "Incidentes",
+        "body": "En los hacks de puentes, siga los avisos de pausa oficiales, no los “scripts de migración” de DM."
+      }
+    ],
+    "checklist": [
+      "Marcar puentes oficiales",
+      "Prueba pequeña primero",
+      "Verificar contratos de destino",
+      "Guardar hashes tx",
+      "Ignorar los scripts de migración de DM"
+    ],
+    "body": "Los puentes son los principales objetivos de piratería y los favoritos del phishing. Más rápido no es más seguro por defecto."
+  },
+  {
+    "id": "devices",
+    "tag": "operaciones",
+    "title": "Higiene del dispositivo y del navegador",
+    "minutes": 5,
+    "summary": "El malware del portapapeles, las extensiones falsas y las PC compartidas son rutas de robo cotidianas.",
+    "sections": [
+      {
+        "heading": "Navegadora",
+        "body": "Perfil criptográfico dedicado; prórrogas oficiales mínimas; marcar sitios. Utilice una máquina limpia para el tamaño."
+      },
+      {
+        "heading": "Sistema",
+        "body": "Parche del sistema operativo; tenga cuidado con las “herramientas de lanzamiento aéreo”; Evite los cargadores públicos incompletos. Siempre vuelva a verificar las direcciones pegadas."
+      },
+      {
+        "heading": "capas",
+        "body": "Caliente para el día a día, fría para el ahorro, multifirma para los bonos del Tesoro supera a una súper billetera."
+      }
+    ],
+    "checklist": [
+      "Perfil de navegador separado",
+      "Extensiones de lista blanca",
+      "Vuelva a verificar las direcciones pegadas",
+      "Mantenga el sistema operativo actualizado",
+      "Dividir fondos por función"
+    ],
+    "body": "El malware del portapapeles, las extensiones falsas y las PC compartidas son rutas de robo cotidianas."
+  }
+]

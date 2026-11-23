@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q1",
+    "question": "BTC neden ana akım kripto referansı haline geldi?",
+    "choices": [
+      "Yalnızca ünlülerin onayları",
+      "İlk güvenilir kıt dijital nakit anlatımı + ağ etkileri",
+      "Garantili devlet desteği",
+      "Sınırsız tedarik"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q2",
+    "question": "Ethereum neden 'dünya bilgisayarı' olarak adlandırılıyor?",
+    "choices": [
+      "Yalnızca dosyaları saklar",
+      "Genel amaçlı akıllı sözleşmeleri çalıştırır",
+      "Bitcoin'i daha hızlı kazıyor",
+      "Küresel olarak DNS'nin yerini alır"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q3",
+    "question": "Bitcoin kabaca her 4 yılda bir yarıya iniyor; ne kesiliyor?",
+    "choices": [
+      "Anında toplam arz",
+      "Madenci bloğu ödülü",
+      "Sonsuza kadar cüzdan ücretleri",
+      "Doğrulayıcı sayısı"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q4",
+    "question": "ABD spot Bitcoin ETF'leri öncelikle neyi değiştirdi?",
+    "choices": [
+      "Bitcoin kodu",
+      "Geleneksel yatırımcılar için aracılık erişim yolu",
+      "Madencilik algoritması",
+      "Çekirdek cümle uzunluğu"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q5",
+    "question": "Birleşmeden Sonra Ethereum Enerji Kullanımı…",
+    "choices": [
+      "10 kat arttı",
+      "Proof-of-stake ile önemli ölçüde düştü",
+      "Yalnızca kömür haline geldi",
+      "değişmedi"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q6",
+    "question": "Katman 2 aktarımları neden kuruşa mal olabilir?",
+    "choices": [
+      "Güvenliği göz ardı ediyorlar",
+      "Birçok gönderimi toplu olarak topluyorlar ve L1 veri maliyetini amorti ediyorlar",
+      "Bankalar onlara sübvansiyon veriyor",
+      "Gaz kanunen ücretsizdir"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q7",
+    "question": "Büyük stabilcoinlere neden 'zincir içi dolar' deniyor?",
+    "choices": [
+      "Bunlar FDIC sigortalı cüzdanlardır",
+      "Ödeme ve ticaret için USD'yi takip etmeyi amaçlıyorlar",
+      "Onlar altın paralar",
+      "Transfer yapamıyorlar"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q8",
+    "question": "Banka masası olmadan borç alın ve kazanın - hangi kategori?",
+    "choices": [
+      "Yalnızca NFT'ler",
+      "DeFi kredileri ve AMM'ler",
+      "Donanım üretimi",
+      "Uydu interneti"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q9",
+    "question": "2010: 10.000 BTC iki pizza satın aldı - ders mi?",
+    "choices": [
+      "BTC her zaman pahalıydı",
+      "Erken fiyat keşfi deneysel ve sosyaldi",
+      "Pizza bir protokoldür",
+      "Madencilik yasa dışıydı"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q10",
+    "question": "Dikkatsiz bir Onay şunları yapabilir:",
+    "choices": [
+      "APY'yi otomatik olarak geliştirin",
+      "Bir sözleşmenin jetonları daha sonra tüketmesine izin verin",
+      "Blockchain'i sil",
+      "Donanımınızı yükseltin"
+    ],
+    "answer": 1
+  }
+]

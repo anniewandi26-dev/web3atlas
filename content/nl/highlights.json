@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# Gaskosten"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# Oplichting met zaadzinnen"
+  },
+  {
+    "id": "layer2",
+    "label": "# Laag 2"
+  },
+  {
+    "id": "approve",
+    "label": "# Goedkeuren / toelage"
+  }
+]

@@ -1,0 +1,234 @@
+[
+  {
+    "id": "homograph",
+    "tag": "Tandha",
+    "title": "Pertahanan phishing homograf",
+    "minutes": 5,
+    "summary": "Karakter sing mirip nggawe domain resmi kanggo panen tanda tangan utawa wiji.",
+    "sections": [
+      {
+        "heading": "Apa sing katon",
+        "body": "Penyerang ngganti karakter visual sing padha menyang domain lan masangake karo iklan utawa DM. UI bisa sampurna piksel lan malah nuduhake imbangan palsu."
+      },
+      {
+        "heading": "Cara kanggo ngenali",
+        "body": "Ketik URL utawa gunakake tetenger. Priksa pemilik sertifikat. Aja ngeklik iklan telusuran ndhuwur kanggo dompet/jembatan. Arah pranala lan priksa subdomain sing aneh."
+      },
+      {
+        "heading": "Yen sampeyan ngeklik",
+        "body": "Mbusak persetujuan lan mindhah dana sing isih ana. Yen sampeyan ngetik wiji, dompet kasebut bakal diobong - mung kanggo wiji sing anyar. Simpen bukti kanggo laporan."
+      }
+    ],
+    "checklist": [
+      "Bookmark situs resmi",
+      "Skip iklan telusuran",
+      "Priksa saben karakter URL",
+      "Priksa silang ing piranti liya kanggo ukuran",
+      "Aja ngetik wiji menyang kaca web"
+    ],
+    "body": "Karakter sing mirip nggawe domain resmi kanggo panen tanda tangan utawa wiji."
+  },
+  {
+    "id": "seed",
+    "tag": "Kunci",
+    "title": "Pandhuan lengkap frasa wiji",
+    "minutes": 6,
+    "summary": "Wiji sampeyan ngontrol aset. Sapa sing njaluk iku musuhan.",
+    "sections": [
+      {
+        "heading": "Gawe serep",
+        "body": "Tulis tangan lan mriksa maneh pesenan; nimbang piring logam; pamisah lokasi kasebut kanthi teliti. Ora ana foto, awan, utawa aplikasi chatting."
+      },
+      {
+        "heading": "Apus-apus",
+        "body": "Kaca \"Sinkronisasi / verifikasi / upgrade / unfreeze / airdrop\" njaluk 12/24 tembung. Admin Discord palsu nggunakake skrip sing padha. Hardware \"pemeriksa keaslian\" sing njaluk wiji palsu."
+      },
+      {
+        "heading": "pusaka",
+        "body": "Yen ora ana sing ngerti rencana kasebut, dana mati karo sampeyan. Gunakake instruksi sing disegel, pengacara, utawa multisig. Yen dicurigai bocor, langsung pindhah."
+      }
+    ],
+    "checklist": [
+      "Wiji mung ing media offline",
+      "Aja ngomong marang sapa wae",
+      "Aja ngetik ing piranti jaringan",
+      "Hardware + serep kadhemen kanggo ukuran",
+      "Migrasi ing sembarang sinyal bocor"
+    ],
+    "body": "Wiji sampeyan ngontrol aset. Sapa sing njaluk iku musuhan."
+  },
+  {
+    "id": "approve",
+    "tag": "DeFi",
+    "title": "Sarujuk / sangu trap",
+    "minutes": 6,
+    "summary": "Persetujuan ora langsung mindhah token-padha ngidini saluran mengko, utamane sing ora ana watesan.",
+    "sections": [
+      {
+        "heading": "Mekanik",
+        "body": "ERC-20 transferFrom kabutuhan sangu. Persetujuan tanpa wates trep; spenders kompromi bisa kosongaké sampeyan mengko. setApprovalForAll iku padha karo NFT."
+      },
+      {
+        "heading": "laku aman",
+        "body": "Tunjangan pas nalika bisa; mbatalake kanthi rutin; test protokol anyar cilik. Nonton situs airdrop sing mbutuhake Approve dhisik."
+      },
+      {
+        "heading": "Tanggepan kedadeyan",
+        "body": "Mbusak lan mindhah dana. Prioritasake pembelanjaan sing dijenengi ing pambocoran hack."
+      }
+    ],
+    "checklist": [
+      "Nolak persetujuan tanpa wates sing ora perlu",
+      "Review tunjangan saben wulan",
+      "Mbusak operator NFT sing ora digunakake",
+      "Maca alamat spender",
+      "Prioritasake mbuwang protokol sing disusupi"
+    ],
+    "body": "Persetujuan ora langsung mindhah token-padha ngidini saluran mengko, utamane sing ora ana watesan."
+  },
+  {
+    "id": "fake-apps",
+    "tag": "Mobile",
+    "title": "Aplikasi dompet palsu",
+    "minutes": 5,
+    "summary": "Klon katon ing toko lan saluran sideload kanggo nyolong wiji utawa piranti remot kontrol.",
+    "sections": [
+      {
+        "heading": "Nemokake palsu",
+        "body": "Cocokake jeneng penerbit karo kiriman resmi; ati-ati peringkat aplikasi anyar #1. Luwih seneng pranala saka situs nyata. APK Sideloaded luwih beboyo."
+      },
+      {
+        "heading": "Hardening",
+        "body": "Tansah nganyari OS; nyilikake plugin; nimbang telpon darmabakti. Gunakake hardware kanggo ukuran. Rencana kunci remot yen telpon ilang."
+      },
+      {
+        "heading": "Sawise nginstal",
+        "body": "Yen wiji dilebokake menyang aplikasi palsu, anggep kompromi lan pindhah menyang piranti sing resik."
+      }
+    ],
+    "checklist": [
+      "Instal saka saluran resmi",
+      "Verifikasi jeneng pangembang",
+      "Supaya APK acak",
+      "Ukuran pasangan karo hardware konfirmasi",
+      "Migrasi langsung yen palsu"
+    ],
+    "body": "Klon katon ing toko lan saluran sideload kanggo nyolong wiji utawa piranti remot kontrol."
+  },
+  {
+    "id": "drainer",
+    "tag": "Teken",
+    "title": "drainers teken & ijin angkoro",
+    "minutes": 7,
+    "summary": "Ora ana wiji sing dibutuhake - tandha-tandha struktur sing ala bisa menehi wewenang saluran.",
+    "sections": [
+      {
+        "heading": "Taktik",
+        "body": "Panjaluk mints / klaim palsu setApprovalForAll, ijin, utawa \"login.\" Sawetara payloads katon kosong. Bot nyapu sakwise."
+      },
+      {
+        "heading": "Pertahanan",
+        "body": "Dompet tandha tandha, simulasi, nolak sing ora dingerteni. Sambungake situs anyar karo burner dhisik. Priksa domain."
+      },
+      {
+        "heading": "Sakwise",
+        "body": "Mbusak, ngluwari dana, ngelingake komunitas, mriksa rantai liyane kanggo persetujuan sing padha."
+      }
+    ],
+    "checklist": [
+      "Nolak tanda tangan sing ora jelas",
+      "Aktifake simulasi",
+      "Gunakake burner ing situs anyar",
+      "Mbatalake kanthi rutin",
+      "Tetenger dApps nyata"
+    ],
+    "body": "Ora ana wiji sing dibutuhake - tandha-tandha struktur sing ala bisa menehi wewenang saluran."
+  },
+  {
+    "id": "support",
+    "tag": "sosial",
+    "title": "Dhukungan palsu & rekayasa sosial",
+    "minutes": 5,
+    "summary": "Sawise sampeyan ngirim kesalahan, impersonators DM \"bantuan\" njaluk akses remot utawa wiji.",
+    "sections": [
+      {
+        "heading": "Buku dolanan",
+        "body": "Avatar kloning, urgensi, aplikasi remot kontrol, utawa instruksi simpenan \"kontrak aman\". Akun kanca sing dikompromi nyebar pranala uga."
+      },
+      {
+        "heading": "Aturan",
+        "body": "Tim nyata jarang DM dhisik kanggo rahasia. Gunakake tiket resmi / saluran umum. Verifikasi kanca metu saka band."
+      },
+      {
+        "heading": "karesikan",
+        "body": "Aja nempelake wiji ing saluran umum - sanajan \"sebagean ditutupi\"."
+      }
+    ],
+    "checklist": [
+      "Nglirwakake DM dhukungan sing adhem",
+      "Aja nginstal alat remot acak",
+      "Aja menehi wiji kanggo ndhukung",
+      "Verifikasi pranala kanca aneh offline",
+      "Gunakake saluran bantuan resmi umum"
+    ],
+    "body": "Sawise sampeyan ngirim kesalahan, impersonators DM \"bantuan\" njaluk akses remot utawa wiji."
+  },
+  {
+    "id": "bridges",
+    "tag": "Cross-rantai",
+    "title": "Keamanan jembatan",
+    "minutes": 6,
+    "summary": "Bridges minangka target hack lan favorit phishing. Luwih cepet ora luwih aman kanthi standar.",
+    "sections": [
+      {
+        "heading": "milih",
+        "body": "Luwih milih jembatan kanonik saka dokumen resmi. Vet kreteg cepet kanggo audit lan watesan. Ngerti telat metu."
+      },
+      {
+        "heading": "operasi",
+        "body": "Tes end-to-end cilik; verifikasi kontrak token tujuan; nyimpen hash. Aja nganggep metu ing pesawat minangka margin gratis."
+      },
+      {
+        "heading": "Kedadeyan",
+        "body": "Ing peretasan jembatan, tindakake kabar ngaso resmi - dudu \"skrip migrasi\" DM."
+      }
+    ],
+    "checklist": [
+      "Tetenger jembatan resmi",
+      "Tes cilik dhisik",
+      "Verifikasi kontrak tujuan",
+      "Simpen tx hash",
+      "Abaikan skrip migrasi DM"
+    ],
+    "body": "Bridges minangka target hack lan favorit phishing. Luwih cepet ora luwih aman kanthi standar."
+  },
+  {
+    "id": "devices",
+    "tag": "Ops",
+    "title": "Reresik piranti & browser",
+    "minutes": 5,
+    "summary": "Malware clipboard, ekstensi palsu, lan PC sing dienggo bareng minangka dalan nyolong saben dina.",
+    "sections": [
+      {
+        "heading": "Browser",
+        "body": "profil crypto khusus; ekstensi resmi minimal; situs tetenger. Gunakake mesin sing resik kanggo ukuran."
+      },
+      {
+        "heading": "Sistem",
+        "body": "Patch OS; ati-ati \"alat airdrop\"; supaya pangisi daya umum sketchy. Tansah mriksa maneh alamat sing ditempelake."
+      },
+      {
+        "heading": "Layering",
+        "body": "Panas kanggo saben dina, kadhemen kanggo tabungan, multisig kanggo treasuries ngalahaken siji super-dompet."
+      }
+    ],
+    "checklist": [
+      "Profil browser kapisah",
+      "Ekstensi daftar putih",
+      "Priksa maneh alamat sing ditempelake",
+      "Terus nganyari OS",
+      "Pisah dana miturut peran"
+    ],
+    "body": "Malware clipboard, ekstensi palsu, lan PC sing dienggo bareng minangka dalan nyolong saben dina."
+  }
+]

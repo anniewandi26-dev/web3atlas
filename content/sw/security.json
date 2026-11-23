@@ -1,0 +1,234 @@
+[
+  {
+    "id": "homograph",
+    "tag": "Tahadhari",
+    "title": "Ulinzi wa kuhadaa wa homografia",
+    "minutes": 5,
+    "summary": "Wahusika wanaofanana huunda vikoa rasmi ili kuvuna saini au mbegu.",
+    "sections": [
+      {
+        "heading": "Inaonekanaje",
+        "body": "Wavamizi hubadilisha herufi zinazofanana kwa vikoa na kuzioanisha na matangazo au DM. Kiolesura kinaweza kuwa na pikseli kamili na hata kuonyesha salio bandia."
+      },
+      {
+        "heading": "Jinsi ya kuiona",
+        "body": "Andika URL au tumia vialamisho. Angalia wamiliki wa cheti. Usiwahi kubofya tangazo la juu la utafutaji la pochi/madaraja. Hover viungo na kukagua vikoa vidogo isiyo ya kawaida."
+      },
+      {
+        "heading": "Ikiwa ulibofya",
+        "body": "Batilisha idhini na uhamishe pesa zilizosalia. Ikiwa uliandika mbegu, pochi hiyo inachomwa - kuokoa kwa mbegu mpya tu. Weka ushahidi kwa ripoti."
+      }
+    ],
+    "checklist": [
+      "Alamisha tovuti rasmi",
+      "Ruka matangazo ya utafutaji",
+      "Kagua kila herufi ya URL",
+      "Angalia kwenye kifaa cha pili kwa ukubwa",
+      "Usichape mbegu kamwe kwenye kurasa za wavuti"
+    ],
+    "body": "Wahusika wanaofanana huunda vikoa rasmi ili kuvuna saini au mbegu."
+  },
+  {
+    "id": "seed",
+    "tag": "Funguo",
+    "title": "Mwongozo kamili wa maneno ya mbegu",
+    "minutes": 6,
+    "summary": "Mbegu yako ni udhibiti wa mali. Yeyote anayeomba ni adui.",
+    "sections": [
+      {
+        "heading": "Hifadhi rudufu",
+        "body": "Andika kwa mkono na uangalie upya utaratibu; fikiria sahani za chuma; gawanya maeneo kwa uangalifu. Hakuna picha, mawingu, au programu za gumzo."
+      },
+      {
+        "heading": "Ulaghai",
+        "body": "Kurasa za \"Sawazisha/thibitisha/pandisha gredi/acha kuganda/kudondosha hewani\" zinazoomba maneno 12/24. Wasimamizi wa Discord Bandia hutumia hati sawa. Vifaa \"vikagua uhalisi\" vinavyouliza mbegu ni bandia."
+      },
+      {
+        "heading": "Urithi",
+        "body": "Ikiwa hakuna mtu anayejua mpango huo, pesa hufa nawe. Tumia maagizo yaliyotiwa muhuri, wanasheria, au multisig. Inaposhukiwa kuvuja, hamia mara moja."
+      }
+    ],
+    "checklist": [
+      "Mbegu kwenye media za nje ya mtandao pekee",
+      "Usimwambie mtu maneno hayo",
+      "Usiwahi kuziingiza kwenye kifaa cha mtandao",
+      "Kifaa + chelezo baridi kwa saizi",
+      "Hamisha kwa ishara yoyote ya uvujaji"
+    ],
+    "body": "Mbegu yako ni udhibiti wa mali. Yeyote anayeomba ni adui."
+  },
+  {
+    "id": "approve",
+    "tag": "DeFi",
+    "title": "Idhinisha / mitego ya posho",
+    "minutes": 6,
+    "summary": "Vibali havihamishi ishara mara moja-zinaruhusu mifereji ya baadaye, hasa isiyo na ukomo.",
+    "sections": [
+      {
+        "heading": "Mitambo",
+        "body": "Uhamisho wa ERC-20Kutoka kwa mahitaji. Uidhinishaji usio na kipimo ni rahisi; watumiaji walioathiriwa wanaweza kukuondoa baadaye. setApprovalForAll ni NFT sawa."
+      },
+      {
+        "heading": "Mazoezi salama",
+        "body": "Posho kamili inapowezekana; kufuta mara kwa mara; jaribu itifaki mpya ndogo. Tazama tovuti zinazohitaji Idhinishwa kwanza."
+      },
+      {
+        "heading": "Jibu la tukio",
+        "body": "Batilisha na uhamishe fedha. Wape kipaumbele watumiaji waliotajwa katika ufichuzi wa udukuzi."
+      }
+    ],
+    "checklist": [
+      "Kataa vibali visivyo na kikomo visivyo na ukomo",
+      "Kagua posho kila mwezi",
+      "Batilisha waendeshaji wa NFT ambao hawajatumika",
+      "Soma anwani za watumiaji",
+      "Wape kipaumbele watumiaji wa itifaki waliodukuliwa"
+    ],
+    "body": "Vibali havihamishi ishara mara moja-zinaruhusu mifereji ya baadaye, hasa isiyo na ukomo."
+  },
+  {
+    "id": "fake-apps",
+    "tag": "Simu ya Mkononi",
+    "title": "Programu za mkoba bandia",
+    "minutes": 5,
+    "summary": "Clones huonekana katika maduka na hupakia chaneli kando ili kuiba mbegu au vifaa vya udhibiti wa mbali.",
+    "sections": [
+      {
+        "heading": "Kugundua bandia",
+        "body": "Linganisha majina ya wachapishaji na machapisho rasmi; Jihadharini na programu mpya zilizoorodheshwa #1. Pendelea viungo kutoka kwa tovuti halisi. APK zilizopakiwa kando ni hatari zaidi."
+      },
+      {
+        "heading": "Ugumu",
+        "body": "Weka OS iliyosasishwa; punguza programu-jalizi; fikiria simu iliyojitolea. Tumia maunzi kwa ukubwa. Panga kufuli kwa mbali ikiwa simu itapotea."
+      },
+      {
+        "heading": "Baada ya kufunga",
+        "body": "Ikiwa mbegu iliwekwa kwenye programu ghushi, kubali maelewano na uhamie kwenye kifaa safi."
+      }
+    ],
+    "checklist": [
+      "Sakinisha kutoka kwa vituo rasmi",
+      "Thibitisha majina ya wasanidi programu",
+      "Epuka APK za nasibu",
+      "Oanisha ukubwa na maunzi huthibitisha",
+      "Hamisha mara moja ikiwa ni bandia"
+    ],
+    "body": "Clones huonekana katika maduka na hupakia chaneli kando ili kuiba mbegu au vifaa vya udhibiti wa mbali."
+  },
+  {
+    "id": "drainer",
+    "tag": "Kusaini",
+    "title": "Mifereji ya maji sahihi na vibali hasidi",
+    "minutes": 7,
+    "summary": "Hakuna mbegu inayohitajika—saini zenye muundo mbaya zinaweza kuidhinisha mifereji ya maji.",
+    "sections": [
+      {
+        "heading": "Mbinu",
+        "body": "Minti/madai bandia ombi setApprovalForAll, vibali, au \"kuingia.\" Baadhi ya mizigo inaonekana tupu. Boti hufagia baadaye."
+      },
+      {
+        "heading": "Ulinzi",
+        "body": "Mikoba ya kusaini wazi, kuiga, kukataa haijulikani. Unganisha tovuti mpya na burner kwanza. Angalia vikoa."
+      },
+      {
+        "heading": "Baadaye",
+        "body": "Batilisha, pesa za uokoaji, onya jumuiya, angalia misururu mingine ili kupata vibali sawa."
+      }
+    ],
+    "checklist": [
+      "Kataa saini zisizo wazi",
+      "Washa uigaji",
+      "Tumia burner kwenye tovuti mpya",
+      "Batilisha mara kwa mara",
+      "Alamisha dApps halisi"
+    ],
+    "body": "Hakuna mbegu inayohitajika—saini zenye muundo mbaya zinaweza kuidhinisha mifereji ya maji."
+  },
+  {
+    "id": "support",
+    "tag": "Kijamii",
+    "title": "Usaidizi bandia na uhandisi wa kijamii",
+    "minutes": 5,
+    "summary": "Baada ya kuchapisha hitilafu, waigaji DM \"msaada\" wakiuliza ufikiaji wa mbali au mbegu.",
+    "sections": [
+      {
+        "heading": "Kitabu cha kucheza",
+        "body": "Ishara za uigaji, dharura, programu za udhibiti wa mbali, au maagizo ya amana ya \"mkataba salama\". Akaunti za marafiki zilizoathiriwa hueneza viungo pia."
+      },
+      {
+        "heading": "Kanuni",
+        "body": "Timu za kweli mara chache hutuma DM kwanza kwa siri. Tumia tikiti rasmi/vituo vya umma. Thibitisha marafiki walio nje ya bendi."
+      },
+      {
+        "heading": "Usafi",
+        "body": "Usibandike kamwe mbegu kwenye chaneli za umma—hata \"zilizofunikwa kwa sehemu.\""
+      }
+    ],
+    "checklist": [
+      "Puuza DM za usaidizi baridi",
+      "Usisakinishe zana za mbali bila mpangilio",
+      "Kamwe usipe mbegu kusaidia",
+      "Thibitisha viungo vya marafiki wa ajabu nje ya mtandao",
+      "Tumia njia rasmi za usaidizi za umma"
+    ],
+    "body": "Baada ya kuchapisha hitilafu, waigaji DM \"msaada\" wakiuliza ufikiaji wa mbali au mbegu."
+  },
+  {
+    "id": "bridges",
+    "tag": "Mnyororo wa msalaba",
+    "title": "Usalama wa daraja",
+    "minutes": 6,
+    "summary": "Bridges ni walengwa wakuu wa udukuzi na vipendwa vya hadaa. Haraka si salama zaidi kwa chaguo-msingi.",
+    "sections": [
+      {
+        "heading": "Kuchagua",
+        "body": "Pendelea madaraja ya kisheria kutoka kwa hati rasmi. Madaraja ya haraka ya Vet kwa ukaguzi na mipaka. Elewa ucheleweshaji wa kutoka."
+      },
+      {
+        "heading": "Uendeshaji",
+        "body": "Vipimo vidogo vya mwisho hadi mwisho; thibitisha mikataba ya tokeni ya lengwa; kuokoa hashes. Usichukulie njia za kutoka ndani ya ndege kama ukingo wa bila malipo."
+      },
+      {
+        "heading": "Matukio",
+        "body": "Kwenye udukuzi wa madaraja, fuata arifa rasmi za kusitisha—sio “hati za uhamiaji” za DM."
+      }
+    ],
+    "checklist": [
+      "Alamisha madaraja rasmi",
+      "Jaribu kidogo kwanza",
+      "Thibitisha mikataba ya lengwa",
+      "Hifadhi heshi za tx",
+      "Puuza hati za uhamishaji za DM"
+    ],
+    "body": "Bridges ni walengwa wakuu wa udukuzi na vipendwa vya hadaa. Haraka si salama zaidi kwa chaguo-msingi."
+  },
+  {
+    "id": "devices",
+    "tag": "Ops",
+    "title": "Usafi wa kifaa na kivinjari",
+    "minutes": 5,
+    "summary": "Programu hasidi ya Ubao wa kunakili, viendelezi ghushi na Kompyuta zinazoshirikiwa ni njia za wizi za kila siku.",
+    "sections": [
+      {
+        "heading": "Kivinjari",
+        "body": "Wasifu wa kujitolea wa crypto; upanuzi mdogo rasmi; maeneo ya alama. Tumia mashine safi kwa ukubwa."
+      },
+      {
+        "heading": "Mfumo",
+        "body": "Kiraka OS; Jihadharini na \"vifaa vya hewa\"; epuka chaja zenye michoro za umma. Angalia tena anwani zilizobandikwa."
+      },
+      {
+        "heading": "Kuweka tabaka",
+        "body": "Moto kwa kila siku, baridi kwa kuokoa, multisig kwa hazina hushinda pochi moja bora."
+      }
+    ],
+    "checklist": [
+      "Tenganisha wasifu wa kivinjari",
+      "Viendelezi vya orodha iliyoidhinishwa",
+      "Angalia tena anwani zilizobandikwa",
+      "Sasisha Mfumo wa Uendeshaji",
+      "Gawanya pesa kwa jukumu"
+    ],
+    "body": "Programu hasidi ya Ubao wa kunakili, viendelezi ghushi na Kompyuta zinazoshirikiwa ni njia za wizi za kila siku."
+  }
+]

@@ -1,0 +1,234 @@
+[
+  {
+    "id": "homograph",
+    "tag": "Alerta",
+    "title": "Apărare omografă împotriva phishingului",
+    "minutes": 5,
+    "summary": "Personajele asemănătoare forjează domenii oficiale pentru a recolta semnături sau semințe.",
+    "sections": [
+      {
+        "heading": "Cum arată",
+        "body": "Atacatorii schimbă personaje similare vizual în domenii și le asociază cu reclame sau mesaje direct. Interfața de utilizare poate fi perfectă pentru pixeli și chiar să arate solduri false."
+      },
+      {
+        "heading": "Cum să-l descoperi",
+        "body": "Introduceți adrese URL sau utilizați marcaje. Verificați deținătorii de certificate. Nu dați niciodată clic pe anunțul de căutare de top pentru portofele/punți. Treceți cu mouse-ul pe linkuri și inspectați subdomeniile ciudate."
+      },
+      {
+        "heading": "Dacă ai dat clic",
+        "body": "Revocați aprobările și mutați fondurile rămase. Dacă ați tastat o sămânță, acel portofel este ars - salvați doar o sămânță nou-nouță. Păstrați dovezi pentru rapoarte."
+      }
+    ],
+    "checklist": [
+      "Marcați site-urile oficiale",
+      "Omiteți anunțurile de căutare",
+      "Inspectați fiecare caracter URL",
+      "Verificați dimensiunea pe un al doilea dispozitiv",
+      "Nu introduceți niciodată semințe în pagini web"
+    ],
+    "body": "Personajele asemănătoare forjează domenii oficiale pentru a recolta semnături sau semințe."
+  },
+  {
+    "id": "seed",
+    "tag": "Chei",
+    "title": "Ghid complet al frazei semințe",
+    "minutes": 6,
+    "summary": "Sămânța ta este controlul activelor. Oricine o cere este ostil.",
+    "sections": [
+      {
+        "heading": "Backup-uri",
+        "body": "Scrieți de mână și verificați din nou comanda; luați în considerare plăcile metalice; împărțiți locațiile cu grijă. Fără fotografii, nori sau aplicații de chat."
+      },
+      {
+        "heading": "Escrocherii",
+        "body": "Pagini „Sincronizare/verificare/actualizare/deblocare/eliminare” care solicită 12/24 de cuvinte. Administratorii falși ai Discord folosesc același script. „Verificatoarele de autenticitate” hardware care solicită semințe sunt false."
+      },
+      {
+        "heading": "Moştenire",
+        "body": "Dacă nimeni nu știe planul, fondurile mor odată cu tine. Folosiți instrucțiuni sigilate, avocați sau multisig. La o scurgere suspectată, migrați imediat."
+      }
+    ],
+    "checklist": [
+      "Semințele numai pe medii offline",
+      "Nu spune nimănui cuvintele",
+      "Nu le introduceți niciodată pe un dispozitiv în rețea",
+      "Hardware + backup la rece pentru dimensiune",
+      "Migrați la orice semnal de scurgere"
+    ],
+    "body": "Sămânța ta este controlul activelor. Oricine o cere este ostil."
+  },
+  {
+    "id": "approve",
+    "tag": "DeFi",
+    "title": "Capcane de aprobare/alocație",
+    "minutes": 6,
+    "summary": "Aprobarile nu mută jetoanele imediat - ele permit scurgeri ulterioare, în special cele nelimitate.",
+    "sections": [
+      {
+        "heading": "Mecanica",
+        "body": "ERC-20 transferFrom necesită alocație. Aprobarile infinite sunt convenabile; cheltuitorii compromisi te pot goli mai târziu. setApprovalForAll este echivalentul NFT."
+      },
+      {
+        "heading": "Practică sigură",
+        "body": "Alocații exacte atunci când este posibil; revocați de rutină; testați noi protocoale mici. Urmăriți mai întâi site-urile de airdrop care necesită aprobare."
+      },
+      {
+        "heading": "Răspuns la incident",
+        "body": "Revocați și mutați fonduri. Acordați prioritate celor care cheltuiesc numiți în dezvăluirile de hack."
+      }
+    ],
+    "checklist": [
+      "Refuzați aprobările inutile și nelimitate",
+      "Revizuiți lunar alocațiile",
+      "Revocați operatorii NFT neutilizați",
+      "Citiți adresele cheltuitorilor",
+      "Prioritizează cei care cheltuiesc protocolul piratat"
+    ],
+    "body": "Aprobarile nu mută jetoanele imediat - ele permit scurgeri ulterioare, în special cele nelimitate."
+  },
+  {
+    "id": "fake-apps",
+    "tag": "Mobil",
+    "title": "Aplicații pentru portofel false",
+    "minutes": 5,
+    "summary": "Clonele apar în magazine și canale de încărcare laterală pentru a fura semințe sau dispozitive de control de la distanță.",
+    "sections": [
+      {
+        "heading": "Descoperirea falsurilor",
+        "body": "Potriviți numele editorilor cu postările oficiale; Atenție la aplicațiile noi-nouțe, clasamentul #1. Preferă link-uri de pe site-ul real. APK-urile încărcate lateral sunt mai riscante."
+      },
+      {
+        "heading": "întărire",
+        "body": "Păstrați sistemul de operare actualizat; minimizați pluginurile; luați în considerare un telefon dedicat. Utilizați hardware pentru dimensiune. Planificați blocarea de la distanță dacă telefonul este pierdut."
+      },
+      {
+        "heading": "După instalare",
+        "body": "Dacă o sămânță a fost introdusă într-o aplicație falsă, asumați un compromis și migrați pe un dispozitiv curat."
+      }
+    ],
+    "checklist": [
+      "Instalați de pe canale oficiale",
+      "Verificați numele dezvoltatorilor",
+      "Evitați APK-urile aleatorii",
+      "Împreună dimensiunea cu hardware-ul confirmă",
+      "Migrați imediat dacă este fals"
+    ],
+    "body": "Clonele apar în magazine și canale de încărcare laterală pentru a fura semințe sau dispozitive de control de la distanță."
+  },
+  {
+    "id": "drainer",
+    "tag": "Semnare",
+    "title": "Drenaje de semnătură și permise rău intenționate",
+    "minutes": 7,
+    "summary": "Nu este nevoie de semințe - semnăturile structurate rău intenționate pot autoriza scurgerile.",
+    "sections": [
+      {
+        "heading": "Tactici",
+        "body": "Cereri false de monetărie/revendicări setApprovalForAll, permise sau „autentificări”. Unele încărcări utile par goale. Boții mătură după aceea."
+      },
+      {
+        "heading": "Apărare",
+        "body": "Portofele de semnare clară, simulare, respingere necunoscute. Conectați mai întâi site-uri noi cu un arzător. Verificați domeniile."
+      },
+      {
+        "heading": "După aceea",
+        "body": "Revocați, salvați fonduri, avertizați comunitățile, verificați alte lanțuri pentru aceleași aprobări."
+      }
+    ],
+    "checklist": [
+      "Respinge semnăturile opace",
+      "Activați simularea",
+      "Utilizați un arzător pe site-uri noi",
+      "Revocați în mod regulat",
+      "Marcați dApps reale"
+    ],
+    "body": "Nu este nevoie de semințe - semnăturile structurate rău intenționate pot autoriza scurgerile."
+  },
+  {
+    "id": "support",
+    "tag": "Social",
+    "title": "Sprijin fals și inginerie socială",
+    "minutes": 5,
+    "summary": "După ce postezi o eroare, imitatorii DM „ajută” cerând acces la distanță sau semințe.",
+    "sections": [
+      {
+        "heading": "Caietul de joc",
+        "body": "Avatare clonate, aplicații de urgență, de control de la distanță sau instrucțiuni de depunere „contract sigur”. Conturile de prieteni compromise răspândesc și legături."
+      },
+      {
+        "heading": "Reguli",
+        "body": "Echipele reale rareori dau DM mai întâi pentru secrete. Utilizați bilete oficiale/canale publice. Verificați prietenii din afara bandă."
+      },
+      {
+        "heading": "Igienă",
+        "body": "Nu lipiți niciodată semințe în canalele publice – chiar și „parțial mascate”."
+      }
+    ],
+    "checklist": [
+      "Ignorați DM-urile de asistență la rece",
+      "Nu instalați instrumente aleatorii de la distanță",
+      "Nu da niciodată semințe pentru a susține",
+      "Verificați offline linkurile prietenilor ciudate",
+      "Utilizați canalele de ajutor publice oficiale"
+    ],
+    "body": "După ce postezi o eroare, imitatorii DM „ajută” cerând acces la distanță sau semințe."
+  },
+  {
+    "id": "bridges",
+    "tag": "Lanț încrucișat",
+    "title": "Siguranța podului",
+    "minutes": 6,
+    "summary": "Podurile sunt ținte de top pentru hack și preferate de phishing. Mai rapid nu este mai sigur în mod implicit.",
+    "sections": [
+      {
+        "heading": "Alegerea",
+        "body": "Preferați podurile canonice din documentele oficiale. Verificați punți rapide pentru audituri și limite. Înțelegeți întârzierile de ieșire."
+      },
+      {
+        "heading": "Funcționează",
+        "body": "Teste minuscule end-to-end; verificarea contractelor de token de destinație; salvați hashuri. Nu tratați ieșirile din zbor ca marjă liberă."
+      },
+      {
+        "heading": "Incidente",
+        "body": "În cazul hackurilor bridge, urmați notificările oficiale de pauză, nu „scripturile de migrare” DM."
+      }
+    ],
+    "checklist": [
+      "Marcați podurile oficiale",
+      "Testează mai întâi minuscul",
+      "Verificați contractele de destinație",
+      "Salvați hashe-urile tx",
+      "Ignorați scripturile de migrare DM"
+    ],
+    "body": "Podurile sunt ținte de top pentru hack și preferate de phishing. Mai rapid nu este mai sigur în mod implicit."
+  },
+  {
+    "id": "devices",
+    "tag": "Ops",
+    "title": "Igiena dispozitivului și browserului",
+    "minutes": 5,
+    "summary": "Programele malware pentru clipboard, extensiile false și computerele partajate sunt căi de furt de zi cu zi.",
+    "sections": [
+      {
+        "heading": "Browser",
+        "body": "Profil cripto dedicat; prelungiri oficiale minime; site-uri de marcaje. Utilizați o mașină curată pentru mărime."
+      },
+      {
+        "heading": "Sistem",
+        "body": "Patch OS; Atenție la „instrumentele de aruncare aerian”; evitați încărcătoarele publice incomplete. Reverificați întotdeauna adresele lipite."
+      },
+      {
+        "heading": "Stratificare",
+        "body": "Fierbinte pentru zilnic, rece pentru economii, multisig pentru trezorerie bate un super-portofel."
+      }
+    ],
+    "checklist": [
+      "Profil separat de browser",
+      "Extensii din lista albă",
+      "Verifică din nou adresele lipite",
+      "Păstrați sistemul de operare actualizat",
+      "Împărțiți fondurile pe rol"
+    ],
+    "body": "Programele malware pentru clipboard, extensiile false și computerele partajate sunt căi de furt de zi cu zi."
+  }
+]

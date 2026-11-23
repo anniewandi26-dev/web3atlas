@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Infrastruktura wiedzy Web3",
+    "badge": "Najpierw bezpieczeństwo"
+  },
+  "nav": {
+    "explore": "Odkrywaj",
+    "ecosystem": "Ekosystem",
+    "news": "Aktualności",
+    "chronicle": "Kronika",
+    "security": "Bezpieczeństwo",
+    "glossary": "Słownik"
+  },
+  "hero": {
+    "kicker": "8 WARSTW · DOTKNIJ, BY UCZYĆ SIĘ",
+    "titleLine1": "Internet się zmienia.",
+    "titleLine2": "Zmapuj to, co dalej.",
+    "subtitle": "Sieci i idee Web3 — jasno, bez hype'u.",
+    "ctaPrimary": "Przeglądaj ekosystem",
+    "ctaSecondary": "Centrum bezpieczeństwa",
+    "pause": "Pauza",
+    "play": "Odtwórz"
+  },
+  "sections": {
+    "ecosystem": "01 · EKOSYSTEM",
+    "ecosystemTitle": "Przeglądaj kategorie",
+    "ecosystemDesc": "Osiem warstw Web3.",
+    "openExplorer": "Otwórz eksplorator",
+    "news": "02 · SYGNAŁ",
+    "newsTitle": "Co się dzieje",
+    "newsDesc": "Wybrane nagłówki.",
+    "allHeadlines": "Wszystkie nagłówki",
+    "glossary": "03 · LEKSYKON",
+    "glossaryTitle": "Mów tym samym językiem",
+    "glossaryDesc": "Szybkie definicje.",
+    "openGlossary": "Otwórz słownik",
+    "security": "04 · OBRONA",
+    "securityTitle": "Bądź trudny do zhackowania",
+    "securityDesc": "Phishing, approve, seed.",
+    "securityCenter": "Centrum bezpieczeństwa",
+    "chronicle": "05 · OSI CZASU",
+    "chronicleTitle": "Jak tu trafiliśmy",
+    "chronicleDesc": "Od whitepapera do ETF.",
+    "fullChronicle": "Pełna kronika",
+    "quiz": "06 · WYZWANIE",
+    "quizTitle": "Sprawdź wiedzę",
+    "quizDesc": "Dziesięć pytań.",
+    "startQuiz": "Start",
+    "shuffle": "Losuj"
+  },
+  "common": {
+    "readMore": "Czytaj więcej",
+    "back": "Wstecz",
+    "search": "Szukaj",
+    "items": "pozycji",
+    "minRead": "{m} min",
+    "language": "Język",
+    "followIp": "Język podąża za regionem (IP).",
+    "fallbackNote": "Treść zlokalizowana.",
+    "noResults": "Brak wyników.",
+    "useful": "Przydatne",
+    "useIpLanguage": "Użyj języka IP",
+    "ipActive": "aktywne",
+    "manualOverride": "Ręcznie"
+  },
+  "ecosystemPage": {
+    "title": "Eksplorator ekosystemu",
+    "subtitle": "Osiem warstw."
+  },
+  "newsPage": {
+    "title": "Biurko sygnałów",
+    "subtitle": "Nagłówki Web3."
+  },
+  "chroniclePage": {
+    "title": "Kronika",
+    "subtitle": "Momenty, które zmieniły cyfrowe pieniądze."
+  },
+  "securityPage": {
+    "title": "Centrum bezpieczeństwa",
+    "subtitle": "Praktyczna obrona."
+  },
+  "glossaryPage": {
+    "title": "Słownik",
+    "subtitle": "Jasne definicje.",
+    "placeholder": "Filtruj…"
+  },
+  "quiz": {
+    "correct": "Poprawnie",
+    "wrong": "Niezupełnie",
+    "next": "Dalej",
+    "restart": "Od nowa",
+    "score": "Wynik: {score}/{total}",
+    "done": "Gotowe"
+  },
+  "article": {
+    "keyPoints": "Kluczowe punkty",
+    "tips": "Praktyczne wskazówki",
+    "checklist": "Checklist",
+    "expand": "Rozwiń",
+    "collapse": "Zwiń"
+  },
+  "intro": {
+    "headline": "Wiedza o Web3 i kryptografii — ucz się wyraźnie, a nie sztucznie",
+    "body": "Web3Atlas to centrum edukacyjne, a nie aplikacja handlowa. Eksploruj mapę ekosystemu, śledź wybrane sygnały, studiuj kronikę, ćwicz bezpieczeństwo portfela, otwieraj glosariusz i sprawdzaj się w quizach — jasność ponad spekulacjami.",
+    "point1": "Mapa ekosystemów: blockchain, DeFi, NFT, L2, portfele, DAO",
+    "point2": "Sygnały i kronika: nagłówki i kluczowa historia",
+    "point3": "Centrum bezpieczeństwa: phishing, nasiona, zatwierdzenia",
+    "point4": "Glosariusz i quiz: proste terminy, które możesz otwierać i ćwiczyć",
+    "hint": "Kliknij poniżej, aby kontynuować",
+    "enter": "Zacznij odkrywać",
+    "loading": "Załadunek"
+  },
+  "safariGate": {
+    "note": "Po otwarciu tej strony w przeglądarce Safari witryna działa normalnie, a to powiadomienie pozostaje ukryte. Safari zapewnia płynniejszą interakcję i bogatsze kolory.",
+    "openSafari": "Otwórz w Safari",
+    "copied": "Link skopiowany. Wklej go w przeglądarce Safari, aby kontynuować."
+  }
+}

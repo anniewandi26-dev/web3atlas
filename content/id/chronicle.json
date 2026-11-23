@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2008-wp",
+    "date": "2008-10",
+    "title": "Buku putih Bitcoin",
+    "body": "Satoshi menerbitkan desain uang elektronik peer-to-peer ke daftar kriptografi. Riwayat tautan bukti kerja tanpa perantara tepercaya. Makalah pendek ini menjadi benih intelektual industri dan narasi “aturan dalam kode”. \n\nMakalah ini membingkai ulang uang sebagai buku besar yang disiarkan dengan insentif ekonomi. Node memvalidasi aturan secara lokal; penambang mengeluarkan tenaga untuk membuat sejarah mahal untuk ditulis ulang. Kombinasi tersebut—verifikasi terbuka ditambah penulisan yang mahal—masih mendasari sebagian besar penjelasan “mengapa blockchain”. \n\nBagi pelajar, hal yang dapat diambil adalah: mengurangi pihak ketiga yang dipercaya untuk penerbitan dan penyelesaian, menerima konfirmasi probabilistik, dan memasukkan kelangkaan dalam aturan protokol. Sistem selanjutnya meminjam narasi tersebut bahkan ketika mereka mengganti mesinnya."
+  },
+  {
+    "id": "2009-genesis",
+    "date": "2009-01",
+    "title": "Blok Kejadian",
+    "body": "Bitcoin melakukan booting dengan judul tentang dana talangan bank yang tertanam di blok genesis. Penggunaan awal adalah penambangan dan transfer hobi tanpa harga. Idenya menjadi jaringan yang hidup. \n\nMenyematkan judul surat kabar merupakan penanda waktu dan sinyal politik. Peserta awal menjalankan node penuh secara default karena tidak ada lagi yang bisa dilakukan; budaya menghargai verifikasi daripada kenyamanan. \n\nEra Genesis mengingatkan pendatang baru bahwa jaringan mulai bersifat sosial dan jarang. Likuiditas, pertukaran, dan dompet yang dipoles datang kemudian. Memahami Bitcoin masih dimulai dengan membaca apa yang dikatakan blok pertama tentang sistem keuangan yang ingin mereka keluarkan."
+  },
+  {
+    "id": "2010-pizza",
+    "date": "2010-05",
+    "title": "Hari pizza Bitcoin",
+    "body": "10.000 BTC membeli dua pizza. Kelihatannya tidak masuk akal saat ini, tapi itu adalah momen awal pembelian barang dengan uang elektronik. Penemuan harga bersifat sosial—dan likuiditas awal sangat kecil. \n\nPerdagangan pizza dikenang sebagai lucunya, tetapi ini adalah eksperimen likuiditas dan UX: dapatkah uang elektronik menyelesaikan pembelian di dunia nyata tanpa jaringan kartu? Penemuan harga bersifat informal; hak asuh bersifat eksperimental; meme itu sudah kadaluwarsa dari kuitansinya. \n\nHari ini cerita tersebut memberikan dua pelajaran. Pertama, pasar awal masih tipis dan anekdot mendominasi. Kedua, pembelanjaan versus penyimpanan adalah pilihan kebijakan pribadi—aturan protokol tidak menentukan biaya peluang Anda."
+  },
+  {
+    "id": "2013-eth",
+    "date": "2013-11",
+    "title": "Ide Ethereum",
+    "body": "Vitalik menguraikan platform kontrak pintar untuk tujuan umum di luar uang digital. Pengembang akan menerapkan logika sewenang-wenang. Idenya kemudian melahirkan ICO, DeFi, dan NFT. \n\nVisi Ethereum mengubah pertanyaan dari “uang digital” menjadi “penyelesaian yang dapat diprogram.” Jika skrip dapat menyimpan aset dan menulis, keuangan dan permainan menjadi perangkat lunak di mesin bersama. \n\nAmbisi tersebut menciptakan modus kegagalan baru—reentrancy, ketergantungan pada oracle, governance capture—namun juga permukaan aplikasi yang pertama kali ditemui oleh sebagian besar pendatang baru. Membaca momen ini menjelaskan mengapa gas, ABI, dan risiko kontrak masuk dalam kosakata."
+  },
+  {
+    "id": "2015-eth-launch",
+    "date": "2015-07",
+    "title": "Peluncuran Ethereum",
+    "body": "Frontier mengirimkan kemampuan blockchain yang dapat diprogram. Peralatannya sulit dan sering terjadi insiden, namun keuangan dan permainan mulai bergerak secara on-chain. EVM menjadi standar multi-rantai de facto. \n\nFrontier sengaja dibuat kasar: membuktikan mesin virtual di alam liar, menerima insiden, mengulangi perkakas. Pengembang mengetahui bahwa penerapan kode itu mudah; berpikir tentang penelepon yang bermusuhan itu sulit. \n\nPeluncuran ini mengunci EVM sebagai magnet untuk perkakas dan kemudian untuk rantai yang “kompatibel dengan EVM”. Kompatibilitas bukanlah keamanan yang identik—tetapi model mental bersama menurunkan biaya eksperimen di seluruh dunia."
+  },
+  {
+    "id": "2016-dao",
+    "date": "2016-06",
+    "title": "Insiden DAO",
+    "body": "Kontrak crowdfunding awal yang besar-besaran dieksploitasi. Perdebatan sengit ini memisahkan ETH/ETC dan mengajarkan bahwa “kode adalah hukum” tidak berarti “kode bebas bug.” Konsensus sosial juga penting. \n\nPeretasan DAO memaksa komunitas untuk memilih antara teater kekekalan dan dana pemulihan sosial. Perpecahan ETH/ETC yang dihasilkan adalah studi kasus permanen tentang bagaimana “kode adalah hukum” bertabrakan dengan konsensus kasar. \n\nSiswa harus mempelajari pola eksploitasi teknis dan proses tata kelola yang diikuti. Kontrak pintar memerlukan audit dan jeda desain; masyarakat membutuhkan norma-norma yang jelas sebelum terjadinya krisis."
+  },
+  {
+    "id": "2017-ico",
+    "date": "2017",
+    "title": "gelombang ICO",
+    "body": "Penjualan token memungkinkan penggalangan dana global—dan penipuan skala industri. Regulator merespons; ritel membayar uang sekolah. Pengungkapan dan kepatuhan memasuki pembicaraan serius. \n\nPenjualan token memampatkan penggalangan dana global ke dalam dompet browser. Pembentukan modal dipercepat; pengungkapan sering kali tidak terjadi. Ritel mengetahui bahwa PDF whitepaper bukanlah sebuah ketekunan, dan regulator mengambil pelajaran yang sama dari arah yang lain. \n\nGelombang ini meninggalkan perdebatan mengenai standar, politik pencatatan bursa, dan alergi yang berkepanjangan terhadap janji-janji yang tidak terbatas. Skeptisisme yang sehat terhadap peluncuran token adalah bagian dari literasi, bukan anti-inovasi."
+  },
+  {
+    "id": "2018-bear",
+    "date": "2018",
+    "title": "Musim dingin kripto",
+    "body": "Harga turun dari siklus tertinggi; proyek yang hanya bersifat narasi lenyap. Infra dan penelitian berlanjut dengan tenang. Musim dingin adalah filter sekaligus tragedi. \n\nMusim dingin menyisihkan token yang hanya bersifat naratif sambil secara diam-diam mendanai keragaman klien, UX dompet, dan penelitian yang digunakan kembali pada siklus berikutnya. Pembangun yang tetap tinggal memperlakukan harga sebagai cuaca, bukan iklim. \n\nUntuk pelajar: pasar beruang adalah saat Anda dapat mempelajari mekanika tanpa gangguan FOMO. Grafik menjadi tenang; dokumentasi dan repo sumber mendapat perhatian yang lebih jujur."
+  },
+  {
+    "id": "2020-defi",
+    "date": "2020",
+    "title": "DeFi musim panas",
+    "body": "Penambangan likuiditas meledakkan pinjaman dan AMM. Komposabilitas bersinar; Masalah Oracle/likuidasi/insentif muncul. Pengguna memenuhi pembiayaan dompet sebagai akun dalam skala besar. \n\nPenambangan likuiditas mengubah AMM dan pasar uang menjadi lingkaran pertumbuhan. Komposabilitas berarti posisi pinjaman dapat menjadi jaminan di tempat lain dalam hitungan menit—begitu juga dengan likuidasi berjenjang. \n\nDeFi musim panas mengajarkan desain oracle, keberlanjutan insentif, dan perbedaan antara tangkapan layar APY dan biaya yang dapat diekstraksi. Keamanan dompet menjadi arus utama karena akun tersebut sekarang menjadi perantara."
+  },
+  {
+    "id": "2021-nft",
+    "date": "2021-03",
+    "title": "Momen arus utama NFT",
+    "body": "Seni digital dan PFP menjadi hit di media arus utama. Pencipta menemukan jalur baru; spekulasi menyusul. Setelah buih, standar, perdebatan royalti, dan komunitas nyata tetap ada. \n\nNFT membawa pencipta, merek, dan kelompok spekulatif ke jalur yang sama. Keabadian metadata, penegakan royalti, dan perdebatan perdagangan menjadi berita utama. \n\nSetelah booming ini, masih ada pertanyaan yang masih tersisa: apa sebenarnya yang dimiliki, di mana media berada, dan komunitas mana yang bisa bertahan tanpa apresiasi harga yang tiada henti? Budaya dan kontrak saling terkait secara permanen."
+  },
+  {
+    "id": "2021-l2",
+    "date": "2021",
+    "title": "Akselerasi rollup",
+    "body": "Desain optimis dan ZK menghasilkan lalu lintas nyata saat pengguna menghindari biaya. Bridge dan sequencer menjadi UX dan pusat risiko baru. Penskalaan menjadi jalur harian, bukan perosotan. \n\nPengguna yang menghindari biaya mainnet menjadikan rollup sebagai jalur harian. Bridge dan sequencer menjadi tiket dukungan baru: dana terhenti di tengah-tengah hop, downtime, dan jam finalitas yang membingungkan. \n\nKeberhasilan penskalaan diukur dari jalan keluar yang aman dan asumsi kepercayaan yang dapat dimengerti, tidak hanya penurunan TPS. Literasi L2 kini menjadi dasar literasi Web3."
+  },
+  {
+    "id": "2022-merge",
+    "date": "2022-09",
+    "title": "Penggabungan",
+    "body": "Konsensus Ethereum beralih ke bukti kepemilikan sementara eksekusi berlanjut. Penggunaan energi menurun; staking, MEV, dan keragaman klien menjadi topik sentral. Peralihan teknik yang penting. \n\nMengalihkan konsensus tanpa menghentikan eksekusi merupakan peralihan sistem besar yang jarang terjadi. Narasi energi berubah dalam semalam; pertaruhan ekonomi dan penelitian MEV menjadi pusat perhatian. \n\nPenggabungan ini menunjukkan bahwa blockchain dapat mengembangkan subsistem utama dengan koordinasi. Hal ini juga menunjukkan bahwa “selesai” tidak pernah selesai—keberagaman klien dan penolakan terhadap sensor masih terus dilakukan."
+  },
+  {
+    "id": "2022-contagion",
+    "date": "2022",
+    "title": "Penularan CeFi",
+    "body": "Rantai pinjaman dan pendanaan putus, sehingga memperlihatkan ketidakcocokan hak asuh dan jatuh tempo. Narasi hak asuh diri dan PoR meningkat. Saldo platform bukanlah aset rantai. \n\nKetika pemberi pinjaman dan dana CeFi gagal, pengguna menemukan kembali bahwa IOU bukanlah UTXO. Pemasaran bukti cadangan meningkat seiring dengan antrean penarikan. \n\nKurikulum praktisnya: mengetahui di mana kunci berada, mengukur saldo pertukaran dengan sengaja, dan memperlakukan hasil yang memerlukan penguncian aset pada platform sebagai risiko kredit."
+  },
+  {
+    "id": "2023-blobs",
+    "date": "2024-03",
+    "title": "Biaya DA era gumpalan",
+    "body": "Ruang data blob mengurangi biaya posting L2 dan biaya pengguna. Perdebatan beralih ke desentralisasi sequencer dan interoperabilitas UX. Biaya mendekati kegunaan sehari-hari. \n\nBlob space mengubah biaya L2 dan membuat transaksi sehari-hari terasa masuk akal lagi. Perhatian beralih ke desentralisasi sequencer, jembatan bersama, dan UX berbasis niat. \n\nKetersediaan data yang murah diperlukan tetapi tidak cukup untuk dunia multi-rantai yang aman. Pengguna masih memerlukan jalur keluar yang jelas dan label risiko yang jujur."
+  },
+  {
+    "id": "2024-etf",
+    "date": "2024-01",
+    "title": "Temukan ETF Bitcoin",
+    "body": "ETF Bitcoin spot AS membuka akses perantara. Penemuan harga meluas dengan aliran makro. Crypto memasuki percakapan alokasi tradisional lebih dalam. \n\nBitcoin yang dibungkus oleh broker mengubah siapa yang dapat mengalokasikan dan bagaimana arus mencapai penemuan harga. Meja makro memasuki percakapan yang dulunya hanya ada di Twitter kripto. \n\nETF tidak menggantikan pendidikan hak asuh diri; mereka menambahkan jalur akses paralel dengan perantara tradisional. Kedua rel tersebut kini membentuk pasar."
+  },
+  {
+    "id": "2024-halving",
+    "date": "2024-04",
+    "title": "Halving Bitcoin keempat",
+    "body": "Subsidi turun menjadi 3.125 BTC. Penambang lebih bersandar pada biaya dan harga jangka panjang. Jadwal sekali lagi menunjukkan bahwa penerbitan ditentukan oleh protokol. \n\nJadwal subsidi sekali lagi menunjukkan bahwa penerbitan subsidi hanya bersifat politis sesuai dengan aturan protokol—penambang dan pasar beradaptasi berdasarkan kalender yang telah diketahui. \n\nHalving adalah alat pengajaran yang berguna untuk narasi kelangkaan, pasar biaya, dan mengapa anggaran keamanan pada akhirnya lebih bergantung pada permintaan transaksi."
+  },
+  {
+    "id": "2024-restake",
+    "date": "2024",
+    "title": "Era perombakan",
+    "body": "Eksperimen keamanan bersama diperluas dengan hasil dan risiko yang bertumpuk. Matriks garis miring dan kegagalan yang berkorelasi memasuki diskusi arus utama. \n\nPenghitungan ulang memasukkan lebih banyak pekerjaan ke dalam obligasi ekonomi yang sama. Keamanan bersama bisa menjadi efisien; pemotongan yang berkorelasi bisa menjadi brutal. \n\nPerlakukan penghitungan ulang seperti paparan infrastruktur dengan leverage: baca set operator, kondisi garis miring, dan asumsi oracle/pengesahan sebelum mengejar poin."
+  },
+  {
+    "id": "2025-aa",
+    "date": "2025",
+    "title": "Dorongan UX akun pintar",
+    "body": "Alat abstraksi akun menjangkau dompet konsumen dengan sesi dan gas bersponsor. Beberapa tanggung jawab berpindah ke wali dan modul. UX tanpa benih mencari keseimbangan dengan hak asuh diri. \n\nAbstraksi akun membawa gas yang disponsori dan pemulihan sosial ke dalam dompet konsumen. Pendatang baru menghadapi lebih sedikit hambatan frase awal—dan lebih banyak layar izin modul. \n\nGelombang literasi berikutnya adalah latihan pemulihan, cakupan kunci sesi, dan kesadaran bahwa fitur kenyamanan masih merupakan permukaan otorisasi."
+  },
+  {
+    "id": "2025-rwa",
+    "date": "2025",
+    "title": "Perluasan ATMR",
+    "body": "T-bills dan kredit yang diberi token memberikan hasil off-chain ke penyelesaian on-chain. Struktur hukum dan penebusan mendominasi ketekunan. Perbendaharaan DeFi mendapatkan keuntungan “tradisional”. \n\nPerbendaharaan yang diberi token membuat hasil on-chain tampak familier bagi pengalokasi tradisional. Pembungkus hukum dan meja penebusan menjadi sama pentingnya dengan Soliditas. \n\nRWA mengajarkan bahwa “on-chain” dapat berarti cara penyelesaian, bukan disintermediasi penuh. Baca kebijakan hak asuh dan bekukan dengan hati-hati seperti kode kontrak."
+  },
+  {
+    "id": "2026-intent",
+    "date": "2026",
+    "title": "Aliran yang berpusat pada niat",
+    "body": "Pengguna mengungkapkan hasil; pemecah bersaing pada rute dan kutipan. UX menyederhanakan sementara risiko jembatan tetap rendah. Dompet dan router memasuki perlombaan produk baru."
+  }
+]

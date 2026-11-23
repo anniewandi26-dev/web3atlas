@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Infrastructure de connaissance Web3",
+    "badge": "Sécurité d'abord"
+  },
+  "nav": {
+    "explore": "Explorer",
+    "ecosystem": "Écosystème",
+    "news": "Actus",
+    "chronicle": "Chronique",
+    "security": "Sécurité",
+    "glossary": "Glossaire"
+  },
+  "hero": {
+    "kicker": "8 COUCHES D'ÉCOSYSTÈME · APPUYEZ POUR APPRENDRE",
+    "titleLine1": "Internet change.",
+    "titleLine2": "Cartographiez la suite.",
+    "subtitle": "Réseaux, protocoles et idées Web3 — clarté, pas de hype.",
+    "ctaPrimary": "Explorer l'écosystème",
+    "ctaSecondary": "Centre sécurité",
+    "pause": "Pause animation",
+    "play": "Lancer l'animation"
+  },
+  "sections": {
+    "ecosystem": "01 · ÉCOSYSTÈME",
+    "ecosystemTitle": "Explorer par catégorie",
+    "ecosystemDesc": "Huit couches du Web3. Ouvrez-en une pour voir concepts et patterns.",
+    "openExplorer": "Ouvrir l'explorateur",
+    "news": "02 · SIGNAL",
+    "newsTitle": "Ce qui bouge",
+    "newsDesc": "Titres sélectionnés : infra, marchés, régulation.",
+    "allHeadlines": "Tous les titres",
+    "glossary": "03 · LEXIQUE",
+    "glossaryTitle": "Parler le même langage",
+    "glossaryDesc": "Définitions rapides des termes on-chain.",
+    "openGlossary": "Ouvrir le glossaire",
+    "security": "04 · DÉFENSE",
+    "securityTitle": "Restez dur à pirater",
+    "securityDesc": "Briefs phishing, approvals, seed et fausses apps.",
+    "securityCenter": "Centre sécurité",
+    "chronicle": "05 · TIMELINE",
+    "chronicleTitle": "Comment on en est arrivés là",
+    "chronicleDesc": "Du whitepaper aux ETF.",
+    "fullChronicle": "Chronique complète",
+    "quiz": "06 · DÉFI",
+    "quizTitle": "Testez vos connaissances",
+    "quizDesc": "Dix questions. Sans compte.",
+    "startQuiz": "Commencer",
+    "shuffle": "Mélanger"
+  },
+  "common": {
+    "readMore": "Lire plus",
+    "back": "Retour",
+    "search": "Rechercher",
+    "items": "éléments",
+    "minRead": "{m} min",
+    "language": "Langue",
+    "followIp": "La langue suit votre région (IP). Modifiable manuellement.",
+    "fallbackNote": "Contenu localisé.",
+    "noResults": "Aucun résultat.",
+    "useful": "Utile",
+    "useIpLanguage": "Langue selon IP / région",
+    "ipActive": "actif",
+    "manualOverride": "Override manuel"
+  },
+  "ecosystemPage": {
+    "title": "Explorateur d'écosystème",
+    "subtitle": "Huit couches — des chaînes de base aux DAO."
+  },
+  "newsPage": {
+    "title": "Bureau des signaux",
+    "subtitle": "Titres Web3 pour builders et curieux."
+  },
+  "chroniclePage": {
+    "title": "Chronique",
+    "subtitle": "Moments qui ont reshaped l'argent numérique."
+  },
+  "securityPage": {
+    "title": "Centre de sécurité",
+    "subtitle": "Défenses pratiques wallets et ingénierie sociale."
+  },
+  "glossaryPage": {
+    "title": "Glossaire",
+    "subtitle": "Définitions claires du vocabulaire on-chain.",
+    "placeholder": "Filtrer…"
+  },
+  "quiz": {
+    "correct": "Correct",
+    "wrong": "Presque",
+    "next": "Suivant",
+    "restart": "Recommencer",
+    "score": "Score : {score}/{total}",
+    "done": "Défi terminé"
+  },
+  "article": {
+    "keyPoints": "Points clés",
+    "tips": "Conseils pratiques",
+    "checklist": "Checklist",
+    "expand": "Développer",
+    "collapse": "Réduire"
+  },
+  "intro": {
+    "headline": "Connaissances Web3 et crypto – apprenez clairement, pas de battage médiatique",
+    "body": "Web3Atlas est un centre éducatif, pas une application de trading. Explorez la carte de l'écosystème, suivez les signaux sélectionnés, étudiez la chronique, pratiquez la sécurité du portefeuille, ouvrez le glossaire et testez-vous avec des quiz : la clarté plutôt que la spéculation.",
+    "point1": "Carte de l'écosystème : blockchain, DeFi, NFT, L2, portefeuilles, DAO",
+    "point2": "Signaux et chronique : titres et historique clé",
+    "point3": "Centre de sécurité : phishing, seed, approbations",
+    "point4": "Glossaire et quiz : des termes simples que vous pouvez ouvrir et pratiquer",
+    "hint": "Appuyez ci-dessous pour continuer",
+    "enter": "Commencez à explorer",
+    "loading": "Chargement"
+  },
+  "safariGate": {
+    "note": "Après avoir ouvert cette page dans Safari, le site fonctionne normalement et cet avis reste masqué. Safari offre une interaction plus fluide et des couleurs plus riches.",
+    "openSafari": "Ouvrir avec Safari",
+    "copied": "Lien copié. Collez-le dans Safari pour continuer."
+  }
+}

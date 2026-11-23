@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2008-wp",
+    "date": "2008-10",
+    "title": "Bitcoin whitepaper",
+    "body": "Satoshi nerbitake desain awis elektronik peer-to-peer menyang dhaptar kriptografi. Proof-of-work ngubungake riwayat tanpa perantara sing dipercaya. Kertas cendhak dadi wiji intelektual industri lan narasi \"aturan ing kode\". \n\nKertas reframes dhuwit minangka ledger siaran karo insentif ekonomi. Node validasi aturan lokal; penambang mbuwang karya kanggo nggawe sejarah larang kanggo nulis ulang. Kombinasi kasebut - verifikasi mbukak lan nulis sing larang regane - isih menehi katrangan \"kenapa pamblokiran\". \n\nKanggo sing sinau, takeaway yaiku arsitektur: nyuda pihak katelu sing dipercaya kanggo penerbitan lan penyelesaian, nampa konfirmasi kemungkinan, lan encode kekurangan ing aturan protokol. Sistem mengko nyilih narasi sanajan ngganti mesin."
+  },
+  {
+    "id": "2009-genesis",
+    "date": "2009-01",
+    "title": "Blok Genesis",
+    "body": "Bitcoin boots karo judhul bab bailouts bank ditempelake ing pemblokiran genesis. Panggunaan awal minangka hobi pertambangan lan transfer tanpa rega. Ide dadi jaringan urip. \n\nNambahake judhul koran minangka tandha wektu lan sinyal politik. Peserta awal mbukak simpul lengkap kanthi standar amarga ora ana sing kudu ditindakake; verifikasi budaya regane liwat penak. \n\nEra genesis ngelingake wong anyar yen jaringan wiwit sosial lan jarang. Likuiditas, ijol-ijolan, lan dompet polesan teka mengko. Pangertosan Bitcoin isih diwiwiti kanthi maca apa sing dipilih pamblokiran pisanan babagan sistem finansial sing diupayakake metu."
+  },
+  {
+    "id": "2010-pizza",
+    "date": "2010-05",
+    "title": "Dina pizza Bitcoin",
+    "body": "10.000 BTC tuku loro pizza. Iku katon khayal dina, nanging iku wayahe awal awis elektronik tuku barang. Penemuan rega sosial-lan likuiditas awal cilik. \n\nPerdagangan pizza dikenang minangka punchline, nanging minangka likuiditas lan eksperimen UX: bisa awis elektronik mbusak tuku donya nyata tanpa jaringan kertu? Penemuan rega ora resmi; ditahan ana eksperimen; meme outlived panrimo. \n\nDina iki crita kasebut menehi rong piwulang. Kaping pisanan, pasar awal tipis lan anekdot dominasi. Kapindho, mbuwang mungsuh nyekel minangka pilihan kabijakan pribadi - aturan protokol ora ndhikte biaya kesempatan sampeyan."
+  },
+  {
+    "id": "2013-eth",
+    "date": "2013-11",
+    "title": "Ide Ethereum",
+    "body": "Vitalik negesake platform kontrak cerdas tujuan umum ngluwihi awis digital. Pangembang bakal masang logika sewenang-wenang. Ide kasebut wiji ICO, DeFi, lan NFT mengko. \n\nVisi Ethereum ngganti pitakonan saka \"awis digital\" dadi \"pemukiman sing bisa diprogram.\" Yen skrip bisa njaga aset lan nggawe, keuangan lan game dadi piranti lunak ing mesin sing dienggo bareng. \n\nAmbisi kasebut nggawe mode kegagalan anyar - reentrancy, oracle reliance, governance capture - nanging uga permukaan aplikasi sing paling akeh wong anyar sing ketemu luwih dhisik. Maca wayahe iki njlentrehake kenapa gas, ABI, lan risiko kontrak mlebu ing kosakata."
+  },
+  {
+    "id": "2015-eth-launch",
+    "date": "2015-07",
+    "title": "peluncuran Ethereum",
+    "body": "Frontier ngirim kemampuan blockchain sing bisa diprogram. Piranti kasebut atos lan asring kedadeyan, nanging keuangan lan game wiwit maju. EVM dadi standar multi-chain de facto. \n\nFrontier sengaja kasar: mbuktekaken mesin virtual ing alam bébas, nampa kedadean, iterate perkakas. Pangembang sinau manawa deploying kode gampang; nalar bab panelpon adversarial hard. \n\nBukak dikunci ing EVM minangka magnet kanggo perkakas lan mengko kanggo rantai \"EVM-kompatibel\". Kompatibilitas dudu keamanan sing padha-nanging model mental sing dienggo bareng nyuda biaya eksperimen ing saindenging jagad."
+  },
+  {
+    "id": "2016-dao",
+    "date": "2016-06",
+    "title": "Kedadeyan DAO",
+    "body": "Kontrak crowdfunding awal massive dieksploitasi. Debat hard-fork pamisah ETH / ETC lan mulang manawa \"kode iku hukum\" ora ateges \"kode iku bug-free.\" Konsensus sosial uga penting. \n\nHack DAO meksa komunitas milih antarane teater immutability lan pemulihan dana sosial. Pemisahan ETH / ETC minangka studi kasus permanen babagan carane \"kode hukum\" tabrakan karo konsensus kasar. \n\nSiswa kudu nyinaoni pola eksploitasi teknis lan proses pamrentahan sing ditindakake. Kontrak cerdas mbutuhake audit lan ngaso desain; masyarakat mbutuhake norma garpu eksplisit sadurunge krisis."
+  },
+  {
+    "id": "2017-ico",
+    "date": "2017",
+    "title": "gelombang ICO",
+    "body": "Penjualan token mbisakake penggalangan dana global-lan penipuan skala industri. Regulator nanggapi; eceran mbayar SPP. Pambocoran lan kepatuhan mlebu obrolan serius. \n\nPenjualan token compress penggalangan dana global menyang dompet browser. Pembentukan modal nyepetake; pambocoran asring ora. Eceran sinau yen PDF whitepaper ora rajin, lan regulator sinau pelajaran sing padha saka arah liyane. \n\nGelombang iki ninggalake debat standar, politik daftar ijol-ijolan, lan alergi sing langgeng kanggo janji sing ora ana watese. Skeptisisme sing sehat babagan peluncuran token minangka bagean saka literasi, dudu anti-inovasi."
+  },
+  {
+    "id": "2018-bear",
+    "date": "2018",
+    "title": "mangsa Crypto",
+    "body": "Prices tiba saka dhuwur siklus; proyek mung narasi ilang. Infra lan riset terus sepi. Winters minangka saringan kaya tragedi. \n\nMusim dingin ngumpulake token mung narasi nalika mbiayai keragaman klien, dompet UX, lan riset sing banjur digunakake maneh. Tukang bangunan sing tetep nganggep rega minangka cuaca, dudu iklim. \n\nKanggo sinau: pasar bear yaiku nalika sampeyan bisa sinau mekanika tanpa gangguan FOMO. Bagan dadi sepi; dokumentasi lan repo sumber entuk perhatian sing luwih jujur."
+  },
+  {
+    "id": "2020-defi",
+    "date": "2020",
+    "title": "DeFi musim panas",
+    "body": "Penambangan likuiditas njeblug utang lan AMM. Composability cemlorot; oracle / likuidasi / masalah insentif lumahing. Pangguna ketemu wallet-as-account finance ing skala. \n\nPenambangan likuiditas ngowahi AMM lan pasar dhuwit dadi puteran wutah. Composability tegese posisi utangan bisa dadi jaminan ing papan liya sajrone sawetara menit-lan uga bisa nyebabake likuidasi. \n\nMusim panas DeFi ngajari desain oracle, kelestarian insentif, lan bedane antarane gambar APY lan biaya sing bisa diekstrak. Keamanan dompet dadi mainstream amarga akun kasebut saiki dadi broker."
+  },
+  {
+    "id": "2021-nft",
+    "date": "2021-03",
+    "title": "Momen utama NFT",
+    "body": "Seni digital lan PFP kenek media mainstream. Pencipta nemokake ril anyar; spekulasi nderek. Sawise froth, standar, debat royalti, lan komunitas nyata tetep. \n\nNFT nggawa kreator, merek, lan wong akeh spekulatif menyang rel sing padha. Permanen metadata, penegakan royalti, lan debat dagang cuci ngetutake berita utama. \n\nSawise boom, pitakonan sing awet tetep: apa persis sing diduweni, ing ngendi media urip, lan komunitas endi sing bisa urip tanpa apresiasi rega tanpa henti? Budaya lan kontrak intertwined permanen."
+  },
+  {
+    "id": "2021-l2",
+    "date": "2021",
+    "title": "Akselerasi Rollup",
+    "body": "Desain optimis lan ZK nggawa lalu lintas nyata amarga pangguna mlayu saka biaya. Bridges lan sequencers dadi UX anyar lan pusat risiko. Scaling dadi path saben dina, ora geser. \n\nPangguna sing mlayu saka biaya mainnet nggawe rollup dadi dalan saben dina. Bridges lan sequencers dadi tiket dhukungan anyar: dana macet mid-hop, downtime, lan jam pungkasan sing mbingungake. \n\nSukses skala diukur ing aman metu lan asumsi kapercayan dingerteni, ora mung TPS minger. Literasi L2 saiki dadi literasi Web3 dhasar."
+  },
+  {
+    "id": "2022-merge",
+    "date": "2022-09",
+    "title": "Gabungan",
+    "body": "Konsensus Ethereum ngalih menyang proof-of-stake nalika eksekusi terus. Panggunaan energi mudhun; staking, MEV, lan keragaman klien dadi topik utama. A landmark engineering cutover. \n\nNgalih konsensus tanpa ngilangi eksekusi minangka potongan sistem gedhe sing langka. Narasi energi diganti sewengi; ekonomi staking lan riset MEV dipindhah menyang tataran tengah. \n\nGabungan nuduhake yen pamblokiran bisa mekar subsistem utama kanthi koordinasi. Iki uga nuduhake yen \"rampung\" ora tau rampung - keragaman klien lan resistensi sensor tetep ditindakake."
+  },
+  {
+    "id": "2022-contagion",
+    "date": "2022",
+    "title": "CeFi contagion",
+    "body": "Rantai pinjaman lan dana rusak, nuduhake hak asuh lan ora cocog karo kedewasaan. Narasi hak asuh lan PoR mundhak. Saldo platform dudu aset rantai. \n\nNalika tukang kredit CeFi lan dana gagal, pangguna nemokake maneh yen IOU dudu UTXO. Pemasaran bukti-saka-cadangan mundhak bebarengan karo antrian penarikan. \n\nKurikulum praktis: ngerti ngendi tombol manggon, imbangan ijol-ijolan ukuran sengaja, lan nambani asil sing mbutuhake ngunci aset ing platform minangka risiko kredit."
+  },
+  {
+    "id": "2023-blobs",
+    "date": "2024-03",
+    "title": "Blob-jaman DA biaya",
+    "body": "papan data Blob cheapens L2 posting lan ragad pangguna. Debat kasebut pindhah menyang desentralisasi sequencer lan interoperabilitas UX. Fees nyedhaki migunani saben dina. \n\nBlob space reframed biaya L2 lan nggawe transaksi saben dinten aran masuk akal maneh. Kawigatosan dipindhah menyang desentralisasi sequencer, jembatan sing dienggo bareng, lan UX adhedhasar maksud. \n\nKasedhiyan data sing murah perlu nanging ora cukup kanggo jagad multi-rantai sing aman. Pangguna isih butuh dalan metu sing jelas lan label resiko sing jujur."
+  },
+  {
+    "id": "2024-etf",
+    "date": "2024-01",
+    "title": "Titik Bitcoin ETFs",
+    "body": "US titik Bitcoin ETFs mbukak akses broker. Penemuan rega nggedhekake kanthi aliran makro. Crypto mlebu obrolan alokasi tradisional luwih jero. \n\nBitcoin sing dibungkus broker diganti sapa sing bisa ngalokasi lan kepiye aliran tekan panemuan rega. Meja makro mlebu obrolan sing biyen mung urip ing crypto Twitter. \n\nETFs ora ngganti pendidikan poto-tahan; padha nambah dalan akses podo karo perantara tradisional. Loro rel saiki mbentuk pasar."
+  },
+  {
+    "id": "2024-halving",
+    "date": "2024-04",
+    "title": "Papat Bitcoin halving",
+    "body": "Subsidi mudhun dadi 3.125 BTC. Penambang luwih akeh babagan biaya lan rega jangka panjang. Jadwal maneh nuduhake penerbitan sing ditemtokake protokol. \n\nJadwal subsidi maneh nuduhake penerbitan mung politik ing aturan protokol-penambang lan pasar adaptasi ing tanggalan sing dikenal. \n\nHalvings minangka alat piwulang sing migunani kanggo narasi kelangkaan, pasar ragad, lan ngapa anggaran keamanan pungkasane luwih gumantung marang panjaluk transaksi."
+  },
+  {
+    "id": "2024-restake",
+    "date": "2024",
+    "title": "Jaman restaring",
+    "body": "Eksperimen keamanan bareng berkembang kanthi asil lan risiko sing ditumpuk. Matriks garis miring lan kegagalan sing ana gandhengane mlebu diskusi mainstream. \n\nRestaking ngemas karya liyane menyang obligasi ekonomi padha. Keamanan bareng bisa efisien; gathukane slashing bisa brutal. \n\nNambani restaking kaya eksposur infrastruktur sing dimanfaatake: waca set operator, kondisi garis miring, lan asumsi oracle/atestasi sadurunge nguber poin."
+  },
+  {
+    "id": "2025-aa",
+    "date": "2025",
+    "title": "Smart-akun UX push",
+    "body": "Perkakas abstraksi akun tekan dompet konsumen kanthi sesi lan gas sing disponsori. Sawetara tanggung jawab pindhah menyang wali lan modul. UX tanpa biji ngupaya keseimbangan kanthi hak asuh. \n\nAbstraksi akun nggawa gas sing disponsori lan pemulihan sosial menyang dompet konsumen. Pendatang anyar ngadhepi tebing frase wiji-lan luwih akeh layar ijin modul. \n\nGelombang literasi sabanjure yaiku latihan pemulihan, ruang lingkup kunci sesi, lan ngerteni manawa fitur penak isih dadi permukaan wewenang."
+  },
+  {
+    "id": "2025-rwa",
+    "date": "2025",
+    "title": "ekspansi RWA",
+    "body": "Tagihan T-token lan kredit nggawa asil off-chain menyang pemukiman on-chain. Struktur hukum lan penebusan dominasi rajin. Perbendaharaan DeFi entuk lengen \"tradisional\". \n\nTreasuries tokenized digawe on-chain yield katon akrab karo alokasi tradisional. Legal wrappers lan meja nebus dadi penting minangka Solidity. \n\nRWAs mulang sing \"on-chain\" bisa ateges fashion pemukiman, ora disintermediasi lengkap. Waca kabijakan tahanan lan beku kanthi perawatan sing padha karo kode kontrak."
+  },
+  {
+    "id": "2026-intent",
+    "date": "2026",
+    "title": "Intent-centric mili",
+    "body": "Pangguna nyatakake asil; solvers saingan ing rute lan kuotasi. UX nyederhanakake nalika risiko jembatan tetep ana ing ngisor iki. Dompet lan router mlebu lomba produk anyar."
+  }
+]

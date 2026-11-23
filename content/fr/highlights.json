@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# Frais de gaz"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# Escroqueries basées sur des phrases de départ"
+  },
+  {
+    "id": "layer2",
+    "label": "# Couche 2"
+  },
+  {
+    "id": "approve",
+    "label": "# Approuver / autoriser"
+  }
+]

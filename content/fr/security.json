@@ -1,0 +1,234 @@
+[
+  {
+    "id": "homograph",
+    "tag": "Alerte",
+    "title": "Défense contre le phishing homographe",
+    "minutes": 5,
+    "summary": "Les personnages sosies forgent des domaines officiels pour récolter des signatures ou des graines.",
+    "sections": [
+      {
+        "heading": "A quoi ça ressemble",
+        "body": "Les attaquants échangent des caractères visuellement similaires dans des domaines et les associent à des publicités ou à des DM. L'interface utilisateur peut être parfaite au pixel près et même afficher de faux soldes."
+      },
+      {
+        "heading": "Comment le repérer",
+        "body": "Tapez des URL ou utilisez des signets. Vérifiez les propriétaires de certificats. Ne cliquez jamais sur l’annonce la plus recherchée pour les portefeuilles/ponts. Survolez les liens et inspectez les sous-domaines impairs."
+      },
+      {
+        "heading": "Si vous avez cliqué",
+        "body": "Révoquer les approbations et déplacer les fonds restants. Si vous avez tapé une graine, ce portefeuille est brûlé – sauvetage vers une toute nouvelle graine uniquement. Conservez les preuves pour les rapports."
+      }
+    ],
+    "checklist": [
+      "Ajouter les sites officiels aux favoris",
+      "Ignorer les annonces de recherche",
+      "Inspectez chaque caractère d'URL",
+      "Vérifiez la taille sur un deuxième appareil",
+      "Ne tapez jamais de graines dans des pages Web"
+    ],
+    "body": "Les personnages sosies forgent des domaines officiels pour récolter des signatures ou des graines."
+  },
+  {
+    "id": "seed",
+    "tag": "Clés",
+    "title": "Guide complet des phrases de départ",
+    "minutes": 6,
+    "summary": "Votre graine est le contrôle des actifs. Quiconque le demande est hostile.",
+    "sections": [
+      {
+        "heading": "Sauvegardes",
+        "body": "Écrire à la main et revérifier la commande ; pensez aux plaques de métal ; divisez soigneusement les emplacements. Pas de photos, de nuages ​​ou d'applications de chat."
+      },
+      {
+        "heading": "Escroqueries",
+        "body": "Pages « Synchroniser/vérifier/mettre à niveau/dégeler/airdrop » demandant 12/24 mots. Les administrateurs de Fake Discord utilisent le même script. Les « vérificateurs d’authenticité » matériels demandant des graines sont faux."
+      },
+      {
+        "heading": "Héritage",
+        "body": "Si personne ne connaît le plan, les fonds meurent avec vous. Utilisez des instructions scellées, des avocats ou multisig. En cas de fuite suspectée, migrez immédiatement."
+      }
+    ],
+    "checklist": [
+      "Graines uniquement sur les supports hors ligne",
+      "Ne dis ces mots à personne",
+      "Ne les saisissez jamais sur un appareil en réseau",
+      "Matériel + sauvegarde à froid pour la taille",
+      "Migrez sur n’importe quel signal de fuite"
+    ],
+    "body": "Votre graine est le contrôle des actifs. Quiconque le demande est hostile."
+  },
+  {
+    "id": "approve",
+    "tag": "DéFi",
+    "title": "Approuver/autoriser les pièges",
+    "minutes": 6,
+    "summary": "Les approbations ne déplacent pas les jetons immédiatement : elles autorisent des drainages ultérieurs, en particulier ceux illimités.",
+    "sections": [
+      {
+        "heading": "Mécanique",
+        "body": "Transfert ERC-20De l'allocation de besoins. Les approbations infinies sont pratiques ; les dépensiers compromis peuvent vous vider plus tard. setApprovalForAll est l'équivalent NFT."
+      },
+      {
+        "heading": "Pratique sécuritaire",
+        "body": "Allocations exactes lorsque cela est possible ; révoquer systématiquement ; tester de nouveaux protocoles petit. Surveillez les sites de largage qui nécessitent d’abord une approbation."
+      },
+      {
+        "heading": "Réponse aux incidents",
+        "body": "Révoquer et déplacer des fonds. Donnez la priorité aux dépensiers nommés dans les divulgations de piratage."
+      }
+    ],
+    "checklist": [
+      "Refuser les approbations illimitées et inutiles",
+      "Réviser les allocations mensuellement",
+      "Révoquer les opérateurs NFT inutilisés",
+      "Lire les adresses des dépensiers",
+      "Donner la priorité aux utilisateurs de protocoles piratés"
+    ],
+    "body": "Les approbations ne déplacent pas les jetons immédiatement : elles autorisent des drainages ultérieurs, en particulier ceux illimités."
+  },
+  {
+    "id": "fake-apps",
+    "tag": "Mobile",
+    "title": "Fausses applications de portefeuille",
+    "minutes": 5,
+    "summary": "Des clones apparaissent dans les magasins et chargent les chaînes pour voler des graines ou des appareils télécommandés.",
+    "sections": [
+      {
+        "heading": "Repérer les contrefaçons",
+        "body": "Faites correspondre les noms des éditeurs aux publications officielles ; méfiez-vous des toutes nouvelles applications classées n°1. Préférez les liens du vrai site. Les APK téléchargés latéralement sont plus risqués."
+      },
+      {
+        "heading": "Durcissement",
+        "body": "Gardez le système d'exploitation à jour ; minimiser les plugins ; pensez à un téléphone dédié. Utilisez du matériel pour la taille. Planifiez le verrouillage à distance en cas de perte du téléphone."
+      },
+      {
+        "heading": "Après l'installation",
+        "body": "Si une graine a été saisie dans une fausse application, supposez un compromis et migrez sur un appareil propre."
+      }
+    ],
+    "checklist": [
+      "Installer à partir des chaînes officielles",
+      "Vérifier les noms des développeurs",
+      "Évitez les APK aléatoires",
+      "La taille de la paire avec le matériel confirme",
+      "Migrez immédiatement en cas de contrefaçon"
+    ],
+    "body": "Des clones apparaissent dans les magasins et chargent les chaînes pour voler des graines ou des appareils télécommandés."
+  },
+  {
+    "id": "drainer",
+    "tag": "Signature",
+    "title": "Draineurs de signatures et permis malveillants",
+    "minutes": 7,
+    "summary": "Aucune graine n'est requise : des signatures structurées malveillantes peuvent autoriser les drains.",
+    "sections": [
+      {
+        "heading": "Tactique",
+        "body": "De fausses menthes/revendications demandent setApprovalForAll, des permis ou des « connexions ». Certaines charges utiles semblent vides. Les robots balayent ensuite."
+      },
+      {
+        "heading": "Défense",
+        "body": "Portefeuilles à signature claire, simulation, rejet des inconnues. Connectez d’abord les nouveaux sites avec un graveur. Vérifiez les domaines."
+      },
+      {
+        "heading": "Après",
+        "body": "Révoquer, sauver les fonds, avertir les communautés, vérifier les autres chaînes pour obtenir les mêmes approbations."
+      }
+    ],
+    "checklist": [
+      "Rejeter les signatures opaques",
+      "Activer la simulation",
+      "Utiliser un graveur sur les nouveaux sites",
+      "Révoquer régulièrement",
+      "Ajouter de vraies dApps à vos favoris"
+    ],
+    "body": "Aucune graine n'est requise : des signatures structurées malveillantes peuvent autoriser les drains."
+  },
+  {
+    "id": "support",
+    "tag": "Sociale",
+    "title": "Faux support et ingénierie sociale",
+    "minutes": 5,
+    "summary": "Après avoir publié une erreur, les imitateurs DM « aident » en demandant un accès à distance ou des graines.",
+    "sections": [
+      {
+        "heading": "Le livre de jeu",
+        "body": "Avatars clonés, urgence, applications de contrôle à distance ou instructions de dépôt « contrat sécurisé ». Les comptes d’amis compromis diffusent également des liens."
+      },
+      {
+        "heading": "Règles",
+        "body": "Les vraies équipes DM rarement en premier pour les secrets. Utilisez les billets officiels/les chaînes publiques. Vérifiez vos amis hors groupe."
+      },
+      {
+        "heading": "Hygiène",
+        "body": "Ne diffusez jamais de graines sur des chaînes publiques, même « partiellement masquées »."
+      }
+    ],
+    "checklist": [
+      "Ignorer les DM de support froid",
+      "N'installez pas d'outils distants aléatoires",
+      "Ne donnez jamais de graines pour soutenir",
+      "Vérifier les liens d'amis étranges hors ligne",
+      "Utiliser les canaux d'aide officiels publics"
+    ],
+    "body": "Après avoir publié une erreur, les imitateurs DM « aident » en demandant un accès à distance ou des graines."
+  },
+  {
+    "id": "bridges",
+    "tag": "Chaîne croisée",
+    "title": "Sécurité des ponts",
+    "minutes": 6,
+    "summary": "Les ponts sont les principales cibles de piratage et les favoris du phishing. Plus rapide n’est pas plus sûr par défaut.",
+    "sections": [
+      {
+        "heading": "Choisir",
+        "body": "Préférez les ponts canoniques des documents officiels. Vétérinez des ponts rapides pour les audits et les limites. Comprenez les délais de sortie."
+      },
+      {
+        "heading": "Fonctionnement",
+        "body": "De minuscules tests de bout en bout ; vérifier les contrats de jetons de destination ; enregistrer les hachages. Ne considérez pas les sorties en vol comme une marge libre."
+      },
+      {
+        "heading": "Incidents",
+        "body": "Lors des hacks de pont, suivez les avis de pause officiels, et non les « scripts de migration » DM."
+      }
+    ],
+    "checklist": [
+      "Ajouter les ponts officiels aux favoris",
+      "Testez d'abord le petit",
+      "Vérifier les contrats de destination",
+      "Enregistrer les hachages d'émission",
+      "Ignorer les scripts de migration DM"
+    ],
+    "body": "Les ponts sont les principales cibles de piratage et les favoris du phishing. Plus rapide n’est pas plus sûr par défaut."
+  },
+  {
+    "id": "devices",
+    "tag": "Opérations",
+    "title": "Hygiène des appareils et des navigateurs",
+    "minutes": 5,
+    "summary": "Les logiciels malveillants du Presse-papiers, les fausses extensions et les PC partagés sont des voies de vol quotidiennes.",
+    "sections": [
+      {
+        "heading": "Navigateur",
+        "body": "Profil crypto dédié ; extensions officielles minimales ; sites de favoris. Utilisez une machine propre pour la taille."
+      },
+      {
+        "heading": "Système",
+        "body": "Correctif du système d'exploitation ; méfiez-vous des « outils de largage » ; évitez les chargeurs publics sommaires. Vérifiez toujours à nouveau les adresses collées."
+      },
+      {
+        "heading": "Superposition",
+        "body": "Chaud pour le quotidien, froid pour les économies, le multisig pour les trésoreries bat un super-portefeuille."
+      }
+    ],
+    "checklist": [
+      "Profil de navigateur séparé",
+      "Extensions de la liste blanche",
+      "Revérifiez les adresses collées",
+      "Garder le système d'exploitation à jour",
+      "Répartir les fonds par rôle"
+    ],
+    "body": "Les logiciels malveillants du Presse-papiers, les fausses extensions et les PC partagés sont des voies de vol quotidiennes."
+  }
+]

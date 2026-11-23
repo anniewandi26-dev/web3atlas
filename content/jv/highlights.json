@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "#Biaya gas"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# Penipuan tembung wiji"
+  },
+  {
+    "id": "layer2",
+    "label": "# Lapisan 2"
+  },
+  {
+    "id": "approve",
+    "label": "# Sarujuk / sangu"
+  }
+]

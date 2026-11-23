@@ -1,0 +1,234 @@
+[
+  {
+    "id": "homograph",
+    "tag": "Fadakarwa",
+    "title": "Homograph phishing tsaron",
+    "minutes": 5,
+    "summary": "Haruffa masu kamanni suna ƙirƙira yankuna na hukuma don girbi sa hannun hannu ko iri.",
+    "sections": [
+      {
+        "heading": "Me yayi kama",
+        "body": "Maharan suna musanya haruffa iri ɗaya na gani zuwa yankuna kuma suna haɗa su da tallace-tallace ko DMs. UI na iya zama cikakke-pixel kuma har ma yana nuna ma'aunin karya."
+      },
+      {
+        "heading": "Yadda ake gane shi",
+        "body": "Buga URLs ko amfani da alamun shafi. Bincika masu takaddun shaida. Kar a taɓa danna babban tallan bincike na walat/gadaji. Tsayar da hanyoyin haɗin gwiwa kuma bincika ƙananan yanki."
+      },
+      {
+        "heading": "Idan kun danna",
+        "body": "Soke yarda kuma matsar da sauran kudade. Idan ka buga iri, wannan walat ɗin yana ƙonewa-ceto zuwa sabon iri kawai. Ajiye shaida don rahotanni."
+      }
+    ],
+    "checklist": [
+      "Alamar shafukan hukuma",
+      "Tsallake tallan bincike",
+      "Duba kowane hali URL",
+      "Ketare-bincike kan na'ura ta biyu don girman girma",
+      "Kada a taɓa buga iri cikin shafukan yanar gizo"
+    ],
+    "body": "Haruffa masu kamanni suna ƙirƙira yankuna na hukuma don girbi sa hannun hannu ko iri."
+  },
+  {
+    "id": "seed",
+    "tag": "Maɓallai",
+    "title": "Cikakken jagorar jimlar iri",
+    "minutes": 6,
+    "summary": "Zuriyar ku ita ce sarrafa kadarorin. Duk wanda ya roke shi makiya ne.",
+    "sections": [
+      {
+        "heading": "Ajiyayyen",
+        "body": "Rubuta hannu da sake duba oda; la'akari da faranti na karfe; raba wurare a hankali. Babu hotuna, gajimare, ko aikace-aikacen taɗi."
+      },
+      {
+        "heading": "Zamba",
+        "body": "\"Aiki tare / tabbatarwa / haɓakawa / cirewa / iska\" shafukan neman kalmomi 12/24. Fake Discord admins suna amfani da rubutun iri ɗaya. Hardware “masu duba gaskiya” suna neman iri karya ne."
+      },
+      {
+        "heading": "Gado",
+        "body": "Idan babu wanda ya san shirin, kuɗi ya mutu tare da ku. Yi amfani da umarnin rufe, lauyoyi, ko multisig. A kan abin da ake zargin ya zubo, yi ƙaura nan da nan."
+      }
+    ],
+    "checklist": [
+      "Tsari kawai akan kafofin watsa labarai na layi",
+      "Faɗa wa kowa kalmomin",
+      "Kar a taɓa shigar da su akan na'urar sadarwar",
+      "Hardware + madadin sanyi don girman",
+      "Yi ƙaura akan kowace siginar ɗigo"
+    ],
+    "body": "Zuriyar ku ita ce sarrafa kadarorin. Duk wanda ya roke shi makiya ne."
+  },
+  {
+    "id": "approve",
+    "tag": "DeFi",
+    "title": "Amincewa / ba da izini tarko",
+    "minutes": 6,
+    "summary": "Amincewa ba sa motsa alamun nan da nan - suna ba da izinin magudanar ruwa daga baya, musamman marasa iyaka.",
+    "sections": [
+      {
+        "heading": "Makanikai",
+        "body": "Canja wurin ERC-20 Daga izinin buƙatun. Amincewa marar iyaka sun dace; masu kashe makudan kudi na iya kwashe ku daga baya. setApprovalForAll shine NFT daidai."
+      },
+      {
+        "heading": "Aiki lafiya",
+        "body": "Madaidaicin izini idan zai yiwu; soke akai-akai; gwada sabbin ka'idoji ƙanana. Kalli rukunin yanar gizo waɗanda ke buƙatar Amincewa da farko."
+      },
+      {
+        "heading": "Amsa da ya faru",
+        "body": "Soke kuma motsa kuɗi. Ba da fifiko ga masu kashe kuɗi mai suna a cikin bayanan hack."
+      }
+    ],
+    "checklist": [
+      "Ki yarda mara iyaka mara amfani",
+      "Bitar alawus kowane wata",
+      "Soke masu aikin NFT da ba a yi amfani da su ba",
+      "Karanta adiresoshin masu kashe kudi",
+      "Ba da fifiko ga masu kashe kujerun yarjejeniya"
+    ],
+    "body": "Amincewa ba sa motsa alamun nan da nan - suna ba da izinin magudanar ruwa daga baya, musamman marasa iyaka."
+  },
+  {
+    "id": "fake-apps",
+    "tag": "Wayar hannu",
+    "title": "Aikace-aikacen walat ɗin karya",
+    "minutes": 5,
+    "summary": "Clones suna bayyana a cikin shaguna da tashoshi masu ɗaukar nauyi don satar iri ko na'urorin sarrafa nesa.",
+    "sections": [
+      {
+        "heading": "Haɓaka karya",
+        "body": "Daidaita sunayen masu bugawa zuwa matsayi na hukuma; Hattara sabbin manhajoji na #1. Fi son hanyoyin haɗi daga ainihin rukunin yanar gizon. APKs masu ɗorewa sun fi haɗari."
+      },
+      {
+        "heading": "Taurare",
+        "body": "Ci gaba da sabunta OS; rage girman plugins; la'akari da sadaukarwa waya. Yi amfani da kayan aiki don girma. Shirya makullin nesa idan wayar ta ɓace."
+      },
+      {
+        "heading": "Bayan shigar",
+        "body": "Idan an shigar da iri a cikin ƙa'idar karya, ɗauka sulhu kuma yi ƙaura akan na'ura mai tsabta."
+      }
+    ],
+    "checklist": [
+      "Shigar daga tashoshi na hukuma",
+      "Tabbatar da sunayen masu haɓakawa",
+      "Guji bazuwar APKs",
+      "Girman nau'i-nau'i tare da kayan aiki yana tabbatarwa",
+      "Yi hijira nan da nan idan karya"
+    ],
+    "body": "Clones suna bayyana a cikin shaguna da tashoshi masu ɗaukar nauyi don satar iri ko na'urorin sarrafa nesa."
+  },
+  {
+    "id": "drainer",
+    "tag": "Sa hannu",
+    "title": "Magudanar sa hannu & izini na mugunta",
+    "minutes": 7,
+    "summary": "Babu iri da ake buƙata - sa hannun tsararrun ɓarna na iya ba da izinin magudanar ruwa.",
+    "sections": [
+      {
+        "heading": "Dabaru",
+        "body": "Neman mints/da'awar karya saitinApprovalForAll, izini, ko \"shigarwa.\" Wasu lodin kaya ba komai bane. Bots suna sharewa daga baya."
+      },
+      {
+        "heading": "Tsaro",
+        "body": "Share-hannun walat, kwaikwaiyo, ƙin abubuwan da ba a sani ba. Haɗa sabbin shafuka tare da mai ƙonewa da farko. Duba yankuna."
+      },
+      {
+        "heading": "Bayan haka",
+        "body": "Soke, kuɗaɗen ceto, gargaɗi al'umma, bincika sauran sarƙoƙi don amincewa iri ɗaya."
+      }
+    ],
+    "checklist": [
+      "Karɓar sa hannu mara kyau",
+      "Kunna kwaikwayo",
+      "Yi amfani da ƙonawa akan sababbin shafuka",
+      "Soke akai akai",
+      "Alamar ainihin dApps"
+    ],
+    "body": "Babu iri da ake buƙata - sa hannun tsararrun ɓarna na iya ba da izinin magudanar ruwa."
+  },
+  {
+    "id": "support",
+    "tag": "Zamantakewa",
+    "title": "Tallafin karya & injiniyan zamantakewa",
+    "minutes": 5,
+    "summary": "Bayan kun buga kuskure, masu kwaikwayi DM “taimako” suna neman samun dama mai nisa ko iri.",
+    "sections": [
+      {
+        "heading": "Littafin wasan kwaikwayo",
+        "body": "Cloned avatars, gaggawa, aikace-aikacen sarrafa nesa, ko umarnin ajiya na \"kwangiloli lafiya\". Matsalolin abokan hulɗa da aka yi sulhu suna yada hanyoyin haɗin gwiwa kuma."
+      },
+      {
+        "heading": "Dokoki",
+        "body": "Ƙungiyoyin gaske da wuya su fara DM don asirce. Yi amfani da tikiti na hukuma/tashoshi na jama'a. Tabbatar da abokai ba sa cikin band."
+      },
+      {
+        "heading": "Tsafta",
+        "body": "Kar a taɓa manna tsaba a cikin tashoshi na jama'a-har ma da “bangare abin rufe fuska.”"
+      }
+    ],
+    "checklist": [
+      "Yi watsi da tallafin sanyi DMs",
+      "Kar a shigar da kayan aikin nesa bazuwar",
+      "Kar a taɓa ba da iri don tallafawa",
+      "Tabbatar da mahaɗan abokai masu ban mamaki a layi",
+      "Yi amfani da tashoshi na taimakon jama'a"
+    ],
+    "body": "Bayan kun buga kuskure, masu kwaikwayi DM “taimako” suna neman samun dama mai nisa ko iri."
+  },
+  {
+    "id": "bridges",
+    "tag": "Tsare-tsare",
+    "title": "Gada aminci",
+    "minutes": 6,
+    "summary": "Gada sune manyan maƙasudin hack da fi so phishing. Mafi sauri ba shi da aminci ta tsohuwa.",
+    "sections": [
+      {
+        "heading": "Zabar",
+        "body": "Fi son gadoji na canonical daga takaddun hukuma. Vet gada masu sauri don dubawa da iyakoki. Fahimtar jinkirin fita."
+      },
+      {
+        "heading": "Aiki",
+        "body": "Ƙananan gwaje-gwaje na ƙarshe zuwa ƙarshe; tabbatar da kwangilar alamar makoma; ajiye hashes. Kada ku ɗauki ficewar cikin jirgin a matsayin gefe kyauta."
+      },
+      {
+        "heading": "Abubuwan da suka faru",
+        "body": "A kan hacking ɗin gada, bi sanarwar dakatarwa na hukuma-ba DM “rubutun ƙaura ba.”"
+      }
+    ],
+    "checklist": [
+      "Alamar gadoji na hukuma",
+      "Gwada kankanin farko",
+      "Tabbatar da kwangilar wuri",
+      "Ajiye tx hashes",
+      "Yi watsi da rubutun ƙaura na DM"
+    ],
+    "body": "Gada sune manyan maƙasudin hack da fi so phishing. Mafi sauri ba shi da aminci ta tsohuwa."
+  },
+  {
+    "id": "devices",
+    "tag": "Ops",
+    "title": "Na'ura & Tsaftar burauza",
+    "minutes": 5,
+    "summary": "Clipboard malware, kari na karya, da kwamfutocin da aka raba su ne hanyoyin sata na yau da kullun.",
+    "sections": [
+      {
+        "heading": "Browser",
+        "body": "Ƙaddamar da bayanin martaba na crypto; ƙaramin kari na hukuma; shafukan alamar shafi. Yi amfani da injin mai tsabta don girman girman."
+      },
+      {
+        "heading": "Tsari",
+        "body": "Patch OS; yi hattara \"kayan aikin iska\"; kauce wa sketchy jama'a caja. Koyaushe sake duba adiresoshin da aka liƙa."
+      },
+      {
+        "heading": "Yadawa",
+        "body": "Zafi na yau da kullun, sanyi don tanadi, multisig don taskoki ya doke babban walat ɗaya."
+      }
+    ],
+    "checklist": [
+      "Raba bayanan burauza",
+      "Karin jerin jerin sunayen",
+      "Sake duba adiresoshin da aka liƙa",
+      "Ci gaba da sabunta OS",
+      "Raba kudade ta hanyar rawa"
+    ],
+    "body": "Clipboard malware, kari na karya, da kwamfutocin da aka raba su ne hanyoyin sata na yau da kullun."
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q1",
+    "question": "Pourquoi BTC est-il devenu la référence crypto grand public ?",
+    "choices": [
+      "Les mentions de célébrités seules",
+      "Premier récit crédible de monnaie numérique rare + effets de réseau",
+      "Soutien gouvernemental garanti",
+      "Approvisionnement illimité"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q2",
+    "question": "Pourquoi Ethereum est-il appelé « ordinateur mondial » ?",
+    "choices": [
+      "Il stocke uniquement les fichiers",
+      "Il gère des contrats intelligents à usage général",
+      "Il extrait Bitcoin plus rapidement",
+      "Il remplace le DNS à l'échelle mondiale"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q3",
+    "question": "Le Bitcoin est divisé par deux environ tous les 4 ans : qu’est-ce qui est réduit ?",
+    "choices": [
+      "Approvisionnement total instantané",
+      "Récompense du bloc mineur",
+      "Frais de portefeuille pour toujours",
+      "Nombre de validateurs"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q4",
+    "question": "Qu’est-ce que les ETF Bitcoin spot américains ont principalement changé ?",
+    "choices": [
+      "Code BTC",
+      "Parcours d'accès au courtage pour les investisseurs traditionnels",
+      "Algorithme de minage",
+      "Longueur de la phrase de départ"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q5",
+    "question": "Après la fusion, la consommation d'énergie d'Ethereum…",
+    "choices": [
+      "Augmenté 10x",
+      "Abaissé de façon spectaculaire avec la preuve de participation",
+      "Devenu uniquement du charbon",
+      "Inchangée"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q6",
+    "question": "Pourquoi les transferts de couche 2 peuvent-ils coûter quelques centimes ?",
+    "choices": [
+      "Ils ignorent la sécurité",
+      "Ils regroupent de nombreuses transmissions et amortissent le coût des données L1",
+      "Les banques les subventionnent",
+      "Le gaz est gratuit selon la loi"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q7",
+    "question": "Pourquoi les principales pièces stables sont-elles appelées « dollars en chaîne » ?",
+    "choices": [
+      "Ce sont des portefeuilles assurés par la FDIC",
+      "Ils visent à suivre l'USD pour le règlement et le trading",
+      "Ce sont des pièces d'or",
+      "Ils ne peuvent pas transférer"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q8",
+    "question": "Emprunter et gagner sans guichet bancaire : quelle catégorie ?",
+    "choices": [
+      "Uniquement les NFT",
+      "Prêts DeFi et AMM",
+      "Fabrication de matériel",
+      "Internet par satellite"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q9",
+    "question": "2010 : 10 000 BTC achetés deux pizzas – une leçon ?",
+    "choices": [
+      "BTC a toujours été cher",
+      "La première découverte des prix était expérimentale et sociale",
+      "La pizza est un protocole",
+      "L'exploitation minière était illégale"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q10",
+    "question": "Une approbation imprudente peut…",
+    "choices": [
+      "Améliorer automatiquement l'APY",
+      "Laisser un contrat drainer les jetons plus tard",
+      "Supprimer la blockchain",
+      "Mettez à niveau votre matériel"
+    ],
+    "answer": 1
+  }
+]

@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Web3-kennisinfrastructuur",
+    "badge": "Veiligheid eerst"
+  },
+  "nav": {
+    "explore": "Verkennen",
+    "ecosystem": "Ecosysteem",
+    "news": "Nieuws",
+    "chronicle": "Kroniek",
+    "security": "Beveiliging",
+    "glossary": "Woordenlijst"
+  },
+  "hero": {
+    "kicker": "8 LAGEN · TIK OM TE LEREN",
+    "titleLine1": "Het internet verandert.",
+    "titleLine2": "Kaart wat volgt.",
+    "subtitle": "Web3-netwerken en ideeën — helder, zonder hype.",
+    "ctaPrimary": "Ecosysteem verkennen",
+    "ctaSecondary": "Beveiligingscentrum",
+    "pause": "Pauze",
+    "play": "Afspelen"
+  },
+  "sections": {
+    "ecosystem": "01 · ECOSYSTEEM",
+    "ecosystemTitle": "Verken per categorie",
+    "ecosystemDesc": "Acht lagen van Web3.",
+    "openExplorer": "Open explorer",
+    "news": "02 · SIGNAAL",
+    "newsTitle": "Wat beweegt",
+    "newsDesc": "Geselecteerde koppen.",
+    "allHeadlines": "Alle koppen",
+    "glossary": "03 · LEXICON",
+    "glossaryTitle": "Spreek dezelfde taal",
+    "glossaryDesc": "Snelle definities.",
+    "openGlossary": "Open woordenlijst",
+    "security": "04 · VERDEDIGING",
+    "securityTitle": "Moeilijk te hacken",
+    "securityDesc": "Phishing, approve, seed.",
+    "securityCenter": "Beveiligingscentrum",
+    "chronicle": "05 · TIJDLIJN",
+    "chronicleTitle": "Hoe we hier kwamen",
+    "chronicleDesc": "Van whitepaper tot ETF.",
+    "fullChronicle": "Volledige kroniek",
+    "quiz": "06 · UITDAGING",
+    "quizTitle": "Test je kennis",
+    "quizDesc": "Tien vragen.",
+    "startQuiz": "Start",
+    "shuffle": "Shuffle"
+  },
+  "common": {
+    "readMore": "Meer lezen",
+    "back": "Terug",
+    "search": "Zoeken",
+    "items": "items",
+    "minRead": "{m} min",
+    "language": "Taal",
+    "followIp": "Taal volgt je regio (IP).",
+    "fallbackNote": "Gelokaliseerde inhoud.",
+    "noResults": "Geen resultaten.",
+    "useful": "Nuttig",
+    "useIpLanguage": "IP-taal gebruiken",
+    "ipActive": "actief",
+    "manualOverride": "Handmatig"
+  },
+  "ecosystemPage": {
+    "title": "Ecosysteemverkenner",
+    "subtitle": "Acht lagen."
+  },
+  "newsPage": {
+    "title": "Signaaldesk",
+    "subtitle": "Web3-koppen."
+  },
+  "chroniclePage": {
+    "title": "Kroniek",
+    "subtitle": "Momenten die digitaal geld vormden."
+  },
+  "securityPage": {
+    "title": "Beveiligingscentrum",
+    "subtitle": "Praktische verdediging."
+  },
+  "glossaryPage": {
+    "title": "Woordenlijst",
+    "subtitle": "Duidelijke definities.",
+    "placeholder": "Filter…"
+  },
+  "quiz": {
+    "correct": "Juist",
+    "wrong": "Bijna",
+    "next": "Volgende",
+    "restart": "Opnieuw",
+    "score": "Score: {score}/{total}",
+    "done": "Klaar"
+  },
+  "article": {
+    "keyPoints": "Kernpunten",
+    "tips": "Praktische tips",
+    "checklist": "Checklist",
+    "expand": "Uitklappen",
+    "collapse": "Inklappen"
+  },
+  "intro": {
+    "headline": "Web3- en crypto-kennis: leer duidelijk, geen hype",
+    "body": "Web3Atlas is een onderwijscentrum, geen handelsapp. Verken de ecosysteemkaart, volg samengestelde signalen, bestudeer de kroniek, oefen portemonneebeveiliging, open de woordenlijst en test jezelf met quizzen – duidelijkheid boven speculatie.",
+    "point1": "Ecosysteemkaart: blockchain, DeFi, NFT, L2, portemonnees, DAO",
+    "point2": "Signalen en kroniek: krantenkoppen plus belangrijke geschiedenis",
+    "point3": "Beveiligingscentrum: phishing, zaden, goedkeuringen",
+    "point4": "Woordenlijst en quiz: duidelijke termen die u kunt openen en oefenen",
+    "hint": "Tik hieronder om door te gaan",
+    "enter": "Begin met verkennen",
+    "loading": "Laden"
+  },
+  "safariGate": {
+    "note": "Nadat u deze pagina in Safari hebt geopend, werkt de site normaal en blijft deze melding verborgen. Safari zorgt voor vloeiendere interactie en rijkere kleuren.",
+    "openSafari": "Openen met Safari",
+    "copied": "Link gekopieerd. Plak het in Safari om door te gaan."
+  }
+}

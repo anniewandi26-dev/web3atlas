@@ -1,0 +1,362 @@
+[
+  {
+    "id": "gas",
+    "term": "Gas",
+    "definition": "Ƙididdigar ƙididdigar raka'a da ajiyar ma'amala tana cinyewa.",
+    "explain": "Gas yana auna yawan ƙididdigewa da ajiya da ma'amala ke buƙatar hanyar sadarwa don aiwatarwa. Ba tare da ma'auni ba, sarkar jama'a na iya tsayawa ta madaukai marasa iyaka ko spam. Kuɗin ku kusan ƙimar amfani × na ɗaya ne; cunkoso yana haɓaka farashin naúrar yayin da buƙatun blockspace ke ƙaruwa. \n\nMa'amalar da ta gaza har yanzu tana iya kashe iskar gas saboda masu inganci sun riga sun aiwatar da aikin. Al'ada ta zahiri: ƙididdige kudade, fi son kashe kololuwa lokacin koyo, kuma kada ku rikita saƙon UX da ya gaza tare da sake gwadawa kyauta."
+  },
+  {
+    "id": "gwei",
+    "term": "Gwai",
+    "definition": "Ƙungiyar ETH na gama gari don faɗar farashin gas.",
+    "explain": "Gwei wata ƙungiya ce ta ether da aka yi amfani da ita don faɗin farashin gas a cikin lambobi na mutum. Ɗayan ETH yayi daidai da 1e9 Gwei. Wallets sau da yawa suna nuna max fee da fifikon fifiko a Gwei don haka za ku iya kwatanta gaggawa ba tare da kirga goma sha takwas ba. \n\nLokacin karanta koyawa ko hotunan hotunan mempool, duba raka'a a hankali. Haɗa ƙididdiga na Gwei tare da adadin canja wurin ETH babban kuskure ne na farkon farawa wanda ke haifar da kari ko rashin biyan kuɗi."
+  },
+  {
+    "id": "evm",
+    "term": "EVM",
+    "definition": "Injin Virtual na Ethereum-lokacin aikin kwangila mai wayo.",
+    "explain": "Injin Virtual na Ethereum shine lokacin gudu wanda ke aiwatar da bytecode mai kaifin basira. Yawancin sassan \"EVM masu jituwa\" suna sake amfani da opcodes da kayan aiki don masu haɓakawa su iya tura irin wannan kwangiloli a wani wuri. \n\nDaidaituwa game da ƙwarewar mai haɓakawa ne, ba tsaro iri ɗaya ba ko tattalin arziki ba. Koyaushe tabbatar da wace sarkar da kuke ciki, wanne mai binciken da kuka amince da shi, da kuma ko tsarin haɓakawa na wakili yana cikin hannu kafin ɗaukan lambar zata kasance har abada."
+  },
+  {
+    "id": "amm",
+    "term": "AMM",
+    "definition": "Yin kasuwa ta hanyar wuraren tafki da dabaru maimakon littattafai.",
+    "explain": "Mai yin kasuwa mai sarrafa kansa yana siyar da farashin ciniki tare da dabarun ruwa maimakon littafin oda na gargajiya. Masu samar da ruwa suna ajiye kadarori kuma suna samun kudade yayin da suke ɗaukar haɗarin ƙira da aka sani da hasarar dindindin. \n\nTafkunan karya da alamun kamanni tarkuna ne na gama-gari. Bincika adiresoshin kwangila, zurfin tafkin, da matakan kuɗi. AMMs ne masu ƙarfi na farko-biyar da su azaman kasuwanni tare da madaidaicin lissafi da kwararar gaba."
+  },
+  {
+    "id": "tvl",
+    "term": "TVL",
+    "definition": "Jimlar ƙimar kulle a cikin kwangilolin yarjejeniya.",
+    "explain": "Jimlar kimar kulle-kulle da aka adana a cikin kwangilolin yarjejeniya. Babban TVL na iya siginar amfani da amana-ko kawai ƙirga adadin adibas da ƙima mai ƙima. \n\nKaranta TVL kusa da ingancin duba, maɓallan gudanarwa, ƙirar magana, da kudaden shiga na gaske. Lambar kanun labarai ba tare da waɗannan mahallin ba shine ma'aunin tallace-tallace, ba ƙimar aminci ba."
+  },
+  {
+    "id": "apy",
+    "term": "APY",
+    "definition": "Yawan amfanin ƙasa na shekara-shekara gami da haɓakawa.",
+    "explain": "APY tana ƙididdige yawan amfanin ƙasa gami da haɓakar zato. Gajerun yaƙin neman zaɓe na shekara-shekara zuwa APYs masu lamba uku galibi suna yaudara saboda hayaki, farashin alama, da dorewa ba su da tabbas. \n\nKwatanta kamar da kamar: Kuɗin APY mai ɗorewa tare da APY na ɗan lokaci. Tambayi abin da zai faru lokacin da abubuwan ƙarfafawa suka ƙare, kuma ko za ku iya fita ba tare da lalata matsayin ba."
+  },
+  {
+    "id": "apr",
+    "term": "APR",
+    "definition": "Adadin shekara-shekara ba tare da haɓakawa ba.",
+    "explain": "APR tana faɗin adadin shekara-shekara ba tare da haɗawa ba. Hanyoyin ba da lamuni sau da yawa suna nuna wadata APR da aro APR gefe da gefe; ma'anoni sun bambanta a cikin samfuran. \n\nLokacin kwatanta APR da APY, tabbatar da haɓaka mitar da ko an haɗa alamun lada. Daidaitaccen ma'anar yana hana ƙaddamar da \"mafi kyawun ƙimar\" ƙarya."
+  },
+  {
+    "id": "slippage",
+    "term": "Zamewa",
+    "definition": "Rata tsakanin farashin da ake tsammani da kashewa.",
+    "explain": "Slippage shine rata tsakanin farashin da kuke tsammani da farashin da kuke karɓa. Ƙananan wuraren tafki, manyan girma, da lokuta masu canzawa suna faɗaɗa wannan tazarar. \n\nSaitunan zamewa da yawa suna gayyatar sandwiching; saituna masu tsauri sun gaza kuma har yanzu suna iya kashe gas. Saita sane da girman ciniki da zurfin tafkin, kuma fi son ƙaddamarwa na sirri lokacin da akwai manyan musanyawa."
+  },
+  {
+    "id": "mev",
+    "term": "MEV",
+    "definition": "Ana iya fitar da ƙima daga oda/hada ma'amaloli.",
+    "explain": "Matsakaicin ƙimar da za a iya cirewa ita ce riba daga sarrafa odar ciniki, haɗawa, ko tantancewa. Mempools na jama'a suna barin masu bincike su gano manyan musanya da gasa don kama gefen. \n\nRage raguwar sun haɗa da zamewa mai ƙarfi, kwararar oda na sirri, gwanjon tsari, da girman tsagawa kawai. Fahimtar MEV yayi bayanin dalilin da yasa \"cinikin iri ɗaya, mafi muni\" ke faruwa koda ba tare da kwaro na UI ba."
+  },
+  {
+    "id": "oracle",
+    "term": "Oracle",
+    "definition": "Sabis yana kawo bayanan sarkar akan sarkar.",
+    "explain": "Oracles suna kawo bayanan sarkar-musamman farashin-kan sarkar don haka kwangiloli zasu iya amsawa. Rarraba lamuni da farashin alamar har abada sun dogara da amincin abinci. \n\nKasuwanni masu ƙanƙanta sun fi sauƙi don sarrafa su cikin mummunan kwafin baka. Zaɓi ƙa'idodi tare da ƙaƙƙarfan tarawa, masu watsewar kewayawa, da bayyanannen halayen gazawa lokacin da abinci ke tsayawa."
+  },
+  {
+    "id": "rollup",
+    "term": "Juyawa",
+    "definition": "Kisa na L2 wanda ke aika bayanai/hujja zuwa L1.",
+    "explain": "Juyawa yana kashe sarkar tushe kuma yana aika bayanai ko hujjoji baya don L1 ya iya amintar da sakamakon. Kyawawan ƙira sun dogara da ƙalubalen tagogi; ingantaccen rollups sun dogara da hujjoji. \n\nKudin mai amfani ya faɗi saboda yawancin ma'amaloli suna raba farashin L1. Lissafin haɗarin ku har yanzu ya haɗa da gadoji, masu biyo baya, maɓallan haɓakawa, da yadda tilas ficewar ke aiki."
+  },
+  {
+    "id": "sequencer",
+    "term": "Mabiyi",
+    "definition": "Bangaren da ke yin odar mu'amalar L2.",
+    "explain": "Mabiyi yana yin odar L2 ma'amaloli kuma sau da yawa yana ba da tabbaci mai taushi da sauri. Yawancin masu bin diddigi sun kasance a tsakiya a yau, wanda ke shafar juriya da ƙima. \n\nRarraba masu jerin gwano babban jigon taswirar hanya ne. Har sai lokacin, bi da tabbatarwa mai laushi azaman dacewa, kuma fahimtar hanyar zuwa shigar L1 lokacin da masu aiki suka yi kuskure."
+  },
+  {
+    "id": "finality",
+    "term": "Ƙarshe",
+    "definition": "Lokacin da tx/block ba a iya juyawa a zahiri.",
+    "explain": "Ƙarshe yana bayyana lokacin da ma'amala ta kasance ba za a iya juyawa ba. Wasu ƙa'idodi suna da takamaiman na'urori na ƙarshe; wasu suna yiwuwa kuma suna ƙarfafa da zurfi. \n\nMusanya suna ɗaukar ƙididdiga masu tabbatarwa daga waɗannan zato. Don manyan canja wuri, jira ƙarshen abin da abokin aikin ku ke buƙata a zahiri-ba farkon abin toast na “nasara” ba."
+  },
+  {
+    "id": "utxo",
+    "term": "UTXO",
+    "definition": "Samfurin lissafin fitar da ma'amala da ba a kashe ba.",
+    "explain": "Abubuwan ciniki waɗanda ba a kashe su ba su ne yadda tsarin kamar Bitcoin ke bin tsabar tsabar kuɗi. Ma'aunin ku shine jimlar UTXOs da zaku iya sanya hannu don; kashewa yana cinye abubuwan samarwa kuma yana iya haifar da canji. \n\nLissafin UTXO ya bambanta da ma'auni na asusu kuma yana shafar kudade, keɓantawa, da zaɓin tsabar kuɗi. Walat ɗin haske suna ɓoye cikakkun bayanai-cikakkiyar ƙofofin suna bayyana dalilin haɗin gwiwa."
+  },
+  {
+    "id": "eoa",
+    "term": "EOA",
+    "definition": "Maɓalli mai sarrafa kansa na waje.",
+    "explain": "Maɓalli mai zaman kansa yana sarrafa asusun waje kai tsaye ba tare da lambar kwangila ba. Yawancin walat ɗin gargajiya sune EOAs: sa hannu yayi daidai da izini. \n\nBabu sake saitin kalmar sirri. Asarar iri ita ce asarar dukiya. Smart asusun canza wannan samfurin; idan kun tsaya akan EOAs, madadin layi da juriya na phishing sune komai."
+  },
+  {
+    "id": "multisig",
+    "term": "Multisig",
+    "definition": "Asusun da ke buƙatar yarda da yawa.",
+    "explain": "Asusun sa hannu da yawa suna buƙatar amincewar M-of-N kafin kuɗi ya motsa. Baitulmali da ƙungiyoyi suna amfani da su don cire gazawar maɓalli ɗaya. \n\nKasuwancin ƙira sun haɗa da zaɓin bakin kofa, bambance-bambancen yanki, da ƙwanƙwasawa. Multisig da ba ku taɓa karantawa ba zai iya yin kasawa a mafi munin lokaci."
+  },
+  {
+    "id": "seed-phrase",
+    "term": "Jumlar iri",
+    "definition": "Jerin kalmomin da ke sabunta maɓallan walat.",
+    "explain": "Jumlar iri tana sabunta maɓallan walat. Duk wanda ya ga kalmomin zai iya sake ƙirƙirar walat ɗin wani wuri - wakilan tallafi ba sa buƙatar ta don \"tabbatar\" ku. \n\nAjiye tsaba a layi daya, kar a taɓa rubuta su cikin gidajen yanar gizo, kuma ɗauka cewa an lalata irir hoto. Idan yayyo, yi ƙaura nan da nan zuwa sabon iri akan na'ura mai tsabta."
+  },
+  {
+    "id": "allowance",
+    "term": "Allowance",
+    "definition": "Matsakaicin adadin kwangila zai iya kashe na alamar ku.",
+    "explain": "Alawus yana iyakance adadin alamar kwangilar mai kashewa zai iya canzawa Daga ma'aunin ku. Ƙimar da ba ta da iyaka suna dacewa ga ƴan kasuwa akai-akai kuma suna da haɗari ga kowa. \n\nYi bita da soke alawus ɗin da ba a amfani da su akai-akai. Fi son madaidaicin alawus ko matsakaici lokacin koyon sabon ƙa'ida."
+  },
+  {
+    "id": "approve",
+    "term": "Amincewa",
+    "definition": "Ma'amala da ke saita izini.",
+    "explain": "Amince saita ma'amaloli ko canza alawus. Ba sa motsa alamun da kansu, amma suna buɗewa daga baya ciyarwa ta adireshin mai kashewa. \n\nKaranta mai kashewa a hankali, kwaikwayi tasirin, kuma ku yi hattara mai fa'ida wanda ke neman amincewa ga kwangilolin da ba a san su ba. Amincewa shine babban magudanar ruwa."
+  },
+  {
+    "id": "rug",
+    "term": "Rug Ja",
+    "definition": "Masu ciki suna zubar da ruwa ko barin aiki.",
+    "explain": "Rikicin katifa shine lokacin da masu ciki suka zubar da ruwa ko kuma suyi watsi da aiki bayan tara kuɗi. Alamomin faɗakarwa sun haɗa da rashin isassun kuɗi, masu gudanarwa mara kyau, da tallace-tallace-kawai kawai. \n\nƘwararren ƙwarewa shine zamantakewa da fasaha: lissafin ƙungiyar, izinin kwangila, da ko an kulle kuɗin ruwa. Idan ba za ku iya bayyana hanyar fita ba, kar ku yi girma."
+  },
+  {
+    "id": "phishing",
+    "term": "Fishing",
+    "definition": "Shafukan karya/bayani suna yaudarar maɓalli ko sa hannu.",
+    "explain": "Fishing yana amfani da rukunin yanar gizo na karya, tallace-tallace, da fahimi don girbin maɓalli ko sa hannu. Yankunan Homograph da goyan bayan DM na karya sune abubuwan da suka faru na shekara-shekara. \n\nYi amfani da alamun shafi, watsi da tallace-tallacen bincike don alamar walat, kuma kada ku raba iri. Lokacin da babu tabbas, tabbatar da tasha ta biyu kafin sanya hannu akan wani abu."
+  },
+  {
+    "id": "bridge",
+    "term": "Gada",
+    "definition": "Yarjejeniyar motsi dukiya/saƙonni a cikin sarƙoƙi.",
+    "explain": "Gada tana motsa kadarori ko saƙon cikin sarƙoƙi. Canonical gadoji sun gaji mafi yawan tsarin tsaro na gida; gada masu sauri sau da yawa suna ƙara ƙarin zato don saurin gudu. \n\nKoyaushe gwada da ƙananan kuɗi, tabbatar da URLs na hukuma, kuma ku fahimci halin maida kuɗi. Hadarin gada yana tattare da tarihi kuma ba ya gafartawa."
+  },
+  {
+    "id": "stablecoin",
+    "term": "Stablecoin",
+    "definition": "Alamar da aka ƙera don bin ƙaƙƙarfan tunani.",
+    "explain": "Stablecoins na nufin bin ƙaƙƙarfan tunani kamar USD. Zane-zane sun haɗa da ajiyar fiat, ƙirar crypto, da hanyoyin algorithmic-kowannensu ya gaza daban. \n\nKoyi ingancin shaidar mai bayarwa, daskare manufofin, da hanyoyin fansa. Rarraba lokacin da barga ke da mahimmanci ga tafiyar da aikin ku."
+  },
+  {
+    "id": "liquidity",
+    "term": "Ruwa",
+    "definition": "Ikon ciniki girman ba tare da motsi farashin da yawa.",
+    "explain": "Liquidity shine ikon cinikin girman ba tare da motsin farashin da yawa ba. Ruwa mai zurfi yana rage zamewa; m ko ruɗi liquidity na iya karya aminci. \n\nBincika wanda zai iya janye alamun LP da sauri. Ruwan da ke ɓacewa a cikin damuwa ba ruwa ba ne lokacin da kuke buƙata."
+  },
+  {
+    "id": "impermanent-loss",
+    "term": "Asarar da ba ta dawwama",
+    "definition": "LP underperformance vs riƙe lokacin da farashin ya bambanta.",
+    "explain": "Babban hasara shine rashin aikin LP tare da riƙe kadarorin kawai lokacin da farashin ya bambanta. Kudade na iya biya ko a'a. \n\nFitowa yayi yana k'ara yin gibin. Yanayin ƙirar ƙira kafin samar da ruwa, musamman a cikin nau'i-nau'i masu canzawa tare da kuɗin shiga na bakin ciki."
+  },
+  {
+    "id": "liquidation",
+    "term": "Ruwan ruwa",
+    "definition": "Tilasta siyar da jingina lokacin da lamuni ba shi da lafiya.",
+    "explain": "Liquidation yana sayar da garanti idan yanayin lafiyar lamuni ya gaza. Oracle sun saita farashin faɗakarwa; cascades suna haɓaka hadarurruka. \n\nAjiye masu buffers, guje wa max leverage yayin koyo, kuma ku fahimci ko masu ruwa da tsaki na tushen gwanjo ne ko tushen-bot."
+  },
+  {
+    "id": "staking",
+    "term": "Tsayawa",
+    "definition": "Makulle kadarori don amintacciyar hanyar sadarwa ko samun lada.",
+    "explain": "Rikici yana kulle kadarori don amintar hanyar sadarwa ko samun ladan yarjejeniya. Zane-zane sun bambanta akan makullai, yanke, da kuma ko kuna gudanar da ingantacce ko wakilai. \n\nTawagar tana ƙara haɗarin mai aiki. Karanta lokutan rashin haɗin kai kafin ɗaukar kadarorin da ke hannun jari a matsayin kudaden ruwan damina."
+  },
+  {
+    "id": "validator",
+    "term": "Mai tabbatarwa",
+    "definition": "Kullin PoS wanda ke ba da shawara/tabbatar tubalan.",
+    "explain": "Masu tabbatarwa suna ba da shawara da kuma tabbatar da tubalan a cikin tsarin tabbatar da hannun jari. Za a iya yanke rashin aikin yi ko ƙeta. \n\nSolo tabbatarwa yana buƙatar horon ops; Rikicin ruwa da sake sakewa suna ƙara ɗimbin kwangiloli na wayo da haɗarin mai aiki a saman ayyukan haɗin gwiwa."
+  },
+  {
+    "id": "dao",
+    "term": "DAO",
+    "definition": "Ƙungiya mai daidaitawa ta hanyar dokoki/ƙiri'u na kan sarkar.",
+    "explain": "A DAO yana daidaitawa ta hanyar ka'idojin sarkar da kuri'u akan taskoki da sigogi. Juyawa, maida hankali na whale, da kuma sakamakon ingancin sigar tsari. \n\nMulki wani filin tsaro ne: haɓakawa na mugunta na iya zubar da kuɗi tare da kuri'ar \"nasara\". Karanta abubuwan da aka biya, ba lakabi kawai ba."
+  },
+  {
+    "id": "nft",
+    "term": "NFT",
+    "definition": "Alamar da ba ta da ƙarfi don abubuwa na musamman.",
+    "explain": "Alamu marasa ƙarfi suna wakiltar abubuwa na musamman. Mallakar alamar yana kan sarkar; kafofin watsa labarai da halaye galibi suna rayuwa ba tare da sarka ba kuma sun dogara da pinning ko sabobin. \n\nTabbatar da adiresoshin kwangila, manufofin sarauta, da mutability na metadata. Ayyukan zane iri ɗaya, kwangila daban-daban, tarko ne na gargajiya."
+  },
+  {
+    "id": "ipfs",
+    "term": "Farashin IPFS",
+    "definition": "Fayil ɗin da aka rarraba mai adireshin abun ciki.",
+    "explain": "IPFS tana ba da adireshin abun ciki ta zanta don haka ana iya bincika amincin. Dawwama har yanzu ya dogara da wani yana liƙa bayanan. \n\nLokacin da NFTs ko docs suka buga IPFS, tambayi wanene fil kuma menene zai faru idan ƙofofin ƙofofin sun ɓace. Abubuwan da ke magana ≠ atomatik hosting har abada."
+  },
+  {
+    "id": "ens",
+    "term": "ENS",
+    "definition": "Ethereum Name Taswirar sunaye zuwa rikodin.",
+    "explain": "ENS taswirar sunaye masu iya karantawa ga adireshi da bayanai. Yana rage typos amma sunaye sun ƙare kuma ana iya sace ƙuduri idan kun tsallake cak. \n\nKoyaushe sake duba adireshin da aka warware akan amintacciyar hanya kafin aika girman."
+  },
+  {
+    "id": "layer1",
+    "term": "Layer 1",
+    "definition": "Sarkar tushe tare da nasa ijma'i/daidaitawar sa.",
+    "explain": "Sarkar Layer-1 tana ba da haɗin kai da tsaro na sasantawa. Kudade da kayan aiki suna nuna ƙarancin ƙarancin Layer na tushe. \n\nL1s sune inda ƙudurin jayayya na ƙarshe yakan rayu don jujjuyawa. Fahimtar kuɗin L1 da ƙarshe yana taimaka muku fassara alƙawuran L2."
+  },
+  {
+    "id": "layer2",
+    "term": "Layer 2",
+    "definition": "Scaling Layer gaji tsaro daga L1.",
+    "explain": "Tsarin tsarin Layer-2 yana aiwatar da sikelin kisa yayin da ake son gadon tsaro daga L1. Rollups sun mamaye sararin ƙira na yanzu. \n\nYa kamata masu amfani su koyi amanar gada, zato na jerin sunayen, da fitattun tagogi. \"Ethereum mai rahusa\" har yanzu yana da taswirar aikinsa."
+  },
+  {
+    "id": "zk-proof",
+    "term": "ZK / Tabbacin Tabbatarwa",
+    "definition": "Tabbatar da daidaito ba tare da sake aiwatar da komai ba.",
+    "explain": "Tabbatattun hujjoji sun gamsar da mai tabbatarwa cewa tsari daidai yake ba tare da sake aiwatar da komai ba. ZK rollups suna amfani da su don daidaitawa daidai akan L1. \n\nAlamar “ZK” baya amsa jerin waɗanne, waɗanda suke haɓakawa, ko yadda gadoji ke aiki. Tambayi abin da aka tabbatar da abin da ya rage amintacce."
+  },
+  {
+    "id": "fraud-proof",
+    "term": "Hujja ta zamba",
+    "definition": "Shaida cewa sashe mai kyakkyawan fata ba shi da inganci.",
+    "explain": "Hujjojin zamba suna ƙalubalantar batches masu kyau yayin taga. Dole ne masu kallo su sami damar shiga bayanai kuma su gabatar da shaida. \n\nIdan bayanai sun ɓace ko masu kallo sun kasa, tsammanin tsaro yana raunana. Tsarukan kyakkyawan fata suna musayar jinkiri zuwa ƙarshe don tabbatarwa cikin sauƙi."
+  },
+  {
+    "id": "blob",
+    "term": "Blob",
+    "definition": "Wurin bayanai mai arha da aka gabatar don ƙima.",
+    "explain": "Blobs suna ba da sarari bayanan ɗan lokaci mai rahusa don jujjuyawa don aika bayanan ciniki. Ƙananan farashin DA shine babban dalilin da farashin L2 ya fadi. \n\nBlobs kayan aiki ne, ba samfurin mai amfani da kansu ba. Suna kunna aikace-aikace; ba sa cire gada ko sanya hannu kan haɗari."
+  },
+  {
+    "id": "wallet",
+    "term": "Wallet",
+    "definition": "Software/hardware mai sarrafa maɓalli da sa hannu.",
+    "explain": "Wallet yana sarrafa maɓalli kuma yana gina sa hannu. Tsabar kudi suna rayuwa akan sarkar; walat ɗin yana riƙe da iko, ba ma'auni na tsaro ba sai dai idan asusun musayar ne. \n\nZaɓi zafi da sanyi dangane da girma da mita. Horon Ajiyayyen yana da mahimmanci fiye da kayan kwalliya."
+  },
+  {
+    "id": "cold-storage",
+    "term": "Ma'ajiyar Sanyi",
+    "definition": "Adana maɓallai a layi don rage girman kai hari.",
+    "explain": "Ma'ajiyar sanyi yana kiyaye maɓallan layi ba tare da layi ba don rage girman harin nesa. Ya dace da hannun jari na dogon lokaci fiye da ciniki mai yawa. \n\nGwaji karɓa da ƙaramar aika kwarara kafin girman filin ajiye motoci. Kurakurai na aiki (sarkar da ba daidai ba, adireshin da ba daidai ba) har yanzu yana aiki akan layi."
+  },
+  {
+    "id": "kyc",
+    "term": "KYC",
+    "definition": "Binciken shaida akan dandamali.",
+    "explain": "KYC shine tabbatarwa na ainihi akan dandamali don yarda. Ya bambanta da adiresoshin blockchain kuma yana haifar da keɓancewa da ɓarna bayanan sirri. \n\nFahimtar abin da kuka bari don fiat ramps. Kame kai baya share tarihin KYC a kan-hanyoyin da kuka riga kuka yi amfani da su."
+  },
+  {
+    "id": "dex",
+    "term": "DEX",
+    "definition": "Musanya daidaitawa ta hanyar kwangiloli masu wayo.",
+    "explain": "Mu'amalar da ba ta da tushe tana daidaita cinikai ta hanyar kwangiloli masu wayo, yawanci ba a tsare ba. Masu amfani suna kiyaye maɓallai da sa hannu da kuma haɗarin MEV. \n\nTabbatar da kwangilar na'ura mai ba da hanya tsakanin hanyoyin sadarwa da adiresoshin alamar. A DEX UI har yanzu yana iya yin phishing koda lokacin da ƙa'idar ke da daraja."
+  },
+  {
+    "id": "cex",
+    "term": "CEX",
+    "definition": "Musanya ta tsakiya.",
+    "explain": "Matsakaicin musanya yana ba da daidaitawa cikin sauri da fiat ramp tare da haɗarin tsarewa. Kuna riƙe IOU har sai kun janye. \n\nYi amfani da su azaman kayan aiki, ba kayan aiki ba. Janye girman da kuke kula da shi, ba da damar tsaro mai ƙarfi, da kuma kallon ƙa'idodi masu kama da juna."
+  },
+  {
+    "id": "dapp",
+    "term": "DApp",
+    "definition": "App mai mahimmanci akan sarkar.",
+    "explain": "Dapp yana sanya dabaru masu mahimmanci akan sarkar yayin da gaban gaba zai iya kasancewa a tsakiya. Karɓar yanki na iya nuna masu amfani ga kiran kwangila mara kyau. \n\nAlamar URLs na hukuma, sun fi son ingantattun hulɗar kwangila, da kuma kula da amincewar gaba a matsayin wani ɓangare na ƙirar barazanar."
+  },
+  {
+    "id": "hash",
+    "term": "Hash",
+    "definition": "Narkar da bayanai ta hanya ɗaya.",
+    "explain": "Taswirorin hash mai ɓoye bayanan taswira zuwa tsayayyen narkewa. Ƙananan canje-canjen shigarwa suna jujjuya fitarwa; gano karo an tsara shi da wuya. \n\nHashes haɗin toshe, abun cikin adireshi, da ƙaddamar da saƙo. Su ne manne na ingantattun bincike a duk tsarin crypto."
+  },
+  {
+    "id": "block",
+    "term": "Toshe",
+    "definition": "Batch na txs da aka haɗa cikin tarihi.",
+    "explain": "Toshe batches ma'amaloli cikin tarihin da aka haɗe. Girman da maƙasudin lokaci suna tsara kayan aiki da kasuwannin kuɗi. \n\nMasu bincike suna nuna tsayi, mai ba da shawara, da haɗa txs. Fahimtar tubalan yana taimaka muku fassarar tabbatarwa da sake fasalin haɗarin."
+  },
+  {
+    "id": "private-key",
+    "term": "Keɓaɓɓen Maɓalli",
+    "definition": "Sirrin da ke ba da izini ciyarwa.",
+    "explain": "Maɓalli mai zaman kansa yana ba da izinin ciyarwa. Raba shi—ko iri da ya samo shi — yayi daidai da raba kuɗin. \n\nKada a taɓa buga maɓalli cikin gidajen yanar gizo, aikace-aikacen taɗi, ko siffofin “tallafi”. Warewa kayan aiki yana taimakawa; Tsananin aiki har yanzu yana yanke hukunci."
+  },
+  {
+    "id": "public-key",
+    "term": "Maɓallin Jama'a",
+    "definition": "Ƙimar da aka samu da ake amfani da ita don tabbatar da sa hannu.",
+    "explain": "Maɓallin jama'a yana tabbatar da sa hannu masu dacewa da maɓalli na sirri. Adireshi yawanci ana samun su daga hashing maɓalli na jama'a. \n\nMaɓallai da adiresoshin jama'a ana iya raba su don karɓa. Ayyukan sirri har yanzu suna da mahimmanci idan kun sake amfani da su ko'ina."
+  },
+  {
+    "id": "address",
+    "term": "Adireshi",
+    "definition": "Mai gano da aka yi amfani da shi don karɓar kuɗi.",
+    "explain": "Adireshi shine mai ganowa da ake amfani da shi don karɓar kuɗi akan hanyar sadarwa. Aika zuwa sarkar da ba daidai ba ko adireshin buga rubutu ba ya dawwama. \n\nKwafi a hankali, tabbatar da ƴan haruffa a farko da ƙarshe, da aika gwaji lokacin matsar girman zuwa sabon wuri."
+  },
+  {
+    "id": "confirmation",
+    "term": "Tabbatarwa",
+    "definition": "Tubalan nawa ne suka gina akan tx.",
+    "explain": "Tabbatarwa suna ƙididdige adadin tubalan da aka gina a saman cinikin ku. Ƙarin zurfin yana sa reorgs ya fi wuya. \n\nSabis suna zaɓar ƙofofin daban-daban don girma dabam dabam. Hakuri shine kulawar tsaro don babban sulhu."
+  },
+  {
+    "id": "smart-contract",
+    "term": "Kwangilar Smart",
+    "definition": "An tura shirin zuwa sarkar.",
+    "explain": "Kwangila mai wayo shiri ne da aka tura zuwa adireshin sarkar. Yana iya tsare kadarori da aiwatar da dokoki ba tare da mai shiga tsakani na gargajiya ba. \n\nBugs, maɓallan gudanarwa, da haɗin kai mara tsammani suna haifar da haɗari. An fi son tantancewa, hanyoyin lamba da aka gwada lokacin koyo da kuɗi na gaske."
+  },
+  {
+    "id": "token",
+    "term": "Alama",
+    "definition": "Ƙungiyar kadari ta ƙididdigewa a cikin kwangila.",
+    "explain": "Alamu raka'a ne na kadara da aka ƙididdige su ta hanyar kwangila. Ana iya haɗa sunaye da tickers; adiresoshin kwangila sun gano ainihin kadari. \n\nKoyaushe tabbatar da adireshin daga amintaccen tushe kafin musanya ko ƙara ruwa."
+  },
+  {
+    "id": "erc-20",
+    "term": "ERC-20",
+    "definition": "Mahimman hanyoyin sadarwa na fungible token.",
+    "explain": "ERC-20 shine babban keɓaɓɓen keɓantawar alamar fungible akan sarƙoƙi masu kama da Ethereum. Yana daidaita yanayin canja wuri da yarda don wallets da DEXs. \n\nAmincewa wani ɓangare ne na ma'auni-kuma ɓangaren haɗari. Fahimtar injiniyoyin izni kafin noma sabbin alamu."
+  },
+  {
+    "id": "permissionless",
+    "term": "Mara izini",
+    "definition": "Kowa na iya amfani ko turawa ba tare da lissafin izini ba.",
+    "explain": "Tsarin mara izini yana bawa kowa damar amfani ko turawa ba tare da lissafin izini ba. Bude damar shiga yana haifar da ƙirƙira da zamba tare. \n\nTacewar ku ta zama na sirri: tabbatar da kwangiloli, fifita suna tare da shaida, da ƙananan gwaje-gwaje masu girma."
+  },
+  {
+    "id": "custody",
+    "term": "tsarewa",
+    "definition": "Wani ɓangare na uku yana riƙe da maɓalli/kadara.",
+    "explain": "Riko yana nufin wani ɓangare na uku ya riƙe muku maɓalli ko kadarori. Cinikin dacewa akan takwaransa da haɗarin aiki. \n\nKame kai yana canzawa zuwa gare ku. Hanyoyi masu haɗaka-musanya don ciniki, ajiyar sanyi don tanadi-sune tsarin karatu na gama gari."
+  },
+  {
+    "id": "yield-farming",
+    "term": "Noman amfanin gona",
+    "definition": "Bayar da kuɗi don samun lada a cikin ƙa'idodi.",
+    "explain": "Noman amfanin gona yana keɓance yawan kuɗi a cikin ƙa'idodi don samun lada. Yawancin APRs galibi na ɗan lokaci ne kuma ana biyan su a cikin alamun lada masu canzawa. \n\nSamfurin fita ruwa da kuma haɗarin kwangilar wayo. Noma dabara ce, ba asusun ajiya ba."
+  },
+  {
+    "id": "airdrop",
+    "term": "saukar da iska",
+    "definition": "Rarraba alamar don haɓaka/al'umma.",
+    "explain": "Airdrops suna rarraba alamun haɓaka ko ladan al'umma. Da'awar na iya haɗawa da sa hannu waɗanda suka fi aminci-ko mafi ƙarancin aminci- fiye da yadda suke kallo. \n\nKalli wuraren da'awar phishing da abubuwan ban mamaki na haraji. Idan da'awar ta nemi zuriyarka, ba digo ba ne."
+  },
+  {
+    "id": "whitepaper",
+    "term": "Takarda",
+    "definition": "Daftarin aiki da ke bayyana ƙira da manufa.",
+    "explain": "Farar takarda tana bayyana manufofin ƙira da hanyoyin aiki. Fi son ƙaƙƙarfan ƙa'idodi, ƙirar barazana, da sigogi sama da bene na vibe. \n\nBi da takaddun azaman fara da'awar tabbatarwa a cikin lamba da halayen samarwa, ba azaman garanti ba."
+  },
+  {
+    "id": "halving",
+    "term": "Rabawa",
+    "definition": "Yanke tallafin toshe na Bitcoin na lokaci-lokaci.",
+    "explain": "Rabin Bitcoin lokaci-lokaci yana yanke tallafin toshe. Sabbin samar da kayayyaki yana jinkiri akan jadawalin da aka sani. \n\nBa ya bada garantin tashin farashin. Yana kwatanta yadda kasafin tsaro da kasuwannin kuɗi ke tasowa yayin da tallafin ke raguwa."
+  },
+  {
+    "id": "merkle-tree",
+    "term": "Itacen Merkle",
+    "definition": "Hash itace yana tabbatar da haɗawa da inganci.",
+    "explain": "Itatuwan Merkle hash bayanai a cikin tushen don haka hadawa za a iya tabbatar da inganci. Abokan ciniki masu haske da tsarin shaida da yawa sun dogara da su. \n\nSuna ba ku damar tabbatar da wani yanki na ƙaƙƙarfan saiti ba tare da zazzage komai ba - ainihin zuwa tabbatarwa mai ƙima."
+  },
+  {
+    "id": "nonce",
+    "term": "Babu komai",
+    "definition": "Lambar jerin tx asusu.",
+    "explain": "An ba da lissafi a jerin ma'amaloli don haka ana sarrafa kowace sau ɗaya a jere. Sau da yawa ana maye gurbin ma'amaloli da aka makale ta hanyar aika sako iri ɗaya tare da ƙarin kuɗi. \n\nFahimtar nonces yana lalata walat ɗin \"jiran har abada\" da kwararar sauyawa."
+  }
+]

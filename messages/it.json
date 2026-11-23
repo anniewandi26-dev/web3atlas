@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Infrastruttura di conoscenza Web3",
+    "badge": "Sicurezza prima"
+  },
+  "nav": {
+    "explore": "Esplora",
+    "ecosystem": "Ecosistema",
+    "news": "Notizie",
+    "chronicle": "Cronaca",
+    "security": "Sicurezza",
+    "glossary": "Glossario"
+  },
+  "hero": {
+    "kicker": "8 LIVELLI · TOCCA PER IMPARARE",
+    "titleLine1": "Internet sta cambiando.",
+    "titleLine2": "Mappa ciò che arriva.",
+    "subtitle": "Reti e idee Web3 — chiarezza, non hype.",
+    "ctaPrimary": "Esplora ecosistema",
+    "ctaSecondary": "Centro sicurezza",
+    "pause": "Pausa",
+    "play": "Play"
+  },
+  "sections": {
+    "ecosystem": "01 · ECOSISTEMA",
+    "ecosystemTitle": "Esplora per categoria",
+    "ecosystemDesc": "Otto livelli di Web3.",
+    "openExplorer": "Apri explorer",
+    "news": "02 · SEGNALE",
+    "newsTitle": "Cosa si muove",
+    "newsDesc": "Titoli curati.",
+    "allHeadlines": "Tutti i titoli",
+    "glossary": "03 · LESSICO",
+    "glossaryTitle": "Parla la stessa lingua",
+    "glossaryDesc": "Definizioni rapide.",
+    "openGlossary": "Apri glossario",
+    "security": "04 · DIFESA",
+    "securityTitle": "Resta difficile da hackerare",
+    "securityDesc": "Phishing, approve, seed.",
+    "securityCenter": "Centro sicurezza",
+    "chronicle": "05 · TIMELINE",
+    "chronicleTitle": "Come siamo arrivati qui",
+    "chronicleDesc": "Dal whitepaper agli ETF.",
+    "fullChronicle": "Cronaca completa",
+    "quiz": "06 · SFIDA",
+    "quizTitle": "Metti alla prova le conoscenze",
+    "quizDesc": "Dieci domande.",
+    "startQuiz": "Inizia",
+    "shuffle": "Mescola"
+  },
+  "common": {
+    "readMore": "Leggi di più",
+    "back": "Indietro",
+    "search": "Cerca",
+    "items": "elementi",
+    "minRead": "{m} min",
+    "language": "Lingua",
+    "followIp": "La lingua segue la tua regione (IP).",
+    "fallbackNote": "Contenuto localizzato.",
+    "noResults": "Nessun risultato.",
+    "useful": "Utile",
+    "useIpLanguage": "Usa lingua IP",
+    "ipActive": "attivo",
+    "manualOverride": "Manuale"
+  },
+  "ecosystemPage": {
+    "title": "Explorer ecosistema",
+    "subtitle": "Otto livelli."
+  },
+  "newsPage": {
+    "title": "Desk segnali",
+    "subtitle": "Titoli Web3."
+  },
+  "chroniclePage": {
+    "title": "Cronaca",
+    "subtitle": "Momenti che hanno cambiato il denaro digitale."
+  },
+  "securityPage": {
+    "title": "Centro sicurezza",
+    "subtitle": "Difese pratiche."
+  },
+  "glossaryPage": {
+    "title": "Glossario",
+    "subtitle": "Definizioni chiare.",
+    "placeholder": "Filtra…"
+  },
+  "quiz": {
+    "correct": "Corretto",
+    "wrong": "Quasi",
+    "next": "Avanti",
+    "restart": "Ricomincia",
+    "score": "Punteggio: {score}/{total}",
+    "done": "Completato"
+  },
+  "article": {
+    "keyPoints": "Punti chiave",
+    "tips": "Suggerimenti pratici",
+    "checklist": "Checklist",
+    "expand": "Espandi",
+    "collapse": "Comprimi"
+  },
+  "intro": {
+    "headline": "Web3 e conoscenza delle criptovalute: impara in modo chiaro, senza esagerare",
+    "body": "Web3Atlas è un centro educativo, non un'app di trading. Esplora la mappa dell'ecosistema, segui segnali selezionati, studia la cronaca, esercita la sicurezza del portafoglio, apri il glossario e mettiti alla prova con i quiz: chiarezza anziché speculazione.",
+    "point1": "Mappa dell'ecosistema: blockchain, DeFi, NFT, L2, portafogli, DAO",
+    "point2": "Segnali e cronaca: titoli e cronologia chiave",
+    "point3": "Centro sicurezza: phishing, seed, approvazioni",
+    "point4": "Glossario e quiz: termini semplici che puoi aprire ed esercitarti",
+    "hint": "Tocca sotto per continuare",
+    "enter": "Inizia a esplorare",
+    "loading": "Caricamento"
+  },
+  "safariGate": {
+    "note": "Dopo aver aperto questa pagina in Safari, il sito funziona normalmente e questo avviso rimane nascosto. Safari offre un'interazione più fluida e colori più ricchi.",
+    "openSafari": "Apri con Safari",
+    "copied": "Collegamento copiato. Incollalo in Safari per continuare."
+  }
+}

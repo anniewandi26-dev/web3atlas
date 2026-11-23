@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Infrastructură de cunoștințe Web3",
+    "badge": "Mai întâi securitatea"
+  },
+  "nav": {
+    "explore": "Explorează",
+    "ecosystem": "Ecosistem",
+    "news": "Știri",
+    "chronicle": "Cronică",
+    "security": "Securitate",
+    "glossary": "Glosar"
+  },
+  "hero": {
+    "kicker": "8 STRATURI · ATINGE PENTRU A ÎNVĂȚA",
+    "titleLine1": "Internetul se schimbă.",
+    "titleLine2": "Cartografiază ce urmează.",
+    "subtitle": "Rețele și idei Web3 — clar, fără hype.",
+    "ctaPrimary": "Explorează ecosistemul",
+    "ctaSecondary": "Centru securitate",
+    "pause": "Pauză",
+    "play": "Redă"
+  },
+  "sections": {
+    "ecosystem": "01 · ECOSISTEM",
+    "ecosystemTitle": "Explorează pe categorii",
+    "ecosystemDesc": "Opt straturi Web3.",
+    "openExplorer": "Deschide explorer",
+    "news": "02 · SEMNAL",
+    "newsTitle": "Ce se mișcă",
+    "newsDesc": "Titluri selectate.",
+    "allHeadlines": "Toate titlurile",
+    "glossary": "03 · LEXICON",
+    "glossaryTitle": "Vorbește aceeași limbă",
+    "glossaryDesc": "Definiții rapide.",
+    "openGlossary": "Deschide glosarul",
+    "security": "04 · APĂRARE",
+    "securityTitle": "Fii greu de spart",
+    "securityDesc": "Phishing, approve, seed.",
+    "securityCenter": "Centru securitate",
+    "chronicle": "05 · CRONOLOGIE",
+    "chronicleTitle": "Cum am ajuns aici",
+    "chronicleDesc": "De la whitepaper la ETF.",
+    "fullChronicle": "Cronică completă",
+    "quiz": "06 · PROVOCARE",
+    "quizTitle": "Testează-ți cunoștințele",
+    "quizDesc": "Zece întrebări.",
+    "startQuiz": "Începe",
+    "shuffle": "Amestecă"
+  },
+  "common": {
+    "readMore": "Citește mai mult",
+    "back": "Înapoi",
+    "search": "Caută",
+    "items": "elemente",
+    "minRead": "{m} min",
+    "language": "Limbă",
+    "followIp": "Limba urmează regiunea (IP).",
+    "fallbackNote": "Conținut localizat.",
+    "noResults": "Niciun rezultat.",
+    "useful": "Util",
+    "useIpLanguage": "Folosește limba IP",
+    "ipActive": "activ",
+    "manualOverride": "Manual"
+  },
+  "ecosystemPage": {
+    "title": "Explorer ecosistem",
+    "subtitle": "Opt straturi."
+  },
+  "newsPage": {
+    "title": "Birou semnale",
+    "subtitle": "Titluri Web3."
+  },
+  "chroniclePage": {
+    "title": "Cronică",
+    "subtitle": "Momente care au remodelat banii digitali."
+  },
+  "securityPage": {
+    "title": "Centru securitate",
+    "subtitle": "Apărări practice."
+  },
+  "glossaryPage": {
+    "title": "Glosar",
+    "subtitle": "Definiții clare.",
+    "placeholder": "Filtrează…"
+  },
+  "quiz": {
+    "correct": "Corect",
+    "wrong": "Aproape",
+    "next": "Următorul",
+    "restart": "Repornește",
+    "score": "Scor: {score}/{total}",
+    "done": "Gata"
+  },
+  "article": {
+    "keyPoints": "Puncte cheie",
+    "tips": "Sfaturi practice",
+    "checklist": "Checklist",
+    "expand": "Extinde",
+    "collapse": "Restrânge"
+  },
+  "intro": {
+    "headline": "Cunoștințe Web3 și cripto — învățați clar, nu hype",
+    "body": "Web3Atlas este un centru educațional, nu o aplicație de tranzacționare. Explorează harta ecosistemului, urmărește semnalele organizate, studiază cronica, exersează securitatea portofelului, deschide glosarul și testează-te cu chestionare - claritate peste speculații.",
+    "point1": "Harta ecosistemului: blockchain, DeFi, NFT, L2, portofele, DAO",
+    "point2": "Semnale și cronică: titluri plus istoric cheie",
+    "point3": "Centru de securitate: phishing, semințe, aprobări",
+    "point4": "Glosar și chestionar: termeni simpli pe care îi puteți deschide și exersați",
+    "hint": "Atinge mai jos pentru a continua",
+    "enter": "Începeți să explorați",
+    "loading": "Încărcare"
+  },
+  "safariGate": {
+    "note": "După ce deschideți această pagină în Safari, site-ul rulează normal - iar această notificare rămâne ascunsă. Safari oferă o interacțiune mai lină și o culoare mai bogată.",
+    "openSafari": "Deschideți cu Safari",
+    "copied": "Link copiat. Lipiți-l în Safari pentru a continua."
+  }
+}

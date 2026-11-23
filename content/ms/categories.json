@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "blockchain",
+    "name": "Rantaian sekat",
+    "summary": "Rangkaian yang merekod dan menjamin transaksi",
+    "blurb": "Lejar yang dikongsi dengan konsensus—lapisan penyelesaian segala-galanya diletakkan di atasnya. Setiap artikel mengandungi penerangan penuh, perkara utama dan petua.",
+    "items": [
+      {
+        "id": "bitcoin",
+        "title": "Bitcoin",
+        "summary": "Rangkaian tunai elektronik peer-to-peer pertama dengan peraturan pengeluaran tetap",
+        "intro": "Bitcoin menunjukkan bagaimana nilai boleh bergerak di internet tanpa bank sebagai pengadil. Satu set nod global berkongsi satu lejar yang dijamin oleh kriptografi dan insentif. Untuk pemula, kunci, UTXO dan peraturan pengeluaran lebih penting daripada carta harga jangka pendek.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Pengantara yang dipercayai boleh membekukan akaun, menyekat pembayaran atau gagal dalam krisis. Bitcoin menggantikan kebenaran institusi dengan pengesahan awam: sesiapa sahaja boleh menyemak sejarah, sambil menulis semula ia direka untuk menjadi sangat mahal. \nBlok genesis malah membenamkan tajuk akhbar tentang penyelamatan bank—isyarat yang disengajakan tentang peraturan kewangan dalam kod."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Anda menandatangani transaksi yang membelanjakan output yang tidak dibelanjakan (UTXO) ke alamat baharu. Pelombong bersaing melalui bukti kerja untuk menambah blok dan memperoleh ganjaran. \nHalvings mengurangkan bekalan baru dari semasa ke semasa; kesukaran melaraskan supaya blok kekal stabil secara kasar. Lebih banyak pengesahan bermakna risiko reorg lebih rendah."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Kunci persendirian kawalan sama; alamat boleh umum. Yuran adalah pasaran untuk ruang blok. Skrip Bitcoin sengaja dihadkan, jadi ia berkelakuan lebih seperti penyelesaian dan kekurangan digital daripada platform aplikasi umum."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Kemeruapan bukan pepijat protokol. Syiling pada pertukaran adalah IOU sehingga ditarik balik. Pancingan data, sokongan palsu dan pemindahan rangkaian yang salah menyebabkan kerugian kekal—berlatih dengan jumlah yang kecil dahulu."
+          }
+        ],
+        "keyPoints": [
+          "Bitcoin ialah rangkaian penyelesaian yang boleh disahkan secara umum, bukan token syarikat.",
+          "Peraturan pengeluaran termasuk pemotongan separuh dikuatkuasakan oleh protokol dan insentif.",
+          "UTXO + tandatangan menentukan pemindahan; kehilangan kunci bermakna kehilangan dana.",
+          "Keselamatan kebanyakannya adalah kebersihan utama dan tabiat pengesahan."
+        ],
+        "tips": [
+          "Berlatih menerima/hantar dengan dompet bereputasi atau perkakasan.",
+          "Pindahkan saiz dalam kelompok dan tunggu pengesahan yang mencukupi.",
+          "Sandarkan benih di luar talian—jangan sekali-kali mengambil gambar atau mesejnya."
+        ],
+        "body": "Bitcoin menunjukkan bagaimana nilai boleh bergerak di internet tanpa bank sebagai pengadil. Satu set nod global berkongsi satu lejar yang dijamin oleh kriptografi dan insentif. Untuk pemula, kunci, UTXO dan peraturan pengeluaran lebih penting daripada carta harga jangka pendek."
+      },
+      {
+        "id": "ethereum",
+        "title": "Ethereum",
+        "summary": "Blockchain tujuan umum untuk kontrak pintar—sering dipanggil komputer dunia",
+        "intro": "Di mana Bitcoin memberi tumpuan kepada pemindahan wang, Ethereum memberi tumpuan kepada penguatkuasaan peraturan boleh diprogramkan. Mengontrak aset jagaan, mengekod syarat dan mengarang ke dalam apl. Selepas Gabungan, konsensus adalah bukti kepentingan manakala pelaksanaan kekal sebagai EVM.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Pembayaran sahaja tidak boleh menyatakan pinjaman, pertukaran atau tadbir urus rantaian dengan bersih. Mesin maya yang dikongsi menukar kod menjadi infrastruktur awam. \nAntara muka terbuka membolehkan token dan protokol dipalamkan antara satu sama lain—asas lego DeFi."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "EOA dikawal oleh kunci; akaun kontrak dikawal kod. Anda membayar gas untuk perubahan negeri. Pengesah mempertaruhkan ETH untuk mencadangkan dan mengesahkan; kesalahan yang teruk boleh dikerat. \nPengguna masih berinteraksi melalui tandatangan dompet, tetapi ruang reka bentuk jauh lebih luas daripada pemindahan mudah."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Pengiraan meter gas. Piawaian token (ERC-20/721) membolehkan dompet dan keserasian pasaran. Lapisan 2 mengalihkan pelaksanaan daripada mainnet sambil menetap kembali kepada keselamatan Ethereum."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "“Pada Ethereum” ≠ diaudit atau selamat. Kelulusan tanpa had dan dompet longkang token palsu. Yuran puncak boleh melebihi saiz perdagangan—semak rangkaian, kontrak dan skop elaun."
+          }
+        ],
+        "keyPoints": [
+          "Ethereum ialah mesin negeri yang dikongsi serta masa jalan kontrak pintar.",
+          "PoS menjamin konsensus; EVM melaksanakan aplikasi.",
+          "Piawaian menjadikan aset saling beroperasi merentas ekosistem.",
+          "Keselamatan bergantung pada kualiti kontrak, kelulusan dan jambatan."
+        ],
+        "tips": [
+          "Sahkan alamat kontrak dalam penjelajah blok, bukan dengan ticker sahaja.",
+          "Gunakan L2 rasmi atau tunggu apabila mainnet sesak.",
+          "Uji protokol baharu dengan wang yang anda mampu rugi."
+        ],
+        "body": "Di mana Bitcoin memberi tumpuan kepada pemindahan wang, Ethereum memberi tumpuan kepada penguatkuasaan peraturan boleh diprogramkan. Mengontrak aset jagaan, mengekod syarat dan mengarang ke dalam apl. Selepas Gabungan, konsensus adalah bukti kepentingan manakala pelaksanaan kekal sebagai EVM."
+      },
+      {
+        "id": "consensus",
+        "title": "Permuafakatan",
+        "summary": "Bagaimana rangkaian bersetuju dengan satu sejarah kanonik",
+        "intro": "Tanpa pengadil pusat, nod masih memerlukan satu lejar. Konsensus mentakrifkan siapa yang mencadangkan sekatan, cara penipu dihukum, dan bila pemindahan sudah cukup muktamad. Bukti kerja dan bukti kepentingan adalah cara yang berbeza untuk membuat sejarah penulisan semula mahal.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Peserta yang diedarkan boleh menangguhkan, memutuskan sambungan atau berbohong. Konsensus menghalang perbelanjaan berganda dengan menjadikan satu sejarah dominan dari segi ekonomi. \nBagi pengguna, ia menentukan masa menunggu, menyusun semula risiko dan kos serangan."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Harga PoW menyerang dengan tenaga/kadar hash. Harga PoS menyerang dengan modal terikat dan pemotongan. Sesetengah protokol menawarkan muktamad yang lebih kukuh selepas pusat pemeriksaan; yang lain adalah kebarangkalian. \nBursa menetapkan pengesahan deposit daripada hartanah ini."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Keaktifan vs pertukaran keselamatan adalah penting. Rantaian \"lebih pantas\" dengan set pengesah yang kecil mungkin melemahkan rintangan penapisan. Tanya siapa yang menghasilkan blok sebelum meraikan TPS."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Slogan bukan tesis pelaburan. Andaian jambatan dan klien ringan selalunya lebih lemah daripada konsensus asas—dan di situlah banyak penggodaman berlaku."
+          }
+        ],
+        "keyPoints": [
+          "Konsensus memilih sejarah kanonik tunggal antara nod yang tidak dipercayai.",
+          "Serangan harga PoW dan PoS secara berbeza.",
+          "Pengesahan/muktamad memutuskan bila dana \"diterima.\"",
+          "Komponen rantai silang boleh menjadi lebih lemah daripada cerita L1."
+        ],
+        "tips": [
+          "Hormati pengiraan pengesahan yang dicadangkan untuk deposit yang besar.",
+          "Kaji pengedaran pengesah dan peraturan pemotongan pada rantai baharu.",
+          "Kurangkan aktiviti jambatan/leverage semasa peningkatan yang dipertikaikan."
+        ],
+        "body": "Tanpa pengadil pusat, nod masih memerlukan satu lejar. Konsensus mentakrifkan siapa yang mencadangkan sekatan, cara penipu dihukum, dan bila pemindahan sudah cukup muktamad. Bukti kerja dan bukti kepentingan adalah cara yang berbeza untuk membuat sejarah penulisan semula mahal."
+      },
+      {
+        "id": "accounts",
+        "title": "Akaun & Kunci",
+        "summary": "Identiti dalam rantaian ialah pasangan kekunci, bukan tetapan semula nama pengguna oleh sokongan",
+        "intro": "Akaun anda biasanya merupakan alamat yang diperoleh daripada kunci peribadi. Tiada sesiapa boleh menetapkan semula kunci itu untuk anda; tandatangan adalah kebenaran. Memahami EOA, akaun kontrak dan frasa benih adalah asas penggunaan yang selamat.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Akaun Web2 hidup di pelayan syarikat dengan tetapan semula kata laluan. Rantaian blok menolak kawalan kepada pemegang kunci untuk penjagaan diri—dan mendorong tanggungjawab operasi dengannya."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Kunci persendirian memperoleh kunci dan alamat awam. Benih (BIP-39) boleh menjana semula banyak akaun merentas rantaian. Akaun kontrak memindahkan dana mengikut laluan kod; akaun pintar mengekod dasar seperti had dan penjaga."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Dompet panas adalah mudah; dompet perkakasan menyimpan kunci dalam elemen selamat. Kawalan penyebaran multisig. Satu biji benih yang bocor boleh menjejaskan keseluruhan pokok terbitan."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Tangkapan skrin awan, perisian hasad dan permintaan benih \"sokongan\" ialah laluan kerugian klasik. Penandatanganan buta boleh meluluskan longkang—menolak gesaan yang tidak jelas."
+          }
+        ],
+        "keyPoints": [
+          "Kunci pemilikan sama rata.",
+          "Alamat boleh dikongsi; benih tidak.",
+          "EOA ditandatangani manusia; kontrak dikawal kod.",
+          "Baca skop kebenaran sebelum menandatangani."
+        ],
+        "tips": [
+          "Asingkan dana percubaan daripada dompet simpanan.",
+          "Tulis biji di atas kertas/logam dan simpan di luar talian.",
+          "Dayakan simulasi transaksi pada dApps baharu."
+        ],
+        "body": "Akaun anda biasanya merupakan alamat yang diperoleh daripada kunci peribadi. Tiada sesiapa boleh menetapkan semula kunci itu untuk anda; tandatangan adalah kebenaran. Memahami EOA, akaun kontrak dan frasa benih adalah asas penggunaan yang selamat."
+      },
+      {
+        "id": "gas",
+        "title": "Gas & Yuran",
+        "summary": "Setiap perubahan negeri dimeterkan supaya komputer awam tidak boleh dihantar spam secara percuma",
+        "intro": "Gas bukanlah cukai sewenang-wenangnya—ia menetapkan harga pengiraan dan penyimpanan. Yuran anda ialah penggunaan × harga seunit. Kesesakan melonjakkan harga seunit, itulah sebabnya tindakan yang sama boleh menelan kos sen atau berpuluh-puluh dolar.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Blockchain awam mesti mengikat sumber. Gas mencipta pasaran yuran: bida yang lebih tinggi jelas dahulu; pemaju mesti menulis kontrak yang cekap."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Pemindahan mudah memerlukan sedikit gas; laluan DeFi yang kompleks lebih mahal. Selepas EIP-1559, bayaran asas dibakar dan petua membayar pencadang. L2s melunaskan kos data L1 merentas banyak pengguna, jadi yuran unit jatuh."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Had gas menghadkan jumlah yang anda benarkan. Transaksi yang gagal masih boleh mengenakan bayaran gas kerana pelaksanaan berlaku. Percepatan/batal menggantikan nonce yang belum selesai dengan tx yuran yang lebih tinggi."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Tapak palsu mungkin menggesa panggilan gas yang tidak masuk akal atau karut. Kempen \"Zero gas\" sering mengembangkan kebenaran—tanya siapa yang menaja dan apa yang anda benarkan."
+          }
+        ],
+        "keyPoints": [
+          "pelaksanaan meter gas; harga dipacu pasaran.",
+          "Kegagalan masih boleh menyebabkan kos gas.",
+          "L2s dan batching adalah penjimat yuran utama.",
+          "Tolak yuran atau permintaan kelulusan yang tidak normal."
+        ],
+        "tips": [
+          "Lakukan tindakan tidak mendesak di luar puncak atau di L2.",
+          "Gunakan anggaran yuran dompet dan simulasi.",
+          "Harga jumlah gas sebelum kempen pelbagai langkah."
+        ],
+        "body": "Gas bukanlah cukai sewenang-wenangnya—ia menetapkan harga pengiraan dan penyimpanan. Yuran anda ialah penggunaan × harga seunit. Kesesakan melonjakkan harga seunit, itulah sebabnya tindakan yang sama boleh menelan kos sen atau berpuluh-puluh dolar."
+      },
+      {
+        "id": "bridges",
+        "title": "Jambatan",
+        "summary": "Saluran yang memindahkan nilai atau mesej merentasi rantaian—dan sasaran penggodaman yang kerap",
+        "intro": "Aset tidak muncul secara ajaib pada lejar lain. Bridges mengunci, mencetak, membakar atau menukar melalui kecairan—mengembangkan akses sambil menumpukan risiko. Beberapa eksploitasi terbesar dalam sejarah melanda jagaan dan pengesahan jambatan.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Tanpa jambatan, ekosistem kekal sebagai pulau. Dengan jambatan, pengguna mewarisi kepercayaan tambahan dan risiko kontrak sebagai pertukaran untuk mobiliti."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Model termasuk kunci-dan-pudina, bakar-dan-tebus, rangkaian kecairan dan geganti pelanggan ringan. Jambatan rollup kanonik mewarisi keselamatan rollup tetapi mungkin mempunyai kelewatan keluar; jambatan pantas menambah andaian pihak ketiga untuk kelajuan."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Bolehkah anda menebus 1:1? Sejauh manakah pengesah yang terdesentralisasi? TVL tinggi boleh bermakna sasaran yang lebih gemuk, bukan keselamatan automatik."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Domain pancingan data berkembang pesat di sekitar jambatan. Rangkaian atau kontrak token yang salah menghantar dana ke dalam kekosongan. Sentiasa menguji dengan pemindahan kecil dahulu."
+          }
+        ],
+        "keyPoints": [
+          "Jambatan ialah protokol rentas lejar, bukan teleportasi.",
+          "Jambatan kanonik vs pantas mempunyai model amanah yang berbeza.",
+          "Jambatan menguasai kerugian hack sejarah.",
+          "Sahkan domain, kontrak dan rangkaian bersama-sama."
+        ],
+        "tips": [
+          "Masukkan jambatan daripada dokumen rasmi yang ditanda halaman sahaja.",
+          "Uji saiz minimum sebelum memindahkan saiz.",
+          "Anggap pintu keluar yang belum selesai sebagai belum boleh dibelanjakan secara bebas."
+        ],
+        "body": "Aset tidak muncul secara ajaib pada lejar lain. Bridges mengunci, mencetak, membakar atau menukar melalui kecairan—mengembangkan akses sambil menumpukan risiko. Beberapa eksploitasi terbesar dalam sejarah melanda jagaan dan pengesahan jambatan."
+      }
+    ]
+  },
+  {
+    "id": "defi",
+    "name": "DeFi",
+    "summary": "Memberi pinjaman, menukar dan mempertaruhkan melalui kontrak pintar",
+    "blurb": "Cara penyusunan primitif kewangan terbuka—dan risiko sekitar kadar, pembubaran dan kandang.",
+    "items": [
+      {
+        "id": "amm",
+        "title": "Pembuat Pasaran Automatik",
+        "summary": "Kumpulan mudah tunai dan keluk harga menggantikan buku pesanan klasik",
+        "intro": "AMM membenarkan sesiapa sahaja mendepositkan token ke dalam kumpulan supaya pedagang boleh bertukar-tukar dengan formula. Anda mendapat kecairan berterusan dan yuran LP—termasuk kerugian tidak kekal dan risiko kontrak pintar.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Buku pesanan dalam rantaian mahal. Kumpulan mengekalkan kecairan dalam kontrak supaya pertukaran boleh berlaku pada bila-bila masa, mendemokrasikan pembuatan pasaran."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Produk malar ialah lengkung klasik; stablewap dan kecairan tertumpu meningkatkan kecekapan modal. Penghala membahagikan dagangan merentasi kumpulan. Had gelinciran melindungi anda apabila keadaan bergerak."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Kehilangan yang tidak kekal boleh menyebabkan LP berprestasi rendah pegangan. Token dan honeypot palsu boleh kelihatan boleh dibeli tetapi tidak boleh dijual. APR pelepasan mungkin tidak bertahan."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Kelulusan tanpa had kepada penghala yang tidak diketahui adalah berbahaya. Depegs menekankan kolam \"stabil\" dengan kuat."
+          }
+        ],
+        "keyPoints": [
+          "Harga AMM melalui matematik kolam untuk pertukaran segera.",
+          "LP memperoleh yuran dan mengambil risiko kontrak IL +.",
+          "Hasil pemacu kualiti gelinciran dan penghalaan.",
+          "Sahkan kumpulan/token sebelum mengejar hasil."
+        ],
+        "tips": [
+          "Tetapkan gelinciran ketat dan jumlah minimum keluar.",
+          "Lebih suka kolam dalam pada protokol matang.",
+          "Batalkan elaun token yang tidak digunakan dengan kerap."
+        ],
+        "body": "AMM membenarkan sesiapa sahaja mendepositkan token ke dalam kumpulan supaya pedagang boleh bertukar-tukar dengan formula. Anda mendapat kecairan berterusan dan yuran LP—termasuk kerugian tidak kekal dan risiko kontrak pintar."
+      },
+      {
+        "id": "lending",
+        "title": "Protokol Pinjaman",
+        "summary": "Pinjaman bercagar terlebih dengan kadar algoritma dan pembubaran",
+        "intro": "Deposit aset untuk mendapatkan hasil atau meminjam dengan cagaran tanpa meja kredit. Faktor kesihatan, ramalan dan bot pembubaran—bukan pengurus perhubungan—memastikan pelarut sistem.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Penguatkuasaan dalam rantaian kredit tidak bercagar adalah sukar, jadi pengkolateralan berlebihan mendominasi. Sesiapa sahaja boleh mengambil bahagian; kecekapan modal adalah pertukaran."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Penggunaan mendorong keluk faedah. Harga suapan Oracles. Apabila kesihatan jatuh, pelikuidasi membayar balik hutang dan merampas cagaran untuk bonus."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Mod pengasingan, LTV dan sosialisasi hutang lapuk berbeza mengikut protokol. Leveraj bergelung menggandakan risiko. APR bersih mesti menolak penalti gas dan pembubaran."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Ketinggalan atau manipulasi Oracle boleh menyebabkan pembubaran yang salah. Menganggap pinjaman sebagai \"simpanan selamat\" adalah perangkap minda."
+          }
+        ],
+        "keyPoints": [
+          "Pengkolateralan berlebihan + pembubaran adalah teras.",
+          "Faktor kesihatan mengatasi kadar tajuk berita.",
+          "Oracle dan kualiti kecairan menentukan keselamatan.",
+          "Gelung leverage menguatkan penarikan."
+        ],
+        "tips": [
+          "Tinggalkan penimbal besar di atas pembubaran.",
+          "Elakkan cagaran yang sangat berkorelasi semasa ribut.",
+          "Anggarkan harga pembubaran sebelum meminjam."
+        ],
+        "body": "Deposit aset untuk mendapatkan hasil atau meminjam dengan cagaran tanpa meja kredit. Faktor kesihatan, ramalan dan bot pembubaran—bukan pengurus perhubungan—memastikan pelarut sistem."
+      },
+      {
+        "id": "stablecoins",
+        "title": "Stablecoin",
+        "summary": "Unit dalam rantaian direka untuk menjejaki rujukan yang stabil seperti USD",
+        "intro": "Aset asas yang tidak menentu adalah janggal untuk penentuan harga dan perakaunan. Stablecoin menyediakan landasan seperti dolar untuk perdagangan dan kiriman wang—tetapi mekanisme dan mod kegagalan berbeza dengan ketara.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Mereka membekalkan unit akaun biasa untuk aktiviti dalam rantaian dan tempat perlindungan sementara pada saat-saat tanpa risiko—tempat perlindungan ≠ tanpa risiko."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Syiling yang disokong Fiat bergantung pada rizab dan penebusan; yang disokong kripto pada overcolateralization; reka bentuk algoritma menyesuaikan bekalan dan telah terbukti rapuh. Terma ketelusan dan penebusan penting dalam tekanan."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Pembekuan, depeg, versi rantai silang palsu dan pembalut hasil menambahkan lapisan risiko. Penanda yang sama pada rangkaian lain mungkin tidak rasmi."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "USD atas nama pemasaran, bukan insurans. Penumpuan dalam satu penerbit adalah risiko rakan niaga."
+          }
+        ],
+        "keyPoints": [
+          "Stablecoin ialah alat dengan risiko penerbit/mekanisme.",
+          "Rizab, cagaran atau algoritma gagal secara berbeza.",
+          "Dasar penebusan dan pembekuan menjejaskan kebolehgunaan.",
+          "Sentiasa sahkan kontrak rasmi setiap rantaian."
+        ],
+        "tips": [
+          "Lebih suka reka bentuk telus yang boleh ditebus untuk saiz.",
+          "Pelbagaikan penerbit dan tempat.",
+          "Anggap \"hasil stabil\" yang terlalu besar sebagai amaran."
+        ],
+        "body": "Aset asas yang tidak menentu adalah janggal untuk penentuan harga dan perakaunan. Stablecoin menyediakan landasan seperti dolar untuk perdagangan dan kiriman wang—tetapi mekanisme dan mod kegagalan berbeza dengan ketara."
+      },
+      {
+        "id": "staking",
+        "title": "Staking & Staking semula",
+        "summary": "Modal bon untuk menjamin rangkaian—dan kadangkala menggunakan semula keselamatan itu",
+        "intro": "Bukti pegangan menjajarkan pengesah dengan keselamatan rantai melalui pegangan terikat. Token pertaruhan cecair meningkatkan kecekapan modal; pegangan semula menggunakan semula pegangan untuk perkhidmatan tambahan dan tindanan mengaitkan risiko pemotongan.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "PoS memerlukan set pengesah yang cukup terdesentralisasi. Ganjaran mengimbangi operasi dan kos peluang; pertaruhan cecair meningkatkan penyertaan dengan risiko kontrak baharu."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Pengaktifan dan keluar baris gilir, tugas, dan pemotongan menentukan tugas. Penyampaian semula mewakilkan keselamatan kepada protokol tambahan untuk hasil tambahan—dan syarat slash tambahan."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Prestasi operator, kepelbagaian pelanggan, dan masalah risiko depeg LST. Hasil yang lebih tinggi biasanya bermakna lebih banyak cara untuk dihukum."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Tapak staking palsu menuai kelulusan atau benih. Pengambilan semula bukan leverage bebas risiko pada ETH."
+          }
+        ],
+        "keyPoints": [
+          "Staking membayar untuk kerja keselamatan.",
+          "Staking cecair menambah lapisan kontrak/pengendali.",
+          "Menghidupkan semula keadaan tebas tindanan.",
+          "Kelewatan tanpa staking bermakna kecairan tidak serta-merta."
+        ],
+        "tips": [
+          "Pilih pengendali dengan rekod prestasi dan kepekatan rendah.",
+          "Pengambilan semula saiz untuk mengurangkan toleransi.",
+          "Masukkan hanya melalui pautan dokumentasi rasmi."
+        ],
+        "body": "Bukti pegangan menjajarkan pengesah dengan keselamatan rantai melalui pegangan terikat. Token pertaruhan cecair meningkatkan kecekapan modal; pegangan semula menggunakan semula pegangan untuk perkhidmatan tambahan dan tindanan mengaitkan risiko pemotongan."
+      },
+      {
+        "id": "perps",
+        "title": "Niaga Hadapan Kekal",
+        "summary": "Pasaran berleveraj yang tidak tamat tempoh berlabuh dengan kadar pembiayaan",
+        "intro": "Perps membolehkan pedagang panjang/pendek dengan margin dan tiada tamat tempoh. Tempat dalam rantaian mengekod margin dan pembubaran dalam sistem kod atau hibrid. Upside dikuatkan—begitu juga dengan kelajuan laluan ke sifar.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Spot sahaja tidak boleh menyatakan lindung nilai dengan cekap. Perps menjadi derivatif dominan crypto dengan menghilangkan geseran gulungan."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Membiayai pemindahan antara long dan short untuk menambat harga ke indeks. Margin penyelenggaraan mencetuskan pembubaran; dana insurans mungkin menyerap kekurangan. Oracle dan gangguan penting dalam huru-hara."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Leveraj, pemotongan automatik dan akruan pembiayaan menentukan kelangsungan hidup. Model jagaan CEX vs DEX berbeza."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "\"Leveraj kecil selamat\" gagal dalam sumbu. Ketidakupayaan untuk menambah margin kerana isu gas/rangkaian boleh mencairkan anda."
+          }
+        ],
+        "keyPoints": [
+          "Pembiayaan menggantikan tamat tempoh untuk berlabuh.",
+          "Mekanik pembubaran adalah wujud.",
+          "Leveraj menukarkan turun naik kepada kemungkinan wipeout.",
+          "Tempat dan risiko oracle bertindan pada risiko pasaran."
+        ],
+        "tips": [
+          "Lalai kepada leverage rendah dengan margin ganti.",
+          "Kurangkan saiz sebelum acara; jangan balas dendam-tambah.",
+          "Gunakan tempat yang peraturannya boleh anda sahkan."
+        ],
+        "body": "Perps membolehkan pedagang panjang/pendek dengan margin dan tiada tamat tempoh. Tempat dalam rantaian mengekod margin dan pembubaran dalam sistem kod atau hibrid. Upside dikuatkan—begitu juga dengan kelajuan laluan ke sifar."
+      },
+      {
+        "id": "rwa",
+        "title": "Tokenisasi RWA",
+        "summary": "Membawa tuntutan ke atas aliran tunai dunia sebenar ke landasan crypto",
+        "intro": "RWA menghubungkan hasil biasa (seperti T-bil) kepada penyelesaian dalam rantaian. Token hanya sebaik pembungkus sah, jagaan dan penebusan—bukan hanya UI kontrak pintar.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Hasil kripto asli tidak menentu; instrumen tunai token boleh memadankan keperluan perbendaharaan dengan lebih baik apabila strukturnya kukuh."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Entiti berlesen memegang aset; token menjejaki tuntutan; hasil diagihkan secara rantaian. Senarai kebenaran KYC adalah perkara biasa. Harga sekunder boleh menyimpang daripada NAB."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Keterpencilan kebankrapan, pengesahan, penebusan T+N dan bidang kuasa menentukan hasil tekanan. “Kelihatan pada rantaian” ≠ boleh dikuatkuasakan secara automatik di luar rantaian."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Risiko perubahan pihak lawan dan kawal selia berada di sebelah risiko kontrak. Halaman langganan palsu berlimpah."
+          }
+        ],
+        "keyPoints": [
+          "RWA = sah + jagaan + paip token.",
+          "Hasil datang daripada aset luar rantaian.",
+          "Peraturan pemindahan/penebusan mungkin berpagar.",
+          "Rajinkan struktur penerbit, bukan APR sahaja."
+        ],
+        "tips": [
+          "Baca dokumen tawaran dan pengesahan simpanan.",
+          "Sahkan bidang kuasa anda membenarkan memegangnya.",
+          "Tonton tingkap penebusan dan kedalaman sekunder."
+        ],
+        "body": "RWA menghubungkan hasil biasa (seperti T-bil) kepada penyelesaian dalam rantaian. Token hanya sebaik pembungkus sah, jagaan dan penebusan—bukan hanya UI kontrak pintar."
+      }
+    ]
+  },
+  {
+    "id": "nfts",
+    "name": "NFT",
+    "summary": "Token unik dan pasaran untuk mereka",
+    "blurb": "Daripada piawaian dan pasaran kepada budaya, permainan dan aset dinamik.",
+    "items": [
+      {
+        "id": "erc721",
+        "title": "ERC-721 & ERC-1155",
+        "summary": "Antara muka standard untuk token unik dan separa boleh fungi",
+        "intro": "Piawaian membenarkan dompet dan pasaran bercakap satu bahasa. 721 memetakan satu id kepada satu pemilik; 1155 menguruskan banyak id dan pemindahan kelompok—mudah digunakan untuk permainan.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Tanpa piawaian, setiap projek mencipta API yang dipesan lebih dahulu dan memecahkan kebolehoperasian. Pencipta juga mendapat pengedaran berbilang pasaran."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Pemilikan dan pemindahan adalah diseragamkan; metadata selalunya tinggal di tokenURI (biasanya IPFS). Kelulusan boleh per-token atau seluruh pengendali."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Metadata boleh ubah, penyematan dan dasar royalti membentuk ketahanan dan ekonomi. Koleksi palsu menyalin seni dengan kontrak yang berbeza—alamat amanah."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Blind setApprovalForAll kepada pasaran yang tidak diketahui adalah longkang klasik. Naratif jarang ≠ kecairan."
+          }
+        ],
+        "keyPoints": [
+          "Piawaian membolehkan interop, bukan nilai intrinsik.",
+          "Pilihan storan menjejaskan keabadian.",
+          "Kurangkan kelulusan.",
+          "Alamat kontrak ialah semakan kesahihan."
+        ],
+        "tips": [
+          "Sahkan kontrak rasmi sebelum membeli.",
+          "Batalkan pengusaha pasar yang lapuk.",
+          "Pisahkan kepingan bernilai tinggi pada dompet peti besi."
+        ],
+        "body": "Piawaian membenarkan dompet dan pasaran bercakap satu bahasa. 721 memetakan satu id kepada satu pemilik; 1155 menguruskan banyak id dan pemindahan kelompok—mudah digunakan untuk permainan."
+      },
+      {
+        "id": "markets",
+        "title": "Pasaran NFT",
+        "summary": "Lapisan dasar penyenaraian, pembidaan, penyelesaian dan royalti",
+        "intro": "Pasaran memadankan pembeli dan penjual dengan aliran pesanan dalam rantaian atau hibrid. Agregator merentasi tempat. Penguatkuasaan royalti semakin menjadi dasar pasaran, bukan sihir protokol tulen.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Pencipta memerlukan pengedaran; pengumpul memerlukan penemuan dan pembentukan harga. Persaingan memampatkan yuran dan meningkatkan jangkaan keselamatan."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Penjual meluluskan pemindahan; pembeli settle. Tonton penyenaraian yang dicuri pada diskaun yang mustahil. Agregator membantu harga tetapi bukan usaha wajar."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Yuran, escrow bidaan, perdagangan cucian dan keanehan penyenaraian silang adalah penting. Carta lantai boleh dimanipulasi."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "UI pancingan data meniru pasaran teratas. Tandatangan Airdrop adalah tarikan biasa."
+          }
+        ],
+        "keyPoints": [
+          "Pasaran adalah landasan, bukan jaminan nilai.",
+          "Tawaran dan kelulusan membawa risiko.",
+          "Peraturan diraja berbeza mengikut tempat.",
+          "Permintaan sangat rendah mungkin aset yang dicuri."
+        ],
+        "tips": [
+          "Penanda halaman domain rasmi; langkau iklan carian.",
+          "Pastikan saiz bida dan tamat tempoh konservatif.",
+          "Kumpul dengan teliti merentas masa."
+        ],
+        "body": "Pasaran memadankan pembeli dan penjual dengan aliran pesanan dalam rantaian atau hibrid. Agregator merentasi tempat. Penguatkuasaan royalti semakin menjadi dasar pasaran, bukan sihir protokol tulen."
+      },
+      {
+        "id": "pfp",
+        "title": "PFP & Budaya NFT",
+        "summary": "Identiti dan keahlian komuniti dibungkus sebagai media boleh niaga",
+        "intro": "NFT gambar profil mengubah pemilikan menjadi isyarat sosial. Penetapan harga adalah lebih didorong oleh naratif dan kecairan daripada didorong oleh aliran tunai. Anggap mereka sebagai budaya dahulu, spekulasi kedua.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Nama pengguna platform disewa; PFP mencuba identiti visual mudah alih dan akses komuniti—perhatian boleh mengewangkan dan perhatian boleh hilang."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Pudina, alat jarang, Discord/Telegram, dan perdagangan sekunder membentuk gelung. Ada yang menambah utiliti; ramai yang tidak."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Pengedaran pemegang, buka kunci dan buku nipis mendorong risiko ranap. Penipuan penyamaran adalah berterusan."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Mengejar naratif \"cip biru\" di puncak euforia menyakitkan. Jangan sesekali percayakan admin DM dengan benih."
+          }
+        ],
+        "keyPoints": [
+          "Nilai kebanyakannya sosial dan naratif.",
+          "Sahkan kontrak/saluran rasmi.",
+          "Kecairan boleh hilang dengan cepat.",
+          "Mengumpul / bersosial; jangan anggap sebagai hasil terjamin."
+        ],
+        "tips": [
+          "Mengintai komuniti sebelum membeli.",
+          "Abaikan DM airdrop.",
+          "Pratakrif belanjawan kerugian maksimum."
+        ],
+        "body": "NFT gambar profil mengubah pemilikan menjadi isyarat sosial. Penetapan harga adalah lebih didorong oleh naratif dan kecairan daripada didorong oleh aliran tunai. Anggap mereka sebagai budaya dahulu, spekulasi kedua."
+      },
+      {
+        "id": "gaming-assets",
+        "title": "Aset Permainan",
+        "summary": "Item, watak dan tanah boleh didagangkan dengan pemilikan yang boleh disahkan",
+        "intro": "Permainan kripto menjanjikan bahawa item yang terhad kekal milik anda. Gelung yang menyeronokkan, ekonomi seimbang dan pemilikan sebenar mesti wujud bersama—atau anda dibiarkan dengan cangkang spekulatif.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Penutupan tradisional menghapuskan inventori. Pasaran terbuka dan pemilikan boleh disahkan mengubah jangkaan pemain dan membolehkan ekonomi UGC."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Hibrid mengekalkan pertempuran masa nyata di luar rantaian dan menyelesaikan kekurangan dalam rantaian. Harga pudina, sinki, dan bentuk kraf; pelepasan yang tidak terkawal melambungkannya."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Nisbah pengeluaran/sink dan berbelanja lebih penting daripada seni sahaja. Milik ≠ dituntut."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Menganggap ganjaran token awal sebagai gaji gagal dalam pasaran menanggung. Asingkan kunci permainan daripada dompet peti besi."
+          }
+        ],
+        "keyPoints": [
+          "Pemilikan memerlukan gelung permainan yang mampan.",
+          "Reka bentuk ekonomi memacu harga jangka panjang.",
+          "Hibrid memperdagangkan ketulenan untuk prestasi.",
+          "Pengekalan gembar-gembur ≠ pengekalan pemain."
+        ],
+        "tips": [
+          "Main sebelum beli aset mahal.",
+          "Jejak tenggelam vs pelepasan.",
+          "Asingkan akaun permainan daripada dana utama."
+        ],
+        "body": "Permainan kripto menjanjikan bahawa item yang terhad kekal milik anda. Gelung yang menyeronokkan, ekonomi seimbang dan pemilikan sebenar mesti wujud bersama—atau anda dibiarkan dengan cangkang spekulatif."
+      },
+      {
+        "id": "tickets",
+        "title": "Tiket & Tauliah",
+        "summary": "Hak akses yang boleh disahkan dengan peraturan pemindahan pilihan",
+        "intro": "Tiket dan keahlian adalah tentang membuktikan kelayakan. Bukti kelayakan dalam rantaian boleh mengurangkan pemalsuan dan membolehkan jualan semula terkawal—jika UX daftar masuk benar-benar berfungsi untuk orang biasa.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Kertas palsu dan kejadian luka scalping legap. Tiket digital yang boleh disahkan boleh mengikat identiti atau menetapkan kekangan pemindahan dan meninggalkan jejak yang boleh diaudit."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Mint/tuntutan atas pembelian; markah imbas untuk menebus digunakan. Pilihan berjiwa mengurangkan gembar-gembur. Privasi/KYC selalunya terletak di luar rantaian."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Kebolehpindahan, serangan tangkapan skrin dan pemulihan jika benih hilang semuanya memerlukan reka bentuk. Geseran dompet boleh mengecualikan khalayak."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Pencetakan tiket palsu dan acara terbengkalai meninggalkan token yang tidak bernilai. Jangan terlalu berkongsi data peribadi kepada kontrak yang tidak diketahui."
+          }
+        ],
+        "keyPoints": [
+          "Nilai adalah betul, bukan flip.",
+          "UX penebusan menentukan skala.",
+          "Baca peraturan pemindahan sebelum membeli.",
+          "Laluan pemulihan masih penting."
+        ],
+        "tips": [
+          "Beli hanya melalui saluran penganjur.",
+          "Uji paparan dompet sebelum acara.",
+          "Simpan juga e-mel pengesahan luar rangkaian."
+        ],
+        "body": "Tiket dan keahlian adalah tentang membuktikan kelayakan. Bukti kelayakan dalam rantaian boleh mengurangkan pemalsuan dan membolehkan jualan semula terkawal—jika UX daftar masuk benar-benar berfungsi untuk orang biasa."
+      },
+      {
+        "id": "dynamic",
+        "title": "NFT dinamik",
+        "summary": "Aset yang sifatnya boleh berubah dengan keadaan rantaian atau oracle",
+        "intro": "NFT Dinamik mengemas kini penampilan atau atribut daripada kemajuan permainan, masa atau data luaran. Mereka berasa hidup—tetapi kebolehubahan mesti telus kepada pembeli.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Peringkat keahlian dan item permainan yang berkembang memerlukan keadaan. Dinamik menjadikan NFT lebih daripada imej statik."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Kontrak atau perkhidmatan metadata mengemas kini URI daripada pencetus. Jika metadata dipusatkan, dinamik boleh menjadi suntingan senyap."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Siapa yang boleh mengemas kini? Adakah sejarah boleh diaudit? Pasaran mesti menunjukkan keadaan terkini. Pembeli harus tahu apa yang boleh berubah."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Operator boleh nerf jarang. Kesalahan Oracle boleh menetapkan bentuk yang salah. \"Jarang yang tidak boleh diubah\" serta kemas kini pentadbir senyap ialah bendera merah."
+          }
+        ],
+        "keyPoints": [
+          "Dinamik adalah ciri dan risiko.",
+          "Terbitkan kebenaran kemas kini dengan jelas.",
+          "Model pengehosan mendorong kepercayaan.",
+          "Sahkan ciri terkini sebelum berdagang."
+        ],
+        "tips": [
+          "Baca peraturan dan sejarah kemas kini.",
+          "Lebih suka mesin keadaan dalam rantai yang boleh disahkan.",
+          "Simpan kepingan bernilai tinggi dalam dompet sejuk."
+        ],
+        "body": "NFT Dinamik mengemas kini penampilan atau atribut daripada kemajuan permainan, masa atau data luaran. Mereka berasa hidup—tetapi kebolehubahan mesti telus kepada pembeli."
+      }
+    ]
+  },
+  {
+    "id": "layer2",
+    "name": "Lapisan 2",
+    "summary": "Rangkaian penskalaan yang dibina di atas Ethereum",
+    "blurb": "Penggulungan optimis/ZK, ketersediaan data, jambatan dan sebab bayaran boleh jatuh kepada sen.",
+    "items": [
+      {
+        "id": "optimistic",
+        "title": "Penggulungan Optimis",
+        "summary": "Andaikan kumpulan adalah sah; selamatkan mereka dengan tingkap kalis penipuan",
+        "intro": "Penggulungan optimistik dilaksanakan pada L2, menghantar data ke Ethereum dan menganggap ketepatan melainkan dicabar. Pengguna mendapat UX yang lebih murah; jalan keluar berkanun mungkin menunggu tempoh cabaran.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Ruang blok L1 mahal. Memindahkan pelaksanaan di luar rantai sambil berlabuh ke L1 mengurangkan kos. Reka bentuk optimis dihantar awal dengan keserasian EVM yang kukuh."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Sequencer memerintahkan transaksi dan menerbitkan kelompok; nyatakan akar berlabuh pada L1. Semasa tingkap, pemerhati boleh mempertikaikan. Keluar pantas menggunakan kecairan pihak ketiga dengan andaian tambahan."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Penyahpusatan penjujukan, ketersediaan data dan kunci peningkatan menentukan keselamatan sebenar. Kelajuan UX ≠ selesai desentralisasi."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Mengabaikan kelewatan keluar menyebabkan kecairan salah harga. Tapak jambatan palsu meningkat setiap kali aliran L2s."
+          }
+        ],
+        "keyPoints": [
+          "Cabar kependaman perdagangan tingkap untuk bukti penipuan yang lebih mudah.",
+          "Keselamatan bergantung pada data L1 + permainan pertikaian.",
+          "Jambatan kanonik lebih perlahan tetapi lebih jelas.",
+          "Masa hidup Sequencer adalah risiko pengalaman."
+        ],
+        "tips": [
+          "Pelan L1 keluar dengan mengambil kira kelewatan.",
+          "Lebih suka pintu masuk jambatan rasmi.",
+          "Baca dokumen escape-hatch untuk gangguan penjujukan."
+        ],
+        "body": "Penggulungan optimistik dilaksanakan pada L2, menghantar data ke Ethereum dan menganggap ketepatan melainkan dicabar. Pengguna mendapat UX yang lebih murah; jalan keluar berkanun mungkin menunggu tempoh cabaran."
+      },
+      {
+        "id": "zk",
+        "title": "ZK Rollups",
+        "summary": "Bukti kesahihan meyakinkan L1 bahawa kelompok L2 adalah betul",
+        "intro": "Bukti kesahihan membolehkan L1 menerima keputusan tanpa tingkap penipuan yang panjang. Pembuktian adalah berat dari segi pengiraan, tetapi kesudahannya boleh terasa lebih cepat apabila bukti tiba.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Skala tanpa bergantung pada \"anggap jujur ​​melainkan dicabar.\" Penyelesaian yang lebih pantas membantu pertukaran dan jambatan."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "L2 melaksanakan; provers membina bukti; Pengesah L1 menyemaknya. Kesetaraan EVM yang lebih tinggi memudahkan penghijrahan apl."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Sistem bukti, DA dan kekunci naik taraf masih penting. Penjenamaan \"ZK\" ≠ pasaran prover terdesentralisasi lagi."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Prover/sequencer berpusat boleh kekal. Jambatan dan pancingan data masih mendominasi kerugian pengguna."
+          }
+        ],
+        "keyPoints": [
+          "Bukti kesahihan mengukuhkan jaminan ketepatan.",
+          "Kos perkakasan/kejuruteraan membentuk yuran dan desentralisasi.",
+          "Pengguna masih memerlukan kebersihan jambatan dan dompet.",
+          "Keserasian EVM memacu pemindahan ekosistem."
+        ],
+        "tips": [
+          "Semak peta jalan desentralisasi prover.",
+          "Uji jambatan dengan jumlah yang kecil.",
+          "Baca reka bentuk DA dengan teliti."
+        ],
+        "body": "Bukti kesahihan membolehkan L1 menerima keputusan tanpa tingkap penipuan yang panjang. Pembuktian adalah berat dari segi pengiraan, tetapi kesudahannya boleh terasa lebih cepat apabila bukti tiba."
+      },
+      {
+        "id": "data",
+        "title": "Ketersediaan Data",
+        "summary": "Memastikan sesiapa sahaja boleh mendapatkan data yang diperlukan untuk membina semula keadaan",
+        "intro": "Batal mesti menjadikan data transaksi boleh diperolehi. Jika data hilang, pengguna mungkin tidak dapat keluar dengan selamat. Gumpalan menurunkan kos Ethereum DA dan membantu memampatkan yuran L2.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Bukti tanpa data masih boleh memerangkap pengguna. Di mana data hidup-dan betapa mahalnya ia-berada di tengah-tengah perdebatan skala."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Data boleh disimpan dalam data panggilan/gumpalan Ethereum atau lapisan DA luaran, selalunya dengan pengekodan pensampelan/pemadaman. Warisan keselamatan berbeza mengikut reka bentuk."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "“Settled to Ethereum” tidak sama dengan “DA equals full Ethereum guarantees.” Penurunan yuran sering menjejaki DA yang lebih murah."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Memandang rendah mod kegagalan DA adalah berbahaya. Pemasaran mungkin mengaburkan penyelesaian vs ketersediaan."
+          }
+        ],
+        "keyPoints": [
+          "Tanpa DA, penyelamatan diri menjadi lemah.",
+          "Peningkatan era Blob telah mengubah keluk yuran L2.",
+          "Pilihan DA membawa andaian yang berbeza.",
+          "Yuran hakim, keselamatan, dan desentralisasi bersama-sama."
+        ],
+        "tips": [
+          "Baca setiap bahagian DA L2.",
+          "Simpan nota escape-hatch rasmi yang berguna.",
+          "Jangan peringkat rantaian mengikut TPS sahaja."
+        ],
+        "body": "Batal mesti menjadikan data transaksi boleh diperolehi. Jika data hilang, pengguna mungkin tidak dapat keluar dengan selamat. Gumpalan menurunkan kos Ethereum DA dan membantu memampatkan yuran L2."
+      },
+      {
+        "id": "bridges-l2",
+        "title": "Jambatan L2",
+        "summary": "Laluan kanonik berbanding pihak ketiga antara L1 dan L2",
+        "intro": "Jambatan kanonik mewarisi peraturan rollup dan mungkin perlahan; jambatan pihak ketiga menjual kelajuan dengan kepercayaan tambahan. Memilih UI yang salah ialah corak kerugian teratas.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Anda memerlukan dana pada L2 untuk UX murah, atau kembali pada L1 untuk penyelesaian. Pengguna yang berbeza memilih titik kepercayaan/kependaman yang berbeza."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Jambatan rasmi mengkreditkan baki L2 selepas deposit dan keluar mengikut peraturan rollup. Cepat merapatkan kecairan dan pengimbangan semula kemudian—bayaran dan had tonton."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Ketulenan domain, kebolehtingkatan, had dan laluan bayaran balik adalah penting. Lebih cepat biasanya bermakna lebih banyak rakan niaga."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Domain palsu iklan carian. Merapatkan versi token yang salah menjejaskan kecairan. Perbelanjaan dana masih dalam cabaran tingkap salah tanda risiko."
+          }
+        ],
+        "keyPoints": [
+          "Jambatan kanonik paling sesuai dengan andaian rollup.",
+          "Jambatan pantas memperdagangkan kepercayaan untuk masa.",
+          "Pengesahan domain adalah wajib.",
+          "Ujian kecil sebelum saiz."
+        ],
+        "tips": [
+          "Klik jambatan dari tapak L2 sendiri.",
+          "Simpan cincang tx untuk sokongan/nyahpepijat.",
+          "Elakkan jambatan baharu yang tidak diaudit untuk saiz."
+        ],
+        "body": "Jambatan kanonik mewarisi peraturan rollup dan mungkin perlahan; jambatan pihak ketiga menjual kelajuan dengan kepercayaan tambahan. Memilih UI yang salah ialah corak kerugian teratas."
+      },
+      {
+        "id": "accounts-aa",
+        "title": "Abstraksi Akaun",
+        "summary": "Dompet kontrak pintar dengan pemulihan, had dan gas yang ditaja",
+        "intro": "EOA klasik bermaksud frasa benih dan gas bayar sendiri. AA membolehkan dompet mentakrifkan logik pengesahan—penjaga, kunci sesi, kumpulan, pengurus gaji—jadi onboarding terasa lebih dekat dengan Web2 tanpa melepaskan sepenuhnya penjagaan diri.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Benih menakutkan pendatang baru; token gas mengelirukan mereka. AA mengurangkan geseran sambil mengekalkan kawalan yang boleh disahkan. dApps memperoleh lebih sedikit pop timbul melalui sesi dan kelompok."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "UserOperations digabungkan dalam rantaian; orang gaji boleh menaja yuran. Kontrak dompet menguatkuasakan dasar. Piawaian seperti ERC-4337 berbeza mengikut kematangan rantai."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Siapa penjaga? Adakah pemulihan berpusat? Adakah kebenaran sesi terlalu luas? Misconfig masih kehilangan dana."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "“Tiada benih” ≠ tiada risiko—saluran pemulihan boleh diserang. Titik akhir pengikat/pengbayar berniat jahat wujud. Sesi ke dApps yang tidak diketahui adalah berbahaya."
+          }
+        ],
+        "keyPoints": [
+          "AA mengekod dasar dalam dompet kontrak.",
+          "Gas tajaan dan pemulihan sosial adalah tajuk kemenangan UX.",
+          "Konfigurasi memilih keselamatan sebenar.",
+          "Pancingan data masih berfungsi jika anda meluluskan secara membuta tuli."
+        ],
+        "tips": [
+          "Pilih penjaga dan peranti yang pelbagai.",
+          "Kekunci sesi yang berumur pendek dan terhad sahaja.",
+          "Simpan perkakasan/multisig untuk peti besi."
+        ],
+        "body": "EOA klasik bermaksud frasa benih dan gas bayar sendiri. AA membolehkan dompet mentakrifkan logik pengesahan—penjaga, kunci sesi, kumpulan, pengurus gaji—jadi onboarding terasa lebih dekat dengan Web2 tanpa melepaskan sepenuhnya penjagaan diri."
+      },
+      {
+        "id": "multi-chain",
+        "title": "Realiti pelbagai rantaian",
+        "summary": "Kecairan dan pengguna berpecah merentasi banyak domain penyelesaian",
+        "intro": "Beberapa orang hidup dalam satu rantaian sekarang. Token gas, jambatan dan penggunaan apl berbeza. Penyelesai niat menyembunyikan laluan, tetapi anda masih mesti tahu di mana dana berada.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Satu rantaian tidak boleh mengoptimumkan setiap niche yuran/prestasi. Lebih banyak pilihan juga bermakna lebih banyak cara untuk memilih rangkaian yang salah."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Dompet menukar RPC/ID rantaian; alamat yang sama boleh menyimpan aset yang berbeza bagi setiap rantaian EVM. Jambatan dan pemesejan menghubungkan keadaan; penyelesai bersaing untuk mengisi niat."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Ketulenan ID Rantaian, RPC palsu dan kontrak token setiap rantai adalah senapang kaki harian. Baki sifar selalunya bermakna rangkaian yang salah dipilih."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "RPC tersuai berniat jahat tandatangan tipu. Merapatkan tingkap menambah risiko. Menyebarkan dana yang tidak boleh ditukar kepada sepuluh L2 baharu ialah hutang operasi."
+          }
+        ],
+        "keyPoints": [
+          "Berbilang rantai adalah perkara biasa—sahkan rangkaian sentiasa.",
+          "Alamat yang sama ≠ baki yang sama di mana-mana.",
+          "Niat menyembunyikan kerumitan; mereka tidak memadamkan risiko jambatan.",
+          "Lebih sedikit rantaian aktif mengurangkan kesilapan."
+        ],
+        "tips": [
+          "Labelkan rangkaian dengan jelas dalam dompet anda.",
+          "Tangkapan skrin/semak nama rangkaian sebelum menghantar.",
+          "Ketahui cara keluar sebelum mendepositkan ke dalam rantaian baharu."
+        ],
+        "body": "Beberapa orang hidup dalam satu rantaian sekarang. Token gas, jambatan dan penggunaan apl berbeza. Penyelesai niat menyembunyikan laluan, tetapi anda masih mesti tahu di mana dana berada."
+      },
+      {
+        "id": "costs",
+        "title": "Mengapa Yuran L2 Boleh Menjadi Sen",
+        "summary": "Data batching dan lebih murah melunaskan kos L1 merentas banyak pengguna",
+        "intro": "Pada L1 yang sesak, anda membida untuk mendapatkan ruang blok yang terhad. L2s membungkus banyak tx bersama-sama supaya setiap pengguna membayar sekeping kos data/bukti yang dikongsi—selalunya turun kepada sen.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Yuran yang tinggi menyekat pembayaran mikro dan gelung permainan. Yuran yang lebih rendah membolehkan orang biasa menggunakan apl, bukan hanya menonton carta."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Pelaksanaan berlaku pada L2; ringkasan mencecah L1. DA era Blob mengurangkan kos unit. L2 masih boleh sesak, biasanya jauh di bawah puncak L1. Yuran jambatan dan gelinciran adalah item baris yang berasingan."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Murah ≠ sama terdesentralisasi. Dasar yuran sequencer membentuk UX. Kelulusan berbilang langkah masih ditambah."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Mempertaruhkan penipuan jambatan untuk menjimatkan dua dolar adalah tidak rasional. Peristiwa tekanan memburukkan kedua-dua yuran dan masa keluar."
+          }
+        ],
+        "keyPoints": [
+          "Pelunasan + pemampatan yuran pemacu DA yang lebih murah.",
+          "Kesesakan L2 wujud pada skala yang berbeza.",
+          "Jumlah kos termasuk jambatan, gelinciran dan masa.",
+          "Keselamatan mengalahkan penjimatan sen."
+        ],
+        "tips": [
+          "Sertakan bayaran jambatan apabila membandingkan laluan.",
+          "Tunggu lonjakan untuk tindakan yang tidak mendesak.",
+          "Simpan sedikit L1 ETH sebagai bahan api melarikan diri."
+        ],
+        "body": "Pada L1 yang sesak, anda membida untuk mendapatkan ruang blok yang terhad. L2s membungkus banyak tx bersama-sama supaya setiap pengguna membayar sekeping kos data/bukti yang dikongsi—selalunya turun kepada sen."
+      }
+    ]
+  },
+  {
+    "id": "infra",
+    "name": "Infrastruktur",
+    "summary": "Oracles, storan, pengindeksan dan alat pembangun",
+    "blurb": "Paip halimunan yang menguatkan dompet, DeFi dan UX yang lebih selamat.",
+    "items": [
+      {
+        "id": "oracles",
+        "title": "Oracles",
+        "summary": "Jambatan yang membawa fakta luar rantaian ke dalam kontrak pintar",
+        "intro": "Kontrak tidak boleh melihat harga pertukaran atau skor dunia sebenar sahaja. Oracles mengagregatkan data luaran untuk pembubaran, perps dan insurans. Apabila mereka gagal, lata mengikuti.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Rantaian sekat diasingkan untuk penentuan, namun kewangan memerlukan input. Oracles mengimbangi kesegaran dengan integriti—tanpa mereka kebanyakan hentian DeFi."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Sumber agregat, outlier jatuh, kemas kini mendesak degupan jantung atau permintaan. Sesetengah reka bentuk mempertaruhkan dan menebas wartawan yang tidak baik. Pemutus litar penting dalam keadaan huru-hara."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Pasaran tipis lebih mudah untuk dimanipulasi untuk pinjaman yang tidak baik. Mesej silang adalah masalah kepercayaan seperti oracle juga."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Mempunyai \"peramal\" ≠ kebal. Harga lapuk, perpuluhan yang salah dan suapan yang dijeda semuanya menggigit."
+          }
+        ],
+        "keyPoints": [
+          "Oracles adalah talian hayat DeFi.",
+          "Hakim sumber, pengagregatan dan peraturan kemas kini.",
+          "Aset tidak cair lebih mudah ditipu.",
+          "Pemutus litar protokol mengurangkan jejari letupan."
+        ],
+        "tips": [
+          "Ketahui suapan dan degupan jantung yang digunakan oleh protokol.",
+          "Kurangkan tindakan sensitif ketepatan dalam turun naik yang melampau.",
+          "Elakkan reka bentuk sumber tunggal untuk saiz."
+        ],
+        "body": "Kontrak tidak boleh melihat harga pertukaran atau skor dunia sebenar sahaja. Oracles mengagregatkan data luaran untuk pembubaran, perps dan insurans. Apabila mereka gagal, lata mengikuti."
+      },
+      {
+        "id": "rpc",
+        "title": "RPC & Nod",
+        "summary": "Cara dompet membaca keadaan rantaian dan menyiarkan transaksi",
+        "intro": "Dompet bercakap dengan blockchain melalui titik akhir RPC. RPC awam adalah mudah tetapi mungkin mengehadkan kadar, log atau ditukar untuk pancingan data. Memahami RPC membantu menyahpepijat \"keseimbangan salah\" dan txs tersekat.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Tidak semua orang menjalankan nod penuh. RPC mendedahkan keupayaan nod sebagai API sambil mengekalkan pilihan untuk mengehos sendiri."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Apl menghantar panggilan JSON-RPC ke keadaan pertanyaan atau menghantar tx mentah. Pembekal berbeza pada kedalaman arkib, privasi dan kebolehpercayaan."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "RPC berniat jahat boleh menunjukkan baki palsu atau menapis tx. Menandatangani kekal setempat, tetapi data buruk masih boleh menipu anda. Sahkan ID rantaian apabila menambah rangkaian."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Satu klik \"tambah rangkaian\" dari tapak rendang adalah berisiko. Gangguan awam tidak selalu menjadi pepijat dompet. Jangan sekali-kali memasukkan rahsia RPC ke bahagian hadapan awam."
+          }
+        ],
+        "keyPoints": [
+          "RPC ialah pintu baca/tulis.",
+          "Penandatanganan tempatan ≠ keadaan yang boleh dipercayai dipaparkan.",
+          "Semak silang tindakan kritikal pada peneroka.",
+          "Nod peribadi/dihoskan sendiri meningkatkan privasi/kebolehpercayaan."
+        ],
+        "tips": [
+          "Simpan dua sandaran RPC yang dipercayai.",
+          "Pada baki pelik, tukar nod atau gunakan penjelajah.",
+          "Taipkan params rangkaian rasmi secara manual."
+        ],
+        "body": "Dompet bercakap dengan blockchain melalui titik akhir RPC. RPC awam adalah mudah tetapi mungkin mengehadkan kadar, log atau ditukar untuk pancingan data. Memahami RPC membantu menyahpepijat \"keseimbangan salah\" dan txs tersekat."
+      },
+      {
+        "id": "indexers",
+        "title": "Pengindeks",
+        "summary": "Mengubah log mentah menjadi API produk yang boleh ditanya",
+        "intro": "Mengimbas keseluruhan rantaian untuk setiap UI adalah perlahan. Pengindeks memasukkan peristiwa ke dalam pangkalan data supaya portfolio dan papan pendahulu berasa segera—kebanyakan paparan \"sejarah\" datang daripada indeks, bukan imbasan penuh langsung.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Produk memerlukan pertanyaan yang ditapis pada kelajuan internet. Penganalisis dan bot bergantung pada lapisan yang sama."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Tentukan skema, proses log, simpan, layan GraphQL/REST. Gangguan menunjukkan UI lapuk. Rangkaian pengindeks terdesentralisasi memberi insentif kepada berbilang pengendali."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "UI boleh ketinggalan keadaan rantaian sebenar. Peningkatan memerlukan kemas kini pengindeks. Jangan mencairkan berdasarkan papan pemuka sahaja—sahkan dalam rantaian."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Indeks rasuah mengelirukan peniaga. Tapak \"portfolio\" pancingan data meniru papan pemuka sebenar."
+          }
+        ],
+        "keyPoints": [
+          "Mengindeks pertanyaan kelajuan; mereka bukan konsensus.",
+          "Data UI boleh menjadi basi.",
+          "Penjelajah/kontrak adalah sumber kebenaran untuk langkah kritikal.",
+          "Kesalahan pengindeks kelihatan seperti pepijat protokol."
+        ],
+        "tips": [
+          "Semak semula anomali pada peneroka.",
+          "Jangkakan ketinggalan selepas peningkatan besar.",
+          "Pemantauan serius boleh membaca nod secara langsung."
+        ],
+        "body": "Mengimbas keseluruhan rantaian untuk setiap UI adalah perlahan. Pengindeks memasukkan peristiwa ke dalam pangkalan data supaya portfolio dan papan pendahulu berasa segera—kebanyakan paparan \"sejarah\" datang daripada indeks, bukan imbasan penuh langsung."
+      },
+      {
+        "id": "storage",
+        "title": "Penyimpanan Terdesentralisasi",
+        "summary": "Rangkaian beralamat kandungan untuk fail dan metadata NFT",
+        "intro": "Menyimpan fail besar pada L1 adalah mahal, jadi media sering diletakkan pada sistem seperti IPFS/Arweave. Hashes memastikan integriti, tetapi ketersediaan dalam talian masih memerlukan penyematan atau pengekalan berbayar.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Pelayan pusat boleh memadamkan media NFT. Storan terdesentralisasi meningkatkan ketahanan dan rintangan penapisan untuk apl dan set data."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Fail mendapat ID kandungan; nod mendapatkan semula dengan cincang. IPFS memerlukan penyematan; sesetengah rangkaian menekankan keabadian bayar sekali. Gerbang HTTP membantu penyemak imbas tetapi menambah kepercayaan gerbang."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "TokenURI terpusat boleh ubah menjejaskan cerita. Sandarkan cincang metadata penting."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "“Pada IPFS” ≠ abadi jika tiada yang menyematkannya. Gerbang berniat jahat boleh menyuntik skrip. Sahkan cincangan sebelum menjalankan binari."
+          }
+        ],
+        "keyPoints": [
+          "Pengalamatan kandungan menghalang pengeditan senyap, bukan pengabaian.",
+          "Ketahanan NFT bergantung pada penyematan/pembayaran.",
+          "URI pentadbir boleh ubah ialah bendera merah.",
+          "Gerbang adalah kepercayaan tambahan yang mudah."
+        ],
+        "tips": [
+          "Sematkan metadata untuk NFT bernilai tinggi sendiri.",
+          "Sahkan CID rasmi.",
+          "Pembangun harus memilih metadata tidak berubah."
+        ],
+        "body": "Menyimpan fail besar pada L1 adalah mahal, jadi media sering diletakkan pada sistem seperti IPFS/Arweave. Hashes memastikan integriti, tetapi ketersediaan dalam talian masih memerlukan penyematan atau pengekalan berbayar."
+      },
+      {
+        "id": "mev",
+        "title": "MEV",
+        "summary": "Nilai boleh diekstrak daripada pesanan transaksi dan kemasukan",
+        "intro": "Pembina dan pencari boleh menyusun semula atau memasukkan txs—sandwic, perlumbaan pembubaran dan banyak lagi. Pengguna merasakannya sebagai gelinciran toksik; protokol bertindak balas dengan lelongan dan aliran peribadi.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Mempool awam mendedahkan pertukaran besar kepada pemangsa. Memahami MEV menerangkan tetapan gelinciran dan pilihan penyerahan peribadi."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Pencari mencari peluang; pembina pek blok; pencadang menerbitkan. Sesetengah rantaian mengagihkan semula MEV kepada staker. Sandwic membalut dagangan anda untuk memburukkan harga."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Penutup gelincir, geganti peribadi, lelongan kelompok dan niat mengurangkan bahaya. Penjujukan L2 boleh mengekstrak MEV juga."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Bukan setiap pengisian yang buruk adalah MEV—gelinciran luas diakibatkan oleh diri sendiri. Elakkan sambungan \"anti-MEV\" yang tidak jelas."
+          }
+        ],
+        "keyPoints": [
+          "MEV datang daripada aliran awam yang boleh diatur.",
+          "Pengguna mengurangkan melalui gelinciran dan laluan peribadi.",
+          "Reka bentuk protokol memperuntukkan semula MEV.",
+          "Anggap ia sebagai realiti kejuruteraan."
+        ],
+        "tips": [
+          "Pisahkan swap besar dan ketatkan gelinciran.",
+          "Gunakan dompet/penghala dengan pilihan peribadi.",
+          "Elakkan pesanan pasaran yang besar dalam keadaan huru-hara yang memuncak."
+        ],
+        "body": "Pembina dan pencari boleh menyusun semula atau memasukkan txs—sandwic, perlumbaan pembubaran dan banyak lagi. Pengguna merasakannya sebagai gelinciran toksik; protokol bertindak balas dengan lelongan dan aliran peribadi."
+      },
+      {
+        "id": "sdks",
+        "title": "Alat Pembangun",
+        "summary": "Menguji rangka kerja, perpustakaan dan kit akaun yang meningkatkan tahap keselamatan",
+        "intro": "Keselamatan ekosistem bergantung pada ujian gaya Foundry/Hardhat, perpustakaan ditaip, simulasi dan kit akaun—bukan juruaudit sahaja. Alat yang lebih baik menangkap pepijat lebih awal dan membantu dompet menerangkan tandatangan.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Penggunaan manual gagal. Kontrak yang belum teruji adalah bom jangka. SDK bahagian hadapan menyatukan sambungan berbilang rantai dan pengendalian ralat."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Ujian bercabang, kabur, gunakan skrip, pemantauan dan SDK AA membentuk gelung. Simulasi pratanda menunjukkan perbezaan aset."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Kebergantungan lapuk membawa CVE yang diketahui. Serangan rantaian bekalan melanda pakej \"selamat\". Pengguna harus lebih suka dompet tandatangan jelas."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Salin-tampal sampel yang tidak diaudit ke mainnet adalah tindakan yang melulu. Sambungan \"alat pembangun\" palsu mencuri kunci."
+          }
+        ],
+        "keyPoints": [
+          "Perkakas ialah infrastruktur keselamatan yang tidak kelihatan.",
+          "Simulasi sebelum duit mainnet.",
+          "Kebersihan pergantungan adalah kerja keselamatan.",
+          "Tandatangan yang jelas mengurangkan kejayaan pancingan data pengguna."
+        ],
+        "tips": [
+          "Pembangun: laluan kritikal ujian fork.",
+          "Pengguna: hidupkan simulasi.",
+          "Pasang sambungan hanya daripada sumber rasmi."
+        ],
+        "body": "Keselamatan ekosistem bergantung pada ujian gaya Foundry/Hardhat, perpustakaan ditaip, simulasi dan kit akaun—bukan juruaudit sahaja. Alat yang lebih baik menangkap pepijat lebih awal dan membantu dompet menerangkan tandatangan."
+      },
+      {
+        "id": "identity",
+        "title": "Identiti dalam rantaian",
+        "summary": "Nama yang boleh dibaca, pengesahan dan reputasi untuk penyelarasan manusia",
+        "intro": "Alamat yang panjang mudah disalah taip. Sistem nama memetakan label manusia ke rekod; protokol pengesahan mengeluarkan tuntutan seperti keahlian. Kebolehgunaan meningkat—dan begitu juga isu privasi dan penyamaran.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Pembayaran dan sosial memerlukan pengendalian yang tidak dapat dilupakan. Nama mengurangkan kesilapan pemindahan dan bertindak sebagai kad perniagaan Web3. Reputasi membantu anti-Sybil dengan pertukaran privasi."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Daftar nama, tetapkan rekod, kumpulkan pengesahan yang ditandatangani secara pilihan. Sesetengah kelayakan adalah terikat dengan jiwa."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Nama tamat tempoh; perubahan rekod. Rentetan yang sama mungkin diselesaikan secara berbeza merentas rantai. Asingkan alamat identiti daripada bilik kebal."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Domain penyamaran mencuri dana. Mengikat setiap bukti kelayakan kepada satu alamat doxxable mendedahkan anda secara berlebihan."
+          }
+        ],
+        "keyPoints": [
+          "Nama adalah lapisan resolusi, bukan jaminan bank.",
+          "Sentiasa semak alamat yang diselesaikan sebelum menghantar.",
+          "Pengesahan membantu penyelarasan dengan kos privasi.",
+          "Pisahkan identiti awam daripada alamat bilik kebal."
+        ],
+        "tips": [
+          "Sahkan resolusi semasa dihantar.",
+          "Tetapkan peringatan tamat tempoh.",
+          "Gunakan alamat bernilai rendah untuk sosial awam."
+        ],
+        "body": "Alamat yang panjang mudah disalah taip. Sistem nama memetakan label manusia ke rekod; protokol pengesahan mengeluarkan tuntutan seperti keahlian. Kebolehgunaan meningkat—dan begitu juga isu privasi dan penyamaran."
+      },
+      {
+        "id": "aa-infra",
+        "title": "Bundlers & Paymasters",
+        "summary": "Rel belakang yang membungkus UserOperations dan menaja gas",
+        "intro": "Tanpa bundler, UserOperations berjuang untuk mendarat; tanpa penggaji, penajaan gas dan \"bayar dengan sebarang token\" adalah sukar. Infra AA yang salah konfigurasi menjadi gangguan atau permukaan penyalahgunaan.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Pengguna tidak suka memegang setiap token gas rantai. Apl mahu menaja tindakan pertama. Infrastruktur membolehkan dasar produk tersebut dengan belanjawan dan senarai yang dibenarkan."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Dompet membina UserOperations; pengikat mensimulasikan dan menyerahkan; EntryPoint dilaksanakan; dana paymasters setiap polisi dengan had kadar."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Adakah penajaan terikat kepada kontrak tertentu? Bolehkah ia diternak? Adakah pengikat akan menapis? Desentralisasi menjejaskan daya tahan."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Titik akhir berniat jahat dan sisa sesi luas selepas kempen adalah risiko. Tanpa gas ≠ tanpa kelulusan."
+          }
+        ],
+        "keyPoints": [
+          "AA UX bergantung pada pengikat/pembayar yang boleh dipercayai.",
+          "Penajaan memerlukan peraturan anti-penyalahgunaan.",
+          "Pilihan titik akhir menjejaskan privasi dan penapisan.",
+          "Pengguna masih perlu membaca tandatangan."
+        ],
+        "tips": [
+          "Berpegang pada titik akhir yang dipercayai lalai dompet.",
+          "Batalkan sesi selepas kempen.",
+          "Anggap ketiadaan gas mengejut sebagai mencurigakan."
+        ],
+        "body": "Tanpa bundler, UserOperations berjuang untuk mendarat; tanpa penggaji, penajaan gas dan \"bayar dengan sebarang token\" adalah sukar. Infra AA yang salah konfigurasi menjadi gangguan atau permukaan penyalahgunaan."
+      }
+    ]
+  },
+  {
+    "id": "wallets",
+    "name": "Dompet",
+    "summary": "Apl dan peranti yang memegang kunci anda",
+    "blurb": "Model dompet panas/sejuk, benih, multisig dan jagaan dijelaskan.",
+    "items": [
+      {
+        "id": "hot",
+        "title": "Dompet Panas",
+        "summary": "Dompet perisian yang disambungkan untuk baki kecil setiap hari",
+        "intro": "Dompet penyemak imbas dan mudah alih menjadikan dApps segera. Kemudahan meluaskan permukaan serangan: tapak berniat jahat, sambungan palsu, perisian hasad papan keratan, telefon yang hilang. Anggap mereka sebagai akaun cek, bukan simpanan nyawa.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Dompet sejuk adalah kekok untuk DeFi frekuensi tinggi. Dompet panas mengajar penandatanganan dan penukaran rangkaian dengan cepat."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Kekunci disulitkan pada peranti; buka kunci secara tempatan; disiarkan melalui RPC. Menyambungkan dApp berkongsi alamat, bukan kuncinya—namun tandatangan berbahaya masih kehabisan."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Pisahkan perbelanjaan vs akaun simpanan. Semak semula elaun. Biometrik melindungi buka kunci apl, bukan pemulihan rantai."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "APK yang dimuat sisi, halaman \"penyegerakan\" benih dan komputer awam adalah gagal klasik."
+          }
+        ],
+        "keyPoints": [
+          "Dompet panas mengoptimumkan kemudahan.",
+          "Hanya simpan dana tahan kerugian di sana.",
+          "Tandatangan/kelulusan adalah bahaya utama.",
+          "Lapisan dengan simpanan sejuk."
+        ],
+        "tips": [
+          "Muat turun dari saluran rasmi sahaja.",
+          "Gunakan profil penyemak imbas khusus untuk crypto.",
+          "Kelulusan token audit setiap minggu."
+        ],
+        "body": "Dompet penyemak imbas dan mudah alih menjadikan dApps segera. Kemudahan meluaskan permukaan serangan: tapak berniat jahat, sambungan palsu, perisian hasad papan keratan, telefon yang hilang. Anggap mereka sebagai akaun cek, bukan simpanan nyawa."
+      },
+      {
+        "id": "hardware",
+        "title": "Dompet Perkakasan",
+        "summary": "Masukkan cip selamat dengan pengesahan pada peranti",
+        "intro": "Dompet perkakasan menyimpan kunci peribadi dari PC yang dijangkiti. Anda masih mesti membaca skrin peranti—penandatanganan buta atau perisian tegar rendang boleh mengatasi cip terbaik.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Pegangan jangka panjang dan besar memerlukan pengasingan yang lebih kukuh. Pengesahan fizikal meningkatkan tahap kecurian jauh. Pasukan menggunakannya sebagai kawalan bilik kebal garis dasar."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Hos membina tx; peranti menunjukkan ringkasan; anda meluluskan; tandatangan kembali untuk disiarkan. Benih yang dihasilkan pada init adalah sandaran. Kemas kini perisian tegar mestilah rasmi."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Beli peranti tulen; mengetahui dasar penandatangan buta bagi setiap rantaian. Kehilangan peranti adalah baik jika benih selamat; kehilangan benih tidak."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Peranti terpakai yang dirosakkan, tapak web \"pemeriksa\" yang meminta benih dan OK-tanpa-baca ialah mod kegagalan."
+          }
+        ],
+        "keyPoints": [
+          "Pengasingan perkakasan menghalang banyak kecurian kunci jauh.",
+          "Pengesahan skrin masih diberikan kepada anda.",
+          "Sandaran benih menyamai kepentingan peranti.",
+          "Rantaian bekalan dan perkara kebersihan perisian tegar."
+        ],
+        "tips": [
+          "Beli dari runcit rasmi/ternama.",
+          "Uji dengan pemindahan kecil selepas persediaan.",
+          "Padankan alamat penuh pada peranti untuk saiz."
+        ],
+        "body": "Dompet perkakasan menyimpan kunci peribadi dari PC yang dijangkiti. Anda masih mesti membaca skrin peranti—penandatanganan buta atau perisian tegar rendang boleh mengatasi cip terbaik."
+      },
+      {
+        "id": "seed",
+        "title": "Frasa Benih",
+        "summary": "Sandaran yang boleh dibaca manusia yang menjana semula kunci dompet",
+        "intro": "12/24 perkataan bukan kata laluan log masuk—ia adalah rahsia utama yang mencipta semula kunci. Sesiapa sahaja yang mempunyai perkataan boleh mengosongkan dompet di tempat lain. Tiada ejen sokongan sebenar memerlukan benih anda untuk \"mengesahkan\" anda.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Peranti mati. Seeds membolehkan anda memulihkan akaun yang sama di tempat lain dalam bentuk boleh tulis luar talian."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "BIP-39 menukarkan entropi kepada perkataan tersusun yang menghasilkan akaun. Pesanan yang salah gagal dipulihkan. Ungkapan laluan pilihan menambah risiko keselamatan dan kealpaan."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Foto, penyegerakan awan dan sembang tidak selamat. Sandaran logam mengalahkan kertas terhadap api/air. Sandaran berbilang lokasi mesti mengimbangi kecurian berbanding kerugian keseluruhan."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Halaman \"penyegerakan dompet\" pancingan data dan sokongan palsu adalah pembunuh utama. Menaip benih ke mana-mana tapak web adalah kecemasan."
+          }
+        ],
+        "keyPoints": [
+          "Benih adalah aset.",
+          "Simpan di luar talian selama-lamanya.",
+          "Aliran yang sah tidak pernah menuntutnya.",
+          "Lebihan reka bentuk terhadap kebakaran dan kecurian."
+        ],
+        "tips": [
+          "Tulis tangan dan semak semula susunan perkataan.",
+          "Jangan sekali-kali simpan dalam foto atau e-mel.",
+          "Rancang harta pusaka dengan sengaja."
+        ],
+        "body": "12/24 perkataan bukan kata laluan log masuk—ia adalah rahsia utama yang mencipta semula kunci. Sesiapa sahaja yang mempunyai perkataan boleh mengosongkan dompet di tempat lain. Tiada ejen sokongan sebenar memerlukan benih anda untuk \"mengesahkan\" anda."
+      },
+      {
+        "id": "multisig",
+        "title": "Multisig",
+        "summary": "Akaun kongsi yang memerlukan kelulusan M-of-N",
+        "intro": "Multisig menukar \"satu phish kehilangan semua\" kepada \"beberapa orang mesti bersetuju.\" Sesuai untuk perbendaharaan dan keluarga. Ia memotong satu titik kegagalan dan menambah overhed penyelarasan.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Bilik kebal kunci tunggal mati dalam satu kesilapan. Multisig memaksa penyerang untuk berkompromi berbilang penandatangan dan mengekod pengasingan kuasa."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Kontrak atau skim asli menetapkan ambang dan pemilik. Cadangkan → kumpulkan tandatangan → laksanakan. Putaran dan modul penandatangan memerlukan penjagaan yang sama rata."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Peranti yang pelbagai mengalahkan perisian hasad yang berkaitan. Dana bata ambang terlalu tinggi; ambang terlalu rendah melemahkan keselamatan. Modul kecemasan boleh menjadi pintu belakang."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Semua penandatangan pada satu penyemak imbas panas, tidak pernah berlatih pemulihan, dan pancingan data UI Selamat adalah perkara biasa yang gagal."
+          }
+        ],
+        "keyPoints": [
+          "Multisig menyebarkan risiko kunci dan keputusan.",
+          "Reka bentuk ambang menetapkan ketersediaan vs keselamatan.",
+          "Latih tubi menandatangani dan menggantikan.",
+          "Penanda buku antara muka rasmi."
+        ],
+        "tips": [
+          "Gunakan peranti/OS penandatangan yang pelbagai.",
+          "Jalankan latihan suku tahunan yang kecil.",
+          "Dokumen langkah penggantian tandatangan hilang."
+        ],
+        "body": "Multisig menukar \"satu phish kehilangan semua\" kepada \"beberapa orang mesti bersetuju.\" Sesuai untuk perbendaharaan dan keluarga. Ia memotong satu titik kegagalan dan menambah overhed penyelarasan."
+      },
+      {
+        "id": "smart-accounts",
+        "title": "Akaun Pintar",
+        "summary": "Dompet boleh atur cara dengan had, penjaga, kumpulan dan sesi",
+        "intro": "Dasar pengekodan akaun pintar: had harian, senarai dibenarkan, pemulihan dan panggilan kelompok. Lebih fleksibiliti daripada EOA—dan lebih banyak cara untuk salah konfigurasi modul.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "EOA adalah semua-atau-tiada. Akaun pintar membolehkan keistimewaan rendah setiap hari dengan penelitian tambahan bernilai tinggi, merapatkan ke arah UX tanpa benih."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Logik hidup dalam kontrak dengan pengesah boleh pasang, selalunya dipasangkan dengan pengikat/pembayar AA. Peningkatan modul mesti dijaga."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Keistimewaan, audit dan laluan pemulihan yang diuji adalah penting. Ketahui siapa yang boleh meningkatkan sebelum memanggilnya peti besi."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Pemalam rawak yang tidak diaudit, penjaga naif dan akaun pintar yang percaya menghentikan semua pancingan data adalah kesilapan."
+          }
+        ],
+        "keyPoints": [
+          "Akaun pintar adalah penjagaan diri berasaskan dasar.",
+          "Fleksibiliti mengembangkan permukaan serangan.",
+          "Hak modul/naik taraf adalah keselamatan teras.",
+          "Tabiat masih penting."
+        ],
+        "tips": [
+          "Lumpuhkan pemalam yang tidak digunakan.",
+          "Perubahan dasar besar kunci masa.",
+          "Tulis dan latih semula buku panduan pemulihan."
+        ],
+        "body": "Dasar pengekodan akaun pintar: had harian, senarai dibenarkan, pemulihan dan panggilan kelompok. Lebih fleksibiliti daripada EOA—dan lebih banyak cara untuk salah konfigurasi modul."
+      },
+      {
+        "id": "custody",
+        "title": "Model Penjagaan",
+        "summary": "Sesiapa yang memegang kunci mengawal aset dengan berkesan",
+        "intro": "Penjaga menukar tetapan semula kata laluan dan sokongan untuk risiko rakan niaga. Penjagaan diri memperdagangkan kedaulatan untuk risiko ops peribadi. Kebanyakan orang mencampurkan kedua-duanya: berdagang pada platform, simpan dalam dompet.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Matlamat yang berbeza memerlukan model risiko yang berbeza. Penjagaan diri tulen menakutkan pemula; jagaan tulen menyakitkan dalam kegagalan platform."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Baki jagaan selalunya merupakan lejar dalaman sehingga pengeluaran. Penjagaan diri menyiarkan setiap pergerakan. Penjaga terkawal boleh mengesahkan rizab—masih bukan risiko sifar."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Pembekuan, baris gilir, bidang kuasa dan bukti rizab perkara kualiti. Kegagalan penjagaan diri kelihatan seperti benih yang hilang dan tandatangan yang tidak baik."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "\"Terlalu besar untuk gagal\" telah gagal berulang kali. Menyimpan benih dalam buku nota pertukaran bukan hak penjagaan diri."
+          }
+        ],
+        "keyPoints": [
+          "Lokasi utama mentakrifkan kawalan.",
+          "Kemudahan vs kedaulatan adalah perdagangan.",
+          "Peruntukan hibrid adalah pragmatik.",
+          "Setiap model gagal secara berbeza."
+        ],
+        "tips": [
+          "Tarik balik beg jangka panjang untuk simpanan sendiri.",
+          "Lebih suka tempat telus.",
+          "Amalkan penjagaan diri dengan saiz kecil dahulu."
+        ],
+        "body": "Penjaga menukar tetapan semula kata laluan dan sokongan untuk risiko rakan niaga. Penjagaan diri memperdagangkan kedaulatan untuk risiko ops peribadi. Kebanyakan orang mencampurkan kedua-duanya: berdagang pada platform, simpan dalam dompet."
+      }
+    ]
+  },
+  {
+    "id": "gaming",
+    "name": "Permainan",
+    "summary": "Permainan dan dunia maya dengan aset yang dimiliki",
+    "blurb": "Permainan, ekonomi, infrastruktur dan mod kegagalan spekulatif.",
+    "items": [
+      {
+        "id": "play",
+        "title": "Main & Sendiri",
+        "summary": "Seronok dahulu, pemilikan boleh disahkan sebagai bonus—bukan ilusi upah",
+        "intro": "Permainan crypto yang sihat mengutamakan hiburan; pemilikan menguatkan, ia tidak menggantikan reka bentuk. Pasaran sekunder haruslah hasil, bukan satu-satunya kandungan.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Spekulasi tulen runtuh pada beruang. Membenamkan pemilikan dalam gelung yang benar-benar menyeronokkan meningkatkan pengekalan dan membolehkan ekonomi pencipta."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Permainan teras berjalan pantas di luar rantaian atau di landasan khusus; petempatan yang terhad melanda rantai. Studio memperoleh pendapatan melalui UX, yuran dan perkhidmatan sambil menyesuaikan ekonomi."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Metrik pengekalan dan perbelanjaan mengatasi carta token sebagai isyarat kesihatan. Peraturan masih boleh mengekang token item."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Melayan grind sebagai kerja dan mengabaikan keselamatan akaun adalah perangkap klasik."
+          }
+        ],
+        "keyPoints": [
+          "Seronok dahulu, kewangan kedua.",
+          "Pemilikan tidak dapat menyelamatkan kebosanan.",
+          "Ekonomi yang sihat mengimbangi tenggelam dan sumber.",
+          "Asingkan kunci permainan daripada peti besi."
+        ],
+        "tips": [
+          "Main sebelum beli barang mahal.",
+          "Baca nota ekonomi dan sejarah tampalan.",
+          "Tempah sebarang \"pendapatan\" sebagai spekulasi berisiko tinggi."
+        ],
+        "body": "Permainan crypto yang sihat mengutamakan hiburan; pemilikan menguatkan, ia tidak menggantikan reka bentuk. Pasaran sekunder haruslah hasil, bukan satu-satunya kandungan."
+      },
+      {
+        "id": "economies",
+        "title": "Ekonomi dalam permainan",
+        "summary": "Terbitan dan sinki memutuskan sama ada harga item boleh bertahan",
+        "intro": "Ekonomi terbuka berkelakuan seperti sistem fiskal kecil: pelepasan tidak berkesudahan tanpa tenggelam harga runtuh. Membaca produksi vs kemusnahan berdegup mendengar slogan GameFi.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Perdagangan terbuka mengalih keluar beberapa kawalan studio, memaksa reka bentuk yang lebih serius supaya pemain dan pedagang jangka panjang boleh wujud bersama."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Pencarian memancarkan; pembuatan / pembaikan / tenggelam musim; papan pemuka mendedahkan inflasi. Harga token luaran mengejutkan gelung dalaman."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Dwi token, tenaga dan sewa tanah boleh membantu atau mengelirukan. Tonton pasukan membuka kunci dan dompet pembuat pasaran."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Hasil tinggi awal menarik tentera upahan, bukan pemain. Menyalin ekonomi tanpa penonton gagal."
+          }
+        ],
+        "keyPoints": [
+          "Jadikan inflasi/deflasi boleh diperhatikan.",
+          "Bahagian upahan yang tinggi adalah rapuh.",
+          "Menampan kejutan token luaran.",
+          "Penalaan telus membina kepercayaan."
+        ],
+        "tips": [
+          "Ikuti laporan ekonomi rasmi.",
+          "Saiz turun semasa fasa hiper-APY.",
+          "Lebih suka aset dengan sinki sebenar."
+        ],
+        "body": "Ekonomi terbuka berkelakuan seperti sistem fiskal kecil: pelepasan tidak berkesudahan tanpa tenggelam harga runtuh. Membaca produksi vs kemusnahan berdegup mendengar slogan GameFi."
+      },
+      {
+        "id": "worlds",
+        "title": "Alam Maya",
+        "summary": "Tanah milik dan naratif ruang sosial",
+        "intro": "Tanah maya menjual lokasi, trafik dan kehadiran. Sesetengah dunia menganjurkan aktiviti berterusan; yang lain gerai selepas jualan. Hakim oleh pembina dan DAU, bukan treler sinematik.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Orang ramai mahukan barangan digital dan kedai hadapan yang tahan lama. Pemilikan dalam rantaian membolehkan pasaran sekunder dan percubaan oleh jenama."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "NFT tanah serta pelanggan serta sewaan pilihan. Kandungan datang daripada pengguna atau pegawai; prestasi sering bergantung pada pelayan tradisional."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Trafik kaki menetapkan nilai tanah. Dunia kosong adalah seni spekulatif. Hak bangunan dan royalti membentuk kesanggupan pencipta."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "FOMO jualan utama dan menganggap slaid metaverse sebagai hasil jangka pendek adalah perangkap."
+          }
+        ],
+        "keyPoints": [
+          "Harga trafik tanah.",
+          "Pengalaman pelanggan mengatasi slogan.",
+          "Interop biasanya ketinggalan jualan.",
+          "Menilai ekosistem pembina."
+        ],
+        "tips": [
+          "Lawati sebagai pelancong dahulu.",
+          "Semak data sewaan/acara sebelum membeli.",
+          "Elakkan pasukan jual sahaja, jangan bina."
+        ],
+        "body": "Tanah maya menjual lokasi, trafik dan kehadiran. Sesetengah dunia menganjurkan aktiviti berterusan; yang lain gerai selepas jualan. Hakim oleh pembina dan DAU, bukan treler sinematik."
+      },
+      {
+        "id": "infra-game",
+        "title": "Infrastruktur Permainan",
+        "summary": "Pertukaran kejuruteraan antara kependaman rendah dan penyelesaian dalam rantaian",
+        "intro": "Permainan aksi memerlukan maklum balas milisaat. Studio menggunakan pelayan berwibawa serta aset yang terhad pada rantaian, atau rantaian pemprosesan tinggi khusus. Mengetahui sempadan amanah menghalang kekeliruan pemasaran \"terdesentralisasi sepenuhnya\".",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Gelung L1 tulen terlalu perlahan/mahal untuk banyak genre. Lapisan mengekalkan UX yang boleh dimainkan dengan kekurangan yang boleh disahkan."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Mencari jodoh/pertempuran di luar rantai; pudina/perdagangan/jackpot dalam rantaian. Anti-penipuan sebahagian besarnya kekal di luar rantaian. Appchains meningkatkan daya pengeluaran tetapi menambah kos jambatan/kecairan."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Bahagian manakah yang mempercayai pelayan? Adakah aset terselamat daripada penutupan studio? Itu mentakrifkan betapa sebenar \"pemilikan\" itu."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Tuntutan \"dalam rantaian sepenuhnya\" dengan kebenaran pelayan boleh ubah. Merapatkan aset permainan melalui tapak palsu."
+          }
+        ],
+        "keyPoints": [
+          "Hibrid adalah norma kejuruteraan.",
+          "Latensi dan desentralisasi menarik cara yang bertentangan.",
+          "Dasar penutupan menjejaskan makna aset.",
+          "Appchains menambah kerumitan jambatan."
+        ],
+        "tips": [
+          "Baca dokumen sempadan amanah.",
+          "Pindahkan aset yang bermakna ke dompet jagaan diri.",
+          "Cuba testnets sebelum deposit mainnet."
+        ],
+        "body": "Permainan aksi memerlukan maklum balas milisaat. Studio menggunakan pelayan berwibawa serta aset yang terhad pada rantaian, atau rantaian pemprosesan tinggi khusus. Mengetahui sempadan amanah menghalang kekeliruan pemasaran \"terdesentralisasi sepenuhnya\"."
+      },
+      {
+        "id": "modding",
+        "title": "Pengubahsuaian & UGC",
+        "summary": "Pencipta memperoleh pendapatan apabila peta, kulit dan mod boleh diselesaikan dengan telus",
+        "intro": "UGC memanjangkan hayat permainan. Jika mod boleh didagangkan dengan pembahagian yang jelas, pencipta muncul. On-chain splits bantuan kebolehaudit; Pelesenan IP masih memutuskan sama ada ia berskala.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "UGC tradisional menghadapi peralihan dasar platform secara tiba-tiba. Pasaran terbuka dan royalti boleh atur cara menawarkan laluan insentif lain dan kandungan pemain yang lebih kaya."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Pencipta menerbitkan aset → memasarkan perdagangan → kontrak membahagikan hasil. Kesederhanaan dan penemuan menentukan sama ada kualiti menumpukan."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Skop lesen, dasar kandungan dan caj balik kekal. Matematik dalam rantaian tidak menyelesaikan tuntutan mahkamah secara automatik."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Membeli mod jenama yang tidak dibenarkan dan token pencipta yang tidak menentu adalah risiko."
+          }
+        ],
+        "keyPoints": [
+          "UGC memerlukan IP yang jelas dan peraturan hasil.",
+          "Kualiti set penemuan/kesederhanaan.",
+          "Pemisahan boleh atur cara meningkatkan ketelusan.",
+          "Lapisan undang-undang masih terpakai."
+        ],
+        "tips": [
+          "Pencipta: baca lesen platform.",
+          "Pemain: semak tanda kebenaran.",
+          "Tunaikan dengan had risiko peribadi."
+        ],
+        "body": "UGC memanjangkan hayat permainan. Jika mod boleh didagangkan dengan pembahagian yang jelas, pencipta muncul. On-chain splits bantuan kebolehaudit; Pelesenan IP masih memutuskan sama ada ia berskala."
+      },
+      {
+        "id": "risks",
+        "title": "Risiko Permainan Spekulatif",
+        "summary": "Apabila keseronokan bergantung pada kenaikan harga, pasaran menanggung memecahkan gelung",
+        "intro": "Projek yang gagal menganggap pam token sebagai kandungan. Pemain menjadi tentera upahan, ekonomi berubah menjadi refleksif, dan penyelenggaraan berhenti apabila harga jatuh. Mengesan corak menjimatkan tuisyen.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Pendidikan risiko adalah sebahagian daripada produk yang sihat: komuniti yang membincangkan inflasi secara jujur ​​mengatasi perselisihan gembar-gembur."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Pelepasan tinggi menarik kemasukan → tekanan jual meningkat → harga jatuh → pemain pergi. Rehat sering muncul apabila insentif dipotong. Beberapa tajuk berjaya berputar ke permainan sebenar."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Adakah hasil kebanyakannya adalah pendatang baru? Adakah kemas kini penghantaran pasukan boleh dimainkan? Harga sekunder bukan metrik yang menyeronokkan."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Frasa tebusan FOMO dan pengisaran leverage adalah tanda bahaya."
+          }
+        ],
+        "keyPoints": [
+          "Harga tidak boleh menggantikan permainan.",
+          "Potongan insentif adalah ujian tekanan.",
+          "Bahagian upahan meramalkan kerapuhan.",
+          "Hanya risiko dana budi bicara."
+        ],
+        "tips": [
+          "Tanya: adakah saya akan bermain pada harga token sifar?",
+          "Tonton kemas kini kandungan sebenar.",
+          "Tolak pengisaran berleveraj."
+        ],
+        "body": "Projek yang gagal menganggap pam token sebagai kandungan. Pemain menjadi tentera upahan, ekonomi berubah menjadi refleksif, dan penyelenggaraan berhenti apabila harga jatuh. Mengesan corak menjimatkan tuisyen."
+      }
+    ]
+  },
+  {
+    "id": "daos",
+    "name": "DAO",
+    "summary": "Komuniti yang mentadbir dengan undian rantaian",
+    "blurb": "Tadbir urus, perbendaharaan, cadangan, pembungkus undang-undang dan permukaan serangan.",
+    "items": [
+      {
+        "id": "governance",
+        "title": "Tadbir Urus Token",
+        "summary": "Undian yang menetapkan parameter, peningkatan dan perbelanjaan",
+        "intro": "DAO menolak peningkatan dan keputusan perbendaharaan kepada pemegang token atau sistem reputasi. Satu-token-satu-undi adalah mudah dan terdedah kepada ikan paus; delegasi dan reka bentuk lain cuba meningkatkan perwakilan. Kuasa mengundi ialah pengaruh—dan permukaan serangan.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Protokol mesti berubah tanpa menjadi diktator satu syarikat. Undian rantaian meninggalkan jejak yang boleh diaudit dan boleh mengekang pasukan."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Cadangan → perbincangan → undi → kunci masa → pelaksanaan. Perwakilan membolehkan pekebun kecil mempercayakan pakar. Kuorum dan veto menumpulkan tangkapan peratusan keluar mengundi rendah."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Perkara pengagihan, saiz perbendaharaan dan panjang kunci masa. Pengundi airdrop mungkin bersikap apatis. Suasana forum boleh menyimpang daripada keputusan dalam rantaian."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Undi pinjaman kilat (jika dibenarkan), rasuah dan undian belum dibaca adalah risiko."
+          }
+        ],
+        "keyPoints": [
+          "Tadbir urus memperuntukkan kuasa.",
+          "Reka bentuk mekanisme melawan ikan paus dan sikap tidak peduli.",
+          "Kunci masa adalah brek kritikal.",
+          "Baca kesan dan konflik sebelum mengundi."
+        ],
+        "tips": [
+          "Mewakilkan kepada wakil yang bertanggungjawab.",
+          "Tonton saluran protes semasa kunci masa.",
+          "Teliti cadangan perbendaharaan yang besar."
+        ],
+        "body": "DAO menolak peningkatan dan keputusan perbendaharaan kepada pemegang token atau sistem reputasi. Satu-token-satu-undi adalah mudah dan terdedah kepada ikan paus; delegasi dan reka bentuk lain cuba meningkatkan perwakilan. Kuasa mengundi ialah pengaruh—dan permukaan serangan."
+      },
+      {
+        "id": "treasury",
+        "title": "Perbendaharaan DAO",
+        "summary": "Modal dalam rantaian dikongsi untuk pembinaan, kecairan dan penimbal",
+        "intro": "Perbendaharaan adalah peluru DAO. Kepelbagaian, ketelusan dan proses perbelanjaan menentukan sama ada ia adalah landasan atau honeypot. Multisig atau gabenor mengawal pembayaran yang harus diaudit oleh komuniti.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Barangan awam memerlukan pembiayaan untuk audit, pembina dan insentif. Perbendaharaan mengekalkan nilai di bawah kawalan yang boleh dilihat oleh komuniti dan boleh menstabilkan krisis."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Aliran masuk daripada yuran/penerbitan/pembiayaan; aliran keluar melalui cadangan. Pegangan boleh mencampurkan kandang kuda, jurusan dan token asli—penumpuan asli adalah risiko refleksif."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Bulan landasan, risiko FX dan inventori alamat penting. Komitmen lembut juga dikira."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Perbendaharaan yang tidak menentu dan perbelanjaan pihak berkaitan yang legap adalah tanda merah."
+          }
+        ],
+        "keyPoints": [
+          "Kesihatan = ketelusan + kepelbagaian + proses.",
+          "Beg refleksif menguatkan krisis.",
+          "Perbelanjaan mesti bertanggungjawab.",
+          "Kebersihan kunci multisig adalah asas."
+        ],
+        "tips": [
+          "Baca laporan kewangan berkala.",
+          "Tonton saham rizab stablecoin.",
+          "Lebih suka pembayaran besar yang distrim."
+        ],
+        "body": "Perbendaharaan adalah peluru DAO. Kepelbagaian, ketelusan dan proses perbelanjaan menentukan sama ada ia adalah landasan atau honeypot. Multisig atau gabenor mengawal pembayaran yang harus diaudit oleh komuniti."
+      },
+      {
+        "id": "proposals",
+        "title": "Kitaran Hayat Cadangan",
+        "summary": "Daripada draf forum kepada pelaksanaan dalam rantaian",
+        "intro": "Cadangan yang baik membahaskan di luar rantaian, semakan suhu, mengundi dalam rantaian, kemudian laksanakan selepas sekatan masa. Kejutan \"cadangan kilat\" adalah bau. Ketahui tahap mana anda berada.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Proses menggantikan sama ada pemerintahan diktator atau huru-hara, memberikan pihak lawan masa untuk mengatur dan memasukkan audit/semakan undang-undang jika perlu."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Draf → maklum balas → teks akhir → undi → baris gilir. Idea yang gagal boleh disemak. Sesetengah sistem menggunakan tandatangan luar rantai tanpa gas untuk mengundi."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Kuorum, ambang, dan laluan kecemasan adalah penting—kecemasan di atas jalan adalah pintu belakang. Data panggilan boleh laku mesti sepadan dengan teks."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Undian tajuk sahaja dan mengabaikan makluman kunci masa adalah kegagalan."
+          }
+        ],
+        "keyPoints": [
+          "Kualiti perbincangan memacu kualiti tadbir urus.",
+          "Kunci masa melindungi minoriti dan keluar.",
+          "Kuasa kecemasan memerlukan batasan yang ketat.",
+          "Parameter mengalahkan slogan."
+        ],
+        "tips": [
+          "Langgan makluman forum/undi.",
+          "Nyatakan semula risiko dengan perkataan anda sendiri sebelum mengundi.",
+          "Sahkan pelaksanaan sepadan dengan teks cadangan."
+        ],
+        "body": "Cadangan yang baik membahaskan di luar rantaian, semakan suhu, mengundi dalam rantaian, kemudian laksanakan selepas sekatan masa. Kejutan \"cadangan kilat\" adalah bau. Ketahui tahap mana anda berada."
+      },
+      {
+        "id": "legal",
+        "title": "Pembungkus Undang-undang",
+        "summary": "Yayasan dan syarikat yang menghubungkan DAO dengan dunia luar rantaian",
+        "intro": "Kod tidak memberikan liabiliti terhad secara automatik. Yayasan/LLC menandatangani kontrak, bank dan cukai. Penyumbang harus tahu siapa yang boleh dianggap bertanggungjawab jika perkara itu pecah.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Pengambilan pekerja, IP dan pengawal selia memerlukan rakan sejawat yang sah. Pembalut yang baik mengurangkan pendedahan peribadi—ia bukan peranti penyamaran."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Bidang kuasa → piagam → lembaga/multisig → klausa yang menghubungkan kepada undian DAO. Peraturan berbeza-beza mengikut negara."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Sekuriti, sekatan dan cukai (termasuk airdrop) penting. Tanpa Nama ≠ risiko undang-undang sifar."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Menganggap \"terdesentralisasi\" mengabaikan undang-undang tempatan, atau menandatangani perjanjian yang tidak diketahui, adalah melulu."
+          }
+        ],
+        "keyPoints": [
+          "Entiti membekalkan keupayaan luar rantaian.",
+          "Struktur adalah khusus bidang kuasa.",
+          "Ketahui sempadan liabiliti anda.",
+          "Pematuhan adalah sebahagian daripada risiko produk."
+        ],
+        "tips": [
+          "Dapatkan nasihat profesional untuk sumbangan material.",
+          "Baca dokumen perhubungan foundation↔DAO.",
+          "Simpan rekod airdrop/pendapatan."
+        ],
+        "body": "Kod tidak memberikan liabiliti terhad secara automatik. Yayasan/LLC menandatangani kontrak, bank dan cukai. Penyumbang harus tahu siapa yang boleh dianggap bertanggungjawab jika perkara itu pecah."
+      },
+      {
+        "id": "ops",
+        "title": "Operasi DAO",
+        "summary": "Mengubah undi kepada penghantaran melalui kumpulan kerja dan pembayaran",
+        "intro": "Tanpa pengendali, tadbir urus adalah teater. Kumpulan kerja, hadiah, belanjawan dan ulasan menukar tenaga kepada produk. Keletihan, pemilikan tidak jelas dan pembayaran gaji lewat membunuh DAO secara senyap-senyap.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Barang awam kurang dibekalkan. Penyelenggaraan dana sistem Ops; gaji telus mengurangkan tawaran bayangan."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Misi → metrik → belanjawan → pengambilan pekerja/hadiah → retro. Gaji dalam rantaian membantu. Akses pentadbir yang paling tidak mempunyai keistimewaan mengelakkan satu titik kegagalan."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Adakah KPI boleh disahkan? Adakah celupan dua kali dikawal? Dokumentasi melawan faktor bas."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Membayar tanpa akauntabiliti dan melebihkan penyumbang yang tidak boleh diganti adalah mod kegagalan."
+          }
+        ],
+        "keyPoints": [
+          "Sistem penghantaran menjadikan DAO nyata.",
+          "Belanjawan dan prestasi harus terbuka.",
+          "Kurangkan pergantungan manusia tunggal.",
+          "Ketelusan bayar mengurangkan bahan api konspirasi."
+        ],
+        "tips": [
+          "Mulakan dengan habuan kecil untuk mempelajari proses.",
+          "Sandarkan peranan kritikal.",
+          "Terbitkan laporan kumpulan kerja."
+        ],
+        "body": "Tanpa pengendali, tadbir urus adalah teater. Kumpulan kerja, hadiah, belanjawan dan ulasan menukar tenaga kepada produk. Keletihan, pemilikan tidak jelas dan pembayaran gaji lewat membunuh DAO secara senyap-senyap."
+      },
+      {
+        "id": "attacks",
+        "title": "Serangan Tadbir Urus",
+        "summary": "Menangkap protokol melalui undian, rasuah atau peratusan keluar mengundi yang rendah",
+        "intro": "Penyerang mengejar perbendaharaan, parameter atau kunci naik taraf menggunakan undian terkumpul, pinjaman kilat, rasuah atau kuorum mengantuk. Pertahanan termasuk kunci masa, penjaga veto dan reka bentuk pengundian yang lebih baik.",
+        "sections": [
+          {
+            "heading": "Apakah masalah yang diselesaikannya",
+            "body": "Membincangkan permukaan serangan membolehkan komuniti bertahan lebih awal. \"Tiada siapa yang akan melakukan itu\" bukan kawalan. Keselamatan tadbir urus menyaingi keselamatan kontrak."
+          },
+          {
+            "heading": "Bagaimana ia berfungsi",
+            "body": "Memperoleh undi → lulus niat jahat → laksana selepas kunci masa jika tidak dihentikan. Parameter kompleks boleh menyamarkan niat. Penjaga boleh menangguhkan atau membatalkan serangan yang jelas."
+          },
+          {
+            "heading": "Konsep utama",
+            "body": "Masa syot kilat, peraturan undian pinjaman kilat, dan penumpuan delegasi adalah kunci. Pantau pergerakan token yang besar."
+          },
+          {
+            "heading": "Risiko & salah tanggapan",
+            "body": "Mengabaikan makluman kunci masa dan menganggap audit menghentikan kecurian tadbir urus adalah kesilapan."
+          }
+        ],
+        "keyPoints": [
+          "Kuasa tadbir urus boleh menjadi kecurian langsung.",
+          "Kunci masa dan penjaga adalah brek.",
+          "Jumlah keluar mengundi yang rendah adalah kelemahan.",
+          "Pantau dan latih semula laluan veto."
+        ],
+        "tips": [
+          "Dayakan bot amaran tadbir urus.",
+          "Pemegang besar sebenarnya harus mengundi.",
+          "Menyokong reka bentuk yang menyekat undian pinjaman kilat."
+        ],
+        "body": "Penyerang mengejar perbendaharaan, parameter atau kunci naik taraf menggunakan undian terkumpul, pinjaman kilat, rasuah atau kuorum mengantuk. Pertahanan termasuk kunci masa, penjaga veto dan reka bentuk pengundian yang lebih baik."
+      }
+    ]
+  }
+]

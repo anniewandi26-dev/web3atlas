@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Web3-Wissensinfrastruktur",
+    "badge": "Sicherheit zuerst"
+  },
+  "nav": {
+    "explore": "Entdecken",
+    "ecosystem": "Ökosystem",
+    "news": "News",
+    "chronicle": "Chronik",
+    "security": "Sicherheit",
+    "glossary": "Glossar"
+  },
+  "hero": {
+    "kicker": "8 ÖKOSYSTEM-SCHICHTEN · TIPPEN ZUM LERNEN",
+    "titleLine1": "Das Internet verändert sich.",
+    "titleLine2": "Kartiere was kommt.",
+    "subtitle": "Netzwerke, Protokolle und Web3-Ideen — klar, ohne Hype.",
+    "ctaPrimary": "Ökosystem erkunden",
+    "ctaSecondary": "Sicherheitszentrum",
+    "pause": "Animation pausieren",
+    "play": "Animation abspielen"
+  },
+  "sections": {
+    "ecosystem": "01 · ÖKOSYSTEM",
+    "ecosystemTitle": "Nach Kategorie erkunden",
+    "ecosystemDesc": "Acht Web3-Schichten. Konzepte und reale Muster öffnen.",
+    "openExplorer": "Explorer öffnen",
+    "news": "02 · SIGNAL",
+    "newsTitle": "Was sich bewegt",
+    "newsDesc": "Kuratierte Headlines zu Infra, Märkten und Regulierung.",
+    "allHeadlines": "Alle Headlines",
+    "glossary": "03 · LEXIKON",
+    "glossaryTitle": "Dieselbe Sprache sprechen",
+    "glossaryDesc": "Schnelle Definitionen für On-Chain-Alltag.",
+    "openGlossary": "Glossar öffnen",
+    "security": "04 · ABWEHR",
+    "securityTitle": "Schwer zu hacken bleiben",
+    "securityDesc": "Kurzbriefings zu Phishing, Approvals, Seed und Fake-Apps.",
+    "securityCenter": "Sicherheitszentrum",
+    "chronicle": "05 · ZEITLEISTE",
+    "chronicleTitle": "Wie wir hierher kamen",
+    "chronicleDesc": "Vom Whitepaper zu ETFs.",
+    "fullChronicle": "Volle Chronik",
+    "quiz": "06 · CHALLENGE",
+    "quizTitle": "Wissen stress-testen",
+    "quizDesc": "Zehn Fragen. Kein Account.",
+    "startQuiz": "Starten",
+    "shuffle": "Mischen"
+  },
+  "common": {
+    "readMore": "Mehr lesen",
+    "back": "Zurück",
+    "search": "Suchen",
+    "items": "Einträge",
+    "minRead": "{m} Min. Lesezeit",
+    "language": "Sprache",
+    "followIp": "Sprache folgt Ihrer Region (IP). Manuell änderbar.",
+    "fallbackNote": "Lokalisierter Inhalt.",
+    "noResults": "Keine Treffer.",
+    "useful": "Nützlich",
+    "useIpLanguage": "IP-/Regionssprache nutzen",
+    "ipActive": "aktiv",
+    "manualOverride": "Manuell"
+  },
+  "ecosystemPage": {
+    "title": "Ökosystem-Explorer",
+    "subtitle": "Acht Schichten — von Base-Chains bis DAOs."
+  },
+  "newsPage": {
+    "title": "Signal-Desk",
+    "subtitle": "Web3-Headlines für Builder und Neugierige."
+  },
+  "chroniclePage": {
+    "title": "Chronik",
+    "subtitle": "Momente, die digitales Geld veränderten."
+  },
+  "securityPage": {
+    "title": "Sicherheitszentrum",
+    "subtitle": "Praktischer Schutz für Wallets und Social Engineering."
+  },
+  "glossaryPage": {
+    "title": "Glossar",
+    "subtitle": "Klare Definitionen für On-Chain-Vokabular.",
+    "placeholder": "Begriffe filtern…"
+  },
+  "quiz": {
+    "correct": "Richtig",
+    "wrong": "Nicht ganz",
+    "next": "Weiter",
+    "restart": "Neu starten",
+    "score": "Punktzahl: {score}/{total}",
+    "done": "Fertig"
+  },
+  "article": {
+    "keyPoints": "Kernpunkte",
+    "tips": "Praxistipps",
+    "checklist": "Checkliste",
+    "expand": "Erklären",
+    "collapse": "Zuklappen"
+  },
+  "intro": {
+    "headline": "Web3- und Krypto-Wissen – klar lernen, kein Hype",
+    "body": "Web3Atlas ist ein Bildungszentrum, keine Handels-App. Erkunden Sie die Karte des Ökosystems, folgen Sie kuratierten Signalen, studieren Sie die Chronik, üben Sie die Wallet-Sicherheit, öffnen Sie das Glossar und testen Sie sich mit Quizzen – Klarheit statt Spekulation.",
+    "point1": "Ökosystemkarte: Blockchain, DeFi, NFT, L2, Wallets, DAO",
+    "point2": "Signale und Chronik: Schlagzeilen und wichtige Geschichte",
+    "point3": "Sicherheitscenter: Phishing, Seeds, Genehmigungen",
+    "point4": "Glossar und Quiz: Einfache Begriffe zum Öffnen und Üben",
+    "hint": "Tippen Sie unten, um fortzufahren",
+    "enter": "Beginnen Sie mit der Erkundung",
+    "loading": "Laden"
+  },
+  "safariGate": {
+    "note": "Nachdem Sie diese Seite in Safari geöffnet haben, wird die Website normal ausgeführt – und dieser Hinweis bleibt verborgen. Safari sorgt für eine flüssigere Interaktion und sattere Farben.",
+    "openSafari": "Mit Safari öffnen",
+    "copied": "Link kopiert. Fügen Sie es in Safari ein, um fortzufahren."
+  }
+}

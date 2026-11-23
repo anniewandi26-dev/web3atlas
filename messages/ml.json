@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Web3 Knowledge Infrastructure",
+    "badge": "Security First"
+  },
+  "nav": {
+    "explore": "പരിശോധിക്കുക",
+    "ecosystem": "ആവാസവ്യവസ്ഥ",
+    "news": "വാർത്ത",
+    "chronicle": "ചരിത്രം",
+    "security": "സുരക്ഷ",
+    "glossary": "നിഘണ്ടു"
+  },
+  "hero": {
+    "kicker": "8 ECOSYSTEM LAYERS · TAP TO LEARN",
+    "titleLine1": "The Internet Is Changing.",
+    "titleLine2": "Map What Comes Next.",
+    "subtitle": "Discover networks, protocols and ideas shaping Web3 — built for clarity, not hype.",
+    "ctaPrimary": "Explore the Ecosystem",
+    "ctaSecondary": "Open Security Center",
+    "pause": "Pause animation",
+    "play": "Play animation"
+  },
+  "sections": {
+    "ecosystem": "01 · ECOSYSTEM",
+    "ecosystemTitle": "Explore by category",
+    "ecosystemDesc": "Eight layers of Web3. Open one to see concepts and real-world patterns.",
+    "openExplorer": "Open explorer",
+    "news": "02 · SIGNAL",
+    "newsTitle": "What's moving",
+    "newsDesc": "Curated headlines that help you follow infrastructure, markets and regulation.",
+    "allHeadlines": "All headlines",
+    "glossary": "03 · LEXICON",
+    "glossaryTitle": "Speak the language",
+    "glossaryDesc": "Fast definitions for terms you will see every day on-chain.",
+    "openGlossary": "Open glossary",
+    "security": "04 · DEFENSE",
+    "securityTitle": "Stay hard to hack",
+    "securityDesc": "Short briefings on phishing, approvals, seed phrases and fake apps.",
+    "securityCenter": "Security center",
+    "chronicle": "05 · TIMELINE",
+    "chronicleTitle": "How we got here",
+    "chronicleDesc": "A concise chronicle from whitepaper to ETFs and beyond.",
+    "fullChronicle": "Full chronicle",
+    "quiz": "06 · CHALLENGE",
+    "quizTitle": "Stress-test what you know",
+    "quizDesc": "Ten quick questions. No account. Just sharper instincts.",
+    "startQuiz": "Start the challenge",
+    "shuffle": "Shuffle"
+  },
+  "common": {
+    "readMore": "കൂടുതൽ വായിക്കുക",
+    "back": "തിരികെ",
+    "search": "Search",
+    "items": "items",
+    "minRead": "{m} min read",
+    "language": "ഭാഷ",
+    "followIp": "ഭാഷ നിങ്ങളുടെ മേഖലയെ (IP) പിന്തുടരുന്നു.",
+    "fallbackNote": "Full article language unavailable — showing English.",
+    "noResults": "No matches.",
+    "useful": "Useful",
+    "useIpLanguage": "IP ഭാഷ ഉപയോഗിക്കുക",
+    "ipActive": "സജീവം",
+    "manualOverride": "Manual override"
+  },
+  "ecosystemPage": {
+    "title": "Ecosystem Explorer",
+    "subtitle": "Browse eight layers — from base chains to DAOs."
+  },
+  "newsPage": {
+    "title": "Signal Desk",
+    "subtitle": "Curated Web3 headlines for builders and curious readers."
+  },
+  "chroniclePage": {
+    "title": "Chronicle",
+    "subtitle": "A timeline of moments that reshaped digital money and networks."
+  },
+  "securityPage": {
+    "title": "Security Center",
+    "subtitle": "Practical defenses for wallets, approvals and social engineering."
+  },
+  "glossaryPage": {
+    "title": "Glossary",
+    "subtitle": "Plain-language definitions for on-chain vocabulary.",
+    "placeholder": "Filter terms…"
+  },
+  "quiz": {
+    "correct": "Correct",
+    "wrong": "Not quite",
+    "next": "Next",
+    "restart": "Restart",
+    "score": "Score: {score}/{total}",
+    "done": "Challenge complete"
+  },
+  "article": {
+    "keyPoints": "Key points",
+    "tips": "Practical tips",
+    "checklist": "Checklist",
+    "expand": "Expand explain",
+    "collapse": "Collapse"
+  },
+  "intro": {
+    "headline": "Web3 & crypto അറിവ് - വ്യക്തമായി പഠിക്കുക, ഹൈപ്പ് അല്ല",
+    "body": "Web3Atlas ഒരു വിദ്യാഭ്യാസ കേന്ദ്രമാണ്, ഒരു വ്യാപാര ആപ്പല്ല. ഇക്കോസിസ്റ്റം മാപ്പ് പര്യവേക്ഷണം ചെയ്യുക, ക്യൂറേറ്റഡ് സിഗ്നലുകൾ പിന്തുടരുക, ക്രോണിക്കിൾ പഠിക്കുക, വാലറ്റ് സുരക്ഷ പരിശീലിക്കുക, ഗ്ലോസറി തുറക്കുക, ക്വിസുകൾ ഉപയോഗിച്ച് സ്വയം പരീക്ഷിക്കുക - ഊഹക്കച്ചവടത്തിൽ വ്യക്തത.",
+    "point1": "ഇക്കോസിസ്റ്റം മാപ്പ്: ബ്ലോക്ക്ചെയിൻ, DeFi, NFT, L2, വാലറ്റുകൾ, DAO",
+    "point2": "സിഗ്നലുകളും ക്രോണിക്കിളും: തലക്കെട്ടുകളും പ്രധാന ചരിത്രവും",
+    "point3": "സുരക്ഷാ കേന്ദ്രം: ഫിഷിംഗ്, വിത്തുകൾ, അംഗീകാരങ്ങൾ",
+    "point4": "ഗ്ലോസറിയും ക്വിസും: നിങ്ങൾക്ക് തുറന്ന് പരിശീലിക്കാവുന്ന ലളിതമായ നിബന്ധനകൾ",
+    "hint": "തുടരാൻ താഴെ ടാപ്പ് ചെയ്യുക",
+    "enter": "പര്യവേക്ഷണം ആരംഭിക്കുക",
+    "loading": "ലോഡ് ചെയ്യുന്നു"
+  },
+  "safariGate": {
+    "note": "നിങ്ങൾ സഫാരിയിൽ ഈ പേജ് തുറന്ന ശേഷം, സൈറ്റ് സാധാരണ രീതിയിൽ പ്രവർത്തിക്കുന്നു - ഈ അറിയിപ്പ് മറഞ്ഞിരിക്കുന്നു. സഫാരി സുഗമമായ ഇടപെടലും സമ്പന്നമായ നിറവും നൽകുന്നു.",
+    "openSafari": "സഫാരി ഉപയോഗിച്ച് തുറക്കുക",
+    "copied": "ലിങ്ക് പകർത്തി. തുടരാൻ സഫാരിയിൽ ഒട്ടിക്കുക."
+  }
+}

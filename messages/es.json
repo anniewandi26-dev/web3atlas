@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Infraestructura de conocimiento Web3",
+    "badge": "Seguridad primero"
+  },
+  "nav": {
+    "explore": "Explorar",
+    "ecosystem": "Ecosistema",
+    "news": "Noticias",
+    "chronicle": "Crónica",
+    "security": "Seguridad",
+    "glossary": "Glosario"
+  },
+  "hero": {
+    "kicker": "8 CAPAS DEL ECOSISTEMA · TOCA PARA APRENDER",
+    "titleLine1": "Internet está cambiando.",
+    "titleLine2": "Mapea lo que viene.",
+    "subtitle": "Descubre redes, protocolos e ideas de Web3 — claridad, no hype.",
+    "ctaPrimary": "Explorar el ecosistema",
+    "ctaSecondary": "Abrir centro de seguridad",
+    "pause": "Pausar animación",
+    "play": "Reproducir animación"
+  },
+  "sections": {
+    "ecosystem": "01 · ECOSISTEMA",
+    "ecosystemTitle": "Explorar por categoría",
+    "ecosystemDesc": "Ocho capas de Web3. Abre una para ver conceptos y patrones reales.",
+    "openExplorer": "Abrir explorador",
+    "news": "02 · SEÑAL",
+    "newsTitle": "Qué se mueve",
+    "newsDesc": "Titulares seleccionados sobre infraestructura, mercados y regulación.",
+    "allHeadlines": "Todos los titulares",
+    "glossary": "03 · LÉXICO",
+    "glossaryTitle": "Habla el idioma",
+    "glossaryDesc": "Definiciones rápidas de términos on-chain cotidianos.",
+    "openGlossary": "Abrir glosario",
+    "security": "04 · DEFENSA",
+    "securityTitle": "Hazte difícil de hackear",
+    "securityDesc": "Guías breves sobre phishing, approvals, semillas y apps falsas.",
+    "securityCenter": "Centro de seguridad",
+    "chronicle": "05 · LÍNEA DE TIEMPO",
+    "chronicleTitle": "Cómo llegamos aquí",
+    "chronicleDesc": "Crónica desde el whitepaper hasta los ETF.",
+    "fullChronicle": "Crónica completa",
+    "quiz": "06 · RETO",
+    "quizTitle": "Pon a prueba lo que sabes",
+    "quizDesc": "Diez preguntas rápidas. Sin cuenta.",
+    "startQuiz": "Empezar el reto",
+    "shuffle": "Barajar"
+  },
+  "common": {
+    "readMore": "Leer más",
+    "back": "Volver",
+    "search": "Buscar",
+    "items": "ítems",
+    "minRead": "{m} min de lectura",
+    "language": "Idioma",
+    "followIp": "El idioma sigue tu región (IP). Puedes cambiarlo manualmente.",
+    "fallbackNote": "Mostrando contenido localizado.",
+    "noResults": "Sin resultados.",
+    "useful": "Útil",
+    "useIpLanguage": "Usar idioma por IP / región",
+    "ipActive": "activo",
+    "manualOverride": "Cambio manual"
+  },
+  "ecosystemPage": {
+    "title": "Explorador del ecosistema",
+    "subtitle": "Ocho capas — de cadenas base a DAOs."
+  },
+  "newsPage": {
+    "title": "Mesa de señales",
+    "subtitle": "Titulares Web3 para builders y lectores curiosos."
+  },
+  "chroniclePage": {
+    "title": "Crónica",
+    "subtitle": "Momentos que reshaped el dinero digital."
+  },
+  "securityPage": {
+    "title": "Centro de seguridad",
+    "subtitle": "Defensas prácticas para wallets y phishing."
+  },
+  "glossaryPage": {
+    "title": "Glosario",
+    "subtitle": "Definiciones claras del vocabulario on-chain.",
+    "placeholder": "Filtrar términos…"
+  },
+  "quiz": {
+    "correct": "Correcto",
+    "wrong": "Casi",
+    "next": "Siguiente",
+    "restart": "Reiniciar",
+    "score": "Puntuación: {score}/{total}",
+    "done": "Reto completado"
+  },
+  "article": {
+    "keyPoints": "Puntos clave",
+    "tips": "Consejos prácticos",
+    "checklist": "Lista de control",
+    "expand": "Expandir",
+    "collapse": "Cerrar"
+  },
+  "intro": {
+    "headline": "Conocimiento de Web3 y criptografía: aprenda con claridad, sin exageraciones",
+    "body": "Web3Atlas es un centro educativo, no una aplicación comercial. Explora el mapa del ecosistema, sigue señales seleccionadas, estudia la crónica, practica la seguridad de la billetera, abre el glosario y ponte a prueba con cuestionarios: claridad sobre especulación.",
+    "point1": "Mapa del ecosistema: blockchain, DeFi, NFT, L2, billeteras, DAO",
+    "point2": "Señales y crónica: titulares e historia clave",
+    "point3": "Centro de seguridad: phishing, semillas, aprobaciones",
+    "point4": "Glosario y cuestionario: términos sencillos que puedes abrir y practicar",
+    "hint": "Toca abajo para continuar",
+    "enter": "Empezar a explorar",
+    "loading": "Cargando"
+  },
+  "safariGate": {
+    "note": "Después de abrir esta página en Safari, el sitio se ejecuta normalmente y este aviso permanece oculto. Safari ofrece una interacción más fluida y colores más ricos.",
+    "openSafari": "Abierta con Safari",
+    "copied": "Enlace copiado. Pégalo en Safari para continuar."
+  }
+}

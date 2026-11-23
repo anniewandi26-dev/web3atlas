@@ -1,0 +1,234 @@
+[
+  {
+    "id": "homograph",
+    "tag": "Alert",
+    "title": "Homograph phishing defense",
+    "minutes": 5,
+    "summary": "Lookalike characters forge official domains to harvest signatures or seeds.",
+    "sections": [
+      {
+        "heading": "What it looks like",
+        "body": "Attackers swap visually similar characters into domains and pair them with ads or DMs. The UI can be pixel-perfect and even show fake balances."
+      },
+      {
+        "heading": "How to spot it",
+        "body": "Type URLs or use bookmarks. Check certificate owners. Never click the top search ad for wallets/bridges. Hover links and inspect odd subdomains."
+      },
+      {
+        "heading": "If you clicked",
+        "body": "Revoke approvals and move remaining funds. If you typed a seed, that wallet is burned—rescue to a brand-new seed only. Keep evidence for reports."
+      }
+    ],
+    "checklist": [
+      "Bookmark official sites",
+      "Skip search ads",
+      "Inspect every URL character",
+      "Cross-check on a second device for size",
+      "Never type seeds into webpages"
+    ],
+    "body": "Lookalike characters forge official domains to harvest signatures or seeds."
+  },
+  {
+    "id": "seed",
+    "tag": "Keys",
+    "title": "Seed phrase complete guide",
+    "minutes": 6,
+    "summary": "Your seed is control of the assets. Anyone asking for it is hostile.",
+    "sections": [
+      {
+        "heading": "Backups",
+        "body": "Hand-write and re-check order; consider metal plates; split locations carefully. No photos, clouds, or chat apps."
+      },
+      {
+        "heading": "Scams",
+        "body": "“Sync/verify/upgrade/unfreeze/airdrop” pages requesting 12/24 words. Fake Discord admins use the same script. Hardware “authenticity checkers” asking for seeds are fake."
+      },
+      {
+        "heading": "Inheritance",
+        "body": "If nobody knows the plan, funds die with you. Use sealed instructions, lawyers, or multisig. On suspected leak, migrate immediately."
+      }
+    ],
+    "checklist": [
+      "Seeds only on offline media",
+      "Tell the words to no one",
+      "Never enter them on a networked device",
+      "Hardware + cold backup for size",
+      "Migrate on any leak signal"
+    ],
+    "body": "Your seed is control of the assets. Anyone asking for it is hostile."
+  },
+  {
+    "id": "approve",
+    "tag": "DeFi",
+    "title": "Approve / allowance traps",
+    "minutes": 6,
+    "summary": "Approvals don’t move tokens immediately—they allow later drains, especially unlimited ones.",
+    "sections": [
+      {
+        "heading": "Mechanics",
+        "body": "ERC-20 transferFrom needs allowance. Infinite approvals are convenient; compromised spenders can empty you later. setApprovalForAll is the NFT equivalent."
+      },
+      {
+        "heading": "Safe practice",
+        "body": "Exact allowances when possible; revoke routinely; test new protocols small. Watch airdrop sites that require Approve first."
+      },
+      {
+        "heading": "Incident response",
+        "body": "Revoke and move funds. Prioritize spenders named in hack disclosures."
+      }
+    ],
+    "checklist": [
+      "Refuse needless unlimited approvals",
+      "Review allowances monthly",
+      "Revoke unused NFT operators",
+      "Read spender addresses",
+      "Prioritize hacked protocol spenders"
+    ],
+    "body": "Approvals don’t move tokens immediately—they allow later drains, especially unlimited ones."
+  },
+  {
+    "id": "fake-apps",
+    "tag": "Mobile",
+    "title": "Fake wallet apps",
+    "minutes": 5,
+    "summary": "Clones appear in stores and sideload channels to steal seeds or remote-control devices.",
+    "sections": [
+      {
+        "heading": "Spotting fakes",
+        "body": "Match publisher names to official posts; beware brand-new apps ranking #1. Prefer links from the real site. Sideloaded APKs are riskier."
+      },
+      {
+        "heading": "Hardening",
+        "body": "Keep OS updated; minimize plugins; consider a dedicated phone. Use hardware for size. Plan remote lock if the phone is lost."
+      },
+      {
+        "heading": "After install",
+        "body": "If a seed was entered into a fake app, assume compromise and migrate on a clean device."
+      }
+    ],
+    "checklist": [
+      "Install from official channels",
+      "Verify developer names",
+      "Avoid random APKs",
+      "Pair size with hardware confirms",
+      "Migrate immediately if faked"
+    ],
+    "body": "Clones appear in stores and sideload channels to steal seeds or remote-control devices."
+  },
+  {
+    "id": "drainer",
+    "tag": "Signing",
+    "title": "Signature drainers & malicious permits",
+    "minutes": 7,
+    "summary": "No seed required—malicious structured signatures can authorize drains.",
+    "sections": [
+      {
+        "heading": "Tactics",
+        "body": "Fake mints/claims request setApprovalForAll, permits, or “logins.” Some payloads look blank. Bots sweep afterward."
+      },
+      {
+        "heading": "Defense",
+        "body": "Clear-signing wallets, simulation, reject unknowns. Connect new sites with a burner first. Check domains."
+      },
+      {
+        "heading": "Afterward",
+        "body": "Revoke, rescue funds, warn communities, check other chains for the same approvals."
+      }
+    ],
+    "checklist": [
+      "Reject opaque signatures",
+      "Enable simulation",
+      "Use a burner on new sites",
+      "Revoke regularly",
+      "Bookmark real dApps"
+    ],
+    "body": "No seed required—malicious structured signatures can authorize drains."
+  },
+  {
+    "id": "support",
+    "tag": "Social",
+    "title": "Fake support & social engineering",
+    "minutes": 5,
+    "summary": "After you post an error, impersonators DM “help” asking for remote access or seeds.",
+    "sections": [
+      {
+        "heading": "The playbook",
+        "body": "Cloned avatars, urgency, remote-control apps, or “safe contract” deposit instructions. Compromised friend accounts spread links too."
+      },
+      {
+        "heading": "Rules",
+        "body": "Real teams rarely DM first for secrets. Use official tickets/public channels. Verify friends out-of-band."
+      },
+      {
+        "heading": "Hygiene",
+        "body": "Never paste seeds in public channels—even “partially masked.”"
+      }
+    ],
+    "checklist": [
+      "Ignore cold support DMs",
+      "Don’t install random remote tools",
+      "Never give seeds to support",
+      "Verify weird friend links offline",
+      "Use public official help channels"
+    ],
+    "body": "After you post an error, impersonators DM “help” asking for remote access or seeds."
+  },
+  {
+    "id": "bridges",
+    "tag": "Cross-chain",
+    "title": "Bridge safety",
+    "minutes": 6,
+    "summary": "Bridges are top hack targets and phishing favorites. Faster is not safer by default.",
+    "sections": [
+      {
+        "heading": "Choosing",
+        "body": "Prefer canonical bridges from official docs. Vet fast bridges for audits and limits. Understand exit delays."
+      },
+      {
+        "heading": "Operating",
+        "body": "Tiny end-to-end tests; verify destination token contracts; save hashes. Don’t treat in-flight exits as free margin."
+      },
+      {
+        "heading": "Incidents",
+        "body": "On bridge hacks, follow official pause notices—not DM “migration scripts.”"
+      }
+    ],
+    "checklist": [
+      "Bookmark official bridges",
+      "Test tiny first",
+      "Verify destination contracts",
+      "Save tx hashes",
+      "Ignore DM migration scripts"
+    ],
+    "body": "Bridges are top hack targets and phishing favorites. Faster is not safer by default."
+  },
+  {
+    "id": "devices",
+    "tag": "Ops",
+    "title": "Device & browser hygiene",
+    "minutes": 5,
+    "summary": "Clipboard malware, fake extensions, and shared PCs are everyday theft paths.",
+    "sections": [
+      {
+        "heading": "Browser",
+        "body": "Dedicated crypto profile; minimal official extensions; bookmark sites. Use a clean machine for size."
+      },
+      {
+        "heading": "System",
+        "body": "Patch OS; beware “airdrop tools”; avoid sketchy public chargers. Always re-check pasted addresses."
+      },
+      {
+        "heading": "Layering",
+        "body": "Hot for daily, cold for savings, multisig for treasuries beats one super-wallet."
+      }
+    ],
+    "checklist": [
+      "Separate browser profile",
+      "Whitelist extensions",
+      "Re-check pasted addresses",
+      "Keep OS updated",
+      "Split funds by role"
+    ],
+    "body": "Clipboard malware, fake extensions, and shared PCs are everyday theft paths."
+  }
+]

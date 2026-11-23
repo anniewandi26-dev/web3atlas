@@ -1,0 +1,234 @@
+[
+  {
+    "id": "homograph",
+    "tag": "Alerta",
+    "title": "Defesa homográfica contra phishing",
+    "minutes": 5,
+    "summary": "Personagens semelhantes forjam domínios oficiais para coletar assinaturas ou sementes.",
+    "sections": [
+      {
+        "heading": "Como é",
+        "body": "Os invasores trocam caracteres visualmente semelhantes em domínios e os associam a anúncios ou mensagens diretas. A IU pode ser perfeita em pixels e até mostrar saldos falsos."
+      },
+      {
+        "heading": "Como identificá-lo",
+        "body": "Digite URLs ou use marcadores. Verifique os proprietários do certificado. Nunca clique no anúncio de pesquisa principal para carteiras/pontes. Passe o mouse sobre os links e inspecione subdomínios estranhos."
+      },
+      {
+        "heading": "Se você clicou",
+        "body": "Revogue as aprovações e mova os fundos restantes. Se você digitou uma semente, essa carteira será queimada – resgate apenas para uma semente totalmente nova. Guarde evidências para relatórios."
+      }
+    ],
+    "checklist": [
+      "Marque sites oficiais",
+      "Ignorar anúncios de pesquisa",
+      "Inspecione cada caractere do URL",
+      "Verifique o tamanho em um segundo dispositivo",
+      "Nunca digite sementes em páginas da web"
+    ],
+    "body": "Personagens semelhantes forjam domínios oficiais para coletar assinaturas ou sementes."
+  },
+  {
+    "id": "seed",
+    "tag": "Chaves",
+    "title": "Guia completo da frase-semente",
+    "minutes": 6,
+    "summary": "Sua semente é o controle dos ativos. Qualquer pessoa que peça isso é hostil.",
+    "sections": [
+      {
+        "heading": "Cópias de segurança",
+        "body": "Escrever à mão e verificar novamente o pedido; considere placas de metal; divida os locais com cuidado. Sem fotos, nuvens ou aplicativos de bate-papo."
+      },
+      {
+        "heading": "Golpes",
+        "body": "Páginas “Sincronizar/verificar/atualizar/descongelar/airdrop” solicitando 12/24 palavras. Os administradores do Fake Discord usam o mesmo script. Os “verificadores de autenticidade” de hardware que solicitam sementes são falsos."
+      },
+      {
+        "heading": "Herança",
+        "body": "Se ninguém souber o plano, os fundos morrem com você. Use instruções seladas, advogados ou multisig. Em caso de suspeita de vazamento, migre imediatamente."
+      }
+    ],
+    "checklist": [
+      "Sementes apenas em mídia offline",
+      "Diga as palavras para ninguém",
+      "Nunca insira-os em um dispositivo de rede",
+      "Hardware + backup frio para tamanho",
+      "Migre em qualquer sinal de vazamento"
+    ],
+    "body": "Sua semente é o controle dos ativos. Qualquer pessoa que peça isso é hostil."
+  },
+  {
+    "id": "approve",
+    "tag": "DeFi",
+    "title": "Aprovar/permitir armadilhas",
+    "minutes": 6,
+    "summary": "As aprovações não movimentam tokens imediatamente – elas permitem drenos posteriores, especialmente os ilimitados.",
+    "sections": [
+      {
+        "heading": "Mecânica",
+        "body": "Transferência ERC-20De necessidades de subsídio. Aprovações infinitas são convenientes; gastadores comprometidos podem esvaziá-lo mais tarde. setApprovalForAll é o equivalente NFT."
+      },
+      {
+        "heading": "Prática segura",
+        "body": "Subsídios exatos quando possível; revogar rotineiramente; testar novos protocolos pequenos. Assista a sites de lançamento aéreo que exigem aprovação primeiro."
+      },
+      {
+        "heading": "Resposta a incidentes",
+        "body": "Revogar e movimentar fundos. Priorize os gastadores mencionados nas divulgações de hackers."
+      }
+    ],
+    "checklist": [
+      "Recuse aprovações ilimitadas e desnecessárias",
+      "Revise os subsídios mensalmente",
+      "Revogar operadores NFT não utilizados",
+      "Ler endereços de gastadores",
+      "Priorize gastadores de protocolo hackeados"
+    ],
+    "body": "As aprovações não movimentam tokens imediatamente – elas permitem drenos posteriores, especialmente os ilimitados."
+  },
+  {
+    "id": "fake-apps",
+    "tag": "Móvel",
+    "title": "Aplicativos de carteira falsos",
+    "minutes": 5,
+    "summary": "Clones aparecem em lojas e canais de sideload para roubar sementes ou dispositivos de controle remoto.",
+    "sections": [
+      {
+        "heading": "Identificando falsificações",
+        "body": "Combine os nomes dos editores com as postagens oficiais; cuidado com aplicativos novos em primeiro lugar. Prefira links do site real. APKs carregados lateralmente são mais arriscados."
+      },
+      {
+        "heading": "Endurecimento",
+        "body": "Mantenha o sistema operacional atualizado; minimizar plug-ins; considere um telefone dedicado. Use hardware para tamanho. Planeje o bloqueio remoto se o telefone for perdido."
+      },
+      {
+        "heading": "Depois de instalar",
+        "body": "Se uma semente foi inserida em um aplicativo falso, assuma o compromisso e migre para um dispositivo limpo."
+      }
+    ],
+    "checklist": [
+      "Instalar a partir de canais oficiais",
+      "Verifique os nomes dos desenvolvedores",
+      "Evite APKs aleatórios",
+      "O tamanho do par com o hardware confirma",
+      "Migre imediatamente se for falsificado"
+    ],
+    "body": "Clones aparecem em lojas e canais de sideload para roubar sementes ou dispositivos de controle remoto."
+  },
+  {
+    "id": "drainer",
+    "tag": "Assinatura",
+    "title": "Drenos de assinatura e licenças maliciosas",
+    "minutes": 7,
+    "summary": "Não é necessária nenhuma semente – assinaturas estruturadas maliciosas podem autorizar drenos.",
+    "sections": [
+      {
+        "heading": "Táticas",
+        "body": "Solicitações de mentas/reivindicações falsas setApprovalForAll, autorizações ou “logins”. Algumas cargas parecem em branco. Os bots varrem depois."
+      },
+      {
+        "heading": "Defesa",
+        "body": "Carteiras de assinatura clara, simulação, rejeição de incógnitas. Conecte novos sites com um gravador primeiro. Verifique os domínios."
+      },
+      {
+        "heading": "Depois",
+        "body": "Revogar, resgatar fundos, avisar as comunidades, verificar outras redes para obter as mesmas aprovações."
+      }
+    ],
+    "checklist": [
+      "Rejeitar assinaturas opacas",
+      "Habilitar simulação",
+      "Use um gravador em novos sites",
+      "Revogar regularmente",
+      "Marque dApps reais"
+    ],
+    "body": "Não é necessária nenhuma semente – assinaturas estruturadas maliciosas podem autorizar drenos."
+  },
+  {
+    "id": "support",
+    "tag": "Social",
+    "title": "Suporte falso e engenharia social",
+    "minutes": 5,
+    "summary": "Depois de postar um erro, os imitadores DM “ajudam” solicitando acesso remoto ou sementes.",
+    "sections": [
+      {
+        "heading": "O manual",
+        "body": "Avatares clonados, urgência, aplicativos de controle remoto ou instruções de depósito de “contrato seguro”. Contas de amigos comprometidas também espalham links."
+      },
+      {
+        "heading": "Regras",
+        "body": "Equipes reais raramente DM primeiro em busca de segredos. Use ingressos oficiais/canais públicos. Verifique amigos fora da banda."
+      },
+      {
+        "heading": "Higiene",
+        "body": "Nunca cole sementes em canais públicos – mesmo “parcialmente mascarados”."
+      }
+    ],
+    "checklist": [
+      "Ignore DMs de suporte frio",
+      "Não instale ferramentas remotas aleatórias",
+      "Nunca dê sementes para apoiar",
+      "Verifique links de amigos estranhos offline",
+      "Use canais de ajuda oficiais públicos"
+    ],
+    "body": "Depois de postar um erro, os imitadores DM “ajudam” solicitando acesso remoto ou sementes."
+  },
+  {
+    "id": "bridges",
+    "tag": "Cadeia cruzada",
+    "title": "Segurança da ponte",
+    "minutes": 6,
+    "summary": "As pontes são os principais alvos de hack e favoritos de phishing. Mais rápido não é mais seguro por padrão.",
+    "sections": [
+      {
+        "heading": "Escolhendo",
+        "body": "Prefira pontes canônicas de documentos oficiais. Verifique pontes rápidas para auditorias e limites. Entenda os atrasos de saída."
+      },
+      {
+        "heading": "Operando",
+        "body": "Pequenos testes de ponta a ponta; verificar contratos de token de destino; salve hashes. Não trate as saídas durante o voo como margem livre."
+      },
+      {
+        "heading": "Incidentes",
+        "body": "Em hacks de ponte, siga os avisos de pausa oficiais – não os “scripts de migração” do DM."
+      }
+    ],
+    "checklist": [
+      "Marque pontes oficiais",
+      "Teste minúsculo primeiro",
+      "Verifique os contratos de destino",
+      "Salvar hashes tx",
+      "Ignorar scripts de migração DM"
+    ],
+    "body": "As pontes são os principais alvos de hack e favoritos de phishing. Mais rápido não é mais seguro por padrão."
+  },
+  {
+    "id": "devices",
+    "tag": "Operações",
+    "title": "Higiene do dispositivo e do navegador",
+    "minutes": 5,
+    "summary": "Malware da área de transferência, extensões falsas e PCs compartilhados são caminhos de roubo diários.",
+    "sections": [
+      {
+        "heading": "Navegador",
+        "body": "Perfil criptográfico dedicado; extensões oficiais mínimas; sites de favoritos. Use uma máquina limpa para medir o tamanho."
+      },
+      {
+        "heading": "Sistema",
+        "body": "Correção do sistema operacional; cuidado com as “ferramentas de lançamento aéreo”; evite carregadores públicos incompletos. Sempre verifique novamente os endereços colados."
+      },
+      {
+        "heading": "Camadas",
+        "body": "Quente para o dia a dia, frio para poupança, multisig para títulos do tesouro supera uma supercarteira."
+      }
+    ],
+    "checklist": [
+      "Perfil de navegador separado",
+      "Extensões da lista de permissões",
+      "Verifique novamente os endereços colados",
+      "Mantenha o sistema operacional atualizado",
+      "Divida os fundos por função"
+    ],
+    "body": "Malware da área de transferência, extensões falsas e PCs compartilhados são caminhos de roubo diários."
+  }
+]

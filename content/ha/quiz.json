@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q1",
+    "question": "Me yasa BTC ta zama babban ma'anar crypto?",
+    "choices": [
+      "Amincewar mashahuran mutane kaɗai",
+      "Na farko tabbataccen ƙarancin labari na tsabar kuɗi na dijital + tasirin hanyar sadarwa",
+      "Garantin goyan bayan gwamnati",
+      "Unlimited wadata"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q2",
+    "question": "Me yasa ake kiran Ethereum 'kwamfutar duniya'?",
+    "choices": [
+      "Yana adana fayiloli kawai",
+      "Yana gudanar da kwangiloli masu wayo na gaba ɗaya",
+      "Yana sarrafa Bitcoin da sauri",
+      "Yana maye gurbin DNS a duniya"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q3",
+    "question": "Bitcoin yana raguwa kusan kowace shekara 4 - menene yanke?",
+    "choices": [
+      "Jimlar wadata nan take",
+      "Sakamakon toshe ma'adinai",
+      "Kudin walat har abada",
+      "Ƙididdiga mai tabbatarwa"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q4",
+    "question": "Menene US tabo Bitcoin ETFs da farko ya canza?",
+    "choices": [
+      "lambar BTC",
+      "Hanyar samun dillali ga masu zuba jari na gargajiya",
+      "Mining algorithm",
+      "Tsawon jimlar iri"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q5",
+    "question": "Bayan Haɗin kai, amfani da makamashin Ethereum…",
+    "choices": [
+      "An haɓaka 10x",
+      "An faɗo da ƙarfi tare da hujja-na gungumen azaba",
+      "Ya zama kwal kawai",
+      "Ba canzawa"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q6",
+    "question": "Me yasa Layer 2 zai iya canja wurin cents na farashi?",
+    "choices": [
+      "Suna watsi da tsaro",
+      "Suna tsara txs da yawa kuma suna daidaita farashin bayanan L1",
+      "Bankunan suna tallafa musu",
+      "Gas kyauta ne bisa doka"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q7",
+    "question": "Me yasa ake kiran manyan tsabar kudin 'on-chain daloli'?",
+    "choices": [
+      "Wallet ɗin inshora ne na FDIC",
+      "Suna nufin bin diddigin USD don daidaitawa da ciniki",
+      "Su ne tsabar zinare",
+      "Ba za su iya canja wurin ba"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q8",
+    "question": "Aro kuma ku sami ba tare da tebur na banki ba - wane nau'in?",
+    "choices": [
+      "NFTs kawai",
+      "DeFi lamuni da AMMs",
+      "Hardware masana'antu",
+      "Satellite internet"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q9",
+    "question": "2010: 10,000 BTC sun sayi pizzas biyu - darasi?",
+    "choices": [
+      "BTC koyaushe yana da tsada",
+      "Gano farashin farko na gwaji ne da zamantakewa",
+      "Pizza yarjejeniya ce",
+      "Haƙar ma'adinai haramun ne"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q10",
+    "question": "Amintaccen rashin kulawa ɗaya na iya…",
+    "choices": [
+      "Inganta APY ta atomatik",
+      "Bari kwangila ya zubar da alamun daga baya",
+      "Share blockchain",
+      "Haɓaka kayan aikin ku"
+    ],
+    "answer": 1
+  }
+]

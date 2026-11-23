@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "blockchain",
+    "name": "Blockchain",
+    "summary": "Jaringan sing ngrekam lan ngamanake transaksi",
+    "blurb": "Buku besar sing dienggo bareng kanthi konsensus-lapisan pemukiman kabeh sing ana. Saben artikel kalebu panjelasan lengkap, poin kunci, lan tips.",
+    "items": [
+      {
+        "id": "bitcoin",
+        "title": "Bitcoin",
+        "summary": "Jaringan awis elektronik peer-to-peer pisanan kanthi aturan penerbitan tetep",
+        "intro": "Bitcoin nuduhake carane nilai bisa pindhah ing internet tanpa bank minangka wasit. Sakumpulan simpul global nuduhake siji ledger sing diamanake kanthi kriptografi lan insentif. Kanggo pamula, kunci, UTXO, lan aturan penerbitan luwih penting tinimbang grafik rega jangka pendek.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Perantara sing dipercaya bisa beku akun, mblokir pembayaran, utawa gagal ing krisis. Bitcoin ngganti ijin institusi kanthi verifikasi umum: sapa wae bisa mriksa sejarah, nalika nulis ulang dirancang kanthi larang banget. \nBlok genesis malah ngemot judhul koran babagan jaminan bank-sinyal sing disengaja babagan aturan moneter ing kode."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Sampeyan mlebu transaksi sing mbuwang output sing ora digunakake (UTXO) menyang alamat anyar. Penambang saingan liwat bukti kerja kanggo nambah blok lan entuk hadiah. \nHalvings nyuda pasokan anyar liwat wektu; kangelan nyetel supaya pamblokiran tetep kira-kira anteng. Konfirmasi liyane tegese resiko reorg luwih murah."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Tombol pribadi kontrol padha; alamat bisa umum. Fees minangka pasar kanggo papan blok. Skrip Bitcoin sengaja diwatesi, mula tumindak kaya pemukiman lan kelangkaan digital tinimbang platform aplikasi umum."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Volatilitas dudu bug protokol. Dhuwit recehan ing ijol-ijolan yaiku IOU nganti ditarik. Phishing, dhukungan palsu, lan transfer jaringan sing salah nyebabake kerugian permanen - praktik kanthi jumlah cilik dhisik."
+          }
+        ],
+        "keyPoints": [
+          "Bitcoin minangka jaringan pemukiman sing bisa diverifikasi umum, dudu token perusahaan.",
+          "Aturan penerbitan kalebu halvings dileksanakake dening protokol lan insentif.",
+          "UTXO + teken nemtokake transfer; kunci ilang tegese dana ilang.",
+          "Keamanan biasane minangka kabiasaan kebersihan lan konfirmasi."
+        ],
+        "tips": [
+          "Laku nampa / ngirim nganggo dompet biso dipercoyo utawa hardware.",
+          "Pindhah ukuran ing batch lan ngenteni konfirmasi cukup.",
+          "Gawe serep wiji ing offline-aja motret utawa pesen."
+        ],
+        "body": "Bitcoin nuduhake carane nilai bisa pindhah ing internet tanpa bank minangka wasit. Sakumpulan simpul global nuduhake siji ledger sing diamanake kanthi kriptografi lan insentif. Kanggo pamula, kunci, UTXO, lan aturan penerbitan luwih penting tinimbang grafik rega jangka pendek."
+      },
+      {
+        "id": "ethereum",
+        "title": "Ethereum",
+        "summary": "Blockchain tujuan umum kanggo kontrak pinter-asring disebut komputer donya",
+        "intro": "Ngendi Bitcoin fokus ing transfer dhuwit, Ethereum fokus kanggo ngetrapake aturan sing bisa diprogram. Kontrak aset tahanan, encode kahanan, lan nyipta menyang app. Sawise Gabung, konsensus minangka bukti saham nalika eksekusi tetep dadi EVM.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Pembayaran mung ora bisa nyatakake silihan, ijol-ijolan, utawa tata kelola on-chain kanthi resik. Mesin virtual sing dienggo bareng ngowahi kode dadi infrastruktur umum. \nAntarmuka sing mbukak ngidini token lan protokol saling nyambungake - dhasar lego DeFi."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "EOAs dikontrol tombol; akun kontrak dikontrol kode. Sampeyan mbayar gas kanggo owah-owahan negara. Validator saham ETH kanggo ngusulake lan mbuktekake; fault abot bisa slashed. \nPangguna isih sesambungan liwat teken dompet, nanging ruang desain luwih akeh tinimbang transfer prasaja."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Komputasi meter gas. Standar token (ERC-20/721) mbisakake kompatibilitas dompet lan pasar. Lapisan 2 mindhah eksekusi saka mainnet nalika bali menyang keamanan Ethereum."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "\"Ing Ethereum\" ≠ diaudit utawa aman. Persetujuan tanpa wates lan dompet saluran token palsu. Biaya puncak bisa ngluwihi ukuran perdagangan-mriksa jaringan, kontrak, lan ruang lingkup tunjangan."
+          }
+        ],
+        "keyPoints": [
+          "Ethereum minangka mesin negara sing dienggo bareng plus wektu kerja kontrak cerdas.",
+          "PoS ngamanake konsensus; EVM nglakokake aplikasi.",
+          "Standar ndadekake aset bisa dioperasikake ing saindhenging ekosistem.",
+          "Keamanan gumantung saka kualitas kontrak, persetujuan, lan jembatan."
+        ],
+        "tips": [
+          "Verifikasi alamat kontrak ing panjelajah blok, ora mung kanthi ticker.",
+          "Gunakake L2s resmi utawa ngenteni nalika mainnet rame.",
+          "Nyoba protokol anyar kanthi dhuwit sing bisa ilang."
+        ],
+        "body": "Ngendi Bitcoin fokus ing transfer dhuwit, Ethereum fokus kanggo ngetrapake aturan sing bisa diprogram. Kontrak aset tahanan, encode kahanan, lan nyipta menyang app. Sawise Gabung, konsensus minangka bukti saham nalika eksekusi tetep dadi EVM."
+      },
+      {
+        "id": "consensus",
+        "title": "Konsensus",
+        "summary": "Carane jaringan setuju siji sajarah kanonik",
+        "intro": "Tanpa wasit tengah, simpul isih butuh siji buku besar. Konsensus nemtokake sing ngusulake pamblokiran, carane cheaters kaukum, lan nalika transfer cukup final. Proof-of-work lan proof-of-stake minangka cara sing beda kanggo nggawe sejarah nulis ulang larang regane.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Peserta sing disebarake bisa tundha, medhot, utawa ngapusi. Konsensus nyegah belanja kaping pindho kanthi nggawe sejarah dominan ekonomi. \nKanggo pangguna, nemtokake wektu ngenteni, risiko reorganisasi, lan biaya serangan."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Rega PoW nyerang kanthi energi / hashrate. Rega PoS nyerang kanthi modal terikat lan slashing. Sawetara protokol nawakake finalitas sing luwih kuat sawise checkpoints; liyane iku probabilistik. \nIjol-ijolan nyetel konfirmasi simpenan saka properti kasebut."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Liveness vs safety trade-offs prakara. Rantai \"luwih cepet\" kanthi set validator cilik bisa nyuda resistensi sensor. Takon sapa sing nggawe blok sadurunge ngrayakake TPS."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Slogan dudu tesis investasi. Asumsi jembatan lan klien-klien asring luwih lemah tinimbang konsensus dhasar-lan ing kana akeh peretasan."
+          }
+        ],
+        "keyPoints": [
+          "Konsensus milih sejarah kanonik siji ing antarane simpul sing ora dipercaya.",
+          "Serangan rega PoW lan PoS beda.",
+          "Konfirmasi / finalitas mutusake kapan dana \"ditampa\".",
+          "Komponen cross-chain bisa luwih ringkih tinimbang crita L1."
+        ],
+        "tips": [
+          "Respect disaranake konfirmasi counts kanggo celengan gedhe.",
+          "Sinau distribusi validator lan aturan slashing ing rentengan anyar.",
+          "Ngurangi kegiatan jembatan / pengaruh sajrone upgrade sing kontroversial."
+        ],
+        "body": "Tanpa wasit tengah, simpul isih butuh siji buku besar. Konsensus nemtokake sing ngusulake pamblokiran, carane cheaters kaukum, lan nalika transfer cukup final. Proof-of-work lan proof-of-stake minangka cara sing beda kanggo nggawe sejarah nulis ulang larang regane."
+      },
+      {
+        "id": "accounts",
+        "title": "Akun & Kunci",
+        "summary": "Identitas on-chain minangka pasangan tombol, dudu jeneng pangguna sing direset kanthi dhukungan",
+        "intro": "Akun sampeyan biasane alamat sing asale saka kunci pribadi. Ora ana sing bisa ngreset tombol kasebut kanggo sampeyan; teken iku wewenang. Pangertosan EOA, akun kontrak, lan frasa wiji minangka dhasar panggunaan sing aman.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Akun Web2 manggon ing server perusahaan kanthi ngreset sandhi. Blockchains push kontrol kanggo nduwèni kunci kanggo poto-tahan-lan push tanggung jawab operasional karo."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Kunci pribadi entuk kunci lan alamat umum. Wiji (BIP-39) bisa regenerasi akeh akun ing rantai. Akun kontrak mindhah dana kanthi jalur kode; akun pinter encode kabijakan kaya watesan lan wali."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Dompet panas trep; dompet hardware nyimpen tombol ing unsur aman. Multisig nyebar kontrol. Siji wiji sing bocor bisa kompromi kabeh wit derivasi."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Gambar awan, malware, lan panjaluk winih \"dhukungan\" minangka dalan kerugian klasik. Tandha wuta bisa nyetujoni saluran - nolak pituduh sing ora jelas."
+          }
+        ],
+        "keyPoints": [
+          "Keys witjaksono kepemilikan.",
+          "Alamat bisa dienggo bareng; wiji ora.",
+          "EOAs ditandatangani manungsa; kontrak dikontrol kode.",
+          "Waca ruang lingkup ijin sadurunge mlebu."
+        ],
+        "tips": [
+          "Pisah dana eksperimen saka dompet tabungan.",
+          "Tulis wiji ing kertas / logam lan simpen ing offline.",
+          "Aktifake simulasi transaksi ing dApps anyar."
+        ],
+        "body": "Akun sampeyan biasane alamat sing asale saka kunci pribadi. Ora ana sing bisa ngreset tombol kasebut kanggo sampeyan; teken iku wewenang. Pangertosan EOA, akun kontrak, lan frasa wiji minangka dhasar panggunaan sing aman."
+      },
+      {
+        "id": "gas",
+        "title": "Gas & Fees",
+        "summary": "Saben owah-owahan negara diukur supaya komputer umum ora bisa spammed gratis",
+        "intro": "Gas dudu pajak sing sewenang-wenang - regane komputasi lan panyimpenan. Ragad sampeyan yaiku panggunaan × rega unit. Kemacetan mundhak rega unit, mula tumindak sing padha bisa biaya sen utawa puluhan dolar.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Blockchain umum kudu bound sumber daya. Gas nggawe pasar ragad: tawaran sing luwih dhuwur jelas dhisik; pangembang kudu nulis kontrak efisien."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Transfer prasaja biaya gas sethithik; rute DeFi Komplek biaya luwih. Sawise EIP-1559, biaya dhasar diobong lan tips mbayar proposal. L2s amortize biaya data L1 ing akeh pangguna, mula biaya unit mudhun."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "tutup watesan gas pinten sampeyan ngidini. Transaksi gagal isih bisa ngisi gas amarga eksekusi kedadeyan. Speed-up / mbatalake ngganti nonce sing ditundha karo tx ragad sing luwih dhuwur."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Situs palsu bisa njaluk telpon gas absurd utawa omong kosong. Kampanye \"Zero gas\" asring nggedhekake ijin-takon sapa sing sponsor lan apa sing sampeyan wewenangake."
+          }
+        ],
+        "keyPoints": [
+          "eksekusi meter gas; rega didorong pasar.",
+          "Gagal isih bisa biaya gas.",
+          "L2s lan batching minangka pengirit ragad utama.",
+          "Nolak ragad abnormal utawa panjalukan persetujuan."
+        ],
+        "tips": [
+          "Tumindak non-urgent ing off-peak utawa ing L2.",
+          "Gunakake taksiran ragad dompet lan simulasi.",
+          "Rega total gas sadurunge kampanye multi-langkah."
+        ],
+        "body": "Gas dudu pajak sing sewenang-wenang - regane komputasi lan panyimpenan. Ragad sampeyan yaiku panggunaan × rega unit. Kemacetan mundhak rega unit, mula tumindak sing padha bisa biaya sen utawa puluhan dolar."
+      },
+      {
+        "id": "bridges",
+        "title": "kreteg",
+        "summary": "Saluran sing mindhah nilai utawa pesen ing ranté-lan target hack sing kerep",
+        "intro": "Aset ora katon ajaib ing buku besar liyane. Bridges ngunci, mint, ngobong, utawa swap liwat likuiditas-nggedhekake akses nalika konsentrasi resiko. Sawetara eksploitasi paling gedhe ing sejarah ngetutake tahanan lan verifikasi jembatan.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Tanpa jembatan, ekosistem tetep dadi pulo. Kanthi jembatan, pangguna entuk kapercayan ekstra lan risiko kontrak minangka ijol-ijolan kanggo mobilitas."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Model kalebu lock-and-mint, burn-and-redeem, jaringan likuiditas, lan relay klien cahya. Kreteg rollup kanonik marisi keamanan rollup nanging bisa uga ana wektu tundha metu; kreteg cepet nambah asumsi pihak katelu kanggo kacepetan."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Apa sampeyan bisa nebus 1: 1? Kepiye desentralisasi validator? TVL dhuwur bisa ateges target sing luwih lemu, dudu safety otomatis."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Domain phishing berkembang ing sekitar jembatan. Jaringan utawa kontrak token sing salah ngirim dana menyang kekosongan. Tansah nyoba kanthi transfer cilik dhisik."
+          }
+        ],
+        "keyPoints": [
+          "Jembatan minangka protokol salib, dudu teleportasi.",
+          "Kanonik vs kreteg cepet duwe model kapercayan sing beda.",
+          "Bridges dominasi losses hack sajarah.",
+          "Verifikasi domain, kontrak, lan jaringan bebarengan."
+        ],
+        "tips": [
+          "Ketik kreteg saka dokumen resmi sing ditandhani mung.",
+          "Tes ukuran minimal sadurunge mindhah ukuran.",
+          "Nambani metu sing ditundha minangka durung bisa digunakake kanthi bebas."
+        ],
+        "body": "Aset ora katon ajaib ing buku besar liyane. Bridges ngunci, mint, ngobong, utawa swap liwat likuiditas-nggedhekake akses nalika konsentrasi resiko. Sawetara eksploitasi paling gedhe ing sejarah ngetutake tahanan lan verifikasi jembatan."
+      }
+    ]
+  },
+  {
+    "id": "defi",
+    "name": "DeFi",
+    "summary": "Pinjaman, tukar lan staking liwat kontrak cerdas",
+    "blurb": "Kepiye carane nggawe primitif finansial sing mbukak-lan risiko babagan tarif, likuidasi, lan kandang.",
+    "items": [
+      {
+        "id": "amm",
+        "title": "Tukang Pasar Otomatis",
+        "summary": "Kolam likuiditas lan kurva rega ngganti buku pesenan klasik",
+        "intro": "AMM ngidini sapa wae nyetor token menyang blumbang supaya pedagang bisa ngganti rumus. Sampeyan entuk likuiditas terus-terusan lan biaya LP-plus mundhut ora permanen lan risiko kontrak cerdas.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Buku pesenan on-chain larang regane. Kolam tetep likuiditas ing kontrak supaya swap bisa kedadeyan kapan wae, nggawe pasar demokratisasi."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Konstan-produk punika kurva klasik; stableswaps lan likuiditas konsentrasi nambah efisiensi modal. Router pamisah dagang antarane pools. Watesan slippage nglindhungi sampeyan nalika negara pindhah."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Mundhut ora permanen bisa nggawe LPs underperform holding. Token lan honeypots palsu bisa katon bisa dituku nanging ora bisa didol. APR emisi bisa uga ora tahan."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Persetujuan tanpa wates kanggo router sing ora dingerteni mbebayani. Depegs kaku \"stabil\" pools hard."
+          }
+        ],
+        "keyPoints": [
+          "rega AMMs liwat math blumbang kanggo swaps cepet.",
+          "LP entuk biaya lan njupuk risiko kontrak IL +.",
+          "Slippage lan nuntun asil drive kualitas.",
+          "Verifikasi pools / token sadurunge nguber ngasilake."
+        ],
+        "tips": [
+          "Setel slippage nyenyet lan jumlah minimal-metu.",
+          "Luwih milih pools jero ing protokol diwasa.",
+          "Mbusak tunjangan token sing ora digunakake kanthi rutin."
+        ],
+        "body": "AMM ngidini sapa wae nyetor token menyang blumbang supaya pedagang bisa ngganti rumus. Sampeyan entuk likuiditas terus-terusan lan biaya LP-plus mundhut ora permanen lan risiko kontrak cerdas."
+      },
+      {
+        "id": "lending",
+        "title": "Protokol Pinjaman",
+        "summary": "Pinjaman overcollateralized kanthi tarif algoritmik lan likuidasi",
+        "intro": "Aset simpenan kanggo entuk asil utawa nyilih agunan tanpa meja kredit. Faktor kesehatan, oracle, lan bot likuidasi - dudu manajer hubungan - njaga pelarut sistem.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Penegakan on-chain saka kredit tanpa jaminan iku angel, mula overcollateralization dominasi. Sapa wae bisa melu; Efisiensi modal minangka trade-off."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Panggunaan drive kurva kapentingan. prices feed Oracles. Nalika kesehatan tiba, likuidator mbayar utang lan entuk jaminan kanggo bonus."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Mode isolasi, LTV, lan sosialisasi utang ala beda-beda miturut protokol. Looped leverage nambah risiko. APR net kudu nyuda denda gas lan likuidasi."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Oracle lag utawa manipulasi bisa nyebabake likuidasi sing salah. Nganggep utang minangka \"simpenan sing aman\" minangka jebakan pola pikir."
+          }
+        ],
+        "keyPoints": [
+          "Overcollateralization + likuidasi minangka inti.",
+          "Faktor kesehatan ngalahake tingkat judhul.",
+          "Oracle lan kualitas likuiditas mutusake safety.",
+          "Leverage loops nggedhekake drawdowns."
+        ],
+        "tips": [
+          "Ninggalake buffer gedhe ing ndhuwur liquidation.",
+          "Ngindhari jaminan sing ana hubungane banget nalika badai.",
+          "Taksiran rega likuidasi sadurunge nyilih."
+        ],
+        "body": "Aset simpenan kanggo entuk asil utawa nyilih agunan tanpa meja kredit. Faktor kesehatan, oracle, lan bot likuidasi - dudu manajer hubungan - njaga pelarut sistem."
+      },
+      {
+        "id": "stablecoins",
+        "title": "Stablecoins",
+        "summary": "Unit on-chain sing dirancang kanggo nglacak referensi stabil kaya USD",
+        "intro": "Aset dhasar sing molah malih kikuk kanggo rega lan akuntansi. Stablecoins nyedhiyakake rel kaya dolar kanggo dagang lan kiriman dhuwit-nanging mekanisme lan mode kegagalan beda banget.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Dheweke nyedhiyakake unit akun sing akrab kanggo kegiatan on-chain lan papan perlindungan sementara ing wektu sing ora ana risiko-pengungsian ≠ tanpa risiko."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "dhuwit recehan Fiat-digawe gumantung ing cadangan lan nebus; crypto-backed ing overcollateralization; desain algoritma nyetel sumber lan wis buktiaken pecah. Transparansi lan istilah penebusan penting ing stres."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Freezes, depegs, versi cross-chain palsu, lan pambungkus ngasilake nambah lapisan risiko. Ticker sing padha ing rantai liyane bisa uga ora resmi."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "USD ing jeneng iku marketing, ora insurance. Konsentrasi ing siji sing ngetokake sekuritas minangka risiko counterparty."
+          }
+        ],
+        "keyPoints": [
+          "Stablecoin minangka alat kanthi risiko penerbit / mekanisme.",
+          "Cadangan, jaminan, utawa algoritma gagal kanthi beda.",
+          "Kabijakan penebusan lan pembekuan mengaruhi kegunaan.",
+          "Tansah verifikasi kontrak resmi saben chain."
+        ],
+        "tips": [
+          "Luwih milih desain transparan sing bisa ditebus kanggo ukuran.",
+          "Diversifikasi sing ngetokake sekuritas lan panggonan.",
+          "Nambani outsized \"asil stabil\" minangka bebaya."
+        ],
+        "body": "Aset dhasar sing molah malih kikuk kanggo rega lan akuntansi. Stablecoins nyedhiyakake rel kaya dolar kanggo dagang lan kiriman dhuwit-nanging mekanisme lan mode kegagalan beda banget."
+      },
+      {
+        "id": "staking",
+        "title": "Staking & Restaking",
+        "summary": "Ibukutha Bond kanggo ngamanake jaringan-lan kadhangkala nggunakake maneh keamanan kasebut",
+        "intro": "Proof-of-stake aligns validators karo keamanan chain liwat saham terikat. Token staking cair nambah efisiensi modal; restaking reuses stake kanggo layanan ekstra lan tumpukan hubungan risiko slashing.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "PoS mbutuhake set validator sing cukup desentralisasi. Ganjaran ngimbangi operasi lan biaya kesempatan; staking cair mundhakaken partisipasi karo risiko kontrak anyar."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Aktifake lan metu antrian, tugas, lan slashing nemtokake proyek. Restaking delegasi keamanan menyang protokol tambahan kanggo ngasilake ekstra-lan kondisi garis miring ekstra."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Kinerja operator, keragaman klien, lan masalah risiko depeg LST. Hasil sing luwih dhuwur biasane tegese luwih akeh cara kanggo diukum."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Situs staking palsu harvest persetujuan utawa wiji. Restaking dudu pengaruh bebas risiko ing ETH."
+          }
+        ],
+        "keyPoints": [
+          "Staking mbayar kanggo karya keamanan.",
+          "Staking Cairan nambah lapisan kontrak / operator.",
+          "Restaking tumpukan kondisi slash.",
+          "Penundaan unstaking tegese likuiditas ora cepet."
+        ],
+        "tips": [
+          "Pilih operator kanthi rekaman trek lan konsentrasi sing sithik.",
+          "Ukuran restaking kanggo toleransi slash.",
+          "Ketik mung liwat pranala dokumentasi resmi."
+        ],
+        "body": "Proof-of-stake aligns validators karo keamanan chain liwat saham terikat. Token staking cair nambah efisiensi modal; restaking reuses stake kanggo layanan ekstra lan tumpukan hubungan risiko slashing."
+      },
+      {
+        "id": "perps",
+        "title": "Perpetual Futures",
+        "summary": "Pasar leverage sing ora kadaluwarsa sing digandhengake karo tingkat pendanaan",
+        "intro": "Perps ngidini pedagang dawa / cendhak kanthi wates lan ora kadaluwarsa. On-chain venue encode margin lan likuidasi ing kode utawa sistem hibrida. Upside digedhekake-dadi kacepetan path-to-zero.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Spot piyambak ora bisa nyebut pager kanthi efisien. Perps dadi turunan dominan crypto kanthi ngilangi gesekan gulungan."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Transfer pendanaan antarane longs lan shorts kanggo tether rega menyang indeks. Margin pangopènan micu likuidasi; dana asuransi bisa nyerep kekurangan. Oracles lan outages penting ing lam."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Leverage, deleveraging otomatis, lan akrual pendanaan nemtokake kaslametan. Model tahanan CEX vs DEX beda-beda."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "\"Leverage cilik aman\" gagal ing wicks. Ora bisa nambah margin amarga masalah gas/jaringan bisa ngilangi sampeyan."
+          }
+        ],
+        "keyPoints": [
+          "Pendanaan ngganti kadaluwarsa kanggo jangkar.",
+          "Mekanika likuidasi eksistensial.",
+          "Leverage ngowahi volatility dadi rintangan wipeout.",
+          "Venue lan oracle tumpukan risiko ing risiko pasar."
+        ],
+        "tips": [
+          "Default kanggo pengaruh kurang karo margin nyisakke.",
+          "Ngurangi ukuran sadurunge acara; aja dendam-tambah.",
+          "Gunakake papan sing aturan sampeyan bisa verifikasi."
+        ],
+        "body": "Perps ngidini pedagang dawa / cendhak kanthi wates lan ora kadaluwarsa. On-chain venue encode margin lan likuidasi ing kode utawa sistem hibrida. Upside digedhekake-dadi kacepetan path-to-zero."
+      },
+      {
+        "id": "rwa",
+        "title": "Tokenisasi RWA",
+        "summary": "Nggawa pratelan babagan arus kas donya nyata menyang rel crypto",
+        "intro": "RWAs nyambungake pametumu sing akrab (kayata T-bills) menyang pemukiman on-chain. Token mung apik minangka bungkus legal, hak asuh, lan penebusan-ora mung UI kontrak cerdas.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Ngasilake crypto asli molah malih; instrumen awis tokenized bisa luwih cocog karo kabutuhan treasury nalika struktur swara."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Entitas sing dilisensi nduweni aset; pratelan trek token; ngasilaken disebarake on-chain. KYC allowlists umum. Rega sekunder bisa beda karo NAV."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Kebangkrutan jarak, bukti, penebusan T + N, lan yurisdiksi mutusake asil stres. \"Katon on-chain\" ≠ otomatis dileksanakake off-chain."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Resiko owah-owahan counterparty lan regulasi dumunung ing jejere risiko kontrak. Kaca langganan palsu akeh banget."
+          }
+        ],
+        "keyPoints": [
+          "RWA = legal + kustodian + token plumbing.",
+          "Ngasilake teka saka aset off-chain.",
+          "Aturan transfer / nebus bisa uga gated.",
+          "Tekun struktur sing ngetokake sekuritas, ora mung APR."
+        ],
+        "tips": [
+          "Waca dokumen penawaran lan bukti cadangan.",
+          "Konfirmasi yurisdiksi sampeyan ngidini nyekel.",
+          "Nonton jendhela penebusan lan ambane sekunder."
+        ],
+        "body": "RWAs nyambungake pametumu sing akrab (kayata T-bills) menyang pemukiman on-chain. Token mung apik minangka bungkus legal, hak asuh, lan penebusan-ora mung UI kontrak cerdas."
+      }
+    ]
+  },
+  {
+    "id": "nfts",
+    "name": "NFTs",
+    "summary": "Token unik lan pasar kanggo wong-wong mau",
+    "blurb": "Saka standar lan pasar kanggo budaya, game, lan aset dinamis.",
+    "items": [
+      {
+        "id": "erc721",
+        "title": "ERC-721 & ERC-1155",
+        "summary": "Antarmuka standar kanggo token unik lan semi-fungible",
+        "intro": "Standar ngidini dompet lan pasar nganggo basa siji. 721 map siji id kanggo siji pemilik; 1155 ngatur akeh id lan transfer batch-guna kanggo game.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Tanpa standar, saben proyek nggawe API khusus lan ngrusak interoperabilitas. Pencipta uga entuk distribusi multi-pasar."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Kepemilikan lan transfer wis standar; metadata asring manggon ing tokenURI (biasane IPFS). Persetujuan bisa per-token utawa operator-wide."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Metadata sing bisa diowahi, pinning, lan kabijakan royalti mbentuk daya tahan lan ekonomi. Koleksi palsu nyalin seni kanthi kontrak beda-alamat kepercayaan."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Wuta setApprovalForAll menyang pasar sing ora dingerteni minangka saluran klasik. Narasi langka ≠ likuiditas."
+          }
+        ],
+        "keyPoints": [
+          "Standar ngaktifake interop, dudu nilai intrinsik.",
+          "Pilihan panyimpenan mengaruhi permanence.",
+          "Nyilikake persetujuan.",
+          "Alamat kontrak yaiku mriksa keasliane."
+        ],
+        "tips": [
+          "Verifikasi kontrak resmi sadurunge tuku.",
+          "Mbusak operator pasar basi.",
+          "Pisah potongan-potongan nilai dhuwur ing dompet vault."
+        ],
+        "body": "Standar ngidini dompet lan pasar nganggo basa siji. 721 map siji id kanggo siji pemilik; 1155 ngatur akeh id lan transfer batch-guna kanggo game."
+      },
+      {
+        "id": "markets",
+        "title": "Pasar NFT",
+        "summary": "Lapisan kabijakan listing, penawaran, pemukiman, lan royalti",
+        "intro": "Pasar cocog karo panuku lan adol kanthi aliran pesenan on-chain utawa hibrida. Agregator rute ngliwati papan. Penegakan Royalti dadi kabijakan pasar, dudu sihir protokol murni.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Pencipta mbutuhake distribusi; kolektor kudu nemokake lan tatanan rega. Kompetisi compresses biaya lan mundhakaken pangarepan keamanan."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Penjual nyetujoni transfer; panuku mapan. Watch listings dicolong ing diskon mokal. Agregator mbantu rega nanging ora amarga rajin."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Fees, escrows bid, wash trading, lan quirks cross-listing penting. Denah lantai bisa dimanipulasi."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "UI Phishing niru pasar paling dhuwur. Tandha Airdrop minangka nggodho umum."
+          }
+        ],
+        "keyPoints": [
+          "Pasar minangka rel, dudu jaminan regane.",
+          "Tawaran lan persetujuan nggawa risiko.",
+          "Aturan Royalty beda-beda miturut panggonan.",
+          "Ultra-low takon bisa uga dicolong aset."
+        ],
+        "tips": [
+          "Tetenger domain resmi; skip iklan telusuran.",
+          "Tansah ukuran bid lan konservatif kadaluwarsa.",
+          "Nglumpukake kanthi teliti ing wektu."
+        ],
+        "body": "Pasar cocog karo panuku lan adol kanthi aliran pesenan on-chain utawa hibrida. Agregator rute ngliwati papan. Penegakan Royalti dadi kabijakan pasar, dudu sihir protokol murni."
+      },
+      {
+        "id": "pfp",
+        "title": "PFP & Budaya NFTs",
+        "summary": "Identitas lan anggota komunitas dibungkus minangka media sing bisa didagang",
+        "intro": "NFTs gambar profil ngowahi kepemilikan dadi sinyal sosial. Rega narasi- lan likuiditas-driven luwih saka cashflow-driven. Dianggep minangka budaya pisanan, spekulasi kapindho.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Jeneng pangguna platform disewa; PFP nyoba identitas visual portabel lan akses komunitas - manungsa waé bisa monetize, lan manungsa waé bisa ninggalake."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Mint, alat langka, Discord / Telegram, lan perdagangan sekunder mbentuk loop. Sawetara nambah sarana; akeh sing ora."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Distribusi pemegang, mbukak kunci, lan buku tipis nyebabake risiko kacilakan. Penipuan impersonation tetep."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Ngoyak narasi \"chip biru\" ing puncak euforia lara. Ojo percoyo admin DM karo siki."
+          }
+        ],
+        "keyPoints": [
+          "Nilai biasane sosial lan narasi.",
+          "Verifikasi kontrak / saluran resmi.",
+          "Likuiditas bisa ilang kanthi cepet.",
+          "Nglumpukake / sosialisasi; ora dianggep minangka asil dijamin."
+        ],
+        "tips": [
+          "Lurk komunitas sadurunge tuku.",
+          "Abaikan DM airdrop.",
+          "Predefine anggaran max-mundhut."
+        ],
+        "body": "NFTs gambar profil ngowahi kepemilikan dadi sinyal sosial. Rega narasi- lan likuiditas-driven luwih saka cashflow-driven. Dianggep minangka budaya pisanan, spekulasi kapindho."
+      },
+      {
+        "id": "gaming-assets",
+        "title": "Aset Game",
+        "summary": "Item, karakter, lan tanah sing bisa didagang kanthi kepemilikan sing bisa diverifikasi",
+        "intro": "Game Crypto janji manawa barang langka tetep dadi duweke sampeyan. Puteran sing nyenengake, ekonomi sing seimbang, lan kepemilikan nyata kudu urip bebarengan-utawa sampeyan isih duwe cangkang spekulatif.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Penutupan tradisional ngilangke persediaan. Pasar mbukak lan kepemilikan sing bisa diverifikasi ngganti pangarepan pemain lan ngaktifake ekonomi UGC."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Hibrida njaga pertempuran ing wektu nyata lan ngatasi kekurangan ing rantai. Mints, sink, lan rega wangun kerajinan; emisi ora dicenthang inflate wong adoh."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Rasio produksi / sink lan mbuwang luwih penting tinimbang seni. Milik ≠ dituntut."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Nambani ganjaran token awal minangka gaji gagal ing pasar bear. Pisah tombol game saka dompet vault."
+          }
+        ],
+        "keyPoints": [
+          "Kepemilikan mbutuhake loop game sing lestari.",
+          "Desain ekonomi ngarahake rega jangka panjang.",
+          "Hibrida perdagangan kemurnian kanggo kinerja.",
+          "penylametan Hype ≠ penylametan pamuter."
+        ],
+        "tips": [
+          "Play sadurunge tuku aset larang.",
+          "Trek klelep vs emisi.",
+          "Isolasi akun game saka dana utama."
+        ],
+        "body": "Game Crypto janji manawa barang langka tetep dadi duweke sampeyan. Puteran sing nyenengake, ekonomi sing seimbang, lan kepemilikan nyata kudu urip bebarengan-utawa sampeyan isih duwe cangkang spekulatif."
+      },
+      {
+        "id": "tickets",
+        "title": "Tiket & Kredensial",
+        "summary": "Hak akses sing bisa diverifikasi kanthi aturan transfer opsional",
+        "intro": "Tiket lan keanggotaan babagan mbuktekake hak. Kredensial on-chain bisa nyuda palsu lan ngaktifake adol maneh sing dikontrol-yen mriksa-in UX bener bisa digunakake kanggo wong normal.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Kertas palsu lan opaque scalping babras acara. Tiket digital sing bisa diverifikasi bisa ngiket identitas utawa nyetel watesan transfer lan ninggalake jejak sing bisa diaudit."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Mint / pratelan ing tuku; tandha pindai kanggo nebus digunakake. Pilihan Soulbound nyuda touting. Privasi / KYC asring njagong off-chain."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Transferabilitas, serangan gambar, lan pemulihan yen wiji ilang kabeh butuh desain. Gesekan dompet bisa ngilangi pamirsa."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Mint tiket palsu lan acara sing ditinggal ninggalake token sing ora ana gunane. Aja overshare data pribadhi menyang kontrak sing ora dingerteni."
+          }
+        ],
+        "keyPoints": [
+          "Nilai iku tengen, ora flip.",
+          "Penebusan UX mutusake skala.",
+          "Waca aturan transfer sadurunge tuku.",
+          "Jalur pemulihan isih penting."
+        ],
+        "tips": [
+          "Tuku mung liwat saluran organizer.",
+          "Priksa tampilan dompet sadurunge acara.",
+          "Tansah email konfirmasi saka rantai uga."
+        ],
+        "body": "Tiket lan keanggotaan babagan mbuktekake hak. Kredensial on-chain bisa nyuda palsu lan ngaktifake adol maneh sing dikontrol-yen mriksa-in UX bener bisa digunakake kanggo wong normal."
+      },
+      {
+        "id": "dynamic",
+        "title": "NFT dinamis",
+        "summary": "Aset sing sipate bisa diganti karo status on-chain utawa oracle",
+        "intro": "NFT dinamis nganyari tampilan utawa atribut saka kemajuan game, wektu, utawa data eksternal. Dheweke rumangsa urip-nanging mutabilitas kudu transparan kanggo para panuku.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Tingkat keanggotaan lan item game sing berkembang kudu negara. Dinamika nggawe NFT luwih saka gambar statis."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Kontrak utawa layanan metadata nganyari URI saka pemicu. Yen metadata dipusatake, dinamika bisa dadi suntingan bisu."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Sapa sing bisa nganyari? Apa sejarah bisa diaudit? Pasar kudu nuduhake negara paling anyar. Para panuku kudu ngerti apa sing bisa diganti."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Operator bisa nerf langka. Kesalahan Oracle bisa nyetel formulir sing salah. \"Rarity immutable\" plus nganyari admin bisu minangka gendera abang."
+          }
+        ],
+        "keyPoints": [
+          "Dinamika minangka fitur lan risiko.",
+          "Nerbitake ijin nganyari kanthi jelas.",
+          "Model hosting ndadekake kapercayan.",
+          "Konfirmasi sipat paling anyar sadurunge dagang."
+        ],
+        "tips": [
+          "Maca aturan nganyari lan riwayat.",
+          "Luwih milih mesin negara on-chain sing bisa diverifikasi.",
+          "Simpen potongan regane dhuwur ing dompet sing adhem."
+        ],
+        "body": "NFT dinamis nganyari tampilan utawa atribut saka kemajuan game, wektu, utawa data eksternal. Dheweke rumangsa urip-nanging mutabilitas kudu transparan kanggo para panuku."
+      }
+    ]
+  },
+  {
+    "id": "layer2",
+    "name": "Lapisan 2",
+    "summary": "Jaringan skala sing dibangun ing ndhuwur Ethereum",
+    "blurb": "Rollups optimistis / ZK, kasedhiyan data, jembatan, lan kenapa biaya bisa mudhun nganti sen.",
+    "items": [
+      {
+        "id": "optimistic",
+        "title": "Optimis Rollups",
+        "summary": "Nganggep batch bener; ngamanake karo jendhela penipuan-bukti",
+        "intro": "Rollups optimistis nglakokake L2, ngirim data menyang Ethereum, lan nganggep bener kajaba ditantang. Pangguna entuk UX sing luwih murah; metu kanonik bisa ngenteni wektu tantangan.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Ruang blok L1 larang. Obah eksekusi off-chain nalika jangkar menyang L1 nyuda biaya. Desain optimis dikirim awal kanthi kompatibilitas EVM sing kuwat."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "A sequencer pesen transaksi lan nerbitaké kumpulan; jangkar werna negara ing L1. Sajrone jendhela, nonton bisa regejegan. Cepet metu nggunakake likuiditas pihak katelu kanthi asumsi ekstra."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Desentralisasi sequencer, kasedhiyan data, lan tombol upgrade nemtokake keamanan nyata. Kacepetan UX ≠ rampung desentralisasi."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Nglirwakake metu wektu tundha mis-rega likuiditas. Situs jembatan palsu mundhak nalika tren L2s."
+          }
+        ],
+        "keyPoints": [
+          "Tantangan latensi dagang windows kanggo bukti penipuan sing luwih gampang.",
+          "Keamanan gumantung ing data L1 + game regejegan.",
+          "Jembatan kanonik luwih alon nanging luwih cetha.",
+          "Sequencer uptime minangka risiko pengalaman."
+        ],
+        "tips": [
+          "Plan L1 metu karo wektu tundha ing pikiran.",
+          "Luwih milih titik mlebu jembatan resmi.",
+          "Waca dokumen uwal kanggo gangguan sequencer."
+        ],
+        "body": "Rollups optimistis nglakokake L2, ngirim data menyang Ethereum, lan nganggep bener kajaba ditantang. Pangguna entuk UX sing luwih murah; metu kanonik bisa ngenteni wektu tantangan."
+      },
+      {
+        "id": "zk",
+        "title": "ZK Rollups",
+        "summary": "Bukti validitas ngyakinake L1 yen kumpulan L2 bener",
+        "intro": "Bukti validitas ngidini L1 nampa asil tanpa jendela penipuan sing dawa. Mbuktekaken iku abot komputasi, nanging final bisa aran snappier yen bukti tanah.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Skala tanpa ngandelake \"anggap jujur ​​kajaba ditantang.\" Pemukiman sing luwih cepet mbantu ijol-ijolan lan jembatan."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "L2 nglakokake; provers mbangun bukti; L1 verifiers mriksa wong. Kesetaraan EVM sing luwih dhuwur nggampangake migrasi aplikasi."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Sistem bukti, DA, lan tombol upgrade isih penting. \"ZK\" branding ≠ pasar prover desentralisasi durung."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Provers / sequencers terpusat bisa tetep. Kreteg lan phishing isih ndominasi kerugian pangguna."
+          }
+        ],
+        "keyPoints": [
+          "Bukti validitas nguatake jaminan bener.",
+          "Hardware / engineering biaya wangun Fees lan desentralisasi.",
+          "Pangguna isih butuh kebersihan jembatan lan dompet.",
+          "Kompatibilitas EVM nyurung porting ekosistem."
+        ],
+        "tips": [
+          "Priksa prover desentralisasi roadmaps.",
+          "Tes jembatan kanthi jumlah cilik.",
+          "Waca desain DA kanthi teliti."
+        ],
+        "body": "Bukti validitas ngidini L1 nampa asil tanpa jendela penipuan sing dawa. Mbuktekaken iku abot komputasi, nanging final bisa aran snappier yen bukti tanah."
+      },
+      {
+        "id": "data",
+        "title": "Kasedhiyan Data",
+        "summary": "Mesthekake sapa wae bisa entuk data sing dibutuhake kanggo mbangun maneh negara",
+        "intro": "Rollups kudu nggawe data transaksi diolehake. Yen data ilang, pangguna bisa uga ora bisa metu kanthi aman. Blobs ngedhunake biaya Ethereum DA lan mbantu nyuda biaya L2.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Bukti tanpa data isih bisa njebak pangguna. Ing endi data urip-lan larang regane-lenggah ing tengah debat skala."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Data bisa dilebokake ing Ethereum calldata / blobs utawa lapisan DA eksternal, asring nganggo sampling / erasure coding. Warisan keamanan beda-beda miturut desain."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "\"Ditetepake menyang Ethereum\" ora padha karo \"DA padha karo jaminan Ethereum lengkap.\" Fee irungnya asring trek DA murah."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Underestimating mode gagal DA mbebayani. Pemasaran bisa ngganggu penyelesaian vs kasedhiyan."
+          }
+        ],
+        "keyPoints": [
+          "Tanpa DA, nylametake diri saya lemah.",
+          "Nganyarke Blob-jaman diganti kurva ragad L2.",
+          "Pilihan DA nggawa asumsi sing béda.",
+          "Ragad hakim, keamanan, lan desentralisasi bebarengan."
+        ],
+        "tips": [
+          "Waca saben bagean DA L2.",
+          "Simpen cathetan escape-hatch resmi.",
+          "Aja rangking chain dening TPS piyambak."
+        ],
+        "body": "Rollups kudu nggawe data transaksi diolehake. Yen data ilang, pangguna bisa uga ora bisa metu kanthi aman. Blobs ngedhunake biaya Ethereum DA lan mbantu nyuda biaya L2."
+      },
+      {
+        "id": "bridges-l2",
+        "title": "L2 Jembatan",
+        "summary": "Jalur kanonik lawan pihak katelu antarane L1 lan L2",
+        "intro": "Jembatan kanonik marisi aturan rollup lan bisa uga alon; kreteg pihak katelu ngedol kacepetan karo dateng ekstra. Milih UI sing salah minangka pola mundhut paling dhuwur.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Sampeyan butuh dana ing L2 kanggo UX murah, utawa bali ing L1 kanggo pemukiman. Pangguna sing beda-beda milih titik kapercayan / latensi sing beda."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Resmi kreteg kredit saldo L2 sawise simpenan lan metu saben aturan rollup. Cepet njembatani likuiditas lan imbangan maneh mengko - biaya lan watesan nonton."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Keaslian domain, kemampuan upgrade, tutup, lan jalur mbalekaken penting. Luwih cepet biasane tegese luwih akeh mitra."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Telusuri-iklan domain palsu. Nggabungake versi token sing salah bakal nggawe likuiditas. Mbuwang dana isih tantangan windows mis-marks resiko."
+          }
+        ],
+        "keyPoints": [
+          "Jembatan kanonik cocog karo asumsi rollup paling apik.",
+          "Cepet kreteg perdagangan kapercayan kanggo wektu.",
+          "Verifikasi domain wajib.",
+          "Tes cilik sadurunge ukuran."
+        ],
+        "tips": [
+          "Klik kreteg saka situs L2 dhewe.",
+          "Simpen tx hash kanggo dhukungan / debugging.",
+          "Ngindhari jembatan anyar sing ora diaudit kanggo ukuran."
+        ],
+        "body": "Jembatan kanonik marisi aturan rollup lan bisa uga alon; kreteg pihak katelu ngedol kacepetan karo dateng ekstra. Milih UI sing salah minangka pola mundhut paling dhuwur."
+      },
+      {
+        "id": "accounts-aa",
+        "title": "Abstraksi Akun",
+        "summary": "Dompet kontrak cerdas kanthi pemulihan, watesan, lan gas sing disponsori",
+        "intro": "EOA klasik tegese frasa wiji lan gas sing dibayar dhewe. AA ngidini dompet nemtokake logika verifikasi-wali, kunci sesi, batching, paymasters-dadi onboarding ngrasa luwih cedhak karo Web2 tanpa nyerahake hak asuh dhewe.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Wiji medeni wong anyar; token gas bingung mau. AA nyuda gesekan nalika njaga kontrol sing bisa diverifikasi. dApps entuk luwih sithik popup liwat sesi lan kumpulan."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "UserOperations dibundel on-chain; paymasters bisa sponsor biaya. Kontrak dompet ngetrapake kabijakan. Standar kaya ERC-4337 beda-beda miturut kadewasan chain."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Sapa sing dadi wali? Apa pemulihan terpusat? Apa ijin sesi amba banget? Misconfig isih kelangan dana."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "\"Ora ana wiji\" ≠ ora ana risiko-saluran pemulihan bisa diserang. Ana titik pungkasan bundler / paymaster sing ala. Sesi menyang dApps sing ora dingerteni mbebayani."
+          }
+        ],
+        "keyPoints": [
+          "AA ngodhe kabijakan ing dompet kontrak.",
+          "Gas sing disponsori lan pemulihan sosial minangka judhul UX menang.",
+          "Konfigurasi milih keamanan nyata.",
+          "Phishing isih bisa digunakake yen sampeyan setuju kanthi wuta."
+        ],
+        "tips": [
+          "Pilih wali lan piranti sing beda-beda.",
+          "Short-urip, tombol sesi winates mung.",
+          "Tansah hardware / multisig kanggo vaults."
+        ],
+        "body": "EOA klasik tegese frasa wiji lan gas sing dibayar dhewe. AA ngidini dompet nemtokake logika verifikasi-wali, kunci sesi, batching, paymasters-dadi onboarding ngrasa luwih cedhak karo Web2 tanpa nyerahake hak asuh dhewe."
+      },
+      {
+        "id": "multi-chain",
+        "title": "Multi-chain kasunyatan",
+        "summary": "Likuiditas lan pangguna pecah ing pirang-pirang domain pemukiman",
+        "intro": "Saiki mung sawetara wong sing manggon ing siji rantai. Token gas, jembatan, lan panyebaran aplikasi beda-beda. Pemecah niat ndhelikake dalan, nanging sampeyan isih kudu ngerti ing endi dana.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Siji chain ora bisa ngoptimalake saben ceruk ragad / kinerja. Pilihan liyane uga tegese luwih akeh cara kanggo milih jaringan sing salah."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Dompet ngalih RPC / ID chain; alamat padha bisa terus aset beda saben chain EVM. Bridges lan olahpesen nyambung negara; solvers saingan kanggo ngisi maksud."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Keaslian ID chain, RPC palsu, lan kontrak token saben chain minangka footgun saben dina. Imbangan nol asring tegese jaringan sing salah dipilih."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Tanda tangan trick RPC khusus sing ala. Jendhela jembatan nambah risiko. Nyebarake dana sing ora bisa diganti ing sepuluh L2 anyar minangka utang operasional."
+          }
+        ],
+        "keyPoints": [
+          "Multi-chain iku normal-verifikasi jaringan tansah.",
+          "Alamat sing padha ≠ saldo sing padha ing endi wae.",
+          "Intents ndhelikake kerumitan; padha ora mbusak resiko jembatan.",
+          "Rentengan aktif sing luwih sithik nyuda kesalahan."
+        ],
+        "tips": [
+          "Label jaringan kanthi cetha ing dompet sampeyan.",
+          "Screenshot / mriksa jeneng jaringan sadurunge ngirim.",
+          "Sinau metu sadurunge setor menyang chain anyar."
+        ],
+        "body": "Saiki mung sawetara wong sing manggon ing siji rantai. Token gas, jembatan, lan panyebaran aplikasi beda-beda. Pemecah niat ndhelikake dalan, nanging sampeyan isih kudu ngerti ing endi dana."
+      },
+      {
+        "id": "costs",
+        "title": "Apa Fees L2 Bisa Cent",
+        "summary": "Batching lan data sing luwih murah amortize biaya L1 ing akeh pangguna",
+        "intro": "Ing L1 sing rame sampeyan nawarake papan blok sing langka. L2s ngemas akeh txs bebarengan supaya saben pangguna mbayar irisan data sing dienggo bareng / biaya bukti-asring mudhun kanggo sen.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Fees dhuwur mblokir micropayments lan puteran game. Ragad sing luwih murah ngidini wong normal nggunakake aplikasi, ora mung nonton grafik."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Eksekusi kedadeyan ing L2; ringkesan hit L1. DA jaman Blob nyuda biaya unit. L2s isih bisa macet, biasane adoh ing ngisor puncak L1. Fees Bridge lan slippage item baris kapisah."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Murah ≠ padha desentralisasi. Kabijakan ragad Sequencer mbentuk UX. Persetujuan multi-langkah isih ditambahake."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Risking penipuan jembatan kanggo nyimpen rong dolar ora rasional. Acara stres nambah biaya lan wektu metu."
+          }
+        ],
+        "keyPoints": [
+          "Amortisasi + kompresi ragad drive DA sing luwih murah.",
+          "L2 kemacetan ana ing skala sing beda.",
+          "Total biaya kalebu jembatan, slippage, lan wektu.",
+          "Safety ngalahaken nyimpen dhuwit."
+        ],
+        "tips": [
+          "Kalebu biaya jembatan nalika mbandhingake rute.",
+          "Ngenteni spike kanggo tumindak sing ora penting.",
+          "Tansah L1 ETH sethitik minangka bahan bakar uwal."
+        ],
+        "body": "Ing L1 sing rame sampeyan nawarake papan blok sing langka. L2s ngemas akeh txs bebarengan supaya saben pangguna mbayar irisan data sing dienggo bareng / biaya bukti-asring mudhun kanggo sen."
+      }
+    ]
+  },
+  {
+    "id": "infra",
+    "name": "Infrastruktur",
+    "summary": "Oracles, panyimpenan, indeksasi lan alat pangembang",
+    "blurb": "Pipa sing ora katon sing nguwasani dompet, DeFi, lan UX sing luwih aman.",
+    "items": [
+      {
+        "id": "oracles",
+        "title": "Oracles",
+        "summary": "Jembatan sing nggawa fakta-fakta sing ora ana hubungane karo kontrak cerdas",
+        "intro": "Kontrak ora bisa ndeleng rega ijol-ijolan utawa skor donya nyata. Oracles nglumpukake data eksternal kanggo likuidasi, perps, lan asuransi. Nalika padha gagal, cascades tindakake.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Blockchains diisolasi kanggo determinisme, nanging finansial butuh input. Oracles ngimbangi kesegaran kanthi integritas-tanpa akeh DeFi mandheg."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Sumber aggregate, outliers drop, nganyari push ing deg-degan utawa dikarepake. Sawetara desain stake lan slash wartawan ala. Circuit breakers prakara ing lam."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Pasar tipis luwih gampang dimanipulasi kanggo utang sing ala. Pesen salib uga minangka masalah kepercayaan kaya oracle."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Duwe \"oracle\" ≠ invulnerability. Prices Stale, decimals salah, lan feed ngaso kabeh cokotan."
+          }
+        ],
+        "keyPoints": [
+          "Oracles minangka garis urip DeFi.",
+          "Sumber hakim, agregasi, lan aturan nganyari.",
+          "Aset illiquid luwih gampang kanggo spoof.",
+          "Pemutus sirkuit protokol nyuda radius jeblugan."
+        ],
+        "tips": [
+          "Ngerti feed lan detak jantung sing digunakake protokol.",
+          "Ngurangi tumindak presisi-sensitif ing volatility nemen.",
+          "Ngindhari desain siji-sumber kanggo ukuran."
+        ],
+        "body": "Kontrak ora bisa ndeleng rega ijol-ijolan utawa skor donya nyata. Oracles nglumpukake data eksternal kanggo likuidasi, perps, lan asuransi. Nalika padha gagal, cascades tindakake."
+      },
+      {
+        "id": "rpc",
+        "title": "RPC & Node",
+        "summary": "Kepiye dompet maca negara rantai lan transaksi siaran",
+        "intro": "Dompet ngobrol karo pamblokiran liwat titik pungkasan RPC. RPC umum gampang nanging bisa diwatesi, dicathet, utawa diganti karo phishing. Pangertosan RPC mbantu debug \"keseimbangan salah\" lan txs macet.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Ora saben wong nganggo simpul lengkap. RPCs mbabarake kapabilitas simpul minangka API nalika njaga pilihan kanggo dadi tuan rumah."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Aplikasi ngirim telpon JSON-RPC menyang negara pitakon utawa ngirim tx mentah. Panyedhiya beda-beda ing ambane arsip, privasi, lan linuwih."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "RPC jahat bisa nuduhake imbangan palsu utawa sensor txs. Teken tetep lokal, nanging data sing ala isih bisa ngapusi sampeyan. Verifikasi ID chain nalika nambah jaringan."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Siji-klik \"nambah jaringan\" saka situs teduh beboyo. Gangguan umum ora mesthi dadi bug dompet. Aja nindakake rahasia RPC menyang ngarep umum."
+          }
+        ],
+        "keyPoints": [
+          "RPC minangka lawang maca / nulis.",
+          "Penandatanganan lokal ≠ negara sing bisa dipercaya.",
+          "Cross-mriksa tumindak kritis ing panjelajah.",
+          "Node pribadi / sing di-host dhewe nambah privasi / linuwih."
+        ],
+        "tips": [
+          "Tansah rong serep RPC sing dipercaya.",
+          "Ing imbangan aneh, ngalih simpul utawa nggunakake panjelajah.",
+          "Ketik params jaringan resmi kanthi manual."
+        ],
+        "body": "Dompet ngobrol karo pamblokiran liwat titik pungkasan RPC. RPC umum gampang nanging bisa diwatesi, dicathet, utawa diganti karo phishing. Pangertosan RPC mbantu debug \"keseimbangan salah\" lan txs macet."
+      },
+      {
+        "id": "indexers",
+        "title": "Indexers",
+        "summary": "Ngowahi log mentah dadi API produk sing bisa ditakoni",
+        "intro": "Mindhai kabeh chain kanggo saben UI alon. Indexers ingest acara menyang database supaya portofolio lan leaderboards aran cepet-paling \"sejarah\" views teka saka indeks, ora urip scan lengkap.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Produk mbutuhake pitakon sing disaring kanthi kacepetan internet. Analis lan bot gumantung ing lapisan sing padha."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Netepake skema, log proses, nyimpen, ngawula GraphQL / REST. Outages nuduhake UI basi. Jaringan indeks terdesentralisasi menehi insentif marang sawetara operator."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "UI bisa lag negara chain bener. Nganyarke mbutuhake nganyari indeks. Aja liquidate adhedhasar dashboard piyambak-verifikasi on-chain."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Indeks korup nyasarake pedagang. Situs \"portofolio\" phishing niru dashboard nyata."
+          }
+        ],
+        "keyPoints": [
+          "Pitakon kacepetan indeks; padha ora konsensus.",
+          "Data UI bisa dadi basi.",
+          "Penjelajah / kontrak minangka sumber bebener kanggo gerakan kritis.",
+          "Kesalahan indekser katon kaya bug protokol."
+        ],
+        "tips": [
+          "Priksa maneh anomali ing panjelajah.",
+          "Nyana lag sawise nginggilaken utama.",
+          "Ngawasi serius bisa maca simpul langsung."
+        ],
+        "body": "Mindhai kabeh chain kanggo saben UI alon. Indexers ingest acara menyang database supaya portofolio lan leaderboards aran cepet-paling \"sejarah\" views teka saka indeks, ora urip scan lengkap."
+      },
+      {
+        "id": "storage",
+        "title": "Panyimpenan desentralisasi",
+        "summary": "Jaringan alamat konten kanggo file lan metadata NFT",
+        "intro": "Nyimpen file gedhe ing L1 larang, mula media asring ana ing sistem kaya IPFS / Arweave. Hashes njamin integritas, nanging kasedhiyan online isih perlu pinning utawa permanen mbayar.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Server pusat bisa mbusak media NFT. Panyimpenan terdesentralisasi nambah daya tahan lan resistensi sensor kanggo aplikasi lan set data."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "File entuk ID konten; node njupuk kanthi hash. IPFS perlu pinning; sawetara jaringan nandheske pituwas-sapisan permanence. Gerbang HTTP mbantu browser nanging nambah kapercayan gateway."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "TokenURI terpusat sing bisa diganti ngrusak crita. Gawe serep metadata hash penting."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "\"Ing IPFS\" ≠ abadi yen ora ana sing nempel. Gerbang jahat bisa nyuntikake skrip. Verifikasi hash sadurunge mbukak binari."
+          }
+        ],
+        "keyPoints": [
+          "Ngatasi konten nyegah suntingan bisu, ora nglirwakake.",
+          "Kekiatan NFT gumantung ing pinning / pembayaran.",
+          "URI admin sing bisa diganti minangka gendera abang.",
+          "Gateways trep dateng ekstra."
+        ],
+        "tips": [
+          "Semat metadata kanggo NFT kanthi nilai dhuwur dhewe.",
+          "Verifikasi CID resmi.",
+          "Pangembang kudu milih metadata sing ora bisa diganti."
+        ],
+        "body": "Nyimpen file gedhe ing L1 larang, mula media asring ana ing sistem kaya IPFS / Arweave. Hashes njamin integritas, nanging kasedhiyan online isih perlu pinning utawa permanen mbayar."
+      },
+      {
+        "id": "mev",
+        "title": "MEV",
+        "summary": "Nilai sing bisa diekstrak saka pesenan transaksi lan inklusi",
+        "intro": "Tukang bangunan lan panelusur bisa ngatur maneh utawa nglebokake txs-sandwich, balapan likuidasi, lan liya-liyane. Pangguna aran minangka slippage beracun; protokol nanggapi karo lelang lan aliran pribadi.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Mempools umum nyedhiyakake swap gedhe kanggo predator. Pangerten MEV nerangake setelan slippage lan opsi pengajuan pribadi."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Panelusuran nemokake kesempatan; tukang ngemas blok; ngusulake nerbitake. Sawetara rentengan mbagekke MEV kanggo stakers. Sandwich mbungkus perdagangan sampeyan kanggo nambah rega."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Tutup slippage, relay pribadi, lelang batch, lan maksud nyuda cilaka. L2 sequencers uga bisa extract MEV."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Ora saben ngisi sing ora apik yaiku MEV - slippage sing amba bisa ditindakake dhewe. Ngindhari ekstensi \"anti-MEV\" sing ora jelas."
+          }
+        ],
+        "keyPoints": [
+          "MEV asalé saka aliran umum sing bisa diatur.",
+          "Pangguna nyuda liwat slippage lan jalur pribadi.",
+          "Desain protokol realokasi MEV.",
+          "Nambani minangka kasunyatan engineering."
+        ],
+        "tips": [
+          "Pisah swap gedhe lan kenceng slippage.",
+          "Gunakake dompet / router kanthi pilihan pribadi.",
+          "Ngindhari pesenan pasar sing gedhe ing kekacauan puncak."
+        ],
+        "body": "Tukang bangunan lan panelusur bisa ngatur maneh utawa nglebokake txs-sandwich, balapan likuidasi, lan liya-liyane. Pangguna aran minangka slippage beracun; protokol nanggapi karo lelang lan aliran pribadi."
+      },
+      {
+        "id": "sdks",
+        "title": "Piranti Pangembang",
+        "summary": "Kerangka pengujian, perpustakaan, lan kit akun sing ngunggahake tingkat safety",
+        "intro": "Keamanan ekosistem gumantung marang tes gaya Foundry/Hardhat, perpustakaan sing diketik, simulasi, lan kit akun—ora mung auditor. Piranti sing luwih apik nyekel kewan omo sadurunge lan mbantu dompet nerangake teken.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Panyebaran manual gagal. Kontrak sing durung diuji yaiku bom wektu. SDK ngarep-mburi nggabungake sambungan multi-chain lan penanganan kesalahan."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Tes forked, fuzzing, deploy script, monitoring, lan AA SDKs mbentuk loop. Simulasi pra-tandha nuduhake bedane aset."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "dependensi stale nggawa CVEs dikenal. Serangan rantai pasokan nyerang paket \"aman\". Pangguna kudu luwih seneng dompet tandha sing jelas."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Nyalin-tempel conto sing ora diaudit menyang mainnet ora sembrono. Ekstensi \"alat dev\" palsu nyolong kunci."
+          }
+        ],
+        "keyPoints": [
+          "Perkakas minangka infrastruktur keamanan sing ora katon.",
+          "Simulasi sadurunge dhuwit mainnet.",
+          "Ketergantungan kebersihan minangka karya keamanan.",
+          "Tandha sing jelas nyuda sukses phishing pangguna."
+        ],
+        "tips": [
+          "Pangembang: fork-test path kritis.",
+          "Pangguna: nguripake simulasi.",
+          "Instal ekstensi mung saka sumber resmi."
+        ],
+        "body": "Keamanan ekosistem gumantung marang tes gaya Foundry/Hardhat, perpustakaan sing diketik, simulasi, lan kit akun—ora mung auditor. Piranti sing luwih apik nyekel kewan omo sadurunge lan mbantu dompet nerangake teken."
+      },
+      {
+        "id": "identity",
+        "title": "On-chain Identitas",
+        "summary": "Jeneng sing bisa diwaca, bukti, lan reputasi kanggo koordinasi manungsa",
+        "intro": "Alamat dawa gampang salah ngetik. Sistem jeneng map label manungsa kanggo cathetan; protokol atestasi ngetokake klaim kaya keanggotaan. Usability mundhak-lan uga masalah privasi lan impersonation.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Pembayaran lan sosial perlu paweling Ngalahake. Jeneng nyuda kesalahan transfer lan tumindak minangka kertu bisnis Web3. Reputasi mbantu anti-Sybil karo privasi trade-off."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Ndhaptar jeneng, nyetel cathetan, kanthi opsional ngumpulake bukti sing ditandatangani. Sawetara credentials sing soulbound."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Jeneng kadaluwarsa; owah-owahan cathetan. String sing padha bisa uga beda-beda ing antarane rantai. Pisah alamat identitas saka vaults."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Domain penyamaran nyolong dana. Naleni saben kredensial menyang siji alamat doxxable overexposes sampeyan."
+          }
+        ],
+        "keyPoints": [
+          "Jeneng minangka lapisan resolusi, dudu jaminan bank.",
+          "Tansah mriksa alamat sing wis ditanggulangi sadurunge ngirim.",
+          "Atestasi mbantu koordinasi karo biaya privasi.",
+          "Pisah identitas umum saka alamat brankas."
+        ],
+        "tips": [
+          "Konfirmasi resolusi nalika dikirim.",
+          "Setel pangeling kadaluwarsa.",
+          "Gunakake alamat sing murah kanggo sosial umum."
+        ],
+        "body": "Alamat dawa gampang salah ngetik. Sistem jeneng map label manungsa kanggo cathetan; protokol atestasi ngetokake klaim kaya keanggotaan. Usability mundhak-lan uga masalah privasi lan impersonation."
+      },
+      {
+        "id": "aa-infra",
+        "title": "Bundlers & Paymasters",
+        "summary": "Backend ril sing paket UserOperations lan gas sponsor",
+        "intro": "Tanpa bundler, UserOperations berjuang kanggo ndharat; tanpa paymasters, sponsor gas lan \"mbayar karo token sembarang\" hard. Misconfigured AA infra dadi outage utawa lumahing penyalahgunaan.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Pangguna ora seneng nyekel saben token gas chain. Aplikasi pengin sponsor tumindak pisanan. Infrastruktur mbisakake kabijakan produk kasebut kanthi anggaran lan dhaptar sing diidini."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Dompet mbangun UserOperations; bundlers simulasi lan ngirim; EntryPoint dieksekusi; dana paymasters saben kabijakan kanthi watesan tarif."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Apa sponsor terikat karo kontrak tartamtu? Apa bisa ditanduri? Apa bundler bakal nyensor? Desentralisasi mengaruhi ketahanan."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Titik pungkasan sing ala lan sisa sesi amba sawise kampanye minangka risiko. Gasless ≠ persetujuan-kurang."
+          }
+        ],
+        "keyPoints": [
+          "AA UX gumantung ing bundler / paymaster sing dipercaya.",
+          "Sponsor mbutuhake aturan anti-penyalahgunaan.",
+          "Pilihan titik pungkasan mengaruhi privasi lan sensor.",
+          "Pangguna isih kudu maca teken."
+        ],
+        "tips": [
+          "Kelet menyang titik pungkasan dipercaya dompet-standar.",
+          "Mbusak sesi sawise kampanye.",
+          "Nambani surprise gaslessness minangka curiga."
+        ],
+        "body": "Tanpa bundler, UserOperations berjuang kanggo ndharat; tanpa paymasters, sponsor gas lan \"mbayar karo token sembarang\" hard. Misconfigured AA infra dadi outage utawa lumahing penyalahgunaan."
+      }
+    ]
+  },
+  {
+    "id": "wallets",
+    "name": "Dompet",
+    "summary": "Aplikasi lan piranti sing nyekel tombol sampeyan",
+    "blurb": "Dompet panas / kadhemen, wiji, multisig, lan model ditahan diterangake.",
+    "items": [
+      {
+        "id": "hot",
+        "title": "Dompet Panas",
+        "summary": "Dompet piranti lunak sing disambungake kanggo imbangan cilik saben dina",
+        "intro": "Browser lan dompet seluler nggawe dApps cepet. Penak ngembangake lumahing serangan: situs angkoro, ekstensi palsu, malware clipboard, telpon sing ilang. Nambani minangka akun mriksa, dudu tabungan urip.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Dompet kadhemen kikuk kanggo DeFi frekuensi dhuwur. Dompet panas ngajari tandha lan ngalih jaringan kanthi cepet."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Tombol ndhelik ing piranti; mbukak kunci lokal; siaran liwat RPC. Nyambungake dApp nuduhake alamat, dudu kuncine-nanging tandha-tandha mbebayani isih ana."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Pisah mbuwang vs akun tabungan. Review sangu. Biometrik nglindhungi mbukak kunci app, dudu pemulihan rantai."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "APK Sideloaded, kaca \"sinkronisasi\" winih, lan komputer umum gagal klasik."
+          }
+        ],
+        "keyPoints": [
+          "Dompet panas ngoptimalake penak.",
+          "Mung nyimpen dana sing tahan rugi ing kana.",
+          "Tanda tangan / persetujuan minangka bebaya utama.",
+          "Lapisan karo panyimpenan kadhemen."
+        ],
+        "tips": [
+          "Ngundhuh saka saluran resmi mung.",
+          "Gunakake profil browser khusus kanggo crypto.",
+          "Persetujuan token audit saben minggu."
+        ],
+        "body": "Browser lan dompet seluler nggawe dApps cepet. Penak ngembangake lumahing serangan: situs angkoro, ekstensi palsu, malware clipboard, telpon sing ilang. Nambani minangka akun mriksa, dudu tabungan urip."
+      },
+      {
+        "id": "hardware",
+        "title": "Dompet Hardware",
+        "summary": "Tombol ing chip aman karo konfirmasi ing piranti",
+        "intro": "Dompet hardware nyimpen kunci pribadi saka PC sing kena infeksi. Sampeyan isih kudu maca layar piranti - tandha wuta utawa perangkat kukuh teduh bisa ngalahake chip sing paling apik.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Kepemilikan jangka panjang lan gedhe mbutuhake isolasi sing luwih kuat. Konfirmasi fisik mundhakaken bar kanggo nyolong remot. Tim digunakake minangka kontrol vault baseline."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Tuan rumah mbangun tx; piranti nuduhake ringkesan; sampeyan sarujuk; teken bali kanggo siaran. Wiji sing digawe ing init minangka cadangan. Nganyari firmware kudu resmi."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Tuku piranti asli; ngerti kabijakan teken wuta saben chain. Kelangan piranti apik yen wiji aman; kelangan wiji ora."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Piranti bekas sing rusak, situs web \"pemeriksa\" sing njaluk wiji, lan OK-tanpa maca minangka mode gagal."
+          }
+        ],
+        "keyPoints": [
+          "Isolasi hardware ngalangi akeh nyolong kunci remot.",
+          "Verifikasi layar isih ana ing sampeyan.",
+          "Serep winih padha karo piranti sing penting.",
+          "Rantai pasokan lan kebersihan perangkat kukuh."
+        ],
+        "tips": [
+          "Tuku saka toko resmi / biso dipercoyo.",
+          "Tes kanthi transfer cilik sawise persiyapan.",
+          "Cocokake alamat lengkap ing piranti kanggo ukuran."
+        ],
+        "body": "Dompet hardware nyimpen kunci pribadi saka PC sing kena infeksi. Sampeyan isih kudu maca layar piranti - tandha wuta utawa perangkat kukuh teduh bisa ngalahake chip sing paling apik."
+      },
+      {
+        "id": "seed",
+        "title": "Frasa Wiji",
+        "summary": "Serep sing bisa diwaca manungsa sing ngasilake kunci dompet",
+        "intro": "Tembung 12/24 dudu tembung sandhi mlebu-iku rahasia utama sing nggawe maneh kunci. Sapa wae sing duwe tembung bisa ngosongake dompet ing papan liya. Ora ana agen dhukungan nyata sing mbutuhake wiji kanggo \"verifikasi\" sampeyan.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Piranti mati. Wiji ngidini sampeyan mulihake akun sing padha ing papan liya ing wangun sing bisa ditulis offline."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "BIP-39 ngowahi entropi dadi tembung sing diurutake sing ngasilake akun. Urutan sing salah gagal mulihake. Frasa sandhi opsional nambah risiko keamanan lan lali."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Foto, sinkronisasi awan, lan obrolan ora aman. Serep logam ngalahake kertas marang geni / banyu. Serep multi-lokasi kudu ngimbangi nyolong vs kerugian total."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Kaca \"sinkronisasi dompet\" phishing lan dhukungan palsu minangka pembunuh paling dhuwur. Ngetik wiji menyang situs web apa wae minangka darurat."
+          }
+        ],
+        "keyPoints": [
+          "Wiji minangka aset.",
+          "Tetep offline ing salawas-lawase.",
+          "Aliran sing sah ora nate nuntut.",
+          "Desain redundansi marang geni lan nyolong."
+        ],
+        "tips": [
+          "Tulis tangan lan priksa maneh urutan tembung.",
+          "Aja nyimpen ing foto utawa email.",
+          "Rencana pusaka kanthi sengaja."
+        ],
+        "body": "Tembung 12/24 dudu tembung sandhi mlebu-iku rahasia utama sing nggawe maneh kunci. Sapa wae sing duwe tembung bisa ngosongake dompet ing papan liya. Ora ana agen dhukungan nyata sing mbutuhake wiji kanggo \"verifikasi\" sampeyan."
+      },
+      {
+        "id": "multisig",
+        "title": "Multisig",
+        "summary": "Akun bareng sing mbutuhake persetujuan M-of-N",
+        "intro": "Multisig ngowahi \"siji phish ilang kabeh\" dadi \"sawetara wong kudu setuju.\" Becik kanggo treasuries lan kulawarga. Iku ngethok siji titik gagal lan nambah koordinasi overhead.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Kubah siji-tombol mati ing siji kesalahan. Multisig meksa panyerang kanggo kompromi pirang-pirang penandatangan lan ngodhe pamisahan kekuwatan."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Skema kontrak utawa asli nemtokake ambang lan pemilik. Usul → ngumpulake tanda tangan → eksekusi. Rotasi lan modul Signer mbutuhake perawatan sing padha."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Piranti macem-macem ngalahake malware sing ana hubungane. Ambang banget dhuwur dana bata; batesan banget-kurang weaken keamanan. Modul darurat bisa dadi backdoors."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Kabeh tandha ing siji browser panas, ora tau latihan Recovery, lan phishing UI Aman iku umum gagal."
+          }
+        ],
+        "keyPoints": [
+          "Multisig nyebar risiko kunci lan keputusan.",
+          "Desain batesan nyetel kasedhiyan vs safety.",
+          "Latihan teken lan ngganti.",
+          "Bookmark antarmuka resmi."
+        ],
+        "tips": [
+          "Gunakake macem-macem piranti signer / OS.",
+          "Nglakokake bor seprapat cilik.",
+          "Dokumen langkah-langkah panggantos tandha-tandha sing ilang."
+        ],
+        "body": "Multisig ngowahi \"siji phish ilang kabeh\" dadi \"sawetara wong kudu setuju.\" Becik kanggo treasuries lan kulawarga. Iku ngethok siji titik gagal lan nambah koordinasi overhead."
+      },
+      {
+        "id": "smart-accounts",
+        "title": "Akun pinter",
+        "summary": "Dompet sing bisa diprogram kanthi watesan, wali, batching, lan sesi",
+        "intro": "Kabijakan encode akun cerdas: watesan saben dina, dhaptar sing diidini, pemulihan, lan panggilan batch. Luwih fleksibel tinimbang EOA-lan luwih akeh cara kanggo salah ngatur modul.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "EOAs kabeh-utawa-apa-apa. Akun cerdas mbisakake hak istimewa saben dinane kanthi pengawasan ekstra sing larang regane, nyambung menyang UX tanpa biji."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Logika urip ing kontrak karo validator pluggable, asring dipasangake karo AA bundlers / paymasters. Nganyarke modul kudu dijaga."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Hak istimewa, audit, lan jalur pemulihan sing diuji paling penting. Ngerti sapa sing bisa nganyarke sadurunge diarani vault."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Plugin acak sing ora diaudit, wali naif, lan akun pinter sing percaya bakal mungkasi kabeh phishing minangka kesalahan."
+          }
+        ],
+        "keyPoints": [
+          "Akun cerdas minangka hak asuh dhewe adhedhasar kabijakan.",
+          "Fleksibilitas ngembangake lumahing serangan.",
+          "Hak modul / upgrade minangka keamanan inti.",
+          "Kebiasaan isih penting."
+        ],
+        "tips": [
+          "Pateni plugin sing ora digunakake.",
+          "Owah-owahan kebijakan gedhe wektu kunci.",
+          "Tulis lan gladhen buku pemulihan."
+        ],
+        "body": "Kabijakan encode akun cerdas: watesan saben dina, dhaptar sing diidini, pemulihan, lan panggilan batch. Luwih fleksibel tinimbang EOA-lan luwih akeh cara kanggo salah ngatur modul."
+      },
+      {
+        "id": "custody",
+        "title": "Model Kustodian",
+        "summary": "Sapa sing nyekel kunci kanthi efektif ngontrol aset kasebut",
+        "intro": "Kustodian perdagangan reset sandi lan ndhukung kanggo resiko counterparty. Self-custody dagang kadhaulatan kanggo resiko ops pribadi. Umume wong nyampur loro: dagang ing platform, nyimpen ing dompet.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Tujuan sing beda mbutuhake model risiko sing beda. Murni poto-tahan ajrih wiwitan; ditahan murni lara ing gagal platform."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Saldo kustodian asring dadi buku besar internal nganti penarikan. Hak asuh dhewe nyebarake saben gerakan. Kustodian sing diatur bisa mbuktekake cadangan-isih ora ana resiko."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Pembekuan, antrian, yurisdiksi, lan bukti-saka-cadangan kualitas penting. Gagal ditahan dhewe katon kaya wiji sing ilang lan tanda tangan sing ala."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "\"Kegedhen kanggo gagal\" wis gagal bola-bali. Nyimpen wiji ing notebook ijol-ijolan ora dadi hak asuh dhewe."
+          }
+        ],
+        "keyPoints": [
+          "Lokasi tombol nemtokake kontrol.",
+          "Kenyamanan vs kedaulatan yaiku perdagangan.",
+          "Alokasi hibrida pragmatis.",
+          "Saben model gagal beda."
+        ],
+        "tips": [
+          "Mbatalake tas jangka panjang kanggo ditahan dhewe.",
+          "Luwih milih papan sing transparan.",
+          "Praktekna mandhiri kanthi ukuran cilik dhisik."
+        ],
+        "body": "Kustodian perdagangan reset sandi lan ndhukung kanggo resiko counterparty. Self-custody dagang kadhaulatan kanggo resiko ops pribadi. Umume wong nyampur loro: dagang ing platform, nyimpen ing dompet."
+      }
+    ]
+  },
+  {
+    "id": "gaming",
+    "name": "Gamelan",
+    "summary": "Game lan jagad maya kanthi aset sing diduweni",
+    "blurb": "Gameplay, ekonomi, infrastruktur, lan mode kegagalan spekulatif.",
+    "items": [
+      {
+        "id": "play",
+        "title": "Play & Dhewe",
+        "summary": "Nyenengake pisanan, kepemilikan sing bisa diverifikasi minangka bonus-dudu ilusi upah",
+        "intro": "Game crypto sing sehat prioritas hiburan; kepemilikan amplifies, ora ngganti desain. Pasar sekunder kudu dadi asil, ora mung isi.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Spekulasi murni ambruk ing bruwang. Nampilake kepemilikan ing loop sing bener-bener nyenengake nambah retensi lan ngidini ekonomi pangripta."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Inti urutane critane game mlaku cepet off-chain utawa ing ril khusus; pamukiman langka kena rentengan. Studio entuk liwat UX, biaya, lan layanan nalika nyetel ekonomi."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Metrik retensi lan mbuwang ngalahake grafik token minangka sinyal kesehatan. Regulasi isih bisa mbatesi token item."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Nambani grind minangka proyek lan ora nggatekake keamanan akun minangka jebakan klasik."
+          }
+        ],
+        "keyPoints": [
+          "Fun pisanan, finance kapindho.",
+          "Kepemilikan ora bisa ngluwari bosen.",
+          "Sehat ekonomi imbangan sinks lan sumber.",
+          "Isolasi tombol game saka vaults."
+        ],
+        "tips": [
+          "Muter sadurunge tuku barang sing larang.",
+          "Waca cathetan ekonomi lan riwayat tembelan.",
+          "Book sembarang \"penghasilan\" minangka spekulasi beresiko dhuwur."
+        ],
+        "body": "Game crypto sing sehat prioritas hiburan; kepemilikan amplifies, ora ngganti desain. Pasar sekunder kudu dadi asil, ora mung isi."
+      },
+      {
+        "id": "economies",
+        "title": "Ekonomi ing game",
+        "summary": "Penerbitan lan sink mutusake manawa rega barang bisa tetep",
+        "intro": "Ekonomi mbukak tumindak kaya sistem fiskal cilik: emisi tanpa wates tanpa ambruk rega. Maca produksi vs karusakan ngalahake ngrungokake slogan GameFi.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Dagang mbukak mbusak sawetara kontrol studio, meksa desain sing luwih serius supaya pemain lan pedagang jangka panjang bisa urip bebarengan."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Quests emit; kerajinan / ndandani / mangsa sink; dashboard mbukak inflasi. Rega token eksternal kejut puteran internal."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Token ganda, energi, lan sewa tanah bisa mbantu utawa mbingungake. Tim nonton mbukak kunci lan dompet pembuat pasar."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Panenan dhuwur awal narik kawigaten mercenary, ora pemain. Nyalin ekonomi tanpa pamirsa gagal."
+          }
+        ],
+        "keyPoints": [
+          "Nggawe inflasi / deflasi bisa diamati.",
+          "Bagean mercenary dhuwur iku rapuh.",
+          "Buffer kejut token eksternal.",
+          "Tuning transparan mbangun kapercayan."
+        ],
+        "tips": [
+          "Tindakake laporan ekonomi resmi.",
+          "Ukuran mudhun sajrone fase hiper-APY.",
+          "Luwih seneng aset karo sinks nyata."
+        ],
+        "body": "Ekonomi mbukak tumindak kaya sistem fiskal cilik: emisi tanpa wates tanpa ambruk rega. Maca produksi vs karusakan ngalahake ngrungokake slogan GameFi."
+      },
+      {
+        "id": "worlds",
+        "title": "Jagad Maya",
+        "summary": "Tanah sing duweni lan narasi ruang sosial",
+        "intro": "Tanah virtual adol lokasi, lalu lintas, lan ngarsane. Sawetara donya dadi tuan rumah kegiatan sing terus-terusan; liyane kios sawise dodolan. Hakim dening tukang lan DAU, dudu trailer sinematik.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Wong pengin umum digital awet lan storefronts. Kepemilikan on-chain mbisakake pasar sekunder lan eksperimen dening merek."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Land NFTs plus klien plus rentals opsional. Isi asale saka pangguna utawa pejabat; kinerja asring gumantung ing server tradisional."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Lalu lintas mlaku nyetel nilai tanah. Donya kosong minangka seni spekulatif. Hak bangunan lan royalti mbentuk kekarepan pangripta."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "FOMO adol primer lan nambani slide metaverse minangka asil jangka pendek minangka jebakan."
+          }
+        ],
+        "keyPoints": [
+          "Harga lalu lintas tanah.",
+          "Pengalaman klien ngluwihi slogan.",
+          "Interop biasane lags dodolan.",
+          "Evaluasi ekosistem pembangun."
+        ],
+        "tips": [
+          "Dolan maring dadi turis dhisik.",
+          "Priksa data rental / acara sadurunge tuku.",
+          "Aja mung adol, ora nggawe tim."
+        ],
+        "body": "Tanah virtual adol lokasi, lalu lintas, lan ngarsane. Sawetara donya dadi tuan rumah kegiatan sing terus-terusan; liyane kios sawise dodolan. Hakim dening tukang lan DAU, dudu trailer sinematik."
+      },
+      {
+        "id": "infra-game",
+        "title": "Infrastruktur Game",
+        "summary": "Rekayasa trade-offs antarane latensi kurang lan pemukiman on-chain",
+        "intro": "Game aksi mbutuhake umpan balik milidetik. Studio nggunakake server wewenang plus aset langka on-chain, utawa chain dhuwur-throughput khusus. Ngerti wates kepercayaan nyegah kebingungan marketing \"kanthi desentralisasi\".",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Puteran L1 murni banget alon / larang kanggo akeh genre. Layering tetep UX sing bisa dimainake kanthi kekurangan sing bisa diverifikasi."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Matchmaking / pertempuran off-chain; mints / dagang / jackpots on-chain. Anti-cheat tetep umume ora ana rantai. Appchains mundhakaken throughput nanging nambah biaya jembatan / likuiditas."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Bagian endi sing dipercaya server? Apa aset bisa urip nalika mati studio? Sing nemtokake sejatine \"kepemilikan\"."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "\"Fully on-chain\" claims karo bebener server mutable. Bridging aset game liwat situs palsu."
+          }
+        ],
+        "keyPoints": [
+          "Hibrida minangka norma rekayasa.",
+          "Latency lan desentralisasi narik cara sing ngelawan.",
+          "Kabijakan mateni mengaruhi makna aset.",
+          "Appchains nambah kerumitan jembatan."
+        ],
+        "tips": [
+          "Waca docs wates kepercayaan.",
+          "Pindhah aset sing migunani menyang dompet sing dijaga dhewe.",
+          "Coba testnets sadurunge celengan mainnet."
+        ],
+        "body": "Game aksi mbutuhake umpan balik milidetik. Studio nggunakake server wewenang plus aset langka on-chain, utawa chain dhuwur-throughput khusus. Ngerti wates kepercayaan nyegah kebingungan marketing \"kanthi desentralisasi\"."
+      },
+      {
+        "id": "modding",
+        "title": "Modding & UGC",
+        "summary": "Pencipta entuk nalika peta, kulit, lan mod bisa rampung kanthi transparan",
+        "intro": "UGC ngluwihi urip game. Yen mod bisa didagang kanthi pamisah sing jelas, pangripta bakal muncul. On-chain splits bantuan auditability; Lisensi IP isih mutusake manawa skala kasebut.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "UGC tradisional ngadhepi owah-owahan kebijakan platform dadakan. Pasar mbukak lan royalti sing bisa diprogram nawakake dalan insentif liyane lan konten pemain sing luwih sugih."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Pencipta nerbitake aset → pasar perdagangan → kontrak pamisah revenue. Moderasi lan panemuan mutusake manawa kualitas konsentrasi."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Cakupan lisensi, kabijakan konten, lan tagihan balik tetep. On-chain math ora otomatis ngrampungake tuntutan hukum."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Tuku mod merek sing ora sah lan token panyipta molah malih iku resiko."
+          }
+        ],
+        "keyPoints": [
+          "UGC mbutuhake IP sing jelas lan aturan revenue.",
+          "Penemuan / kualitas pesawat moderat.",
+          "Pemisahan sing bisa diprogram nambah transparansi.",
+          "Lapisan hukum isih ditrapake."
+        ],
+        "tips": [
+          "Pencipta: maca lisensi platform.",
+          "Pemain: mriksa tandha wewenang.",
+          "Kas metu karo watesan resiko pribadi."
+        ],
+        "body": "UGC ngluwihi urip game. Yen mod bisa didagang kanthi pamisah sing jelas, pangripta bakal muncul. On-chain splits bantuan auditability; Lisensi IP isih mutusake manawa skala kasebut."
+      },
+      {
+        "id": "risks",
+        "title": "Resiko Game Spekulatif",
+        "summary": "Nalika seneng-seneng gumantung ing mundhak prices, bear pasar break daur ulang",
+        "intro": "Proyek sing gagal nganggep pompa token minangka konten. Pemain dadi tentara bayaran, ekonomi dadi refleksif, lan pangopènan mandheg nalika rega mudhun. Ndelok pola ngirit kuliah.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Pendhidhikan risiko minangka bagean saka produk sing sehat: komunitas sing ngrembug babagan inflasi kanthi jujur ​​ngluwihi perselisihan hype."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Emisi dhuwur narik entri → tekanan adol mundhak → rega mudhun → pemain lunga. Break asring katon nalika insentif dipotong. Sawetara judhul kasil pivot menyang game nyata."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Apa revenue biasane pendatang anyar? Apa tim ngirim nganyari bisa diputer? Rega sekunder dudu metrik sing nyenengake."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Frasa sandera FOMO lan penggilingan leverage minangka tandha bebaya."
+          }
+        ],
+        "keyPoints": [
+          "Price ora bisa ngganti urutane critane game.",
+          "Pemotongan insentif minangka tes stres.",
+          "Enggo bareng Mercenary prédhiksi fragility.",
+          "Mung dana discretionary resiko."
+        ],
+        "tips": [
+          "Takon: Aku bakal muter ing rega nol token?",
+          "Watch nganyari isi nyata.",
+          "Nolak grinding leveraged."
+        ],
+        "body": "Proyek sing gagal nganggep pompa token minangka konten. Pemain dadi tentara bayaran, ekonomi dadi refleksif, lan pangopènan mandheg nalika rega mudhun. Ndelok pola ngirit kuliah."
+      }
+    ]
+  },
+  {
+    "id": "daos",
+    "name": "DAO",
+    "summary": "Komunitas sing ngatur kanthi swara on-chain",
+    "blurb": "Governance, treasuries, proposal, legal wrappers, lan lumahing serangan.",
+    "items": [
+      {
+        "id": "governance",
+        "title": "Pamrentahan Token",
+        "summary": "Swara sing nyetel paramèter, upgrade, lan mbuwang",
+        "intro": "DAOs push upgrade lan pancasan treasury kanggo pemegang token utawa sistem reputasi. Siji-token-siji-vote iku prasaja lan rawan paus; delegasi lan desain liyane nyoba kanggo nambah perwakilan. Kekuwatan voting minangka pengaruh-lan permukaan serangan.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Protokol kudu diganti tanpa dadi kediktatoran siji-perusahaan. Suara on-chain ninggalake jejak sing bisa diaudit lan bisa ngalangi tim."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Proposal → diskusi → voting → timelock → eksekusi. Delegasi ngidini para pemegang cilik ngandelake para ahli. Quorums lan vetoes kethul-turnout kurang."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Distribusi, ukuran treasury, lan dawa wektu kunci. Pamilih sing ditibakake ing udara bisa uga dadi apatis. Swasana forum bisa beda karo asil on-chain."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Voting flash-loan (yen diidini), suap, lan voting sing durung diwaca minangka risiko."
+          }
+        ],
+        "keyPoints": [
+          "Pamrentahan menehi kekuwatan.",
+          "Desain mekanisme nglawan paus lan apatis.",
+          "Timelocks minangka rem kritis.",
+          "Waca dampak lan konflik sadurunge milih."
+        ],
+        "tips": [
+          "Delegasi marang wakil sing tanggung jawab.",
+          "Nonton saluran protes sajrone ngunci wektu.",
+          "Nliti proposal treasury gedhe."
+        ],
+        "body": "DAOs push upgrade lan pancasan treasury kanggo pemegang token utawa sistem reputasi. Siji-token-siji-vote iku prasaja lan rawan paus; delegasi lan desain liyane nyoba kanggo nambah perwakilan. Kekuwatan voting minangka pengaruh-lan permukaan serangan."
+      },
+      {
+        "id": "treasury",
+        "title": "DAO Treasuries",
+        "summary": "Modal on-chain bareng kanggo bangunan, likuiditas, lan buffer",
+        "intro": "Treasuries minangka amunisi DAO. Diversifikasi, transparansi, lan proses mbuwang mutusake apa iku landasan pacu utawa honeypots. Multisigs utawa gubernur ngontrol payouts masyarakat kudu audit.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Barang umum butuh dana kanggo audit, tukang bangunan, lan insentif. Treasuries njaga regane ing kontrol sing katon masyarakat lan bisa nyetabilake krisis."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Arus mlebu saka biaya / penerbitan / pembiayaan; outflows liwat proposal. Kepemilikan bisa nyampur kandang, jurusan, lan token pribumi-konsentrasi asli minangka risiko refleksif."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Sasi runway, risiko FX, lan inventarisasi alamat penting. Komitmen alus uga dianggep."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Treasuries kabeh-molah malih lan opaque related-partai mbuwang sing gendera abang."
+          }
+        ],
+        "keyPoints": [
+          "Kesehatan = transparan + diversifikasi + proses.",
+          "Kantong refleksif nggedhekake krisis.",
+          "Belanja kudu tanggung jawab.",
+          "Higiene kunci multisig minangka dhasar."
+        ],
+        "tips": [
+          "Maca laporan keuangan périodik.",
+          "Watch saham cadangan stablecoin.",
+          "Luwih seneng mbayar payouts gedhe."
+        ],
+        "body": "Treasuries minangka amunisi DAO. Diversifikasi, transparansi, lan proses mbuwang mutusake apa iku landasan pacu utawa honeypots. Multisigs utawa gubernur ngontrol payouts masyarakat kudu audit."
+      },
+      {
+        "id": "proposals",
+        "title": "Siklus urip Proposal",
+        "summary": "Saka draf forum nganti eksekusi on-chain",
+        "intro": "Proposal sing apik debat off-chain, mriksa suhu, voting on-chain, banjur eksekusi sawise timelock. Surprise \"usul kilat\" iku mambu. Ngerti tahapan sampeyan.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Proses ngganti salah siji kediktatoran utawa lam, menehi mungsuh wektu kanggo ngatur lan nglebokake audit / review legal yen perlu."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Draf → umpan balik → teks pungkasan → pilih → antrian. Gagasan sing gagal bisa direvisi. Sawetara sistem nggunakake teken tanpa gas kanggo milih."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Kuorum, ambang, lan jalur darurat penting - darurat ing dalan gedhe yaiku lawang mburi. Data panggilan sing bisa dieksekusi kudu cocog karo teks kasebut."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Voting mung judhul lan ora nggatekake tandha timelock gagal."
+          }
+        ],
+        "keyPoints": [
+          "Kualitas dhiskusi nyurung kualitas tata kelola.",
+          "Timelocks nglindhungi minoritas lan metu.",
+          "Kekuwatan darurat mbutuhake wates sing ketat.",
+          "Parameter ngalahake slogan."
+        ],
+        "tips": [
+          "Langganan tandha forum/voting.",
+          "Nyatakake maneh risiko kanthi tembung sampeyan dhewe sadurunge milih.",
+          "Verifikasi eksekusi cocog karo teks proposal."
+        ],
+        "body": "Proposal sing apik debat off-chain, mriksa suhu, voting on-chain, banjur eksekusi sawise timelock. Surprise \"usul kilat\" iku mambu. Ngerti tahapan sampeyan."
+      },
+      {
+        "id": "legal",
+        "title": "Legal Wrappers",
+        "summary": "Yayasan lan perusahaan sing antarmuka DAO karo donya off-chain",
+        "intro": "Kode ora kanthi otomatis menehi tanggung jawab winates. Yayasan / LLC mlebu kontrak, bank, lan pajak. Kontributor kudu ngerti sapa sing bisa dianggep tanggung jawab yen ana kedadeyan.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Nyewa, IP, lan regulator butuh mitra legal. Bungkus sing apik nyuda cahya pribadi - dudu piranti cloaking."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Yurisdiksi → piagam → papan/multisig → klausa sing nyambung menyang voting DAO. Aturan beda-beda miturut negara."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Sekuritas, sanksi, lan pajak (kalebu airdrops) penting. Anonimitas ≠ resiko legal nol."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Assuming \"desentralisasi\" nglirwakake hukum lokal, utawa mlebu persetujuan sing ora dingerteni, iku sembrono."
+          }
+        ],
+        "keyPoints": [
+          "Entitas nyedhiyakake kapabilitas off-chain.",
+          "Struktur khusus yurisdiksi.",
+          "Ngerti wates tanggung jawab sampeyan.",
+          "Kepatuhan minangka bagean saka risiko produk."
+        ],
+        "tips": [
+          "Njaluk saran profesional kanggo kontribusi materi.",
+          "Waca dokumen hubungan yayasan↔DAO.",
+          "Tansah cathetan airdrop / income."
+        ],
+        "body": "Kode ora kanthi otomatis menehi tanggung jawab winates. Yayasan / LLC mlebu kontrak, bank, lan pajak. Kontributor kudu ngerti sapa sing bisa dianggep tanggung jawab yen ana kedadeyan."
+      },
+      {
+        "id": "ops",
+        "title": "Operasi DAO",
+        "summary": "Nguripake swara menyang pengiriman liwat kelompok kerja lan pembayaran",
+        "intro": "Tanpa operator, governance minangka teater. Kelompok kerja, hadiah, anggaran, lan ulasan ngowahi energi dadi produk. Burnout, kepemilikan sing ora jelas, lan gaji telat mateni DAO kanthi tenang.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Barang umum kurang disedhiyakake. Ops sistem dana pangopènan; mbayar transparan nyuda tawaran bayangan."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Misi → metrik → budget → hiring/bounties → retros. On-chain payroll mbantu. Akses admin sing paling ora duwe hak istimewa ngindhari siji titik kegagalan."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Apa KPI bisa diverifikasi? Apa dobel dipping dikontrol? Dokumentasi nglawan faktor bus."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Mbayar tanpa tanggung jawab lan overloading kontributor sing ora bisa diganti minangka mode kegagalan."
+          }
+        ],
+        "keyPoints": [
+          "Sistem pangiriman nggawe DAO nyata.",
+          "Anggaran lan kinerja kudu umum.",
+          "Ngurangi ketergantungan siji-manungsa.",
+          "Transparansi mbayar nyuda bahan bakar konspirasi."
+        ],
+        "tips": [
+          "Miwiti kanthi hadiah cilik kanggo proses sinau.",
+          "Gawe serep peran kritis.",
+          "Nerbitake laporan kelompok kerja."
+        ],
+        "body": "Tanpa operator, governance minangka teater. Kelompok kerja, hadiah, anggaran, lan ulasan ngowahi energi dadi produk. Burnout, kepemilikan sing ora jelas, lan gaji telat mateni DAO kanthi tenang."
+      },
+      {
+        "id": "attacks",
+        "title": "Governance Serangan",
+        "summary": "Njupuk protokol liwat voting, sogokan, utawa turnout kurang",
+        "intro": "Penyerang ngoyak perbendaharaan, paramèter, utawa nganyarke kunci nggunakake akumulasi swara, utangan kilat, suap, utawa kuorum ngantuk. Pertahanan kalebu kunci wektu, wali veto, lan desain voting sing luwih apik.",
+        "sections": [
+          {
+            "heading": "Masalah apa sing dirampungake",
+            "body": "Ngrembug babagan permukaan serangan ngidini komunitas mbela awal. \"Ora ana sing bakal nindakake\" ora kontrol. Keamanan pamrentahan saingan karo keamanan kontrak."
+          },
+          {
+            "heading": "Cara kerjane",
+            "body": "Entuk suara → lulus kejahatan → eksekusi sawise timelock yen ora mandheg. Paramèter Komplek bisa kamuflase maksud. Wali bisa nundha utawa mbatalake serangan sing cetha."
+          },
+          {
+            "heading": "Konsep kunci",
+            "body": "Wektu snapshot, aturan voting flash-loan, lan konsentrasi delegasi minangka kunci. Ngawasi gerakan token gedhe."
+          },
+          {
+            "heading": "Resiko & misconceptions",
+            "body": "Nglirwakake tandha timelock lan nganggep audit mungkasi nyolong tata kelola minangka kesalahan."
+          }
+        ],
+        "keyPoints": [
+          "Kekuwatan pamrentah bisa dadi maling langsung.",
+          "Timelocks lan wali iku rem.",
+          "Kurang turnout minangka kerentanan.",
+          "Ngawasi lan nglatih jalur veto."
+        ],
+        "tips": [
+          "Aktifake bot tandha pamrentahan.",
+          "Sing duwe gedhe kudu bener milih.",
+          "Dhukungan desain sing mblokir voting flash-loan."
+        ],
+        "body": "Penyerang ngoyak perbendaharaan, paramèter, utawa nganyarke kunci nggunakake akumulasi swara, utangan kilat, suap, utawa kuorum ngantuk. Pertahanan kalebu kunci wektu, wali veto, lan desain voting sing luwih apik."
+      }
+    ]
+  }
+]

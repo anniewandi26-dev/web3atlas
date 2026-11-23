@@ -1,0 +1,362 @@
+[
+  {
+    "id": "gas",
+    "term": "Gesi",
+    "definition": "Uhesabuji wa mita za kitengo na uhifadhi ambao shughuli hutumia.",
+    "explain": "Gesi hupima kiasi cha kukokotoa na kuhifadhi ambacho muamala unaomba mtandao ufanye. Bila kupima mita, mnyororo wa umma unaweza kuzuiwa na vitanzi visivyo na kikomo au barua taka. Ada yako ni takriban matumizi × bei ya kitengo; msongamano huongeza bei ya bidhaa huku mahitaji ya anga yanapoongezeka. \n\nMiamala iliyofeli bado inaweza kugharimu gesi kwa sababu wathibitishaji tayari wametekeleza kazi hiyo. Tabia ya vitendo: kadiria ada, pendelea kutofika kilele wakati wa kujifunza, na usiwahi kuchanganya ujumbe wa UX ambao haukufaulu na kujaribu tena bila malipo."
+  },
+  {
+    "id": "gwei",
+    "term": "Gwei",
+    "definition": "Dhehebu la kawaida la ETH kwa kunukuu bei za gesi.",
+    "explain": "Gwei ni dhehebu la etha inayotumiwa kunukuu bei ya gesi kwa idadi ya kibinadamu. ETH moja ni sawa na 1e9 Gwei. Pochi mara nyingi huonyesha ada ya juu zaidi na ada ya kipaumbele huko Gwei ili uweze kulinganisha udharura bila kuhesabu desimali kumi na nane. \n\nUnaposoma mafunzo au picha za skrini za mempool, angalia vitengo kwa uangalifu. Kuchanganya nukuu za Gwei na kiasi cha uhamisho wa ETH ni kosa la mwanzo ambalo husababisha kulipa kupita kiasi au kulipa kidogo."
+  },
+  {
+    "id": "evm",
+    "term": "EVM",
+    "definition": "Ethereum Virtual Machine—wakati mahiri wa utekelezaji wa mkataba.",
+    "explain": "Ethereum Virtual Machine ni wakati unaoshirikiwa wa utekelezaji ambao hutekeleza bytecode ya mkataba mahiri. Misururu mingi ya \"EVM-inayooana\" hutumia tena misimbo ya kuona na zana ili wasanidi programu waweze kupeleka kandarasi kama hizo mahali pengine. \n\nUtangamano ni kuhusu uzoefu wa wasanidi programu, si usalama au uchumi sawa. Thibitisha kila wakati ni msururu upi unaotumia, mgunduzi gani unayemwamini, na ikiwa mifumo ya uboreshaji wa seva mbadala inahusika kabla ya kudhani kuwa msimbo unatenda kazi milele."
+  },
+  {
+    "id": "amm",
+    "term": "AMM",
+    "definition": "Utengenezaji wa soko kupitia mabwawa na fomula badala ya vitabu.",
+    "explain": "Mtengenezaji soko otomatiki anafanya biashara na fomula za pool badala ya kitabu cha kawaida cha kuagiza. Watoa huduma za Liquidity huweka mali na kupata ada huku wakichukua hatari ya hesabu inayojulikana kama hasara ya kudumu. \n\nMadimbwi ya maji bandia na ishara zinazofanana ni mitego ya kawaida. Angalia anwani za mikataba, kina cha bwawa, na viwango vya ada. AMM ni za awali zenye nguvu—zichukulie kama soko zilizo na hesabu wazi na mtiririko wa wapinzani."
+  },
+  {
+    "id": "tvl",
+    "term": "TVL",
+    "definition": "Jumla ya thamani iliyofungwa katika mikataba ya itifaki.",
+    "explain": "Jumla ya mali zilizofungwa za jumla zilizowekwa kwenye mikataba ya itifaki. TVL ya juu inaweza kuashiria matumizi na uaminifu-au kuongeza tu amana zilizohesabiwa mara kwa mara na lengo la udukuzi mbaya zaidi. \n\nSoma TVL kando na ubora wa ukaguzi, funguo za msimamizi, muundo wa chumba cha mazungumzo na mapato ya ada halisi. Nambari ya kichwa isiyo na miktadha hiyo ni kipimo cha uuzaji, sio ukadiriaji wa usalama."
+  },
+  {
+    "id": "apy",
+    "term": "APY",
+    "definition": "Mavuno ya kila mwaka ikiwa ni pamoja na kuchanganya.",
+    "explain": "APY hutoa mavuno kila mwaka ikiwa ni pamoja na mawazo ya kuchanganya. Kampeni fupi za motisha zinazofanywa kila mwaka kuwa APY zenye tarakimu tatu mara nyingi hupotosha kwa sababu uzalishaji, bei ya tokeni na uendelevu si thabiti. \n\nLinganisha kama na kama: ada ya kudumu APY dhidi ya malipo ya muda APY. Uliza nini kinatokea wakati motisha zinaisha, na kama unaweza kuondoka bila kuharibu msimamo."
+  },
+  {
+    "id": "apr",
+    "term": "APR",
+    "definition": "Kiwango cha kila mwaka bila kuchanganya.",
+    "explain": "APR inanukuu kiwango cha kila mwaka bila kuchanganya. Miingiliano ya ukopeshaji mara nyingi huonyesha ugavi APR na kukopa APR upande kwa upande; ufafanuzi hutofautiana katika bidhaa. \n\nUnapolinganisha APR na APY, thibitisha marudio ya ujumuishaji na kama tokeni za zawadi zimejumuishwa. Usahihi katika ufafanuzi huzuia hitimisho la uongo la \"kiwango bora\"."
+  },
+  {
+    "id": "slippage",
+    "term": "Kuteleza",
+    "definition": "Pengo kati ya bei inayotarajiwa na inayotekelezwa.",
+    "explain": "Kuteleza ni pengo kati ya bei unayotarajia na bei unayopokea. Dimbwi nyembamba, saizi kubwa, na nyakati tete huongeza pengo hilo. \n\nMipangilio ya utelezi mpana sana inakaribisha sandwiching; mipangilio ya kubana sana hushindwa na bado inaweza kutumia gesi. Weka kwa uangalifu kulingana na ukubwa wa biashara na kina cha bwawa, na upendelea uwasilishaji wa kibinafsi unapopatikana kwa ubadilishaji mkubwa."
+  },
+  {
+    "id": "mev",
+    "term": "MEV",
+    "definition": "Thamani inayoweza kutolewa kutokana na kuagiza/kujumuishwa kwa miamala.",
+    "explain": "Thamani ya juu zaidi inayoweza kutolewa ni faida kutokana na kudhibiti uagizaji wa miamala, ujumuishaji au udhibiti. Mempools za umma huruhusu watafiti kugundua ubadilishaji mkubwa na kushindana ili kunasa makali. \n\nMapungufu ni pamoja na utelezi mkali zaidi, mtiririko wa mpangilio wa kibinafsi, minada ya kundi, na ukubwa wa kugawanyika tu. Kuelewa MEV inaeleza kwa nini \"biashara sawa, kujaza mbaya zaidi\" hutokea hata bila hitilafu ya UI."
+  },
+  {
+    "id": "oracle",
+    "term": "Oracle",
+    "definition": "Huduma inayoleta data ya nje ya mnyororo kwenye mnyororo.",
+    "explain": "Maneno huleta ukweli usio na msururu—hasa bei—kwenye mnyororo ili kandarasi ziweze kuitikia. Ufilisi wa ukopeshaji na bei za alama za kudumu hutegemea uadilifu wa malisho. \n\nMasoko nyembamba ni rahisi kudanganya hadi maandishi mabaya ya maandishi. Pendelea itifaki zilizo na ujumlishaji thabiti, vivunja mzunguko, na tabia ya kutofaulu wazi wakati mipasho inakwama."
+  },
+  {
+    "id": "rollup",
+    "term": "Kusonga",
+    "definition": "Utekelezaji wa L2 ambao huchapisha data/uthibitisho kwa L1.",
+    "explain": "Ukusanyaji hutekeleza msururu wa msingi na kuchapisha data au uthibitisho ili L1 iweze kupata matokeo. Miundo yenye matumaini inategemea madirisha yenye changamoto; uthibitisho wa uhalali hutegemea uthibitisho. \n\nAda za watumiaji hupungua kwa sababu miamala mingi hushiriki gharama za L1. Orodha yako ya kuangalia hatari bado inajumuisha madaraja, vifuatavyo, funguo za kuboresha na jinsi njia za kutoka kwa lazima zinavyofanya kazi."
+  },
+  {
+    "id": "sequencer",
+    "term": "Mfuatano",
+    "definition": "Kipengele kinachoagiza shughuli za L2.",
+    "explain": "Sequencer inaagiza shughuli za L2 na mara nyingi hutoa uthibitisho laini wa haraka. Mifuatano mingi inasalia kuwa kati leo, ambayo huathiri wakati wa kupungua na upinzani wa udhibiti. \n\nKugawanya vifuatavyo madaraka ni mada kuu ya ramani ya barabara. Hadi wakati huo, chukulia uthibitishaji laini kama urahisi, na uelewe njia ya ujumuishaji unaotekelezwa na L1 wakati waendeshaji wanapofanya vibaya."
+  },
+  {
+    "id": "finality",
+    "term": "Mwisho",
+    "definition": "Wakati tx/block haiwezi kutenduliwa.",
+    "explain": "Mwisho hufafanua wakati shughuli haiwezi kutenduliwa. Baadhi ya itifaki zina vifaa vya mwisho dhahiri; nyingine ni uwezekano na kuimarisha kwa kina. \n\nUbadilishanaji huchagua hesabu za uthibitishaji kutoka kwa dhana hizi. Kwa uhamishaji mkubwa, subiri mwisho ambao mwenzako anahitaji—sio toast ya kwanza ya \"mafanikio\"."
+  },
+  {
+    "id": "utxo",
+    "term": "UTXO",
+    "definition": "Muundo wa uhasibu wa pato la muamala ambao haujatumika.",
+    "explain": "Matokeo ya muamala ambayo hayajatumika ni jinsi mifumo inayofanana na Bitcoin inavyofuatilia sarafu zinazoweza kutumika. Salio lako ni jumla ya UTXO unazoweza kusaini; matumizi hutumia matokeo na yanaweza kuleta mabadiliko. \n\nUhasibu wa UTXO hutofautiana na salio la akaunti na huathiri ada, faragha, na uteuzi wa sarafu. Pochi nyepesi huficha maelezo-nodi kamili zinaonyesha kwa nini ujumuishaji ni muhimu."
+  },
+  {
+    "id": "eoa",
+    "term": "EOA",
+    "definition": "Akaunti inayomilikiwa na nje inayodhibitiwa na ufunguo.",
+    "explain": "Akaunti inayomilikiwa na nje inadhibitiwa moja kwa moja na ufunguo wa faragha usio na msimbo wa mkataba. Pochi nyingi za kawaida ni EOAs: sahihi ni sawa na idhini. \n\nHakuna kuweka upya nenosiri. Upotezaji wa mbegu ni upotezaji wa mali. Akaunti mahiri hubadilisha muundo huu; ukikaa kwenye EOAs, hifadhi rudufu za nje ya mtandao na upinzani wa kuhadaa ili kupata maelezo ya kibinafsi ndio kila kitu."
+  },
+  {
+    "id": "multisig",
+    "term": "Multisig",
+    "definition": "Akaunti inayohitaji idhini nyingi.",
+    "explain": "Akaunti nyingi zinahitaji uidhinishaji wa M-of-N kabla ya kuhamisha fedha. Hazina na timu zinazitumia kuondoa kutofaulu kwa ufunguo mmoja. \n\nUbadilishanaji wa miundo ni pamoja na chaguo la kiwango cha juu, utofauti wa kijiografia wa aliyetia sahihi, na mazoezi ya urejeshaji. Multisig ambayo hujawahi kufanya mazoezi inaweza kushindwa wakati mbaya zaidi."
+  },
+  {
+    "id": "seed-phrase",
+    "term": "Maneno ya mbegu",
+    "definition": "Orodha ya maneno ambayo huzalisha upya funguo za pochi.",
+    "explain": "Maneno ya mbegu hutengeneza upya funguo za pochi. Mtu yeyote anayeona maneno anaweza kuunda upya pochi mahali pengine—mawakala wa usaidizi hawahitaji kamwe \"kukuthibitisha\". \n\nWeka mbegu nje ya mtandao, usiwahi kuziandika kwenye tovuti, na ufikirie kuwa mbegu iliyopigwa picha imeathirika. Ikiwa imevuja, hamia mara moja hadi kwenye mbegu mpya kwenye kifaa safi."
+  },
+  {
+    "id": "allowance",
+    "term": "Posho",
+    "definition": "Kiasi cha juu ambacho mkataba unaweza kutumia kati ya tokeni yako.",
+    "explain": "Posho hufunika kiasi cha tokeni ambacho mkataba wa mtumia pesa unaweza kuhamishaKutoka kwenye salio lako. Posho zisizo na ukomo ni rahisi kwa wafanyabiashara wa mara kwa mara na hatari kwa kila mtu mwingine. \n\nKagua na ubatilishe posho ambazo hazijatumika mara kwa mara. Pendelea posho kamili au ya kiasi unapojifunza programu mpya."
+  },
+  {
+    "id": "approve",
+    "term": "Idhinisha",
+    "definition": "Muamala unaoweka posho.",
+    "explain": "Idhinisha miamala iliyowekwa au ubadilishe posho. Hazihamishi ishara peke yao, lakini hufungua matumizi ya baadaye kwa anwani ya mtumiaji. \n\nSoma matumizi kwa makini, iga athari, na tahadhari hadaa ambayo inaomba uidhinishaji wa mikataba isiyojulikana. Uidhinishaji ni vekta ya juu ya kukimbia."
+  },
+  {
+    "id": "rug",
+    "term": "Kuvuta Rug",
+    "definition": "Watu wa ndani hupoteza ukwasi au kuacha mradi.",
+    "explain": "Kuvuta ragi ni wakati watu wa ndani wanamaliza ukwasi au kuacha mradi baada ya kutafuta pesa. Ishara za onyo ni pamoja na ukwasi usioweza kufikiwa, wasimamizi wasioeleweka, na uuzaji wa mazao pekee. \n\nUangalifu unaofaa ni wa kijamii na kiufundi: uwajibikaji wa timu, ruhusa za kandarasi, na ikiwa ukwasi umefungwa. Ikiwa huwezi kuelezea njia ya kutoka, usiwe na ukubwa mkubwa."
+  },
+  {
+    "id": "phishing",
+    "term": "Hadaa",
+    "definition": "Tovuti/vitambulisho ghushi vinavyohadaa funguo au saini.",
+    "explain": "Hadaa hutumia tovuti, matangazo na vitambulisho bandia ili kupata funguo au sahihi. Vikoa vya homografia na DM za usaidizi bandia ni vibonzo vya kudumu. \n\nTumia alamisho, puuza matangazo ya utafutaji ya chapa za pochi, na usishiriki kamwe mbegu. Usipokuwa na uhakika, thibitisha kwenye kituo cha pili kabla ya kusaini chochote."
+  },
+  {
+    "id": "bridge",
+    "term": "Daraja",
+    "definition": "Itifaki ya kuhamisha mali/ujumbe kwenye misururu.",
+    "explain": "Madaraja huhamisha mali au ujumbe kwenye misururu. Madaraja ya kanuni hurithi zaidi mfano wa usalama wa utayarishaji wa nyumbani; madaraja ya haraka mara nyingi huongeza mawazo ya ziada ya uaminifu kwa kasi. \n\nJaribu kila mara kwa kutumia kiasi kidogo, thibitisha URL rasmi na uelewe tabia ya kurejesha pesa. Hatari ya daraja imejilimbikizia kihistoria na haina msamaha."
+  },
+  {
+    "id": "stablecoin",
+    "term": "Stablecoin",
+    "definition": "Tokeni iliyoundwa ili kufuatilia marejeleo thabiti.",
+    "explain": "Stablecoins inalenga kufuatilia marejeleo thabiti kama vile USD. Miundo ni pamoja na hifadhi ya fiat, dhamana ya crypto, na taratibu za algorithmic-kila hushindwa tofauti. \n\nJifunze ubora wa uthibitishaji wa mtoaji, sera ya kufungia, na njia za ukombozi. Badilika wakati mazizi ndiyo msingi wa utendakazi wako."
+  },
+  {
+    "id": "liquidity",
+    "term": "Ukwasi",
+    "definition": "Uwezo wa kufanya biashara ya kawaida bila kusonga bei sana.",
+    "explain": "Liquidity ni uwezo wa kufanya biashara ya kawaida bila kusonga bei sana. Mabwawa ya kina hupunguza kuteleza; ukwasi unaoondolewa au wa udanganyifu unaweza kuwa usalama bandia. \n\nAngalia ni nani anayeweza kuondoa tokeni za LP na kwa haraka kiasi gani. Liquidity kwamba kutoweka katika dhiki si ukwasi wakati unahitaji yake."
+  },
+  {
+    "id": "impermanent-loss",
+    "term": "Hasara ya Kudumu",
+    "definition": "Utendaji wa chini wa LP dhidi ya kushikilia wakati bei zinatofautiana.",
+    "explain": "Hasara ya kudumu ni utendakazi duni wa LP dhidi ya kushikilia tu mali wakati bei zinatofautiana. Ada zinaweza kufidia au haziwezi kufidia. \n\nKuondoka kunang'arisha pengo. Mfano wa matukio kabla ya kutoa ukwasi, hasa katika jozi tete na mapato nyembamba ya ada."
+  },
+  {
+    "id": "liquidation",
+    "term": "Kufutwa",
+    "definition": "Kulazimishwa kuuza dhamana wakati mkopo hauna afya.",
+    "explain": "Ufilisi huuza dhamana kwa lazima wakati sababu ya afya ya mkopo inashindwa. Maneno huweka bei ya kichochezi; cascades huongeza ajali. \n\nWeka vihifadhi, epuka kiwango cha juu zaidi unapojifunza, na uelewe kama ufilisi unatokana na mnada au msingi wa mlinzi-bot."
+  },
+  {
+    "id": "staking",
+    "term": "Staking",
+    "definition": "Kufunga mali ili kupata mtandao au kupata zawadi.",
+    "explain": "Kuweka mali za kufuli ili kupata mtandao au kupata zawadi za itifaki. Miundo hutofautiana kwenye kufuli, kufyeka, na kama unasimamia kihalalishaji au mjumbe. \n\nUteuzi huongeza hatari ya mwendeshaji. Soma nyakati za kutofungamana kabla ya kuchukulia mali zilizowekwa kwenye hisa kama fedha za kioevu za siku ya mvua."
+  },
+  {
+    "id": "validator",
+    "term": "Kithibitishaji",
+    "definition": "Nodi ya PoS inayopendekeza/inathibitisha vizuizi.",
+    "explain": "Wahalalishaji wanapendekeza na kudhibitisha vizuizi katika mifumo ya uthibitisho wa dau. Utendaji mbaya au uovu unaweza kupunguzwa. \n\nUthibitishaji wa pekee unahitaji nidhamu ya uendeshaji; uwekaji wa majimaji na kuweka upya upya huongeza tabaka za kandarasi mahiri na hatari ya waendeshaji juu ya majukumu ya makubaliano."
+  },
+  {
+    "id": "dao",
+    "term": "DAO",
+    "definition": "Kuratibu shirika kupitia sheria/kura za mtandaoni.",
+    "explain": "DAO huratibu kupitia sheria za mtandaoni na kura juu ya hazina na vigezo. Turnout, ukolezi wa nyangumi, na pendekezo la matokeo ya umbo la ubora. \n\nUtawala ni sehemu ya usalama: uboreshaji hasidi unaweza kumaliza pesa kwa kura \"iliyofaulu\". Soma mizigo, sio mada tu."
+  },
+  {
+    "id": "nft",
+    "term": "NFT",
+    "definition": "Ishara isiyoweza kuvu kwa vitu vya kipekee.",
+    "explain": "Ishara zisizoweza kuvu huwakilisha vitu vya kipekee. Umiliki wa ishara ni kwenye mnyororo; vyombo vya habari na sifa mara nyingi huishi nje ya mnyororo na hutegemea kubana au seva. \n\nThibitisha anwani za mkataba, sera za mrabaha na ubadilikaji wa metadata. Mchoro sawa, mkataba tofauti, ni mtego wa kawaida."
+  },
+  {
+    "id": "ipfs",
+    "term": "IPFS",
+    "definition": "Mtandao wa faili uliosambazwa wenye anwani ya yaliyomo.",
+    "explain": "IPFS hushughulikia maudhui kwa heshi ili uadilifu uweze kuangaliwa. Kudumu bado kunategemea mtu kubandika data. \n\nWakati NFTs au hati zinataja IPFS, uliza ni nani anabandika na nini kitatokea ikiwa lango litatoweka. Kushughulikia maudhui ≠ kupangisha kiotomatiki milele."
+  },
+  {
+    "id": "ens",
+    "term": "ENS",
+    "definition": "Majina ya ramani ya Huduma ya Ethereum hadi rekodi.",
+    "explain": "ENS hupanga majina yanayosomeka na binadamu kwa anwani na rekodi. Hupunguza makosa ya uchapaji lakini muda wa majina huisha na utatuzi unaweza kutekwa nyara ukiruka ukaguzi. \n\nDaima angalia tena anwani iliyotatuliwa kwenye njia inayoaminika kabla ya kutuma saizi."
+  },
+  {
+    "id": "layer1",
+    "term": "Tabaka la 1",
+    "definition": "Mlolongo wa msingi na makubaliano / makazi yake mwenyewe.",
+    "explain": "Mlolongo wa safu-1 hutoa makubaliano yake mwenyewe na usalama wa makazi. Ada na matokeo yanaonyesha uhaba huo wa safu-msingi. \n\nL1s ndipo ambapo utatuzi wa mwisho wa mizozo mara nyingi huishi kwa ajili ya kusuluhisha. Kuelewa ada za L1 na ukamilifu hukusaidia kutafsiri ahadi za L2."
+  },
+  {
+    "id": "layer2",
+    "term": "Tabaka la 2",
+    "definition": "Safu ya kuongeza kurithi usalama kutoka kwa L1.",
+    "explain": "Utekelezaji wa mifumo ya Tabaka-2 huku ikilenga kurithi usalama kutoka kwa L1. Rollups hutawala nafasi ya sasa ya kubuni. \n\nWatumiaji wanapaswa kujifunza uaminifu wa daraja, dhana za mpangilio, na kutoka kwa madirisha. \"Ethereum ya bei nafuu\" bado ina ramani yake ya uendeshaji."
+  },
+  {
+    "id": "zk-proof",
+    "term": "ZK / Uthibitisho wa Uhalali",
+    "definition": "Uthibitisho wa usahihi bila kutekeleza kila kitu tena.",
+    "explain": "Uthibitisho wa uhalali hushawishi mthibitishaji kuwa kundi ni sahihi bila kutekeleza kila kitu tena. Mipangilio ya ZK inazitumia kutulia kwa ufupi kwenye L1. \n\nUwekaji chapa ya \"ZK\" haijibu nani anafuatana, nani anasasisha, au jinsi madaraja yanavyofanya kazi. Uliza ni nini kimethibitishwa na kinachobaki kuaminiwa."
+  },
+  {
+    "id": "fraud-proof",
+    "term": "Ushahidi wa Ulaghai",
+    "definition": "Ushahidi kwamba kundi la matumaini ni batili.",
+    "explain": "Uthibitisho wa ulaghai hupinga vikundi batili vya matumaini wakati wa dirisha. Watazamaji lazima waweze kupata data na kuwasilisha ushahidi. \n\nIkiwa data inakosekana au walinzi watashindwa, mawazo ya usalama hudhoofika. Mifumo yenye matumaini hubadilisha muda wa kusubiri hadi mwisho kwa uthibitisho rahisi."
+  },
+  {
+    "id": "blob",
+    "term": "Blob",
+    "definition": "Nafasi ya bei nafuu ya data imeanzishwa kwa kuongeza.",
+    "explain": "Blobs hutoa nafasi ya data ya muda ya bei nafuu kwa ajili ya kukunja ili kuchapisha data ya muamala. Gharama ya chini ya DA ndiyo sababu kuu ya ada za L2 kushuka. \n\nBlou ni miundombinu, si bidhaa ya mtumiaji peke yake. Wanawezesha programu; hawaondoi daraja au hatari ya kusaini."
+  },
+  {
+    "id": "wallet",
+    "term": "Mkoba",
+    "definition": "Programu/vifaa vinavyodhibiti funguo na saini.",
+    "explain": "Mkoba hudhibiti funguo na kuunda saini. Sarafu huishi kwenye mnyororo; pochi inashikilia udhibiti, sio salio la uhifadhi isipokuwa kama ni akaunti ya kubadilishana. \n\nChagua joto dhidi ya baridi kulingana na ukubwa na marudio. Nidhamu ya kuhifadhi nakala ni muhimu zaidi kuliko uzuri wa chapa."
+  },
+  {
+    "id": "cold-storage",
+    "term": "Uhifadhi wa Baridi",
+    "definition": "Kuweka funguo nje ya mtandao ili kupunguza eneo la mashambulizi.",
+    "explain": "Hifadhi baridi huweka funguo nje ya mtandao ili kupunguza sehemu ya ushambuliaji ya mbali. Inafaa kwa hisa za muda mrefu kuliko biashara ya masafa ya juu. \n\nJaribu kupokea na kutuma mtiririko mdogo kabla ya ukubwa wa maegesho. Makosa ya kiutendaji (msururu mbaya, anwani isiyo sahihi) bado yanatumika nje ya mtandao."
+  },
+  {
+    "id": "kyc",
+    "term": "KYC",
+    "definition": "Ukaguzi wa utambulisho kwenye majukwaa.",
+    "explain": "KYC ni uthibitishaji wa utambulisho kwenye mifumo ya kufuata. Ni tofauti na anwani za blockchain na hutengeneza biashara ya faragha na ukiukaji wa data. \n\nKuelewa kile unachotoa kwa barabara za fiat. Kujitunza mwenyewe hakufuti historia ya KYC kwenye njia panda ulizotumia tayari."
+  },
+  {
+    "id": "dex",
+    "term": "DEX",
+    "definition": "Kubadilishana suluhu kupitia mikataba mahiri.",
+    "explain": "Ubadilishanaji wa madaraka hutatua biashara kupitia kandarasi mahiri, kwa kawaida bila ulezi. Watumiaji huweka funguo na saini ya dubu na hatari ya MEV. \n\nThibitisha mikataba ya vipanga njia na anwani za ishara. DEX UI bado inaweza kuhadaa ili kupata maelezo ya kibinafsi hata wakati itifaki ya msingi inajulikana."
+  },
+  {
+    "id": "cex",
+    "term": "CEX",
+    "definition": "Ubadilishanaji wa kati.",
+    "explain": "Ubadilishanaji wa kati hutoa ulinganifu wa haraka na njia panda zenye hatari ya kuwekwa kizuizini. Unashikilia IOU hadi ujiondoe. \n\nZitumie kama zana, sio vaults. Ondoa ukubwa unaojali, washa usalama thabiti wa akaunti na utazame programu zinazofanana."
+  },
+  {
+    "id": "dapp",
+    "term": "DApp",
+    "definition": "Programu yenye mantiki muhimu kwenye mnyororo.",
+    "explain": "Dapp inaweka mantiki muhimu kwenye mnyororo ilhali sehemu ya mbele bado inaweza kuwekwa katikati. Uchukuaji wa kikoa unaweza kuwaelekeza watumiaji kwenye simu za mikataba hasidi. \n\nAlamisha URL rasmi, pendelea mwingiliano wa mikataba uliothibitishwa, na uchukue uaminifu wa mbele kama sehemu ya mtindo wa tishio."
+  },
+  {
+    "id": "hash",
+    "term": "Hashi",
+    "definition": "Muhtasari wa njia moja wa data.",
+    "explain": "Hashi ya kriptografia huweka data kwenye muhtasari usiobadilika. Mabadiliko madogo ya ingizo geuza pato; kutafuta migongano imeundwa kuwa ngumu. \n\nHashes huzuia viungo, maudhui ya anwani, na kujitolea kwa ujumbe. Wao ni gundi ya ukaguzi wa uadilifu katika mifumo ya crypto."
+  },
+  {
+    "id": "block",
+    "term": "Zuia",
+    "definition": "Kundi la txs zilizounganishwa kwenye historia.",
+    "explain": "Kizuizi hubadilisha shughuli katika historia iliyounganishwa. Ukubwa na malengo ya muda hutengeneza masoko ya mapato na ada. \n\nWachunguzi huonyesha urefu, mpendekezaji, na tx zilizojumuishwa. Kuelewa vizuizi hukusaidia kutafsiri uthibitisho na hatari ya kupanga upya."
+  },
+  {
+    "id": "private-key",
+    "term": "Ufunguo wa Kibinafsi",
+    "definition": "Siri inayoidhinisha matumizi.",
+    "explain": "Ufunguo wa kibinafsi unaidhinisha matumizi. Kuishiriki—au mbegu inayoipata—ni sawa na kugawana fedha. \n\nUsiwahi kuandika funguo kwenye tovuti, programu za gumzo au fomu za \"usaidizi\". Kutengwa kwa vifaa husaidia; tahadhari ya uendeshaji bado huamua matokeo."
+  },
+  {
+    "id": "public-key",
+    "term": "Ufunguo wa Umma",
+    "definition": "Thamani inayotokana inayotumika kuthibitisha saini.",
+    "explain": "Ufunguo wa umma huthibitisha saini zinazolingana na ufunguo wa faragha. Anwani kawaida hutokana na kuharakisha ufunguo wa umma. \n\nVifunguo vya umma na anwani zinaweza kushirikiwa kwa kupokea. Mbinu za faragha bado ni muhimu ikiwa utazitumia tena kwa upana."
+  },
+  {
+    "id": "address",
+    "term": "Anwani",
+    "definition": "Kitambulisho kinachotumika kupokea pesa.",
+    "explain": "Anwani ni kitambulisho kinachotumiwa kupokea pesa kwenye mtandao. Kutuma kwa msururu usio sahihi au anwani ya kuchapa mara nyingi hakuwezi kutenduliwa. \n\nNakili kwa uangalifu, thibitisha vibambo vichache mwanzoni na mwisho, na utume jaribio unapohamisha saizi hadi mahali papya."
+  },
+  {
+    "id": "confirmation",
+    "term": "Uthibitisho",
+    "definition": "Ni vitalu vingapi vimejengwa kwenye tx.",
+    "explain": "Uthibitishaji huhesabu ni vitalu vingapi vimejengwa juu ya ununuzi wako. Undani zaidi hufanya reorgs kuwa ngumu zaidi. \n\nHuduma huchagua vizingiti tofauti kwa saizi tofauti. Uvumilivu ni udhibiti wa usalama kwa makazi makubwa."
+  },
+  {
+    "id": "smart-contract",
+    "term": "Mkataba wa Smart",
+    "definition": "Programu imetumwa kwa mnyororo.",
+    "explain": "Mkataba mzuri ni mpango unaotumwa kwa anwani ya mnyororo. Inaweza kutunza mali na kutekeleza sheria bila mpatanishi wa jadi. \n\nHitilafu, funguo za msimamizi, na miunganisho isiyotarajiwa huleta hatari. Pendelea njia za msimbo zilizokaguliwa, zilizojaribiwa kwa wakati unapojifunza kwa fedha halisi."
+  },
+  {
+    "id": "token",
+    "term": "Ishara",
+    "definition": "Kitengo cha mali kilichohesabiwa katika mkataba.",
+    "explain": "Tokeni ni vitengo vya mali vinavyohesabiwa na mikataba. Majina na tiki zinaweza kutengenezwa; anwani za mkataba hubainisha mali halisi. \n\nThibitisha anwani kutoka kwa chanzo kinachoaminika kila wakati kabla ya kubadilisha au kuongeza ukwasi."
+  },
+  {
+    "id": "erc-20",
+    "term": "ERC-20",
+    "definition": "Kiolesura kikuu cha ishara inayoweza kuvu.",
+    "explain": "ERC-20 ndio kiolesura kikuu cha ishara inayoweza kuvu kwenye minyororo inayofanana na Ethereum. Inasawazisha tabia za uhamishaji na uidhinishaji wa pochi na DEX. \n\nUidhinishaji ni sehemu ya kiwango—na sehemu ya hatari. Kuelewa mechanics ya posho kabla ya kilimo tokeni mpya."
+  },
+  {
+    "id": "permissionless",
+    "term": "Haina ruhusa",
+    "definition": "Mtu yeyote anaweza kutumia au kusambaza bila orodha za ruhusa.",
+    "explain": "Mifumo isiyo na ruhusa huruhusu mtu yeyote kutumia au kusambaza bila orodha za viingilio. Fungua uvumbuzi wa nishati ya ufikiaji na ulaghai pamoja. \n\nKichujio chako kinakuwa cha kibinafsi: thibitisha mikataba, pendelea sifa iliyo na ushahidi, na majaribio ya ukubwa kuwa madogo."
+  },
+  {
+    "id": "custody",
+    "term": "Uhifadhi",
+    "definition": "Mtu wa tatu anayeshikilia funguo/mali.",
+    "explain": "Utunzaji unamaanisha mtu mwingine anashikilia funguo au mali kwa ajili yako. Biashara za urahisi dhidi ya wenzao na hatari ya uendeshaji. \n\nKujitunza kunabadilisha hali nzuri kwako. Mbinu mseto-kubadilishana kwa biashara, uhifadhi baridi kwa akiba-ni mifumo ya kawaida ya kusoma na kuandika."
+  },
+  {
+    "id": "yield-farming",
+    "term": "Kilimo cha Mavuno",
+    "definition": "Kutenga ukwasi ili kupata zawadi kwenye itifaki.",
+    "explain": "Kilimo cha mavuno hutenga ukwasi kwenye itifaki ili kupata thawabu. APR za juu mara nyingi ni za muda na hulipwa kwa tokeni tete za malipo. \n\nMfano wa ukwasi wa kuondoka na hatari ya mkataba mzuri. Kilimo ni mkakati, sio akaunti ya akiba."
+  },
+  {
+    "id": "airdrop",
+    "term": "Airdrop",
+    "definition": "Usambazaji wa ishara kwa ukuaji/jumuiya.",
+    "explain": "Airdrops husambaza tokeni kwa ukuaji au zawadi za jumuiya. Kudai kunaweza kuhusisha saini ambazo ni salama zaidi—au zisizo salama sana—kuliko zinavyoonekana. \n\nTazama tovuti za madai ya ulaghai na mshangao wa kodi. Ikiwa dai litauliza mbegu yako, sio tone la hewa."
+  },
+  {
+    "id": "whitepaper",
+    "term": "Karatasi nyeupe",
+    "definition": "Hati inayoelezea muundo na malengo.",
+    "explain": "Karatasi nyeupe inaelezea malengo ya muundo na mifumo. Pendelea sheria madhubuti, miundo ya vitisho na vigezo juu ya safu za vibe. \n\nChukua karatasi kama madai ya kuanza ili kuthibitisha katika msimbo na tabia ya uzalishaji, na sio kama dhamana."
+  },
+  {
+    "id": "halving",
+    "term": "Kupunguza nusu",
+    "definition": "Kukatwa mara kwa mara kwa ruzuku ya block ya Bitcoin.",
+    "explain": "Kupungua kwa Bitcoin mara kwa mara kunapunguza ruzuku ya block. Utoaji mpya wa usambazaji hupungua kwa ratiba inayojulikana. \n\nHaitoi dhamana ya kupanda kwa bei. Inaonyesha jinsi bajeti za usalama na masoko ya ada hubadilika kadri ruzuku zinavyopungua."
+  },
+  {
+    "id": "merkle-tree",
+    "term": "Mti wa Merkle",
+    "definition": "Mti wa hashi unaothibitisha kujumuishwa kwa ufanisi.",
+    "explain": "Data ya hashi ya miti ya Merkle kwenye mzizi ili ujumuishaji uweze kuthibitishwa vyema. Wateja nyepesi na mifumo mingi ya uthibitisho hutegemea. \n\nHukuruhusu uthibitishe kuwa kipande ni cha seti iliyojitolea bila kupakua kila kitu—msingi hadi uthibitishaji mkubwa."
+  },
+  {
+    "id": "nonce",
+    "term": "Nonce",
+    "definition": "Nambari ya mlolongo wa akaunti tx.",
+    "explain": "Akaunti isiyo ya kawaida hufuatana na shughuli ili kila moja ishughulikiwe mara moja kwa mpangilio. Miamala iliyokwama mara nyingi hubadilishwa na kutuma nonce sawa na ada ya juu. \n\nKuelewa nonces kunadhoofisha pochi \"zinazosubiri milele\" na mtiririko wa uingizwaji."
+  }
+]

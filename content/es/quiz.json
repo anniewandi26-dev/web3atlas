@@ -1,0 +1,112 @@
+[
+  {
+    "id": "q1",
+    "question": "¿Por qué BTC se convirtió en la principal referencia criptográfica?",
+    "choices": [
+      "Solo el respaldo de celebridades",
+      "Primera narrativa creíble de efectivo digital escaso + efectos de red",
+      "Respaldo gubernamental garantizado",
+      "Suministro ilimitado"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q2",
+    "question": "¿Por qué se llama a Ethereum una 'computadora mundial'?",
+    "choices": [
+      "Solo almacena archivos",
+      "Ejecuta contratos inteligentes de propósito general",
+      "Extrae Bitcoin más rápido",
+      "Reemplaza DNS a nivel global"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q3",
+    "question": "Bitcoin se reduce a la mitad aproximadamente cada 4 años: ¿qué se reduce?",
+    "choices": [
+      "Suministro total al instante",
+      "Recompensa del bloque minero",
+      "Tarifas de billetera para siempre",
+      "Recuento del validador"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q4",
+    "question": "¿Qué cambiaron principalmente los ETF de Bitcoin al contado de EE. UU.?",
+    "choices": [
+      "código BTC",
+      "Ruta de acceso al corretaje para inversores tradicionales",
+      "Algoritmo de minería",
+      "Longitud de la frase inicial"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q5",
+    "question": "Después de la fusión, el uso de energía de Ethereum...",
+    "choices": [
+      "Aumentó 10x",
+      "Cayó dramáticamente con prueba de participación",
+      "Se convirtió únicamente en carbón",
+      "Sin alterar"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q6",
+    "question": "¿Por qué las transferencias de Capa 2 pueden costar centavos?",
+    "choices": [
+      "Ellas ignoran la seguridad",
+      "Agrupan muchos txs y amortizan el costo de datos L1",
+      "Los bancos las subsidian",
+      "El gas es gratis por ley."
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q7",
+    "question": "¿Por qué las principales monedas estables se denominan \"dólares en cadena\"?",
+    "choices": [
+      "Son billeteras aseguradas por la FDIC",
+      "Su objetivo es rastrear el USD para su liquidación y negociación.",
+      "Ellas son monedas de oro",
+      "Ellas no pueden transferirse"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q8",
+    "question": "Pedir prestado y ganar dinero sin un mostrador bancario: ¿en qué categoría?",
+    "choices": [
+      "Solo NFT",
+      "Préstamos DeFi y AMM",
+      "Fabricación de hardware",
+      "Internet satelital"
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q9",
+    "question": "2010: 10.000 BTC compraron dos pizzas: ¿lección?",
+    "choices": [
+      "BTC siempre fue caro",
+      "El descubrimiento temprano de precios fue experimental y social.",
+      "La pizza es un protocolo.",
+      "La minería era ilegal."
+    ],
+    "answer": 1
+  },
+  {
+    "id": "q10",
+    "question": "Un Aprobar descuidado puede...",
+    "choices": [
+      "Mejorar APY automáticamente",
+      "Dejar que un contrato agote las fichas más tarde",
+      "Eliminar la cadena de bloques",
+      "Actualice su hardware"
+    ],
+    "answer": 1
+  }
+]

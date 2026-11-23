@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2008-wp",
+    "date": "2008-10",
+    "title": "Bitcoin teknik incelemesi",
+    "body": "Satoshi, bir kriptografi listesine eşler arası elektronik nakit tasarımı yayınladı. İş kanıtı, güvenilir aracılar olmadan geçmişi birbirine bağlar. Kısa makale, endüstrinin entelektüel tohumu ve \"koddaki kurallar\" anlatısı haline gelir. \n\nMakale, parayı ekonomik teşviklere sahip bir yayın defteri olarak yeniden çerçevelendiriyor. Düğümler kuralları yerel olarak doğrular; madenciler tarihin yeniden yazılmasını pahalı hale getirmek için çaba harcıyorlar. Bu kombinasyon (açık doğrulama artı maliyetli yazma) hala çoğu \"neden blockchain\" açıklamasının temelini oluşturuyor. \n\nÖğrenciler için sonuç mimaridir: düzenleme ve ödeme için güvenilir üçüncü tarafları azaltın, olasılığa dayalı onayı kabul edin ve kıtlığı protokol kurallarında kodlayın. Daha sonraki sistemler, motoru değiştirdikleri zaman bile anlatıyı ödünç alıyorlar."
+  },
+  {
+    "id": "2009-genesis",
+    "date": "2009-01",
+    "title": "Genesis bloğu",
+    "body": "Bitcoin, oluşum bloğuna gömülü banka kurtarmalarıyla ilgili bir manşetle ön plana çıkıyor. Erken kullanım, hobi amaçlı madencilik ve esasen bedelsiz transferlerdir. Fikir yaşayan bir ağ haline geliyor. \n\nBir gazete manşetinin yerleştirilmesi hem zaman damgası hem de politik bir sinyaldi. İlk katılımcılar varsayılan olarak tam düğümleri çalıştırdılar çünkü yapacak çok az şey vardı; Kolaylıktan ziyade kültüre değer veren doğrulama. \n\nOluşum dönemi, yeni gelenlere ağların sosyal ve seyrek olmaya başladığını hatırlatıyor. Likidite, takaslar ve gösterişli cüzdanlar daha sonra geldi. Bitcoin'i anlamak hâlâ ilk bloğun çıkmak istediği finansal sistem hakkında söylediklerini okumakla başlıyor."
+  },
+  {
+    "id": "2010-pizza",
+    "date": "2010-05",
+    "title": "Bitcoin pizza günü",
+    "body": "10.000 BTC iki pizza satın alıyor. Bugün saçma görünüyor, ancak elektronik parayla mal satın almanın erken bir anıydı. Fiyat keşfi sosyaldir ve ilk likidite çok küçüktü. \n\nPizza ticareti can alıcı nokta olarak hatırlanıyor, ancak bu bir likidite ve kullanıcı deneyimi deneyiydi: Elektronik nakit, kart ağı olmadan gerçek dünyadaki bir satın alma işlemini gerçekleştirebilir mi? Fiyat keşfi gayri resmiydi; velayet deneyseldi; meme faturayı aştı. \n\nBugün hikaye iki ders veriyor. Birincisi, ilk piyasalar zayıftır ve anekdotlar hakimdir. İkincisi, harcama mı yoksa elde tutma mı kişisel bir politika tercihidir; protokol kuralları fırsat maliyetinizi belirlemez."
+  },
+  {
+    "id": "2013-eth",
+    "date": "2013-11",
+    "title": "Ethereum fikri",
+    "body": "Vitalik, dijital paranın ötesinde genel amaçlı bir akıllı sözleşme platformunun ana hatlarını çiziyor. Geliştiriciler keyfi mantığı dağıtırdı. Bu fikir daha sonra ICO'ları, DeFi'yi ve NFT'leri tohumlayacak. \n\nEthereum vizyonu, soruyu \"dijital nakit\"ten \"programlanabilir ödeme\"ye kaydırdı. Komut dosyaları varlıkları saklayabilir ve oluşturabilirse, finans ve oyunlar paylaşılan bir makinede yazılım haline gelir. \n\nBu hırs, yeni başarısızlık modlarının (yeniden giriş, oracle bağımlılığı, yönetişim yakalama) yanı sıra yeni gelenlerin çoğunun ilk karşılaştığı uygulama yüzeyini de yarattı. Bu anı okumak gazın, ABI'lerin ve sözleşme riskinin neden sözlüğe girdiğini açıklıyor."
+  },
+  {
+    "id": "2015-eth-launch",
+    "date": "2015-07",
+    "title": "Ethereum lansmanı",
+    "body": "Frontier programlanabilir blockchain yeteneği sunar. Araçlar zorlu ve sık sık olaylar yaşanıyor ancak finans ve oyunlar zincir üzerinde ilerlemeye başlıyor. EVM, fiili olarak çok zincirli bir standart haline gelir. \n\nSınır kasıtlı olarak kabaydı: sanal makineyi vahşi doğada kanıtlayın, olayları kabul edin, araçları yineleyin. Geliştiriciler kodu dağıtmanın kolay olduğunu öğrendi; düşmanca arayanlar hakkında muhakeme yapmak zordur. \n\nLansman, takımlama ve daha sonra \"EVM uyumlu\" zincirler için bir mıknatıs olarak EVM'ye kilitlendi. Uyumluluk aynı güvenlik anlamına gelmez; ancak paylaşılan zihinsel modeller dünya çapında deney maliyetini düşürdü."
+  },
+  {
+    "id": "2016-dao",
+    "date": "2016-06",
+    "title": "DAO olayı",
+    "body": "Büyük bir erken kitlesel fonlama sözleşmesi istismar ediliyor. Sert çatal tartışması ETH/ETC'yi ikiye bölüyor ve \"kodun kanun olduğunu\", \"kodun hatasız olduğu\" anlamına gelmediğini öğretiyor. Toplumsal mutabakat da önemlidir. \n\nDAO saldırısı, bir topluluğu değişmezlik tiyatrosu ile fonların sosyal olarak kurtarılması arasında seçim yapmaya zorladı. Ortaya çıkan ETH/ETC ayrımı, \"kod kanundur\" ifadesinin kaba konsensüsle nasıl çatıştığına dair kalıcı bir vaka çalışmasıdır. \n\nÖğrenciler hem teknik yararlanma modelini hem de bunu takip eden yönetişim sürecini incelemelidir. Akıllı sözleşmelerin denetimlere ve duraklatma tasarımlarına ihtiyacı vardır; Toplulukların krizlerden önce açık çatal normlarına ihtiyacı var."
+  },
+  {
+    "id": "2017-ico",
+    "date": "2017",
+    "title": "ICO dalgası",
+    "body": "Token satışları, küresel bağış toplamaya ve endüstriyel ölçekte dolandırıcılığa olanak tanır. Düzenleyiciler yanıt veriyor; Perakende öğrenim ücretini öder. Açıklama ve uyumluluk ciddi bir tartışma konusu haline gelir. \n\nToken satışları, küresel bağış toplamayı bir tarayıcı cüzdanına sıkıştırdı. Sermaye oluşumu hızlandı; açıklama çoğu zaman yapılmıyordu. Perakende, teknik inceleme PDF'sinin titizlik olmadığını öğrendi ve düzenleyiciler de aynı dersi diğer yönden aldı. \n\nDalga, standart tartışmalarını, borsa listeleme politikalarını ve sınırsız vaatlere karşı kalıcı bir alerjiyi bıraktı. Token lansmanlarına ilişkin sağlıklı şüphecilik, inovasyon karşıtlığının değil, okuryazarlığın bir parçasıdır."
+  },
+  {
+    "id": "2018-bear",
+    "date": "2018",
+    "title": "Kripto kışı",
+    "body": "Fiyatlar döngünün en yüksek seviyelerinden düşüyor; yalnızca anlatıya dayalı projeler ortadan kayboluyor. Altyapı ve araştırmalar sessizce devam ediyor. Kışlar trajedi olduğu kadar filtredir de. \n\nKış, müşteri çeşitliliğini, cüzdan kullanıcı deneyimini ve daha sonraki döngülerde yeniden kullanılacak araştırmaları sessizce finanse ederken, yalnızca anlatıya yönelik tokenları itlaf etti. Kalan inşaatçılar fiyatı iklime değil hava durumuna göre değerlendirdi. \n\nÖğrenciler için: Ayı piyasaları, FOMO gürültüsü olmadan mekaniği çalışabileceğiniz zamandır. Grafikler sessizleşiyor; dokümantasyon ve kaynak depoları daha dürüst bir ilgi görüyor."
+  },
+  {
+    "id": "2020-defi",
+    "date": "2020",
+    "title": "DeFi yaz",
+    "body": "Likidite madenciliği kredileri ve AMM'leri patlatıyor. Şekillendirilebilirlik parlıyor; kehanet/tasfiye/teşvik sorunları ortaya çıkıyor. Kullanıcılar, hesap olarak cüzdan finansmanıyla geniş ölçekte tanışıyor. \n\nLikidite madenciliği, AMM'leri ve para piyasalarını büyüme döngülerine dönüştürdü. Şekillendirilebilirlik, bir borç verme pozisyonunun birkaç dakika içinde başka bir yerde teminat haline gelebileceği anlamına geliyordu - ve aynı şekilde kademeli tasfiyeler de olabilir. \n\nDeFi yazında oracle tasarımı, teşvik sürdürülebilirliği ve APY ekran görüntüleri ile çıkarılabilir ücretler arasındaki fark öğretildi. Hesabın artık bir komisyoncu olması nedeniyle cüzdan güvenliği ana akım haline geldi."
+  },
+  {
+    "id": "2021-nft",
+    "date": "2021-03",
+    "title": "NFT'nin ana akım anı",
+    "body": "Dijital sanat ve PFP'ler ana akım medyayı vurdu. Yaratıcılar yeni raylar buluyor; spekülasyon takip ediyor. Köpüklerin ardından geriye standartlar, telif hakları tartışmaları ve gerçek topluluklar kalıyor. \n\nNFT'ler yaratıcıları, markaları ve spekülatif kalabalıkları aynı raylara taşıdı. Meta veri kalıcılığı, telif hakkı uygulaması ve sahte ticaret tartışmaları manşetleri takip etti. \n\nPatlamanın ardından geriye kalıcı sorular kalıyor: Tam olarak neye sahip olunuyor, medya nerede yaşıyor ve hangi topluluklar aralıksız fiyat artışı olmadan hayatta kalıyor? Kültür ve sözleşmeler kalıcı olarak iç içe geçmiştir."
+  },
+  {
+    "id": "2021-l2",
+    "date": "2021",
+    "title": "Toplama hızlandırma",
+    "body": "İyimser ve ZK tasarımları, kullanıcılar ücretlerden kaçarken gerçek trafik taşır. Köprüler ve sıralayıcılar yeni kullanıcı deneyimi ve risk merkezleri haline geliyor. Ölçeklendirme bir slayt değil, günlük bir yol haline gelir. \n\nAna ağ ücretlerinden kaçan kullanıcılar, toplamaları günlük bir yol haline getirdi. Köprüler ve sıralayıcılar yeni destek biletleri haline geldi: fonlar atlamanın ortasında kaldı, kesintiler ve kafa karıştırıcı kesinlik saatleri. \n\nÖlçeklendirme başarısı yalnızca TPS slaytlarıyla değil, güvenli çıkışlarla ve anlaşılır güven varsayımlarıyla ölçülür. L2 okuryazarlığı artık temel Web3 okuryazarlığıdır."
+  },
+  {
+    "id": "2022-merge",
+    "date": "2022-09",
+    "title": "Birleştirme",
+    "body": "Yürütme devam ederken Ethereum'un fikir birliği, hisse kanıtına geçiyor. Enerji kullanımı düşer; Staking, MEV ve müşteri çeşitliliği merkezi konular haline geliyor. Dönüm noktası niteliğindeki bir mühendislik geçişi. \n\nYürütmeyi bozmadan fikir birliğini değiştirmek, büyük sistemde nadir görülen bir değişiklikti. Enerji anlatıları bir gecede değişti; Staking ekonomisi ve MEV araştırması merkez sahneye taşındı. \n\nBirleşme, blockchainlerin koordinasyonla büyük alt sistemleri geliştirebileceğini gösteriyor. Aynı zamanda \"bitmiş\"in hiçbir zaman yapılmadığını da gösteriyor; müşteri çeşitliliği ve sansüre karşı direnç devam eden bir çalışma olmaya devam ediyor."
+  },
+  {
+    "id": "2022-contagion",
+    "date": "2022",
+    "title": "CeFi bulaşması",
+    "body": "Borç verme ve fon zincirleri kırılır, velayet ve vade uyumsuzlukları ortaya çıkar. Kişisel velayet ve PoR anlatıları artıyor. Platform bakiyeleri zincir varlık değildir. \n\nCeFi kredi sağlayıcıları ve fonları başarısızlığa uğradığında kullanıcılar IOU'ların UTXO olmadığını yeniden keşfettiler. Rezerv kanıtı pazarlaması, para çekme kuyruklarıyla birlikte arttı. \n\nPratik müfredat: anahtarların nerede bulunduğunu bilin, döviz bakiyelerini bilinçli olarak boyutlandırın ve varlıkların bir platformda kilitlenmesini gerektiren getiriyi kredi riski olarak değerlendirin."
+  },
+  {
+    "id": "2023-blobs",
+    "date": "2024-03",
+    "title": "Blob dönemi DA maliyetleri",
+    "body": "Blob veri alanı, L2 gönderimini ve kullanıcı ücretlerini ucuzlatır. Tartışma sıralayıcının merkezden uzaklaştırılmasına ve birlikte çalışabilirlik UX'e doğru kayıyor. Ücretler günlük kullanılabilirliğe yakındır. \n\nBlob alanı, L2 maliyetlerini yeniden çerçeveledi ve günlük işlemlerin yeniden makul görünmesini sağladı. Dikkatler sıralayıcının merkezden dağıtılmasına, paylaşılan köprülere ve amaca dayalı kullanıcı deneyimine çevrildi. \n\nUcuz veri kullanılabilirliği gerekli ancak güvenli bir çok zincirli dünya için yeterli değil. Kullanıcıların hala açık çıkış yollarına ve dürüst risk etiketlerine ihtiyacı var."
+  },
+  {
+    "id": "2024-etf",
+    "date": "2024-01",
+    "title": "Spot Bitcoin ETF'leri",
+    "body": "ABD spot Bitcoin ETF'leri aracılık erişimine açılıyor. Fiyat keşfi makro akışlarla genişler. Kripto, geleneksel tahsis konuşmalarına daha derinlemesine giriyor. \n\nKomisyonculukla sarılmış Bitcoin, kimin tahsis edebileceğini ve akışların fiyat keşfini nasıl etkilediğini değiştirdi. Makro masalar, bir zamanlar yalnızca kripto Twitter'da yaşanan konuşmalara girdi. \n\nETF'ler kişisel velayet eğitiminin yerini almaz; geleneksel aracılarla paralel bir erişim yolu eklerler. Her iki ray da artık piyasayı şekillendiriyor."
+  },
+  {
+    "id": "2024-halving",
+    "date": "2024-04",
+    "title": "Dördüncü Bitcoin yarılanması",
+    "body": "Sübvansiyon 3.125 BTC'ye düşüyor. Madenciler ücretlere ve uzun vadeli fiyatlara daha fazla güveniyor. Program yine düzenlemenin protokol tanımlı olduğunu gösteriyor. \n\nSübvansiyon planı, ihraçların yalnızca protokol kuralları çerçevesinde politik olduğunu bir kez daha gösterdi; madenciler ve piyasalar bilinen bir takvime göre uyum sağlıyor. \n\nYarılanmalar, kıtlık anlatıları, ücret piyasaları ve güvenlik bütçelerinin neden sonuçta işlem talebine daha fazla bağlı olduğu konusunda faydalı öğretim araçlarıdır."
+  },
+  {
+    "id": "2024-restake",
+    "date": "2024",
+    "title": "Yeniden alım dönemi",
+    "body": "Paylaşılan güvenlik deneyleri yığılmış getiri ve riskle birlikte genişler. Eğik çizgi matrisleri ve ilişkili arızalar ana akım tartışmaya giriyor. \n\nYeniden alım aynı ekonomik bağa daha fazla iş sığdırdı. Paylaşılan güvenlik etkili olabilir; bağlantılı kesme acımasız olabilir. \n\nYeniden alıma, kaldıraçlı altyapının açığa çıkması gibi davranın: noktaları kovalamadan önce operatör setini, eğik çizgi koşullarını ve kehanet/kanıtlama varsayımlarını okuyun."
+  },
+  {
+    "id": "2025-aa",
+    "date": "2025",
+    "title": "Akıllı hesap kullanıcı deneyimi aktarımı",
+    "body": "Hesap soyutlama araçları, oturumlar ve sponsorlu gazla tüketici cüzdanlarına ulaşıyor. Bazı sorumluluklar velilere ve modüllere geçer. Seedless UX, kişisel velayet ile dengeyi arar. \n\nHesap soyutlama, sponsorlu gazı ve sosyal iyileşmeyi tüketici cüzdanlarına getirdi. Yeni gelenler daha az sayıda tohum cümlesi uçurumuyla ve daha fazla modül izin ekranıyla karşı karşıya kalıyor. \n\nBir sonraki okuryazarlık dalgası, kurtarma tatbikatları, oturum anahtarı kapsamları ve kolaylık özelliklerinin hâlâ yetkilendirme yüzeyleri olduğunun farkına varılmasıdır."
+  },
+  {
+    "id": "2025-rwa",
+    "date": "2025",
+    "title": "RWA genişlemesi",
+    "body": "Tokenleştirilmiş hazine bonoları ve kredi, zincir dışı getiriyi zincir içi uzlaşmaya getiriyor. Yasal yapı ve itfa, titizliğe hakimdir. DeFi hazineleri \"geleneksel\" kılıflara kavuşuyor. \n\nZincir üzerinde getiri sağlayan tokenleştirilmiş hazineler, geleneksel tahsisatçılara tanıdık geliyor. Yasal ambalajlar ve ödeme masaları Solidity kadar önemli hale geldi. \n\nRWA'lar \"zincir üzerinde\"nin aracıların tamamen ortadan kaldırılması değil, yerleşim modası anlamına gelebileceğini öğretiyor. Saklama ve dondurma politikalarını sözleşme koduyla aynı özenle okuyun."
+  },
+  {
+    "id": "2026-intent",
+    "date": "2026",
+    "title": "Niyet merkezli akışlar",
+    "body": "Kullanıcılar sonuçları ifade eder; Çözücüler rotalar ve teklifler üzerinde rekabet eder. Köprü riskleri altta kalırken UX basitleşir. Cüzdanlar ve yönlendiriciler yeni bir ürün yarışına giriyor."
+  }
+]

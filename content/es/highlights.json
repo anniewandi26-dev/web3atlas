@@ -1,0 +1,18 @@
+[
+  {
+    "id": "gas-fees",
+    "label": "# Tarifas de gas"
+  },
+  {
+    "id": "seed-phrase",
+    "label": "# Estafas de frases iniciales"
+  },
+  {
+    "id": "layer2",
+    "label": "# Capa 2"
+  },
+  {
+    "id": "approve",
+    "label": "# Aprobar / asignación"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "2008-wp",
+    "date": "2008-10",
+    "title": "Sách trắng bitcoin",
+    "body": "Satoshi xuất bản thiết kế tiền điện tử ngang hàng cho danh sách mật mã. Lịch sử liên kết bằng chứng công việc không có trung gian đáng tin cậy. Bài báo ngắn trở thành hạt giống trí tuệ của ngành và là câu chuyện kể về “các quy tắc trong mã”. \n\nBài báo tái cấu trúc tiền như một cuốn sổ cái quảng bá với các khuyến khích kinh tế. Các nút xác nhận quy tắc cục bộ; thợ mỏ tốn nhiều công sức để làm cho việc viết lại lịch sử trở nên tốn kém. Sự kết hợp đó—xác minh mở cộng với việc viết bài tốn kém—vẫn là nền tảng cho hầu hết các giải thích “tại sao lại là blockchain”. \n\nĐối với người học, bài học rút ra mang tính kiến ​​trúc: giảm bớt các bên thứ ba đáng tin cậy trong việc phát hành và thanh toán, chấp nhận xác nhận xác suất và mã hóa sự khan hiếm trong các quy tắc giao thức. Các hệ thống sau này mượn câu chuyện ngay cả khi họ thay đổi động cơ."
+  },
+  {
+    "id": "2009-genesis",
+    "date": "2009-01",
+    "title": "Khối sáng tạo",
+    "body": "Bitcoin khởi động với tiêu đề về các gói cứu trợ ngân hàng được nhúng trong khối nguyên thủy. Việc sử dụng ban đầu là khai thác và chuyển giao theo sở thích mà về cơ bản không mất phí. Ý tưởng trở thành một mạng lưới sống. \n\nViệc nhúng một tiêu đề của tờ báo vừa là dấu thời gian vừa là tín hiệu chính trị. Những người tham gia ban đầu chạy các nút đầy đủ theo mặc định vì không có nhiều việc phải làm khác; văn hóa đánh giá cao sự xác minh hơn là sự thuận tiện. \n\nKỷ nguyên khởi đầu nhắc nhở những người mới đến rằng các mạng lưới bắt đầu mang tính xã hội và thưa thớt. Thanh khoản, sàn giao dịch và ví đánh bóng xuất hiện muộn hơn. Việc tìm hiểu Bitcoin vẫn bắt đầu bằng việc đọc khối đầu tiên chọn nói gì về hệ thống tài chính mà nó tìm cách thoát ra."
+  },
+  {
+    "id": "2010-pizza",
+    "date": "2010-05",
+    "title": "Ngày pizza bitcoin",
+    "body": "10.000 BTC mua được hai chiếc pizza. Ngày nay có vẻ vô lý nhưng đó là thời điểm đầu của việc mua hàng bằng tiền điện tử. Việc khám phá giá mang tính chất xã hội—và tính thanh khoản ban đầu rất nhỏ. \n\nGiao dịch mua pizza được nhớ đến như một điểm mấu chốt, nhưng đó là một thử nghiệm về tính thanh khoản và trải nghiệm người dùng: liệu tiền mặt điện tử có thể thực hiện giao dịch mua hàng trong thế giới thực mà không cần mạng thẻ không? Việc phát hiện giá là không chính thức; quyền giám hộ là thử nghiệm; meme tồn tại lâu hơn biên nhận. \n\nHôm nay câu chuyện dạy hai bài học. Thứ nhất, thị trường ban đầu còn ít và những giai thoại chiếm ưu thế. Thứ hai, chi tiêu hay nắm giữ là sự lựa chọn chính sách cá nhân—các quy tắc giao thức không quyết định chi phí cơ hội của bạn."
+  },
+  {
+    "id": "2013-eth",
+    "date": "2013-11",
+    "title": "Ý tưởng Ethereum",
+    "body": "Vitalik phác thảo một nền tảng hợp đồng thông minh có mục đích chung ngoài tiền mặt kỹ thuật số. Các nhà phát triển sẽ triển khai logic tùy ý. Ý tưởng này gieo mầm cho các ICO, DeFi và NFT sau này. \n\nTầm nhìn của Ethereum đã chuyển câu hỏi từ “tiền kỹ thuật số” sang “thanh toán có thể lập trình”. Nếu các tập lệnh có thể lưu giữ tài sản và soạn thảo thì tài chính và trò chơi sẽ trở thành phần mềm trên một máy dùng chung. \n\nTham vọng đó đã tạo ra các phương thức thất bại mới—tái tham gia, sự phụ thuộc vào oracle, nắm bắt quyền quản trị—nhưng cũng là bề mặt ứng dụng mà hầu hết những người mới tham gia đều gặp phải đầu tiên. Đọc phần này sẽ làm rõ lý do tại sao gas, ABI và rủi ro hợp đồng lại được đưa vào từ vựng."
+  },
+  {
+    "id": "2015-eth-launch",
+    "date": "2015-07",
+    "title": "Ra mắt Ethereum",
+    "body": "Frontier tàu có khả năng lập trình blockchain. Các công cụ còn thô sơ và thường xuyên xảy ra sự cố, tuy nhiên tài chính và trò chơi bắt đầu chuyển động theo chuỗi. EVM trở thành một tiêu chuẩn đa chuỗi trên thực tế. \n\nFrontier đã cố tình thô bạo: chứng minh máy ảo trong thực tế, chấp nhận sự cố, lặp lại công cụ. Các nhà phát triển đã học được rằng việc triển khai mã rất dễ dàng; lý luận về những người gọi đối nghịch là khó khăn. \n\nQuá trình phóng đã khóa EVM như một nam châm cho dụng cụ và sau đó là cho các dây chuyền “tương thích với EVM”. Khả năng tương thích không phải là bảo mật giống nhau—nhưng các mô hình tư duy được chia sẻ đã giảm chi phí thử nghiệm trên toàn thế giới."
+  },
+  {
+    "id": "2016-dao",
+    "date": "2016-06",
+    "title": "Sự cố DAO",
+    "body": "Một hợp đồng huy động vốn từ cộng đồng lớn sớm được khai thác. Cuộc tranh luận về hard fork chia rẽ ETH/ETC và dạy rằng “mã là luật” không có nghĩa là “mã không có lỗi”. Sự đồng thuận xã hội cũng quan trọng. \n\nVụ hack DAO buộc cộng đồng phải lựa chọn giữa tính bất biến và việc thu hồi vốn xã hội. Kết quả phân chia ETH/ETC là một nghiên cứu điển hình lâu dài về cách “mã là luật” xung đột với sự đồng thuận sơ bộ. \n\nSinh viên nên nghiên cứu cả mô hình khai thác kỹ thuật và quy trình quản trị tiếp theo. Hợp đồng thông minh cần kiểm tra và tạm dừng thiết kế; cộng đồng cần các quy tắc phân nhánh rõ ràng trước khủng hoảng."
+  },
+  {
+    "id": "2017-ico",
+    "date": "2017",
+    "title": "làn sóng ICO",
+    "body": "Việc bán token cho phép gây quỹ toàn cầu—và lừa đảo ở quy mô công nghiệp. Cơ quan quản lý phản hồi; bán lẻ trả học phí. Tiết lộ và tuân thủ tham gia vào cuộc trò chuyện nghiêm túc. \n\nDoanh số bán token đã nén việc gây quỹ toàn cầu vào ví trình duyệt. Sự hình thành vốn tăng tốc; tiết lộ thường không. Hệ thống bán lẻ đã học được rằng bản PDF sách trắng không phải là sự siêng năng và các cơ quan quản lý đã học được bài học tương tự từ hướng khác. \n\nLàn sóng để lại những cuộc tranh luận về tiêu chuẩn, hoạt động chính trị niêm yết trên sàn giao dịch và sự dị ứng kéo dài với những lời hứa không giới hạn. Sự hoài nghi lành mạnh về việc ra mắt mã thông báo là một phần của khả năng đọc viết chứ không phải phản đổi mới."
+  },
+  {
+    "id": "2018-bear",
+    "date": "2018",
+    "title": "Mùa đông tiền điện tử",
+    "body": "Giá giảm từ mức cao nhất của chu kỳ; những dự án chỉ mang tính tường thuật sẽ biến mất. Hồng ngoại và nghiên cứu tiếp tục lặng lẽ. Mùa đông là những bộ lọc giống như những bi kịch. \n\nMùa đông đã loại bỏ các mã thông báo chỉ mang tính tường thuật trong khi âm thầm tài trợ cho sự đa dạng của khách hàng, trải nghiệm người dùng của ví và nghiên cứu mà các chu kỳ sau này sẽ sử dụng lại. Những người xây dựng ở lại coi giá là thời tiết chứ không phải khí hậu. \n\nĐối với người học: thị trường giá xuống là khi bạn có thể nghiên cứu cơ học mà không bị ảnh hưởng bởi FOMO. Biểu đồ trở nên im lặng; tài liệu và kho nguồn nhận được sự chú ý trung thực hơn."
+  },
+  {
+    "id": "2020-defi",
+    "date": "2020",
+    "title": "DeFi mùa hè",
+    "body": "Khai thác thanh khoản bùng nổ cho vay và AMM. Khả năng kết hợp tỏa sáng; bề mặt các vấn đề về oracle/thanh lý/khuyến khích. Người dùng đáp ứng được tài chính ví như tài khoản trên quy mô lớn. \n\nKhai thác thanh khoản đã biến AMM và thị trường tiền tệ thành các vòng tăng trưởng. Khả năng kết hợp có nghĩa là một vị thế cho vay có thể trở thành tài sản thế chấp ở nơi khác trong vòng vài phút—và do đó có thể thanh lý theo tầng. \n\nMùa hè DeFi đã dạy về thiết kế oracle, tính bền vững khuyến khích và sự khác biệt giữa ảnh chụp màn hình APY và phí có thể trích xuất. Bảo mật ví đã trở thành xu hướng chủ đạo vì tài khoản hiện là môi giới."
+  },
+  {
+    "id": "2021-nft",
+    "date": "2021-03",
+    "title": "Thời điểm chủ đạo của NFT",
+    "body": "Nghệ thuật kỹ thuật số và PFP tấn công các phương tiện truyền thông chính thống. Người sáng tạo tìm đường ray mới; suy đoán theo sau. Sau bọt biển, các cuộc tranh luận về tiêu chuẩn, tiền bản quyền và cộng đồng thực sự vẫn còn tồn tại. \n\nNFT đã đưa những người sáng tạo, thương hiệu và đám đông đầu cơ vào cùng một con đường. Các cuộc tranh luận về tính lâu dài của siêu dữ liệu, thực thi tiền bản quyền và giao dịch rửa tiền đã được đưa lên các tiêu đề. \n\nSau thời kỳ bùng nổ, vẫn còn đó những câu hỏi dai dẳng: chính xác thì cái gì được sở hữu, phương tiện truyền thông tồn tại ở đâu và cộng đồng nào tồn tại mà không ngừng tăng giá? Văn hóa và hợp đồng gắn bó với nhau vĩnh viễn."
+  },
+  {
+    "id": "2021-l2",
+    "date": "2021",
+    "title": "Tăng tốc cuộn",
+    "body": "Các thiết kế lạc quan và ZK mang lại lưu lượng truy cập thực sự khi người dùng trốn tránh phí. Cầu nối và trình sắp xếp chuỗi trở thành trung tâm rủi ro và trải nghiệm người dùng mới. Mở rộng quy mô trở thành một con đường hàng ngày, không phải là một trang trình bày. \n\nNgười dùng chạy trốn phí mạng chính đã thực hiện việc tổng hợp hàng ngày. Cầu nối và trình sắp xếp chuỗi đã trở thành tấm vé hỗ trợ mới: tiền bị kẹt giữa bước nhảy, thời gian ngừng hoạt động và đồng hồ cuối cùng khó hiểu. \n\nThành công trong việc mở rộng quy mô được đo lường bằng các lần thoát an toàn và các giả định về độ tin cậy dễ hiểu, không chỉ các slide TPS. Khả năng đọc viết L2 hiện là khả năng đọc viết Web3 cơ bản."
+  },
+  {
+    "id": "2022-merge",
+    "date": "2022-09",
+    "title": "Hợp nhất",
+    "body": "Sự đồng thuận của Ethereum chuyển sang bằng chứng cổ phần trong khi quá trình thực thi vẫn tiếp tục. Mức sử dụng năng lượng giảm xuống; đặt cược, MEV và sự đa dạng của khách hàng trở thành chủ đề trọng tâm. Một bước chuyển đổi kỹ thuật mang tính bước ngoặt. \n\nChuyển đổi sự đồng thuận mà không phá vỡ quá trình thực thi là một sự chuyển đổi hệ thống lớn hiếm gặp. Những câu chuyện về năng lượng đã thay đổi chỉ sau một đêm; kinh tế đặt cược và nghiên cứu MEV chuyển sang giai đoạn trung tâm. \n\nHợp nhất cho thấy các chuỗi khối có thể phát triển các hệ thống con chính với sự phối hợp. Nó cũng cho thấy rằng “hoàn thành” không bao giờ được thực hiện—sự đa dạng của khách hàng và khả năng chống kiểm duyệt vẫn đang tiếp diễn."
+  },
+  {
+    "id": "2022-contagion",
+    "date": "2022",
+    "title": "sự lây nhiễm CeFi",
+    "body": "Chuỗi cho vay và quỹ bị phá vỡ, làm lộ ra sự không phù hợp về quyền lưu ký và kỳ hạn. Các câu chuyện về quyền tự quản và PoR tăng lên. Số dư nền tảng không phải là tài sản chuỗi. \n\nKhi người cho vay và quỹ CeFi thất bại, người dùng lại phát hiện ra rằng IOU không phải là UTXO. Hoạt động tiếp thị bằng chứng dự trữ tăng lên cùng với hàng đợi rút tiền. \n\nChương trình giảng dạy thực tế: biết chìa khóa tồn tại ở đâu, cân nhắc kích thước số dư trao đổi và coi lợi nhuận yêu cầu khóa tài sản trên nền tảng là rủi ro tín dụng."
+  },
+  {
+    "id": "2023-blobs",
+    "date": "2024-03",
+    "title": "Chi phí DA thời kỳ Blob",
+    "body": "Không gian dữ liệu Blob làm giảm phí đăng bài và phí người dùng L2 Cuộc tranh luận chuyển sang phân cấp trình tự sắp xếp và khả năng tương tác UX. Phí tiếp cận khả năng sử dụng hàng ngày. \n\nBlob space đã điều chỉnh lại chi phí L2 và khiến các giao dịch hàng ngày trở nên hợp lý trở lại. Sự chú ý chuyển sang phân cấp trình tự sắp xếp, cầu nối chung và UX dựa trên mục đích. \n\nTính sẵn có của dữ liệu giá rẻ là cần thiết nhưng chưa đủ cho một thế giới đa chuỗi an toàn. Người dùng vẫn cần đường thoát rõ ràng và nhãn rủi ro trung thực."
+  },
+  {
+    "id": "2024-etf",
+    "date": "2024-01",
+    "title": "Bitcoin ETF giao ngay",
+    "body": "Quyền truy cập môi giới mở của Bitcoin ETF giao ngay tại Hoa Kỳ. Khám phá giá mở rộng với các dòng vĩ mô. Tiền điện tử tham gia vào các cuộc trò chuyện phân bổ truyền thống sâu sắc hơn. \n\nBitcoin được môi giới bao bọc đã thay đổi người có thể phân bổ và cách các dòng chảy tác động đến việc khám phá giá. Các bàn macro đã tham gia vào các cuộc trò chuyện từng chỉ tồn tại trên Twitter tiền điện tử. \n\nETF không thay thế việc giáo dục tự chăm sóc; họ thêm một đường dẫn truy cập song song với các trung gian truyền thống. Cả hai đường ray hiện đang định hình thị trường."
+  },
+  {
+    "id": "2024-halving",
+    "date": "2024-04",
+    "title": "Giảm một nửa Bitcoin lần thứ tư",
+    "body": "Trợ cấp giảm xuống còn 3,125 BTC. Thợ mỏ dựa nhiều hơn vào phí và giá dài hạn. Lịch trình một lần nữa cho thấy việc phát hành được xác định theo giao thức. \n\nLịch trình trợ cấp một lần nữa chứng minh việc phát hành chỉ mang tính chính trị trong khuôn khổ các quy tắc giao thức—thợ mỏ và thị trường thích ứng theo một lịch đã biết. \n\nGiảm một nửa là công cụ giảng dạy hữu ích cho các câu chuyện về sự khan hiếm, thị trường phí và lý do tại sao ngân sách bảo mật cuối cùng lại phụ thuộc nhiều hơn vào nhu cầu giao dịch."
+  },
+  {
+    "id": "2024-restake",
+    "date": "2024",
+    "title": "Đặt lại thời đại",
+    "body": "Các thử nghiệm bảo mật được chia sẻ mở rộng với lợi nhuận và rủi ro chồng chất. Ma trận chém và các lỗi tương quan được đưa vào thảo luận chủ đạo. \n\nViệc đặt lại nhiều công việc hơn trên cùng một trái phiếu kinh tế. Bảo mật được chia sẻ có thể hiệu quả; sự chém tương quan có thể rất tàn bạo. \n\nHãy coi việc đặt lại giống như việc tiếp xúc với cơ sở hạ tầng có đòn bẩy: đọc bộ toán tử, cắt bỏ các điều kiện và các giả định về oracle/chứng thực trước khi theo đuổi các điểm."
+  },
+  {
+    "id": "2025-aa",
+    "date": "2025",
+    "title": "Đẩy UX tài khoản thông minh",
+    "body": "Công cụ trừu tượng hóa tài khoản tiếp cận ví của người tiêu dùng với các phiên và gas được tài trợ. Một số trách nhiệm chuyển sang người giám hộ và mô-đun. UX không hạt tìm kiếm sự cân bằng với quyền tự quản lý. \n\nViệc loại bỏ tài khoản đã mang lại nguồn khí được tài trợ và phục hồi xã hội vào ví của người tiêu dùng. Những người mới đến phải đối mặt với ít vách đá cụm từ hạt giống hơn—và nhiều màn hình cấp phép mô-đun hơn. \n\nLàn sóng xóa mù chữ tiếp theo là diễn tập phục hồi, phạm vi khóa phiên và nhận ra rằng các tính năng tiện lợi vẫn là bề mặt ủy quyền."
+  },
+  {
+    "id": "2025-rwa",
+    "date": "2025",
+    "title": "mở rộng RWA",
+    "body": "Tín dụng và hóa đơn được mã hóa mang lại lợi nhuận ngoài chuỗi cho việc thanh toán trên chuỗi. Cấu trúc pháp lý và sự cứu chuộc chi phối sự siêng năng. Kho bạc DeFi có được tay áo “truyền thống”. \n\nKho bạc được mã hóa làm cho lợi nhuận trên chuỗi trông quen thuộc với các nhà phân bổ truyền thống. Giấy gói pháp lý và bàn đổi quà trở nên quan trọng như Solidity. \n\nRWA dạy rằng “trên chuỗi” có thể có nghĩa là kiểu thanh toán chứ không phải loại bỏ hoàn toàn trung gian. Đọc các chính sách về quyền giám hộ và đóng băng một cách cẩn thận như mã hợp đồng."
+  },
+  {
+    "id": "2026-intent",
+    "date": "2026",
+    "title": "Luồng tập trung vào ý định",
+    "body": "Người dùng thể hiện kết quả; người giải quyết cạnh tranh về các tuyến đường và báo giá. UX đơn giản hóa trong khi rủi ro về cầu vẫn ở mức thấp. Ví và bộ định tuyến bước vào cuộc đua sản phẩm mới."
+  }
+]

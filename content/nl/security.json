@@ -1,0 +1,234 @@
+[
+  {
+    "id": "homograph",
+    "tag": "Waarschuw",
+    "title": "Homograaf phishing-verdediging",
+    "minutes": 5,
+    "summary": "Lookalike karakters smeden officiële domeinen om handtekeningen of zaden te verzamelen.",
+    "sections": [
+      {
+        "heading": "Hoe het eruit ziet",
+        "body": "Aanvallers wisselen visueel vergelijkbare karakters in domeinen en koppelen deze aan advertenties of DM's. De gebruikersinterface kan pixel-perfect zijn en zelfs valse saldi weergeven."
+      },
+      {
+        "heading": "Hoe je het kunt herkennen",
+        "body": "Typ URL's of gebruik bladwijzers. Certificaateigenaren controleren. Klik nooit op de bovenste zoekadvertentie voor portemonnees/bridges. Beweeg de muis over links en inspecteer vreemde subdomeinen."
+      },
+      {
+        "heading": "Als je klikte",
+        "body": "Goedkeuringen intrekken en resterende gelden verplaatsen. Als je een zaadje hebt getypt, wordt die portemonnee verbrand; je kunt alleen een gloednieuw zaadje gebruiken. Bewaar bewijsmateriaal voor rapporten."
+      }
+    ],
+    "checklist": [
+      "Maak een bladwijzer van officiële sites",
+      "Zoekadvertenties overslaan",
+      "Inspecteer elk URL-teken",
+      "Controleer op een tweede apparaat de grootte",
+      "Typ nooit zaden in webpagina's"
+    ],
+    "body": "Lookalike karakters smeden officiële domeinen om handtekeningen of zaden te verzamelen."
+  },
+  {
+    "id": "seed",
+    "tag": "Sleutels",
+    "title": "Volledige gids voor zaadzinnen",
+    "minutes": 6,
+    "summary": "Uw zaad is controle over de activa. Iedereen die erom vraagt, is vijandig.",
+    "sections": [
+      {
+        "heading": "Back-ups",
+        "body": "Bestelling met de hand schrijven en opnieuw controleren; overweeg metalen platen; locaties zorgvuldig splitsen. Geen foto's, wolken of chat-apps."
+      },
+      {
+        "heading": "Oplichting",
+        "body": "“Sync/verify/upgrade/unfreeze/airdrop”-pagina's vragen om 12/24 woorden. Fake Discord-beheerders gebruiken hetzelfde script. Hardware “authenticiteitscontroles” die om zaden vragen, zijn nep."
+      },
+      {
+        "heading": "Erfenis",
+        "body": "Als niemand het plan kent, sterven de fondsen samen met jou. Gebruik verzegelde instructies, advocaten of multisig. Bij een vermoedelijk lek moet u onmiddellijk migreren."
+      }
+    ],
+    "checklist": [
+      "Seeds alleen op offline media",
+      "Vertel de woorden aan niemand",
+      "Voer ze nooit in op een netwerkapparaat",
+      "Hardware + koude back-up voor grootte",
+      "Migreer op elk leksignaal"
+    ],
+    "body": "Uw zaad is controle over de activa. Iedereen die erom vraagt, is vijandig."
+  },
+  {
+    "id": "approve",
+    "tag": "DeFi",
+    "title": "Vallen goedkeuren/toestaan",
+    "minutes": 6,
+    "summary": "Goedkeuringen verplaatsen tokens niet onmiddellijk; ze maken latere afvoeren mogelijk, vooral onbeperkte.",
+    "sections": [
+      {
+        "heading": "Mechanica",
+        "body": "ERC-20 transferVan behoeftetoelage. Oneindige goedkeuringen zijn handig; Gecompromitteerde spenders kunnen u later leegmaken. setApprovalForAll is het NFT-equivalent."
+      },
+      {
+        "heading": "Veilig oefenen",
+        "body": "Exacte vergoedingen indien mogelijk; routinematig intrekken; test nieuwe protocollen klein. Bekijk airdrop-sites waarvoor eerst goedkeuring vereist is."
+      },
+      {
+        "heading": "Reactie op incidenten",
+        "body": "Geld intrekken en verplaatsen. Geef prioriteit aan de uitgaven die genoemd worden in de bekendmakingen over hacks."
+      }
+    ],
+    "checklist": [
+      "Weiger onnodig onbeperkte goedkeuringen",
+      "Controleer de vergoedingen maandelijks",
+      "Trek ongebruikte NFT-operators in",
+      "Lees de adressen van uitgevers",
+      "Geef prioriteit aan gehackte protocoluitgevers"
+    ],
+    "body": "Goedkeuringen verplaatsen tokens niet onmiddellijk; ze maken latere afvoeren mogelijk, vooral onbeperkte."
+  },
+  {
+    "id": "fake-apps",
+    "tag": "Mobiel",
+    "title": "Valse portemonnee-apps",
+    "minutes": 5,
+    "summary": "Klonen verschijnen in winkels en sideload-kanalen om zaden of afstandsbedieningsapparaten te stelen.",
+    "sections": [
+      {
+        "heading": "Namaakgoederen spotten",
+        "body": "Match de namen van uitgevers met officiële berichten; pas op voor gloednieuwe apps die op nummer 1 staan. Geef de voorkeur aan links van de echte site. Sideloaded APK's zijn riskanter."
+      },
+      {
+        "heading": "Verharding",
+        "body": "Houd het besturingssysteem bijgewerkt; plug-ins minimaliseren; overweeg een speciale telefoon. Gebruik hardware voor de maat. Plan vergrendeling op afstand als de telefoon kwijtraakt."
+      },
+      {
+        "heading": "Na installatie",
+        "body": "Als er een zaadje in een nep-app is ingevoerd, ga dan uit van een compromis en migreer op een schoon apparaat."
+      }
+    ],
+    "checklist": [
+      "Installeer vanaf officiële kanalen",
+      "Controleer de namen van ontwikkelaars",
+      "Vermijd willekeurige APK's",
+      "Paargrootte met hardware bevestigt",
+      "Migreer onmiddellijk als het nep is"
+    ],
+    "body": "Klonen verschijnen in winkels en sideload-kanalen om zaden of afstandsbedieningsapparaten te stelen."
+  },
+  {
+    "id": "drainer",
+    "tag": "Ondertekenen",
+    "title": "Handtekeningafdruipers en kwaadaardige vergunningen",
+    "minutes": 7,
+    "summary": "Geen zaad vereist: kwaadaardige gestructureerde handtekeningen kunnen afvoeren autoriseren.",
+    "sections": [
+      {
+        "heading": "Tactiek",
+        "body": "Valse pepermuntjes/claims verzoeken setApprovalForAll, vergunningen of ‘logins’. Sommige ladingen zien er leeg uit. Bots vegen daarna."
+      },
+      {
+        "heading": "Verdediging",
+        "body": "Portefeuilles met duidelijke handtekening, simulatie, onbekende zaken weigeren. Verbind nieuwe sites eerst met een brander. Controleer domeinen."
+      },
+      {
+        "heading": "Daarna",
+        "body": "Intrekken, fondsen redden, gemeenschappen waarschuwen, andere ketens controleren op dezelfde goedkeuringen."
+      }
+    ],
+    "checklist": [
+      "Weiger ondoorzichtige handtekeningen",
+      "Simulatie inschakelen",
+      "Gebruik een brander op nieuwe sites",
+      "Regelmatig intrekken",
+      "Maak een bladwijzer van echte dApps"
+    ],
+    "body": "Geen zaad vereist: kwaadaardige gestructureerde handtekeningen kunnen afvoeren autoriseren."
+  },
+  {
+    "id": "support",
+    "tag": "Sociaal",
+    "title": "Valse ondersteuning en social engineering",
+    "minutes": 5,
+    "summary": "Nadat je een fout hebt gepost, sturen imitators een DM ‘help’ met het verzoek om externe toegang of zaden.",
+    "sections": [
+      {
+        "heading": "Het speelboek",
+        "body": "Gekloonde avatars, urgentie, apps voor afstandsbediening of stortingsinstructies met een ‘veilig contract’. Gecompromitteerde vriendenaccounts verspreiden ook links."
+      },
+      {
+        "heading": "Regels",
+        "body": "Echte teams DM'en zelden eerst voor geheimen. Gebruik officiële tickets/openbare kanalen. Verifieer vrienden buiten de band."
+      },
+      {
+        "heading": "Hygiëne",
+        "body": "Plak nooit zaden in openbare kanalen, zelfs niet ‘gedeeltelijk gemaskeerd’."
+      }
+    ],
+    "checklist": [
+      "Negeer koude ondersteunings-DM's",
+      "Installeer geen willekeurige externe tools",
+      "Geef nooit zaden ter ondersteuning",
+      "Controleer rare vriendlinks offline",
+      "Maak gebruik van openbare officiële hulpkanalen"
+    ],
+    "body": "Nadat je een fout hebt gepost, sturen imitators een DM ‘help’ met het verzoek om externe toegang of zaden."
+  },
+  {
+    "id": "bridges",
+    "tag": "Cross-keten",
+    "title": "Veiligheid van de brug",
+    "minutes": 6,
+    "summary": "Bruggen zijn populaire doelwitten voor hacks en phishing-favorieten. Sneller is niet per definitie veiliger.",
+    "sections": [
+      {
+        "heading": "Kiezen",
+        "body": "Geef de voorkeur aan canonieke bruggen uit officiële documenten. Dierenarts snelle bruggen voor audits en limieten. Begrijp uitreisvertragingen."
+      },
+      {
+        "heading": "Operationeel",
+        "body": "Kleine end-to-end-tests; bestemmingstokencontracten verifiëren; hashes opslaan. Beschouw exits tijdens de vlucht niet als vrije marge."
+      },
+      {
+        "heading": "Incidenten",
+        "body": "Volg bij bridge-hacks de officiële pauzemeldingen, en niet de ‘migratiescripts’ van DM."
+      }
+    ],
+    "checklist": [
+      "Maak een bladwijzer van officiële bruggen",
+      "Test eerst klein",
+      "Bestemmingscontracten verifiëren",
+      "Bewaar tx-hashes",
+      "Negeer DM-migratiescripts"
+    ],
+    "body": "Bruggen zijn populaire doelwitten voor hacks en phishing-favorieten. Sneller is niet per definitie veiliger."
+  },
+  {
+    "id": "devices",
+    "tag": "Op",
+    "title": "Apparaat- en browserhygiëne",
+    "minutes": 5,
+    "summary": "Klembord-malware, valse extensies en gedeelde pc's zijn dagelijkse diefstalpaden.",
+    "sections": [
+      {
+        "heading": "Browser",
+        "body": "Speciaal cryptoprofiel; minimale officiële uitbreidingen; bladwijzersites. Gebruik een schone machine voor het formaat."
+      },
+      {
+        "heading": "Systeem",
+        "body": "Patch-besturingssysteem; pas op voor “airdrop-tools”; vermijd vage openbare opladers. Controleer geplakte adressen altijd opnieuw."
+      },
+      {
+        "heading": "Gelaagdheid",
+        "body": "Heet voor dagelijks, koud voor spaargeld, multisig voor staatsobligaties is beter dan één superportemonnee."
+      }
+    ],
+    "checklist": [
+      "Apart browserprofiel",
+      "Extensies op de witte lijst",
+      "Controleer de geplakte adressen opnieuw",
+      "Houd het besturingssysteem bijgewerkt",
+      "Verdeel fondsen per rol"
+    ],
+    "body": "Klembord-malware, valse extensies en gedeelde pc's zijn dagelijkse diefstalpaden."
+  }
+]

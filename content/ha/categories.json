@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "blockchain",
+    "name": "Blockchain",
+    "summary": "Cibiyoyin sadarwar da ke rikodin kuma amintattun ma'amaloli",
+    "blurb": "Litattafan da aka raba tare da ijma'i - layin sasantawa komai yana zaune a kai. Kowane labarin ya ƙunshi cikakkun bayanai, mahimman bayanai, da shawarwari.",
+    "items": [
+      {
+        "id": "bitcoin",
+        "title": "Bitcoin",
+        "summary": "Cibiyar sadarwar tsabar kuɗi ta farko-da-tsara ta farko tare da ƙayyadaddun ƙa'idodin bayarwa",
+        "intro": "Bitcoin yana nuna yadda ƙimar za ta iya motsawa akan intanet ba tare da banki a matsayin alkalin wasa ba. Saitin nodes na duniya yana raba littatafai ɗaya amintattu ta hanyar rufaffiyar asiri da ƙarfafawa. Don masu farawa, maɓallai, UTXOs, da dokokin bayarwa suna da mahimmanci fiye da jadawalin farashin ɗan gajeren lokaci.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Amintattun masu shiga tsakani na iya daskare asusu, toshe biyan kuɗi, ko kasawa cikin rikici. Bitcoin ya maye gurbin izinin hukuma tare da tabbatarwa jama'a: kowa zai iya bincika tarihin, yayin sake rubutawa an tsara shi don ya zama mai tsada sosai. \nToshewar asali har ma ya haɗa kanun jarida game da bailouts na banki - siginar ganganci game da ƙa'idodin kuɗi a cikin lamba."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Kuna sanya hannu kan ma'amala da ke kashe abubuwan da ba a kashewa ba (UTXOs) zuwa sabbin adireshi. Masu hakar ma'adinai suna gasa ta hanyar hujja-na-aiki don haɗa tubalan da samun lada. \nHalvings rage sabon wadata a kan lokaci; Wahala tana daidaitawa don haka tubalan su kasance a tsaye. Ƙarin tabbaci yana nufin ƙananan haɗarin sake haɓakawa."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Maɓallai masu zaman kansu daidai gwargwado; adireshi na iya zama jama'a. Kudade kasuwa ne don toshe sarari. Rubutun Bitcoin yana da iyaka da gangan, don haka yana nuna kamar daidaitawa da ƙarancin dijital fiye da dandamali na aikace-aikacen gabaɗaya."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Ƙarfafawa ba bug na yarjejeniya ba ne. Tsabar kudi akan musayar IOUs har sai an cire su. Fitar, goyan bayan karya, da kuma hanyar sadarwar da ba daidai ba suna haifar da asara ta dindindin-yi aiki tare da ƙaramin adadin farko."
+          }
+        ],
+        "keyPoints": [
+          "Bitcoin cibiyar sadarwar sasantawa ce ta jama'a, ba alamar kamfani ba.",
+          "Ka'idojin bayarwa da suka haɗa da ragi ana aiwatar da su ta ka'ida da ƙarfafawa.",
+          "UTXO + sa hannu suna ayyana canja wuri; maɓallan da suka ɓace suna nufin asarar kuɗi.",
+          "Tsaro galibi shine mahimmancin tsafta da halayen tabbatarwa."
+        ],
+        "tips": [
+          "Gwada karɓa/aika tare da sanannen ko jakar kayan masarufi.",
+          "Matsar da girman a batches kuma jira isassun tabbaci.",
+          "Ajiye nau'in a layi daya - kar a taɓa yin hoto ko aika saƙon sa."
+        ],
+        "body": "Bitcoin yana nuna yadda ƙimar za ta iya motsawa akan intanet ba tare da banki a matsayin alkalin wasa ba. Saitin nodes na duniya yana raba littatafai ɗaya amintattu ta hanyar rufaffiyar asiri da ƙarfafawa. Don masu farawa, maɓallai, UTXOs, da dokokin bayarwa suna da mahimmanci fiye da jadawalin farashin ɗan gajeren lokaci."
+      },
+      {
+        "id": "ethereum",
+        "title": "Ethereum",
+        "summary": "Babban manufar blockchain don kwangiloli masu wayo — galibi ana kiransa kwamfuta ta duniya",
+        "intro": "Inda Bitcoin ke mayar da hankali kan canja wurin kuɗi, Ethereum yana mai da hankali kan aiwatar da ka'idodin shirye-shirye. Yarjejeniyar kaddarorin tsarewa, rufaffen yanayi, da tsara cikin aikace-aikace. Bayan Haɗuwa, yarjejeniya ita ce hujja-ta-kangi yayin da kisa ya kasance EVM.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Biyan kuɗi kaɗai ba zai iya bayyana lamuni, musaya, ko tsarin mulki cikin tsafta ba. Injin kama-da-wane da aka raba yana juya lamba zuwa abubuwan more rayuwa na jama'a. \nBuɗe musaya yana barin alamomi da ƙa'idodi su shiga juna-tushen Legos DeFi."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "EOAs suna sarrafa maɓalli; ana sarrafa lambobin kwangila. Kuna biyan iskar gas don sauye-sauyen jihohi. Masu tabbatarwa suna ɗaukar ETH don ba da shawara da shaida; za a iya yanke manyan laifuffuka. \nMasu amfani har yanzu suna mu'amala ta hanyar sa hannu na walat, amma sararin ƙirar ya fi fa'ida fiye da sauƙin canja wuri."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Ƙididdigar mita gas. Ma'auni na Token (ERC-20/721) yana ba da damar walat da daidaituwar kasuwa. Layer 2 yana motsa kisa daga mainnet yayin da yake komawa ga amincin Ethereum."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "\"A kan Ethereum\" ≠ duba ko lafiya. Amincewa marar iyaka da alamun karya suna zubar da walat ɗin. Kudade kololuwa na iya wuce girman ciniki — duba hanyar sadarwa, kwangila, da iyakar izini."
+          }
+        ],
+        "keyPoints": [
+          "Ethereum na'ura ce ta jihar da aka raba tare da lokacin aikin kwangilar wayo.",
+          "PoS yana tabbatar da yarjejeniya; EVM yana aiwatar da aikace-aikacen.",
+          "Ƙididdiga suna sa kadarori su yi mu'amala da juna a cikin yanayin muhalli.",
+          "Tsaro ya dogara da ingancin kwangila, yarda, da gadoji."
+        ],
+        "tips": [
+          "Tabbatar da adiresoshin kwangila a cikin toshe mai bincike, ba ta ticker kadai ba.",
+          "Yi amfani da L2s na hukuma ko jira lokacin da mainnet ke cunkoso.",
+          "Gwada sababbin ka'idoji tare da kuɗin da za ku iya rasa."
+        ],
+        "body": "Inda Bitcoin ke mayar da hankali kan canja wurin kuɗi, Ethereum yana mai da hankali kan aiwatar da ka'idodin shirye-shirye. Yarjejeniyar kaddarorin tsarewa, rufaffen yanayi, da tsara cikin aikace-aikace. Bayan Haɗuwa, yarjejeniya ita ce hujja-ta-kangi yayin da kisa ya kasance EVM."
+      },
+      {
+        "id": "consensus",
+        "title": "Ijma'i",
+        "summary": "Yadda hanyar sadarwa ta yarda akan tarihin canonical ɗaya",
+        "intro": "Ba tare da alkalin wasa na tsakiya ba, nodes har yanzu suna buƙatar littafi guda. Ijma'i yana bayyana wanda ya ba da shawarar toshe, yadda ake azabtar da masu yaudara, da lokacin da canja wuri ya isa ƙarshe. Tabbacin-aiki da hujja-hannun hannu hanyoyi ne daban-daban don sa sake rubuta tarihin ya zama tsada.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Mahalarta da aka rarraba zasu iya jinkirta, cire haɗin, ko yin ƙarya. Ijma'i yana hana kashe kuɗi biyu ta hanyar sanya tarihi daya mamaye tattalin arziki. \nGa masu amfani, yana ƙayyade lokutan jira, sake haɗarin haɗari, da farashin harin."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Farashin PoW yana kai hari da makamashi/hashrate. Farashin PoS yana kai hare-hare tare da babban jari da yankewa. Wasu ka'idoji suna ba da ƙarƙarar ƙarshe bayan wuraren bincike; wasu kuma masu yiwuwa ne. \nMusanya sun saita tabbacin ajiya daga waɗannan kaddarorin."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Rayuwa vs aminci ciniki-offs al'amura. Sarkar “mafi sauri” tare da ƙananan saiti masu inganci na iya raunana juriyar tantancewa. Tambayi wanda ke samar da tubalan kafin bikin TPS."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Maganganu ba abubuwan saka hannun jari bane. Gada da zato-hasken abokin ciniki sau da yawa sun fi rauni fiye da yarjejeniya ta tushe-kuma a nan ne yawancin hacks suka sauka."
+          }
+        ],
+        "keyPoints": [
+          "Ijma'i yana zaɓar tarihin canonical guda ɗaya a cikin nodes marasa amana.",
+          "Farashin PoW da PoS suna kai hari daban.",
+          "Tabbatattun / ƙarshe sun yanke shawarar lokacin da aka “karɓi kuɗi.”",
+          "Abubuwan haɗin ketare na iya zama mai rauni fiye da labarin L1."
+        ],
+        "tips": [
+          "Girmama shawarar tabbatarwa ƙidaya don manyan adibas.",
+          "Bincika rarraba mai inganci da ka'idojin yankewa akan sabbin sarƙoƙi.",
+          "Rage gada/ayyukan ba da damar aiki yayin haɓaka rikice-rikice."
+        ],
+        "body": "Ba tare da alkalin wasa na tsakiya ba, nodes har yanzu suna buƙatar littafi guda. Ijma'i yana bayyana wanda ya ba da shawarar toshe, yadda ake azabtar da masu yaudara, da lokacin da canja wuri ya isa ƙarshe. Tabbacin-aiki da hujja-hannun hannu hanyoyi ne daban-daban don sa sake rubuta tarihin ya zama tsada."
+      },
+      {
+        "id": "accounts",
+        "title": "Asusu & Maɓallai",
+        "summary": "Asalin kan-sarkar maɓalli ne, ba sake saita sunan mai amfani ta hanyar goyan baya ba",
+        "intro": "Asusunka yawanci adireshi ne da aka samo daga maɓalli na sirri. Babu wanda zai iya sake saita muku wannan maɓallin; sa hannu shine izini. Fahimtar EOAs, lissafin kwangila, da jimlolin iri shine tushen amintaccen amfani.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Web2 asusun suna rayuwa akan sabar kamfani tare da sake saitin kalmar sirri. Blockchains suna tura iko zuwa masu riƙe da mahimmanci don tsare kansu - kuma suna tura alhakin aiki tare da shi."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Maɓallai masu zaman kansu suna samun maɓalli da adireshi na jama'a. Tsari (BIP-39) na iya sabunta asusu da yawa a cikin sarƙoƙi. Asusun kwangila yana motsa kuɗi ta hanyoyi masu lamba; wayayyun asusu sun haɗa manufofi kamar iyaka da masu kulawa."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Wallets masu zafi suna dacewa; walat ɗin kayan masarufi suna adana maɓalli a cikin amintaccen kashi. Multisig yana yada iko. Iri daya da aka zube na iya lalata duk bishiyar da aka samu."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Hotunan kariyar gajimare, malware, da buƙatun iri na “tallafawa” hanyoyin asara ce ta yau da kullun. Sa hannun makaho na iya amincewa da magudanar ruwa - ƙin rashin tabbas."
+          }
+        ],
+        "keyPoints": [
+          "Maɓallai daidai ikon mallaka.",
+          "Ana iya raba adireshi; tsaba ba.",
+          "EOAs na ɗan adam ne; Kwangiloli suna sarrafa lamba.",
+          "Karanta iyakar izini kafin sanya hannu."
+        ],
+        "tips": [
+          "Ware kuɗin gwaji daga walat ɗin ajiya.",
+          "Rubuta iri akan takarda/karfe kuma adana a layi.",
+          "Kunna simintin ciniki akan sabbin dApps."
+        ],
+        "body": "Asusunka yawanci adireshi ne da aka samo daga maɓalli na sirri. Babu wanda zai iya sake saita muku wannan maɓallin; sa hannu shine izini. Fahimtar EOAs, lissafin kwangila, da jimlolin iri shine tushen amintaccen amfani."
+      },
+      {
+        "id": "gas",
+        "title": "Gas & Kudade",
+        "summary": "Ana ƙididdige kowane canjin jiha don haka ba za a iya yin ɓarna a kwamfutar jama'a kyauta ba",
+        "intro": "Gas ba haraji na sabani ba ne - yana farashin ƙididdigewa da ajiya. Kudin ku shine farashin amfani × naúrar. Cunkoso yana haɓaka farashin rukunin, wanda shine dalilin da ya sa aikin iri ɗaya zai iya kashe cents ko dubun daloli.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Jama'a blockchains dole ne a daure albarkatun. Gas yana haifar da kasuwa mai ƙima: mafi girma farashin bayyana farko; masu haɓakawa dole ne su rubuta kwangila masu inganci."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Canje-canje masu sauƙi suna ɗan ƙaramin gas; hadaddun hanyoyin DeFi sun fi tsada. Bayan EIP-1559, kudade na tushe suna ƙonewa da shawarwarin biyan masu ba da shawara. L2s suna rage farashin bayanan L1 a tsakanin masu amfani da yawa, don haka farashin naúrar ya ragu."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Iyakar iskar iskar gas ta iyakance nawa kuke ba da izini. Har yanzu ma'amalolin da ba su yi nasara ba na iya cajin iskar gas saboda kisa ya faru. Saurin-sauri/ soke yana maye gurbin da ba mai jira ba tare da ƙarin kuɗi tx."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Shafukan karya na iya haifar da iskar gas ko kiran banza. Kamfen \"Zero gas\" sau da yawa yana faɗaɗa izini-tambayi wanda ke tallafawa da abin da kuka ba da izini."
+          }
+        ],
+        "keyPoints": [
+          "Kisa na mita gas; farashin kasuwa ne.",
+          "Rashin gazawa na iya kashe iskar gas.",
+          "L2s da batching sune manyan masu tara kuɗi.",
+          "Karɓar ƙarancin kuɗi ko buƙatun amincewa."
+        ],
+        "tips": [
+          "Yi ayyukan da ba na gaggawa ba daga kololuwa ko kan L2.",
+          "Yi amfani da ƙididdigar kuɗin walat da kwaikwaya.",
+          "Farashin jimillar iskar gas kafin yaƙin neman zaɓe na matakai da yawa."
+        ],
+        "body": "Gas ba haraji na sabani ba ne - yana farashin ƙididdigewa da ajiya. Kudin ku shine farashin amfani × naúrar. Cunkoso yana haɓaka farashin rukunin, wanda shine dalilin da ya sa aikin iri ɗaya zai iya kashe cents ko dubun daloli."
+      },
+      {
+        "id": "bridges",
+        "title": "Gada",
+        "summary": "Tashoshin da ke motsa ƙima ko saƙonni a cikin sarƙoƙi-da maƙasudin hack akai-akai",
+        "intro": "Kayayyaki ba sa bayyana da sihiri a kan wani littafin. Kulle gada, mint, ƙonewa, ko musanya ta hanyar ruwa-yawan samun dama yayin tattara haɗari. Yawancin manyan fa'idodi na tarihi sun sami tsare gada da tabbatarwa.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Ba tare da gadoji ba, yanayin muhalli yana zama tsibirai. Tare da gadoji, masu amfani suna samun ƙarin amana da haɗarin kwangila don musanyawa don motsi."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Samfuran sun haɗa da kulle-da-mint, ƙona-da-fansa, hanyoyin sadarwar ruwa, da relays abokin ciniki mai haske. Canonical rollup gadoji sun gaji tsaro na jujjuyawa amma suna iya samun jinkirin fita; gada masu sauri suna ƙara zato na ɓangare na uku don saurin gudu."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Za a iya fanshi 1:1? Ta yaya ake karkasa masu inganci? Babban TVL na iya nufin manufa mai kiba, ba aminci ta atomatik ba."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Yankunan phishing suna bunƙasa a kusa da gadoji. Hanyar sadarwar da ba daidai ba ko kwangilar alamar tana aika kuɗi zuwa ɓoyayye. Koyaushe gwada tare da ƙaramin canja wuri da farko."
+          }
+        ],
+        "keyPoints": [
+          "Gada yarjejeniya ce ta giciye, ba wayar tarho ba.",
+          "Canonical vs gada masu sauri suna da samfuran amana daban-daban.",
+          "Gada sun mamaye asarar hack na tarihi.",
+          "Tabbatar da yanki, kwangila, da hanyar sadarwa tare."
+        ],
+        "tips": [
+          "Shigar da gadoji daga takaddun hukuma masu alamar kawai.",
+          "Gwada mafi ƙarancin girma kafin girman girman motsi.",
+          "Bi da fitattun hanyoyin da ba za a iya kashe su ba tukuna."
+        ],
+        "body": "Kayayyaki ba sa bayyana da sihiri a kan wani littafin. Kulle gada, mint, ƙonewa, ko musanya ta hanyar ruwa-yawan samun dama yayin tattara haɗari. Yawancin manyan fa'idodi na tarihi sun sami tsare gada da tabbatarwa."
+      }
+    ]
+  },
+  {
+    "id": "defi",
+    "name": "DeFi",
+    "summary": "Bayar da lamuni, musanyawa da rarrabuwa ta hanyar kwangiloli masu wayo",
+    "blurb": "Yadda buɗaɗɗen kuɗin kuɗi ke haɗawa-da kuma kasada a kusa da rates, liquidations, da stables.",
+    "items": [
+      {
+        "id": "amm",
+        "title": "Masu yin Kasuwa Na atomatik",
+        "summary": "Wuraren ruwa na ruwa da masu lankwasa farashin suna maye gurbin littattafan oda na gargajiya",
+        "intro": "AMMs suna barin kowa ya saka alamun a cikin tafkin don 'yan kasuwa su iya musanya da dabara. Kuna samun ci gaba da biyan kuɗi da kuma kuɗin LP-da hasara mara nauyi da haɗarin kwangilar wayo.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Littattafai na kan layi suna da tsada. Pools suna kiyaye yawan ruwa a cikin kwangiloli don haka musanyawa na iya faruwa kowane lokaci, dimokraɗiyya yin kasuwa."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Constant-samfurin shi ne classic kwana; Stableswaps da tattara kudi mai yawa suna inganta ingantaccen babban jari. Masu ba da hanya tsakanin hanyoyin sadarwa sun raba sana'o'i a fadin wuraren waha. Iyakoki na zamewa suna kare ku lokacin da jiha ta motsa."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Rashin hasara mai mahimmanci zai iya sa LPs ba su cika aiki ba. Alamu na karya da sandunan zuma na iya kama da siya amma ba za a iya siyarwa ba. APRs na fitar da hayaki bazai dawwama ba."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Amincewa marar iyaka ga masu amfani da hanyoyin da ba a san su ba suna da haɗari. Depegs damuwa \"barga\" wuraren waha wuya."
+          }
+        ],
+        "keyPoints": [
+          "Farashin AMMs ta hanyar lissafin ruwa don musanyawa nan take.",
+          "LPs suna samun kuɗi kuma suna ɗaukar haɗarin kwangilar IL +.",
+          "Sakamakon ingantacciyar hanyar zamewa da kwatance.",
+          "Tabbatar da wuraren waha/alamu kafin neman yawan amfanin ƙasa."
+        ],
+        "tips": [
+          "Saita zamewa matsi da mafi ƙarancin adadin.",
+          "Fi son wuraren tafki masu zurfi akan manyan ladabi.",
+          "Cire alawus-alawus na alamar da ba a yi amfani da su akai-akai."
+        ],
+        "body": "AMMs suna barin kowa ya saka alamun a cikin tafkin don 'yan kasuwa su iya musanya da dabara. Kuna samun ci gaba da biyan kuɗi da kuma kuɗin LP-da hasara mara nauyi da haɗarin kwangilar wayo."
+      },
+      {
+        "id": "lending",
+        "title": "Ka'idojin Ba da Lamuni",
+        "summary": "Ƙunƙarar rancen da aka haɗa tare da ƙimar algorithmic da yawan ruwa",
+        "intro": "Ajiye kadarorin don samun albarkatu ko rance akan jingina ba tare da tebur ɗin kiredit ba. Abubuwan kiwon lafiya, baka, da bots na ruwa-ba masu gudanar da dangantaka ba- suna kiyaye tsarin narkewa.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Aiwatar da kan sarkar bashi bashi da wahala yana da wahala, don haka wuce gona da iri ya mamaye. Kowa na iya shiga; babban tasiri shine ciniki-off."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Amfani yana motsa sha'awa. Oracle yana ciyar da farashin. Lokacin da lafiya ta faɗi, masu ba da ruwa suna biya bashi kuma su karɓi lamuni don kari."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Hanyoyin keɓewa, LTV, da zamantakewa mara kyau-bashi sun bambanta ta hanyar yarjejeniya. Leverage leverage yana haɓaka haɗari. Net APR dole ne ya cire gas da kuma hukuncin kisa."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Oracle lag ko magudi na iya haifar da ruwa mara kyau. Ma'anar bayar da lamuni a matsayin \"lafiya ta tanadi\" tarkon tunani ne."
+          }
+        ],
+        "keyPoints": [
+          "Overcollateralization + liquidations sune ainihin.",
+          "Abubuwan kiwon lafiya sun doke farashin kanun labarai.",
+          "Oracle da ingancin ruwa sun yanke shawarar aminci.",
+          "Leverage madaukai suna ƙara fa'ida."
+        ],
+        "tips": [
+          "Bar babban buffer sama da ruwa.",
+          "Guji haɗin kai sosai a cikin guguwa.",
+          "Yi ƙididdige farashin ƙima kafin aro."
+        ],
+        "body": "Ajiye kadarorin don samun albarkatu ko rance akan jingina ba tare da tebur ɗin kiredit ba. Abubuwan kiwon lafiya, baka, da bots na ruwa-ba masu gudanar da dangantaka ba- suna kiyaye tsarin narkewa."
+      },
+      {
+        "id": "stablecoins",
+        "title": "Stablecoins",
+        "summary": "Ƙungiyoyin kan-sarkar da aka ƙirƙira don bin diddigin madaidaicin tunani kamar USD",
+        "intro": "Ƙididdiga masu ƙima suna da banƙyama don farashi da lissafin kuɗi. Stablecoins suna ba da dogo mai kama da dala don ciniki da aika kuɗi-amma hanyoyin da yanayin gazawa sun bambanta sosai.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Suna ba da rukunin asusun da aka sani don ayyukan sarkar da matsuguni na ɗan lokaci a cikin lokutan haɗari - mafaka ≠ mara haɗari."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "tsabar kudi masu goyon bayan Fiat sun dogara da tanadi da fansa; crypto-goyan baya a kan overconlateralization; ƙirar algorithmic suna daidaita wadata kuma sun tabbatar da rauni. Bayyana gaskiya da sharuɗɗan fansa suna cikin damuwa."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Daskarewa, depegs, nau'ikan sarkar giciye na jabu, da nade-naden da ake samu suna ƙara haɗarin haɗari. Ticker iri ɗaya akan wani sarkar na iya zama mara hukuma."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "USD a cikin sunan talla ne, ba inshora ba. Tattaunawa a cikin mai bayarwa ɗaya shine haɗarin takwaransa."
+          }
+        ],
+        "keyPoints": [
+          "Stablecoins kayan aikin ne tare da haɗarin mai bayarwa/makanikanci.",
+          "Ajiye, lamuni, ko algorithms suna kasawa daban.",
+          "Manufofin fansa da daskare suna shafar amfani.",
+          "Koyaushe tabbatar da kwangilar hukuma kowace sarkar."
+        ],
+        "tips": [
+          "Fi son ƙira mai iya fanshi bayyane don girman girman.",
+          "Bambance masu fitarwa da wuraren zama.",
+          "Kula da girman “tsayayyen amfanin gona” azaman gargaɗi."
+        ],
+        "body": "Ƙididdiga masu ƙima suna da banƙyama don farashi da lissafin kuɗi. Stablecoins suna ba da dogo mai kama da dala don ciniki da aika kuɗi-amma hanyoyin da yanayin gazawa sun bambanta sosai."
+      },
+      {
+        "id": "staking",
+        "title": "Staking & Restaking",
+        "summary": "Babban haɗin gwiwa don tabbatar da hanyar sadarwa-kuma wani lokacin sake amfani da wannan tsaro",
+        "intro": "Tabbacin hannun jari yana daidaita masu inganci tare da tsaro na sarkar ta hanyar gungumen azaba. Alamu masu ɗimbin ruwa suna haɓaka ingantaccen babban jari; sake sake amfani da gungumen azaba don ƙarin ayyuka da tara abubuwan da ke da alaƙa da lahani.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "PoS yana buƙatar isassun saitin ingantattun ma'auni. Sakamako yana rama ayyuka da farashin dama; Rikicin ruwa yana haifar da shiga tare da sabbin haɗarin kwangila."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Kunnawa da layukan fita, ayyuka, da yankewa suna bayyana aikin. Sake mayarwa yana ba da tsaro ga ƙarin ƙa'idodi don ƙarin yawan amfanin ƙasa-da ƙarin yanayin slash."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Ayyukan mai aiki, bambancin abokin ciniki, da LST depeg al'amarin haɗari. Yawan amfanin gona yawanci yana nufin ƙarin hanyoyin da za a hukunta."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Shafukan tara na karya suna girbi yarda ko iri. Maimaitawa ba abin dogaro bane mara haɗari akan ETH."
+          }
+        ],
+        "keyPoints": [
+          "Staking yana biyan aikin tsaro.",
+          "Liquid staking yana ƙara kwangiloli/masu aiki.",
+          "Restaking stacks slash yanayi.",
+          "Cire jinkiri yana nufin yawan kuɗi ba nan take ba."
+        ],
+        "tips": [
+          "Zaɓi masu aiki tare da rikodin waƙa da ƙarancin maida hankali.",
+          "Girman sake daidaitawa zuwa jurewa juzu'i.",
+          "Shigar kawai ta hanyar hanyoyin haɗin yanar gizo na hukuma."
+        ],
+        "body": "Tabbacin hannun jari yana daidaita masu inganci tare da tsaro na sarkar ta hanyar gungumen azaba. Alamu masu ɗimbin ruwa suna haɓaka ingantaccen babban jari; sake sake amfani da gungumen azaba don ƙarin ayyuka da tara abubuwan da ke da alaƙa da lahani."
+      },
+      {
+        "id": "perps",
+        "title": "Makomar Dawwama",
+        "summary": "Kasuwannin da ba su ƙarewa ba an kafa su ta hanyar ƙimar kuɗi",
+        "intro": "Perps ya bar yan kasuwa su yi tsayi/gajere tare da gefe kuma babu ƙarewa. Wuraren da ke kan sarkar suna ɓoye gefe da ruwa a cikin lamba ko tsarin gauraye. Juye yana haɓaka-haka gudun-zuwa-sifili.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Spot kadai ba zai iya bayyana shinge da kyau ba. Perps ya zama babban abin da ya samo asali na crypto ta hanyar cire juzu'i."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Canja wurin kuɗi tsakanin dogayen wando da guntun wando zuwa farashin haɗawa zuwa fihirisa. Gefen kulawa yana haifar da ruwa; Asusun inshora na iya ɗaukar gazawar. Oracles da outages suna da mahimmanci a cikin hargitsi."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Ƙaddamarwa, ƙaddamarwa ta atomatik, da kuma samar da kudade suna ƙayyade rayuwa. Tsarin tsare CEX vs DEX sun bambanta."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "\"Ƙananan leverage ba shi da lafiya\" ya gaza cikin wicks. Rashin iya ƙara gefe saboda matsalar iskar gas/matsala na iya shafe ku."
+          }
+        ],
+        "keyPoints": [
+          "Tallafin kuɗi yana maye gurbin ƙarewar ƙarewa.",
+          "Injiniyoyin ruwa suna wanzuwa.",
+          "Leverage yana jujjuya canzawa zuwa rashin daidaituwar gogewa.",
+          "Haɗarin wuri da oracle sun taru akan haɗarin kasuwa."
+        ],
+        "tips": [
+          "Tsohuwar zuwa ƙaramar abin amfani tare da keɓaɓɓen gefe.",
+          "Rage girman kafin abubuwan da suka faru; kar a rama-kara.",
+          "Yi amfani da wuraren da za ku iya tabbatar da dokokinsu."
+        ],
+        "body": "Perps ya bar yan kasuwa su yi tsayi/gajere tare da gefe kuma babu ƙarewa. Wuraren da ke kan sarkar suna ɓoye gefe da ruwa a cikin lamba ko tsarin gauraye. Juye yana haɓaka-haka gudun-zuwa-sifili."
+      },
+      {
+        "id": "rwa",
+        "title": "RWA Tokenization",
+        "summary": "Kawo da'awar kan tsabar kuɗi na zahiri na duniya akan layin dogo na crypto",
+        "intro": "RWAs suna haɗa abubuwan da aka saba amfani da su (kamar T-bills) zuwa sasantawa akan sarkar. Alamar tana da kyau kamar nade-nade na doka, tsarewa, da fansa-ba kawai UI na kwangilar wayo ba.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Yawan amfanin ƙasa na crypto ba shi da ƙarfi; na'urorin tsabar kuɗi masu alama na iya dacewa da buƙatun taska lokacin da tsarin ke da kyau."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Ƙungiya mai lasisi tana riƙe da kadarori; Alamu suna bin da'awar; ana rarraba amfanin gona akan sarkar. Lissafin izini na KYC na gama gari. Farashin na biyu na iya bambanta daga NAV."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Nisan fatarar kuɗi, shaida, fansa T+N, da hukumci suna yanke sakamakon damuwa. \"A bayyane akan sarkar\" ≠ ana iya aiwatar da sarkar kashe ta atomatik."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Haɗarin Counterparty da ƙa'idodi suna zaune kusa da haɗarin kwangila. Shafukan biyan kuɗi na karya sun yi yawa."
+          }
+        ],
+        "keyPoints": [
+          "RWA = doka + tsarewa + token famfo.",
+          "Haɓaka yana fitowa daga kadarorin da ba a haɗa su ba.",
+          "Dokokin canja wuri / fansa na iya zama gated.",
+          "Yi ƙwazo ga tsarin mai bayarwa, ba kawai APR ba."
+        ],
+        "tips": [
+          "Karanta bayar da takardu da adana takaddun shaida.",
+          "Tabbatar da ikon ku yana ba da izinin riƙe shi.",
+          "Kalli tagogin fansa da zurfin sakandare."
+        ],
+        "body": "RWAs suna haɗa abubuwan da aka saba amfani da su (kamar T-bills) zuwa sasantawa akan sarkar. Alamar tana da kyau kamar nade-nade na doka, tsarewa, da fansa-ba kawai UI na kwangilar wayo ba."
+      }
+    ]
+  },
+  {
+    "id": "nfts",
+    "name": "NFTs",
+    "summary": "Alamu na musamman da wuraren kasuwa a gare su",
+    "blurb": "Daga ma'auni da kasuwanni zuwa al'adu, wasanni, da kaddarori masu ƙarfi.",
+    "items": [
+      {
+        "id": "erc721",
+        "title": "ERC-721 & ERC-1155",
+        "summary": "Madaidaitan musaya don keɓantacce da alamun fungible",
+        "intro": "Ma'auni suna barin wallet da kasuwanni su yi magana da harshe ɗaya. 721 taswirori id ɗaya zuwa mai shi ɗaya; 1155 yana sarrafa ids da yawa da canja wurin tsari-mai amfani don wasanni.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Ba tare da ma'auni ba, kowane aikin yana ƙirƙira APIs na bene kuma yana karya hulɗar aiki. Masu ƙirƙira kuma suna samun rarrabar kasuwanni da yawa."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "An daidaita ikon mallaka da canja wuri; metadata sau da yawa yana rayuwa a tokenURI (yawanci IPFS). Amincewa na iya zama kowane-alama ko faɗin ma'aikata."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Ƙididdigar metadata, ƙididdigewa, da manufofin sarauta suna haifar da dorewa da tattalin arziki. Tarin karya na kwafin fasaha tare da kwangiloli daban-daban — adiresoshin amana."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Yarda da Makaho don Duk zuwa kasuwannin da ba a san su ba shine tsayayyen magudanar ruwa. Rarity labari ≠ liquidity."
+          }
+        ],
+        "keyPoints": [
+          "Matsayi yana ba da damar haɗin kai, ba ƙima mai mahimmanci ba.",
+          "Zaɓin ajiya yana rinjayar dawwama.",
+          "Rage yarda.",
+          "Adireshin kwangila shine bincikar sahihancin."
+        ],
+        "tips": [
+          "Tabbatar da kwangilar hukuma kafin siye.",
+          "Soke tsoffin ma'aikatan kasuwa.",
+          "Raba manyan ƙima a cikin walat ɗin vault."
+        ],
+        "body": "Ma'auni suna barin wallet da kasuwanni su yi magana da harshe ɗaya. 721 taswirori id ɗaya zuwa mai shi ɗaya; 1155 yana sarrafa ids da yawa da canja wurin tsari-mai amfani don wasanni."
+      },
+      {
+        "id": "markets",
+        "title": "Kasuwancin NFT",
+        "summary": "Jeri, bayyani, sasantawa, da matakan manufofin sarauta",
+        "intro": "Kasuwanni sun dace da masu siye da masu siyarwa tare da kan-sarki ko kwararar oda. Aggregators hanya a fadin wurare. Yin tilastawa sarauta shine ƙara manufofin kasuwa, ba tsantsar ƙa'idar yarjejeniya ba.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Masu halitta suna buƙatar rarraba; masu tarawa suna buƙatar ganowa da ƙirar farashi. Gasar tana matsar kuɗi kuma tana haɓaka tsammanin tsaro."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Masu siyarwa sun yarda da canja wuri; masu saye sun daidaita. Duba jerin abubuwan da aka sata akan rangwamen da ba zai yiwu ba. Aggregators suna taimakawa farashi amma ba ƙwazo ba."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Kudade, escrows, cinikin wankin, da kuma abubuwan da ba su dace ba. Za a iya sarrafa taswirar bene."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "UI phishing yana kwaikwayon manyan kasuwanni. Sa hannu na Airdrop abu ne na kowa."
+          }
+        ],
+        "keyPoints": [
+          "Kasuwanni tituna ne, ba garantin ƙima ba.",
+          "Bidi'a da yarda suna ɗaukar haɗari.",
+          "Dokokin sarauta sun bambanta da wurin.",
+          "Tambayoyi masu ƙananan ƙananan ƙila za a iya sace kadarori."
+        ],
+        "tips": [
+          "Alamar yanki na hukuma; tsallake tallan bincike.",
+          "Ci gaba da girman tayin da mai ra'ayin mazan jiya.",
+          "Tara a hankali cikin lokaci."
+        ],
+        "body": "Kasuwanni sun dace da masu siye da masu siyarwa tare da kan-sarki ko kwararar oda. Aggregators hanya a fadin wurare. Yin tilastawa sarauta shine ƙara manufofin kasuwa, ba tsantsar ƙa'idar yarjejeniya ba."
+      },
+      {
+        "id": "pfp",
+        "title": "PFP & Al'adu NFTs",
+        "summary": "Halaye da membobin al'umma an nannade su azaman kafofin watsa labarai na kasuwanci",
+        "intro": "NFTs-hoton bayanin martaba suna juya ikon mallaka zuwa siginar zamantakewa. Farashi labari ne- kuma ana tafiyar da kuɗi fiye da tsabar tsabar kuɗi. Bi da su a matsayin al'ada farko, hasashe na biyu.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Ana hayar sunayen masu amfani da dandamali; PFPs suna ƙoƙarin gano ainihin gani na šaukuwa da samun damar al'umma - hankali zai iya yin kuɗi, kuma hankali zai iya barin."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Mints, kayan aikin rarity, Discord/Telegram, da ciniki na biyu sun samar da madauki. Wasu suna ƙara amfani; da yawa ba sa."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Rarraba mai riko, buɗewa, da ƙananan littattafai suna haifar da haɗarin haɗari. Zamba na kwaikwayi yana dawwama."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Korar labarin \"blue guntu\" a kololuwar euphoria yana da zafi. Kar a taba amincewa da admins na DM da iri."
+          }
+        ],
+        "keyPoints": [
+          "Ƙimar ita ce mafi yawan zamantakewa da labari.",
+          "Tabbatar da kwangila/tashoshi na hukuma.",
+          "Ruwa na iya ɓacewa da sauri.",
+          "Tattara/yi zamantakewa; kar a kula da yadda ake samun garanti."
+        ],
+        "tips": [
+          "Al'ummomin Lurk kafin siye.",
+          "Yi watsi da DMs na iska.",
+          "Ƙaddamar da max-asara kasafin kuɗi."
+        ],
+        "body": "NFTs-hoton bayanin martaba suna juya ikon mallaka zuwa siginar zamantakewa. Farashi labari ne- kuma ana tafiyar da kuɗi fiye da tsabar tsabar kuɗi. Bi da su a matsayin al'ada farko, hasashe na biyu."
+      },
+      {
+        "id": "gaming-assets",
+        "title": "Kayayyakin Wasa",
+        "summary": "Abubuwan da za a iya siyar da su, haruffa, da ƙasa tare da tabbataccen ikon mallaka",
+        "intro": "Wasannin Crypto sun yi alkawarin cewa abubuwa da yawa sun kasance naku. madaukai masu nishadi, daidaiton tattalin arziki, da ainihin mallaka dole ne su kasance tare-ko kuma a bar ku da harsashi mai hasashe.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Rufewar al'ada yana shafe kayan ƙira. Bude kasuwanni da tabbataccen ikon mallaka suna canza tsammanin ɗan wasa da ba da damar tattalin arzikin UGC."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Haɓaka suna ci gaba da yaƙi da sarka na ainihi kuma suna warware ƙarancin sarkar. Mint, nutsewa, da farashin sifar ƙira; fitar da hayakin da ba a tantance ba yana zuga su."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Matsakaicin samarwa / nutsewa da masu kashe kuɗi suna da mahimmanci fiye da fasaha kaɗai. Mallaki ≠ nema."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Yin la'akari da farkon alamar ladan azaman albashi ya gaza a kasuwannin bear. Ware maɓallan wasan daga walat ɗin vault."
+          }
+        ],
+        "keyPoints": [
+          "Mallaka tana buƙatar madauki mai dorewa.",
+          "Tsarin tattalin arziki yana tafiyar da farashi mai tsayi.",
+          "Hybrids suna kasuwanci da tsabta don aiki.",
+          "Haɓakawa ≠ riƙe ɗan wasa."
+        ],
+        "tips": [
+          "Yi wasa kafin siyan kadarori masu tsada.",
+          "Bibiyar nutsewa da hayaƙi.",
+          "Ware asusun wasanni daga manyan kudade."
+        ],
+        "body": "Wasannin Crypto sun yi alkawarin cewa abubuwa da yawa sun kasance naku. madaukai masu nishadi, daidaiton tattalin arziki, da ainihin mallaka dole ne su kasance tare-ko kuma a bar ku da harsashi mai hasashe."
+      },
+      {
+        "id": "tickets",
+        "title": "Tikiti & Takaddun shaida",
+        "summary": "Haƙƙin samun tabbataccen damar tare da zaɓin ƙa'idodin canja wuri",
+        "intro": "Tikiti da membobinsu suna game da tabbatar da cancanta. Takaddun shaida akan sarkar na iya rage karyar karya da ba da damar sake siyarwar sarrafawa-idan rajistan shiga UX yana aiki ga mutane na yau da kullun.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Fas ɗin takarda da ɓata lokaci suna cutar da al'amura. Tabbataccen tikitin dijital na iya ɗaure ainihi ko saita iyakokin canja wuri kuma su bar hanyoyin da za a iya tantancewa."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Mint / da'awar akan siyan; ana amfani da alamar-zuwa-fanshi. Zaɓuɓɓukan Soulbound suna rage yawan motsa jiki. Keɓantawa/KYC sau da yawa yana zama ba sarkar."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Canja wurin, harin hoton allo, da dawowa idan an rasa iri duk suna buƙatar ƙira. Gwagwarmaya na walat na iya ware masu sauraro."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Mint tikitin karya da abubuwan da aka watsar suna barin alamun marasa amfani. Kada ku wuce gona da iri na bayanan sirri zuwa kwangilolin da ba a san su ba."
+          }
+        ],
+        "keyPoints": [
+          "Ƙimar ita ce dama, ba juyawa ba.",
+          "Fansa UX yana yanke hukunci.",
+          "Karanta dokokin canja wuri kafin siye.",
+          "Hanyoyin farfadowa har yanzu suna da mahimmanci."
+        ],
+        "tips": [
+          "Saya kawai ta tashoshi mai shiryarwa.",
+          "Gwada nunin walat kafin taron.",
+          "Ci gaba da tabbatar da imel ɗin kashe sarkar ma."
+        ],
+        "body": "Tikiti da membobinsu suna game da tabbatar da cancanta. Takaddun shaida akan sarkar na iya rage karyar karya da ba da damar sake siyarwar sarrafawa-idan rajistan shiga UX yana aiki ga mutane na yau da kullun."
+      },
+      {
+        "id": "dynamic",
+        "title": "Dynamic NFTs",
+        "summary": "Kayayyakin da halayensu na iya canzawa tare da sarkar kan-tsare ko yanayin magana",
+        "intro": "NFT masu ƙarfi suna sabunta bayyanar ko sifofi daga ci gaban wasan, lokaci, ko bayanan waje. Suna jin suna raye-amma dole ne mutability ya zama bayyananne ga masu siye.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Matakan membobinsu da abubuwan wasa masu tasowa suna buƙatar yanayi. Dynamics suna yin NFT fiye da hotuna masu tsayi."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Kwangiloli ko sabis na metadata suna sabunta URIs daga masu jawo. Idan metadata ta kasance a tsakiya, haɓakawa na iya zama gyare-gyaren shiru."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Wanene zai iya sabuntawa? Ana iya duba tarihi? Dole ne wuraren kasuwa su nuna sabuwar jiha. Ya kamata masu siye su san abin da zai iya canzawa."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Masu aiki za su iya zama rashin ƙarfi. Laifin Oracle na iya saita sifofi mara kyau. \"Rarity mara canzawa\" tare da sabuntawar gudanarwa mara shiru alama ce ta ja."
+          }
+        ],
+        "keyPoints": [
+          "Dynamics fasali ne da haɗari.",
+          "Buga sabunta izini a sarari.",
+          "Samfurin Hosting yana fitar da amana.",
+          "Tabbatar da sabbin halaye kafin ciniki."
+        ],
+        "tips": [
+          "Karanta ƙa'idodin sabuntawa da tarihi.",
+          "Fi son ingantattun injunan jihar akan sarkar.",
+          "Ajiye manyan ƙima a cikin walat ɗin sanyi."
+        ],
+        "body": "NFT masu ƙarfi suna sabunta bayyanar ko sifofi daga ci gaban wasan, lokaci, ko bayanan waje. Suna jin suna raye-amma dole ne mutability ya zama bayyananne ga masu siye."
+      }
+    ]
+  },
+  {
+    "id": "layer2",
+    "name": "Layer 2",
+    "summary": "Ƙididdiga hanyoyin sadarwar da aka gina a saman Ethereum",
+    "blurb": "Zazzagewa / ZK rollups, samuwar bayanai, gadoji, da dalilin da yasa kudade na iya faɗuwa zuwa cents.",
+    "items": [
+      {
+        "id": "optimistic",
+        "title": "Sabbin Zafafa",
+        "summary": "A ɗauka batches suna da inganci; amintar da su da taga mai hana zamba",
+        "intro": "Zaɓuɓɓukan kyakkyawan fata suna aiwatarwa akan L2, aika bayanai zuwa Ethereum, kuma suna ɗaukar daidaito sai dai in an ƙalubalanci. Masu amfani suna samun rahusa UX; ficewar canonical na iya jira lokacin ƙalubale.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "L1 toshe sarari yana da tsada. Matsar da kashe sarkar yayin da aka jingina zuwa L1 yana rage farashi. An aika da ƙirar ƙira da wuri tare da ƙarfin ƙarfin EVM."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Mai bibiya yana yin odar ma'amaloli kuma yana buga batches; Tushen jihar akan L1. A lokacin taga, masu kallo zasu iya jayayya. Fitowa da sauri suna amfani da ruwa na ɓangare na uku tare da ƙarin zato."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Ƙaddamar da ma'auni, samuwan bayanai, da maɓallan haɓakawa suna bayyana tsaro na gaske. Gudun UX ≠ ya gama rarrabawa."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Yin watsi da ficewar yana jinkirin rashin biyan kuɗi. Shafukan gada na karya suna karuwa a duk lokacin da yanayin L2s."
+          }
+        ],
+        "keyPoints": [
+          "Kalubalanci jinkirin cinikin windows don mafi sauƙaƙan hujjojin zamba.",
+          "Tsaro yana dogara akan bayanan L1 + wasannin jayayya.",
+          "Canonical gadoji suna da hankali amma sun fi bayyana.",
+          "Sequencer uptime shine haɗarin kwarewa."
+        ],
+        "tips": [
+          "Shirin L1 yana fita tare da jinkirin tunani.",
+          "Fi son wuraren shiga gada na hukuma.",
+          "Karanta takardun tsere-hatch don fitar da jerin abubuwan."
+        ],
+        "body": "Zaɓuɓɓukan kyakkyawan fata suna aiwatarwa akan L2, aika bayanai zuwa Ethereum, kuma suna ɗaukar daidaito sai dai in an ƙalubalanci. Masu amfani suna samun rahusa UX; ficewar canonical na iya jira lokacin ƙalubale."
+      },
+      {
+        "id": "zk",
+        "title": "Farashin ZK",
+        "summary": "Tabbatattun hujjoji sun shawo kan L1 cewa batches L2 daidai ne",
+        "intro": "Tabbacin inganci yana barin L1 ya karɓi sakamako ba tare da doguwar taga zamba ba. Tabbatarwa yana da nauyi cikin lissafi, amma ƙarshe na iya jin daɗi da zarar an tabbatar da ƙasa.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Scale ba tare da dogara ga \"zaton gaskiya sai dai idan an kalubalanci.\" Saurin daidaitawa yana taimakawa musanya da gadoji."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "L2 aiki; masu fa'ida suna gina hujjoji; Masu tabbatar da L1 suna duba su. Mafi girman daidaitattun EVM yana sauƙaƙe ƙaura na app."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Tsarin tabbaci, DA, da maɓallan haɓakawa har yanzu suna da mahimmanci. Alamar \"ZK\" ≠ kasuwannin da ba a daidaita su ba tukuna."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Ƙididdigar ƙididdiga/masu-biyu na iya zama. Gada da phishing har yanzu suna mamaye asarar masu amfani."
+          }
+        ],
+        "keyPoints": [
+          "Tabbatattun tabbaci suna ƙarfafa garantin daidai.",
+          "Hardware/injiniya yana kashe sifar kuɗaɗe da rarrabawa.",
+          "Masu amfani har yanzu suna buƙatar tsabtace gada da walat.",
+          "Daidaituwar EVM tana tafiyar da jigilar mahalli."
+        ],
+        "tips": [
+          "Bincika taswirorin karkasa tsarin mulki na prover.",
+          "Gwada gadoji tare da ƙananan kuɗi.",
+          "Karanta zanen DA a hankali."
+        ],
+        "body": "Tabbacin inganci yana barin L1 ya karɓi sakamako ba tare da doguwar taga zamba ba. Tabbatarwa yana da nauyi cikin lissafi, amma ƙarshe na iya jin daɗi da zarar an tabbatar da ƙasa."
+      },
+      {
+        "id": "data",
+        "title": "Samun Bayanai",
+        "summary": "Tabbatar da kowa zai iya samun bayanan da ake buƙata don sake gina jihar",
+        "intro": "Rollups dole ne su sa a sami bayanan ma'amala. Idan bayanai sun ɓace, masu amfani na iya kasa fita lafiya. Blobs ya rage farashin Ethereum DA kuma ya taimaka matsawa kuɗin L2.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Hujjoji ba tare da bayanai ba har yanzu na iya kama masu amfani da tarko. Inda bayanai ke rayuwa-da kuma yadda suke da tsada-yana zaune a tsakiyar muhawara."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Bayanai na iya zama a cikin Ethereum calldata/blobs ko na waje DA yadudduka, sau da yawa tare da samfurin / goge coding. Gadon tsaro ya bambanta da ƙira."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "\"An daidaita zuwa Ethereum\" baya kama da \"DA daidai da cikakken garantin Ethereum.\" Faɗin kuɗin sau da yawa yana bin mai arha DA."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Rashin kimanta yanayin gazawar DA yana da haɗari. Talla na iya ɓata daidaituwa da samuwa."
+          }
+        ],
+        "keyPoints": [
+          "Ba tare da DA ba, ceton kai yana raunana.",
+          "Haɓaka-zamanin Blob sun canza maɓallan kuɗin L2.",
+          "Zaɓuɓɓukan DA suna ɗaukar zato daban-daban.",
+          "Kudaden alkalai, aminci, da raba gari tare."
+        ],
+        "tips": [
+          "Karanta kowane sashin L2 na DA.",
+          "Riƙe bayanan kuɓuta na hukuma mai amfani.",
+          "Kada ku sanya sarƙoƙi ta TPS kaɗai."
+        ],
+        "body": "Rollups dole ne su sa a sami bayanan ma'amala. Idan bayanai sun ɓace, masu amfani na iya kasa fita lafiya. Blobs ya rage farashin Ethereum DA kuma ya taimaka matsawa kuɗin L2."
+      },
+      {
+        "id": "bridges-l2",
+        "title": "L2 Gada",
+        "summary": "Canonical tare da hanyoyi na ɓangare na uku tsakanin L1 da L2",
+        "intro": "Canonical gadoji sun gaji ka'idodin jujjuyawa kuma suna iya zama a hankali; gadoji na ɓangare na uku suna sayar da sauri tare da ƙarin amana. Zaɓin UI mara kyau shine babban tsarin asara.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Kuna buƙatar kuɗi akan L2 don UX mai arha, ko baya akan L1 don daidaitawa. Masu amfani daban-daban suna zaɓar madaidaicin amana/latency mabambanta."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Haɓaka ma'auni na L2 na hukuma bayan ajiya da fita kowace ƙa'idodin naɗa. Mai sauri gadoji gaban ruwa da sake daidaitawa daga baya-kudaden agogo da iyaka."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Sahihancin yanki, haɓakawa, iyakoki, da hanyoyin dawo da kuɗi suna da mahimmanci. Mafi sauri yawanci yana nufin ƙarin takwarorinsu."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Bincika-ad tallace-tallace na karya. Ƙirƙirar sigar alamar da ba daidai ba ta daidaita yawan ruwa. Bayar da kuɗi har yanzu yana cikin ƙalubalantar haɗarin windows-mis-marks."
+          }
+        ],
+        "keyPoints": [
+          "Canonical gadoji sun dace da zato mafi kyau.",
+          "Fast gadoji kasuwanci amana na lokaci.",
+          "Tabbatar da yanki ya zama tilas.",
+          "Ƙananan gwaje-gwaje kafin girma."
+        ],
+        "tips": [
+          "Danna gadoji daga rukunin yanar gizon L2.",
+          "Ajiye hashes tx don tallafi/debugging.",
+          "Ka guji sabbin gadoji waɗanda ba a tantance su ba don girman."
+        ],
+        "body": "Canonical gadoji sun gaji ka'idodin jujjuyawa kuma suna iya zama a hankali; gadoji na ɓangare na uku suna sayar da sauri tare da ƙarin amana. Zaɓin UI mara kyau shine babban tsarin asara."
+      },
+      {
+        "id": "accounts-aa",
+        "title": "Abstraction Account",
+        "summary": "Wallet ɗin kwangila mai wayo tare da farfadowa, iyakoki, da iskar gas mai ɗaukar nauyi",
+        "intro": "Classic EOAs na nufin jimlolin iri da iskar gas mai biyan kuɗi. AA yana ba wa wallet damar ayyana dabaru na tabbatarwa-masu tsaro, maɓallan zaman, batching, masu biyan kuɗi-don haka hawan jirgi yana jin kusanci da Web2 ba tare da cikakken barin tsare kai ba.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Tsaba suna tsoratar da sababbin masu zuwa; iskar gas ya ruɗe su. AA yana rage gogayya yayin da ake kiyaye iko mai tabbatarwa. dApps suna samun ƙarancin buguwa ta hanyar zama da batches."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "UserOperations an haɗa su akan sarkar; masu biyan albashi na iya daukar nauyin kudade. Kwangilolin walat suna tilasta manufofi. Matsayi kamar ERC-4337 sun bambanta ta hanyar balaga."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Su wane ne masu tsaro? Shin farfadowa ya kasance a tsakiya? Shin izinin zama yayi yawa? Misconfig har yanzu yana asarar kuɗi."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "\"Babu iri\" ≠ babu kasada-ana iya kai hari kan tashoshi na farfadowa. Akwai madaidaitan ma'auni/masu biyan kuɗi. Zama zuwa dApps da ba a san su ba suna da haɗari."
+          }
+        ],
+        "keyPoints": [
+          "AA tana ɓoye manufofin a cikin wallet ɗin kwangila.",
+          "Gas da aka tallafawa da farfadowar zamantakewa sune nasarar kanun labarai UX.",
+          "Kanfigareshan yana zaɓar tsaro na gaske.",
+          "Har yanzu phishing yana aiki idan kun yarda a makance."
+        ],
+        "tips": [
+          "Zabi masu kulawa da na'urori daban-daban.",
+          "gajeriyar maɓallai, iyakataccen maɓallan zaman kawai.",
+          "Ajiye hardware/multisig don rumbun ajiya."
+        ],
+        "body": "Classic EOAs na nufin jimlolin iri da iskar gas mai biyan kuɗi. AA yana ba wa wallet damar ayyana dabaru na tabbatarwa-masu tsaro, maɓallan zaman, batching, masu biyan kuɗi-don haka hawan jirgi yana jin kusanci da Web2 ba tare da cikakken barin tsare kai ba."
+      },
+      {
+        "id": "multi-chain",
+        "title": "Gaskiyar sarkar da yawa",
+        "summary": "Rarraba ruwa da masu amfani a cikin yankuna da yawa",
+        "intro": "Mutane kaɗan ne ke rayuwa akan sarka ɗaya yanzu. Alamomin gas, gadoji, da tura aikace-aikacen sun bambanta. Masu warware niyya suna ɓoye hanyoyi, amma har yanzu dole ne ku san inda kuɗi ke zaune.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Sarkar ɗaya ba za ta iya inganta kowane kuɗin kuɗi / aiki ba. Ƙarin zaɓi kuma yana nufin ƙarin hanyoyin da za a zaɓi hanyar sadarwa mara kyau."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Wallets canza RPC / ID na sarkar; adireshin iri ɗaya na iya ɗaukar kadarori daban-daban a kowace sarkar EVM. Gada da saƙon suna haɗa jihohi; masu warware matsalar suna gasa don cika niyya."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Sahihancin ID na sarkar, RPCs na karya, da kwangiloli na kowane sarkar safa ne na yau da kullun. Ma'aunin sifili galibi yana nufin hanyar sadarwa mara kyau da aka zaɓa."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Sa hannu na yaudara na al'ada RPCs. Girgiza taga yana ƙara haɗari. Yada kudaden da ba za a iya maye gurbinsu ba a cikin sabbin L2s guda goma bashi ne na aiki."
+          }
+        ],
+        "keyPoints": [
+          "Multi sarkar al'ada ne - tabbatar da cibiyoyin sadarwa koyaushe.",
+          "Adireshi iri ɗaya ≠ ma'auni iri ɗaya a ko'ina.",
+          "Maƙasudai suna ɓoye rikitarwa; ba sa goge haɗarin gada.",
+          "Ƙananan sarƙoƙi masu aiki suna rage kurakurai."
+        ],
+        "tips": [
+          "Lakabi cibiyoyin sadarwa a sarari a cikin walat ɗin ku.",
+          "Hoton hoto/duba sunayen cibiyar sadarwa kafin aikawa.",
+          "Koyi hanyoyin fita kafin sakawa cikin sabuwar sarka."
+        ],
+        "body": "Mutane kaɗan ne ke rayuwa akan sarka ɗaya yanzu. Alamomin gas, gadoji, da tura aikace-aikacen sun bambanta. Masu warware niyya suna ɓoye hanyoyi, amma har yanzu dole ne ku san inda kuɗi ke zaune."
+      },
+      {
+        "id": "costs",
+        "title": "Me yasa Kudaden L2 na iya zama Cents",
+        "summary": "Batching da arha bayanai suna rage farashin L1 a tsakanin masu amfani da yawa",
+        "intro": "A kan cunkoson L1 kuna yin tayin neman ƙarancin toshe wuri. L2s suna tattara txs da yawa tare don haka kowane mai amfani ya biya yanki na bayanan da aka raba/hujja - sau da yawa zuwa cents.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Babban kudade yana toshe micropayments da madaukai na wasa. Ƙananan kuɗi suna barin mutane na yau da kullun su yi amfani da ƙa'idodi, ba kawai kallon ginshiƙi ba."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Kisa yana faruwa akan L2; Takaitattun bayanai sun buga L1. Blob-era DA yana rage farashin naúrar. L2s na iya yin cunkoso, yawanci ƙasa da kololuwar L1. Kudaden gada da zamewa abubuwa ne daban-daban na layi."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Mai arha ≠ daidai gwargwado. Manufofin kuɗaɗen biyan kuɗi suna siffanta UX. Amincewa da matakai da yawa har yanzu suna haɓaka."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Hadarin zamba don ceton dala biyu rashin hankali ne. Abubuwan damuwa suna daɗa muni duka kudade da lokutan fita."
+          }
+        ],
+        "keyPoints": [
+          "Amortization + mai rahusa DA matsawar kuɗin tuƙi.",
+          "L2 cunkoso yana samuwa a ma'auni daban-daban.",
+          "Jimlar farashin ya haɗa da gada, zamewa, da lokaci.",
+          "Amintacciya ta doke tsabar kuɗi."
+        ],
+        "tips": [
+          "Haɗa kuɗin gada lokacin kwatanta hanyoyi.",
+          "Jira spikes don ayyukan da ba na gaggawa ba.",
+          "Riƙe ɗan ƙaramin L1 ETH azaman mai tserewa."
+        ],
+        "body": "A kan cunkoson L1 kuna yin tayin neman ƙarancin toshe wuri. L2s suna tattara txs da yawa tare don haka kowane mai amfani ya biya yanki na bayanan da aka raba/hujja - sau da yawa zuwa cents."
+      }
+    ]
+  },
+  {
+    "id": "infra",
+    "name": "Kayan aiki",
+    "summary": "Oracles, ajiya, fihirisa da kayan aikin haɓakawa",
+    "blurb": "Bututun da ba a iya gani da ke ba da wutar lantarki, DeFi, da mafi aminci UX.",
+    "items": [
+      {
+        "id": "oracles",
+        "title": "Oracles",
+        "summary": "Gada waɗanda ke kawo ƙarshen sarkar gaskiya cikin kwangiloli masu wayo",
+        "intro": "Kwangiloli ba za su iya ganin farashin musaya ko maki na zahiri kadai ba. Oracle yana tara bayanan waje don masu ruwa da tsaki, da kuma inshora. Lokacin da suka kasa, cascades suna biyo baya.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Blockchains sun keɓe don ƙaddara, duk da haka kuɗi yana buƙatar bayanai. Oracles suna daidaita sabo da mutunci - ba tare da su galibin DeFi ba."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Abubuwan da aka tattara sun tattara, masu fita waje suna faduwa, sabuntawa suna turawa akan bugun zuciya ko buƙata. Wasu ƙira suna yin gungumen azaba kuma suna kashe masu rahoto mara kyau. Masu satar kewayawa suna cikin hargitsi."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Ƙananan kasuwanni sun fi sauƙi don yin amfani da su don rance mara kyau. Saƙonnin sarƙaƙƙiya matsaloli ne na amintattu kuma."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Samun “baƙi” ≠ rashin rauni. Farashin da ba daidai ba, adadin decimals mara kyau, da ciyarwar da aka dakatar duk cizo."
+          }
+        ],
+        "keyPoints": [
+          "Oracle shine layin rayuwar DeFi.",
+          "Alƙali tushen, tarawa, da sabunta dokoki.",
+          "Kadarorin da ba na haram ba sun fi sauƙi don yin zullumi.",
+          "Masu watsewar da'ira suna rage fashewar radius."
+        ],
+        "tips": [
+          "Sanin wane ciyarwa da bugun zuciya wata yarjejeniya ke amfani da ita.",
+          "Rage madaidaicin ayyuka a cikin matsananciyar rashin ƙarfi.",
+          "Guji ƙirar tushen tushen guda ɗaya don girma."
+        ],
+        "body": "Kwangiloli ba za su iya ganin farashin musaya ko maki na zahiri kadai ba. Oracle yana tara bayanan waje don masu ruwa da tsaki, da kuma inshora. Lokacin da suka kasa, cascades suna biyo baya."
+      },
+      {
+        "id": "rpc",
+        "title": "RPC & Nodes",
+        "summary": "Yadda wallet ɗin ke karanta yanayin sarkar da ma'amalolin watsa shirye-shirye",
+        "intro": "Wallets suna magana da blockchain ta hanyar ƙarshen RPC. RPCs na jama'a suna da sauƙi amma ana iya ƙididdige ƙididdigewa, shiga, ko musanya su don phishing. Fahimtar RPC yana taimakawa cire \"ma'auni mara kyau\" da makale txs.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Ba kowa ke gudanar da cikakken kumburi ba. RPCs suna fallasa iyawar kumburi azaman APIs yayin da suke adana zaɓi don ɗaukar nauyin kai."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Aikace-aikace suna aika kiran JSON-RPC zuwa jihar tambaya ko aika txs. Masu bayarwa sun bambanta akan zurfin adana bayanai, keɓantawa, da aminci."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "RPCs masu mugunta na iya nuna ma'auni na karya ko tantance txs. Sa hannu yana zama na gida, amma munanan bayanai na iya yaudare ku. Tabbatar da sarkar ID lokacin ƙara cibiyoyin sadarwa."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Danna \"ƙara cibiyar sadarwa\" daga shafukan inuwa yana da haɗari. Ficewar jama'a ba koyaushe kurakurai bane. Kar a taɓa yin sirrin RPC a gaban jama'a."
+          }
+        ],
+        "keyPoints": [
+          "RPC ita ce kofar karantawa/rubutu.",
+          "Sa hannu na cikin gida ≠ amintacce bayyana yanayin.",
+          "Bincika mahimman ayyuka akan masu bincike.",
+          "Ƙungiyoyin masu zaman kansu/mai ɗaukar nauyin kai suna haɓaka sirri/ dogaro."
+        ],
+        "tips": [
+          "Ajiye amintattun madogaran RPC guda biyu.",
+          "A kan ma'auni masu ban mamaki, canza nodes ko amfani da mai bincike.",
+          "Buga params cibiyar sadarwar hukuma da hannu."
+        ],
+        "body": "Wallets suna magana da blockchain ta hanyar ƙarshen RPC. RPCs na jama'a suna da sauƙi amma ana iya ƙididdige ƙididdigewa, shiga, ko musanya su don phishing. Fahimtar RPC yana taimakawa cire \"ma'auni mara kyau\" da makale txs."
+      },
+      {
+        "id": "indexers",
+        "title": "Indexers",
+        "summary": "Juya danyen rajistan ayyukan cikin APIs samfurin da ake tambaya",
+        "intro": "Ana bincika dukkan sarkar don kowane UI yana jinkirin. Masu ƙididdiga suna shigar da abubuwan da suka faru a cikin ma'ajin bayanai don haka fayiloli da allon jagorori suna jin kai tsaye-mafi yawan ra'ayoyin \"tarihi\" sun fito ne daga maƙasudi, ba cikakken bincike ba.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Kayayyakin suna buƙatar tace tambayoyin a saurin intanit. Manazarta da bots sun dogara akan layi daya."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Ƙayyade tsari, aiwatar da rajistan ayyukan, adanawa, bautar GraphQL/REST. Wuta yana nuna UI mara nauyi. Rukunin cibiyoyin sadarwa masu ƙima suna ƙarfafa masu aiki da yawa."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "UI na iya rage yanayin sarkar gaskiya. Haɓakawa na buƙatar sabuntawar maƙasudi. Kar a yi ruwa a kan dashboard kadai-tabbatar da sarkar."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Fihirisar cin hanci da rashawa suna yaudarar yan kasuwa. Shafukan “portfolio” na yaudara suna kwaikwayon ainihin dashboards."
+          }
+        ],
+        "keyPoints": [
+          "Tambayoyin saurin fihirisa; ba ijma'i ba ne.",
+          "Bayanan UI na iya zama mara nauyi.",
+          "Masu bincike/kwagiloli sune tushen gaskiya don matsananciyar motsi.",
+          "Laifin fihirisa yayi kama da kurakuran yarjejeniya."
+        ],
+        "tips": [
+          "Sake duba abubuwan da ba a sani ba akan mai bincike.",
+          "Yi tsammanin jinkiri bayan manyan haɓakawa.",
+          "Saka idanu mai mahimmanci na iya karanta nodes kai tsaye."
+        ],
+        "body": "Ana bincika dukkan sarkar don kowane UI yana jinkirin. Masu ƙididdiga suna shigar da abubuwan da suka faru a cikin ma'ajin bayanai don haka fayiloli da allon jagorori suna jin kai tsaye-mafi yawan ra'ayoyin \"tarihi\" sun fito ne daga maƙasudi, ba cikakken bincike ba."
+      },
+      {
+        "id": "storage",
+        "title": "Ma'ajiyar Rarraba",
+        "summary": "Cibiyoyin da aka gabatar da abun ciki don fayiloli da metadata NFT",
+        "intro": "Adana manyan fayiloli akan L1 yana da tsada, don haka kafofin watsa labarai galibi suna zama akan tsarin IPFS/Arweave. Hashes yana tabbatar da mutunci, amma samun kan layi har yanzu yana buƙatar pinning ko dawwama biya.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Sabar tsakiya na iya share kafofin watsa labarai na NFT. Ma'ajiyar da ba ta da tushe tana haɓaka ɗorewa da juriya na ƙididdiga don ƙa'idodi da saitin bayanai."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Fayiloli suna samun ID na abun ciki; dawo da nodes ta hanyar zanta. IPFS yana buƙatar pinning; wasu cibiyoyin sadarwa suna jaddada dawwamar biyan kuɗi sau ɗaya. Ƙofofin HTTP suna taimakawa masu bincike amma ƙara amincewar ƙofar."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Mutable centralized tokenURI yana lalata labarin. Ajiye mahimman hashes metadata."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "\"A kan IPFS\" ≠ marar mutuwa idan babu abin da ya sanya shi. Ƙofofin ƙeta na iya allurar rubutun. Tabbatar da hashes kafin gudanar da binaries."
+          }
+        ],
+        "keyPoints": [
+          "Magance abun ciki yana hana gyara shiru, ba sakaci ba.",
+          "Dorewar NFT ya dogara da pinning/biya.",
+          "URIs masu gudanarwa masu canzawa jaja ne.",
+          "Ƙofofin sun dace da ƙarin amana."
+        ],
+        "tips": [
+          "Sanya metadata don NFTs masu ƙima da kanka.",
+          "Tabbatar da CID na hukuma.",
+          "Masu haɓakawa yakamata su fifita metadata maras canzawa."
+        ],
+        "body": "Adana manyan fayiloli akan L1 yana da tsada, don haka kafofin watsa labarai galibi suna zama akan tsarin IPFS/Arweave. Hashes yana tabbatar da mutunci, amma samun kan layi har yanzu yana buƙatar pinning ko dawwama biya."
+      },
+      {
+        "id": "mev",
+        "title": "MEV",
+        "summary": "Ana iya fitar da ƙima daga odar ciniki da haɗawa",
+        "intro": "Masu gini da masu bincike na iya sake yin oda ko saka txs — sandwiches, tseren ruwa, da ƙari. Masu amfani suna jin shi azaman zamewa mai guba; ladabi suna amsawa tare da gwanjo da kwararar sirri.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Mempools na jama'a suna fallasa manyan musanya ga mafarauta. Fahimtar MEV yana bayyana saitunan zamewa da zaɓuɓɓukan ƙaddamarwa na sirri."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Masu nema suna samun dama; magina shirya tubalan; masu ba da shawara buga. Wasu sarƙoƙi suna sake rarraba MEV ga masu ruwa da tsaki. Sandwiches suna rufe kasuwancin ku don tabarbare farashin."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Filayen zamewa, relays masu zaman kansu, gwanjon batch, da niyya suna rage lahani. Masu jerin L2 na iya fitar da MEV suma."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Ba kowane mummunan cika ba ne MEV-fadi zamewa ne da kansa. Guji sketchy \"anti-MEV\" kari."
+          }
+        ],
+        "keyPoints": [
+          "MEV yana zuwa daga kwararar jama'a mai tsari.",
+          "Masu amfani suna ragewa ta hanyar zamewa da hanyoyi masu zaman kansu.",
+          "Ƙirar yarjejeniya ta sake buɗe MEV.",
+          "Bi da shi a matsayin gaskiyar injiniya."
+        ],
+        "tips": [
+          "Raba manyan swaps kuma ƙara zamewa.",
+          "Yi amfani da walat/masu amfani da hanyoyin sadarwa tare da zaɓuɓɓuka masu zaman kansu.",
+          "Ka guji manyan odar kasuwa a cikin kololuwar hargitsi."
+        ],
+        "body": "Masu gini da masu bincike na iya sake yin oda ko saka txs — sandwiches, tseren ruwa, da ƙari. Masu amfani suna jin shi azaman zamewa mai guba; ladabi suna amsawa tare da gwanjo da kwararar sirri."
+      },
+      {
+        "id": "sdks",
+        "title": "Kayan Aikin Haɓakawa",
+        "summary": "Tsarin gwaji, dakunan karatu, da na'urorin asusu waɗanda ke ɗaga bene mai aminci",
+        "intro": "Amintaccen yanayin muhalli ya dogara da gwaje-gwaje irin na Foundry/Hardhat, dakunan karatu da aka buga, kwaikwaiyo, da na'urorin asusu-ba masu dubawa kadai ba. Ingantattun kayan aiki suna kama kwari a baya kuma suna taimakawa wallet su bayyana sa hannu.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "turawa da hannu sun kasa. Kwangilolin da ba a gwada su ba bama-bamai ne na lokaci. SDKs na gaba-gaba yana haɗa haɗin sarka da yawa da sarrafa kuskure."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Gwaje-gwajen da aka soke, da ban tsoro, tura rubutun, saka idanu, da AA SDKs suna samar da madauki. Simulation na riga-kafi yana nuna rarrabuwar kadara."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Dogarorin da ba su da tushe suna ɗauke da sanannun CVEs. Hare-haren da ake kaiwa-sarkin sun bugi fakitin \"lafiya\". Masu amfani yakamata su fi son walat ɗin sa hannu a bayyane."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Kwafi-manna samfuran da ba a tantance ba zuwa babban gidan yanar gizo ba shi da sakaci. Fake \"dev Tools\" kari na satar maɓalli."
+          }
+        ],
+        "keyPoints": [
+          "Kayan aiki kayan aikin tsaro ne marasa ganuwa.",
+          "Yi kwaikwayi kafin kuɗin mainnet.",
+          "Tsaftar dogaro aikin tsaro ne.",
+          "Share sa hannu yana rage nasarar phishing mai amfani."
+        ],
+        "tips": [
+          "Masu haɓakawa: hanyoyin gwajin cokali mai yatsa.",
+          "Masu amfani: kunna simulation.",
+          "Shigar da kari daga tushen hukuma kawai."
+        ],
+        "body": "Amintaccen yanayin muhalli ya dogara da gwaje-gwaje irin na Foundry/Hardhat, dakunan karatu da aka buga, kwaikwaiyo, da na'urorin asusu-ba masu dubawa kadai ba. Ingantattun kayan aiki suna kama kwari a baya kuma suna taimakawa wallet su bayyana sa hannu."
+      },
+      {
+        "id": "identity",
+        "title": "Kan-sarkar Identity",
+        "summary": "Sunaye da za a iya karantawa, shaida, da kuma suna don daidaitawar ɗan adam",
+        "intro": "Dogayen adireshi suna da sauƙin kuskure. Tsarin suna taswirar tambarin ɗan adam zuwa rikodin; Ka'idojin shaida suna ba da da'awar kamar zama memba. Amfani yana haɓaka - haka ma keɓantawa da batutuwan kwaikwayi.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Biyan kuɗi da bukatun jama'a abin tunawa iyawa. Sunaye suna rage kuskuren canja wuri kuma suna aiki azaman katunan kasuwanci na Web3. Suna yana taimakawa anti-Sybil tare da cinikin sirri."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Yi rijista suna, saita bayanan, zaɓin tattara shaidun da aka sa hannu. Wasu takaddun shaida suna da ruhi."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Sunayen sun ƙare; rikodin canje-canje. Iri ɗaya na iya warwarewa daban a cikin sarƙoƙi. Rarrabe adiresoshin ainihi daga rumbun ajiya."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Yankunan kwaikwayo suna satar kuɗi. Daure kowane takaddun shaida zuwa adireshin doxxable guda ɗaya yana tozarta ku."
+          }
+        ],
+        "keyPoints": [
+          "Sunaye Layer ɗin ƙuduri ne, ba garantin banki ba.",
+          "Koyaushe bincika adiresoshin da aka warware kafin aikawa.",
+          "Shaidar tana taimakawa daidaitawa tare da farashin keɓantawa.",
+          "Raba asalin jama'a daga adiresoshin vault."
+        ],
+        "tips": [
+          "Tabbatar da ƙuduri akan aikawa.",
+          "Saita masu tuni masu ƙarewa.",
+          "Yi amfani da adireshi mai ƙarancin ƙima don zamantakewar jama'a."
+        ],
+        "body": "Dogayen adireshi suna da sauƙin kuskure. Tsarin suna taswirar tambarin ɗan adam zuwa rikodin; Ka'idojin shaida suna ba da da'awar kamar zama memba. Amfani yana haɓaka - haka ma keɓantawa da batutuwan kwaikwayi."
+      },
+      {
+        "id": "aa-infra",
+        "title": "Bundlers & Masu biyan kuɗi",
+        "summary": "Rails na baya wanda ke kunshe da Ayyukan UserOperations da tallafawa gas",
+        "intro": "Ba tare da bundles ba, UserOperations suna gwagwarmaya don ƙasa; ba tare da masu biyan kuɗi ba, tallafin gas da \"biya tare da kowane alama\" suna da wahala. Infran AA ɗin da ba daidai ba ya zama ƙarewa ko shimfidar zagi.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Masu amfani ba sa son riƙe alamar gas ɗin kowane sarkar. Apps na son daukar nauyin ayyukan farko. Kayayyakin aiki yana ba wa waɗannan manufofin samfur damar da kasafin kuɗi da lissafin izini."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Wallets gina Masu Amfani; masu daure suna kwaikwaya da sallama; EntryPoint yana aiwatarwa; asusu na masu biyan kuɗi akan kowace manufa tare da iyakokin ƙima."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Shin tallafin yana da alaƙa da wasu kwangiloli? Za a iya noma shi? Bundlers za su tantance? Ƙaddamarwa yana rinjayar juriya."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Maƙasudin ƙarshen ƙeta da raguwar zama mai faɗi bayan kamfen haɗari ne. Gasless ≠ yarda-rashi."
+          }
+        ],
+        "keyPoints": [
+          "AA UX ya dogara da amintattun masu tara kuɗi/masu biyan kuɗi.",
+          "Tallafin yana buƙatar ƙa'idodin hana cin zarafi.",
+          "Zaɓin ƙarshen ƙarshen yana shafar keɓantawa da ƙima.",
+          "Dole ne masu amfani su karanta sa hannu."
+        ],
+        "tips": [
+          "Manufa kan amintattun wuraren da aka amince da wallet.",
+          "Soke zama bayan yakin neman zabe.",
+          "Yi mamakin rashin iskar gas a matsayin abin tuhuma."
+        ],
+        "body": "Ba tare da bundles ba, UserOperations suna gwagwarmaya don ƙasa; ba tare da masu biyan kuɗi ba, tallafin gas da \"biya tare da kowane alama\" suna da wahala. Infran AA ɗin da ba daidai ba ya zama ƙarewa ko shimfidar zagi."
+      }
+    ]
+  },
+  {
+    "id": "wallets",
+    "name": "Wallets",
+    "summary": "Aikace-aikace da na'urorin da ke riƙe da maɓallan ku",
+    "blurb": "Walat masu zafi/sanyi, iri, multisig, da ƙirar tsare sun bayyana.",
+    "items": [
+      {
+        "id": "hot",
+        "title": "Zafafan Wallet",
+        "summary": "Haɗin walat ɗin software don ƙananan ma'auni na yau da kullun",
+        "intro": "Browser da wallet ɗin hannu suna yin dApps nan take. Sauƙaƙawa yana faɗaɗa saman kai hari: rukunin yanar gizo mara kyau, kari na karya, malware na allo, wayoyin da suka ɓace. Ɗauke su a matsayin duba asusu, ba ceton rai ba.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Walat ɗin sanyi suna da maƙarƙashiya don babban mitar DeFi. Wallet masu zafi suna koyar da sa hannu da sauya hanyar sadarwa da sauri."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Maɓallai suna zama rufaffiyar kan na'urar; buše gida; watsawa ta hanyar RPC. Haɗa dApp yana raba adireshi, ba maɓalli ba—har yanzu sa hannu masu haɗari har yanzu suna raguwa."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Raba kashe kuɗi da asusun ajiyar kuɗi. Bita alawus. Biometrics yana kare buɗaɗɗen ƙa'idar, ba dawo da sarkar ba."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "APKs ɗin da aka ɗora, shafukan “sync” iri, da kwamfutocin jama'a sun yi kasala."
+          }
+        ],
+        "keyPoints": [
+          "Wallets masu zafi suna inganta dacewa.",
+          "Ajiye kuɗi masu jurewa asara kawai a wurin.",
+          "Sa hannu / yarda shine babban haɗari.",
+          "Layer tare da ajiyar sanyi."
+        ],
+        "tips": [
+          "Zazzage daga tashoshi na hukuma kawai.",
+          "Yi amfani da bayanin martabar burauzar da aka keɓe don crypto.",
+          "Amincewa da alamar dubawa kowane mako."
+        ],
+        "body": "Browser da wallet ɗin hannu suna yin dApps nan take. Sauƙaƙawa yana faɗaɗa saman kai hari: rukunin yanar gizo mara kyau, kari na karya, malware na allo, wayoyin da suka ɓace. Ɗauke su a matsayin duba asusu, ba ceton rai ba."
+      },
+      {
+        "id": "hardware",
+        "title": "Hardware Wallets",
+        "summary": "Maɓallai a cikin amintaccen guntu tare da tabbacin kan na'urar",
+        "intro": "Wallet ɗin kayan masarufi suna kiyaye maɓallan sirri daga PC ɗin da ya kamu da cutar. Har yanzu dole ne ku karanta allon na'urar-makafin sa hannu ko firmware mai inuwa na iya doke mafi kyawun guntu.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Dogon lokaci da manyan rikodi suna buƙatar keɓewa mai ƙarfi. Tabbatar da jiki yana ɗaga barga don sata nesa. Ƙungiyoyi suna amfani da su azaman abubuwan sarrafawa na asali."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Mai watsa shiri yana gina tx; na'urar tana nuna taƙaitaccen bayani; kun yarda; sa hannun ya dawo don watsawa. Tsaba da aka samar a farkon su ne madadin. Sabunta firmware dole ne ya zama na hukuma."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Sayi ingantattun na'urori; san manufofin sanya hannu a makanta a kowace sarkar. Rasa na'urar yana da kyau idan iri yana da lafiya; rasa iri ba."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Na'urori masu hannu da shuni, gidajen yanar gizo na \"Checker\" suna neman iri, da Ok-ba tare da karantawa ba, yanayin gazawa."
+          }
+        ],
+        "keyPoints": [
+          "Keɓewar kayan aiki yana toshe yawancin satar maɓalli na nesa.",
+          "Tabbatar da allo har yanzu yana kanku.",
+          "Ajiye iri yayi daidai da na'urar a mahimmanci.",
+          "Sarkar kawowa da abubuwan tsabtace firmware."
+        ],
+        "tips": [
+          "Sayi daga dillalan hukuma/mai suna.",
+          "Gwada tare da ƙananan canja wuri bayan saitin.",
+          "Daidaita cikakkun adiresoshin akan na'urar don girman girman."
+        ],
+        "body": "Wallet ɗin kayan masarufi suna kiyaye maɓallan sirri daga PC ɗin da ya kamu da cutar. Har yanzu dole ne ku karanta allon na'urar-makafin sa hannu ko firmware mai inuwa na iya doke mafi kyawun guntu."
+      },
+      {
+        "id": "seed",
+        "title": "Kalmomin iri",
+        "summary": "Madogarawa na ɗan adam wanda za'a iya karantawa waɗanda ke sabunta maɓallan walat",
+        "intro": "Kalmomin 12/24 ba kalmar sirri ba ce - su ne babban sirrin da ke sake ƙirƙirar maɓalli. Duk wanda ke da kalmomin zai iya komai na walat ɗin wani wuri. Babu wani wakili na gaske da ke buƙatar zuriyarka don “tabbatar da ku”.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Na'urori sun mutu. Tsari yana ba ku damar maido da asusun iri ɗaya a wani wuri a cikin sigar rubutu-ta layi."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "BIP-39 yana juya entropy zuwa kalmomin da aka ba da umarni waɗanda ke samun asusu. Kuskuren oda ya kasa dawowa. Kalmomin wucewa na zaɓi suna ƙara tsaro da haɗarin mantuwa."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Hotuna, daidaitawar gajimare, da taɗi ba su da aminci. Ƙarfe na ajiyar ƙarfe yana bugun takarda akan wuta/ruwa. Madodin wurare da yawa dole ne su daidaita sata da asarar duka."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Shafukan \"daidaitawar wallet\" da goyan bayan karya sune manyan masu kisan kai. Buga iri a cikin kowane gidan yanar gizon gaggawa ne."
+          }
+        ],
+        "keyPoints": [
+          "Iri shine kadari.",
+          "Rike shi a layi har abada.",
+          "Halaltacciyar kwarara ba ta buƙatar sa.",
+          "Zane redundancy akan duka wuta da sata."
+        ],
+        "tips": [
+          "Rubuta hannu da sake duba tsarin kalma.",
+          "Kada a taɓa adanawa a cikin hotuna ko imel.",
+          "Shirya gado da gangan."
+        ],
+        "body": "Kalmomin 12/24 ba kalmar sirri ba ce - su ne babban sirrin da ke sake ƙirƙirar maɓalli. Duk wanda ke da kalmomin zai iya komai na walat ɗin wani wuri. Babu wani wakili na gaske da ke buƙatar zuriyarka don “tabbatar da ku”."
+      },
+      {
+        "id": "multisig",
+        "title": "Multisig",
+        "summary": "Rarraba asusun da ke buƙatar amincewar M-of-N",
+        "intro": "Multisig yana juya \"phish ɗaya ya rasa duka\" zuwa \"dole ne mutane da yawa su yarda.\" Mafi dacewa ga taskoki da iyalai. Yana yanke maki guda na gazawa kuma yana ƙara daidaitawa sama da sama.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Wuraren maɓalli ɗaya ya mutu a cikin kuskure ɗaya. Multisig yana tilasta maharan don yin sulhu da masu sa hannu da yawa kuma suna ba da izinin raba iko."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Yarjejeniya ko tsarin asali yana saita ƙofa da masu shi. Ba da shawara → tattara sa hannu → aiwatarwa. Juyawa mai sa hannu da kayayyaki suna buƙatar kulawa daidai."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Na'urori daban-daban sun doke malware masu alaƙa. Kuɗin tubali masu tsayi da yawa; ƙananan ƙofofin suna raunana tsaro. Abubuwan gaggawa na iya zama bayan gida."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Duk masu sa hannu a kan mai bincike guda ɗaya mai zafi, ba sa sake karantawa, da yin ɓatanci da Safe UI na gama-gari."
+          }
+        ],
+        "keyPoints": [
+          "Multisig yana yada maɓalli da haɗarin yanke shawara.",
+          "Ƙirar ƙira ta saita samuwa vs aminci.",
+          "Maimaita sa hannu da maye gurbinsu.",
+          "Alamar musaya na hukuma."
+        ],
+        "tips": [
+          "Yi amfani da na'urorin sa hannu / OS daban-daban.",
+          "Gudu ɗan ƙaramin rawar kwata-kwata.",
+          "Takaddun matakan maye gurbin sa hannu na batattu."
+        ],
+        "body": "Multisig yana juya \"phish ɗaya ya rasa duka\" zuwa \"dole ne mutane da yawa su yarda.\" Mafi dacewa ga taskoki da iyalai. Yana yanke maki guda na gazawa kuma yana ƙara daidaitawa sama da sama."
+      },
+      {
+        "id": "smart-accounts",
+        "title": "Smart Accounts",
+        "summary": "Walat ɗin shirye-shirye tare da iyaka, masu kulawa, batching, da kuma zama",
+        "intro": "Smart asusu suna ɓoye manufofin: iyakoki na yau da kullun, lissafin izini, dawowa, da kiran tsari. Ƙarin sassauci fiye da EOAs-da ƙarin hanyoyin da za a yi kuskuren tsara kayayyaki.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "EOAs duk-ko-ba komai. Lissafi masu wayo suna ba da damar ƙarancin gata na yau da kullun tare da ƙarin bincike mai ƙima, daidaitawa zuwa UX mara iri."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Logic yana rayuwa a cikin kwangila tare da masu aiki da toshewa, galibi ana haɗa su tare da masu tarawa/masu biyan kuɗi na AA. Dole ne a kiyaye haɓaka kayan aiki."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Mafi ƙarancin gata, dubawa, da gwaje-gwajen hanyoyin dawowa suna da mahimmanci. Sanin wanda zai iya haɓakawa kafin kiran shi vault."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Bazuwar plugins da ba a tantance su ba, masu kula da butulci, da amintattun asusu masu wayo suna dakatar da duk phishing kurakurai ne."
+          }
+        ],
+        "keyPoints": [
+          "Smart asusu sune tushen tsare-tsare na kai.",
+          "Sassauci yana faɗaɗa saman kai hari.",
+          "Haƙƙin haɓakawa/Module shine ainihin tsaro.",
+          "Halaye har yanzu suna da mahimmanci."
+        ],
+        "tips": [
+          "Kashe plugins marasa amfani.",
+          "Babban canje-canje na manufofin kulle lokaci.",
+          "Rubuta kuma gwada dawo da runbooks."
+        ],
+        "body": "Smart asusu suna ɓoye manufofin: iyakoki na yau da kullun, lissafin izini, dawowa, da kiran tsari. Ƙarin sassauci fiye da EOAs-da ƙarin hanyoyin da za a yi kuskuren tsara kayayyaki."
+      },
+      {
+        "id": "custody",
+        "title": "Samfuran Kulawa",
+        "summary": "Duk wanda yake riƙe da makullin yadda ya kamata yana sarrafa kadarorin",
+        "intro": "Masu tsaro suna cinikin sake saitin kalmar sirri da goyan bayan kasadar takwararta. Kame kai yana cinikin ikon mallaka don haɗarin ops na sirri. Yawancin mutane suna haɗuwa duka biyu: kasuwanci akan dandamali, ajiyewa a cikin walat.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Manufofin daban-daban suna buƙatar nau'ikan haɗari daban-daban. Tsabtataccen tsare kai yana tsoratar da masu farawa; tsare tsare yana cutar da gazawar dandamali."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Ma'auni na ma'auni sau da yawa su ne ledoji na ciki har sai an cire su. Kame kai yana watsa kowane motsi. Ma'aikatan da aka kayyade na iya tabbatar da tanadi-har yanzu ba haɗari ba."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Daskare, layukan layi, hukunce-hukuncen shari'a, da tabbatar da ingancin al'amura. Rashin kula da kai yayi kama da ɓatattun tsaba da sa hannu mara kyau."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "\"Mai girma da kasawa\" ya gaza akai-akai. Ajiye iri a cikin littafin rubutu na musanya ba tsare kai bane."
+          }
+        ],
+        "keyPoints": [
+          "Maɓalli yana bayyana iko.",
+          "Sauƙaƙawa vs mulki shine ciniki.",
+          "Rarraba nau'ikan nau'ikan nau'ikan nau'ikan aiki ne.",
+          "Kowane samfurin ya gaza daban."
+        ],
+        "tips": [
+          "Janye jakunkuna na dogon lokaci zuwa tsare kai.",
+          "Fi son wuraren fili.",
+          "Fara aiwatar da tsare kanka tare da ƙaramin girman farko."
+        ],
+        "body": "Masu tsaro suna cinikin sake saitin kalmar sirri da goyan bayan kasadar takwararta. Kame kai yana cinikin ikon mallaka don haɗarin ops na sirri. Yawancin mutane suna haɗuwa duka biyu: kasuwanci akan dandamali, ajiyewa a cikin walat."
+      }
+    ]
+  },
+  {
+    "id": "gaming",
+    "name": "Wasan kwaikwayo",
+    "summary": "Wasanni da duniyoyi masu kama-da-wane tare da kadarorin mallakarsu",
+    "blurb": "Wasan wasa, tattalin arziki, ababen more rayuwa, da yanayin gazawar hasashe.",
+    "items": [
+      {
+        "id": "play",
+        "title": "Kunna & Mallaki",
+        "summary": "Nishaɗi na farko, tabbataccen ikon mallaka azaman kari-ba yaudarar albashi ba",
+        "intro": "Wasannin crypto masu lafiya suna ba da fifikon nishaɗi; ikon mallakar yana ƙaruwa, baya maye gurbin ƙira. Ya kamata kasuwannin sakandare su zama sakamako, ba kawai abun ciki ba.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Tsantsar hasashe ya ruguje cikin beraye. Haɗa ikon mallaka a cikin madaukai masu daɗi na gaske yana inganta riƙewa kuma yana ba da damar tattalin arzikin mahalicci."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Core gameplay yana gudana cikin sauri kashe sarkar ko akan dogo na musamman; ƙarancin ƙauyuka sun sami sarka. Studios suna samun ta UX, kudade, da ayyuka yayin daidaita tattalin arziki."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Riƙewa da kashe ma'aunin ƙididdiga sun doke ginshiƙan alamar azaman alamun lafiya. Ƙidaya har yanzu na iya takura alamun abu."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Kula da niƙa azaman aiki da watsi da tsaro na asusun tarkuna ne na yau da kullun."
+          }
+        ],
+        "keyPoints": [
+          "Nishaɗi na farko, kuɗi na biyu.",
+          "Mallaka ba zai iya ceton gajiya ba.",
+          "Lafiyayyen tattalin arziƙin suna daidaita magudanar ruwa da tushe.",
+          "Ware makullin wasa daga rumbun ajiya."
+        ],
+        "tips": [
+          "Yi wasa kafin siyan abubuwa masu tsada.",
+          "Karanta bayanan tattalin arziki da tarihin faci.",
+          "Yi ajiyar duk wani \"saba\" azaman hasashe mai haɗari."
+        ],
+        "body": "Wasannin crypto masu lafiya suna ba da fifikon nishaɗi; ikon mallakar yana ƙaruwa, baya maye gurbin ƙira. Ya kamata kasuwannin sakandare su zama sakamako, ba kawai abun ciki ba."
+      },
+      {
+        "id": "economies",
+        "title": "In-game Tattalin Arziki",
+        "summary": "Bayarwa da nutsewa suna yanke shawarar ko farashin abu zai iya tsayawa",
+        "intro": "Buɗe tattalin arziƙin suna aiki kamar ƙananan tsarin kasafin kuɗi: hayaki mara iyaka ba tare da rugujewar farashin ruwa ba. Samar da karatun vs lalata ya doke sauraron taken GameFi.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Bude ciniki yana kawar da wasu sarrafa studio, tilasta ƙarin ƙira don haka 'yan wasa na dogon lokaci da 'yan kasuwa zasu iya zama tare."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Tambayoyi suna fitarwa; gyare-gyare / gyare-gyare / yanayin nutsewa; dashboards sun nuna hauhawar farashin kayayyaki. Farashin alamar waje yana girgiza madaukai na ciki."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Alamu biyu, makamashi, da hayar ƙasa na iya taimakawa ko ruɗani. Kalli buɗaɗɗen ƙungiyar da walat ɗin masu yin kasuwa."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Abubuwan da ake samu na farko suna jan hankalin 'yan haya, ba 'yan wasa ba. Kwafi tattalin arziki ba tare da masu sauraro ya gaza ba."
+          }
+        ],
+        "keyPoints": [
+          "Sanya hauhawar farashin kaya / hauhawar farashin kaya.",
+          "Babban rabon 'yan haya yana da rauni.",
+          "Alamar waje ta girgiza.",
+          "Gyaran gaskiya yana haɓaka amana."
+        ],
+        "tips": [
+          "Bi rahotannin tattalin arziki na hukuma.",
+          "Girman ƙasa yayin matakan hyper-APY.",
+          "Fi son kadara tare da nutsewa na gaske."
+        ],
+        "body": "Buɗe tattalin arziƙin suna aiki kamar ƙananan tsarin kasafin kuɗi: hayaki mara iyaka ba tare da rugujewar farashin ruwa ba. Samar da karatun vs lalata ya doke sauraron taken GameFi."
+      },
+      {
+        "id": "worlds",
+        "title": "Duniyar Kaya",
+        "summary": "Mallakar ƙasa da labarun sararin samaniya",
+        "intro": "Ƙasar da ba ta dace ba tana sayar da wuri, zirga-zirga, da kasancewa. Wasu duniyoyi suna ɗaukar ayyuka masu gudana; wasu suna tsayawa bayan tallace-tallace. Yi hukunci da magina da DAU, ba tireloli na cinematic ba.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Mutane suna son ɗorewa na gama-gari na dijital da kantuna. Mallakar kan-sarkar yana ba da damar kasuwanni na biyu da gwaje-gwaje ta samfuran."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Land NFTs da abokan ciniki da na zaɓin haya. Abun ciki ya fito daga masu amfani ko jami'ai; aiki sau da yawa yana dogara ga sabobin gargajiya."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Tafiyar ƙafa yana saita ƙimar ƙasa. Duniya mara komai zane ne na hasashe. Haƙƙoƙin gini da sarauta suna haifar da yardar mahalicci."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "FOMO na farko-sayar da kuma kula da nunin faifai a matsayin ɗan gajeren lokaci tarkuna ne."
+          }
+        ],
+        "keyPoints": [
+          "Farashin zirga-zirga ƙasa.",
+          "Kwarewar abokin ciniki ta zarce taken.",
+          "Interop yawanci yakan zama tallace-tallace.",
+          "Ƙimar maginin muhalli."
+        ],
+        "tips": [
+          "Ziyarci a matsayin ɗan yawon buɗe ido tukuna.",
+          "Bincika bayanan haya/hala kafin siye.",
+          "Kauce wa siyarwa-kawai, gina-ƙara ƙungiyoyi."
+        ],
+        "body": "Ƙasar da ba ta dace ba tana sayar da wuri, zirga-zirga, da kasancewa. Wasu duniyoyi suna ɗaukar ayyuka masu gudana; wasu suna tsayawa bayan tallace-tallace. Yi hukunci da magina da DAU, ba tireloli na cinematic ba."
+      },
+      {
+        "id": "infra-game",
+        "title": "Kayayyakin Wasa",
+        "summary": "Cinikin aikin injiniya tsakanin ƙarancin latency da sasantawa akan sarkar",
+        "intro": "Wasannin ayyuka suna buƙatar martani na millisecond. Studios suna amfani da sabar masu iko tare da ƙarancin kadarori, ko manyan sarƙoƙi na musamman. Sanin iyakar amana yana hana \"cikakken rarraba\" rudani na tallace-tallace.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Tsabtace madaukai L1 sun yi jinkiri/ tsada don nau'o'i da yawa. Layering yana kiyaye UX mai yuwuwa tare da ƙarancin tabbaci."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Matchmaking / yaƙi kashe sarkar; mints / cinikai / jackpots akan sarkar. Anti-ya'yan itace yana tsayawa ba tare da sarkar ba. Appchains suna haɓaka kayan aiki amma suna ƙara farashin gada/ruwa."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Wadanne sassa ne suka amince da uwar garken? Shin kadarorin sun tsira daga rufewar studio? Wannan yana bayyana yadda ainihin \"mallaka\" yake."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "\"Cikakken kan-sarkar\" da'awar tare da maye gurbin gaskiyar uwar garken. Ƙaddamar da kadarorin wasan ta hanyar shafukan karya."
+          }
+        ],
+        "keyPoints": [
+          "Hybrids sune ka'idar aikin injiniya.",
+          "Latency da rarrabuwar kawuna suna jawo sabanin hanyoyi.",
+          "Manufar rufewa tana shafar ma'anar kadara.",
+          "Appchains suna ƙara hadaddun gada."
+        ],
+        "tips": [
+          "Karanta docs amintattun iyakokin.",
+          "Matsar da kadarorin masu ma'ana zuwa walat ɗin tsare kai.",
+          "Gwada testnets kafin saka hannun jari na mainnet."
+        ],
+        "body": "Wasannin ayyuka suna buƙatar martani na millisecond. Studios suna amfani da sabar masu iko tare da ƙarancin kadarori, ko manyan sarƙoƙi na musamman. Sanin iyakar amana yana hana \"cikakken rarraba\" rudani na tallace-tallace."
+      },
+      {
+        "id": "modding",
+        "title": "Modding & UGC",
+        "summary": "Masu ƙirƙira suna samun kuɗi lokacin da taswirori, fatun, da mods za su iya daidaitawa a bayyane",
+        "intro": "UGC ya tsawaita rayuwar wasan. Idan mods ana iya siyar da su tare da rarrabuwar kawuna, masu ƙirƙira suna nunawa. Kan-sarki yana raba bayanan agaji; Ba da lasisin IP har yanzu yana yanke shawarar ko yana da ma'auni.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "UGC na al'ada na fuskantar sauye-sauyen manufofin dandamali kwatsam. Bude kasuwanni da tsarin sarauta suna ba da wata hanya mai ban sha'awa da wadataccen abun ciki na ɗan wasa."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Masu ƙirƙira suna buga kadarori → cinikin kasuwanni → kwangilar raba kudaden shiga. Matsakaici da bincike sun yanke shawarar ko ingancin maida hankali ne."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Iyalin lasisi, manufar abun ciki, da sake dawowa sun kasance. Lissafin kan sarkar baya daidaita shari'o'in kai tsaye."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Siyan nau'ikan nau'ikan nau'ikan nau'ikan nau'ikan nau'ikan nau'ikan nau'ikan nau'ikan nau'ikan nau'ikan nau'ikan nau'ikan nau'ikan nau'ikan nau'ikan nau'ikan nau'ikan nau'ikan halitta suna da haɗari."
+          }
+        ],
+        "keyPoints": [
+          "UGC yana buƙatar bayyananniyar ƙa'idodin IP da ka'idojin kudaden shiga.",
+          "Ganowa/daidaitacce saita ingancin.",
+          "Rarraba shirye-shirye suna haɓaka bayyana gaskiya.",
+          "Har yanzu ana amfani da matakan doka."
+        ],
+        "tips": [
+          "Masu ƙirƙira: karanta lasisin dandamali.",
+          "'Yan wasa: duba alamun izini.",
+          "Fitar da kuɗi tare da iyakokin haɗari na sirri."
+        ],
+        "body": "UGC ya tsawaita rayuwar wasan. Idan mods ana iya siyar da su tare da rarrabuwar kawuna, masu ƙirƙira suna nunawa. Kan-sarki yana raba bayanan agaji; Ba da lasisin IP har yanzu yana yanke shawarar ko yana da ma'auni."
+      },
+      {
+        "id": "risks",
+        "title": "Hatsarin Wasan Hasashen",
+        "summary": "Lokacin da nishaɗi ya dogara da hauhawar farashin, kasuwannin bear suna karya madauki",
+        "intro": "Ayyukan da ba su yi nasara ba suna ɗaukar famfo token azaman abun ciki. ’Yan wasa sun zama ‘yan amshin shatan haya, tattalin arziƙin su na juya baya, kuma suna tsayawa lokacin da farashin ya faɗi. Haɓaka tsarin yana adana kuɗin koyarwa.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Ilimin haɗari wani ɓangare ne na samfur mai lafiya: al'ummomin da ke tattauna hauhawar farashin kaya da gaskiya sun wuce rigima."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Yawan hayaki yana jan hankalin shigarwa → sayar da matsin lamba → faduwar farashin → 'yan wasa sun bar. Hutu yakan bayyana lokacin da aka yanke abubuwan ƙarfafawa. Ƙananan lakabi sun yi nasarar haifar da wasanni na gaske."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Shin kudaden shiga galibi sabbin masu shiga ne? Shin ƙungiyar za a iya buga sabuntawa? Farashin na biyu ba ma'auni bane mai daɗi."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Kalmomin yin garkuwa da FOMO da niƙa da aka yi amfani da su alamun haɗari ne."
+          }
+        ],
+        "keyPoints": [
+          "Farashin ba zai iya maye gurbin wasan kwaikwayo ba.",
+          "Yanke abubuwan ƙarfafawa gwajin damuwa ne.",
+          "Mercenary share yana annabta rauni.",
+          "Haɗari kuɗi na hankali kawai."
+        ],
+        "tips": [
+          "Tambayi: Shin zan yi wasa akan farashin sifiri?",
+          "Kalli sabuntawar abun ciki na gaske.",
+          "Ƙin niƙa mai amfani."
+        ],
+        "body": "Ayyukan da ba su yi nasara ba suna ɗaukar famfo token azaman abun ciki. ’Yan wasa sun zama ‘yan amshin shatan haya, tattalin arziƙin su na juya baya, kuma suna tsayawa lokacin da farashin ya faɗi. Haɓaka tsarin yana adana kuɗin koyarwa."
+      }
+    ]
+  },
+  {
+    "id": "daos",
+    "name": "DAO",
+    "summary": "Al'ummomin da ke mulki tare da kuri'un sarkar",
+    "blurb": "Gwamnati, taskoki, shawarwari, nade-nade na shari'a, da saman kai hari.",
+    "items": [
+      {
+        "id": "governance",
+        "title": "Alamar Mulki",
+        "summary": "Ƙuri'un da ke saita sigogi, haɓakawa, da ciyarwa",
+        "intro": "DAOs suna tura haɓakawa da yanke shawara na baitulmali zuwa masu riƙon alama ko tsarin suna. Alamu ɗaya-ɗaya-ƙiri mai sauƙi ne kuma mai saurin kifin kifi; wakilai da sauran kayayyaki suna ƙoƙarin inganta wakilci. Ikon kada kuri'a shine tasiri-kuma saman kai hari.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Dole ne ka'idoji su canza ba tare da zama mulkin kama-karya na kamfani guda ba. Kuri'u na kan sarkar suna barin hanyoyin da za a iya tantancewa kuma suna iya tilasta ƙungiyoyi."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Shawara → tattaunawa → zabe → kulle lokaci → aiwatarwa. Tawagar tana barin ƙananan masu riko su amince da masana. Ƙorums da vetoes sun fito ba da ƙarfi ba."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Rarrabawa, girman ma'aji, da tsayin lokaci. Masu jefa ƙuri'a da aka jefar a iska na iya zama rashin jin daɗi. Halin dandalin zai iya bambanta daga sakamakon kan sarkar."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Ƙuri'un lamuni na walƙiya (idan an yarda), cin hanci, da jefa kuri'a da ba a karanta ba suna da haɗari."
+          }
+        ],
+        "keyPoints": [
+          "Mulki yana kasafta iko.",
+          "Tsarin injina yana yaƙar whales da rashin tausayi.",
+          "Makullin lokaci birki ne mai mahimmanci.",
+          "Karanta tasiri da rikice-rikice kafin kada kuri'a."
+        ],
+        "tips": [
+          "Wakilci ga wakilan da aka ba da lissafi.",
+          "Kalli tashoshi na zanga-zanga a lokacin kulle-kulle.",
+          "Bincika manyan shawarwarin baitul mali."
+        ],
+        "body": "DAOs suna tura haɓakawa da yanke shawara na baitulmali zuwa masu riƙon alama ko tsarin suna. Alamu ɗaya-ɗaya-ƙiri mai sauƙi ne kuma mai saurin kifin kifi; wakilai da sauran kayayyaki suna ƙoƙarin inganta wakilci. Ikon kada kuri'a shine tasiri-kuma saman kai hari."
+      },
+      {
+        "id": "treasury",
+        "title": "DAO Treasuries",
+        "summary": "Raba jari akan sarkar don gini, yawan ruwa, da ma'auni",
+        "intro": "Taskokin DAO harsashi ne. Bambance-bambance, nuna gaskiya, da tsarin kashe kuɗi sun yanke shawarar ko su ne titin jirgin sama ko wuraren saƙar zuma. Multisigs ko gwamnoni suna kula da biyan kuɗi da al'umma yakamata su tantance.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Kayayyakin jama'a suna buƙatar kuɗi don tantancewa, magina, da ƙarfafawa. Taskoki suna kiyaye ƙima a ƙarƙashin kulawar ganuwa na al'umma kuma suna iya daidaita rikice-rikice."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Fitowa daga kudade / bayarwa / kudade; fita ta hanyar shawarwari. Hannun hannun jari na iya haɗo ma'auni, manya, da alamomin asali - maida hankali na asali haɗari ne mai ɗaukar nauyi."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Watanni na runway, haɗarin FX, da abubuwan ƙirƙira adreshi suna da mahimmanci. Alkawari masu laushi suna ƙidaya kuma."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Duka taskokin da ba su da tabbas da kuma kashe-kashen da ke da alaka da jam’iyya jajayen tutoci ne."
+          }
+        ],
+        "keyPoints": [
+          "Lafiya = nuna gaskiya + rarrabuwa + tsari.",
+          "Jakunkuna masu jujjuyawa suna haɓaka rikice-rikice.",
+          "Dole ne a yi lissafin kashe kuɗi.",
+          "Tsaftar maɓallin Multisig shine tushe."
+        ],
+        "tips": [
+          "Karanta rahotannin kuɗi na lokaci-lokaci.",
+          "Watch Stablecoin Reserve Share",
+          "Fi son manyan biyan kuɗi masu gudana."
+        ],
+        "body": "Taskokin DAO harsashi ne. Bambance-bambance, nuna gaskiya, da tsarin kashe kuɗi sun yanke shawarar ko su ne titin jirgin sama ko wuraren saƙar zuma. Multisigs ko gwamnoni suna kula da biyan kuɗi da al'umma yakamata su tantance."
+      },
+      {
+        "id": "proposals",
+        "title": "Tsarin Rayuwa",
+        "summary": "Daga daftarin dandalin tattaunawa zuwa aiwatar da sarkar",
+        "intro": "Shawarwari masu kyau suna muhawara game da sarkar, duba zafin jiki, jefa kuri'a akan sarkar, sannan aiwatar da bayan an kulle lokaci. Abin mamaki \"shawarwar walƙiya\" wani wari ne. Ku san wane mataki kuke ciki.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Tsarin ya maye gurbin ko dai mulkin kama-karya ko hargitsi, yana ba abokan adawa lokaci don tsarawa da shigar da bita / bita na doka a inda ake buƙata."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Draft → feedback → rubutu na ƙarshe → zabe → layi. Ra'ayoyin da ba su yi nasara ba na iya sake dubawa. Wasu tsarin suna amfani da sa hannun sa hannu mara gas don kada kuri'a."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Ƙorum, kofa, da hanyoyin gaggawa suna da mahimmanci-masu bala'in gaggawa a bayan gida. Dole ne bayanan kiran da za a iya aiwatarwa ya dace da rubutu."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Zaɓen taken-kawai da yin watsi da faɗakarwar kulle lokaci gazawa ne."
+          }
+        ],
+        "keyPoints": [
+          "Ingantacciyar tattaunawa tana tafiyar da ingancin mulki.",
+          "Makullin lokaci yana kare ƴan tsiraru da fita.",
+          "Ikon gaggawa na buƙatar tsauraran iyakoki.",
+          "Sigogi suna buga taken."
+        ],
+        "tips": [
+          "Biyan kuɗi zuwa faɗakarwar taron tattaunawa/ƙiri.",
+          "Sake bayyana kasada a cikin kalmomin ku kafin yin zabe.",
+          "Tabbatar da aiwatarwa yayi daidai da rubutun shawara."
+        ],
+        "body": "Shawarwari masu kyau suna muhawara game da sarkar, duba zafin jiki, jefa kuri'a akan sarkar, sannan aiwatar da bayan an kulle lokaci. Abin mamaki \"shawarwar walƙiya\" wani wari ne. Ku san wane mataki kuke ciki."
+      },
+      {
+        "id": "legal",
+        "title": "Rubutun Shari'a",
+        "summary": "Tushen da kamfanoni waɗanda ke mu'amala da DAOs tare da duniyar sarƙoƙi",
+        "intro": "Lambar ba ta bayar da iyakacin abin alhaki ta atomatik. Gidauniyar / LLCs sun sanya hannu kan kwangila, banki, da haraji. Masu ba da gudummawa ya kamata su san wanda za a iya ɗauka a matsayin alhakin idan abubuwa sun lalace.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Hayar, IP, da masu gudanarwa suna buƙatar takwarorinsu na doka. Kyawawan nannade suna rage faɗuwar mutum-ba na'urorin rufewa ba ne."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Hukunce-hukuncen → Yarjejeniya → hukumar/multisig → sassan da ke da alaƙa da kuri'un DAO. Dokoki sun bambanta sosai da ƙasa."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Abubuwan tsaro, takunkumi, da haraji (ciki har da drops). Anonymity ≠ hadarin doka sifili."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Ɗaukar “rarraɗi” ya yi watsi da dokar gida, ko sanya hannu kan yarjejeniyar da ba a sani ba, rashin hankali ne."
+          }
+        ],
+        "keyPoints": [
+          "Ƙungiyoyi suna ba da damar kashe sarkar.",
+          "Tsare-tsare na ƙayyadaddun hukumci.",
+          "San iyakar abin alhaki.",
+          "Yardawa wani ɓangare ne na haɗarin samfur."
+        ],
+        "tips": [
+          "Nemi shawarar kwararru don gudummawar kayan aiki.",
+          "Karanta tushe↔ DAO dangantakar docs.",
+          "Ajiye bayanan airdrop/kudaden shiga."
+        ],
+        "body": "Lambar ba ta bayar da iyakacin abin alhaki ta atomatik. Gidauniyar / LLCs sun sanya hannu kan kwangila, banki, da haraji. Masu ba da gudummawa ya kamata su san wanda za a iya ɗauka a matsayin alhakin idan abubuwa sun lalace."
+      },
+      {
+        "id": "ops",
+        "title": "Farashin DAO",
+        "summary": "Juya ƙuri'a zuwa jigilar kaya ta ƙungiyoyin aiki da biyan kuɗi",
+        "intro": "Ba tare da masu aiki ba, mulki shine wasan kwaikwayo. Ƙungiyoyin aiki, kyautai, kasafin kuɗi, da sake dubawa suna canza kuzari zuwa samfur. Ƙonawa, mallakin da ba a sani ba, da kuma ƙarshen biyan albashi suna kashe DAO a hankali.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Kayayyakin jama'a ba su da ƙasa. Ops tsarin kula da asusun; m biya rage inuwa kulla."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Manufar → ma'auni → kasafin kuɗi → haya/bounties → retros. Biyan kuɗi a kan sarkar yana taimakawa. Samun damar gudanarwa mafi ƙarancin gata yana guje wa maki guda na gazawa."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Ana iya tabbatar da KPIs? Ana sarrafa tsoma sau biyu? Takaddun bayanai suna yaƙi da yanayin bas."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Biyan kuɗi ba tare da alhaki ba da yin lodin abubuwan da ba za a iya maye gurbinsu ba su ne yanayin gazawa."
+          }
+        ],
+        "keyPoints": [
+          "Tsarin bayarwa yana sa DAOs na gaske.",
+          "Kasafin kudi da aiki ya kamata su zama jama'a.",
+          "Rage dogara ga mutum ɗaya.",
+          "Pay nuna gaskiya rage maƙarƙashiya man fetur."
+        ],
+        "tips": [
+          "Fara da ƙananan falala don koyon tsari.",
+          "Ajiye ayyuka masu mahimmanci.",
+          "Buga rahotannin ƙungiyar aiki."
+        ],
+        "body": "Ba tare da masu aiki ba, mulki shine wasan kwaikwayo. Ƙungiyoyin aiki, kyautai, kasafin kuɗi, da sake dubawa suna canza kuzari zuwa samfur. Ƙonawa, mallakin da ba a sani ba, da kuma ƙarshen biyan albashi suna kashe DAO a hankali."
+      },
+      {
+        "id": "attacks",
+        "title": "Hare-haren Mulki",
+        "summary": "Karɓar ƙa'idodi ta hanyar ƙuri'a, cin hanci, ko ƙarancin fitowar jama'a",
+        "intro": "Mahara suna bin taskoki, sigogi, ko haɓaka maɓallai ta amfani da tarin ƙuri'u, lamuni mai walƙiya, cin hanci, ko ƙididdiga masu bacci. Abubuwan tsaro sun haɗa da kulle-kulle na lokaci, masu tsaro na veto, da mafi kyawun ƙirar zaɓe.",
+        "sections": [
+          {
+            "heading": "Wace matsala take magancewa",
+            "body": "Tattaunawa akan abubuwan da aka kai hari yana bawa al'umma damar kare da wuri. \"Ba wanda zai yi haka\" ba iko ba ne. Jami’an tsaron gwamnati sun kulla tsaro."
+          },
+          {
+            "heading": "Yadda yake aiki",
+            "body": "Nemi kuri'u → wuce mugunta → aiwatar da bayan kulle lokaci idan ba a tsaya ba. Matsaloli masu rikitarwa na iya kama niyya. Masu gadi na iya jinkirta ko soke share fage."
+          },
+          {
+            "heading": "Mabuɗin mahimmanci",
+            "body": "Lokacin ɗaukar hoto, ƙa'idodin zaɓen lamuni mai walƙiya, da tattara wakilai sune mabuɗin. Saka idanu manyan motsin alama."
+          },
+          {
+            "heading": "Hatsari & rashin fahimta",
+            "body": "Yin watsi da faɗakarwar kulle lokaci da ɗaukan tantancewa ta dakatar da satar mulki kuskure ne."
+          }
+        ],
+        "keyPoints": [
+          "Ƙarfin mulki na iya zama sata kai tsaye.",
+          "Makullan lokaci da masu gadi birki ne.",
+          "Ƙarfin fitowar jama'a yana da rauni.",
+          "Saka idanu da kuma gwada hanyoyin veto."
+        ],
+        "tips": [
+          "Kunna bots faɗakarwar mulki.",
+          "Ya kamata manyan masu riƙe da gaske su yi zabe.",
+          "Goyon bayan ƙira waɗanda ke toshe ƙuri'a-lamun filasha."
+        ],
+        "body": "Mahara suna bin taskoki, sigogi, ko haɓaka maɓallai ta amfani da tarin ƙuri'u, lamuni mai walƙiya, cin hanci, ko ƙididdiga masu bacci. Abubuwan tsaro sun haɗa da kulle-kulle na lokaci, masu tsaro na veto, da mafi kyawun ƙirar zaɓe."
+      }
+    ]
+  }
+]

@@ -1,0 +1,234 @@
+[
+  {
+    "id": "homograph",
+    "tag": "Báo động",
+    "title": "Phòng chống lừa đảo đồng âm",
+    "minutes": 5,
+    "summary": "Các nhân vật giống nhau giả mạo các miền chính thức để thu thập chữ ký hoặc hạt giống.",
+    "sections": [
+      {
+        "heading": "Nó trông như thế nào",
+        "body": "Những kẻ tấn công hoán đổi các ký tự có hình ảnh tương tự thành các miền và ghép chúng với quảng cáo hoặc tin nhắn trực tiếp. Giao diện người dùng có thể hoàn hảo đến từng pixel và thậm chí hiển thị số dư giả."
+      },
+      {
+        "heading": "Làm thế nào để phát hiện ra nó",
+        "body": "Nhập URL hoặc sử dụng dấu trang. Kiểm tra chủ sở hữu chứng chỉ. Không bao giờ nhấp vào quảng cáo tìm kiếm hàng đầu cho ví/cầu nối. Di chuột qua các liên kết và kiểm tra các tên miền phụ lẻ."
+      },
+      {
+        "heading": "Nếu bạn đã nhấp vào",
+        "body": "Thu hồi phê duyệt và chuyển số tiền còn lại. Nếu bạn gõ một hạt giống, ví đó sẽ bị cháy—chỉ cứu được một hạt giống hoàn toàn mới. Lưu giữ bằng chứng cho các báo cáo."
+      }
+    ],
+    "checklist": [
+      "Đánh dấu các trang web chính thức",
+      "Bỏ qua quảng cáo tìm kiếm",
+      "Kiểm tra mọi ký tự URL",
+      "Kiểm tra chéo trên thiết bị thứ hai để biết kích thước",
+      "Không bao giờ gõ hạt giống vào trang web"
+    ],
+    "body": "Các nhân vật giống nhau giả mạo các miền chính thức để thu thập chữ ký hoặc hạt giống."
+  },
+  {
+    "id": "seed",
+    "tag": "Phím",
+    "title": "Hướng dẫn hoàn chỉnh về cụm từ hạt giống",
+    "minutes": 6,
+    "summary": "Hạt giống của bạn là quyền kiểm soát tài sản. Bất cứ ai yêu cầu nó đều là thù địch.",
+    "sections": [
+      {
+        "heading": "Sao lưu",
+        "body": "Viết tay và kiểm tra lại đơn hàng; xem xét các tấm kim loại; phân chia địa điểm một cách cẩn thận. Không có ảnh, đám mây hoặc ứng dụng trò chuyện."
+      },
+      {
+        "heading": "Lừa đảo",
+        "body": "Các trang “Đồng bộ/xác minh/nâng cấp/giải phóng/airdrop” yêu cầu 12/24 từ. Quản trị viên Discord giả mạo sử dụng cùng một tập lệnh. Phần cứng “kiểm tra tính xác thực” yêu cầu hạt giống là giả mạo."
+      },
+      {
+        "heading": "Kế thừa",
+        "body": "Nếu không ai biết kế hoạch, tiền sẽ chết theo bạn. Sử dụng các hướng dẫn được niêm phong, luật sư hoặc nhiều chữ ký. Khi nghi ngờ rò rỉ, hãy di chuyển ngay lập tức."
+      }
+    ],
+    "checklist": [
+      "Chỉ hạt giống trên phương tiện ngoại tuyến",
+      "Đừng nói những lời đó với ai",
+      "Không bao giờ nhập chúng trên thiết bị nối mạng",
+      "Phần cứng + sao lưu lạnh cho kích thước",
+      "Di chuyển trên bất kỳ tín hiệu rò rỉ"
+    ],
+    "body": "Hạt giống của bạn là quyền kiểm soát tài sản. Bất cứ ai yêu cầu nó đều là thù địch."
+  },
+  {
+    "id": "approve",
+    "tag": "DeFi",
+    "title": "Bẫy phê duyệt/cho phép",
+    "minutes": 6,
+    "summary": "Phê duyệt không di chuyển mã thông báo ngay lập tức—chúng cho phép rút tiền sau này, đặc biệt là những mã không giới hạn.",
+    "sections": [
+      {
+        "heading": "Cơ học",
+        "body": "ERC-20 chuyển từ trợ cấp nhu cầu. Phê duyệt vô hạn rất thuận tiện; những người chi tiêu bị xâm phạm có thể làm bạn trống rỗng sau này. setApprovalForAll tương đương với NFT."
+      },
+      {
+        "heading": "Thực hành an toàn",
+        "body": "Phụ cấp chính xác khi có thể; thu hồi thường xuyên; thử nghiệm các giao thức mới nhỏ. Xem các trang web airdrop yêu cầu Phê duyệt trước."
+      },
+      {
+        "heading": "Phản ứng sự cố",
+        "body": "Thu hồi và chuyển tiền. Ưu tiên những người chi tiêu có tên trong thông tin hack."
+      }
+    ],
+    "checklist": [
+      "Từ chối sự chấp thuận không giới hạn không cần thiết",
+      "Xem xét phụ cấp hàng tháng",
+      "Thu hồi các toán tử NFT không sử dụng",
+      "Đọc địa chỉ người chi tiêu",
+      "Ưu tiên những người sử dụng giao thức bị tấn công"
+    ],
+    "body": "Phê duyệt không di chuyển mã thông báo ngay lập tức—chúng cho phép rút tiền sau này, đặc biệt là những mã không giới hạn."
+  },
+  {
+    "id": "fake-apps",
+    "tag": "Điện thoại di động",
+    "title": "Ứng dụng ví giả",
+    "minutes": 5,
+    "summary": "Các bản sao xuất hiện trong các cửa hàng và các kênh sideload để đánh cắp hạt giống hoặc thiết bị điều khiển từ xa.",
+    "sections": [
+      {
+        "heading": "Phát hiện hàng giả",
+        "body": "Ghép tên nhà xuất bản với các bài đăng chính thức; hãy cẩn thận khi xếp hạng các ứng dụng hoàn toàn mới là số 1. Ưu tiên liên kết từ trang web thực. APK được tải sẵn có nhiều rủi ro hơn."
+      },
+      {
+        "heading": "Làm cứng",
+        "body": "Luôn cập nhật hệ điều hành; giảm thiểu plugin; hãy xem xét một chiếc điện thoại chuyên dụng. Sử dụng phần cứng cho kích thước. Lập kế hoạch khóa từ xa nếu điện thoại bị mất."
+      },
+      {
+        "heading": "Sau khi cài đặt",
+        "body": "Nếu một hạt giống được nhập vào một ứng dụng giả mạo, hãy chấp nhận sự thỏa hiệp và di chuyển trên một thiết bị sạch."
+      }
+    ],
+    "checklist": [
+      "Cài đặt từ các kênh chính thức",
+      "Xác minh tên nhà phát triển",
+      "Tránh các APK ngẫu nhiên",
+      "Kích thước ghép nối với phần cứng xác nhận",
+      "Di chuyển ngay nếu bị làm giả"
+    ],
+    "body": "Các bản sao xuất hiện trong các cửa hàng và các kênh sideload để đánh cắp hạt giống hoặc thiết bị điều khiển từ xa."
+  },
+  {
+    "id": "drainer",
+    "tag": "Ký tên",
+    "title": "Trình rút chữ ký và giấy phép độc hại",
+    "minutes": 7,
+    "summary": "Không cần hạt giống—chữ ký có cấu trúc độc hại có thể cho phép thoát.",
+    "sections": [
+      {
+        "heading": "Chiến thuật",
+        "body": "Yêu cầu đúc tiền/khiếu nại giả mạo setApprovalForAll, giấy phép hoặc “đăng nhập”. Một số tải trọng trông trống. Bot quét sau đó."
+      },
+      {
+        "heading": "Phòng thủ",
+        "body": "Xóa ví, mô phỏng, từ chối những điều chưa biết. Trước tiên, hãy kết nối các trang web mới bằng ổ ghi. Kiểm tra tên miền."
+      },
+      {
+        "heading": "Sau đó",
+        "body": "Thu hồi, giải cứu quỹ, cảnh báo cộng đồng, kiểm tra các chuỗi khác để có được sự chấp thuận tương tự."
+      }
+    ],
+    "checklist": [
+      "Từ chối chữ ký mờ",
+      "Kích hoạt mô phỏng",
+      "Sử dụng trình ghi trên các trang web mới",
+      "Thu hồi thường xuyên",
+      "Đánh dấu các dApp thực"
+    ],
+    "body": "Không cần hạt giống—chữ ký có cấu trúc độc hại có thể cho phép thoát."
+  },
+  {
+    "id": "support",
+    "tag": "Xã hội",
+    "title": "Hỗ trợ giả mạo và kỹ thuật xã hội",
+    "minutes": 5,
+    "summary": "Sau khi bạn đăng lỗi, những kẻ mạo danh DM “trợ giúp” yêu cầu quyền truy cập từ xa hoặc hạt giống.",
+    "sections": [
+      {
+        "heading": "Sách vở",
+        "body": "Hình đại diện nhân bản, tính khẩn cấp, ứng dụng điều khiển từ xa hoặc hướng dẫn gửi tiền “hợp đồng an toàn”. Tài khoản bạn bè bị xâm phạm cũng lan truyền liên kết."
+      },
+      {
+        "heading": "Quy tắc",
+        "body": "Các đội thực sự hiếm khi DM trước để biết bí mật. Sử dụng vé chính thức/kênh công cộng. Xác minh bạn bè ngoài nhóm."
+      },
+      {
+        "heading": "vệ sinh",
+        "body": "Không bao giờ dán hạt giống vào các kênh công khai—ngay cả khi “bị che một phần”."
+      }
+    ],
+    "checklist": [
+      "Bỏ qua DM hỗ trợ lạnh lùng",
+      "Không cài đặt các công cụ từ xa ngẫu nhiên",
+      "Không bao giờ đưa hạt giống để hỗ trợ",
+      "Xác minh link bạn bè lạ nhé",
+      "Sử dụng các kênh trợ giúp chính thức"
+    ],
+    "body": "Sau khi bạn đăng lỗi, những kẻ mạo danh DM “trợ giúp” yêu cầu quyền truy cập từ xa hoặc hạt giống."
+  },
+  {
+    "id": "bridges",
+    "tag": "Chuỗi chéo",
+    "title": "An toàn cầu",
+    "minutes": 6,
+    "summary": "Bridge là mục tiêu tấn công hàng đầu và mục đích lừa đảo được yêu thích. Theo mặc định, nhanh hơn không an toàn hơn.",
+    "sections": [
+      {
+        "heading": "Lựa chọn",
+        "body": "Ưu tiên các cầu nối chuẩn từ các tài liệu chính thức. Kiểm tra nhanh các cầu nối để kiểm tra và giới hạn. Hiểu sự chậm trễ khi thoát."
+      },
+      {
+        "heading": "Vận hành",
+        "body": "Các bài kiểm tra đầu cuối nhỏ; xác minh hợp đồng mã thông báo đích; lưu băm. Đừng coi việc thoát ra trong chuyến bay là số dư tự do."
+      },
+      {
+        "heading": "Sự cố",
+        "body": "Khi hack cầu nối, hãy tuân theo các thông báo tạm dừng chính thức—không phải “kịch bản di chuyển” DM."
+      }
+    ],
+    "checklist": [
+      "Đánh dấu những cây cầu chính thức",
+      "Kiểm tra nhỏ đầu tiên",
+      "Xác minh hợp đồng đích",
+      "Lưu băm tx",
+      "Bỏ qua tập lệnh di chuyển DM"
+    ],
+    "body": "Bridge là mục tiêu tấn công hàng đầu và mục đích lừa đảo được yêu thích. Theo mặc định, nhanh hơn không an toàn hơn."
+  },
+  {
+    "id": "devices",
+    "tag": "Rất tiếc",
+    "title": "Vệ sinh thiết bị và trình duyệt",
+    "minutes": 5,
+    "summary": "Phần mềm độc hại trong clipboard, tiện ích mở rộng giả mạo và PC dùng chung là những con đường bị đánh cắp hàng ngày.",
+    "sections": [
+      {
+        "heading": "Trình duyệt",
+        "body": "Hồ sơ tiền điện tử chuyên dụng; phần mở rộng chính thức tối thiểu; đánh dấu các trang web. Sử dụng máy sạch để xác định kích thước."
+      },
+      {
+        "heading": "Hệ thống",
+        "body": "Bản vá hệ điều hành; hãy cẩn thận với “công cụ airdrop”; tránh các bộ sạc công cộng sơ sài. Luôn kiểm tra lại các địa chỉ đã dán."
+      },
+      {
+        "heading": "Phân lớp",
+        "body": "Nóng hàng ngày, lạnh để tiết kiệm, multisig cho kho bạc đánh bại một siêu ví."
+      }
+    ],
+    "checklist": [
+      "Hồ sơ trình duyệt riêng biệt",
+      "Tiện ích mở rộng danh sách trắng",
+      "Kiểm tra lại các địa chỉ đã dán",
+      "Luôn cập nhật hệ điều hành",
+      "Chia tiền theo vai trò"
+    ],
+    "body": "Phần mềm độc hại trong clipboard, tiện ích mở rộng giả mạo và PC dùng chung là những con đường bị đánh cắp hàng ngày."
+  }
+]

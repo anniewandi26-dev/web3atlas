@@ -1,0 +1,119 @@
+{
+  "brand": {
+    "name": "Web3Atlas",
+    "tagline": "Web3ナレッジ基盤",
+    "badge": "セキュリティ優先"
+  },
+  "nav": {
+    "explore": "探索",
+    "ecosystem": "エコシステム",
+    "news": "ニュース",
+    "chronicle": "年表",
+    "security": "セキュリティ",
+    "glossary": "用語集"
+  },
+  "hero": {
+    "kicker": "8つのエコシステム層 · タップして学ぶ",
+    "titleLine1": "インターネットは変わりつつある。",
+    "titleLine2": "次を地図にする。",
+    "subtitle": "Web3を形作るネットワークとアイデアを、誇張ではなく明快に。",
+    "ctaPrimary": "エコシステムを見る",
+    "ctaSecondary": "セキュリティセンター",
+    "pause": "アニメ停止",
+    "play": "アニメ再生"
+  },
+  "sections": {
+    "ecosystem": "01 · エコシステム",
+    "ecosystemTitle": "カテゴリで探索",
+    "ecosystemDesc": "Web3の8層。概念と現実のパターンを見る。",
+    "openExplorer": "エクスプローラーを開く",
+    "news": "02 · シグナル",
+    "newsTitle": "いま動いていること",
+    "newsDesc": "インフラ・市場・規制の厳選ヘッドライン。",
+    "allHeadlines": "すべての見出し",
+    "glossary": "03 · レキシコン",
+    "glossaryTitle": "同じ言葉で話す",
+    "glossaryDesc": "オンチェーン日常用語の素早い定義。",
+    "openGlossary": "用語集を開く",
+    "security": "04 · 防御",
+    "securityTitle": "ハックされにくく",
+    "securityDesc": "フィッシング、承認、シード、偽アプリの短報。",
+    "securityCenter": "セキュリティセンター",
+    "chronicle": "05 · タイムライン",
+    "chronicleTitle": "ここまでの道",
+    "chronicleDesc": "ホワイトペーパーからETFまでの年表。",
+    "fullChronicle": "全文年表",
+    "quiz": "06 · チャレンジ",
+    "quizTitle": "知識を試す",
+    "quizDesc": "10問。アカウント不要。",
+    "startQuiz": "開始",
+    "shuffle": "シャッフル"
+  },
+  "common": {
+    "readMore": "続きを読む",
+    "back": "戻る",
+    "search": "検索",
+    "items": "件",
+    "minRead": "約{m}分",
+    "language": "言語",
+    "followIp": "言語は地域（IP）に従います。手動切替も可能です。",
+    "fallbackNote": "ローカライズ済みコンテンツを表示中。",
+    "noResults": "一致なし",
+    "useful": "役立つ",
+    "useIpLanguage": "IP / 地域の言語に従う",
+    "ipActive": "有効",
+    "manualOverride": "手動上書き"
+  },
+  "ecosystemPage": {
+    "title": "エコシステム探索",
+    "subtitle": "ベースチェーンからDAOまで8層。"
+  },
+  "newsPage": {
+    "title": "シグナルデスク",
+    "subtitle": "ビルダー向けWeb3ヘッドライン。"
+  },
+  "chroniclePage": {
+    "title": "年表",
+    "subtitle": "デジタルマネーを変えた瞬間。"
+  },
+  "securityPage": {
+    "title": "セキュリティセンター",
+    "subtitle": "ウォレットとソーシャル工学への実践的防御。"
+  },
+  "glossaryPage": {
+    "title": "用語集",
+    "subtitle": "オンチェーン語彙の平易な定義。",
+    "placeholder": "用語を絞り込み…"
+  },
+  "quiz": {
+    "correct": "正解",
+    "wrong": "残念",
+    "next": "次へ",
+    "restart": "再挑戦",
+    "score": "スコア: {score}/{total}",
+    "done": "完了"
+  },
+  "article": {
+    "keyPoints": "要点",
+    "tips": "実践Tips",
+    "checklist": "チェックリスト",
+    "expand": "解説を開く",
+    "collapse": "閉じる"
+  },
+  "intro": {
+    "headline": "Web3 と暗号化の知識 — 誇大広告ではなく、明確に学びましょう",
+    "body": "Web3Atlas は教育ハブであり、取引アプリではありません。 エコシステムマップを探索し、厳選されたシグナルに従い、クロニクルを研究し、ウォレットのセキュリティを実践し、用語集を開き、クイズで自分自身をテストしてください。つまり、憶測ではなく明確さをテストしてください。",
+    "point1": "エコシステムマップ: ブロックチェーン、DeFi、NFT、L2、ウォレット、DAO",
+    "point2": "シグナルとクロニクル: 見出しと重要な歴史",
+    "point3": "セキュリティ センター: フィッシング、シード、承認",
+    "point4": "用語集とクイズ: 開いて練習できるわかりやすい用語",
+    "hint": "続行するには下をタップしてください",
+    "enter": "探索を開始する",
+    "loading": "読み込み中"
+  },
+  "safariGate": {
+    "note": "Safari でこのページを開くと、サイトは通常どおり実行され、この通知は非表示のままになります。 Safari では、よりスムーズなインタラクションと豊かな色彩が得られます。",
+    "openSafari": "Safariで開く",
+    "copied": "リンクがコピーされました。 Safari に貼り付けて続行します。"
+  }
+}

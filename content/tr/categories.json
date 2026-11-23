@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "blockchain",
+    "name": "Blockchain",
+    "summary": "İşlemleri kaydeden ve güvence altına alan ağlar",
+    "blurb": "Mutabakata dayalı paylaşılan defterler; diğer her şeyin üzerinde bulunduğu ödeme katmanı. Her makale tam açıklayıcıları, önemli noktaları ve ipuçlarını içerir.",
+    "items": [
+      {
+        "id": "bitcoin",
+        "title": "bitcoin",
+        "summary": "Sabit ihraç kurallarına sahip ilk eşler arası elektronik nakit ağı",
+        "intro": "Bitcoin, hakem olarak bir banka olmadan değerin internette nasıl hareket edebileceğini gösteriyor. Küresel bir düğüm kümesi, kriptografi ve teşviklerle güvence altına alınan bir defteri paylaşır. Yeni başlayanlar için anahtarlar, UTXO'lar ve düzenleme kuralları, kısa vadeli fiyat grafiklerinden daha önemlidir.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Güvenilir aracılar hesapları dondurabilir, ödemeleri engelleyebilir veya krizlerde başarısız olabilir. Bitcoin, kurumsal izni kamuya açık doğrulamayla değiştiriyor: herkes geçmişi kontrol edebilir, ancak yeniden yazılması son derece pahalı olacak şekilde tasarlanmıştır. \nHatta oluşum bloku, banka kurtarmalarıyla ilgili bir gazete manşetini bile yerleştirmişti; bu, koddaki parasal kurallar hakkında kasıtlı bir sinyaldi."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Harcanmamış çıktıları (UTXO'lar) yeni adreslere harcayan bir işlemi imzalarsınız. Madenciler, blok eklemek ve ödül kazanmak için iş kanıtı aracılığıyla rekabet eder. \nYarılanmalar zamanla yeni arzı azaltır; zorluk, blokların kabaca sabit kalmasını sağlayacak şekilde ayarlanır. Daha fazla onay, daha düşük yeniden düzenleme riski anlamına gelir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Özel anahtarlar eşit kontrole sahiptir; adresler herkese açık olabilir. Ücretler blok alanı için bir pazardır. Bitcoin'in komut dosyası kasıtlı olarak sınırlıdır, bu nedenle genel bir uygulama platformundan çok yerleşim ve dijital kıtlık gibi davranır."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Volatilite bir protokol hatası değildir. Bir borsadaki paralar, geri çekilene kadar IOU'dur. Kimlik avı, sahte destek ve yanlış ağ aktarımları kalıcı kayıplara neden olur; önce küçük miktarlarla pratik yapın."
+          }
+        ],
+        "keyPoints": [
+          "Bitcoin, bir şirket tokenı değil, kamuya açık olarak doğrulanabilir bir ödeme ağıdır.",
+          "Yarılanmalar da dahil olmak üzere ihraç kuralları, protokol ve teşvikler tarafından uygulanır.",
+          "UTXO + imzaları aktarımları tanımlar; kayıp anahtarlar para kaybı anlamına gelir.",
+          "Güvenlik çoğunlukla temel hijyen ve doğrulama alışkanlıklarıdır."
+        ],
+        "tips": [
+          "Saygın bir cüzdan veya donanım cüzdanıyla alma/gönderme alıştırması yapın.",
+          "Boyutu gruplar halinde taşıyın ve yeterli onayın gelmesini bekleyin.",
+          "Tohumu çevrimdışı olarak yedekleyin; asla fotoğrafını çekmeyin veya mesaj göndermeyin."
+        ],
+        "body": "Bitcoin, hakem olarak bir banka olmadan değerin internette nasıl hareket edebileceğini gösteriyor. Küresel bir düğüm kümesi, kriptografi ve teşviklerle güvence altına alınan bir defteri paylaşır. Yeni başlayanlar için anahtarlar, UTXO'lar ve düzenleme kuralları, kısa vadeli fiyat grafiklerinden daha önemlidir."
+      },
+      {
+        "id": "ethereum",
+        "title": "Ethereum",
+        "summary": "Akıllı sözleşmeler için genel amaçlı bir blok zinciri (genellikle dünya bilgisayarı olarak adlandırılır)",
+        "intro": "Bitcoin para transferine odaklanırken Ethereum programlanabilir kuralları uygulamaya odaklanır. Varlıkları saklama sözleşmeleri yapar, koşulları kodlar ve uygulamalar halinde oluşturur. Birleştirmeden sonra, fikir birliği hissenin kanıtıdır, yürütme ise EVM olarak kalır.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Ödemeler tek başına kredileri, takasları veya zincir üstü yönetimi açık bir şekilde ifade edemez. Paylaşılan bir sanal makine, kodu genel altyapıya dönüştürür. \nAçık arayüzler, tokenların ve protokollerin birbirine bağlanmasını sağlar; bu da DeFi legolarının temelidir."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "EOA'lar anahtar kontrollüdür; sözleşme hesapları kod kontrollüdür. Durum değişiklikleri için gaz ödersiniz. Doğrulayıcılar teklif etmek ve onaylamak için ETH'yi stake ederler; ciddi hatalar kesilebilir. \nKullanıcılar hâlâ cüzdan imzaları aracılığıyla etkileşime giriyor ancak tasarım alanı basit transferlerden çok daha geniş."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Gaz sayaçlarının hesaplanması. Token standartları (ERC-20/721) cüzdan ve pazar uyumluluğunu sağlar. Katman 2, Ethereum'un güvenliğine geri dönerken yürütmeyi ana ağdan uzaklaştırır."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "“Ethereum'da” ≠ denetlenmiş veya güvenli. Sınırsız onay ve sahte tokenlar cüzdanları tüketiyor. En yüksek ücretler işlem boyutunu (çek ağı, sözleşme ve ödenek kapsamı) aşabilir."
+          }
+        ],
+        "keyPoints": [
+          "Ethereum, paylaşılan bir durum makinesi artı akıllı sözleşme çalışma zamanıdır.",
+          "PoS fikir birliğini güvence altına alır; EVM uygulamaları yürütür.",
+          "Standartlar, varlıkları ekosistem genelinde birlikte çalışabilir hale getirir.",
+          "Güvenlik sözleşme kalitesine, onaylara ve köprülere bağlıdır."
+        ],
+        "tips": [
+          "Sözleşme adreslerini yalnızca kodlayıcıyla değil, blok gezgininde doğrulayın.",
+          "Resmi L2'leri kullanın veya ana ağ tıkandığında bekleyin.",
+          "Kaybetmeyi göze alabileceğiniz parayla yeni protokolleri test edin."
+        ],
+        "body": "Bitcoin para transferine odaklanırken Ethereum programlanabilir kuralları uygulamaya odaklanır. Varlıkları saklama sözleşmeleri yapar, koşulları kodlar ve uygulamalar halinde oluşturur. Birleştirmeden sonra, fikir birliği hissenin kanıtıdır, yürütme ise EVM olarak kalır."
+      },
+      {
+        "id": "consensus",
+        "title": "Konsensüs",
+        "summary": "Bir ağ tek bir kanonik tarih üzerinde nasıl anlaşır?",
+        "intro": "Merkezi bir hakem olmadan düğümlerin hâlâ bir deftere ihtiyacı vardır. Konsensüs, kimin bloklama önereceğini, hile yapanların nasıl cezalandırılacağını ve bir transferin ne zaman nihai olacağını tanımlar. Proof of Work ve Proof of Stake, tarihin yeniden yazılmasını maliyetli hale getirmenin farklı yollarıdır.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Dağıtılmış katılımcılar geciktirebilir, bağlantıyı kesebilir veya yalan söyleyebilir. Uzlaşma, bir geçmişi ekonomik olarak baskın hale getirerek çifte harcamaları önler. \nKullanıcılar için bekleme sürelerini, yeniden düzenleme riskini ve saldırı maliyetini belirler."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "PoW fiyatları enerji/hash oranıyla saldırıyor. PoS fiyatları, tahvil edilmiş sermaye ve kesintilerle saldırıyor. Bazı protokoller kontrol noktalarından sonra daha güçlü bir kesinlik sunar; diğerleri olasılıksaldır. \nBorsalar bu mülklerden para yatırma onaylarını ayarlar."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Canlılık ve güvenlik arasındaki ödünleşimler önemlidir. Küçük doğrulayıcı setlere sahip \"daha hızlı\" bir zincir, sansüre karşı direnci zayıflatabilir. TPS'yi kutlamadan önce kimin blok ürettiğini sorun."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Sloganlar yatırım tezi değildir. Köprü ve hafif istemci varsayımları genellikle temel fikir birliğinden daha zayıftır ve birçok saldırının gerçekleştiği yer burasıdır."
+          }
+        ],
+        "keyPoints": [
+          "Fikir birliği, güvenilmeyen düğümler arasında tek bir kanonik geçmişi seçer.",
+          "PoW ve PoS fiyat saldırıları farklı şekildedir.",
+          "Onaylar/kesinlik, fonların ne zaman \"alınacağına\" karar verir.",
+          "Çapraz zincir bileşenleri L1 hikayesinden daha zayıf olabilir."
+        ],
+        "tips": [
+          "Büyük mevduatlar için önerilen onay sayılarına uyun.",
+          "Yeni zincirlerde doğrulayıcı dağıtımını ve kesme kurallarını inceleyin.",
+          "Tartışmalı yükseltmeler sırasında köprü/kaldıraç etkinliğini azaltın."
+        ],
+        "body": "Merkezi bir hakem olmadan düğümlerin hâlâ bir deftere ihtiyacı vardır. Konsensüs, kimin bloklama önereceğini, hile yapanların nasıl cezalandırılacağını ve bir transferin ne zaman nihai olacağını tanımlar. Proof of Work ve Proof of Stake, tarihin yeniden yazılmasını maliyetli hale getirmenin farklı yollarıdır."
+      },
+      {
+        "id": "accounts",
+        "title": "Hesaplar ve Anahtarlar",
+        "summary": "Zincir içi kimlik, destek tarafından sıfırlanan bir kullanıcı adı değil, bir anahtar çiftidir",
+        "intro": "Hesabınız genellikle özel anahtardan türetilmiş bir adrestir. Hiç kimse o anahtarı sizin için sıfırlayamaz; imza yetkidir. EOA'ları, sözleşme hesaplarını ve başlangıç ​​ifadelerini anlamak güvenli kullanımın temelidir.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Web2 hesapları, parola sıfırlama özelliğiyle şirket sunucularında yaşar. Blok zincirleri, kendi velayetini sağlamak için kontrolü anahtar sahiplerine devreder ve operasyonel sorumluluğu da beraberinde getirir."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Özel anahtarlar genel anahtarları ve adresleri türetir. Tohumlar (BIP-39), zincirler arasında birçok hesabı yeniden oluşturabilir. Sözleşme hesapları fonları kod yollarına göre taşır; akıllı hesaplar sınırlar ve koruyucular gibi politikaları kodlar."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Sıcak cüzdanlar uygundur; donanım cüzdanları anahtarları güvenli bir öğede tutar. Multisig kontrolü yayar. Sızan bir tohum, tüm türetme ağacını tehlikeye atabilir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Bulut ekran görüntüleri, kötü amaçlı yazılımlar ve \"destek\" tohum istekleri klasik kayıp yollarıdır. Kör imza, kanalizasyonları onaylayabilir ve belirsiz istemleri reddedebilir."
+          }
+        ],
+        "keyPoints": [
+          "Anahtarlar sahipliğe eşittir.",
+          "Adresler paylaşılabilir; tohumlar değildir.",
+          "EOA'lar insan imzalıdır; sözleşmeler kod kontrollüdür.",
+          "İmzalamadan önce izin kapsamını okuyun."
+        ],
+        "tips": [
+          "Deney fonlarını tasarruf cüzdanlarından ayırın.",
+          "Tohumları kağıda/metale yazın ve çevrimdışı saklayın.",
+          "Yeni dApp'lerde işlem simülasyonunu etkinleştirin."
+        ],
+        "body": "Hesabınız genellikle özel anahtardan türetilmiş bir adrestir. Hiç kimse o anahtarı sizin için sıfırlayamaz; imza yetkidir. EOA'ları, sözleşme hesaplarını ve başlangıç ​​ifadelerini anlamak güvenli kullanımın temelidir."
+      },
+      {
+        "id": "gas",
+        "title": "Gaz ve Ücretler",
+        "summary": "Her durum değişikliği ölçülür, böylece ortak bilgisayara ücretsiz olarak spam gönderilemez",
+        "intro": "Gaz keyfi bir vergi değildir; hesaplama ve depolamayı fiyatlandırır. Ücretiniz kullanım × birim fiyattır. Tıkanıklık birim fiyatı yükseltir, bu nedenle aynı eylem birkaç kuruşa veya onlarca dolara mal olabilir.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Kamu blok zincirleri kaynakları sınırlamalıdır. Gaz bir ücret piyasası yaratır: önce yüksek teklifler netleşir; geliştiricilerin verimli sözleşmeler yazması gerekir."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Basit transferler çok az yakıta mal olur; karmaşık DeFi rotalarının maliyeti daha yüksektir. EIP-1559'dan sonra taban ücretler yanar ve teklif verenlere bahşişler ödenir. L2'ler, birçok kullanıcı genelinde L1 veri maliyetini amorti eder, böylece birim ücretler düşer."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Gaz sınırı, ne kadar izin verdiğinizi sınırlar. Başarısız işlemler, yürütme gerçekleştiği için yine de gaz tahsil edebilir. Hızlandırma/iptal, beklemede olan bir seferlik ücreti daha yüksek bir ücretle değiştirir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Sahte siteler saçma gaz veya saçma çağrılara yol açabilir. \"Sıfır gaz\" kampanyaları genellikle izinleri genişletir; kimin sponsor olduğunu ve neye yetki verdiğinizi sorun."
+          }
+        ],
+        "keyPoints": [
+          "Gaz sayaçlarının yürütülmesi; fiyat piyasaya bağlıdır.",
+          "Arızalar hala gaza mal olabilir.",
+          "L2'ler ve gruplama, başlıca ücret tasarrufu sağlayan yöntemlerdir.",
+          "Anormal ücret veya onay taleplerini reddedin."
+        ],
+        "tips": [
+          "Acil olmayan eylemleri yoğun olmayan saatlerde veya L2'de gerçekleştirin.",
+          "Cüzdan ücreti tahminlerini ve simülasyonunu kullanın.",
+          "Çok adımlı kampanyalardan önce toplam gazı fiyatlandırın."
+        ],
+        "body": "Gaz keyfi bir vergi değildir; hesaplama ve depolamayı fiyatlandırır. Ücretiniz kullanım × birim fiyattır. Tıkanıklık birim fiyatı yükseltir, bu nedenle aynı eylem birkaç kuruşa veya onlarca dolara mal olabilir."
+      },
+      {
+        "id": "bridges",
+        "title": "Köprüler",
+        "summary": "Değeri veya mesajları zincirler arasında taşıyan kanallar ve sıklıkla hack hedefi",
+        "intro": "Varlıklar sihirli bir şekilde başka bir defterde görünmez. Köprüler likidite yoluyla kilitlenir, darp edilir, yakılır veya takas edilir; risk yoğunlaşırken erişimi genişletir. Tarihin en büyük istismarlarından bazıları köprü gözetimi ve doğrulamasını vurdu.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Köprüler olmadan ekosistemler ada olarak kalır. Köprüler sayesinde kullanıcılar, hareketlilik karşılığında ekstra güven ve sözleşme riskini devralır."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Modeller kilitle ve nane, yak ve kullan, likidite ağları ve hafif istemci rölelerini içerir. Kanonik toplama köprüleri, toplama güvenliğini devralır ancak çıkışta gecikmeler olabilir; hızlı köprüler hız için üçüncü taraf varsayımlarını ekler."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "1:1'i kullanabilir misin? Doğrulayıcılar ne kadar merkezsizdir? Yüksek TVL, otomatik güvenlik değil, daha büyük bir hedef anlamına gelebilir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Kimlik avı alanları köprülerin etrafında gelişir. Yanlış ağ veya token sözleşmeleri fonları boşluklara gönderir. Her zaman önce küçük bir aktarımla test edin."
+          }
+        ],
+        "keyPoints": [
+          "Köprü, ışınlanma değil, çapraz defter protokolüdür.",
+          "Kanonik ve hızlı köprülerin farklı güven modelleri vardır.",
+          "Köprüler tarihi hack kayıplarının başında geliyor.",
+          "Etki alanını, sözleşmeyi ve ağı birlikte doğrulayın."
+        ],
+        "tips": [
+          "Yalnızca yer imlerine eklenmiş resmi belgelerdeki köprüleri girin.",
+          "Boyutu taşımadan önce minimum boyutu test edin.",
+          "Bekleyen çıkışları henüz serbestçe harcanamaz olarak değerlendirin."
+        ],
+        "body": "Varlıklar sihirli bir şekilde başka bir defterde görünmez. Köprüler likidite yoluyla kilitlenir, darp edilir, yakılır veya takas edilir; risk yoğunlaşırken erişimi genişletir. Tarihin en büyük istismarlarından bazıları köprü gözetimi ve doğrulamasını vurdu."
+      }
+    ]
+  },
+  {
+    "id": "defi",
+    "name": "DeFi",
+    "summary": "Akıllı sözleşmeler aracılığıyla borç verme, takas etme ve stake etme",
+    "blurb": "Açık finansal ilkellerin nasıl oluştuğu ve oranlar, tasfiyeler ve istikrarlarla ilgili riskler.",
+    "items": [
+      {
+        "id": "amm",
+        "title": "Otomatik Piyasa Yapıcılar",
+        "summary": "Likidite havuzları ve fiyatlandırma eğrileri klasik sipariş defterlerinin yerini alıyor",
+        "intro": "AMM'ler herkesin bir havuza token yatırmasına izin verir, böylece yatırımcılar bir formülle takas yapabilirler. Sürekli likidite ve LP ücretlerinin yanı sıra kalıcı zarar ve akıllı sözleşme riski alırsınız.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Zincir içi sipariş defterleri maliyetlidir. Havuzlar, likiditeyi sözleşmelerde yerleşik tutar, böylece takaslar her zaman yapılabilir ve piyasa yapımını demokratikleştirir."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Sabit ürün klasik eğridir; Stabil takaslar ve konsantre likidite, sermaye verimliliğini artırır. Yönlendiriciler işlemleri havuzlar arasında böler. Kayma limitleri durum değiştiğinde sizi korur."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Kalıcı kayıp, LP'lerin tutma performansının düşük olmasına neden olabilir. Sahte tokenlar ve bal küpleri satın alınabilir gibi görünebilir ancak satılamaz. Emisyon APR'leri uzun sürmeyebilir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Bilinmeyen yönlendiricilere sınırsız onay verilmesi tehlikelidir. Depegs \"istikrarlı\" havuzlara çok önem veriyor."
+          }
+        ],
+        "keyPoints": [
+          "Anında takaslar için AMM'ler havuz matematiği aracılığıyla fiyatlandırılır.",
+          "LP'ler ücret kazanır ve IL + sözleşme riskini alır.",
+          "Kayma ve yönlendirme kalitesi sonuçları artırır.",
+          "Getiri peşinde koşmadan önce havuzları/jetonları doğrulayın."
+        ],
+        "tips": [
+          "Sıkı kayma ve minimum çıkış miktarlarını ayarlayın.",
+          "Olgun protokollerde derin havuzları tercih edin.",
+          "Kullanılmayan jeton tahsisatlarını düzenli olarak iptal edin."
+        ],
+        "body": "AMM'ler herkesin bir havuza token yatırmasına izin verir, böylece yatırımcılar bir formülle takas yapabilirler. Sürekli likidite ve LP ücretlerinin yanı sıra kalıcı zarar ve akıllı sözleşme riski alırsınız."
+      },
+      {
+        "id": "lending",
+        "title": "Borç Verme Protokolleri",
+        "summary": "Algoritmik oranlar ve tasfiyelerle aşırı teminatlandırılmış borçlanma",
+        "intro": "Getiri elde etmek için varlıkları yatırın veya kredi masası olmadan teminat karşılığında borç alın. İlişki yöneticileri değil, sağlık faktörleri, kahinler ve tasfiye botları sistemin çözücü kalmasını sağlar.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Teminatsız kredinin zincir üzerinde uygulanması zordur, dolayısıyla aşırı teminatlandırma hakimdir. Herkes katılabilir; Sermaye verimliliği bir değiş tokuştur."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Kullanım faiz eğrilerini yönlendirir. Oracle'lar yem fiyatları. Sağlık bozulduğunda tasfiye memurları borcunu öder ve ikramiye karşılığında teminat alır."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "İzolasyon modları, LTV ve şüpheli borç sosyalleştirmeleri protokole göre farklılık gösterir. Döngülü kaldıraç riski artırır. Net APR'den gas ve tasfiye cezaları çıkarılmalıdır."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Oracle gecikmesi veya manipülasyonu hatalı tasfiyelere neden olabilir. Borç vermeyi “güvenli tasarruf” olarak görmek bir zihniyet tuzağıdır."
+          }
+        ],
+        "keyPoints": [
+          "Aşırı teminatlandırma + tasfiyeler esastır.",
+          "Sağlık faktörü manşet oranlarını geride bırakıyor.",
+          "Oracle ve likidite kalitesi güvenliğe karar verir.",
+          "Kaldıraç döngüleri, dezavantajları artırır."
+        ],
+        "tips": [
+          "Tasfiyenin üzerinde geniş bir tampon bırakın.",
+          "Fırtınalarda yüksek derecede ilişkili teminatlardan kaçının.",
+          "Borçlanmadan önce tasfiye fiyatını tahmin edin."
+        ],
+        "body": "Getiri elde etmek için varlıkları yatırın veya kredi masası olmadan teminat karşılığında borç alın. İlişki yöneticileri değil, sağlık faktörleri, kahinler ve tasfiye botları sistemin çözücü kalmasını sağlar."
+      },
+      {
+        "id": "stablecoins",
+        "title": "Stablecoin'ler",
+        "summary": "USD gibi sabit bir referansı izlemek için tasarlanmış zincir üstü birimler",
+        "intro": "Değişken temel varlıklar fiyatlandırma ve muhasebe açısından uygun değildir. Stablecoin'ler ticaret ve havaleler için dolara benzer bir ray sağlar; ancak mekanizmalar ve başarısızlık modları büyük ölçüde farklılık gösterir.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Zincir içi faaliyetler için tanıdık bir hesap birimi ve riskten uzak anlarda geçici bir sığınak sağlarlar; sığınma ≠ risksiz."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Fiat destekli madeni paralar rezervlere ve itfaya dayanır; aşırı teminatlandırma konusunda kripto destekli olanlar; algoritmik tasarımlar arzı ayarlar ve kırılgan olduğu kanıtlanmıştır. Streste şeffaflık ve geri ödeme koşulları önemlidir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Donmalar, depeg'ler, sahte çapraz zincir versiyonları ve getiri sarmalayıcılar risk katmanlarını artırır. Başka bir zincirdeki aynı şerit resmi olmayabilir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "USD'nin adı sigorta değil, pazarlamadır. Bir ihraççıda yoğunlaşma karşı taraf riskidir."
+          }
+        ],
+        "keyPoints": [
+          "Stablecoin'ler ihraççı/mekanizma riski taşıyan araçlardır.",
+          "Rezervler, teminatlar veya algoritmalar farklı şekilde başarısız olur.",
+          "Kullanma ve dondurma politikaları kullanılabilirliği etkiler.",
+          "Daima zincir başına resmi sözleşmeleri doğrulayın."
+        ],
+        "tips": [
+          "Boyut olarak şeffaf, kullanılabilir tasarımları tercih edin.",
+          "İhraççıları ve mekanları çeşitlendirin.",
+          "Aşırı büyük \"istikrarlı verimi\" bir uyarı olarak değerlendirin."
+        ],
+        "body": "Değişken temel varlıklar fiyatlandırma ve muhasebe açısından uygun değildir. Stablecoin'ler ticaret ve havaleler için dolara benzer bir ray sağlar; ancak mekanizmalar ve başarısızlık modları büyük ölçüde farklılık gösterir."
+      },
+      {
+        "id": "staking",
+        "title": "Staking ve Yeniden Staking",
+        "summary": "Bir ağı güvence altına almak için sermayeyi bağlayın ve bazen bu güvenliği yeniden kullanın",
+        "intro": "Proof-of-stake, doğrulayıcıları bağlı hisseler aracılığıyla zincir güvenliğiyle uyumlu hale getirir. Likit staking tokenleri sermaye verimliliğini artırır; Yeniden paylaştırma, ekstra hizmetler için hisse miktarını yeniden kullanır ve riskin azaltılmasıyla ilişkili olarak istifler.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "PoS'un yeterince merkezi olmayan bir doğrulayıcı setine ihtiyacı var. Ödüller operasyonları ve fırsat maliyetini telafi eder; Likit stake etme, yeni sözleşme riskleriyle katılımı artırır."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Etkinleştirme ve çıkış kuyrukları, görevler ve kesme işi tanımlar. Yeniden paylaştırma, ekstra verim ve ekstra eğik çizgi koşulları için güvenliği ek protokollere devreder."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Operatör performansı, müşteri çeşitliliği ve LST riskten korunma açısından önemlidir. Daha yüksek verim genellikle cezalandırılacak daha fazla yol anlamına gelir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Sahte stake siteleri onayları veya tohumları toplar. Yeniden alım, ETH'de risksiz bir kaldıraç değildir."
+          }
+        ],
+        "keyPoints": [
+          "Staking, güvenlik çalışmalarının karşılığını verir.",
+          "Liquid stake etme, sözleşme/operatör katmanlarını ekler.",
+          "Yığınların yeniden alınması koşulları azaltır.",
+          "Stake'in geri alınmasındaki gecikmeler likiditenin anında olmadığı anlamına gelir."
+        ],
+        "tips": [
+          "Geçmiş performansları ve düşük konsantrasyonu olan operatörleri seçin.",
+          "Toleransı azaltmak için boyut yeniden ayarlanıyor.",
+          "Yalnızca resmi belge bağlantıları aracılığıyla girin."
+        ],
+        "body": "Proof-of-stake, doğrulayıcıları bağlı hisseler aracılığıyla zincir güvenliğiyle uyumlu hale getirir. Likit staking tokenleri sermaye verimliliğini artırır; Yeniden paylaştırma, ekstra hizmetler için hisse miktarını yeniden kullanır ve riskin azaltılmasıyla ilişkili olarak istifler."
+      },
+      {
+        "id": "perps",
+        "title": "Sürekli Vadeli İşlemler",
+        "summary": "Fonlama oranlarına bağlı, süresi dolmayan kaldıraçlı piyasalar",
+        "intro": "Perps, yatırımcıların marjla ve vade sonu olmadan uzun/kısa pozisyon almasına izin veriyor. Zincir üstü mekanlar, marj ve tasfiyeleri kod veya hibrit sistemlerde kodlar. Olumlu tarafı güçlendi; sıfıra giden yol hızı da öyle.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Spot tek başına hedgeleri verimli bir şekilde ifade edemez. Perps, yuvarlanma sürtünmesini ortadan kaldırarak kriptonun baskın türevi haline geldi."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Fiyatı bir endekse bağlamak için uzun ve kısa pozisyonlar arasındaki fon transferleri. Sürdürme marjı tasfiyeleri tetikler; Sigorta fonları açıkları kapatabilir. Kaosta kahinler ve kesintiler önemlidir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Kaldıraç, otomatik kaldıraç azaltma ve finansman tahakkuku hayatta kalmayı belirler. CEX ve DEX saklama modelleri farklıdır."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "\"Küçük kaldıraç güvenlidir\" fitillerinde başarısız olur. Gaz/şebeke sorunları nedeniyle marj ekleyememek sizi tasfiye edebilir."
+          }
+        ],
+        "keyPoints": [
+          "Finansman, sabitlemenin süresinin dolmasının yerini alır.",
+          "Tasfiye mekaniği varoluşsaldır.",
+          "Kaldıraç, volatiliteyi silme oranlarına dönüştürür.",
+          "Mekan ve oracle riski piyasa riskinin üzerinde birikir."
+        ],
+        "tips": [
+          "Yedek marj ile varsayılan olarak düşük kaldıraç.",
+          "Etkinliklerden önce boyutu azaltın; intikam eklemeyin.",
+          "Kurallarını doğrulayabileceğiniz mekanları kullanın."
+        ],
+        "body": "Perps, yatırımcıların marjla ve vade sonu olmadan uzun/kısa pozisyon almasına izin veriyor. Zincir üstü mekanlar, marj ve tasfiyeleri kod veya hibrit sistemlerde kodlar. Olumlu tarafı güçlendi; sıfıra giden yol hızı da öyle."
+      },
+      {
+        "id": "rwa",
+        "title": "RWA Tokenizasyonu",
+        "summary": "Gerçek dünyadaki nakit akışlarına ilişkin iddiaları kripto raylarına taşımak",
+        "intro": "RWA'lar tanıdık getirileri (T-bonolar gibi) zincir içi uzlaşmaya bağlar. Token, yalnızca akıllı sözleşme kullanıcı arayüzü değil, yalnızca yasal paketleyiciler, velayet ve itfa kadar iyidir.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Yerel kripto getirisi değişkendir; Tokenleştirilmiş nakit araçları, yapılar sağlam olduğunda hazine ihtiyaçlarını daha iyi karşılayabilir."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Lisanslı bir kuruluş varlıkları elinde tutar; jetonlar talepleri takip eder; getiri zincir üzerinde dağıtılır. KYC izin verilenler listeleri yaygındır. İkincil fiyatlar NAV'dan farklılık gösterebilir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "İflas uzaklığı, tasdikler, T+N itfası ve yetki alanı stres sonuçlarına karar verir. “Zincir üzerinde görünür” ≠ zincir dışı olarak otomatik olarak uygulanabilir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Karşı taraf ve düzenleyici değişiklik riski, sözleşme riskinin yanında yer alır. Sahte abonelik sayfaları çoktur."
+          }
+        ],
+        "keyPoints": [
+          "RWA = yasal + velayet + jeton tesisatı.",
+          "Getiri zincir dışı varlıklardan gelir.",
+          "Transfer/geri ödeme kuralları kontrol edilebilir.",
+          "Sadece APR'yi değil, ihraççı yapısını da inceleyin."
+        ],
+        "tips": [
+          "Teklif belgelerini okuyun ve onayları ayırın.",
+          "Yetki alanınızın bunu tutmaya izin verdiğini doğrulayın.",
+          "Ödeme pencerelerini ve ikincil derinliği izleyin."
+        ],
+        "body": "RWA'lar tanıdık getirileri (T-bonolar gibi) zincir içi uzlaşmaya bağlar. Token, yalnızca akıllı sözleşme kullanıcı arayüzü değil, yalnızca yasal paketleyiciler, velayet ve itfa kadar iyidir."
+      }
+    ]
+  },
+  {
+    "id": "nfts",
+    "name": "NFT'ler",
+    "summary": "Benzersiz tokenlar ve onlar için pazar yerleri",
+    "blurb": "Standartlardan ve pazarlardan kültüre, oyunlara ve dinamik varlıklara kadar.",
+    "items": [
+      {
+        "id": "erc721",
+        "title": "ERC-721 ve ERC-1155",
+        "summary": "Benzersiz ve yarı değiştirilebilir tokenlar için standart arayüzler",
+        "intro": "Standartlar, cüzdanların ve piyasaların tek bir dil konuşmasına olanak tanır. 721 bir kimliği bir sahiple eşler; 1155 birçok kimliği ve toplu aktarımı yönetir; oyunlar için kullanışlıdır.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Standartlar olmadan her proje özel API'ler icat eder ve birlikte çalışabilirliği bozar. İçerik oluşturucular aynı zamanda çoklu pazar dağıtımına da sahip oluyor."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Mülkiyet ve devirler standartlaştırılmıştır; meta veriler genellikle bir tokenURI'de (genellikle IPFS) bulunur. Onaylar jeton başına veya operatör çapında olabilir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Değiştirilebilir meta veriler, sabitleme ve telif hakkı politikası, dayanıklılığı ve ekonomiyi şekillendirir. Sahte koleksiyonlar, sanatı farklı sözleşmelerle (güven adresleri) kopyalar."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Bilinmeyen pazarlara yönelik kör setApprovalForAll, klasik bir tahliyedir. Nadirlik anlatıları ≠ likidite."
+          }
+        ],
+        "keyPoints": [
+          "Standartlar gerçek değeri değil, birlikte çalışmayı mümkün kılar.",
+          "Depolama seçenekleri kalıcılığı etkiler.",
+          "Onayları en aza indirin.",
+          "Sözleşme adresi orijinallik kontrolüdür."
+        ],
+        "tips": [
+          "Satın almadan önce resmi sözleşmeleri doğrulayın.",
+          "Eski pazar yeri operatörlerini iptal edin.",
+          "Yüksek değerli parçaları kasa cüzdanlarına bölün."
+        ],
+        "body": "Standartlar, cüzdanların ve piyasaların tek bir dil konuşmasına olanak tanır. 721 bir kimliği bir sahiple eşler; 1155 birçok kimliği ve toplu aktarımı yönetir; oyunlar için kullanışlıdır."
+      },
+      {
+        "id": "markets",
+        "title": "NFT Pazaryerleri",
+        "summary": "Listeleme, teklif verme, ödeme ve telif hakkı politikası katmanları",
+        "intro": "Piyasalar, alıcıları ve satıcıları zincir üstü veya hibrit sipariş akışıyla eşleştirir. Toplayıcılar mekânlar arasında dolaşırlar. Telif hakkının uygulanması, salt protokol büyüsü değil, giderek daha fazla pazar politikası haline geliyor.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "İçerik oluşturucuların dağıtıma ihtiyacı var; koleksiyonerlerin keşfe ve fiyat oluşumuna ihtiyacı var. Rekabet ücretleri sıkıştırıyor ve güvenlik beklentilerini artırıyor."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Satıcılar transferleri onaylar; alıcılar yerleşir. Çalınan listeleri imkansız indirimlerle izleyin. Toplayıcılar fiyata yardımcı olur ancak durum tespitine yardımcı olmaz."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Ücretler, ihale emanetleri, yıkama ticareti ve çapraz listeleme tuhaflıkları önemlidir. Kat grafikleri değiştirilebilir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Kimlik avı kullanıcı arayüzleri en iyi pazarları taklit eder. Airdrop imzaları yaygın bir cazibedir."
+          }
+        ],
+        "keyPoints": [
+          "Piyasalar raylardır, değer garantisi değildir.",
+          "Teklifler ve onaylar risk taşır.",
+          "Royalty kuralları mekana göre değişir.",
+          "Ultra düşük talepler çalıntı varlıklar olabilir."
+        ],
+        "tips": [
+          "Resmi alan adlarına yer işareti koyun; arama ağı reklamlarını atlayın.",
+          "Teklif boyutunu ve son kullanma tarihini ölçülü tutun.",
+          "Zaman içinde dikkatlice biriktirin."
+        ],
+        "body": "Piyasalar, alıcıları ve satıcıları zincir üstü veya hibrit sipariş akışıyla eşleştirir. Toplayıcılar mekânlar arasında dolaşırlar. Telif hakkının uygulanması, salt protokol büyüsü değil, giderek daha fazla pazar politikası haline geliyor."
+      },
+      {
+        "id": "pfp",
+        "title": "PFP ve Kültür NFT'leri",
+        "summary": "Kimlik ve topluluk üyeliği, ticareti yapılabilir medya olarak paketlendi",
+        "intro": "Profil resmi NFT'leri, sahipliği sosyal bir sinyale dönüştürür. Fiyatlandırma, nakit akışına dayalı olmaktan ziyade anlatıya ve likiditeye dayalıdır. Onlara önce kültür, sonra spekülasyon gibi davranın.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Platform kullanıcı adları kiralanır; PFP'ler taşınabilir görsel kimlik ve topluluğa erişim sağlamaya çalışır; dikkat para kazanabilir ve dikkat ayrılabilir."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Darphaneler, nadirlik araçları, Discord/Telegram ve ikincil ticaret döngüyü oluşturur. Bazıları fayda sağlar; çoğu bunu yapmıyor."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Tutucu dağıtımı, kilitlerin açılması ve ince kitaplar kaza riskini artırır. Kimliğe bürünme dolandırıcılıkları süreklidir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Coşkunun doruklarında \"mavi çip\" anlatılarının peşinde koşmak acı veriyor. Tohum konusunda asla DM yöneticilerine güvenmeyin."
+          }
+        ],
+        "keyPoints": [
+          "Değer çoğunlukla sosyal ve anlatısaldır.",
+          "Resmi sözleşmeleri/kanalları doğrulayın.",
+          "Likidite hızla ortadan kaybolabilir.",
+          "Topla/sosyalleş; garantili verim olarak görmeyin."
+        ],
+        "tips": [
+          "Satın almadan önce toplulukları gizleyin.",
+          "Airdrop DM'lerini dikkate almayın.",
+          "Maksimum zarar bütçesini önceden tanımlayın."
+        ],
+        "body": "Profil resmi NFT'leri, sahipliği sosyal bir sinyale dönüştürür. Fiyatlandırma, nakit akışına dayalı olmaktan ziyade anlatıya ve likiditeye dayalıdır. Onlara önce kültür, sonra spekülasyon gibi davranın."
+      },
+      {
+        "id": "gaming-assets",
+        "title": "Oyun Varlıkları",
+        "summary": "Sahipliği doğrulanabilen takas edilebilir öğeler, karakterler ve araziler",
+        "intro": "Kripto oyunları, kıt öğelerin sizin kalacağını vaat ediyor. Eğlence döngüleri, dengeli ekonomiler ve gerçek mülkiyet bir arada var olmalı; aksi takdirde spekülatif bir kabukla kalırsınız.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Geleneksel kapanmalar stokları siler. Açık pazarlar ve doğrulanabilir sahiplik, oyuncuların beklentilerini değiştirir ve kullanıcı tarafından oluşturulan içerik ekonomilerini mümkün kılar."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Melezler gerçek zamanlı mücadeleyi zincir dışında tutar ve zincirdeki kıtlığı giderir. Darphane, lavabo ve işçilik şekli fiyatları; kontrol edilmeyen emisyonlar onları şişiriyor."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Üretim/tüketim oranları ve harcayanlar tek başına sanattan daha önemli. Sahip olunabilir ≠ talep edilir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Ayı piyasalarında erken token ödüllerini maaş olarak görmek başarısız oluyor. Oyun anahtarlarını kasa cüzdanlarından ayırın."
+          }
+        ],
+        "keyPoints": [
+          "Mülkiyetin sürdürülebilir bir oyun döngüsüne ihtiyacı var.",
+          "Ekonomi tasarımı uzun vadeli fiyatları yönlendirir.",
+          "Melezler performans için saflığı değiştirirler.",
+          "Heyecanı elde tutma ≠ oyuncuyu elde tutma."
+        ],
+        "tips": [
+          "Pahalı varlıkları satın almadan önce oynayın.",
+          "Lavaboları ve emisyonları takip edin.",
+          "Oyun hesaplarını ana fonlardan ayırın."
+        ],
+        "body": "Kripto oyunları, kıt öğelerin sizin kalacağını vaat ediyor. Eğlence döngüleri, dengeli ekonomiler ve gerçek mülkiyet bir arada var olmalı; aksi takdirde spekülatif bir kabukla kalırsınız."
+      },
+      {
+        "id": "tickets",
+        "title": "Biletler ve Kimlik Bilgileri",
+        "summary": "İsteğe bağlı aktarım kurallarıyla doğrulanabilir erişim hakları",
+        "intro": "Biletler ve üyelikler yetkinin kanıtlanmasıyla ilgilidir. Zincir üzerindeki kimlik bilgileri, sahte işlemleri azaltabilir ve kontrollü yeniden satışı mümkün kılabilir; eğer check-in kullanıcı deneyimi gerçekten normal insanlar için işe yarıyorsa.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Kağıt sahteleri ve opak ölçeklendirme olaylara zarar verir. Doğrulanabilir dijital biletler kimliği bağlayabilir veya aktarım kısıtlamaları belirleyebilir ve denetlenebilir izler bırakabilir."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Satın alma sırasında darp/talep; kullanılan tarama-kullanma işaretleri. Soulbound seçenekleri çığırtkanlığı azaltır. Gizlilik/KYC genellikle zincirin dışında kalır."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Aktarılabilirlik, ekran görüntüsü saldırıları ve tohumların kaybolması durumunda kurtarmanın tümü tasarıma ihtiyaç duyar. Cüzdan anlaşmazlığı kitleleri hariç tutabilir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Sahte bilet darphaneleri ve iptal edilen etkinlikler geride değersiz jetonlar bırakıyor. Kişisel verilerinizi bilinmeyen sözleşmelerle aşırı paylaşmayın."
+          }
+        ],
+        "keyPoints": [
+          "Değer sağdadır, çevirmede değil.",
+          "Redemption UX ölçeğe karar verir.",
+          "Satın almadan önce transfer kurallarını okuyun.",
+          "Kurtarma yolları hala önemlidir."
+        ],
+        "tips": [
+          "Yalnızca organizatör kanalları aracılığıyla satın alın.",
+          "Etkinlikten önce cüzdan ekranını test edin.",
+          "Onay e-postalarını da zincir dışında tutun."
+        ],
+        "body": "Biletler ve üyelikler yetkinin kanıtlanmasıyla ilgilidir. Zincir üzerindeki kimlik bilgileri, sahte işlemleri azaltabilir ve kontrollü yeniden satışı mümkün kılabilir; eğer check-in kullanıcı deneyimi gerçekten normal insanlar için işe yarıyorsa."
+      },
+      {
+        "id": "dynamic",
+        "title": "Dinamik NFT'ler",
+        "summary": "Özellikleri zincir üstü veya oracle durumuna göre değişebilen varlıklar",
+        "intro": "Dinamik NFT'ler oyunun ilerlemesinden, zamandan veya harici verilerden görünümü veya nitelikleri günceller. Kendilerini canlı hissediyorlar ama değişebilirlik alıcılar için şeffaf olmalı.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Üyelik katmanları ve gelişen oyun öğelerinin duruma ihtiyacı vardır. Dinamikler, NFT'leri statik görüntülerden daha fazlası haline getirir."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Sözleşmeler veya meta veri hizmetleri, tetikleyicilerden gelen URI'leri günceller. Meta veriler merkezileştirilirse dinamikler sessiz düzenlemelere dönüşebilir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Kim güncelleyebilir? Tarih denetlenebilir mi? Pazaryerleri son durumu göstermelidir. Alıcılar neyin değişebileceğini bilmelidir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Operatörler nadirliği zayıflatabilir. Oracle hataları yanlış formlar ayarlayabilir. \"Değişmez nadirlik\" artı sessiz yönetici güncellemeleri bir tehlike işaretidir."
+          }
+        ],
+        "keyPoints": [
+          "Dinamikler bir özellik ve risktir.",
+          "Güncelleme izinlerini açıkça yayınlayın.",
+          "Barındırma modeli güveni artırır.",
+          "Ticaret yapmadan önce en son özellikleri onaylayın."
+        ],
+        "tips": [
+          "Güncelleme kurallarını ve geçmişini okuyun.",
+          "Doğrulanabilir zincir üstü durum makinelerini tercih edin.",
+          "Yüksek değerli parçaları soğuk cüzdanlarda saklayın."
+        ],
+        "body": "Dinamik NFT'ler oyunun ilerlemesinden, zamandan veya harici verilerden görünümü veya nitelikleri günceller. Kendilerini canlı hissediyorlar ama değişebilirlik alıcılar için şeffaf olmalı."
+      }
+    ]
+  },
+  {
+    "id": "layer2",
+    "name": "Katman 2",
+    "summary": "Ethereum üzerine kurulu ağları ölçeklendirme",
+    "blurb": "İyimser/ZK özetleri, veri kullanılabilirliği, köprüler ve ücretlerin neden kuruşa düşebileceği.",
+    "items": [
+      {
+        "id": "optimistic",
+        "title": "İyimser Toplamalar",
+        "summary": "Grupların geçerli olduğunu varsayalım; onları dolandırıcılığa karşı korumalı bir pencereyle güvence altına alın",
+        "intro": "İyimser toplamalar L2'de yürütülür, verileri Ethereum'a gönderir ve sorgulanmadığı sürece doğruluğu varsayar. Kullanıcılar daha ucuz UX elde eder; kanonik çıkışlar bir meydan okuma dönemini bekleyebilir.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "L1 blok alanı pahalıdır. L1'e bağlanırken yürütmeyi zincir dışına taşımak maliyetleri azaltır. İyimser tasarımlar, güçlü EVM uyumluluğuyla birlikte erkenden gönderilir."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Bir sıralayıcı işlemleri sipariş eder ve partileri yayınlar; durum kökleri L1'e sabitlenir. Pencere sırasında gözlemciler tartışabilir. Hızlı çıkışlar, ekstra varsayımlarla üçüncü taraf likiditesini kullanır."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Sıralayıcının merkezden dağıtılması, veri kullanılabilirliği ve yükseltme anahtarları gerçek güvenliği tanımlar. UX hızı ≠ merkezi olmayan yönetim tamamlandı."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Çıkışı göz ardı etmek, likiditenin yanlış fiyatlandırılmasını geciktirir. Sahte köprü siteleri L2'ler trende girdiğinde yükselişe geçiyor."
+          }
+        ],
+        "keyPoints": [
+          "Daha basit dolandırıcılık kanıtları için Windows ticaret gecikmesine meydan okuyun.",
+          "Güvenlik, L1 verilerine + anlaşmazlık oyunlarına dayanır.",
+          "Kanonik köprüler daha yavaş ama daha nettir.",
+          "Sıralayıcının çalışma süresi bir deneyim riskidir."
+        ],
+        "tips": [
+          "L1 planı gecikmeyi göz önünde bulundurarak çıkar.",
+          "Resmi köprü giriş noktalarını tercih edin.",
+          "Sıralayıcı kesintileri için kaçış kapağı belgelerini okuyun."
+        ],
+        "body": "İyimser toplamalar L2'de yürütülür, verileri Ethereum'a gönderir ve sorgulanmadığı sürece doğruluğu varsayar. Kullanıcılar daha ucuz UX elde eder; kanonik çıkışlar bir meydan okuma dönemini bekleyebilir."
+      },
+      {
+        "id": "zk",
+        "title": "ZK Toplamaları",
+        "summary": "Geçerlilik kanıtları L1'i L2 gruplarının doğru olduğuna ikna eder",
+        "intro": "Geçerlilik kanıtları, L1'in sonuçları uzun dolandırıcılık pencereleri olmadan kabul etmesine olanak tanır. Kanıtlama, hesaplama açısından ağırdır, ancak kanıtlar bir kez ulaştığında kesinlik daha hızlı hissedilebilir.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "\"Meydan okunmadığı sürece dürüst varsayın\" ilkesine güvenmeden ölçeklendirin. Daha hızlı yerleşim, takaslara ve köprülere yardımcı olur."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "L2 yürütülür; kanıtlayıcılar kanıt oluşturur; L1 doğrulayıcıları bunları kontrol eder. Daha yüksek EVM eşdeğerliği, uygulama geçişini kolaylaştırır."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Kanıt sistemleri, DA ve yükseltme anahtarları hala önemlidir. “ZK” markası ≠ merkezi olmayan kanıtlanmış pazarlar henüz."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Merkezi kanıtlayıcılar/sıralayıcılar kalabilir. Köprüler ve kimlik avı hâlâ kullanıcı kayıplarının başında geliyor."
+          }
+        ],
+        "keyPoints": [
+          "Geçerlilik kanıtları doğruluk garantilerini güçlendirir.",
+          "Donanım/mühendislik maliyetleri ücretleri ve merkezi olmayan yönetimi şekillendirir.",
+          "Kullanıcıların hala köprü ve cüzdan hijyenine ihtiyacı var.",
+          "EVM uyumluluğu ekosistem taşımayı yönlendirir."
+        ],
+        "tips": [
+          "Prover'ın merkezi olmayan yönetim yol haritalarını kontrol edin.",
+          "Köprüleri küçük miktarlarda test edin.",
+          "DA tasarımını dikkatlice okuyun."
+        ],
+        "body": "Geçerlilik kanıtları, L1'in sonuçları uzun dolandırıcılık pencereleri olmadan kabul etmesine olanak tanır. Kanıtlama, hesaplama açısından ağırdır, ancak kanıtlar bir kez ulaştığında kesinlik daha hızlı hissedilebilir."
+      },
+      {
+        "id": "data",
+        "title": "Veri Kullanılabilirliği",
+        "summary": "Herkesin durumu yeniden yapılandırmak için gereken verileri elde edebilmesini sağlamak",
+        "intro": "Toplamalar işlem verilerini elde edilebilir hale getirmelidir. Veriler kaybolursa kullanıcılar güvenli bir şekilde çıkış yapamayabilir. Bloblar Ethereum DA maliyetlerini düşürdü ve L2 ücretlerinin sıkıştırılmasına yardımcı oldu.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Veri içermeyen kanıtlar yine de kullanıcıları tuzağa düşürebilir. Verilerin nerede yaşadığı ve ne kadar maliyetli olduğu ölçeklendirme tartışmalarının merkezinde yer alıyor."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Veriler, genellikle örnekleme/silme kodlamasıyla Ethereum çağrı verileri/blobları veya harici DA katmanlarında bulunabilir. Güvenlik mirası tasarıma göre farklılık gösterir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "\"Ethereum'a yerleşmek\", \"DA eşittir tam Ethereum garantileri\" ile aynı değildir. Ücret düşüşleri genellikle daha ucuz DA'yı takip eder."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "DA arıza modlarını hafife almak tehlikelidir. Pazarlama, yerleşim ile kullanılabilirliği bulanıklaştırabilir."
+          }
+        ],
+        "keyPoints": [
+          "DA olmadan kişisel kurtarma zayıflar.",
+          "Blob dönemi yükseltmeleri L2 ücret eğrilerini değiştirdi.",
+          "DA seçimleri farklı varsayımlar taşır.",
+          "Ücretleri, güvenliği ve merkezi olmayan yönetimi bir arada değerlendirin."
+        ],
+        "tips": [
+          "Her L2'nin DA bölümünü okuyun.",
+          "Resmi kaçış kapısı notlarını el altında bulundurun.",
+          "Zincirleri yalnızca TPS'ye göre sıralamayın."
+        ],
+        "body": "Toplamalar işlem verilerini elde edilebilir hale getirmelidir. Veriler kaybolursa kullanıcılar güvenli bir şekilde çıkış yapamayabilir. Bloblar Ethereum DA maliyetlerini düşürdü ve L2 ücretlerinin sıkıştırılmasına yardımcı oldu."
+      },
+      {
+        "id": "bridges-l2",
+        "title": "L2 Köprüleri",
+        "summary": "L1 ve L2 arasındaki kanonik ve üçüncü taraf yolları",
+        "intro": "Kanonik köprüler toplama kurallarını devralır ve yavaş olabilir; üçüncü taraf köprüler ekstra güvenle hız satar. Yanlış kullanıcı arayüzünü seçmek en büyük kayıp modelidir.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Ucuz UX için L2'de veya ödeme için L1'de paraya ihtiyacınız var. Farklı kullanıcılar farklı güven/gecikme noktaları seçer."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Resmi köprüler, toplama kurallarına göre para yatırma ve çıkış sonrasında L2 bakiyelerini kredilendirir. Hızlı bir şekilde likiditeyi köprüler ve daha sonra yeniden dengelenir; ücretleri ve limitleri izleyin."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Alan adı özgünlüğü, yükseltilebilirlik, sınırlar ve geri ödeme yolları önemlidir. Daha hızlı genellikle daha fazla karşı taraf anlamına gelir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Arama reklamı sahte alanları. Yanlış token sürümü arasında köprü kurmak likiditeyi engelliyor. Hala mücadele pencerelerinde fon harcamak riski yanlış işaretliyor."
+          }
+        ],
+        "keyPoints": [
+          "Kanonik köprüler toplama varsayımlarıyla en iyi şekilde eşleşir.",
+          "Hızlı köprüler güveni zamanla değiştirir.",
+          "Alan adı doğrulaması zorunludur.",
+          "Boyuttan önce küçük testler."
+        ],
+        "tips": [
+          "L2'nin kendi sitesinden köprülere tıklayın.",
+          "Destek/hata ayıklama için tx karmalarını kaydedin.",
+          "Boyut açısından denetlenmemiş yepyeni köprülerden kaçının."
+        ],
+        "body": "Kanonik köprüler toplama kurallarını devralır ve yavaş olabilir; üçüncü taraf köprüler ekstra güvenle hız satar. Yanlış kullanıcı arayüzünü seçmek en büyük kayıp modelidir."
+      },
+      {
+        "id": "accounts-aa",
+        "title": "Hesap Soyutlama",
+        "summary": "Kurtarma, limitler ve sponsorlu gaz içeren akıllı sözleşme cüzdanları",
+        "intro": "Klasik EOA'lar tohum cümleleri ve kendi kendine ödenen gaz anlamına gelir. AA, cüzdanların doğrulama mantığını (koruyucular, oturum anahtarları, toplu işlem, ödeme yöneticileri) tanımlamasına olanak tanır, böylece kendi gözetiminden tamamen vazgeçmeden katılım Web2'ye daha yakın olur.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Tohumlar yeni gelenleri korkutur; gaz jetonları kafalarını karıştırıyor. AA, doğrulanabilir kontrolü korurken sürtünmeyi azaltır. dApp'ler oturumlar ve gruplar aracılığıyla daha az açılır pencere kazanır."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Kullanıcı İşlemleri zincir üzerinde paketlenir; Paymasterlar ücretlere sponsor olabilir. Cüzdan sözleşmeleri politikaların uygulanmasını sağlar. ERC-4337 gibi standartlar zincirin olgunluğuna göre değişiklik gösterir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Koruyucular kimlerdir? Kurtarma merkezi mi? Oturum izinleri çok mu geniş? Misconfig hala para kaybediyor."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "“Tohum yok” ≠ risk yok; kurtarma kanallarına saldırı yapılabilir. Kötü amaçlı paketleyici/ödeme yöneticisi uç noktaları mevcuttur. Bilinmeyen dApp'lere yapılan oturumlar tehlikelidir."
+          }
+        ],
+        "keyPoints": [
+          "AA, sözleşme cüzdanlarındaki politikayı kodlar.",
+          "Sponsorlu gaz ve sosyal kurtarma, UX'in başlıca kazanımlarıdır.",
+          "Yapılandırma gerçek güvenliği seçer.",
+          "Kimlik avı, körü körüne onaylamanız durumunda da çalışmaya devam eder."
+        ],
+        "tips": [
+          "Çeşitli koruyucular ve cihazlar seçin.",
+          "Yalnızca kısa ömürlü, sınırlı oturum anahtarları.",
+          "Kasalar için donanımı/çoklu imzayı saklayın."
+        ],
+        "body": "Klasik EOA'lar tohum cümleleri ve kendi kendine ödenen gaz anlamına gelir. AA, cüzdanların doğrulama mantığını (koruyucular, oturum anahtarları, toplu işlem, ödeme yöneticileri) tanımlamasına olanak tanır, böylece kendi gözetiminden tamamen vazgeçmeden katılım Web2'ye daha yakın olur."
+      },
+      {
+        "id": "multi-chain",
+        "title": "Çok Zincirli Gerçeklik",
+        "summary": "Likidite ve kullanıcılar birçok yerleşim alanında parçalanıyor",
+        "intro": "Artık çok az insan tek zincirde yaşıyor. Gaz belirteçleri, köprüler ve uygulama dağıtımları farklılık gösterir. Niyet çözücüler yolları gizler ancak yine de fonların nerede olduğunu bilmeniz gerekir.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Bir zincir her ücret/performans nişini optimize edemez. Daha fazla seçenek aynı zamanda yanlış ağı seçmenin daha fazla yolu anlamına da gelir."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Cüzdanlar RPC/zincir kimliğini değiştirir; aynı adres EVM zinciri başına farklı varlıkları tutabilir. Köprüler ve mesajlaşma bağlantı durumları; Çözücüler niyetleri doldurmak için yarışırlar."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Zincir kimliği özgünlüğü, sahte RPC'ler ve zincir başına token sözleşmeleri günlük ayak silahlarıdır. Sıfır bakiye genellikle yanlış ağın seçilmesi anlamına gelir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Kötü amaçlı özel RPC'ler imzaları kandırır. Pencerelerin köprülenmesi riski artırır. Yeri doldurulamaz fonları on yeni L2'ye yaymak operasyonel borçtur."
+          }
+        ],
+        "keyPoints": [
+          "Çoklu zincir normaldir; ağları her zaman doğrulayın.",
+          "Her yerde aynı adres ≠ aynı bakiyeler.",
+          "Niyetler karmaşıklığı gizler; köprü riskini ortadan kaldırmazlar.",
+          "Daha az aktif zincir hataları azaltır."
+        ],
+        "tips": [
+          "Ağları cüzdanınızda açıkça etiketleyin.",
+          "Göndermeden önce ekran görüntüsü alın/ağ adlarını kontrol edin.",
+          "Yeni bir zincire para yatırmadan önce çıkışları öğrenin."
+        ],
+        "body": "Artık çok az insan tek zincirde yaşıyor. Gaz belirteçleri, köprüler ve uygulama dağıtımları farklılık gösterir. Niyet çözücüler yolları gizler ancak yine de fonların nerede olduğunu bilmeniz gerekir."
+      },
+      {
+        "id": "costs",
+        "title": "L2 Ücretleri Neden Sent Olabilir?",
+        "summary": "Verilerin toplu işlenmesi ve daha ucuz olması, birçok kullanıcı için L1 maliyetlerinin amorti edilmesini sağlar",
+        "intro": "Sıkışık L1'de kıt blok alanı için teklif verirsiniz. L2'ler birçok TX'i bir arada paketler, böylece her kullanıcı paylaşılan veri/kanıt maliyetinin bir kısmını öder; bu genellikle birkaç sente kadar düşer.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Yüksek ücretler mikro ödemeleri ve oyun döngülerini engelliyor. Daha düşük ücretler, normal insanların yalnızca listeleri izlemekle kalmayıp uygulamaları da kullanmasına olanak tanır."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Yürütme L2'de gerçekleşir; özetler L1'e ulaştı. Blob dönemi DA birim maliyetlerini azaltır. L2'ler, genellikle L1 zirvelerinin çok altında, hala tıkanabilir. Köprü ücretleri ve kayma ayrı kalemlerdir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Ucuz ≠ eşit derecede merkezi olmayan. Sıralayıcı ücreti politikası kullanıcı deneyimini şekillendirir. Çok adımlı onaylar hala geçerlidir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "İki dolar tasarruf etmek için köprü dolandırıcılığı riskine girmek mantıksızdır. Stres olayları hem ücretleri hem de çıkış sürelerini kötüleştirir."
+          }
+        ],
+        "keyPoints": [
+          "Amortisman + daha ucuz DA sürücü ücreti sıkıştırması.",
+          "L2 tıkanıklığı farklı bir ölçekte mevcuttur.",
+          "Toplam maliyete köprü, kayma ve süre dahildir.",
+          "Güvenlik, para tasarrufundan üstündür."
+        ],
+        "tips": [
+          "Rotaları karşılaştırırken köprü ücretlerini dahil edin.",
+          "Acil olmayan eylemler için ani artışları bekleyin.",
+          "Kaçış yakıtı olarak biraz L1 ETH bulundurun."
+        ],
+        "body": "Sıkışık L1'de kıt blok alanı için teklif verirsiniz. L2'ler birçok TX'i bir arada paketler, böylece her kullanıcı paylaşılan veri/kanıt maliyetinin bir kısmını öder; bu genellikle birkaç sente kadar düşer."
+      }
+    ]
+  },
+  {
+    "id": "infra",
+    "name": "Altyapı",
+    "summary": "Oracle'lar, depolama, indeksleme ve geliştirici araçları",
+    "blurb": "Cüzdanlara, DeFi'ye ve daha güvenli kullanıcı deneyimine güç veren görünmez kanallar.",
+    "items": [
+      {
+        "id": "oracles",
+        "title": "Kahinler",
+        "summary": "Zincir dışı gerçekleri akıllı sözleşmelere getiren köprüler",
+        "intro": "Sözleşmeler döviz fiyatlarını veya gerçek dünyadaki puanları tek başına göremez. Oracle'lar tasfiyeler, sorumlular ve sigorta için harici verileri toplar. Başarısız olduklarında bunu basamaklar takip eder.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Blok zincirleri determinizm açısından izole edilmiş olsa da finansın girdilere ihtiyacı var. Oracle'lar tazeliği bütünlükle dengeliyor; onlarsız çoğu DeFi durağı."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Kaynaklar toplanır, aykırı değerler düşer, güncellemeler kalp atışını veya talebi artırır. Bazı tasarımlar kötü muhabirleri riske atıyor ve kesiyor. Devre kesiciler kaosta önemlidir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Batık krediler için zayıf piyasaların manipüle edilmesi daha kolaydır. Çapraz zincir mesajları da kehanet benzeri güven sorunlarıdır."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "“Bir kehanete” sahip olmak ≠ hasar görmezlik. Eski fiyatlar, yanlış ondalık sayılar ve duraklatılan yayınların hepsi can sıkıcıdır."
+          }
+        ],
+        "keyPoints": [
+          "Oracle'lar DeFi'nin cankurtaran halatıdır.",
+          "Kaynakları, toplamayı ve güncelleme kurallarını değerlendirin.",
+          "Likit olmayan varlıkların sahteciliği daha kolaydır.",
+          "Protokol devre kesicileri patlama yarıçapını azaltır."
+        ],
+        "tips": [
+          "Bir protokolün hangi beslemeyi ve kalp atışını kullandığını bilin.",
+          "Aşırı volatilitede hassasiyete duyarlı eylemleri azaltın.",
+          "Boyut açısından tek kaynaklı tasarımlardan kaçının."
+        ],
+        "body": "Sözleşmeler döviz fiyatlarını veya gerçek dünyadaki puanları tek başına göremez. Oracle'lar tasfiyeler, sorumlular ve sigorta için harici verileri toplar. Başarısız olduklarında bunu basamaklar takip eder."
+      },
+      {
+        "id": "rpc",
+        "title": "RPC ve Düğümler",
+        "summary": "Cüzdanlar zincir durumunu ve yayın işlemlerini nasıl okur?",
+        "intro": "Cüzdanlar, RPC uç noktaları aracılığıyla blok zincirlerle iletişim kurar. Genel RPC'ler kolaydır ancak hız sınırlaması yapılabilir, günlüğe kaydedilebilir veya kimlik avı amacıyla değiştirilebilir. RPC'yi anlamak, \"yanlış bakiye\" ve takılıp kalmış tx'lerde hata ayıklamaya yardımcı olur.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Herkes tam düğüm çalıştırmaz. RPC'ler, kendi kendini barındırma seçeneğini korurken düğüm yeteneklerini API'ler olarak kullanıma sunar."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Uygulamalar, sorgu durumuna veya ham metinlere JSON-RPC çağrıları gönderir. Sağlayıcılar arşiv derinliği, gizlilik ve güvenilirlik açısından farklılık gösterir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Kötü amaçlı RPC'ler sahte bakiyeler veya sansür tx'leri gösterebilir. İmzalama yerel kalır ancak kötü veriler sizi yine de kandırabilir. Ağları eklerken zincir kimliklerini doğrulayın."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Şüpheli sitelerden tek tıklamayla \"ağ ekle\" risklidir. Kamu kesintileri her zaman cüzdan hataları değildir. RPC sırlarını hiçbir zaman genel ön uçlara aktarmayın."
+          }
+        ],
+        "keyPoints": [
+          "RPC okuma/yazma kapısıdır.",
+          "Yerel imzalama ≠ güvenilir görüntülenen durum.",
+          "Kaşiflerdeki kritik eylemleri çapraz kontrol edin.",
+          "Özel/kendi kendine barındırılan düğümler gizliliği/güvenilirliği artırır."
+        ],
+        "tips": [
+          "İki güvenilir RPC yedeğini saklayın.",
+          "Garip dengelerde düğümleri değiştirin veya bir kaşif kullanın.",
+          "Resmi ağ parametrelerini manuel olarak yazın."
+        ],
+        "body": "Cüzdanlar, RPC uç noktaları aracılığıyla blok zincirlerle iletişim kurar. Genel RPC'ler kolaydır ancak hız sınırlaması yapılabilir, günlüğe kaydedilebilir veya kimlik avı amacıyla değiştirilebilir. RPC'yi anlamak, \"yanlış bakiye\" ve takılıp kalmış tx'lerde hata ayıklamaya yardımcı olur."
+      },
+      {
+        "id": "indexers",
+        "title": "Dizin oluşturucular",
+        "summary": "Ham günlükleri sorgulanabilir ürün API'lerine dönüştürme",
+        "intro": "Her kullanıcı arayüzü için zincirin tamamını taramak yavaştır. Dizin oluşturucular olayları veritabanlarına aktarır, böylece portföyler ve lider tabloları anında hissedilir; \"geçmiş\" görünümlerinin çoğu canlı tam taramalardan değil dizinlerden gelir.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Ürünler internet hızında filtrelenmiş sorgulara ihtiyaç duyar. Analistler ve botlar aynı katmana güveniyor."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Bir şema tanımlayın, günlükleri işleyin, saklayın, GraphQL/REST'i sunun. Kesintiler eski kullanıcı arayüzünü gösteriyor. Merkezi olmayan indeksleyici ağları birden fazla operatörü teşvik eder."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Kullanıcı arayüzü gerçek zincir durumunu geciktirebilir. Yükseltmeler dizin oluşturucu güncellemelerini gerektirir. Yalnızca bir kontrol paneline dayanarak tasfiye etmeyin; zincir üzerinde doğrulayın."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Bozuk endeksler yatırımcıları yanıltıyor. Kimlik avı \"portföy\" siteleri gerçek kontrol panellerini taklit eder."
+          }
+        ],
+        "keyPoints": [
+          "Dizinler sorguları hızlandırır; fikir birliği içinde değiller.",
+          "Kullanıcı arayüzü verileri eski olabilir.",
+          "Kaşifler/sözleşmeler kritik hamleler için gerçeğin kaynağıdır.",
+          "Dizin oluşturucu hataları protokol hatalarına benzer."
+        ],
+        "tips": [
+          "Gezgindeki anormallikleri yeniden kontrol edin.",
+          "Büyük yükseltmelerden sonra gecikme beklenebilir.",
+          "Ciddi izleme, düğümleri doğrudan okuyabilir."
+        ],
+        "body": "Her kullanıcı arayüzü için zincirin tamamını taramak yavaştır. Dizin oluşturucular olayları veritabanlarına aktarır, böylece portföyler ve lider tabloları anında hissedilir; \"geçmiş\" görünümlerinin çoğu canlı tam taramalardan değil dizinlerden gelir."
+      },
+      {
+        "id": "storage",
+        "title": "Merkezi Olmayan Depolama",
+        "summary": "Dosyalar ve NFT meta verileri için içerik adresli ağlar",
+        "intro": "Büyük dosyaları L1'de depolamak pahalıdır, bu nedenle medya genellikle IPFS/Arweave benzeri sistemlerde bulunur. Hash'ler bütünlüğü sağlar, ancak çevrimiçi kullanılabilirlik hâlâ sabitlenmeye veya ücretli kalıcılığa ihtiyaç duyar.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Merkezi sunucular NFT medyasını silebilir. Merkezi olmayan depolama, uygulamalar ve veri kümeleri için dayanıklılığı ve sansüre karşı direnci artırır."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Dosyalar içerik kimliklerini alır; düğümler karma yoluyla alınır. IPFS'nin sabitlenmesi gerekiyor; bazı ağlar bir kerelik ödemenin kalıcılığını vurgular. HTTP ağ geçitleri tarayıcılara yardımcı olur ancak ağ geçidi güvenini artırır."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Değiştirilebilir merkezi tokenURI'ler hikayeyi baltalıyor. Önemli meta veri karmalarını yedekleyin."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "“IPFS'de” ≠ hiçbir şey sabitlemezse ölümsüzdür. Kötü amaçlı ağ geçitleri komut dosyalarını enjekte edebilir. İkili dosyaları çalıştırmadan önce karmaları doğrulayın."
+          }
+        ],
+        "keyPoints": [
+          "İçerik adresleme, sessiz düzenlemeleri önler, ihmal etmeyi değil.",
+          "NFT dayanıklılığı sabitlemeye/ödemeye bağlıdır.",
+          "Değiştirilebilir yönetici URI'leri bir tehlike işaretidir.",
+          "Ağ geçitleri ekstra güvene uygundur."
+        ],
+        "tips": [
+          "Yüksek değerli NFT'lerin meta verilerini kendiniz sabitleyin.",
+          "Resmi CID'leri doğrulayın.",
+          "Geliştiriciler değişmez meta verileri tercih etmelidir."
+        ],
+        "body": "Büyük dosyaları L1'de depolamak pahalıdır, bu nedenle medya genellikle IPFS/Arweave benzeri sistemlerde bulunur. Hash'ler bütünlüğü sağlar, ancak çevrimiçi kullanılabilirlik hâlâ sabitlenmeye veya ücretli kalıcılığa ihtiyaç duyar."
+      },
+      {
+        "id": "mev",
+        "title": "MEV",
+        "summary": "İşlem siparişi ve dahil edilmeden elde edilebilecek değer",
+        "intro": "İnşaatçılar ve araştırmacılar tx'leri (sandviçler, tasfiye yarışları ve daha fazlası) yeniden sıralayabilir veya ekleyebilir. Kullanıcılar bunu zehirli bir kayma olarak hissediyor; protokoller açık artırmalarla ve özel akışla yanıt verir.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Kamuya açık bellek havuzları büyük takasları avcılara maruz bırakıyor. MEV'yi anlamak, kayma ayarlarını ve özel gönderim seçeneklerini açıklar."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Arayanlar fırsatlar bulur; inşaatçılar blokları paketliyor; teklif verenler yayınlıyor. Bazı zincirler MEV'yi stake edenlere yeniden dağıtır. Sandviçler fiyatı kötüleştirmek için ticaretinizi sarar."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Kayma sınırları, özel geçişler, toplu açık artırmalar ve niyetler zararı azaltır. L2 sıralayıcılar da MEV'yi çıkarabilir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Her kötü dolgu MEV değildir; geniş kayma kendiliğinden meydana gelir. Yarım yamalak \"anti-MEV\" uzantılardan kaçının."
+          }
+        ],
+        "keyPoints": [
+          "MEV, sıralanabilir genel akıştan gelir.",
+          "Kullanıcılar kayma ve özel yollar yoluyla bu durumu hafifletir.",
+          "Protokol tasarımı MEV'yi yeniden tahsis eder.",
+          "Bunu bir mühendislik gerçekliği olarak ele alın."
+        ],
+        "tips": [
+          "Büyük takasları bölün ve kaymayı sıkın.",
+          "Özel seçeneklere sahip cüzdanları/yönlendiricileri kullanın.",
+          "Kaosun zirve yaptığı bir dönemde devasa piyasa siparişlerinden kaçının."
+        ],
+        "body": "İnşaatçılar ve araştırmacılar tx'leri (sandviçler, tasfiye yarışları ve daha fazlası) yeniden sıralayabilir veya ekleyebilir. Kullanıcılar bunu zehirli bir kayma olarak hissediyor; protokoller açık artırmalarla ve özel akışla yanıt verir."
+      },
+      {
+        "id": "sdks",
+        "title": "Geliştirici Araçları",
+        "summary": "Güvenlik zeminini yükselten çerçevelerin, kitaplıkların ve hesap kitlerinin test edilmesi",
+        "intro": "Ekosistem güvenliği, yalnızca denetçilere değil, Foundry/Hardhat tarzı testlere, yazılan kitaplıklara, simülasyona ve hesap kitlerine bağlıdır. Daha iyi araçlar hataları daha erken yakalar ve cüzdanların imzaları açıklamasına yardımcı olur.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Manuel dağıtımlar başarısız olur. Test edilmemiş sözleşmeler saatli bombadır. Ön uç SDK'lar çoklu zincir bağlantısını ve hata yönetimini birleştirir."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Çatallı testler, bulanıklaştırma, dağıtım komut dosyaları, izleme ve AA SDK'ları döngüyü oluşturur. İmza öncesi simülasyon varlık farklılıklarını gösterir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Eski bağımlılıklar bilinen CVE'leri taşır. Tedarik zinciri saldırıları “güvenli” paketlere saldırıyor. Kullanıcılar açık imzalı cüzdanları tercih etmelidir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Denetlenmemiş örnekleri ana ağa kopyalayıp yapıştırmak dikkatsizliktir. Sahte \"geliştirme araçları\" uzantıları anahtarları çalar."
+          }
+        ],
+        "keyPoints": [
+          "Tooling görünmez bir güvenlik altyapısıdır.",
+          "Ana ağ parasından önce simüle edin.",
+          "Bağımlılık hijyeni güvenlik işidir.",
+          "Açık imzalama, kullanıcı kimlik avı başarısını azaltır."
+        ],
+        "tips": [
+          "Geliştiriciler: kritik yolların çatal testini yapın.",
+          "Kullanıcılar: simülasyonu açın.",
+          "Uzantıları yalnızca resmi kaynaklardan yükleyin."
+        ],
+        "body": "Ekosistem güvenliği, yalnızca denetçilere değil, Foundry/Hardhat tarzı testlere, yazılan kitaplıklara, simülasyona ve hesap kitlerine bağlıdır. Daha iyi araçlar hataları daha erken yakalar ve cüzdanların imzaları açıklamasına yardımcı olur."
+      },
+      {
+        "id": "identity",
+        "title": "Zincir Üzerinde Kimlik",
+        "summary": "Okunabilir isimler, tasdikler ve insan koordinasyonu konusundaki itibar",
+        "intro": "Uzun adreslerin yanlış yazılması kolaydır. İsim sistemleri insan etiketlerini kayıtlara eşler; tasdik protokolleri üyelik gibi taleplerde bulunur. Kullanılabilirlik artar ve gizlilik ve kimliğe bürünme sorunları da artar.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Ödemeler ve sosyal ihtiyaçlar akılda kalıcıdır. İsimler aktarım hatalarını azaltır ve Web3 kartviziti görevi görür. İtibar, gizlilik konusunda Sybil karşıtılara yardımcı oluyor."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Bir isim kaydedin, kayıtları ayarlayın, isteğe bağlı olarak imzalı onayları toplayın. Bazı kimlik bilgileri ruha bağlıdır."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "İsimlerin geçerliliği sona erer; kayıtlar değişir. Aynı dize zincirler arasında farklı şekilde çözümlenebilir. Kimlik adreslerini kasalardan ayırın."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Kimliğe bürünme alan adları para çalar. Her kimlik bilgisini kişiselleştirilebilir tek bir adrese bağlamak sizi aşırı açığa çıkarır."
+          }
+        ],
+        "keyPoints": [
+          "İsimler bir çözüm katmanıdır, banka garantisi değildir.",
+          "Göndermeden önce her zaman çözümlenen adresleri kontrol edin.",
+          "Onaylar gizlilik maliyetleriyle koordinasyona yardımcı olur.",
+          "Genel kimliği kasa adreslerinden ayırın."
+        ],
+        "tips": [
+          "Gönderimde çözünürlüğü onaylayın.",
+          "Süre sonu hatırlatıcılarını ayarlayın.",
+          "Herkese açık sosyal medya için düşük değerli bir adres kullanın."
+        ],
+        "body": "Uzun adreslerin yanlış yazılması kolaydır. İsim sistemleri insan etiketlerini kayıtlara eşler; tasdik protokolleri üyelik gibi taleplerde bulunur. Kullanılabilirlik artar ve gizlilik ve kimliğe bürünme sorunları da artar."
+      },
+      {
+        "id": "aa-infra",
+        "title": "Paketleyiciler ve Ödeme Yöneticileri",
+        "summary": "Kullanıcı İşlemlerini ve sponsor gazını paketleyen arka uç rayları",
+        "intro": "Paketleyiciler olmadan, UserOperations ulaşmakta zorluk çeker; Paymaster'lar olmadan gaz sponsorluğu ve \"herhangi bir jetonla ödeme yapmak\" zordur. Yanlış yapılandırılmış AA altyapısı kesintiye veya kötüye kullanıma neden olur.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Kullanıcılar her zincirin gas tokenını elinde tutmaktan hoşlanmaz. Uygulamalar ilk eylemlere sponsor olmak istiyor. Altyapı, bütçeler ve izin verilenler listeleriyle bu ürün politikalarına olanak sağlar."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Cüzdanlar Kullanıcı İşlemlerini oluşturur; paketleyiciler simüle eder ve gönderir; EntryPoint yürütülür; paymasters, oran limitleri ile poliçe başına fon sağlar."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Sponsorluk belirli sözleşmelere bağlı mıdır? Tarım yapılabilir mi? Paketleyiciler sansürleyecek mi? Merkezileşme dayanıklılığı etkiler."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Kötü amaçlı uç noktalar ve kampanyalardan sonra kalan geniş oturumlar risk oluşturur. Gazsız ≠ onay gerektirmez."
+          }
+        ],
+        "keyPoints": [
+          "AA UX, güvenilir paketleyicilere/ödeme yöneticilerine bağlıdır.",
+          "Sponsorluğun kötüye kullanım karşıtı kurallara ihtiyacı vardır.",
+          "Uç nokta seçimi gizliliği ve sansürü etkiler.",
+          "Kullanıcıların yine de imzaları okuması gerekiyor."
+        ],
+        "tips": [
+          "Cüzdan varsayılanı güvenilir uç noktalara sadık kalın.",
+          "Kampanyalardan sonra oturumları iptal edin.",
+          "Sürpriz gazsızlığa şüpheli davranın."
+        ],
+        "body": "Paketleyiciler olmadan, UserOperations ulaşmakta zorluk çeker; Paymaster'lar olmadan gaz sponsorluğu ve \"herhangi bir jetonla ödeme yapmak\" zordur. Yanlış yapılandırılmış AA altyapısı kesintiye veya kötüye kullanıma neden olur."
+      }
+    ]
+  },
+  {
+    "id": "wallets",
+    "name": "Cüzdanlar",
+    "summary": "Anahtarlarınızın bulunduğu uygulamalar ve cihazlar",
+    "blurb": "Sıcak/soğuk cüzdanlar, tohumlar, çoklu imza ve saklama modelleri açıklandı.",
+    "items": [
+      {
+        "id": "hot",
+        "title": "Sıcak Cüzdanlar",
+        "summary": "Günlük küçük bakiyeler için bağlantılı yazılım cüzdanları",
+        "intro": "Tarayıcı ve mobil cüzdanlar dApp'leri anında hale getirir. Kolaylık, saldırı yüzeyini genişletir: kötü amaçlı siteler, sahte uzantılar, kötü amaçlı yazılım panosu, kayıp telefonlar. Onlara hayat birikimi olarak değil, çek hesabı olarak davranın.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Soğuk cüzdanlar yüksek frekanslı DeFi için kullanışsızdır. Sıcak cüzdanlar imzalamayı ve ağ değiştirmeyi hızlı bir şekilde öğretir."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Anahtarlar cihazda şifrelenmiş halde durur; yerel olarak kilidini aç; RPC üzerinden yayın. Bir dApp'e bağlanmak, anahtarı değil, bir adresi paylaşır; ancak tehlikeli imzalar yine de tükenir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Harcamaları ve tasarruf hesaplarını ayırın. Ödenekleri gözden geçirin. Biyometri, zincir kurtarmayı değil, uygulamanın kilidini açmayı korur."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Yandan yüklenen APK'lar, tohum \"senkronizasyon\" sayfaları ve herkese açık bilgisayarlar klasik başarısızlıklardır."
+          }
+        ],
+        "keyPoints": [
+          "Sıcak cüzdanlar rahatlığı optimize eder.",
+          "Burada yalnızca zarara dayanıklı fonları saklayın.",
+          "İmzalar/onaylar ana tehlikedir.",
+          "Soğuk hava deposuyla katmanlayın."
+        ],
+        "tips": [
+          "Yalnızca resmi kanallardan indirin.",
+          "Kripto için özel bir tarayıcı profili kullanın.",
+          "Token onaylarını haftalık olarak denetleyin."
+        ],
+        "body": "Tarayıcı ve mobil cüzdanlar dApp'leri anında hale getirir. Kolaylık, saldırı yüzeyini genişletir: kötü amaçlı siteler, sahte uzantılar, kötü amaçlı yazılım panosu, kayıp telefonlar. Onlara hayat birikimi olarak değil, çek hesabı olarak davranın."
+      },
+      {
+        "id": "hardware",
+        "title": "Donanım Cüzdanları",
+        "summary": "Cihaz üzerinde onay içeren güvenli bir çipteki anahtarlar",
+        "intro": "Donanım cüzdanları özel anahtarları virüslü bilgisayardan uzak tutar. Yine de cihaz ekranını okumalısınız; kör imzalama veya gölgeli ürün yazılımı en iyi çipi yenebilir.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Uzun vadeli ve büyük holdinglerin daha güçlü izolasyona ihtiyacı vardır. Fiziksel doğrulama, uzaktan hırsızlıkta çıtayı yükseltiyor. Ekipler bunları temel kasa kontrolleri olarak kullanır."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Ana bilgisayar bir tx oluşturur; cihaz bir özet gösterir; onaylıyorsunuz; imza yayına geri döner. Başlangıçta oluşturulan tohumlar yedektir. Firmware güncellemeleri resmi olmalıdır."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Orijinal cihazlar satın alın; Zincir başına kör imzalama politikalarını öğrenin. Tohum güvendeyse cihazı kaybetmek sorun değildir; tohumu kaybetmek değildir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Kurcalanmış ikinci el cihazlar, tohum isteyen \"checker\" web siteleri ve okumadan tamam başarısızlık modlarıdır."
+          }
+        ],
+        "keyPoints": [
+          "Donanım izolasyonu birçok uzaktan anahtar hırsızlığını engeller.",
+          "Ekran doğrulama hâlâ sizde.",
+          "Tohum yedekleme, cihazın önemine eşittir.",
+          "Tedarik zinciri ve ürün yazılımı hijyeni önemlidir."
+        ],
+        "tips": [
+          "Resmi/saygın perakende satış noktalarından satın alın.",
+          "Kurulumdan sonra küçük transferlerle test edin.",
+          "Boyut için cihazdaki tam adresleri eşleştirin."
+        ],
+        "body": "Donanım cüzdanları özel anahtarları virüslü bilgisayardan uzak tutar. Yine de cihaz ekranını okumalısınız; kör imzalama veya gölgeli ürün yazılımı en iyi çipi yenebilir."
+      },
+      {
+        "id": "seed",
+        "title": "Tohum İfadeleri",
+        "summary": "M-cüzdan anahtarlarını yeniden oluşturan, insan tarafından okunabilen yedeklemeler",
+        "intro": "12/24 kelimeler bir oturum açma şifresi değildir; anahtarları yeniden yaratan ana sırlardır. Bu sözcükleri bilen herkes başka yerlerdeki cüzdanları boşaltabilir. Hiçbir gerçek destek temsilcisinin sizi \"doğrulamak\" için tohumunuza ihtiyacı yoktur.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Cihazlar ölür. Seeds, aynı hesapları başka bir yerde çevrimdışı yazılabilir bir biçimde geri yüklemenize olanak tanır."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "BIP-39, entropiyi hesap türeten sıralı kelimelere dönüştürür. Yanlış sipariş geri yüklemede başarısız oluyor. İsteğe bağlı parolalar güvenlik ve unutkanlık riskini artırır."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Fotoğraflar, bulut senkronizasyonu ve sohbet güvenli değildir. Metal yedekler, kağıdı ateşe/suya karşı yener. Çok konumlu yedeklemeler hırsızlık ile toplam kaybı dengelemelidir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Kimlik avı \"cüzdan senkronizasyonu\" sayfaları ve sahte destek en büyük katillerdir. Herhangi bir web sitesine tohum yazmak acil bir durumdur."
+          }
+        ],
+        "keyPoints": [
+          "Tohum varlıktır.",
+          "Sonsuza kadar çevrimdışı tutun.",
+          "Meşru akışlar asla bunu gerektirmez.",
+          "Hem yangına hem de hırsızlığa karşı yedeklilik tasarlayın."
+        ],
+        "tips": [
+          "Elle yazın ve kelime sırasını yeniden kontrol edin.",
+          "Asla fotoğraf veya e-postada saklamayın.",
+          "Mirası bilinçli olarak planlayın."
+        ],
+        "body": "12/24 kelimeler bir oturum açma şifresi değildir; anahtarları yeniden yaratan ana sırlardır. Bu sözcükleri bilen herkes başka yerlerdeki cüzdanları boşaltabilir. Hiçbir gerçek destek temsilcisinin sizi \"doğrulamak\" için tohumunuza ihtiyacı yoktur."
+      },
+      {
+        "id": "multisig",
+        "title": "Çoklu imza",
+        "summary": "M-of-N onayı gerektiren paylaşılan hesaplar",
+        "intro": "Multisig, \"bir kimlik avı her şeyi kaybeder\" ifadesini \"birkaç kişinin aynı fikirde olması gerekir\" ifadesine dönüştürür. Hazineler ve aileler için idealdir. Tek hata noktalarını ortadan kaldırır ve koordinasyon yükünü artırır.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Tek anahtarlı kasalar tek bir hatada ölür. Çoklu imza, saldırganları birden fazla imzalayan kişiyi tehlikeye atmaya zorlar ve güçler ayrılığını kodlar."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Bir sözleşme veya yerel plan eşiği ve sahipleri belirler. Teklif et → imza topla → yürüt. İmzalayan rotasyonu ve modüller eşit özen gerektirir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Çeşitli cihazlar ilişkili kötü amaçlı yazılımları yener. Çok yüksek eşik fonları tuğla; çok düşük eşikler güvenliği zayıflatır. Acil durum modülleri arka kapı olabilir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Tüm imzalayanların tek bir sıcak tarayıcıda olması, asla kurtarma provası yapmaması ve Güvenli Kullanıcı Arayüzünde kimlik avı yapılması yaygın görülen başarısızlıklardır."
+          }
+        ],
+        "keyPoints": [
+          "Multisig anahtar ve karar riskini yayar.",
+          "Eşik tasarımı kullanılabilirliği ve güvenliği belirler.",
+          "İmzalama ve değiştirme provası yapın.",
+          "Resmi arayüzlere yer işareti koyun."
+        ],
+        "tips": [
+          "Çeşitli imzalayan cihazları/işletim sistemi kullanın.",
+          "Üç ayda bir küçük bir tatbikat yapın.",
+          "Kayıp imzalayanı değiştirme adımlarını belgeleyin."
+        ],
+        "body": "Multisig, \"bir kimlik avı her şeyi kaybeder\" ifadesini \"birkaç kişinin aynı fikirde olması gerekir\" ifadesine dönüştürür. Hazineler ve aileler için idealdir. Tek hata noktalarını ortadan kaldırır ve koordinasyon yükünü artırır."
+      },
+      {
+        "id": "smart-accounts",
+        "title": "Akıllı Hesaplar",
+        "summary": "Limitli, koruyuculu, gruplamalı ve oturumlu programlanabilir cüzdanlar",
+        "intro": "Akıllı hesaplar politikayı kodlar: günlük sınırlar, izin verilenler listeleri, kurtarma ve toplu çağrılar. EOA'lardan daha fazla esneklik ve modülleri yanlış yapılandırmanın daha fazla yolu.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "EOA’lar ya hep ya hiçtir. Akıllı hesaplar, yüksek değerli ekstra incelemeyle günlük düşük ayrıcalıklara olanak tanıyarak çekirdeksiz UX'e geçiş sağlar."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Mantık, genellikle AA paketleyicileri/ödeme yöneticileriyle eşleştirilen, takılabilir doğrulayıcılarla bir sözleşme içinde yaşar. Modül yükseltmeleri korunmalıdır."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "En az ayrıcalık, denetimler ve test edilmiş kurtarma yolları önemlidir. Kasa demeden önce kimin yükseltme yapabileceğini bilin."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Rastgele denetlenmemiş eklentiler, saf koruyucular ve akıllı hesapların tüm kimlik avını durdurduğuna inanan hatalardır."
+          }
+        ],
+        "keyPoints": [
+          "Akıllı hesaplar politikaya dayalı ve kendi kendine saklamadır.",
+          "Esneklik saldırı yüzeyini genişletir.",
+          "Modül/yükseltme hakları temel güvenliktir.",
+          "Alışkanlıklar hala önemlidir."
+        ],
+        "tips": [
+          "Kullanılmayan eklentileri devre dışı bırakın.",
+          "Büyük politika değişikliklerini zaman kilitlemeli.",
+          "Kurtarma runbook'larını yazın ve prova edin."
+        ],
+        "body": "Akıllı hesaplar politikayı kodlar: günlük sınırlar, izin verilenler listeleri, kurtarma ve toplu çağrılar. EOA'lardan daha fazla esneklik ve modülleri yanlış yapılandırmanın daha fazla yolu."
+      },
+      {
+        "id": "custody",
+        "title": "Saklama Modelleri",
+        "summary": "Anahtarları elinde bulunduran kişi varlıkları etkili bir şekilde kontrol eder",
+        "intro": "Saklayıcılar karşı taraf riskine karşı şifre sıfırlama ve destek ticareti yapar. Kişisel velayet, egemenliği kişisel operasyon riskiyle değiştirir. Çoğu insan her ikisini de karıştırır: platformlarda ticaret yapın, cüzdanlardan tasarruf edin.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Farklı hedefler farklı risk modellerine ihtiyaç duyar. Tamamen kendi kendine velayet yeni başlayanları korkutur; Platform başarısızlıklarında saf velayet acı verir."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Saklama bakiyeleri genellikle çekilmeye kadar dahili defterlerdir. Kişisel velayet her hareketi yayınlıyor. Düzenlemeye tabi saklama kuruluşları rezervleri doğrulayabilir; ancak yine de sıfır risk değildir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Donmalar, kuyruklar, yargı yetkisi ve rezerv kanıtlarının kalitesi önemlidir. Kendi kendine velayet başarısızlıkları kayıp tohumlara ve kötü imzalara benziyor."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "“Başarısız olamayacak kadar büyük” defalarca başarısız oldu. Bir tohumun takas defterinde saklanması kendi kendine velayet değildir."
+          }
+        ],
+        "keyPoints": [
+          "Anahtar konumu kontrolü tanımlar.",
+          "Kolaylık vs egemenlik ticarettir.",
+          "Hibrit tahsisler pragmatiktir.",
+          "Her model farklı şekilde başarısız olur."
+        ],
+        "tips": [
+          "Uzun vadeli çantaları kendi gözetiminize çekin.",
+          "Şeffaf mekanları tercih edin.",
+          "Önce küçük bedenle kendi kendine velayet alıştırması yapın."
+        ],
+        "body": "Saklayıcılar karşı taraf riskine karşı şifre sıfırlama ve destek ticareti yapar. Kişisel velayet, egemenliği kişisel operasyon riskiyle değiştirir. Çoğu insan her ikisini de karıştırır: platformlarda ticaret yapın, cüzdanlardan tasarruf edin."
+      }
+    ]
+  },
+  {
+    "id": "gaming",
+    "name": "Oyun",
+    "summary": "Sahip olunan varlıklara sahip oyunlar ve sanal dünyalar",
+    "blurb": "Oynanış, ekonomiler, altyapı ve spekülatif başarısızlık modları.",
+    "items": [
+      {
+        "id": "play",
+        "title": "Oyna ve Sahip Ol",
+        "summary": "Önce eğlence, bonus olarak doğrulanabilir sahiplik; ücret yanılsaması değil",
+        "intro": "Sağlıklı kripto oyunları eğlenceye öncelik verir; Sahiplik güçlendirir, tasarımın yerini almaz. İkincil pazarlar tek içerik değil, sonuç olmalıdır.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Ayılarda saf spekülasyon çöküyor. Sahipliği gerçekten eğlenceli döngülere dahil etmek, elde tutmayı artırır ve içerik oluşturuculardan tasarruf sağlar."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Temel oyun, zincir dışında veya özel raylarda hızlı bir şekilde çalışır; kıt yerleşim yerleri bir zincire çarptı. Stüdyolar, ekonomiyi ayarlarken kullanıcı deneyimi, ücretler ve hizmetler aracılığıyla kazanç elde eder."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Elde tutma ve harcama ölçümleri, sağlık sinyalleri olarak token grafiklerini geride bırakıyor. Düzenleme hâlâ eşya jetonlarını kısıtlayabiliyor."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Ezmeyi bir iş gibi görmek ve hesap güvenliğini göz ardı etmek klasik tuzaklardır."
+          }
+        ],
+        "keyPoints": [
+          "Önce eğlence, sonra finans.",
+          "Sahip olmak can sıkıntısını kurtaramaz.",
+          "Sağlıklı ekonomiler yutakları ve kaynakları dengeler.",
+          "Oyun anahtarlarını kasalardan ayırın."
+        ],
+        "tips": [
+          "Pahalı eşyaları satın almadan önce oynayın.",
+          "Ekonomi notlarını ve yama geçmişini okuyun.",
+          "Herhangi bir “kazancı” yüksek riskli spekülasyon olarak kaydedin."
+        ],
+        "body": "Sağlıklı kripto oyunları eğlenceye öncelik verir; Sahiplik güçlendirir, tasarımın yerini almaz. İkincil pazarlar tek içerik değil, sonuç olmalıdır."
+      },
+      {
+        "id": "economies",
+        "title": "Oyun İçi Ekonomiler",
+        "summary": "Ürün fiyatlarının geçerli olup olmayacağına ihraç ve lavabolar karar verir",
+        "intro": "Açık ekonomiler küçük mali sistemler gibi davranır: lavabolar olmadan sonsuz emisyonlar fiyatları çökertir. Üretime karşı yıkımı okumak, GameFi sloganlarını dinlemekten daha iyidir.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Açık ticaret, stüdyo kontrolünün bir kısmını ortadan kaldırır ve uzun vadeli oyuncuların ve yatırımcıların bir arada var olabilmesi için daha ciddi bir tasarımı zorunlu kılar."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Görevler yayar; işçilik/onarımlar/mevsimler lavabo; Gösterge tabloları enflasyonu ortaya koyuyor. Dış token fiyatları iç döngüleri şok ediyor."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "İkili jetonlar, enerji ve arazi kiraları yardımcı olabilir veya kafa karıştırıcı olabilir. Ekibin kilit açmalarını ve piyasa yapıcı cüzdanları izleyin."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Erken dönemdeki yüksek getiriler oyuncuları değil paralı askerleri cezbeder. Ekonomiyi izleyici olmadan kopyalamak başarısız olur."
+          }
+        ],
+        "keyPoints": [
+          "Enflasyonu/deflasyonu gözlemlenebilir hale getirin.",
+          "Yüksek paralı asker payı kırılgandır.",
+          "Harici token şoklarını tamponlayın.",
+          "Şeffaf ayarlama güven oluşturur."
+        ],
+        "tips": [
+          "Resmi ekonomi raporlarını takip edin.",
+          "Hiper-APY aşamaları sırasında boyutu küçültün.",
+          "Gerçek yutuculu varlıkları tercih edin."
+        ],
+        "body": "Açık ekonomiler küçük mali sistemler gibi davranır: lavabolar olmadan sonsuz emisyonlar fiyatları çökertir. Üretime karşı yıkımı okumak, GameFi sloganlarını dinlemekten daha iyidir."
+      },
+      {
+        "id": "worlds",
+        "title": "Sanal Dünyalar",
+        "summary": "Sahip olunabilir arazi ve sosyal alan anlatıları",
+        "intro": "Sanal arazi konum, trafik ve varlık satıyor. Bazı dünyalar devam eden faaliyetlere ev sahipliği yapıyor; diğerleri satıştan sonra oyalanır. Sinematik fragmanlara değil, inşaatçılara ve DAU'lara göre karar verin.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "İnsanlar dayanıklı dijital ortak alanlar ve vitrinler istiyor. Zincir üstü sahiplik, ikincil pazarlara ve markaların denemelerine olanak tanır."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Kara NFT'leri artı müşteriler ve isteğe bağlı kiralamalar. İçerik kullanıcılardan veya yetkililerden geliyor; performans genellikle geleneksel sunuculara dayanır."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Yaya trafiği arazi değerini belirler. Boş dünyalar spekülatif sanattır. Bina hakları ve telif hakları yaratıcıların istekliliğini şekillendirir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Birincil satış FOMO'su ve metaverse slaytlarını kısa vadeli getiri olarak ele almak tuzaklardır."
+          }
+        ],
+        "keyPoints": [
+          "Trafik fiyatları düşüyor.",
+          "Müşteri deneyimi sloganlardan daha ağır basmaktadır.",
+          "Interop genellikle satışlarda gecikme yaşar.",
+          "İnşaatçı ekosistemlerini değerlendirin."
+        ],
+        "tips": [
+          "Önce turist olarak ziyaret edin.",
+          "Satın almadan önce kiralama/etkinlik verilerini kontrol edin.",
+          "Yalnızca satan, hiçbir zaman inşa etmeyen ekiplerden kaçının."
+        ],
+        "body": "Sanal arazi konum, trafik ve varlık satıyor. Bazı dünyalar devam eden faaliyetlere ev sahipliği yapıyor; diğerleri satıştan sonra oyalanır. Sinematik fragmanlara değil, inşaatçılara ve DAU'lara göre karar verin."
+      },
+      {
+        "id": "infra-game",
+        "title": "Oyun Altyapısı",
+        "summary": "Düşük gecikme süresi ile zincir içi yerleşim arasındaki mühendislik dengeleri",
+        "intro": "Aksiyon oyunları milisaniyelik geri bildirime ihtiyaç duyar. Stüdyolar yetkili sunucuların yanı sıra zincir üzerinde kıt varlıklar veya özel yüksek verimli zincirler kullanır. Güven sınırını bilmek, “tamamen merkezi olmayan” pazarlama karmaşasını önler.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Saf L1 döngüleri birçok tür için çok yavaş/pahalıdır. Katmanlama, oynanabilir kullanıcı deneyimini doğrulanabilir kıtlıkla korur."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Zincir dışı eşleştirme/savaş; zincirdeki darphaneler/işlemler/ikramiyeler. Hile önleme büyük ölçüde zincir dışında kalır. Uygulama zincirleri verimi artırır ancak köprü/likidite maliyetlerini artırır."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Hangi parçalar bir sunucuya güveniyor? Varlıklar stüdyonun kapanması durumunda hayatta kalabilir mi? Bu, gerçek “sahipliğin” ne kadar olduğunu tanımlar."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Değişken sunucu gerçeğiyle \"tamamen zincir üzerinde\" iddiaları. Sahte siteler aracılığıyla oyun varlıkları arasında köprü kurmak."
+          }
+        ],
+        "keyPoints": [
+          "Hibritler mühendislik normudur.",
+          "Gecikme ve ademi merkeziyet zıt yönlere çeker.",
+          "Kapatma politikası varlık anlamını etkiler.",
+          "Uygulama zincirleri köprü karmaşıklığını artırır."
+        ],
+        "tips": [
+          "Güven sınırı belgelerini okuyun.",
+          "Anlamlı varlıkları kişisel saklama cüzdanlarına taşıyın.",
+          "Ana ağa para yatırmadan önce test ağlarını deneyin."
+        ],
+        "body": "Aksiyon oyunları milisaniyelik geri bildirime ihtiyaç duyar. Stüdyolar yetkili sunucuların yanı sıra zincir üzerinde kıt varlıklar veya özel yüksek verimli zincirler kullanır. Güven sınırını bilmek, “tamamen merkezi olmayan” pazarlama karmaşasını önler."
+      },
+      {
+        "id": "modding",
+        "title": "Modlama ve UGC",
+        "summary": "İçerik oluşturucular haritalar, dış görünümler ve modlar şeffaf bir şekilde düzenlendiğinde kazanç elde eder",
+        "intro": "UGC oyun ömrünü uzatır. Modlar net bölünmelerle takas edilebilirse yaratıcılar ortaya çıkar. Zincir içi bölünmeler denetlenebilirliğe yardımcı olur; IP lisanslaması hala ölçeklenip ölçeklenmeyeceğine karar verir.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Geleneksel UGC, ani platform politikası değişiklikleriyle karşı karşıyadır. Açık pazarlar ve programlanabilir telif hakları, başka bir teşvik yolu ve daha zengin oyuncu içeriği sunuyor."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "İçerik oluşturucular varlıkları yayınlıyor → piyasalar ticareti → sözleşmeler geliri bölüşüyor. Moderasyon ve keşif, kalitenin yoğunlaşıp yoğunlaşmayacağına karar verir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Lisans kapsamı, içerik politikası ve ters ibrazlar kalır. Zincir üstü matematik, davaları otomatik olarak çözmez."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Yetkisiz marka modları ve uçucu içerik oluşturucu jetonlarının satın alınması risklerdir."
+          }
+        ],
+        "keyPoints": [
+          "UGC'nin net IP ve gelir kurallarına ihtiyacı var.",
+          "Keşif/denetleme seti kalitesi.",
+          "Programlanabilir bölmeler şeffaflığı artırır.",
+          "Yasal katmanlar hala geçerlidir."
+        ],
+        "tips": [
+          "Yaratıcılar: platform lisanslarını okuyun.",
+          "Oyuncular: Yetki işaretlerini kontrol edin.",
+          "Kişisel risk limitleriyle nakit para kazanın."
+        ],
+        "body": "UGC oyun ömrünü uzatır. Modlar net bölünmelerle takas edilebilirse yaratıcılar ortaya çıkar. Zincir içi bölünmeler denetlenebilirliğe yardımcı olur; IP lisanslaması hala ölçeklenip ölçeklenmeyeceğine karar verir."
+      },
+      {
+        "id": "risks",
+        "title": "Spekülatif Oyun Riski",
+        "summary": "Eğlence yükselen fiyatlara bağlı olduğunda ayı piyasaları döngüyü kırıyor",
+        "intro": "Başarısız olan projeler, token pompalarını içerik olarak ele alır. Oyuncular paralı askerlere dönüşür, ekonomiler refleksif hale gelir ve fiyat düştüğünde bakım durur. Deseni tespit etmek dersten tasarruf sağlar.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Risk eğitimi sağlıklı bir ürünün parçasıdır: Enflasyonu dürüstçe tartışan topluluklar, abartılı anlaşmazlıklardan daha uzun süre dayanır."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Yüksek emisyonlar girişi çeker → satış baskısı artar → fiyatlar düşer → oyuncular ayrılır. Mola genellikle teşvikler kesildiğinde ortaya çıkar. Çok az oyun başarılı bir şekilde gerçek oyunlara dönüşüyor."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Gelir çoğunlukla yeni girenlerden mi oluşuyor? Ekip oynanabilir güncellemeler gönderiyor mu? İkincil fiyat eğlenceli bir ölçüm değildir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "FOMO rehine ifadeleri ve kaldıraçlı öğütmeler tehlike işaretleridir."
+          }
+        ],
+        "keyPoints": [
+          "Fiyat oyunun yerini alamaz.",
+          "Teşvik kesintileri stres testleridir.",
+          "Paralı asker payı kırılganlığı öngörüyor.",
+          "Yalnızca isteğe bağlı fonları riske atın."
+        ],
+        "tips": [
+          "Sor: Sıfır jeton fiyatıyla oynar mıyım?",
+          "Gerçek içerik güncellemelerini izleyin.",
+          "Kaldıraçlı öğütmeyi reddedin."
+        ],
+        "body": "Başarısız olan projeler, token pompalarını içerik olarak ele alır. Oyuncular paralı askerlere dönüşür, ekonomiler refleksif hale gelir ve fiyat düştüğünde bakım durur. Deseni tespit etmek dersten tasarruf sağlar."
+      }
+    ]
+  },
+  {
+    "id": "daos",
+    "name": "DAO'lar",
+    "summary": "Zincirleme oylarla yönetilen topluluklar",
+    "blurb": "Yönetişim, hazineler, teklifler, yasal paketler ve saldırı yüzeyleri.",
+    "items": [
+      {
+        "id": "governance",
+        "title": "Token Yönetişimi",
+        "summary": "Parametreleri, yükseltmeleri ve harcamaları belirleyen oylar",
+        "intro": "DAO'lar yükseltmeleri ve hazine kararlarını token sahiplerine veya itibar sistemlerine aktarır. Bir jetonla bir oy basit ve balinaya eğilimlidir; delegasyon ve diğer tasarımlar temsili iyileştirmeye çalışır. Oy verme gücü nüfuzdur ve bir saldırı yüzeyidir.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Tek şirket diktatörlüğüne dönüşmeden protokoller değişmeli. Zincir üzerindeki oylar denetlenebilir izler bırakır ve ekipleri kısıtlayabilir."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Teklif → tartışma → oylama → zaman kilidi → yürütme. Yetkilendirme, küçük sahiplerin uzmanları görevlendirmesine olanak tanır. Yeterli çoğunluk ve vetolar, düşük katılımlı yakalamaları köreltiyor."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Dağıtım, hazine büyüklüğü ve zaman aşımının uzunluğu önemlidir. Hava yoluyla bırakılan seçmenler kayıtsız kalabilir. Forumun havası zincir üzerindeki sonuçlardan farklı olabilir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Ani kredi oyları (eğer izin veriliyorsa), rüşvet ve okunmamış oylama risklerdir."
+          }
+        ],
+        "keyPoints": [
+          "Yönetişim gücü dağıtır.",
+          "Mekanizma tasarımı balinalara ve ilgisizliğe karşı savaşır.",
+          "Zaman kilitleri kritik frenlerdir.",
+          "Oy vermeden önce etkileri ve çatışmaları okuyun."
+        ],
+        "tips": [
+          "Sorumlu temsilcilere yetki verin.",
+          "Zaman kilitleri sırasında protesto kanallarını izleyin.",
+          "Büyük hazine tekliflerini inceleyin."
+        ],
+        "body": "DAO'lar yükseltmeleri ve hazine kararlarını token sahiplerine veya itibar sistemlerine aktarır. Bir jetonla bir oy basit ve balinaya eğilimlidir; delegasyon ve diğer tasarımlar temsili iyileştirmeye çalışır. Oy verme gücü nüfuzdur ve bir saldırı yüzeyidir."
+      },
+      {
+        "id": "treasury",
+        "title": "DAO Hazineleri",
+        "summary": "Oluşturma, likidite ve tamponlar için paylaşılan zincir üzeri sermaye",
+        "intro": "Hazineler DAO mühimmatıdır. Çeşitlendirme, şeffaflık ve harcama süreci bunların pist mi yoksa balküpü mü olacağına karar verir. Çoklu imzalar veya yöneticiler, topluluğun denetlemesi gereken ödemeleri kontrol eder.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Kamu mallarının denetimler, inşaatçılar ve teşvikler için finansmana ihtiyacı vardır. Hazineler, değeri topluluk tarafından görülebilen kontrol altında tutar ve krizleri istikrara kavuşturabilir."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Ücretler/ihraçlar/finansmandan gelen girişler; teklifler yoluyla çıkışlar. Holdingler, ahırları, büyükleri ve yerel tokenleri karıştırabilir; yerel konsantrasyon, refleksif risktir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Pist ayları, döviz riski ve adres envanterleri önemlidir. Yumuşak taahhütler de önemlidir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Tamamen değişken hazine tahvilleri ve ilgili tarafların şeffaf olmayan harcamaları tehlike işaretleridir."
+          }
+        ],
+        "keyPoints": [
+          "Sağlık = şeffaflık + çeşitlilik + süreç.",
+          "Refleksif çantalar krizleri büyütüyor.",
+          "Harcamaların hesap verebilir olması gerekir.",
+          "Multisig anahtar hijyeni temeldir."
+        ],
+        "tips": [
+          "Periyodik mali raporları okuyun.",
+          "Stablecoin rezerv paylaşımını izleyin.",
+          "Akışlı büyük ödemeleri tercih edin."
+        ],
+        "body": "Hazineler DAO mühimmatıdır. Çeşitlendirme, şeffaflık ve harcama süreci bunların pist mi yoksa balküpü mü olacağına karar verir. Çoklu imzalar veya yöneticiler, topluluğun denetlemesi gereken ödemeleri kontrol eder."
+      },
+      {
+        "id": "proposals",
+        "title": "Teklif Yaşam Döngüsü",
+        "summary": "Forum taslağından zincir üzerinde uygulamaya",
+        "intro": "İyi teklifler zincir dışında tartışılır, sıcaklık kontrolü yapılır, zincir üzerinde oylama yapılır ve belirli bir zaman aşımından sonra yürütülür. Sürpriz “yıldırım teklifleri” bir kokudur. Hangi aşamada olduğunuzu bilin.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Süreç, ya diktatörlüğün ya da kaosun yerini alır, rakiplere örgütlenmeleri için zaman tanır ve gerektiğinde denetim/yasal incelemeyi ekler."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Taslak → geri bildirim → son metin → oylama → kuyruk. Başarısız fikirler revize edilebilir. Bazı sistemler oylama için gazsız zincir dışı imzalar kullanır."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Yeterli çoğunluk, eşikler ve acil durum yolları önemlidir; aşırı geniş acil durumlar arka kapılardır. Yürütülebilir çağrı verileri metinle eşleşmelidir."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Yalnızca başlığa oy vermek ve zaman kilidi uyarılarını göz ardı etmek başarısızlıktır."
+          }
+        ],
+        "keyPoints": [
+          "Tartışma kalitesi yönetişim kalitesini artırır.",
+          "Zaman kilitleri azınlıkları ve çıkışları korur.",
+          "Acil durum yetkilerinin sıkı sınırlara ihtiyacı vardır.",
+          "Parametreler sloganlardan üstündür."
+        ],
+        "tips": [
+          "Forum/oylama uyarılarına abone olun.",
+          "Oy vermeden önce riskleri kendi sözlerinizle yeniden ifade edin.",
+          "Yürütmenin teklif metniyle eşleştiğini doğrulayın."
+        ],
+        "body": "İyi teklifler zincir dışında tartışılır, sıcaklık kontrolü yapılır, zincir üzerinde oylama yapılır ve belirli bir zaman aşımından sonra yürütülür. Sürpriz “yıldırım teklifleri” bir kokudur. Hangi aşamada olduğunuzu bilin."
+      },
+      {
+        "id": "legal",
+        "title": "Yasal Paketleyiciler",
+        "summary": "DAO'ları zincir dışı dünyayla buluşturan vakıflar ve şirketler",
+        "intro": "Kurallar otomatik olarak sınırlı sorumluluk vermez. Vakıflar/LLC'ler sözleşmeleri, bankayı ve vergiyi imzalar. Katkıda bulunanlar, işler bozulursa kimin sorumlu olarak görülebileceğini bilmelidir.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "İşe alma, fikri mülkiyet ve düzenleyicilerin yasal muadillerine ihtiyacı vardır. İyi ambalajlayıcılar kişisel maruziyeti azaltır; bunlar gizleme cihazları değildir."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Yargı Yetkisi → tüzük → yönetim kurulu/multisig → DAO oylarına bağlanan maddeler. Kurallar ülkeye göre çılgınca değişir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Menkul kıymetler, yaptırımlar ve vergiler (airdroplar dahil) önemlidir. Anonimlik ≠ sıfır yasal risk."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "\"Merkezi olmayan\" yaklaşımın yerel kanunları göz ardı ettiğini veya bilinmeyen anlaşmalar imzaladığını varsaymak umursamazlıktır."
+          }
+        ],
+        "keyPoints": [
+          "Varlıklar zincir dışı yetenekler sağlar.",
+          "Yapılar yetki alanına özgüdür.",
+          "Sorumluluk sınırınızı bilin.",
+          "Uyumluluk ürün riskinin bir parçasıdır."
+        ],
+        "tips": [
+          "Maddi katkılar için profesyonel tavsiye alın.",
+          "Temel↔DAO ilişkisi belgelerini okuyun.",
+          "Airdrop/gelir kayıtlarını tutun."
+        ],
+        "body": "Kurallar otomatik olarak sınırlı sorumluluk vermez. Vakıflar/LLC'ler sözleşmeleri, bankayı ve vergiyi imzalar. Katkıda bulunanlar, işler bozulursa kimin sorumlu olarak görülebileceğini bilmelidir."
+      },
+      {
+        "id": "ops",
+        "title": "DAO İşlemleri",
+        "summary": "Çalışma grupları ve ödemeler yoluyla oyların gönderime dönüştürülmesi",
+        "intro": "Operatörler olmadan yönetişim tiyatrodur. Çalışma grupları, ödüller, bütçeler ve incelemeler enerjiyi ürüne dönüştürür. Tükenmişlik, belirsiz sahiplik ve geç maaş bordroları DAO'ları sessizce yok ediyor.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Kamu malları yetersiz tedarik ediliyor. Operasyon sistemleri fon bakımı; şeffaf ücret gölge anlaşmaları azaltır."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Misyon → ölçümler → bütçe → işe alma/ödüller → retrolar. Zincir içi maaş bordrosu yardımcı olur. En az ayrıcalıklı yönetici erişimi, tek hata noktalarını önler."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "KPI'lar doğrulanabilir mi? Çift daldırma kontrollü mü? Dokümantasyon veri yolu faktörüyle mücadele eder."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Sorumluluk olmadan ödeme yapmak ve yeri doldurulamaz katkıda bulunanlara aşırı yükleme yapmak başarısızlık modlarıdır."
+          }
+        ],
+        "keyPoints": [
+          "Dağıtım sistemleri DAO'ları gerçeğe dönüştürür.",
+          "Bütçeler ve performans kamuya açık olmalıdır.",
+          "Tek insana bağımlılığı azaltın.",
+          "Ücret şeffaflığı komplo yakıtını azaltır."
+        ],
+        "tips": [
+          "Süreci öğrenmek için küçük ödüllerle başlayın.",
+          "Kritik rolleri yedekleyin.",
+          "Çalışma grubu raporlarını yayınlayın."
+        ],
+        "body": "Operatörler olmadan yönetişim tiyatrodur. Çalışma grupları, ödüller, bütçeler ve incelemeler enerjiyi ürüne dönüştürür. Tükenmişlik, belirsiz sahiplik ve geç maaş bordroları DAO'ları sessizce yok ediyor."
+      },
+      {
+        "id": "attacks",
+        "title": "Yönetişim Saldırıları",
+        "summary": "Oylar, rüşvetler veya düşük katılım yoluyla protokollerin ele geçirilmesi",
+        "intro": "Saldırganlar, birikmiş oyları, anlık kredileri, rüşvetleri veya uykulu çoğunlukları kullanarak hazine tahvillerini, parametreleri veya yükseltme anahtarlarını kovalar. Savunmalar arasında zaman kısıtlamaları, veto koruyucuları ve daha iyi oylama tasarımları yer alıyor.",
+        "sections": [
+          {
+            "heading": "Hangi sorunu çözüyor",
+            "body": "Saldırı yüzeylerini tartışmak toplulukların erken savunma yapmasına olanak tanır. “Kimse bunu yapmaz” bir kontrol değildir. Yönetişim güvenliği sözleşme güvenliğine rakip oluyor."
+          },
+          {
+            "heading": "Nasıl çalışır?",
+            "body": "Oy toplayın → kötülüğü iletin → durdurulmazsa zaman aşımına uğradıktan sonra infaz edin. Karmaşık parametreler amacı kamufle edebilir. Muhafızlar net saldırıları geciktirebilir veya iptal edebilir."
+          },
+          {
+            "heading": "Anahtar kavramlar",
+            "body": "Anlık görüntü zamanlaması, flaş kredi oylama kuralları ve delegasyon konsantrasyonu çok önemlidir. Büyük jeton hareketlerini izleyin."
+          },
+          {
+            "heading": "Riskler ve yanlış anlamalar",
+            "body": "Zaman aşımı uyarılarını göz ardı etmek ve denetimlerin yönetişim hırsızlığını durdurduğunu varsaymak hatadır."
+          }
+        ],
+        "keyPoints": [
+          "Yönetişim gücü doğrudan hırsızlığa dönüşebilir.",
+          "Zaman kilitleri ve koruyucular frendir.",
+          "Düşük katılım bir güvenlik açığıdır.",
+          "Veto yollarını izleyin ve prova edin."
+        ],
+        "tips": [
+          "Yönetişim uyarı botlarını etkinleştirin.",
+          "Büyük hissedarların aslında oy kullanması gerekiyor.",
+          "Flaş krediyle oylamayı engelleyen tasarımları destekleyin."
+        ],
+        "body": "Saldırganlar, birikmiş oyları, anlık kredileri, rüşvetleri veya uykulu çoğunlukları kullanarak hazine tahvillerini, parametreleri veya yükseltme anahtarlarını kovalar. Savunmalar arasında zaman kısıtlamaları, veto koruyucuları ve daha iyi oylama tasarımları yer alıyor."
+      }
+    ]
+  }
+]
