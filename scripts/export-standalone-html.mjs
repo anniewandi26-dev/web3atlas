@@ -9,7 +9,45 @@ import os from "node:os";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
-const locales = ["en", "zh", "ms"];
+const locales = [
+  "zh", "en", "es", "hi", "ar", "pt", "bn", "ru", "ja", "pa",
+  "de", "jv", "ko", "fr", "te", "mr", "tr", "ta", "vi", "ur",
+  "it", "th", "gu", "kn", "fa", "pl", "uk", "ml", "or", "my",
+  "nl", "ro", "id", "ms", "sw", "ha",
+];
+const localeNames = {
+  zh: "中文", en: "English", es: "Español", hi: "हिन्दी", ar: "العربية",
+  pt: "Português", bn: "বাংলা", ru: "Русский", ja: "日本語", pa: "ਪੰਜਾਬੀ",
+  de: "Deutsch", jv: "Basa Jawa", ko: "한국어", fr: "Français", te: "తెలుగు",
+  mr: "मराठी", tr: "Türkçe", ta: "தமிழ்", vi: "Tiếng Việt", ur: "اردو",
+  it: "Italiano", th: "ไทย", gu: "ગુજરાતી", kn: "ಕನ್ನಡ", fa: "فارسی",
+  pl: "Polski", uk: "Українська", ml: "മലയാളം", or: "ଓଡ଼ିଆ", my: "မြန်မာ",
+  nl: "Nederlands", ro: "Română", id: "Bahasa Indonesia", ms: "Bahasa Melayu",
+  sw: "Kiswahili", ha: "Hausa",
+};
+const rtlLocales = ["ar", "ur", "fa"];
+/** Same country → locale map as src/i18n/geoLocale.ts */
+const countryMap = {
+  CN: "zh", TW: "zh", HK: "zh", MO: "zh", SG: "zh",
+  US: "en", GB: "en", AU: "en", NZ: "en", IE: "en", CA: "en", PH: "en",
+  IN: "hi", PK: "ur", BD: "bn", NP: "hi", LK: "ta",
+  ES: "es", MX: "es", AR: "es", CO: "es", CL: "es", PE: "es", VE: "es",
+  EC: "es", GT: "es", CU: "es", BO: "es", DO: "es", HN: "es", PY: "es",
+  SV: "es", NI: "es", CR: "es", PA: "es", UY: "es",
+  BR: "pt", PT: "pt", AO: "pt", MZ: "pt",
+  SA: "ar", AE: "ar", EG: "ar", IQ: "ar", MA: "ar", DZ: "ar", TN: "ar",
+  JO: "ar", KW: "ar", QA: "ar", BH: "ar", OM: "ar", LY: "ar", SY: "ar",
+  LB: "ar", YE: "ar", SD: "ar",
+  RU: "ru", BY: "ru", KZ: "ru", JP: "ja", KR: "ko", KP: "ko",
+  DE: "de", AT: "de", CH: "de", LI: "de",
+  FR: "fr", BE: "fr", LU: "fr", MC: "fr", SN: "fr", CI: "fr",
+  IT: "it", SM: "it", VA: "it", NL: "nl", SR: "nl", PL: "pl", UA: "uk",
+  TR: "tr", CY: "tr", TH: "th", VN: "vi", ID: "id", MY: "ms", BN: "ms",
+  IR: "fa", AF: "fa", RO: "ro", MD: "ro", MM: "my",
+  TZ: "sw", KE: "sw", UG: "sw", RW: "sw", NG: "ha", NE: "ha",
+  GH: "en", ZA: "en", SE: "en", NO: "en", FI: "en", DK: "en",
+  CZ: "en", HU: "en", GR: "en", IL: "en",
+};
 const contentKeys = [
   "categories",
   "news",
@@ -59,6 +97,9 @@ for (const loc of locales) {
 
 const payload = {
   locales,
+  localeNames,
+  rtlLocales,
+  countryMap,
   defaultLocale: "en",
   images,
   content,
@@ -364,6 +405,7 @@ img{max-width:100%;display:block}
   const MEDIA = DATA.media;
   const LS_INTRO = "wa-offline-intro-v1";
   const LS_LANG = "wa-offline-lang-v1";
+  const LS_MANUAL = "wa-offline-lang-manual-v1";
 
   function isAppleSafari(ua){
     ua = ua || navigator.userAgent || "";
@@ -382,8 +424,49 @@ img{max-width:100%;display:block}
     } catch { return href; }
   }
 
+  function localeFromCountry(code){
+    if (!code) return null;
+    const mapped = DATA.countryMap[(code + "").toUpperCase()];
+    if (mapped && DATA.locales.includes(mapped)) return mapped;
+    return null;
+  }
+  function localeFromNavigator(){
+    const langs = navigator.languages || [navigator.language || "en"];
+    for (const raw of langs) {
+      const part = (raw || "").toLowerCase();
+      if (part.startsWith("zh")) return "zh";
+      const primary = part.split("-")[0];
+      if (DATA.locales.includes(primary)) return primary;
+    }
+    return null;
+  }
+  async function fetchCountryCode(){
+    try {
+      const r = await fetch("https://ipwho.is/", { cache: "no-store" });
+      if (r.ok) {
+        const d = await r.json();
+        if (d && d.success !== false && d.country_code) return String(d.country_code).toUpperCase();
+      }
+    } catch {}
+    try {
+      const r = await fetch("https://get.geojs.io/v1/ip/country.json", { cache: "no-store" });
+      if (r.ok) {
+        const d = await r.json();
+        if (d && d.country) return String(d.country).toUpperCase();
+      }
+    } catch {}
+    return null;
+  }
+  async function resolveIpLocale(){
+    const country = await fetchCountryCode();
+    return localeFromCountry(country) || localeFromNavigator() || DATA.defaultLocale;
+  }
+
   const state = {
-    locale: localStorage.getItem(LS_LANG) || DATA.defaultLocale,
+    locale: DATA.defaultLocale,
+    ipLocale: null,
+    followIp: localStorage.getItem(LS_MANUAL) !== "1",
+    ready: false,
     view: "explore",
     safariGate: !isAppleSafari(),
     safariCopied: false,
@@ -405,6 +488,27 @@ img{max-width:100%;display:block}
     return part[key] ?? (DATA.messages.en[ns]||{})[key] ?? key;
   }
   function C(){ return DATA.content[state.locale] || DATA.content.en; }
+  function applyDir(){
+    const rtl = (DATA.rtlLocales || []).includes(state.locale);
+    document.documentElement.lang = state.locale;
+    document.documentElement.dir = rtl ? "rtl" : "ltr";
+  }
+  function setLocale(next, manual){
+    if (!DATA.locales.includes(next)) return;
+    state.locale = next;
+    if (manual) {
+      state.followIp = false;
+      localStorage.setItem(LS_MANUAL, "1");
+      localStorage.setItem(LS_LANG, next);
+    } else {
+      state.followIp = true;
+      localStorage.setItem(LS_MANUAL, "0");
+      localStorage.removeItem(LS_LANG);
+    }
+    resetQuiz();
+    applyDir();
+    render();
+  }
   function newsThumb(id){
     let hash = 0;
     for (let i=0;i<id.length;i++) hash = (hash + id.charCodeAt(i)*(i+1)) % MEDIA.newsThumbs.length;
@@ -907,6 +1011,10 @@ img{max-width:100%;display:block}
   }
 
   function render(){
+    if (!state.ready) {
+      root.innerHTML = \`<div class="overlay"><div class="overlay-inner" style="justify-content:center;align-items:center;text-align:center"><p class="kicker">Web3Atlas</p><p class="muted">Detecting language from IP…</p></div></div>\`;
+      return;
+    }
     if (state.safariGate) {
       root.innerHTML = renderSafariGate();
       bind();
@@ -925,12 +1033,18 @@ img{max-width:100%;display:block}
       ["security", t("nav","security")],
       ["glossary", t("nav","glossary")],
     ];
+    const ipLabel = state.ipLocale
+      ? ((DATA.localeNames && DATA.localeNames[state.ipLocale]) || state.ipLocale)
+      : "—";
     root.innerHTML = \`
       <div class="shell">
         <div class="topbar">
           <div class="brand gradient-text">\${esc(t("brand","name"))}</div>
-          <div class="lang">
-            \${DATA.locales.map(l => \`<button data-lang="\${l}" class="\${state.locale===l?"active":""}">\${l.toUpperCase()}</button>\`).join("")}
+          <div class="lang" style="align-items:center">
+            <select id="lang-select" style="max-width:160px;padding:8px 10px;border-radius:999px;border:1px solid var(--line);background:rgba(0,0,0,.45);color:var(--text)">
+              \${DATA.locales.map(l => \`<option value="\${l}" \${state.locale===l?"selected":""}>\${esc((DATA.localeNames&&DATA.localeNames[l])||l)}</option>\`).join("")}
+            </select>
+            <button type="button" data-act="follow-ip" class="\${state.followIp?"active":""}" title="\${esc(t("common","followIp"))}">IP: \${esc(ipLabel)}</button>
           </div>
         </div>
         <nav class="nav">
@@ -977,11 +1091,13 @@ img{max-width:100%;display:block}
   }
 
   function bind(){
-    root.querySelectorAll("[data-lang]").forEach(el => el.addEventListener("click", () => {
-      state.locale = el.getAttribute("data-lang");
-      localStorage.setItem(LS_LANG, state.locale);
-      resetQuiz();
-      render();
+    const sel = document.getElementById("lang-select");
+    if (sel) sel.addEventListener("change", () => setLocale(sel.value, true));
+    root.querySelectorAll("[data-act='follow-ip']").forEach(el => el.addEventListener("click", async () => {
+      el.disabled = true;
+      const next = state.ipLocale || await resolveIpLocale();
+      state.ipLocale = next;
+      setLocale(next, false);
     }));
     root.querySelectorAll("[data-view]").forEach(el => el.addEventListener("click", () => setView(el.getAttribute("data-view"))));
     root.querySelectorAll("[data-act='intro-enter']").forEach(el => el.addEventListener("click", startIntroEnter));
@@ -1030,7 +1146,21 @@ img{max-width:100%;display:block}
     });
   }, 4500);
 
-  render();
+  (async function boot(){
+    render();
+    try {
+      const ipLoc = await resolveIpLocale();
+      state.ipLocale = ipLoc;
+      if (state.followIp) state.locale = ipLoc;
+      else state.locale = localStorage.getItem(LS_LANG) || ipLoc;
+    } catch {
+      state.locale = localStorage.getItem(LS_LANG) || DATA.defaultLocale;
+      state.ipLocale = state.locale;
+    }
+    state.ready = true;
+    applyDir();
+    render();
+  })();
 })();
 </script>
 </body>

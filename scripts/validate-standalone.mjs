@@ -11,16 +11,10 @@ if (!m) {
   process.exit(1);
 }
 const d = JSON.parse(m[1]);
-console.log("locales", d.locales.join(","));
+console.log("locales", d.locales.length, d.locales.join(","));
+console.log("contentLocales", Object.keys(d.content).length);
 console.log("imgs", Object.keys(d.images).length);
-console.log(
-  "en news",
-  d.content.en.news.length,
-  "zh cats",
-  d.content.zh.categories.length,
-  "ms quiz",
-  d.content.ms.quiz.length,
-);
-console.log("has render", h.includes("function render("));
-console.log("has film", h.includes("paintFilmCanvases"));
+console.log("MY→", d.countryMap?.MY, "CN→", d.countryMap?.CN);
+console.log("ms news", d.content.ms?.news?.length, "zh quiz", d.content.zh?.quiz?.length);
+console.log("has resolveIp", h.includes("resolveIpLocale"));
 console.log("ok", file);

@@ -6,7 +6,7 @@ Multilingual Web3 knowledge hub (education, not trading).
 
 Open: **https://anniewandi26-dev.github.io/web3atlas/**
 
-Includes Safari gate, intro, ecosystem / news / chronicle / security / glossary / quiz, embedded photos, EN / ZH / MS.
+Includes Safari gate, intro, ecosystem / news / chronicle / security / glossary / quiz, embedded photos, **36 languages with IP→locale auto-detect** (manual override available).
 
 ## Local Next.js
 
