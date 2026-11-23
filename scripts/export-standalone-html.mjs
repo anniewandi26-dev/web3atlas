@@ -463,10 +463,11 @@ img{max-width:100%;display:block}
   }
 
   const state = {
-    locale: DATA.defaultLocale,
+    locale: (localStorage.getItem(LS_MANUAL) === "1" && localStorage.getItem(LS_LANG))
+      || localeFromNavigator()
+      || DATA.defaultLocale,
     ipLocale: null,
     followIp: localStorage.getItem(LS_MANUAL) !== "1",
-    ready: false,
     view: "explore",
     safariGate: !isAppleSafari(),
     safariCopied: false,
@@ -1011,10 +1012,6 @@ img{max-width:100%;display:block}
   }
 
   function render(){
-    if (!state.ready) {
-      root.innerHTML = \`<div class="overlay"><div class="overlay-inner" style="justify-content:center;align-items:center;text-align:center"><p class="kicker">Web3Atlas</p><p class="muted">Detecting language from IP…</p></div></div>\`;
-      return;
-    }
     if (state.safariGate) {
       root.innerHTML = renderSafariGate();
       bind();
@@ -1146,20 +1143,28 @@ img{max-width:100%;display:block}
     });
   }, 4500);
 
-  (async function boot(){
-    render();
+  applyDir();
+  render();
+
+  (async function bootIp(){
     try {
       const ipLoc = await resolveIpLocale();
       state.ipLocale = ipLoc;
-      if (state.followIp) state.locale = ipLoc;
-      else state.locale = localStorage.getItem(LS_LANG) || ipLoc;
+      if (state.followIp && ipLoc && ipLoc !== state.locale) {
+        state.locale = ipLoc;
+        applyDir();
+        render();
+      } else {
+        // refresh IP chip only
+        const chip = root.querySelector("[data-act='follow-ip']");
+        if (chip) {
+          const ipLabel = (DATA.localeNames && DATA.localeNames[state.ipLocale]) || state.ipLocale || "—";
+          chip.textContent = "IP: " + ipLabel;
+        }
+      }
     } catch {
-      state.locale = localStorage.getItem(LS_LANG) || DATA.defaultLocale;
       state.ipLocale = state.locale;
     }
-    state.ready = true;
-    applyDir();
-    render();
   })();
 })();
 </script>
